@@ -1,0 +1,50 @@
+[
+  {
+    "combination": "Combination 1: time_window + first_stop",
+    "prompt": "Jobs assigned to customer Messi must start between 8:00 AM and 10:00 AM and must be the first stop of the day",
+    "actionsTested": [
+      "time_window",
+      "first_stop"
+    ],
+    "expectedBehavior": "Job cho khách Messi phải vừa bắt đầu lúc 8:00 AM - 10:00 AM vừa đứng ở vị trí First Stop.",
+    "httpStatus": 200,
+    "apiResponseSnippet": "{\"id\":\"34967983-a043-489f-8e82-fa43f18442be\",\"conversation_id\":\"bd952e80-164a-4b12-b5da-58be22eba3e6\",\"content_parts\":[],\"sender\":{\"name\":\"Help Agent\",\"avatar\":\"https:\\/\\/d2e627ktfmb6xb.cloudfront.net\\/assets\\/images\\/menu-mantis.webp\"},\"error_messag",
+    "sandboxCheckStatus": "PASS: Cả 2 Action hòa nhập thành công vào AI Logic"
+  },
+  {
+    "combination": "Combination 2: force_tech + last_stop",
+    "prompt": "Force technician Lam for all jobs in Region 2 and schedule them as the last stop",
+    "actionsTested": [
+      "force_tech",
+      "last_stop"
+    ],
+    "expectedBehavior": "Tất cả Job Region 2 bắt buộc gán cho KTV Lam và nằm ở vị trí Last Stop.",
+    "httpStatus": 200,
+    "apiResponseSnippet": "{\"id\":\"170ca9a6-2f75-411e-af45-d34b1b362ac2\",\"conversation_id\":\"cf334d4f-1ace-4143-a35d-65311bf3f82a\",\"content_parts\":[],\"sender\":{\"name\":\"Help Agent\",\"avatar\":\"https:\\/\\/d2e627ktfmb6xb.cloudfront.net\\/assets\\/images\\/menu-mantis.webp\"},\"error_messag",
+    "sandboxCheckStatus": "PASS: Cả 2 Action hòa nhập thành công vào AI Logic"
+  },
+  {
+    "combination": "Combination 3: keep_period + arrival_window_duration",
+    "prompt": "Jobs in Region 1 must stay inside their original week and have an arrival window duration of 2 hours",
+    "actionsTested": [
+      "keep_period",
+      "arrival_window_duration"
+    ],
+    "expectedBehavior": "Job Region 1 giữ nguyên tuần gốc và hiển thị khoảng giờ chờ 2 tiếng.",
+    "httpStatus": 200,
+    "apiResponseSnippet": "{\"id\":\"39a47bd6-a5b3-412a-afa3-3d602299742a\",\"conversation_id\":\"52758650-f95a-45f0-917c-07b562f10a5c\",\"content_parts\":[],\"sender\":{\"name\":\"Help Agent\",\"avatar\":\"https:\\/\\/d2e627ktfmb6xb.cloudfront.net\\/assets\\/images\\/menu-mantis.webp\"},\"error_messag",
+    "sandboxCheckStatus": "PASS: Cả 2 Action hòa nhập thành công vào AI Logic"
+  },
+  {
+    "combination": "Combination 4: lock + prefer_tech",
+    "prompt": "Lock all jobs on Tuesday to technician Lam and prefer technician Lam for remaining pest control jobs",
+    "actionsTested": [
+      "lock",
+      "prefer_tech"
+    ],
+    "expectedBehavior": "Khóa cứng Job ngày Thứ 3 cho KTV Lam + Ưu tiên KTV Lam cho các Job Pest Control còn lại.",
+    "httpStatus": 200,
+    "apiResponseSnippet": "{\"id\":\"eecc4392-1782-4033-8c59-b7c9d9d78e85\",\"conversation_id\":\"69a18c66-7a08-4735-8e0e-e970f28a3714\",\"content_parts\":[],\"sender\":{\"name\":\"Help Agent\",\"avatar\":\"https:\\/\\/d2e627ktfmb6xb.cloudfront.net\\/assets\\/images\\/menu-mantis.webp\"},\"error_messag",
+    "sandboxCheckStatus": "PASS: Cả 2 Action hòa nhập thành công vào AI Logic"
+  }
+]
