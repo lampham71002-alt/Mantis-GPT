@@ -1,0 +1,1191 @@
+{
+  "status": "EXECUTED_VERIFIED",
+  "scope": "all_44_ten_per_day",
+  "schedule_id": 31,
+  "start_date": "2026-10-10",
+  "notes": [
+    "Event-ID URL inferred from supplied move request/response; verify on first moved event.",
+    "Creation timestamps are not current live baseline; read back before execution.",
+    "Only these newly created jobs are counted; pre-existing calendar jobs are not included.",
+    "15-minute gaps are draft spacing, not verified driving feasibility.",
+    "Account clock preserved as in HAR; no timezone conversion."
+  ],
+  "days": [
+    {
+      "date": "2026-10-10",
+      "jobs": 10,
+      "service_minutes": 495,
+      "finish": "18:30"
+    },
+    {
+      "date": "2026-10-11",
+      "jobs": 10,
+      "service_minutes": 465,
+      "finish": "18:00"
+    },
+    {
+      "date": "2026-10-12",
+      "jobs": 10,
+      "service_minutes": 450,
+      "finish": "17:45"
+    },
+    {
+      "date": "2026-10-13",
+      "jobs": 10,
+      "service_minutes": 450,
+      "finish": "17:45"
+    },
+    {
+      "date": "2026-10-14",
+      "jobs": 4,
+      "service_minutes": 300,
+      "finish": "13:45"
+    }
+  ],
+  "moves": [
+    {
+      "job_id": "8499",
+      "event_id": "8495",
+      "customer_id": "15520",
+      "service": "Every 21 Days",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-29T11:15:00+00:00",
+        "end": "2026-10-29T11:45:00+00:00"
+      },
+      "target_start": "2026-10-10T08:00:00+00:00",
+      "target_end": "2026-10-10T08:30:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8495/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T08:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8505",
+      "event_id": "8501",
+      "customer_id": "15523",
+      "service": "Flea & Tick Control",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-18T14:30:00+00:00",
+        "end": "2026-10-18T15:00:00+00:00"
+      },
+      "target_start": "2026-10-10T08:45:00+00:00",
+      "target_end": "2026-10-10T09:15:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8501/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T08:45:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8513",
+      "event_id": "8509",
+      "customer_id": "15526",
+      "service": "Every 21 Days",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-27T11:45:00+00:00",
+        "end": "2026-10-27T12:15:00+00:00"
+      },
+      "target_start": "2026-10-10T09:30:00+00:00",
+      "target_end": "2026-10-10T10:00:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8509/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T09:30:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8520",
+      "event_id": "8516",
+      "customer_id": "15529",
+      "service": "Monthly Service",
+      "duration_minutes": 15,
+      "source_at_creation": {
+        "start": "2026-10-25T12:30:00+00:00",
+        "end": "2026-10-25T12:45:00+00:00"
+      },
+      "target_start": "2026-10-10T10:15:00+00:00",
+      "target_end": "2026-10-10T10:30:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8516/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T10:15:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8526",
+      "event_id": "8522",
+      "customer_id": "15531",
+      "service": "Follow Up Inspections",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-24T08:00:00+00:00",
+        "end": "2026-10-24T08:30:00+00:00"
+      },
+      "target_start": "2026-10-10T10:45:00+00:00",
+      "target_end": "2026-10-10T11:15:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8522/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T10:45:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8532",
+      "event_id": "8528",
+      "customer_id": "15534",
+      "service": "Wasp Nest Removal",
+      "duration_minutes": 60,
+      "source_at_creation": {
+        "start": "2026-10-10T16:15:00+00:00",
+        "end": "2026-10-10T17:15:00+00:00"
+      },
+      "target_start": "2026-10-10T11:30:00+00:00",
+      "target_end": "2026-10-10T12:30:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8528/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T11:30:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8534",
+      "event_id": "8530",
+      "customer_id": "15535",
+      "service": "Call Back Service",
+      "duration_minutes": 15,
+      "source_at_creation": {
+        "start": "2026-10-29T13:15:00+00:00",
+        "end": "2026-10-29T13:30:00+00:00"
+      },
+      "target_start": "2026-10-10T12:45:00+00:00",
+      "target_end": "2026-10-10T13:00:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8530/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T12:45:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8535",
+      "event_id": "8531",
+      "customer_id": "15536",
+      "service": "Flea & Tick Control",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-24T16:15:00+00:00",
+        "end": "2026-10-24T16:45:00+00:00"
+      },
+      "target_start": "2026-10-10T13:15:00+00:00",
+      "target_end": "2026-10-10T13:45:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8531/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T13:15:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8539",
+      "event_id": "8535",
+      "customer_id": "15537",
+      "service": "Bed Bug Heat Treatment",
+      "duration_minutes": 240,
+      "source_at_creation": {
+        "start": "2026-10-12T11:45:00+00:00",
+        "end": "2026-10-12T15:45:00+00:00"
+      },
+      "target_start": "2026-10-10T14:00:00+00:00",
+      "target_end": "2026-10-10T18:00:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8535/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T14:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8542",
+      "event_id": "8538",
+      "customer_id": "15539",
+      "service": "Call Back Service",
+      "duration_minutes": 15,
+      "source_at_creation": {
+        "start": "2026-10-31T17:00:00+00:00",
+        "end": "2026-10-31T17:15:00+00:00"
+      },
+      "target_start": "2026-10-10T18:15:00+00:00",
+      "target_end": "2026-10-10T18:30:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8538/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T18:15:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8500",
+      "event_id": "8496",
+      "customer_id": "15520",
+      "service": "Eco-Friendly Pest Solutions",
+      "duration_minutes": 60,
+      "source_at_creation": {
+        "start": "2026-10-23T14:45:00+00:00",
+        "end": "2026-10-23T15:45:00+00:00"
+      },
+      "target_start": "2026-10-11T08:00:00+00:00",
+      "target_end": "2026-10-11T09:00:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8496/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-11T08:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8501",
+      "event_id": "8497",
+      "customer_id": "15520",
+      "service": "Quarterly Service",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-21T14:00:00+00:00",
+        "end": "2026-10-21T14:30:00+00:00"
+      },
+      "target_start": "2026-10-11T09:15:00+00:00",
+      "target_end": "2026-10-11T09:45:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8497/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-11T09:15:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8507",
+      "event_id": "8503",
+      "customer_id": "15523",
+      "service": "Every 21 Days",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-20T15:30:00+00:00",
+        "end": "2026-10-20T16:00:00+00:00"
+      },
+      "target_start": "2026-10-11T10:00:00+00:00",
+      "target_end": "2026-10-11T10:30:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8503/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-11T10:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8511",
+      "event_id": "8507",
+      "customer_id": "15525",
+      "service": "Wildlife Trapping & Relocation",
+      "duration_minutes": 120,
+      "source_at_creation": {
+        "start": "2026-10-30T13:15:00+00:00",
+        "end": "2026-10-30T15:15:00+00:00"
+      },
+      "target_start": "2026-10-11T10:45:00+00:00",
+      "target_end": "2026-10-11T12:45:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8507/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-11T10:45:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8517",
+      "event_id": "8513",
+      "customer_id": "15528",
+      "service": "Preventative Monitoring & Maintenance",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-12T17:15:00+00:00",
+        "end": "2026-10-12T17:45:00+00:00"
+      },
+      "target_start": "2026-10-11T13:00:00+00:00",
+      "target_end": "2026-10-11T13:30:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8513/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-11T13:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8519",
+      "event_id": "8515",
+      "customer_id": "15528",
+      "service": "Rodent Control & Exclusion",
+      "duration_minutes": 60,
+      "source_at_creation": {
+        "start": "2026-10-28T13:30:00+00:00",
+        "end": "2026-10-28T14:30:00+00:00"
+      },
+      "target_start": "2026-10-11T13:45:00+00:00",
+      "target_end": "2026-10-11T14:45:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8515/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-11T13:45:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8527",
+      "event_id": "8523",
+      "customer_id": "15532",
+      "service": "Call Back Service",
+      "duration_minutes": 15,
+      "source_at_creation": {
+        "start": "2026-10-13T13:45:00+00:00",
+        "end": "2026-10-13T14:00:00+00:00"
+      },
+      "target_start": "2026-10-11T15:00:00+00:00",
+      "target_end": "2026-10-11T15:15:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8523/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-11T15:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8528",
+      "event_id": "8524",
+      "customer_id": "15532",
+      "service": "Every 21 Days",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-27T10:30:00+00:00",
+        "end": "2026-10-27T11:00:00+00:00"
+      },
+      "target_start": "2026-10-11T15:30:00+00:00",
+      "target_end": "2026-10-11T16:00:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8524/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-11T15:30:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8536",
+      "event_id": "8532",
+      "customer_id": "15536",
+      "service": "Quarterly Pest Control",
+      "duration_minutes": 60,
+      "source_at_creation": {
+        "start": "2026-10-14T14:00:00+00:00",
+        "end": "2026-10-14T15:00:00+00:00"
+      },
+      "target_start": "2026-10-11T16:15:00+00:00",
+      "target_end": "2026-10-11T17:15:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8532/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-11T16:15:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8537",
+      "event_id": "8533",
+      "customer_id": "15536",
+      "service": "Every 21 Days",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-21T12:30:00+00:00",
+        "end": "2026-10-21T13:00:00+00:00"
+      },
+      "target_start": "2026-10-11T17:30:00+00:00",
+      "target_end": "2026-10-11T18:00:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8533/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-11T17:30:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8502",
+      "event_id": "8498",
+      "customer_id": "15521",
+      "service": "Flea & Tick Control",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-11T15:15:00+00:00",
+        "end": "2026-10-11T15:45:00+00:00"
+      },
+      "target_start": "2026-10-12T08:00:00+00:00",
+      "target_end": "2026-10-12T08:30:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8498/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-12T08:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8503",
+      "event_id": "8499",
+      "customer_id": "15521",
+      "service": "Call Back Service",
+      "duration_minutes": 15,
+      "source_at_creation": {
+        "start": "2026-10-13T12:00:00+00:00",
+        "end": "2026-10-13T12:15:00+00:00"
+      },
+      "target_start": "2026-10-12T08:45:00+00:00",
+      "target_end": "2026-10-12T09:00:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8499/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-12T08:45:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8506",
+      "event_id": "8502",
+      "customer_id": "15523",
+      "service": "Initial Service",
+      "duration_minutes": 60,
+      "source_at_creation": {
+        "start": "2026-10-17T08:00:00+00:00",
+        "end": "2026-10-17T09:00:00+00:00"
+      },
+      "target_start": "2026-10-12T09:15:00+00:00",
+      "target_end": "2026-10-12T10:15:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8502/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-12T09:15:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8509",
+      "event_id": "8505",
+      "customer_id": "15524",
+      "service": "Call Back Service",
+      "duration_minutes": 15,
+      "source_at_creation": {
+        "start": "2026-10-25T11:30:00+00:00",
+        "end": "2026-10-25T11:45:00+00:00"
+      },
+      "target_start": "2026-10-12T10:30:00+00:00",
+      "target_end": "2026-10-12T10:45:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8505/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-12T10:30:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8510",
+      "event_id": "8506",
+      "customer_id": "15525",
+      "service": "Flea & Tick Control",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-09T10:15:00+00:00",
+        "end": "2026-10-09T10:45:00+00:00"
+      },
+      "target_start": "2026-10-12T11:00:00+00:00",
+      "target_end": "2026-10-12T11:30:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8506/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-12T11:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8516",
+      "event_id": "8512",
+      "customer_id": "15527",
+      "service": "Wildlife Trapping & Relocation",
+      "duration_minutes": 120,
+      "source_at_creation": {
+        "start": "2026-10-26T13:30:00+00:00",
+        "end": "2026-10-26T15:30:00+00:00"
+      },
+      "target_start": "2026-10-12T11:45:00+00:00",
+      "target_end": "2026-10-12T13:45:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8512/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-12T11:45:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8521",
+      "event_id": "8517",
+      "customer_id": "15529",
+      "service": "Eco-Friendly Pest Solutions",
+      "duration_minutes": 60,
+      "source_at_creation": {
+        "start": "2026-10-28T15:45:00+00:00",
+        "end": "2026-10-28T16:45:00+00:00"
+      },
+      "target_start": "2026-10-12T14:00:00+00:00",
+      "target_end": "2026-10-12T15:00:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8517/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-12T14:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8522",
+      "event_id": "8518",
+      "customer_id": "15529",
+      "service": "Follow Up Inspections",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-10T11:00:00+00:00",
+        "end": "2026-10-10T11:30:00+00:00"
+      },
+      "target_start": "2026-10-12T15:15:00+00:00",
+      "target_end": "2026-10-12T15:45:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8518/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-12T15:15:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8529",
+      "event_id": "8525",
+      "customer_id": "15532",
+      "service": "Preventative Monitoring & Maintenance",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-19T12:30:00+00:00",
+        "end": "2026-10-19T13:00:00+00:00"
+      },
+      "target_start": "2026-10-12T16:00:00+00:00",
+      "target_end": "2026-10-12T16:30:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8525/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-12T16:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8538",
+      "event_id": "8534",
+      "customer_id": "15537",
+      "service": "Termite Baiting & Monitoring",
+      "duration_minutes": 60,
+      "source_at_creation": {
+        "start": "2026-10-20T12:30:00+00:00",
+        "end": "2026-10-20T13:30:00+00:00"
+      },
+      "target_start": "2026-10-12T16:45:00+00:00",
+      "target_end": "2026-10-12T17:45:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8534/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-12T16:45:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8504",
+      "event_id": "8500",
+      "customer_id": "15522",
+      "service": "Flea & Tick Control",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-09T09:00:00+00:00",
+        "end": "2026-10-09T09:30:00+00:00"
+      },
+      "target_start": "2026-10-13T08:00:00+00:00",
+      "target_end": "2026-10-13T08:30:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8500/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-13T08:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8508",
+      "event_id": "8504",
+      "customer_id": "15524",
+      "service": "Call Back Service",
+      "duration_minutes": 15,
+      "source_at_creation": {
+        "start": "2026-10-13T10:15:00+00:00",
+        "end": "2026-10-13T10:30:00+00:00"
+      },
+      "target_start": "2026-10-13T08:45:00+00:00",
+      "target_end": "2026-10-13T09:00:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8504/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-13T08:45:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8512",
+      "event_id": "8508",
+      "customer_id": "15525",
+      "service": "Preventative Monitoring & Maintenance",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-12T16:15:00+00:00",
+        "end": "2026-10-12T16:45:00+00:00"
+      },
+      "target_start": "2026-10-13T09:15:00+00:00",
+      "target_end": "2026-10-13T09:45:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8508/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-13T09:15:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8514",
+      "event_id": "8510",
+      "customer_id": "15527",
+      "service": "Call Back Service",
+      "duration_minutes": 15,
+      "source_at_creation": {
+        "start": "2026-10-26T09:00:00+00:00",
+        "end": "2026-10-26T09:15:00+00:00"
+      },
+      "target_start": "2026-10-13T10:00:00+00:00",
+      "target_end": "2026-10-13T10:15:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8510/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-13T10:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8515",
+      "event_id": "8511",
+      "customer_id": "15527",
+      "service": "Termite Baiting & Monitoring",
+      "duration_minutes": 60,
+      "source_at_creation": {
+        "start": "2026-10-31T10:00:00+00:00",
+        "end": "2026-10-31T11:00:00+00:00"
+      },
+      "target_start": "2026-10-13T10:30:00+00:00",
+      "target_end": "2026-10-13T11:30:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8511/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-13T10:30:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8523",
+      "event_id": "8519",
+      "customer_id": "15530",
+      "service": "Flea & Tick Control",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-29T15:30:00+00:00",
+        "end": "2026-10-29T16:00:00+00:00"
+      },
+      "target_start": "2026-10-13T11:45:00+00:00",
+      "target_end": "2026-10-13T12:15:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8519/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-13T11:45:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8524",
+      "event_id": "8520",
+      "customer_id": "15530",
+      "service": "Termite Baiting & Monitoring",
+      "duration_minutes": 60,
+      "source_at_creation": {
+        "start": "2026-10-24T08:45:00+00:00",
+        "end": "2026-10-24T09:45:00+00:00"
+      },
+      "target_start": "2026-10-13T12:30:00+00:00",
+      "target_end": "2026-10-13T13:30:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8520/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-13T12:30:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8530",
+      "event_id": "8526",
+      "customer_id": "15533",
+      "service": "Wildlife Trapping & Relocation",
+      "duration_minutes": 120,
+      "source_at_creation": {
+        "start": "2026-10-27T14:15:00+00:00",
+        "end": "2026-10-27T16:15:00+00:00"
+      },
+      "target_start": "2026-10-13T13:45:00+00:00",
+      "target_end": "2026-10-13T15:45:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8526/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-13T13:45:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8531",
+      "event_id": "8527",
+      "customer_id": "15534",
+      "service": "Flea & Tick Control",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-13T13:00:00+00:00",
+        "end": "2026-10-13T13:30:00+00:00"
+      },
+      "target_start": "2026-10-13T16:00:00+00:00",
+      "target_end": "2026-10-13T16:30:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8527/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-13T16:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8540",
+      "event_id": "8536",
+      "customer_id": "15537",
+      "service": "Rodent Control & Exclusion",
+      "duration_minutes": 60,
+      "source_at_creation": {
+        "start": "2026-10-17T15:00:00+00:00",
+        "end": "2026-10-17T16:00:00+00:00"
+      },
+      "target_start": "2026-10-13T16:45:00+00:00",
+      "target_end": "2026-10-13T17:45:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8536/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-13T16:45:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8518",
+      "event_id": "8514",
+      "customer_id": "15528",
+      "service": "Rodent Control & Exclusion",
+      "duration_minutes": 60,
+      "source_at_creation": {
+        "start": "2026-10-25T14:00:00+00:00",
+        "end": "2026-10-25T15:00:00+00:00"
+      },
+      "target_start": "2026-10-14T08:00:00+00:00",
+      "target_end": "2026-10-14T09:00:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8514/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-14T08:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8525",
+      "event_id": "8521",
+      "customer_id": "15530",
+      "service": "Wasp Nest Removal",
+      "duration_minutes": 60,
+      "source_at_creation": {
+        "start": "2026-10-10T12:15:00+00:00",
+        "end": "2026-10-10T13:15:00+00:00"
+      },
+      "target_start": "2026-10-14T09:15:00+00:00",
+      "target_end": "2026-10-14T10:15:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8521/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-14T09:15:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8533",
+      "event_id": "8529",
+      "customer_id": "15535",
+      "service": "Wildlife Trapping & Relocation",
+      "duration_minutes": 120,
+      "source_at_creation": {
+        "start": "2026-10-23T08:30:00+00:00",
+        "end": "2026-10-23T10:30:00+00:00"
+      },
+      "target_start": "2026-10-14T10:30:00+00:00",
+      "target_end": "2026-10-14T12:30:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8529/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-14T10:30:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8541",
+      "event_id": "8537",
+      "customer_id": "15538",
+      "service": "Rodent Control & Exclusion",
+      "duration_minutes": 60,
+      "source_at_creation": {
+        "start": "2026-10-10T13:45:00+00:00",
+        "end": "2026-10-10T14:45:00+00:00"
+      },
+      "target_start": "2026-10-14T12:45:00+00:00",
+      "target_end": "2026-10-14T13:45:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8537/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-14T12:45:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-11T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    }
+  ]
+}

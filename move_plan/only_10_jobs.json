@@ -1,0 +1,283 @@
+{
+  "status": "DRAFT_NOT_EXECUTED",
+  "scope": "only_10_jobs",
+  "schedule_id": 31,
+  "start_date": "2026-10-10",
+  "notes": [
+    "Event-ID URL inferred from supplied move request/response; verify on first moved event.",
+    "Creation timestamps are not current live baseline; read back before execution.",
+    "Only these newly created jobs are counted; pre-existing calendar jobs are not included.",
+    "15-minute gaps are draft spacing, not verified driving feasibility.",
+    "Account clock preserved as in HAR; no timezone conversion."
+  ],
+  "days": [
+    {
+      "date": "2026-10-10",
+      "jobs": 10,
+      "service_minutes": 180,
+      "finish": "13:15"
+    }
+  ],
+  "moves": [
+    {
+      "job_id": "8499",
+      "event_id": "8495",
+      "customer_id": "15520",
+      "service": "Every 21 Days",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-29T11:15:00+00:00",
+        "end": "2026-10-29T11:45:00+00:00"
+      },
+      "target_start": "2026-10-10T08:00:00+00:00",
+      "target_end": "2026-10-10T08:30:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8495/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T08:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8501",
+      "event_id": "8497",
+      "customer_id": "15520",
+      "service": "Quarterly Service",
+      "duration_minutes": 30,
+      "source_at_creation": {
+        "start": "2026-10-21T14:00:00+00:00",
+        "end": "2026-10-21T14:30:00+00:00"
+      },
+      "target_start": "2026-10-10T08:45:00+00:00",
+      "target_end": "2026-10-10T09:15:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8497/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T08:45:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8503",
+      "event_id": "8499",
+      "customer_id": "15521",
+      "service": "Call Back Service",
+      "duration_minutes": 15,
+      "source_at_creation": {
+        "start": "2026-10-13T12:00:00+00:00",
+        "end": "2026-10-13T12:15:00+00:00"
+      },
+      "target_start": "2026-10-10T09:30:00+00:00",
+      "target_end": "2026-10-10T09:45:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8499/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T09:30:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8508",
+      "event_id": "8504",
+      "customer_id": "15524",
+      "service": "Call Back Service",
+      "duration_minutes": 15,
+      "source_at_creation": {
+        "start": "2026-10-13T10:15:00+00:00",
+        "end": "2026-10-13T10:30:00+00:00"
+      },
+      "target_start": "2026-10-10T10:00:00+00:00",
+      "target_end": "2026-10-10T10:15:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8504/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T10:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8509",
+      "event_id": "8505",
+      "customer_id": "15524",
+      "service": "Call Back Service",
+      "duration_minutes": 15,
+      "source_at_creation": {
+        "start": "2026-10-25T11:30:00+00:00",
+        "end": "2026-10-25T11:45:00+00:00"
+      },
+      "target_start": "2026-10-10T10:30:00+00:00",
+      "target_end": "2026-10-10T10:45:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8505/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T10:30:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8514",
+      "event_id": "8510",
+      "customer_id": "15527",
+      "service": "Call Back Service",
+      "duration_minutes": 15,
+      "source_at_creation": {
+        "start": "2026-10-26T09:00:00+00:00",
+        "end": "2026-10-26T09:15:00+00:00"
+      },
+      "target_start": "2026-10-10T11:00:00+00:00",
+      "target_end": "2026-10-10T11:15:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8510/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T11:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8520",
+      "event_id": "8516",
+      "customer_id": "15529",
+      "service": "Monthly Service",
+      "duration_minutes": 15,
+      "source_at_creation": {
+        "start": "2026-10-25T12:30:00+00:00",
+        "end": "2026-10-25T12:45:00+00:00"
+      },
+      "target_start": "2026-10-10T11:30:00+00:00",
+      "target_end": "2026-10-10T11:45:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8516/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T11:30:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8527",
+      "event_id": "8523",
+      "customer_id": "15532",
+      "service": "Call Back Service",
+      "duration_minutes": 15,
+      "source_at_creation": {
+        "start": "2026-10-13T13:45:00+00:00",
+        "end": "2026-10-13T14:00:00+00:00"
+      },
+      "target_start": "2026-10-10T12:00:00+00:00",
+      "target_end": "2026-10-10T12:15:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8523/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T12:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8534",
+      "event_id": "8530",
+      "customer_id": "15535",
+      "service": "Call Back Service",
+      "duration_minutes": 15,
+      "source_at_creation": {
+        "start": "2026-10-29T13:15:00+00:00",
+        "end": "2026-10-29T13:30:00+00:00"
+      },
+      "target_start": "2026-10-10T12:30:00+00:00",
+      "target_end": "2026-10-10T12:45:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8530/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T12:30:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    },
+    {
+      "job_id": "8542",
+      "event_id": "8538",
+      "customer_id": "15539",
+      "service": "Call Back Service",
+      "duration_minutes": 15,
+      "source_at_creation": {
+        "start": "2026-10-31T17:00:00+00:00",
+        "end": "2026-10-31T17:15:00+00:00"
+      },
+      "target_start": "2026-10-10T13:00:00+00:00",
+      "target_end": "2026-10-10T13:15:00+00:00",
+      "method": "PUT",
+      "path": "/api/jobs/8538/move",
+      "payload": {
+        "typeEvent": "job",
+        "start": "2026-10-10T13:00:00.000Z",
+        "color_id": 1,
+        "schedule": "31",
+        "agenda": "agendaTwoWeeks",
+        "agenda_start": "2026-10-04T00:00:00Z",
+        "all": 0,
+        "notify_tech": 0,
+        "socket_id": ""
+      }
+    }
+  ]
+}

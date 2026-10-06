@@ -1,0 +1,483 @@
+[
+  {
+    "source_file": "Specificrule.har",
+    "started_utc": "2026-10-03T08:15:16.127Z",
+    "method": "GET",
+    "path": "/api/routing/mantis/specific-rules",
+    "query": {
+      "limit": [
+        "20"
+      ]
+    },
+    "http_status": 200,
+    "request_body": null,
+    "response_body": {
+      "data": [
+        {
+          "id": "1039",
+          "description": "All jobs located in Region 2 must be scheduled within a strict mandatory time window between 8:00 AM and 10:00 AM.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-10-01T08:41:23+00:00",
+          "updated_date": "2026-10-01T08:41:23+00:00"
+        },
+        {
+          "id": "1038",
+          "description": "All jobs located in Region 2 must be scheduled as the last stop on the technician's route.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-10-01T08:39:50+00:00",
+          "updated_date": "2026-10-01T08:39:50+00:00"
+        },
+        {
+          "id": "1037",
+          "description": "Jobs assigned to Region 2 must not be scheduled or moved on Sundays during automated routing.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-10-01T08:39:02+00:00",
+          "updated_date": "2026-10-01T08:39:02+00:00"
+        },
+        {
+          "id": "1036",
+          "description": "All jobs located in Region 2 must be locked in place and excluded from routing.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-10-01T08:36:35+00:00",
+          "updated_date": "2026-10-01T08:36:35+00:00"
+        },
+        {
+          "id": "1035",
+          "description": "All jobs in Region 1 assigned to technician Custom must be scheduled as the last stop of the day.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-10-01T08:34:13+00:00",
+          "updated_date": "2026-10-01T08:34:13+00:00"
+        },
+        {
+          "id": "1028",
+          "description": "Service stops for customer messi must always be scheduled as the last stop of the assigned technician's route.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-10-01T07:34:00+00:00",
+          "updated_date": "2026-10-01T07:34:00+00:00"
+        },
+        {
+          "id": "1027",
+          "description": "Jobs for customers Messi and Nami require mandatory assignment to technician Lam 1 (custom) and must be scheduled as the last stop of the day.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-10-01T07:29:27+00:00",
+          "updated_date": "2026-10-01T07:29:27+00:00"
+        },
+        {
+          "id": "1026",
+          "description": "Jobs for customer Minh assigned to technician custom must be scheduled strictly within the 8:00 AM to 10:00 AM time window.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-10-01T07:26:07+00:00",
+          "updated_date": "2026-10-01T07:26:07+00:00"
+        },
+        {
+          "id": "1015",
+          "description": "All Call Back Service jobs must be scheduled as the last stop of the day for assigned technicians.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-10-01T02:23:43+00:00",
+          "updated_date": "2026-10-01T02:23:43+00:00"
+        },
+        {
+          "id": "1013",
+          "description": "All jobs assigned to technician Lam Test must be scheduled within a strict mandatory time window of 8:00 AM to 12:00 PM.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-09-30T12:25:07+00:00",
+          "updated_date": "2026-09-30T12:25:07+00:00"
+        },
+        {
+          "id": "995",
+          "description": "All Call Back Service jobs must be scheduled within a mandatory time window of 9:00 AM to 10:30 AM.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-09-30T03:34:31+00:00",
+          "updated_date": "2026-09-30T03:34:31+00:00"
+        },
+        {
+          "id": "981",
+          "description": "All Call Back Service jobs must remain scheduled within their original week and be placed as the last stop on the technician's route.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-09-29T10:55:08+00:00",
+          "updated_date": "2026-09-29T10:55:08+00:00"
+        },
+        {
+          "id": "980",
+          "description": "All Call Back Service jobs must remain scheduled within their original week and be prioritized as the technician's first stop of the day.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-09-29T10:54:03+00:00",
+          "updated_date": "2026-09-29T10:54:03+00:00"
+        },
+        {
+          "id": "968",
+          "description": "For all Call Back Service jobs, prefer assigning Technician Lam 1 (custom) and lock the jobs in place to prevent automated routing changes.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-09-29T09:58:00+00:00",
+          "updated_date": "2026-09-29T09:58:00+00:00"
+        },
+        {
+          "id": "967",
+          "description": "For Call Back Service jobs, prefer assigning technician Lam 1 (nickname: custom) and schedule the job as the final stop of the day.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-09-29T09:55:52+00:00",
+          "updated_date": "2026-09-29T09:55:52+00:00"
+        },
+        {
+          "id": "949",
+          "description": "All Every 21 Days service jobs must remain in their original week, be strictly assigned to Technician: Lam 1 - nickname: custom, and be scheduled as the last stop of the day.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-09-29T09:03:58+00:00",
+          "updated_date": "2026-09-29T09:03:58+00:00"
+        },
+        {
+          "id": "948",
+          "description": "All Call Back Service jobs must be assigned to technician Lam 1 (Custom), scheduled as the first stop of the day, and kept within their original week.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-09-29T08:58:22+00:00",
+          "updated_date": "2026-09-29T08:58:22+00:00"
+        },
+        {
+          "id": "947",
+          "description": "All Call Back Service jobs must be assigned to technician Custom (Lam 1), strictly scheduled between 8:00 AM and 9:00 AM, and kept within their original month.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-09-29T08:54:17+00:00",
+          "updated_date": "2026-09-29T08:54:17+00:00"
+        },
+        {
+          "id": "946",
+          "description": "Call Back Service jobs cannot be moved more than 1 day from their original service date and must be scheduled within a mandatory time window of 8:00 AM to 12:00 PM.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-09-29T08:45:23+00:00",
+          "updated_date": "2026-09-29T08:45:23+00:00"
+        },
+        {
+          "id": "945",
+          "description": "All Every 21 Days service jobs must be excluded from automated routing and cannot be moved more than 2 days from their original service date.",
+          "routing_type": "autopilot",
+          "item": {
+            "id": "",
+            "name": "Manual Optimize",
+            "type": "manual-optimize"
+          },
+          "attachments": [],
+          "status": 0,
+          "created_by": {
+            "id": "84361445",
+            "first_name": "Lam",
+            "last_name": "Test",
+            "full_name": "Lam Test",
+            "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+            "type": 0
+          },
+          "created_date": "2026-09-29T08:40:29+00:00",
+          "updated_date": "2026-09-29T08:40:29+00:00"
+        }
+      ],
+      "cursor": "eyJvZmZzZXQiOjIwfQ==",
+      "show_more": true,
+      "success": true,
+      "message": []
+    }
+  },
+  {
+    "source_file": "Specificrulestatus.har",
+    "started_utc": "2026-10-03T08:15:44.835Z",
+    "method": "PUT",
+    "path": "/api/routing/mantis/specific-rules/1039/status",
+    "query": {},
+    "http_status": 200,
+    "request_body": {
+      "status": 1
+    },
+    "response_body": {
+      "data": {
+        "id": "1039",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    }
+  }
+]

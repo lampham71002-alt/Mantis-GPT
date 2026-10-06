@@ -1,0 +1,145 @@
+{
+  "system-rules": {
+    "auto_optimization": {
+      "status": 1,
+      "value": {
+        "frequency": "daily",
+        "day_of_week": null,
+        "day_of_month": null,
+        "run_at_minutes": 0
+      }
+    },
+    "freeze_window_days": {
+      "status": 1,
+      "value": "work_day"
+    },
+    "optimization_horizon": {
+      "status": 1,
+      "value": "14_days"
+    },
+    "job_movement_restriction_days": {
+      "status": 0,
+      "value": 10
+    },
+    "preserve_original_period": {
+      "status": 0,
+      "value": "month"
+    },
+    "allow_cross_technician_routing": 1
+  },
+  "workforce-boundaries": {
+    "default_service_hours": {
+      "status": 1,
+      "value": {
+        "system_default": 0,
+        "start": 360,
+        "end": 900
+      }
+    },
+    "max_jobs_per_day": {
+      "status": 0,
+      "value": 5
+    },
+    "preferred_jobs_per_day": {
+      "status": 0,
+      "value": 15
+    },
+    "shift_travel_minutes": {
+      "status": 0,
+      "value": 15
+    },
+    "max_shift_end_time": {
+      "status": 0,
+      "value": 900
+    },
+    "workload_balance": 0,
+    "include_depot_legs_in_shift": 0,
+    "day_exclusions": {
+      "status": 0,
+      "value": []
+    }
+  },
+  "route-efficiency": {
+    "minimize_travel_time_minutes": {
+      "status": 0,
+      "value": 5
+    },
+    "minimize_travel_distance_miles": {
+      "status": 0,
+      "value": 30
+    },
+    "max_travel_distance_miles": {
+      "status": 0,
+      "value": 30
+    },
+    "max_shift_travel_time_minutes": {
+      "status": 0,
+      "value": 30
+    },
+    "do_not_reroute_statuses": {
+      "status": 0,
+      "value": []
+    },
+    "route_around_statuses": {
+      "status": 0,
+      "value": []
+    },
+    "preferred_tech_matching": {
+      "status": 0,
+      "value": "soft"
+    },
+    "routing_algorithm": {
+      "status": 1,
+      "value": 2
+    },
+    "tech_skill_matching": 0
+  },
+  "service-commitment": {
+    "max_departure_time": {
+      "status": 0,
+      "value": 540
+    },
+    "arrival_window_hours": {
+      "status": 0,
+      "value": 1
+    },
+    "region_enforcement": {
+      "status": 0,
+      "value": "strict"
+    },
+    "customer_scheduling_preferences": {
+      "status": 0,
+      "value": "strict"
+    },
+    "drive_buffer": {
+      "status": 0,
+      "value": 0
+    }
+  },
+  "sandbox_settings": {
+    "system_rules": {
+      "freeze_window_days": {
+        "status": 1,
+        "value": "work_day",
+        "color": {
+          "background": "#FDEDEC",
+          "border": "#E74C3C"
+        }
+      },
+      "optimization_horizon": {
+        "status": 1,
+        "value": "14_days",
+        "color": {
+          "background": "#EAFAF1",
+          "border": "#27AE60"
+        }
+      }
+    },
+    "default_route_config": {
+      "drive_time": -1,
+      "exclude_status": [],
+      "day_exclusions": [],
+      "jobs_per_day": -1
+    }
+  }
+}

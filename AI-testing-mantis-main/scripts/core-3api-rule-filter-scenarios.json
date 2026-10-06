@@ -1,0 +1,4582 @@
+[
+  {
+    "name": "r000-control-future-all-d000-control-future-csv",
+    "description": "CSV corrected 240 control future week",
+    "config": {},
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": "control",
+    "source_scenario": "d000-control-future-csv",
+    "filter_variant": "control-future-all"
+  },
+  {
+    "name": "r001-control-current-exclude-d000-control-future-csv",
+    "description": "CSV corrected 240 control future week",
+    "config": {},
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-16T00:00:00+00:00",
+      "end": "2026-08-22T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [
+        6,
+        0
+      ]
+    },
+    "expected_source": "control",
+    "source_scenario": "d000-control-future-csv",
+    "filter_variant": "control-current-exclude"
+  },
+  {
+    "name": "r002-control-future-no-recurring-d000-control-future-csv",
+    "description": "CSV corrected 240 control future week",
+    "config": {},
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": "control",
+    "source_scenario": "d000-control-future-csv",
+    "filter_variant": "control-future-no-recurring"
+  },
+  {
+    "name": "r003-control-future-drive-buffer-10-d000-control-future-csv",
+    "description": "CSV corrected 240 control future week",
+    "config": {},
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "drive_buffer": 10
+    },
+    "expected_source": "control",
+    "source_scenario": "d000-control-future-csv",
+    "filter_variant": "control-future-drive-buffer-10"
+  },
+  {
+    "name": "r004-jobs-per-day-tight-5-d003-workforce-boundaries-2-max-jobs-per-day-15",
+    "description": "CSV240 Workforce Boundaries #2: Max Jobs per day = 15",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "2",
+      "group": "1 field",
+      "condition": "Max Jobs per day = 15",
+      "expected": "Hard cap 15 jobs/day/tech, 16th job is not assigned",
+      "conflict": "",
+      "mapped_rules": [
+        "WB hard cap 15 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d003-workforce-boundaries-2-max-jobs-per-day-15",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r005-jobs-per-day-rule-15-d003-workforce-boundaries-2-max-jobs-per-day-15",
+    "description": "CSV240 Workforce Boundaries #2: Max Jobs per day = 15",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "2",
+      "group": "1 field",
+      "condition": "Max Jobs per day = 15",
+      "expected": "Hard cap 15 jobs/day/tech, 16th job is not assigned",
+      "conflict": "",
+      "mapped_rules": [
+        "WB hard cap 15 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d003-workforce-boundaries-2-max-jobs-per-day-15",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r006-default-future-d003-workforce-boundaries-2-max-jobs-per-day-15",
+    "description": "CSV240 Workforce Boundaries #2: Max Jobs per day = 15",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "2",
+      "group": "1 field",
+      "condition": "Max Jobs per day = 15",
+      "expected": "Hard cap 15 jobs/day/tech, 16th job is not assigned",
+      "conflict": "",
+      "mapped_rules": [
+        "WB hard cap 15 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d003-workforce-boundaries-2-max-jobs-per-day-15",
+    "filter_variant": "default-future"
+  },
+  {
+    "name": "r007-jobs-per-day-tight-5-d004-workforce-boundaries-3-preferred-jobs-per-da",
+    "description": "CSV240 Workforce Boundaries #3: Preferred Jobs per day = 10",
+    "config": {
+      "workforce-boundaries": {
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "3",
+      "group": "1 field",
+      "condition": "Preferred Jobs per day = 10",
+      "expected": "Soft target 10 jobs/day, stop when free, increase when busy",
+      "conflict": "",
+      "mapped_rules": [
+        "WB soft target 10 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d004-workforce-boundaries-3-preferred-jobs-per-day-10",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r008-jobs-per-day-rule-15-d004-workforce-boundaries-3-preferred-jobs-per-da",
+    "description": "CSV240 Workforce Boundaries #3: Preferred Jobs per day = 10",
+    "config": {
+      "workforce-boundaries": {
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "3",
+      "group": "1 field",
+      "condition": "Preferred Jobs per day = 10",
+      "expected": "Soft target 10 jobs/day, stop when free, increase when busy",
+      "conflict": "",
+      "mapped_rules": [
+        "WB soft target 10 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d004-workforce-boundaries-3-preferred-jobs-per-day-10",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r009-default-future-d004-workforce-boundaries-3-preferred-jobs-per-day-10",
+    "description": "CSV240 Workforce Boundaries #3: Preferred Jobs per day = 10",
+    "config": {
+      "workforce-boundaries": {
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "3",
+      "group": "1 field",
+      "condition": "Preferred Jobs per day = 10",
+      "expected": "Soft target 10 jobs/day, stop when free, increase when busy",
+      "conflict": "",
+      "mapped_rules": [
+        "WB soft target 10 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d004-workforce-boundaries-3-preferred-jobs-per-day-10",
+    "filter_variant": "default-future"
+  },
+  {
+    "name": "r010-jobs-per-day-tight-5-d007-workforce-boundaries-6-workload-fairness-on",
+    "description": "CSV240 Workforce Boundaries #6: Workload Fairness = ON",
+    "config": {
+      "workforce-boundaries": {
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "6",
+      "group": "1 field",
+      "condition": "Workload Fairness = ON",
+      "expected": "Jobs is evenly distributed between hourly and travel time techs",
+      "conflict": "",
+      "mapped_rules": [
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d007-workforce-boundaries-6-workload-fairness-on",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r011-jobs-per-day-rule-15-d007-workforce-boundaries-6-workload-fairness-on",
+    "description": "CSV240 Workforce Boundaries #6: Workload Fairness = ON",
+    "config": {
+      "workforce-boundaries": {
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "6",
+      "group": "1 field",
+      "condition": "Workload Fairness = ON",
+      "expected": "Jobs is evenly distributed between hourly and travel time techs",
+      "conflict": "",
+      "mapped_rules": [
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d007-workforce-boundaries-6-workload-fairness-on",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r012-drive-buffer-10-d007-workforce-boundaries-6-workload-fairness-on",
+    "description": "CSV240 Workforce Boundaries #6: Workload Fairness = ON",
+    "config": {
+      "workforce-boundaries": {
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "drive_buffer": 10
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "6",
+      "group": "1 field",
+      "condition": "Workload Fairness = ON",
+      "expected": "Jobs is evenly distributed between hourly and travel time techs",
+      "conflict": "",
+      "mapped_rules": [
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d007-workforce-boundaries-6-workload-fairness-on",
+    "filter_variant": "drive-buffer-10"
+  },
+  {
+    "name": "r013-future-full-week-d002-workforce-boundaries-1-default-service-hours-8-3",
+    "description": "CSV240 Workforce Boundaries #1: Default Service Hours = 8:30AM - 6:00PM",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "1",
+      "group": "1 field",
+      "condition": "Default Service Hours = 8:30AM - 6:00PM",
+      "expected": "Jobs only ranks between 8:30AM-6:00PM, outside of which hours are ignored",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00"
+      ]
+    },
+    "source_scenario": "d002-workforce-boundaries-1-default-service-hours-8-30am-6-",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r014-current-week-exclusions-d002-workforce-boundaries-1-default-service-ho",
+    "description": "CSV240 Workforce Boundaries #1: Default Service Hours = 8:30AM - 6:00PM",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-16T00:00:00+00:00",
+      "end": "2026-08-22T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [
+        6,
+        0
+      ]
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "1",
+      "group": "1 field",
+      "condition": "Default Service Hours = 8:30AM - 6:00PM",
+      "expected": "Jobs only ranks between 8:30AM-6:00PM, outside of which hours are ignored",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00"
+      ]
+    },
+    "source_scenario": "d002-workforce-boundaries-1-default-service-hours-8-30am-6-",
+    "filter_variant": "current-week-exclusions"
+  },
+  {
+    "name": "r015-future-full-week-d005-workforce-boundaries-4-pre-post-shift-travel-30-",
+    "description": "CSV240 Workforce Boundaries #4: Pre/Post-Shift Travel = 30 min",
+    "config": {
+      "workforce-boundaries": {
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "4",
+      "group": "1 field",
+      "condition": "Pre/Post-Shift Travel = 30 min",
+      "expected": "First job starts \u2265 9:00AM | Last job ends \u2264 5:30PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d005-workforce-boundaries-4-pre-post-shift-travel-30-min",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r016-current-week-exclusions-d005-workforce-boundaries-4-pre-post-shift-tra",
+    "description": "CSV240 Workforce Boundaries #4: Pre/Post-Shift Travel = 30 min",
+    "config": {
+      "workforce-boundaries": {
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-16T00:00:00+00:00",
+      "end": "2026-08-22T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [
+        6,
+        0
+      ]
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "4",
+      "group": "1 field",
+      "condition": "Pre/Post-Shift Travel = 30 min",
+      "expected": "First job starts \u2265 9:00AM | Last job ends \u2264 5:30PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d005-workforce-boundaries-4-pre-post-shift-travel-30-min",
+    "filter_variant": "current-week-exclusions"
+  },
+  {
+    "name": "r017-drive-buffer-10-d005-workforce-boundaries-4-pre-post-shift-travel-30-m",
+    "description": "CSV240 Workforce Boundaries #4: Pre/Post-Shift Travel = 30 min",
+    "config": {
+      "workforce-boundaries": {
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "drive_buffer": 10
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "4",
+      "group": "1 field",
+      "condition": "Pre/Post-Shift Travel = 30 min",
+      "expected": "First job starts \u2265 9:00AM | Last job ends \u2264 5:30PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d005-workforce-boundaries-4-pre-post-shift-travel-30-min",
+    "filter_variant": "drive-buffer-10"
+  },
+  {
+    "name": "r018-future-full-week-d006-workforce-boundaries-5-max-shift-end-time-6-00pm",
+    "description": "CSV240 Workforce Boundaries #5: Max Shift End Time = 6:00PM",
+    "config": {
+      "workforce-boundaries": {
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "5",
+      "group": "1 field",
+      "condition": "Max Shift End Time = 6:00PM",
+      "expected": "Hard stop 6:00PM strict, do not rank any jobs that end > 6:00PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d006-workforce-boundaries-5-max-shift-end-time-6-00pm",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r019-current-week-exclusions-d006-workforce-boundaries-5-max-shift-end-time",
+    "description": "CSV240 Workforce Boundaries #5: Max Shift End Time = 6:00PM",
+    "config": {
+      "workforce-boundaries": {
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-16T00:00:00+00:00",
+      "end": "2026-08-22T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [
+        6,
+        0
+      ]
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "5",
+      "group": "1 field",
+      "condition": "Max Shift End Time = 6:00PM",
+      "expected": "Hard stop 6:00PM strict, do not rank any jobs that end > 6:00PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d006-workforce-boundaries-5-max-shift-end-time-6-00pm",
+    "filter_variant": "current-week-exclusions"
+  },
+  {
+    "name": "r020-drive-buffer-10-d072-route-efficiency-3-max-travel-distance-10mi",
+    "description": "CSV240 Route Efficiency #3: Max Travel Distance (10mi)",
+    "config": {
+      "route-efficiency": {
+        "max_travel_distance_miles": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "drive_buffer": 10
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Route Efficiency",
+      "id": "3",
+      "group": "1 field",
+      "condition": "Max Travel Distance (10mi)",
+      "expected": "Hard cap 10mi",
+      "conflict": "",
+      "mapped_rules": [
+        "RE max travel distance 10mi"
+      ]
+    },
+    "source_scenario": "d072-route-efficiency-3-max-travel-distance-10mi",
+    "filter_variant": "drive-buffer-10"
+  },
+  {
+    "name": "r021-drive-buffer-30-d072-route-efficiency-3-max-travel-distance-10mi",
+    "description": "CSV240 Route Efficiency #3: Max Travel Distance (10mi)",
+    "config": {
+      "route-efficiency": {
+        "max_travel_distance_miles": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "drive_buffer": 30
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Route Efficiency",
+      "id": "3",
+      "group": "1 field",
+      "condition": "Max Travel Distance (10mi)",
+      "expected": "Hard cap 10mi",
+      "conflict": "",
+      "mapped_rules": [
+        "RE max travel distance 10mi"
+      ]
+    },
+    "source_scenario": "d072-route-efficiency-3-max-travel-distance-10mi",
+    "filter_variant": "drive-buffer-30"
+  },
+  {
+    "name": "r022-default-future-d072-route-efficiency-3-max-travel-distance-10mi",
+    "description": "CSV240 Route Efficiency #3: Max Travel Distance (10mi)",
+    "config": {
+      "route-efficiency": {
+        "max_travel_distance_miles": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Route Efficiency",
+      "id": "3",
+      "group": "1 field",
+      "condition": "Max Travel Distance (10mi)",
+      "expected": "Hard cap 10mi",
+      "conflict": "",
+      "mapped_rules": [
+        "RE max travel distance 10mi"
+      ]
+    },
+    "source_scenario": "d072-route-efficiency-3-max-travel-distance-10mi",
+    "filter_variant": "default-future"
+  },
+  {
+    "name": "r023-future-full-week-d073-route-efficiency-4-max-shift-travel-120min",
+    "description": "CSV240 Route Efficiency #4: Max Shift Travel (120min)",
+    "config": {
+      "route-efficiency": {
+        "max_shift_travel_time_minutes": {
+          "status": 1,
+          "value": 120
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Route Efficiency",
+      "id": "4",
+      "group": "1 field",
+      "condition": "Max Shift Travel (120min)",
+      "expected": "Shift \u2264120min",
+      "conflict": "",
+      "mapped_rules": [
+        "RE max shift travel 120min"
+      ]
+    },
+    "source_scenario": "d073-route-efficiency-4-max-shift-travel-120min",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r024-current-week-exclusions-d073-route-efficiency-4-max-shift-travel-120mi",
+    "description": "CSV240 Route Efficiency #4: Max Shift Travel (120min)",
+    "config": {
+      "route-efficiency": {
+        "max_shift_travel_time_minutes": {
+          "status": 1,
+          "value": 120
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-16T00:00:00+00:00",
+      "end": "2026-08-22T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [
+        6,
+        0
+      ]
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Route Efficiency",
+      "id": "4",
+      "group": "1 field",
+      "condition": "Max Shift Travel (120min)",
+      "expected": "Shift \u2264120min",
+      "conflict": "",
+      "mapped_rules": [
+        "RE max shift travel 120min"
+      ]
+    },
+    "source_scenario": "d073-route-efficiency-4-max-shift-travel-120min",
+    "filter_variant": "current-week-exclusions"
+  },
+  {
+    "name": "r025-drive-buffer-10-d073-route-efficiency-4-max-shift-travel-120min",
+    "description": "CSV240 Route Efficiency #4: Max Shift Travel (120min)",
+    "config": {
+      "route-efficiency": {
+        "max_shift_travel_time_minutes": {
+          "status": 1,
+          "value": 120
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "drive_buffer": 10
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Route Efficiency",
+      "id": "4",
+      "group": "1 field",
+      "condition": "Max Shift Travel (120min)",
+      "expected": "Shift \u2264120min",
+      "conflict": "",
+      "mapped_rules": [
+        "RE max shift travel 120min"
+      ]
+    },
+    "source_scenario": "d073-route-efficiency-4-max-shift-travel-120min",
+    "filter_variant": "drive-buffer-10"
+  },
+  {
+    "name": "r026-drive-buffer-10-d083-route-efficiency-25-max-travel-distance-10mi-pref",
+    "description": "CSV240 Route Efficiency #25: Max Travel Distance (10mi) + Preferred Tech (Soft)",
+    "config": {
+      "route-efficiency": {
+        "max_travel_distance_miles": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "drive_buffer": 10
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Route Efficiency",
+      "id": "25",
+      "group": "2 fields",
+      "condition": "Max Travel Distance (10mi) + Preferred Tech (Soft)",
+      "expected": "Hard cap 10mi | Soft pref",
+      "conflict": "",
+      "mapped_rules": [
+        "RE max travel distance 10mi"
+      ]
+    },
+    "source_scenario": "d083-route-efficiency-25-max-travel-distance-10mi-preferred",
+    "filter_variant": "drive-buffer-10"
+  },
+  {
+    "name": "r027-drive-buffer-30-d083-route-efficiency-25-max-travel-distance-10mi-pref",
+    "description": "CSV240 Route Efficiency #25: Max Travel Distance (10mi) + Preferred Tech (Soft)",
+    "config": {
+      "route-efficiency": {
+        "max_travel_distance_miles": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "drive_buffer": 30
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Route Efficiency",
+      "id": "25",
+      "group": "2 fields",
+      "condition": "Max Travel Distance (10mi) + Preferred Tech (Soft)",
+      "expected": "Hard cap 10mi | Soft pref",
+      "conflict": "",
+      "mapped_rules": [
+        "RE max travel distance 10mi"
+      ]
+    },
+    "source_scenario": "d083-route-efficiency-25-max-travel-distance-10mi-preferred",
+    "filter_variant": "drive-buffer-30"
+  },
+  {
+    "name": "r028-all-statuses-d083-route-efficiency-25-max-travel-distance-10mi-preferr",
+    "description": "CSV240 Route Efficiency #25: Max Travel Distance (10mi) + Preferred Tech (Soft)",
+    "config": {
+      "route-efficiency": {
+        "max_travel_distance_miles": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Route Efficiency",
+      "id": "25",
+      "group": "2 fields",
+      "condition": "Max Travel Distance (10mi) + Preferred Tech (Soft)",
+      "expected": "Hard cap 10mi | Soft pref",
+      "conflict": "",
+      "mapped_rules": [
+        "RE max travel distance 10mi"
+      ]
+    },
+    "source_scenario": "d083-route-efficiency-25-max-travel-distance-10mi-preferred",
+    "filter_variant": "all-statuses"
+  },
+  {
+    "name": "r029-all-statuses-d074-route-efficiency-8-skill-matching-on",
+    "description": "CSV240 Route Efficiency #8: Skill Matching (ON)",
+    "config": {
+      "route-efficiency": {
+        "tech_skill_matching": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Route Efficiency",
+      "id": "8",
+      "group": "1 field",
+      "condition": "Skill Matching (ON)",
+      "expected": "Skill filter",
+      "conflict": "",
+      "mapped_rules": [
+        "RE skill matching on"
+      ]
+    },
+    "source_scenario": "d074-route-efficiency-8-skill-matching-on",
+    "filter_variant": "all-statuses"
+  },
+  {
+    "name": "r030-no-recurring-d074-route-efficiency-8-skill-matching-on",
+    "description": "CSV240 Route Efficiency #8: Skill Matching (ON)",
+    "config": {
+      "route-efficiency": {
+        "tech_skill_matching": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Route Efficiency",
+      "id": "8",
+      "group": "1 field",
+      "condition": "Skill Matching (ON)",
+      "expected": "Skill filter",
+      "conflict": "",
+      "mapped_rules": [
+        "RE skill matching on"
+      ]
+    },
+    "source_scenario": "d074-route-efficiency-8-skill-matching-on",
+    "filter_variant": "no-recurring"
+  },
+  {
+    "name": "r031-optimize-to-4pm-d176-service-commitments-6-max-last-appointment-depart",
+    "description": "CSV240 Service Commitments #6: Max Last Appointment Departure Time (4:00 PM) + Arrival Window Duration Override (2h)",
+    "config": {
+      "service-commitment": {
+        "arrival_window_hours": {
+          "status": 1,
+          "value": 2
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "optimize_to": "2026-08-29T16:00:00+00:00"
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "6",
+      "group": "2 fields",
+      "condition": "Max Last Appointment Departure Time (4:00 PM) + Arrival Window Duration Override (2h)",
+      "expected": "Strict 4:00 PM cutoff \u2014 no jobs will end after 4:00 PM | Override Time Window to 2h. Job 1:00 PM displays 12:00 PM - 2:00 PM",
+      "conflict": "",
+      "mapped_rules": [
+        "SC arrival window 2h"
+      ]
+    },
+    "source_scenario": "d176-service-commitments-6-max-last-appointment-departure-t",
+    "filter_variant": "optimize-to-4pm"
+  },
+  {
+    "name": "r032-optimize-to-end-of-day-d176-service-commitments-6-max-last-appointment",
+    "description": "CSV240 Service Commitments #6: Max Last Appointment Departure Time (4:00 PM) + Arrival Window Duration Override (2h)",
+    "config": {
+      "service-commitment": {
+        "arrival_window_hours": {
+          "status": 1,
+          "value": 2
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "optimize_to": "2026-08-29T23:59:59+00:00"
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "6",
+      "group": "2 fields",
+      "condition": "Max Last Appointment Departure Time (4:00 PM) + Arrival Window Duration Override (2h)",
+      "expected": "Strict 4:00 PM cutoff \u2014 no jobs will end after 4:00 PM | Override Time Window to 2h. Job 1:00 PM displays 12:00 PM - 2:00 PM",
+      "conflict": "",
+      "mapped_rules": [
+        "SC arrival window 2h"
+      ]
+    },
+    "source_scenario": "d176-service-commitments-6-max-last-appointment-departure-t",
+    "filter_variant": "optimize-to-end-of-day"
+  },
+  {
+    "name": "r033-color-1-recurring-d176-service-commitments-6-max-last-appointment-depa",
+    "description": "CSV240 Service Commitments #6: Max Last Appointment Departure Time (4:00 PM) + Arrival Window Duration Override (2h)",
+    "config": {
+      "service-commitment": {
+        "arrival_window_hours": {
+          "status": 1,
+          "value": 2
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "6",
+      "group": "2 fields",
+      "condition": "Max Last Appointment Departure Time (4:00 PM) + Arrival Window Duration Override (2h)",
+      "expected": "Strict 4:00 PM cutoff \u2014 no jobs will end after 4:00 PM | Override Time Window to 2h. Job 1:00 PM displays 12:00 PM - 2:00 PM",
+      "conflict": "",
+      "mapped_rules": [
+        "SC arrival window 2h"
+      ]
+    },
+    "source_scenario": "d176-service-commitments-6-max-last-appointment-departure-t",
+    "filter_variant": "color-1-recurring"
+  },
+  {
+    "name": "r034-optimize-to-4pm-d177-service-commitments-7-max-last-appointment-depart",
+    "description": "CSV240 Service Commitments #7: Max Last Appointment Departure Time (4:00 PM) + Region Enforcement (Strict)",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "optimize_to": "2026-08-29T16:00:00+00:00"
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "7",
+      "group": "2 fields",
+      "condition": "Max Last Appointment Departure Time (4:00 PM) + Region Enforcement (Strict)",
+      "expected": "Strict 4:00 PM cutoff \u2014 no jobs will end after 4:00 PM | Region strict \u2014 jobs outside the region are blocked, not assigned",
+      "conflict": "",
+      "mapped_rules": [
+        "SC region enforcement strict"
+      ]
+    },
+    "source_scenario": "d177-service-commitments-7-max-last-appointment-departure-t",
+    "filter_variant": "optimize-to-4pm"
+  },
+  {
+    "name": "r035-optimize-to-end-of-day-d177-service-commitments-7-max-last-appointment",
+    "description": "CSV240 Service Commitments #7: Max Last Appointment Departure Time (4:00 PM) + Region Enforcement (Strict)",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "optimize_to": "2026-08-29T23:59:59+00:00"
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "7",
+      "group": "2 fields",
+      "condition": "Max Last Appointment Departure Time (4:00 PM) + Region Enforcement (Strict)",
+      "expected": "Strict 4:00 PM cutoff \u2014 no jobs will end after 4:00 PM | Region strict \u2014 jobs outside the region are blocked, not assigned",
+      "conflict": "",
+      "mapped_rules": [
+        "SC region enforcement strict"
+      ]
+    },
+    "source_scenario": "d177-service-commitments-7-max-last-appointment-departure-t",
+    "filter_variant": "optimize-to-end-of-day"
+  },
+  {
+    "name": "r036-color-1-recurring-d177-service-commitments-7-max-last-appointment-depa",
+    "description": "CSV240 Service Commitments #7: Max Last Appointment Departure Time (4:00 PM) + Region Enforcement (Strict)",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "7",
+      "group": "2 fields",
+      "condition": "Max Last Appointment Departure Time (4:00 PM) + Region Enforcement (Strict)",
+      "expected": "Strict 4:00 PM cutoff \u2014 no jobs will end after 4:00 PM | Region strict \u2014 jobs outside the region are blocked, not assigned",
+      "conflict": "",
+      "mapped_rules": [
+        "SC region enforcement strict"
+      ]
+    },
+    "source_scenario": "d177-service-commitments-7-max-last-appointment-departure-t",
+    "filter_variant": "color-1-recurring"
+  },
+  {
+    "name": "r037-color-1-recurring-d172-service-commitments-2-arrival-window-duration-o",
+    "description": "CSV240 Service Commitments #2: Arrival Window Duration Override (2h)",
+    "config": {
+      "service-commitment": {
+        "arrival_window_hours": {
+          "status": 1,
+          "value": 2
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "2",
+      "group": "1 field",
+      "condition": "Arrival Window Duration Override (2h)",
+      "expected": "Override Time Window to 2h. Job 1:00 PM displays 12:00 PM - 2:00 PM",
+      "conflict": "",
+      "mapped_rules": [
+        "SC arrival window 2h"
+      ]
+    },
+    "source_scenario": "d172-service-commitments-2-arrival-window-duration-override",
+    "filter_variant": "color-1-recurring"
+  },
+  {
+    "name": "r038-color-all-no-recurring-d172-service-commitments-2-arrival-window-durat",
+    "description": "CSV240 Service Commitments #2: Arrival Window Duration Override (2h)",
+    "config": {
+      "service-commitment": {
+        "arrival_window_hours": {
+          "status": 1,
+          "value": 2
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "",
+      "color_id": null,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "2",
+      "group": "1 field",
+      "condition": "Arrival Window Duration Override (2h)",
+      "expected": "Override Time Window to 2h. Job 1:00 PM displays 12:00 PM - 2:00 PM",
+      "conflict": "",
+      "mapped_rules": [
+        "SC arrival window 2h"
+      ]
+    },
+    "source_scenario": "d172-service-commitments-2-arrival-window-duration-override",
+    "filter_variant": "color-all-no-recurring"
+  },
+  {
+    "name": "r039-color-1-recurring-d173-service-commitments-3-region-enforcement-strict",
+    "description": "CSV240 Service Commitments #3: Region Enforcement (Strict)",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "3",
+      "group": "1 field",
+      "condition": "Region Enforcement (Strict)",
+      "expected": "Region strict \u2014 jobs outside the region are blocked, not assigned",
+      "conflict": "",
+      "mapped_rules": [
+        "SC region enforcement strict"
+      ]
+    },
+    "source_scenario": "d173-service-commitments-3-region-enforcement-strict",
+    "filter_variant": "color-1-recurring"
+  },
+  {
+    "name": "r040-color-all-no-recurring-d173-service-commitments-3-region-enforcement-s",
+    "description": "CSV240 Service Commitments #3: Region Enforcement (Strict)",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "",
+      "color_id": null,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "3",
+      "group": "1 field",
+      "condition": "Region Enforcement (Strict)",
+      "expected": "Region strict \u2014 jobs outside the region are blocked, not assigned",
+      "conflict": "",
+      "mapped_rules": [
+        "SC region enforcement strict"
+      ]
+    },
+    "source_scenario": "d173-service-commitments-3-region-enforcement-strict",
+    "filter_variant": "color-all-no-recurring"
+  },
+  {
+    "name": "r041-exclude-known-d173-service-commitments-3-region-enforcement-strict",
+    "description": "CSV240 Service Commitments #3: Region Enforcement (Strict)",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [
+        6,
+        0
+      ]
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "3",
+      "group": "1 field",
+      "condition": "Region Enforcement (Strict)",
+      "expected": "Region strict \u2014 jobs outside the region are blocked, not assigned",
+      "conflict": "",
+      "mapped_rules": [
+        "SC region enforcement strict"
+      ]
+    },
+    "source_scenario": "d173-service-commitments-3-region-enforcement-strict",
+    "filter_variant": "exclude-known"
+  },
+  {
+    "name": "r042-drive-buffer-10-d175-service-commitments-5-add-drive-buffer-time-10-mi",
+    "description": "CSV240 Service Commitments #5: Add Drive Buffer Time (10 min)",
+    "config": {
+      "service-commitment": {
+        "drive_buffer": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "drive_buffer": 10
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "5",
+      "group": "1 field",
+      "condition": "Add Drive Buffer Time (10 min)",
+      "expected": "Drive buffer +10min on original drive. Drive 4min + buffer 10min = 14min",
+      "conflict": "",
+      "mapped_rules": [
+        "SC drive buffer 10min"
+      ]
+    },
+    "source_scenario": "d175-service-commitments-5-add-drive-buffer-time-10-min",
+    "filter_variant": "drive-buffer-10"
+  },
+  {
+    "name": "r043-drive-buffer-30-d175-service-commitments-5-add-drive-buffer-time-10-mi",
+    "description": "CSV240 Service Commitments #5: Add Drive Buffer Time (10 min)",
+    "config": {
+      "service-commitment": {
+        "drive_buffer": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "drive_buffer": 30
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "5",
+      "group": "1 field",
+      "condition": "Add Drive Buffer Time (10 min)",
+      "expected": "Drive buffer +10min on original drive. Drive 4min + buffer 10min = 14min",
+      "conflict": "",
+      "mapped_rules": [
+        "SC drive buffer 10min"
+      ]
+    },
+    "source_scenario": "d175-service-commitments-5-add-drive-buffer-time-10-min",
+    "filter_variant": "drive-buffer-30"
+  },
+  {
+    "name": "r044-default-future-d175-service-commitments-5-add-drive-buffer-time-10-min",
+    "description": "CSV240 Service Commitments #5: Add Drive Buffer Time (10 min)",
+    "config": {
+      "service-commitment": {
+        "drive_buffer": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "5",
+      "group": "1 field",
+      "condition": "Add Drive Buffer Time (10 min)",
+      "expected": "Drive buffer +10min on original drive. Drive 4min + buffer 10min = 14min",
+      "conflict": "",
+      "mapped_rules": [
+        "SC drive buffer 10min"
+      ]
+    },
+    "source_scenario": "d175-service-commitments-5-add-drive-buffer-time-10-min",
+    "filter_variant": "default-future"
+  },
+  {
+    "name": "r045-color-1-recurring-d174-service-commitments-4-customer-scheduling-prefe",
+    "description": "CSV240 Service Commitments #4: Customer Scheduling Preferences (ON)",
+    "config": {
+      "service-commitment": {
+        "customer_scheduling_preferences": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "4",
+      "group": "1 field",
+      "condition": "Customer Scheduling Preferences (ON)",
+      "expected": "Honor customer scheduling preferences \u2014 sort according to customer preferences",
+      "conflict": "",
+      "mapped_rules": [
+        "SC customer scheduling preferences on"
+      ]
+    },
+    "source_scenario": "d174-service-commitments-4-customer-scheduling-preferences-",
+    "filter_variant": "color-1-recurring"
+  },
+  {
+    "name": "r046-color-all-no-recurring-d174-service-commitments-4-customer-scheduling-",
+    "description": "CSV240 Service Commitments #4: Customer Scheduling Preferences (ON)",
+    "config": {
+      "service-commitment": {
+        "customer_scheduling_preferences": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "",
+      "color_id": null,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "4",
+      "group": "1 field",
+      "condition": "Customer Scheduling Preferences (ON)",
+      "expected": "Honor customer scheduling preferences \u2014 sort according to customer preferences",
+      "conflict": "",
+      "mapped_rules": [
+        "SC customer scheduling preferences on"
+      ]
+    },
+    "source_scenario": "d174-service-commitments-4-customer-scheduling-preferences-",
+    "filter_variant": "color-all-no-recurring"
+  },
+  {
+    "name": "r047-jobs-per-day-tight-5-d008-workforce-boundaries-8-default-service-hours",
+    "description": "CSV240 Workforce Boundaries #8: Default Service Hours (8:30AM-6PM) + Max Jobs per day (15)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "8",
+      "group": "2 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Max Jobs per day (15)",
+      "expected": "Jobs in 8:30AM-6PM | Max 15 jobs/day",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB hard cap 15 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d008-workforce-boundaries-8-default-service-hours-8-30am-6p",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r048-jobs-per-day-rule-15-d008-workforce-boundaries-8-default-service-hours",
+    "description": "CSV240 Workforce Boundaries #8: Default Service Hours (8:30AM-6PM) + Max Jobs per day (15)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "8",
+      "group": "2 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Max Jobs per day (15)",
+      "expected": "Jobs in 8:30AM-6PM | Max 15 jobs/day",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB hard cap 15 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d008-workforce-boundaries-8-default-service-hours-8-30am-6p",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r049-future-full-week-d008-workforce-boundaries-8-default-service-hours-8-3",
+    "description": "CSV240 Workforce Boundaries #8: Default Service Hours (8:30AM-6PM) + Max Jobs per day (15)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "8",
+      "group": "2 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Max Jobs per day (15)",
+      "expected": "Jobs in 8:30AM-6PM | Max 15 jobs/day",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB hard cap 15 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d008-workforce-boundaries-8-default-service-hours-8-30am-6p",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r050-jobs-per-day-tight-5-d009-workforce-boundaries-9-default-service-hours",
+    "description": "CSV240 Workforce Boundaries #9: Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "9",
+      "group": "2 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10)",
+      "expected": "Jobs in 8:30AM-6PM | Target 10 jobs/day",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB soft target 10 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d009-workforce-boundaries-9-default-service-hours-8-30am-6p",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r051-jobs-per-day-rule-15-d009-workforce-boundaries-9-default-service-hours",
+    "description": "CSV240 Workforce Boundaries #9: Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "9",
+      "group": "2 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10)",
+      "expected": "Jobs in 8:30AM-6PM | Target 10 jobs/day",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB soft target 10 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d009-workforce-boundaries-9-default-service-hours-8-30am-6p",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r052-future-full-week-d009-workforce-boundaries-9-default-service-hours-8-3",
+    "description": "CSV240 Workforce Boundaries #9: Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "9",
+      "group": "2 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10)",
+      "expected": "Jobs in 8:30AM-6PM | Target 10 jobs/day",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB soft target 10 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d009-workforce-boundaries-9-default-service-hours-8-30am-6p",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r053-future-full-week-d010-workforce-boundaries-10-default-service-hours-8-",
+    "description": "CSV240 Workforce Boundaries #10: Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "10",
+      "group": "2 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min)",
+      "expected": "Effective scheduling window 9:00AM-5:30PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d010-workforce-boundaries-10-default-service-hours-8-30am-6",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r054-current-week-exclusions-d010-workforce-boundaries-10-default-service-h",
+    "description": "CSV240 Workforce Boundaries #10: Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-16T00:00:00+00:00",
+      "end": "2026-08-22T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [
+        6,
+        0
+      ]
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "10",
+      "group": "2 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min)",
+      "expected": "Effective scheduling window 9:00AM-5:30PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d010-workforce-boundaries-10-default-service-hours-8-30am-6",
+    "filter_variant": "current-week-exclusions"
+  },
+  {
+    "name": "r055-drive-buffer-10-d010-workforce-boundaries-10-default-service-hours-8-3",
+    "description": "CSV240 Workforce Boundaries #10: Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "drive_buffer": 10
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "10",
+      "group": "2 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min)",
+      "expected": "Effective scheduling window 9:00AM-5:30PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d010-workforce-boundaries-10-default-service-hours-8-30am-6",
+    "filter_variant": "drive-buffer-10"
+  },
+  {
+    "name": "r056-future-full-week-d011-workforce-boundaries-11-default-service-hours-8-",
+    "description": "CSV240 Workforce Boundaries #11: Default Service Hours (8:30AM-6PM) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "11",
+      "group": "2 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Max Shift End Time (6PM)",
+      "expected": "Jobs in 8:30AM-6PM | Max Shift End priority is higher than Service Hours",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d011-workforce-boundaries-11-default-service-hours-8-30am-6",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r057-current-week-exclusions-d011-workforce-boundaries-11-default-service-h",
+    "description": "CSV240 Workforce Boundaries #11: Default Service Hours (8:30AM-6PM) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-16T00:00:00+00:00",
+      "end": "2026-08-22T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [
+        6,
+        0
+      ]
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "11",
+      "group": "2 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Max Shift End Time (6PM)",
+      "expected": "Jobs in 8:30AM-6PM | Max Shift End priority is higher than Service Hours",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d011-workforce-boundaries-11-default-service-hours-8-30am-6",
+    "filter_variant": "current-week-exclusions"
+  },
+  {
+    "name": "r058-jobs-per-day-tight-5-d012-workforce-boundaries-12-default-service-hour",
+    "description": "CSV240 Workforce Boundaries #12: Default Service Hours (8:30AM-6PM) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "12",
+      "group": "2 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Workload Fairness (ON)",
+      "expected": "Jobs in 8:30AM-6PM | Evenly distributed among techs",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d012-workforce-boundaries-12-default-service-hours-8-30am-6",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r059-jobs-per-day-rule-15-d012-workforce-boundaries-12-default-service-hour",
+    "description": "CSV240 Workforce Boundaries #12: Default Service Hours (8:30AM-6PM) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "12",
+      "group": "2 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Workload Fairness (ON)",
+      "expected": "Jobs in 8:30AM-6PM | Evenly distributed among techs",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d012-workforce-boundaries-12-default-service-hours-8-30am-6",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r060-future-full-week-d012-workforce-boundaries-12-default-service-hours-8-",
+    "description": "CSV240 Workforce Boundaries #12: Default Service Hours (8:30AM-6PM) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "12",
+      "group": "2 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Workload Fairness (ON)",
+      "expected": "Jobs in 8:30AM-6PM | Evenly distributed among techs",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d012-workforce-boundaries-12-default-service-hours-8-30am-6",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r061-jobs-per-day-tight-5-d013-workforce-boundaries-14-max-jobs-per-day-15-",
+    "description": "CSV240 Workforce Boundaries #14: Max Jobs per day (15) + Preferred Jobs per day (10)",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "14",
+      "group": "2 fields",
+      "condition": "Max Jobs per day (15) + Preferred Jobs per day (10)",
+      "expected": "Soft target 10 in free time | Hard cap 15 when busy, do not exceed 15",
+      "conflict": "",
+      "mapped_rules": [
+        "WB hard cap 15 jobs/day/tech",
+        "WB soft target 10 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d013-workforce-boundaries-14-max-jobs-per-day-15-preferred-",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r062-jobs-per-day-rule-15-d013-workforce-boundaries-14-max-jobs-per-day-15-",
+    "description": "CSV240 Workforce Boundaries #14: Max Jobs per day (15) + Preferred Jobs per day (10)",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "14",
+      "group": "2 fields",
+      "condition": "Max Jobs per day (15) + Preferred Jobs per day (10)",
+      "expected": "Soft target 10 in free time | Hard cap 15 when busy, do not exceed 15",
+      "conflict": "",
+      "mapped_rules": [
+        "WB hard cap 15 jobs/day/tech",
+        "WB soft target 10 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d013-workforce-boundaries-14-max-jobs-per-day-15-preferred-",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r063-default-future-d013-workforce-boundaries-14-max-jobs-per-day-15-prefer",
+    "description": "CSV240 Workforce Boundaries #14: Max Jobs per day (15) + Preferred Jobs per day (10)",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "14",
+      "group": "2 fields",
+      "condition": "Max Jobs per day (15) + Preferred Jobs per day (10)",
+      "expected": "Soft target 10 in free time | Hard cap 15 when busy, do not exceed 15",
+      "conflict": "",
+      "mapped_rules": [
+        "WB hard cap 15 jobs/day/tech",
+        "WB soft target 10 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d013-workforce-boundaries-14-max-jobs-per-day-15-preferred-",
+    "filter_variant": "default-future"
+  },
+  {
+    "name": "r064-jobs-per-day-tight-5-d014-workforce-boundaries-15-max-jobs-per-day-15-",
+    "description": "CSV240 Workforce Boundaries #15: Max Jobs per day (15) + Pre/Post-Shift Travel (30min)",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "15",
+      "group": "2 fields",
+      "condition": "Max Jobs per day (15) + Pre/Post-Shift Travel (30min)",
+      "expected": "Max 15 jobs | First job \u2265 9AM, last job \u2264 5:30PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB hard cap 15 jobs/day/tech",
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d014-workforce-boundaries-15-max-jobs-per-day-15-pre-post-s",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r065-jobs-per-day-rule-15-d014-workforce-boundaries-15-max-jobs-per-day-15-",
+    "description": "CSV240 Workforce Boundaries #15: Max Jobs per day (15) + Pre/Post-Shift Travel (30min)",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "15",
+      "group": "2 fields",
+      "condition": "Max Jobs per day (15) + Pre/Post-Shift Travel (30min)",
+      "expected": "Max 15 jobs | First job \u2265 9AM, last job \u2264 5:30PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB hard cap 15 jobs/day/tech",
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d014-workforce-boundaries-15-max-jobs-per-day-15-pre-post-s",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r066-future-full-week-d014-workforce-boundaries-15-max-jobs-per-day-15-pre-",
+    "description": "CSV240 Workforce Boundaries #15: Max Jobs per day (15) + Pre/Post-Shift Travel (30min)",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "15",
+      "group": "2 fields",
+      "condition": "Max Jobs per day (15) + Pre/Post-Shift Travel (30min)",
+      "expected": "Max 15 jobs | First job \u2265 9AM, last job \u2264 5:30PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB hard cap 15 jobs/day/tech",
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d014-workforce-boundaries-15-max-jobs-per-day-15-pre-post-s",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r067-jobs-per-day-tight-5-d015-workforce-boundaries-16-max-jobs-per-day-15-",
+    "description": "CSV240 Workforce Boundaries #16: Max Jobs per day (15) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "16",
+      "group": "2 fields",
+      "condition": "Max Jobs per day (15) + Max Shift End Time (6PM)",
+      "expected": "Max 15 jobs | Do not schedule any jobs that end > 6:00PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB hard cap 15 jobs/day/tech",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d015-workforce-boundaries-16-max-jobs-per-day-15-max-shift-",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r068-jobs-per-day-rule-15-d015-workforce-boundaries-16-max-jobs-per-day-15-",
+    "description": "CSV240 Workforce Boundaries #16: Max Jobs per day (15) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "16",
+      "group": "2 fields",
+      "condition": "Max Jobs per day (15) + Max Shift End Time (6PM)",
+      "expected": "Max 15 jobs | Do not schedule any jobs that end > 6:00PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB hard cap 15 jobs/day/tech",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d015-workforce-boundaries-16-max-jobs-per-day-15-max-shift-",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r069-future-full-week-d015-workforce-boundaries-16-max-jobs-per-day-15-max-",
+    "description": "CSV240 Workforce Boundaries #16: Max Jobs per day (15) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "16",
+      "group": "2 fields",
+      "condition": "Max Jobs per day (15) + Max Shift End Time (6PM)",
+      "expected": "Max 15 jobs | Do not schedule any jobs that end > 6:00PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB hard cap 15 jobs/day/tech",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d015-workforce-boundaries-16-max-jobs-per-day-15-max-shift-",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r070-jobs-per-day-tight-5-d016-workforce-boundaries-17-max-jobs-per-day-15-",
+    "description": "CSV240 Workforce Boundaries #17: Max Jobs per day (15) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "17",
+      "group": "2 fields",
+      "condition": "Max Jobs per day (15) + Workload Fairness (ON)",
+      "expected": "Max 15 jobs/tech | Evenly distributed, no tech exceeds 15",
+      "conflict": "",
+      "mapped_rules": [
+        "WB hard cap 15 jobs/day/tech",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d016-workforce-boundaries-17-max-jobs-per-day-15-workload-f",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r071-jobs-per-day-rule-15-d016-workforce-boundaries-17-max-jobs-per-day-15-",
+    "description": "CSV240 Workforce Boundaries #17: Max Jobs per day (15) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "17",
+      "group": "2 fields",
+      "condition": "Max Jobs per day (15) + Workload Fairness (ON)",
+      "expected": "Max 15 jobs/tech | Evenly distributed, no tech exceeds 15",
+      "conflict": "",
+      "mapped_rules": [
+        "WB hard cap 15 jobs/day/tech",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d016-workforce-boundaries-17-max-jobs-per-day-15-workload-f",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r072-default-future-d016-workforce-boundaries-17-max-jobs-per-day-15-worklo",
+    "description": "CSV240 Workforce Boundaries #17: Max Jobs per day (15) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "17",
+      "group": "2 fields",
+      "condition": "Max Jobs per day (15) + Workload Fairness (ON)",
+      "expected": "Max 15 jobs/tech | Evenly distributed, no tech exceeds 15",
+      "conflict": "",
+      "mapped_rules": [
+        "WB hard cap 15 jobs/day/tech",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d016-workforce-boundaries-17-max-jobs-per-day-15-workload-f",
+    "filter_variant": "default-future"
+  },
+  {
+    "name": "r073-jobs-per-day-tight-5-d017-workforce-boundaries-19-preferred-jobs-per-d",
+    "description": "CSV240 Workforce Boundaries #19: Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min)",
+    "config": {
+      "workforce-boundaries": {
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "19",
+      "group": "2 fields",
+      "condition": "Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min)",
+      "expected": "Target 10 jobs | First job \u2265 9AM, last job \u2264 5:30PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB soft target 10 jobs/day/tech",
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d017-workforce-boundaries-19-preferred-jobs-per-day-10-pre-",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r074-jobs-per-day-rule-15-d017-workforce-boundaries-19-preferred-jobs-per-d",
+    "description": "CSV240 Workforce Boundaries #19: Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min)",
+    "config": {
+      "workforce-boundaries": {
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "19",
+      "group": "2 fields",
+      "condition": "Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min)",
+      "expected": "Target 10 jobs | First job \u2265 9AM, last job \u2264 5:30PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB soft target 10 jobs/day/tech",
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d017-workforce-boundaries-19-preferred-jobs-per-day-10-pre-",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r075-future-full-week-d017-workforce-boundaries-19-preferred-jobs-per-day-1",
+    "description": "CSV240 Workforce Boundaries #19: Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min)",
+    "config": {
+      "workforce-boundaries": {
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "19",
+      "group": "2 fields",
+      "condition": "Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min)",
+      "expected": "Target 10 jobs | First job \u2265 9AM, last job \u2264 5:30PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB soft target 10 jobs/day/tech",
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d017-workforce-boundaries-19-preferred-jobs-per-day-10-pre-",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r076-jobs-per-day-tight-5-d018-workforce-boundaries-20-preferred-jobs-per-d",
+    "description": "CSV240 Workforce Boundaries #20: Preferred Jobs per day (10) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "20",
+      "group": "2 fields",
+      "condition": "Preferred Jobs per day (10) + Max Shift End Time (6PM)",
+      "expected": "Target 10 jobs | Do not schedule any jobs that end > 6:00PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB soft target 10 jobs/day/tech",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d018-workforce-boundaries-20-preferred-jobs-per-day-10-max-",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r077-jobs-per-day-rule-15-d018-workforce-boundaries-20-preferred-jobs-per-d",
+    "description": "CSV240 Workforce Boundaries #20: Preferred Jobs per day (10) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "20",
+      "group": "2 fields",
+      "condition": "Preferred Jobs per day (10) + Max Shift End Time (6PM)",
+      "expected": "Target 10 jobs | Do not schedule any jobs that end > 6:00PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB soft target 10 jobs/day/tech",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d018-workforce-boundaries-20-preferred-jobs-per-day-10-max-",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r078-future-full-week-d018-workforce-boundaries-20-preferred-jobs-per-day-1",
+    "description": "CSV240 Workforce Boundaries #20: Preferred Jobs per day (10) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "20",
+      "group": "2 fields",
+      "condition": "Preferred Jobs per day (10) + Max Shift End Time (6PM)",
+      "expected": "Target 10 jobs | Do not schedule any jobs that end > 6:00PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB soft target 10 jobs/day/tech",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d018-workforce-boundaries-20-preferred-jobs-per-day-10-max-",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r079-jobs-per-day-tight-5-d019-workforce-boundaries-21-preferred-jobs-per-d",
+    "description": "CSV240 Workforce Boundaries #21: Preferred Jobs per day (10) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "21",
+      "group": "2 fields",
+      "condition": "Preferred Jobs per day (10) + Workload Fairness (ON)",
+      "expected": "Target 10 jobs/tech | Evenly distributed towards 10/tech",
+      "conflict": "",
+      "mapped_rules": [
+        "WB soft target 10 jobs/day/tech",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d019-workforce-boundaries-21-preferred-jobs-per-day-10-work",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r080-jobs-per-day-rule-15-d019-workforce-boundaries-21-preferred-jobs-per-d",
+    "description": "CSV240 Workforce Boundaries #21: Preferred Jobs per day (10) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "21",
+      "group": "2 fields",
+      "condition": "Preferred Jobs per day (10) + Workload Fairness (ON)",
+      "expected": "Target 10 jobs/tech | Evenly distributed towards 10/tech",
+      "conflict": "",
+      "mapped_rules": [
+        "WB soft target 10 jobs/day/tech",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d019-workforce-boundaries-21-preferred-jobs-per-day-10-work",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r081-default-future-d019-workforce-boundaries-21-preferred-jobs-per-day-10-",
+    "description": "CSV240 Workforce Boundaries #21: Preferred Jobs per day (10) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "21",
+      "group": "2 fields",
+      "condition": "Preferred Jobs per day (10) + Workload Fairness (ON)",
+      "expected": "Target 10 jobs/tech | Evenly distributed towards 10/tech",
+      "conflict": "",
+      "mapped_rules": [
+        "WB soft target 10 jobs/day/tech",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d019-workforce-boundaries-21-preferred-jobs-per-day-10-work",
+    "filter_variant": "default-future"
+  },
+  {
+    "name": "r082-future-full-week-d020-workforce-boundaries-23-pre-post-shift-travel-30",
+    "description": "CSV240 Workforce Boundaries #23: Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "23",
+      "group": "2 fields",
+      "condition": "Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM)",
+      "expected": "First job \u2265 9AM, last job \u2264 5:30PM | Hard stop 6PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB pre/post shift travel 30min",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d020-workforce-boundaries-23-pre-post-shift-travel-30min-ma",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r083-current-week-exclusions-d020-workforce-boundaries-23-pre-post-shift-tr",
+    "description": "CSV240 Workforce Boundaries #23: Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-16T00:00:00+00:00",
+      "end": "2026-08-22T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [
+        6,
+        0
+      ]
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "23",
+      "group": "2 fields",
+      "condition": "Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM)",
+      "expected": "First job \u2265 9AM, last job \u2264 5:30PM | Hard stop 6PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB pre/post shift travel 30min",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d020-workforce-boundaries-23-pre-post-shift-travel-30min-ma",
+    "filter_variant": "current-week-exclusions"
+  },
+  {
+    "name": "r084-drive-buffer-10-d020-workforce-boundaries-23-pre-post-shift-travel-30m",
+    "description": "CSV240 Workforce Boundaries #23: Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "drive_buffer": 10
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "23",
+      "group": "2 fields",
+      "condition": "Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM)",
+      "expected": "First job \u2265 9AM, last job \u2264 5:30PM | Hard stop 6PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB pre/post shift travel 30min",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d020-workforce-boundaries-23-pre-post-shift-travel-30min-ma",
+    "filter_variant": "drive-buffer-10"
+  },
+  {
+    "name": "r085-jobs-per-day-tight-5-d021-workforce-boundaries-24-pre-post-shift-trave",
+    "description": "CSV240 Workforce Boundaries #24: Pre/Post-Shift Travel (30min) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "24",
+      "group": "2 fields",
+      "condition": "Pre/Post-Shift Travel (30min) + Workload Fairness (ON)",
+      "expected": "First job \u2265 9AM, last job \u2264 5:30PM | Evenly distributed",
+      "conflict": "",
+      "mapped_rules": [
+        "WB pre/post shift travel 30min",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d021-workforce-boundaries-24-pre-post-shift-travel-30min-wo",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r086-jobs-per-day-rule-15-d021-workforce-boundaries-24-pre-post-shift-trave",
+    "description": "CSV240 Workforce Boundaries #24: Pre/Post-Shift Travel (30min) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "24",
+      "group": "2 fields",
+      "condition": "Pre/Post-Shift Travel (30min) + Workload Fairness (ON)",
+      "expected": "First job \u2265 9AM, last job \u2264 5:30PM | Evenly distributed",
+      "conflict": "",
+      "mapped_rules": [
+        "WB pre/post shift travel 30min",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d021-workforce-boundaries-24-pre-post-shift-travel-30min-wo",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r087-future-full-week-d021-workforce-boundaries-24-pre-post-shift-travel-30",
+    "description": "CSV240 Workforce Boundaries #24: Pre/Post-Shift Travel (30min) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "24",
+      "group": "2 fields",
+      "condition": "Pre/Post-Shift Travel (30min) + Workload Fairness (ON)",
+      "expected": "First job \u2265 9AM, last job \u2264 5:30PM | Evenly distributed",
+      "conflict": "",
+      "mapped_rules": [
+        "WB pre/post shift travel 30min",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d021-workforce-boundaries-24-pre-post-shift-travel-30min-wo",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r088-jobs-per-day-tight-5-d022-workforce-boundaries-26-max-shift-end-time-6",
+    "description": "CSV240 Workforce Boundaries #26: Max Shift End Time (6PM) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "26",
+      "group": "2 fields",
+      "condition": "Max Shift End Time (6PM) + Workload Fairness (ON)",
+      "expected": "Hard stop 6PM | Evenly distributed, no job exceeds 6PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB max shift end 18:00",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d022-workforce-boundaries-26-max-shift-end-time-6pm-workloa",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r089-jobs-per-day-rule-15-d022-workforce-boundaries-26-max-shift-end-time-6",
+    "description": "CSV240 Workforce Boundaries #26: Max Shift End Time (6PM) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "26",
+      "group": "2 fields",
+      "condition": "Max Shift End Time (6PM) + Workload Fairness (ON)",
+      "expected": "Hard stop 6PM | Evenly distributed, no job exceeds 6PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB max shift end 18:00",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d022-workforce-boundaries-26-max-shift-end-time-6pm-workloa",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r090-future-full-week-d022-workforce-boundaries-26-max-shift-end-time-6pm-w",
+    "description": "CSV240 Workforce Boundaries #26: Max Shift End Time (6PM) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "26",
+      "group": "2 fields",
+      "condition": "Max Shift End Time (6PM) + Workload Fairness (ON)",
+      "expected": "Hard stop 6PM | Evenly distributed, no job exceeds 6PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB max shift end 18:00",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d022-workforce-boundaries-26-max-shift-end-time-6pm-workloa",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r091-jobs-per-day-tight-5-d023-workforce-boundaries-29-default-service-hour",
+    "description": "CSV240 Workforce Boundaries #29: Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "29",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10)",
+      "expected": "Window 8:30AM-6PM | Max 15 | Target 10",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB hard cap 15 jobs/day/tech",
+        "WB soft target 10 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d023-workforce-boundaries-29-default-service-hours-8-30am-6",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r092-jobs-per-day-rule-15-d023-workforce-boundaries-29-default-service-hour",
+    "description": "CSV240 Workforce Boundaries #29: Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "29",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10)",
+      "expected": "Window 8:30AM-6PM | Max 15 | Target 10",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB hard cap 15 jobs/day/tech",
+        "WB soft target 10 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d023-workforce-boundaries-29-default-service-hours-8-30am-6",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r093-future-full-week-d023-workforce-boundaries-29-default-service-hours-8-",
+    "description": "CSV240 Workforce Boundaries #29: Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "29",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10)",
+      "expected": "Window 8:30AM-6PM | Max 15 | Target 10",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB hard cap 15 jobs/day/tech",
+        "WB soft target 10 jobs/day/tech"
+      ]
+    },
+    "source_scenario": "d023-workforce-boundaries-29-default-service-hours-8-30am-6",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r094-jobs-per-day-tight-5-d024-workforce-boundaries-30-default-service-hour",
+    "description": "CSV240 Workforce Boundaries #30: Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Pre/Post-Shift Travel (30min)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "30",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Pre/Post-Shift Travel (30min)",
+      "expected": "Effective window 9AM-5:30PM | Max 15 jobs",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB hard cap 15 jobs/day/tech",
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d024-workforce-boundaries-30-default-service-hours-8-30am-6",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r095-jobs-per-day-rule-15-d024-workforce-boundaries-30-default-service-hour",
+    "description": "CSV240 Workforce Boundaries #30: Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Pre/Post-Shift Travel (30min)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "30",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Pre/Post-Shift Travel (30min)",
+      "expected": "Effective window 9AM-5:30PM | Max 15 jobs",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB hard cap 15 jobs/day/tech",
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d024-workforce-boundaries-30-default-service-hours-8-30am-6",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r096-future-full-week-d024-workforce-boundaries-30-default-service-hours-8-",
+    "description": "CSV240 Workforce Boundaries #30: Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Pre/Post-Shift Travel (30min)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "30",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Pre/Post-Shift Travel (30min)",
+      "expected": "Effective window 9AM-5:30PM | Max 15 jobs",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB hard cap 15 jobs/day/tech",
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d024-workforce-boundaries-30-default-service-hours-8-30am-6",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r097-jobs-per-day-tight-5-d025-workforce-boundaries-31-default-service-hour",
+    "description": "CSV240 Workforce Boundaries #31: Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "31",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Max Shift End Time (6PM)",
+      "expected": "Window 8:30AM-6PM | Max 15 | Max Shift End hard stop 6PM priority",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB hard cap 15 jobs/day/tech",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d025-workforce-boundaries-31-default-service-hours-8-30am-6",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r098-jobs-per-day-rule-15-d025-workforce-boundaries-31-default-service-hour",
+    "description": "CSV240 Workforce Boundaries #31: Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "31",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Max Shift End Time (6PM)",
+      "expected": "Window 8:30AM-6PM | Max 15 | Max Shift End hard stop 6PM priority",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB hard cap 15 jobs/day/tech",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d025-workforce-boundaries-31-default-service-hours-8-30am-6",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r099-future-full-week-d025-workforce-boundaries-31-default-service-hours-8-",
+    "description": "CSV240 Workforce Boundaries #31: Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "31",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Max Shift End Time (6PM)",
+      "expected": "Window 8:30AM-6PM | Max 15 | Max Shift End hard stop 6PM priority",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB hard cap 15 jobs/day/tech",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d025-workforce-boundaries-31-default-service-hours-8-30am-6",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r100-jobs-per-day-tight-5-d026-workforce-boundaries-32-default-service-hour",
+    "description": "CSV240 Workforce Boundaries #32: Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "32",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Workload Fairness (ON)",
+      "expected": "Window 8:30AM-6PM | Max 15 | Even balance",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB hard cap 15 jobs/day/tech",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d026-workforce-boundaries-32-default-service-hours-8-30am-6",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r101-jobs-per-day-rule-15-d026-workforce-boundaries-32-default-service-hour",
+    "description": "CSV240 Workforce Boundaries #32: Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "32",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Workload Fairness (ON)",
+      "expected": "Window 8:30AM-6PM | Max 15 | Even balance",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB hard cap 15 jobs/day/tech",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d026-workforce-boundaries-32-default-service-hours-8-30am-6",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r102-future-full-week-d026-workforce-boundaries-32-default-service-hours-8-",
+    "description": "CSV240 Workforce Boundaries #32: Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "32",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Workload Fairness (ON)",
+      "expected": "Window 8:30AM-6PM | Max 15 | Even balance",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB hard cap 15 jobs/day/tech",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d026-workforce-boundaries-32-default-service-hours-8-30am-6",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r103-jobs-per-day-tight-5-d027-workforce-boundaries-34-default-service-hour",
+    "description": "CSV240 Workforce Boundaries #34: Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "34",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min)",
+      "expected": "Effective window 9AM-5:30PM | Target 10 jobs",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB soft target 10 jobs/day/tech",
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d027-workforce-boundaries-34-default-service-hours-8-30am-6",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r104-jobs-per-day-rule-15-d027-workforce-boundaries-34-default-service-hour",
+    "description": "CSV240 Workforce Boundaries #34: Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "34",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min)",
+      "expected": "Effective window 9AM-5:30PM | Target 10 jobs",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB soft target 10 jobs/day/tech",
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d027-workforce-boundaries-34-default-service-hours-8-30am-6",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r105-future-full-week-d027-workforce-boundaries-34-default-service-hours-8-",
+    "description": "CSV240 Workforce Boundaries #34: Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "34",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min)",
+      "expected": "Effective window 9AM-5:30PM | Target 10 jobs",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB soft target 10 jobs/day/tech",
+        "WB pre/post shift travel 30min"
+      ]
+    },
+    "source_scenario": "d027-workforce-boundaries-34-default-service-hours-8-30am-6",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r106-jobs-per-day-tight-5-d028-workforce-boundaries-35-default-service-hour",
+    "description": "CSV240 Workforce Boundaries #35: Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "35",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Max Shift End Time (6PM)",
+      "expected": "Window 8:30AM-6PM | Target 10 | Hard stop 6PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB soft target 10 jobs/day/tech",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d028-workforce-boundaries-35-default-service-hours-8-30am-6",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r107-jobs-per-day-rule-15-d028-workforce-boundaries-35-default-service-hour",
+    "description": "CSV240 Workforce Boundaries #35: Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "35",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Max Shift End Time (6PM)",
+      "expected": "Window 8:30AM-6PM | Target 10 | Hard stop 6PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB soft target 10 jobs/day/tech",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d028-workforce-boundaries-35-default-service-hours-8-30am-6",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r108-future-full-week-d028-workforce-boundaries-35-default-service-hours-8-",
+    "description": "CSV240 Workforce Boundaries #35: Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "35",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Max Shift End Time (6PM)",
+      "expected": "Window 8:30AM-6PM | Target 10 | Hard stop 6PM",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB soft target 10 jobs/day/tech",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d028-workforce-boundaries-35-default-service-hours-8-30am-6",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r109-jobs-per-day-tight-5-d029-workforce-boundaries-36-default-service-hour",
+    "description": "CSV240 Workforce Boundaries #36: Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "36",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Workload Fairness (ON)",
+      "expected": "Window 8:30AM-6PM | Target 10 | Even balance",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB soft target 10 jobs/day/tech",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d029-workforce-boundaries-36-default-service-hours-8-30am-6",
+    "filter_variant": "jobs-per-day-tight-5"
+  },
+  {
+    "name": "r110-jobs-per-day-rule-15-d029-workforce-boundaries-36-default-service-hour",
+    "description": "CSV240 Workforce Boundaries #36: Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "36",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Workload Fairness (ON)",
+      "expected": "Window 8:30AM-6PM | Target 10 | Even balance",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB soft target 10 jobs/day/tech",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d029-workforce-boundaries-36-default-service-hours-8-30am-6",
+    "filter_variant": "jobs-per-day-rule-15"
+  },
+  {
+    "name": "r111-future-full-week-d029-workforce-boundaries-36-default-service-hours-8-",
+    "description": "CSV240 Workforce Boundaries #36: Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Workload Fairness (ON)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        },
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "36",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Workload Fairness (ON)",
+      "expected": "Window 8:30AM-6PM | Target 10 | Even balance",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB soft target 10 jobs/day/tech",
+        "WB workload fairness on"
+      ]
+    },
+    "source_scenario": "d029-workforce-boundaries-36-default-service-hours-8-30am-6",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r112-future-full-week-d030-workforce-boundaries-38-default-service-hours-8-",
+    "description": "CSV240 Workforce Boundaries #38: Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "38",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM)",
+      "expected": "Effective window 9AM-5:30PM | Max Shift End hard stop 6PM priority",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB pre/post shift travel 30min",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d030-workforce-boundaries-38-default-service-hours-8-30am-6",
+    "filter_variant": "future-full-week"
+  },
+  {
+    "name": "r113-current-week-exclusions-d030-workforce-boundaries-38-default-service-h",
+    "description": "CSV240 Workforce Boundaries #38: Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-16T00:00:00+00:00",
+      "end": "2026-08-22T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [
+        6,
+        0
+      ]
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "38",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM)",
+      "expected": "Effective window 9AM-5:30PM | Max Shift End hard stop 6PM priority",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB pre/post shift travel 30min",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d030-workforce-boundaries-38-default-service-hours-8-30am-6",
+    "filter_variant": "current-week-exclusions"
+  },
+  {
+    "name": "r114-drive-buffer-10-d030-workforce-boundaries-38-default-service-hours-8-3",
+    "description": "CSV240 Workforce Boundaries #38: Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "drive_buffer": 10
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "38",
+      "group": "3 fields",
+      "condition": "Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM)",
+      "expected": "Effective window 9AM-5:30PM | Max Shift End hard stop 6PM priority",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB pre/post shift travel 30min",
+        "WB max shift end 18:00"
+      ]
+    },
+    "source_scenario": "d030-workforce-boundaries-38-default-service-hours-8-30am-6",
+    "filter_variant": "drive-buffer-10"
+  }
+]

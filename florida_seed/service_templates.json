@@ -1,0 +1,880 @@
+[
+  {
+    "id": "217",
+    "name": "Bed Bug Heat Treatment",
+    "color_code": "",
+    "repeat": 0,
+    "length": 240,
+    "always_confirmed": 0,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": null,
+      "summary": "Once"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": null,
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  },
+  {
+    "id": "207",
+    "name": "Bi-Monthly Service",
+    "color_code": "",
+    "repeat": 1,
+    "length": 30,
+    "always_confirmed": 1,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": {
+        "frequency": "MONTHLY",
+        "interval": "2",
+        "bymonthday": "dayofweek",
+        "SU": "0",
+        "MO": "0",
+        "TU": "0",
+        "WE": "0",
+        "TH": "0",
+        "FR": "0",
+        "SA": "0",
+        "ends": "never",
+        "occurances": "",
+        "endDate": ""
+      },
+      "summary": "Every 2 months"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": {
+      "recurrence": {
+        "offset": {
+          "frequency": "OFF",
+          "action_time": 540
+        },
+        "repeat": 0,
+        "summary": "This invoice repeats with the job.",
+        "action": 1
+      },
+      "items": [
+        {
+          "id": "93",
+          "item_id": "174",
+          "name": "Bi-Monthly Service",
+          "line_number": 0,
+          "description": "General maintenance every other month.",
+          "cost": {
+            "value": 65,
+            "format": "$65.00"
+          },
+          "quantity": 1,
+          "subtotal": {
+            "value": 65,
+            "format": "$65.00"
+          },
+          "tax1": null,
+          "tax2": null,
+          "total": {
+            "value": 65,
+            "format": "$65.00"
+          },
+          "one_time": 0
+        }
+      ],
+      "subtotal": {
+        "value": 65,
+        "format": "$65.00"
+      },
+      "total_received": {
+        "value": 0,
+        "format": "$0.00"
+      },
+      "amount_due": {
+        "value": 65,
+        "format": "$65.00"
+      },
+      "total": {
+        "value": 65,
+        "format": "$65.00"
+      },
+      "discount": {
+        "type": 1,
+        "value": null,
+        "total": {
+          "value": 0,
+          "format": "$0.00"
+        }
+      },
+      "terms": "Payment is due on receipt.",
+      "note": "Thank you for your business.",
+      "payment_terms": null
+    },
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  },
+  {
+    "id": "208",
+    "name": "Call Back Service",
+    "color_code": "",
+    "repeat": 0,
+    "length": 15,
+    "always_confirmed": 1,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": null,
+      "summary": "Once"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": {
+      "recurrence": {
+        "offset": {
+          "frequency": "OFF",
+          "action_time": 540
+        },
+        "repeat": 0,
+        "summary": "This invoice repeats with the job.",
+        "action": 1
+      },
+      "items": [
+        {
+          "id": "94",
+          "item_id": "175",
+          "name": "Call Back Service",
+          "line_number": 0,
+          "description": "Retreating for areas of concern.",
+          "cost": {
+            "value": 0,
+            "format": "$0.00"
+          },
+          "quantity": 1,
+          "subtotal": {
+            "value": 0,
+            "format": "$0.00"
+          },
+          "tax1": null,
+          "tax2": null,
+          "total": {
+            "value": 0,
+            "format": "$0.00"
+          },
+          "one_time": 0
+        }
+      ],
+      "subtotal": {
+        "value": 0,
+        "format": "$0.00"
+      },
+      "total_received": {
+        "value": 0,
+        "format": "$0.00"
+      },
+      "amount_due": {
+        "value": 0,
+        "format": "$0.00"
+      },
+      "total": {
+        "value": 0,
+        "format": "$0.00"
+      },
+      "discount": {
+        "type": 1,
+        "value": null,
+        "total": {
+          "value": 0,
+          "format": "$0.00"
+        }
+      },
+      "terms": "Payment is due on receipt.",
+      "note": "Thank you for your business.",
+      "payment_terms": null
+    },
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  },
+  {
+    "id": "221",
+    "name": "Eco-Friendly Pest Solutions",
+    "color_code": "",
+    "repeat": 0,
+    "length": 60,
+    "always_confirmed": 0,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": null,
+      "summary": "Once"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": null,
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  },
+  {
+    "id": "210",
+    "name": "Every 21 Days",
+    "color_code": "",
+    "repeat": 1,
+    "length": 30,
+    "always_confirmed": 0,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": {
+        "frequency": "DAILY",
+        "interval": "21",
+        "bymonthday": "dayofweek",
+        "SU": "0",
+        "MO": "0",
+        "TU": "0",
+        "WE": "0",
+        "TH": "0",
+        "FR": "0",
+        "SA": "0",
+        "ends": "never",
+        "occurances": "",
+        "endDate": ""
+      },
+      "summary": "Every 21 days"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": {
+      "recurrence": {
+        "offset": {
+          "frequency": "OFF",
+          "action_time": 540
+        },
+        "repeat": 0,
+        "summary": "This invoice repeats with the job.",
+        "action": 1
+      },
+      "items": [
+        {
+          "id": "96",
+          "item_id": "177",
+          "name": "Every 21 Days",
+          "line_number": 0,
+          "description": "Exterior service every 21 days.",
+          "cost": {
+            "value": 60,
+            "format": "$60.00"
+          },
+          "quantity": 1,
+          "subtotal": {
+            "value": 60,
+            "format": "$60.00"
+          },
+          "tax1": null,
+          "tax2": null,
+          "total": {
+            "value": 60,
+            "format": "$60.00"
+          },
+          "one_time": 0
+        }
+      ],
+      "subtotal": {
+        "value": 60,
+        "format": "$60.00"
+      },
+      "total_received": {
+        "value": 0,
+        "format": "$0.00"
+      },
+      "amount_due": {
+        "value": 60,
+        "format": "$60.00"
+      },
+      "total": {
+        "value": 60,
+        "format": "$60.00"
+      },
+      "discount": {
+        "type": 1,
+        "value": null,
+        "total": {
+          "value": 0,
+          "format": "$0.00"
+        }
+      },
+      "terms": "Payment is due on receipt.",
+      "note": "Thank you for your business.",
+      "payment_terms": null
+    },
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  },
+  {
+    "id": "220",
+    "name": "Flea & Tick Control",
+    "color_code": "",
+    "repeat": 0,
+    "length": 30,
+    "always_confirmed": 0,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": null,
+      "summary": "Once"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": null,
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  },
+  {
+    "id": "222",
+    "name": "Follow Up Inspections",
+    "color_code": "",
+    "repeat": 0,
+    "length": 30,
+    "always_confirmed": 0,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": null,
+      "summary": "Once"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": null,
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  },
+  {
+    "id": "212",
+    "name": "General Pest Control",
+    "color_code": "",
+    "repeat": 1,
+    "length": 60,
+    "always_confirmed": 0,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": {
+        "frequency": "MONTHLY",
+        "interval": "3",
+        "bymonthday": "dayofmonth",
+        "byyearday": "dayofyear",
+        "SU": "0",
+        "MO": "1",
+        "TU": "1",
+        "WE": "0",
+        "TH": "0",
+        "FR": "0",
+        "SA": "0",
+        "countChecked": "2",
+        "ends": "never",
+        "occurances": "",
+        "endDate": ""
+      },
+      "summary": "Every 3 months"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": null,
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  },
+  {
+    "id": "211",
+    "name": "Initial Service",
+    "color_code": "",
+    "repeat": 0,
+    "length": 60,
+    "always_confirmed": 0,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": null,
+      "summary": "Once"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": null,
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  },
+  {
+    "id": "205",
+    "name": "Monthly Service",
+    "color_code": "",
+    "repeat": 1,
+    "length": 15,
+    "always_confirmed": 1,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": {
+        "frequency": "MONTHLY",
+        "interval": "1",
+        "bymonthday": "dayofweek",
+        "SU": "0",
+        "MO": "0",
+        "TU": "0",
+        "WE": "0",
+        "TH": "0",
+        "FR": "0",
+        "SA": "0",
+        "ends": "never",
+        "occurances": "",
+        "endDate": ""
+      },
+      "summary": "Monthly"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": {
+      "recurrence": {
+        "offset": {
+          "frequency": "OFF",
+          "action_time": 540
+        },
+        "repeat": 0,
+        "summary": "This invoice repeats with the job.",
+        "action": 1
+      },
+      "items": [
+        {
+          "id": "91",
+          "item_id": "172",
+          "name": "Monthly Service",
+          "line_number": 0,
+          "description": "General maintenance monthly.",
+          "cost": {
+            "value": 35,
+            "format": "$35.00"
+          },
+          "quantity": 1,
+          "subtotal": {
+            "value": 35,
+            "format": "$35.00"
+          },
+          "tax1": null,
+          "tax2": null,
+          "total": {
+            "value": 35,
+            "format": "$35.00"
+          },
+          "one_time": 0
+        }
+      ],
+      "subtotal": {
+        "value": 35,
+        "format": "$35.00"
+      },
+      "total_received": {
+        "value": 0,
+        "format": "$0.00"
+      },
+      "amount_due": {
+        "value": 35,
+        "format": "$35.00"
+      },
+      "total": {
+        "value": 35,
+        "format": "$35.00"
+      },
+      "discount": {
+        "type": 1,
+        "value": null,
+        "total": {
+          "value": 0,
+          "format": "$0.00"
+        }
+      },
+      "terms": "Payment is due on receipt.",
+      "note": "Thank you for your business.",
+      "payment_terms": null
+    },
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  },
+  {
+    "id": "215",
+    "name": "Mosquito Reduction Program",
+    "color_code": "",
+    "repeat": 1,
+    "length": 60,
+    "always_confirmed": 0,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": {
+        "frequency": "MONTHLY",
+        "interval": "1",
+        "bymonthday": "dayofmonth",
+        "byyearday": "dayofyear",
+        "SU": "0",
+        "MO": "1",
+        "TU": "1",
+        "WE": "0",
+        "TH": "0",
+        "FR": "0",
+        "SA": "0",
+        "countChecked": "2",
+        "ends": "never",
+        "occurances": "",
+        "endDate": ""
+      },
+      "summary": "Monthly"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": null,
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  },
+  {
+    "id": "223",
+    "name": "Preventative Monitoring & Maintenance",
+    "color_code": "",
+    "repeat": 1,
+    "length": 30,
+    "always_confirmed": 0,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": {
+        "frequency": "MONTHLY",
+        "interval": "3",
+        "bymonthday": "dayofmonth",
+        "byyearday": "dayofyear",
+        "SU": "0",
+        "MO": "1",
+        "TU": "1",
+        "WE": "0",
+        "TH": "0",
+        "FR": "0",
+        "SA": "0",
+        "countChecked": "2",
+        "ends": "never",
+        "occurances": "",
+        "endDate": ""
+      },
+      "summary": "Every 3 months"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": null,
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  },
+  {
+    "id": "213",
+    "name": "Quarterly Pest Control",
+    "color_code": "",
+    "repeat": 1,
+    "length": 60,
+    "always_confirmed": 0,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": {
+        "frequency": "MONTHLY",
+        "interval": "3",
+        "bymonthday": "dayofmonth",
+        "byyearday": "dayofyear",
+        "SU": "0",
+        "MO": "1",
+        "TU": "1",
+        "WE": "0",
+        "TH": "0",
+        "FR": "0",
+        "SA": "0",
+        "countChecked": "2",
+        "ends": "never",
+        "occurances": "",
+        "endDate": ""
+      },
+      "summary": "Every 3 months"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": null,
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  },
+  {
+    "id": "206",
+    "name": "Quarterly Service",
+    "color_code": "",
+    "repeat": 1,
+    "length": 30,
+    "always_confirmed": 1,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": {
+        "frequency": "MONTHLY",
+        "interval": "3",
+        "bymonthday": "dayofmonth",
+        "SU": "0",
+        "MO": "0",
+        "TU": "0",
+        "WE": "0",
+        "TH": "0",
+        "FR": "0",
+        "SA": "0",
+        "ends": "never",
+        "occurances": "",
+        "endDate": ""
+      },
+      "summary": "Every 3 months"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": {
+      "recurrence": {
+        "offset": {
+          "frequency": "OFF",
+          "action_time": 540
+        },
+        "repeat": 0,
+        "summary": "This invoice repeats with the job.",
+        "action": 1
+      },
+      "items": [
+        {
+          "id": "92",
+          "item_id": "173",
+          "name": "Quarterly Service",
+          "line_number": 0,
+          "description": "General maintenance every 3 months.",
+          "cost": {
+            "value": 75,
+            "format": "$75.00"
+          },
+          "quantity": 1,
+          "subtotal": {
+            "value": 75,
+            "format": "$75.00"
+          },
+          "tax1": null,
+          "tax2": null,
+          "total": {
+            "value": 75,
+            "format": "$75.00"
+          },
+          "one_time": 0
+        }
+      ],
+      "subtotal": {
+        "value": 75,
+        "format": "$75.00"
+      },
+      "total_received": {
+        "value": 0,
+        "format": "$0.00"
+      },
+      "amount_due": {
+        "value": 75,
+        "format": "$75.00"
+      },
+      "total": {
+        "value": 75,
+        "format": "$75.00"
+      },
+      "discount": {
+        "type": 1,
+        "value": null,
+        "total": {
+          "value": 0,
+          "format": "$0.00"
+        }
+      },
+      "terms": "Payment is due on receipt.",
+      "note": "Thank you for your business.",
+      "payment_terms": null
+    },
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  },
+  {
+    "id": "216",
+    "name": "Rodent Control & Exclusion",
+    "color_code": "",
+    "repeat": 0,
+    "length": 60,
+    "always_confirmed": 0,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": null,
+      "summary": "Once"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": null,
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  },
+  {
+    "id": "214",
+    "name": "Termite Baiting & Monitoring",
+    "color_code": "",
+    "repeat": 1,
+    "length": 60,
+    "always_confirmed": 0,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": {
+        "frequency": "MONTHLY",
+        "interval": "3",
+        "bymonthday": "dayofmonth",
+        "byyearday": "dayofyear",
+        "SU": "0",
+        "MO": "1",
+        "TU": "1",
+        "WE": "0",
+        "TH": "0",
+        "FR": "0",
+        "SA": "0",
+        "countChecked": "2",
+        "ends": "never",
+        "occurances": "",
+        "endDate": ""
+      },
+      "summary": "Every 3 months"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": null,
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  },
+  {
+    "id": "219",
+    "name": "Wasp Nest Removal",
+    "color_code": "",
+    "repeat": 0,
+    "length": 60,
+    "always_confirmed": 0,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": null,
+      "summary": "Once"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": null,
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  },
+  {
+    "id": "218",
+    "name": "Wildlife Trapping & Relocation",
+    "color_code": "",
+    "repeat": 0,
+    "length": 120,
+    "always_confirmed": 0,
+    "job_cycle": 0,
+    "recurrence": {
+      "offset": null,
+      "summary": "Once"
+    },
+    "exception": {
+      "options": null,
+      "summary": ""
+    },
+    "invoice": null,
+    "estimate": null,
+    "documents": [],
+    "materials": [],
+    "todos": {
+      "data": []
+    }
+  }
+]

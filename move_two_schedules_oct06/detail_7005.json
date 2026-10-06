@@ -1,0 +1,149 @@
+{
+  "data": {
+    "job": {
+      "id": "7005",
+      "name": "Every 21 Days",
+      "status": 0,
+      "service": {
+        "id": "210",
+        "name": "Every 21 Days"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "09/30/2026 02:49PM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "7001",
+      "start": "2026-10-05T08:34:00+00:00",
+      "end": "2026-10-05T09:04:00+00:00",
+      "repeat": 1,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": {
+          "frequency": "DAILY",
+          "interval": "21",
+          "bymonthday": "dayofweek",
+          "SU": "0",
+          "MO": "0",
+          "TU": "0",
+          "WE": "0",
+          "TH": "0",
+          "FR": "0",
+          "SA": "0",
+          "ends": "never",
+          "occurances": "",
+          "endDate": ""
+        },
+        "summary": "Every 21 days"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2571",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Minh"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "89",
+        "name": "Minh",
+        "user_id": "84361565",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "14858",
+      "account_no": "AUTO_9767_3",
+      "title": "",
+      "first_name": "TestAuto_3",
+      "last_name": "Routing",
+      "full_name": "TestAuto_3 Routing",
+      "avatar": "TR",
+      "email": "test_auto_3@namlongsoft.net",
+      "phones": []
+    },
+    "location": {
+      "id": "14864",
+      "name": "500 Placida Rd",
+      "note": "",
+      "street1": "500 Placida Rd",
+      "street2": "",
+      "city": "Englewood",
+      "state": "FL",
+      "zip": "34223",
+      "lat": "26.945",
+      "lng": "-82.345",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": [
+        {
+          "id": "14835",
+          "email": "test_auto_3@namlongsoft.net",
+          "type": "customer"
+        }
+      ]
+    },
+    "contact": [],
+    "with_invoice": 1,
+    "invoice": {
+      "id": "37",
+      "status": "draft",
+      "total": "$60.00"
+    },
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  "success": true,
+  "message": []
+}

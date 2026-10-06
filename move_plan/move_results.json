@@ -1,0 +1,667 @@
+{
+  "baseline": {
+    "8499": {
+      "start": "2026-10-29T11:15:00+00:00",
+      "end": "2026-10-29T11:45:00+00:00",
+      "event_id": "8495",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8505": {
+      "start": "2026-10-18T14:30:00+00:00",
+      "end": "2026-10-18T15:00:00+00:00",
+      "event_id": "8501",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8513": {
+      "start": "2026-10-27T11:45:00+00:00",
+      "end": "2026-10-27T12:15:00+00:00",
+      "event_id": "8509",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8520": {
+      "start": "2026-10-25T12:30:00+00:00",
+      "end": "2026-10-25T12:45:00+00:00",
+      "event_id": "8516",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8526": {
+      "start": "2026-10-24T08:00:00+00:00",
+      "end": "2026-10-24T08:30:00+00:00",
+      "event_id": "8522",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8532": {
+      "start": "2026-10-10T16:15:00+00:00",
+      "end": "2026-10-10T17:15:00+00:00",
+      "event_id": "8528",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8534": {
+      "start": "2026-10-29T13:15:00+00:00",
+      "end": "2026-10-29T13:30:00+00:00",
+      "event_id": "8530",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8535": {
+      "start": "2026-10-24T16:15:00+00:00",
+      "end": "2026-10-24T16:45:00+00:00",
+      "event_id": "8531",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8539": {
+      "start": "2026-10-12T11:45:00+00:00",
+      "end": "2026-10-12T15:45:00+00:00",
+      "event_id": "8535",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8542": {
+      "start": "2026-10-31T17:00:00+00:00",
+      "end": "2026-10-31T17:15:00+00:00",
+      "event_id": "8538",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8500": {
+      "start": "2026-10-23T14:45:00+00:00",
+      "end": "2026-10-23T15:45:00+00:00",
+      "event_id": "8496",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8501": {
+      "start": "2026-10-21T14:00:00+00:00",
+      "end": "2026-10-21T14:30:00+00:00",
+      "event_id": "8497",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8507": {
+      "start": "2026-10-20T15:30:00+00:00",
+      "end": "2026-10-20T16:00:00+00:00",
+      "event_id": "8503",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8511": {
+      "start": "2026-10-30T13:15:00+00:00",
+      "end": "2026-10-30T15:15:00+00:00",
+      "event_id": "8507",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8517": {
+      "start": "2026-10-12T17:15:00+00:00",
+      "end": "2026-10-12T17:45:00+00:00",
+      "event_id": "8513",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8519": {
+      "start": "2026-10-28T13:30:00+00:00",
+      "end": "2026-10-28T14:30:00+00:00",
+      "event_id": "8515",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8527": {
+      "start": "2026-10-13T13:45:00+00:00",
+      "end": "2026-10-13T14:00:00+00:00",
+      "event_id": "8523",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8528": {
+      "start": "2026-10-27T10:30:00+00:00",
+      "end": "2026-10-27T11:00:00+00:00",
+      "event_id": "8524",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8536": {
+      "start": "2026-10-14T14:00:00+00:00",
+      "end": "2026-10-14T15:00:00+00:00",
+      "event_id": "8532",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8537": {
+      "start": "2026-10-21T12:30:00+00:00",
+      "end": "2026-10-21T13:00:00+00:00",
+      "event_id": "8533",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8502": {
+      "start": "2026-10-11T15:15:00+00:00",
+      "end": "2026-10-11T15:45:00+00:00",
+      "event_id": "8498",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8503": {
+      "start": "2026-10-13T12:00:00+00:00",
+      "end": "2026-10-13T12:15:00+00:00",
+      "event_id": "8499",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8506": {
+      "start": "2026-10-09T06:30:00+00:00",
+      "end": "2026-10-09T07:30:00+00:00",
+      "event_id": "8502",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8509": {
+      "start": "2026-10-25T11:30:00+00:00",
+      "end": "2026-10-25T11:45:00+00:00",
+      "event_id": "8505",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8510": {
+      "start": "2026-10-09T10:15:00+00:00",
+      "end": "2026-10-09T10:45:00+00:00",
+      "event_id": "8506",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8516": {
+      "start": "2026-10-26T13:30:00+00:00",
+      "end": "2026-10-26T15:30:00+00:00",
+      "event_id": "8512",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8521": {
+      "start": "2026-10-28T15:45:00+00:00",
+      "end": "2026-10-28T16:45:00+00:00",
+      "event_id": "8517",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8522": {
+      "start": "2026-10-10T11:00:00+00:00",
+      "end": "2026-10-10T11:30:00+00:00",
+      "event_id": "8518",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8529": {
+      "start": "2026-10-19T12:30:00+00:00",
+      "end": "2026-10-19T13:00:00+00:00",
+      "event_id": "8525",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8538": {
+      "start": "2026-10-20T12:30:00+00:00",
+      "end": "2026-10-20T13:30:00+00:00",
+      "event_id": "8534",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8504": {
+      "start": "2026-10-09T09:00:00+00:00",
+      "end": "2026-10-09T09:30:00+00:00",
+      "event_id": "8500",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8508": {
+      "start": "2026-10-13T10:15:00+00:00",
+      "end": "2026-10-13T10:30:00+00:00",
+      "event_id": "8504",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8512": {
+      "start": "2026-10-12T16:15:00+00:00",
+      "end": "2026-10-12T16:45:00+00:00",
+      "event_id": "8508",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8514": {
+      "start": "2026-10-26T09:00:00+00:00",
+      "end": "2026-10-26T09:15:00+00:00",
+      "event_id": "8510",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8515": {
+      "start": "2026-10-31T10:00:00+00:00",
+      "end": "2026-10-31T11:00:00+00:00",
+      "event_id": "8511",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8523": {
+      "start": "2026-10-29T15:30:00+00:00",
+      "end": "2026-10-29T16:00:00+00:00",
+      "event_id": "8519",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8524": {
+      "start": "2026-10-24T08:45:00+00:00",
+      "end": "2026-10-24T09:45:00+00:00",
+      "event_id": "8520",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8530": {
+      "start": "2026-10-27T14:15:00+00:00",
+      "end": "2026-10-27T16:15:00+00:00",
+      "event_id": "8526",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8531": {
+      "start": "2026-10-13T13:00:00+00:00",
+      "end": "2026-10-13T13:30:00+00:00",
+      "event_id": "8527",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8540": {
+      "start": "2026-10-17T15:00:00+00:00",
+      "end": "2026-10-17T16:00:00+00:00",
+      "event_id": "8536",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8518": {
+      "start": "2026-10-25T14:00:00+00:00",
+      "end": "2026-10-25T15:00:00+00:00",
+      "event_id": "8514",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8525": {
+      "start": "2026-10-10T12:15:00+00:00",
+      "end": "2026-10-10T13:15:00+00:00",
+      "event_id": "8521",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8533": {
+      "start": "2026-10-23T08:30:00+00:00",
+      "end": "2026-10-23T10:30:00+00:00",
+      "event_id": "8529",
+      "schedule_ids": [
+        "31"
+      ]
+    },
+    "8541": {
+      "start": "2026-10-10T13:45:00+00:00",
+      "end": "2026-10-10T14:45:00+00:00",
+      "event_id": "8537",
+      "schedule_ids": [
+        "31"
+      ]
+    }
+  },
+  "moved": {
+    "8499": {
+      "event_id": "8495",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-10T08:00:00+00:00",
+      "target_end": "2026-10-10T08:30:00+00:00"
+    },
+    "8505": {
+      "event_id": "8501",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-10T08:45:00+00:00",
+      "target_end": "2026-10-10T09:15:00+00:00"
+    },
+    "8513": {
+      "event_id": "8509",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-10T09:30:00+00:00",
+      "target_end": "2026-10-10T10:00:00+00:00"
+    },
+    "8520": {
+      "event_id": "8516",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-10T10:15:00+00:00",
+      "target_end": "2026-10-10T10:30:00+00:00"
+    },
+    "8526": {
+      "event_id": "8522",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-10T10:45:00+00:00",
+      "target_end": "2026-10-10T11:15:00+00:00"
+    },
+    "8532": {
+      "event_id": "8528",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-10T11:30:00+00:00",
+      "target_end": "2026-10-10T12:30:00+00:00"
+    },
+    "8534": {
+      "event_id": "8530",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-10T12:45:00+00:00",
+      "target_end": "2026-10-10T13:00:00+00:00"
+    },
+    "8535": {
+      "event_id": "8531",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-10T13:15:00+00:00",
+      "target_end": "2026-10-10T13:45:00+00:00"
+    },
+    "8539": {
+      "event_id": "8535",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-10T14:00:00+00:00",
+      "target_end": "2026-10-10T18:00:00+00:00"
+    },
+    "8542": {
+      "event_id": "8538",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-10T18:15:00+00:00",
+      "target_end": "2026-10-10T18:30:00+00:00"
+    },
+    "8500": {
+      "event_id": "8496",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-11T08:00:00+00:00",
+      "target_end": "2026-10-11T09:00:00+00:00"
+    },
+    "8501": {
+      "event_id": "8497",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-11T09:15:00+00:00",
+      "target_end": "2026-10-11T09:45:00+00:00"
+    },
+    "8507": {
+      "event_id": "8503",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-11T10:00:00+00:00",
+      "target_end": "2026-10-11T10:30:00+00:00"
+    },
+    "8511": {
+      "event_id": "8507",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-11T10:45:00+00:00",
+      "target_end": "2026-10-11T12:45:00+00:00"
+    },
+    "8517": {
+      "event_id": "8513",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-11T13:00:00+00:00",
+      "target_end": "2026-10-11T13:30:00+00:00"
+    },
+    "8519": {
+      "event_id": "8515",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-11T13:45:00+00:00",
+      "target_end": "2026-10-11T14:45:00+00:00"
+    },
+    "8527": {
+      "event_id": "8523",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-11T15:00:00+00:00",
+      "target_end": "2026-10-11T15:15:00+00:00"
+    },
+    "8528": {
+      "event_id": "8524",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-11T15:30:00+00:00",
+      "target_end": "2026-10-11T16:00:00+00:00"
+    },
+    "8536": {
+      "event_id": "8532",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-11T16:15:00+00:00",
+      "target_end": "2026-10-11T17:15:00+00:00"
+    },
+    "8537": {
+      "event_id": "8533",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-11T17:30:00+00:00",
+      "target_end": "2026-10-11T18:00:00+00:00"
+    },
+    "8502": {
+      "event_id": "8498",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-12T08:00:00+00:00",
+      "target_end": "2026-10-12T08:30:00+00:00"
+    },
+    "8503": {
+      "event_id": "8499",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-12T08:45:00+00:00",
+      "target_end": "2026-10-12T09:00:00+00:00"
+    },
+    "8506": {
+      "event_id": "8502",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-12T09:15:00+00:00",
+      "target_end": "2026-10-12T10:15:00+00:00"
+    },
+    "8509": {
+      "event_id": "8505",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-12T10:30:00+00:00",
+      "target_end": "2026-10-12T10:45:00+00:00"
+    },
+    "8510": {
+      "event_id": "8506",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-12T11:00:00+00:00",
+      "target_end": "2026-10-12T11:30:00+00:00"
+    },
+    "8516": {
+      "event_id": "8512",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-12T11:45:00+00:00",
+      "target_end": "2026-10-12T13:45:00+00:00"
+    },
+    "8521": {
+      "event_id": "8517",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-12T14:00:00+00:00",
+      "target_end": "2026-10-12T15:00:00+00:00"
+    },
+    "8522": {
+      "event_id": "8518",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-12T15:15:00+00:00",
+      "target_end": "2026-10-12T15:45:00+00:00"
+    },
+    "8529": {
+      "event_id": "8525",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-12T16:00:00+00:00",
+      "target_end": "2026-10-12T16:30:00+00:00"
+    },
+    "8538": {
+      "event_id": "8534",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-12T16:45:00+00:00",
+      "target_end": "2026-10-12T17:45:00+00:00"
+    },
+    "8504": {
+      "event_id": "8500",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-13T08:00:00+00:00",
+      "target_end": "2026-10-13T08:30:00+00:00"
+    },
+    "8508": {
+      "event_id": "8504",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-13T08:45:00+00:00",
+      "target_end": "2026-10-13T09:00:00+00:00"
+    },
+    "8512": {
+      "event_id": "8508",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-13T09:15:00+00:00",
+      "target_end": "2026-10-13T09:45:00+00:00"
+    },
+    "8514": {
+      "event_id": "8510",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-13T10:00:00+00:00",
+      "target_end": "2026-10-13T10:15:00+00:00"
+    },
+    "8515": {
+      "event_id": "8511",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-13T10:30:00+00:00",
+      "target_end": "2026-10-13T11:30:00+00:00"
+    },
+    "8523": {
+      "event_id": "8519",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-13T11:45:00+00:00",
+      "target_end": "2026-10-13T12:15:00+00:00"
+    },
+    "8524": {
+      "event_id": "8520",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-13T12:30:00+00:00",
+      "target_end": "2026-10-13T13:30:00+00:00"
+    },
+    "8530": {
+      "event_id": "8526",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-13T13:45:00+00:00",
+      "target_end": "2026-10-13T15:45:00+00:00"
+    },
+    "8531": {
+      "event_id": "8527",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-13T16:00:00+00:00",
+      "target_end": "2026-10-13T16:30:00+00:00"
+    },
+    "8540": {
+      "event_id": "8536",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-13T16:45:00+00:00",
+      "target_end": "2026-10-13T17:45:00+00:00"
+    },
+    "8518": {
+      "event_id": "8514",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-14T08:00:00+00:00",
+      "target_end": "2026-10-14T09:00:00+00:00"
+    },
+    "8525": {
+      "event_id": "8521",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-14T09:15:00+00:00",
+      "target_end": "2026-10-14T10:15:00+00:00"
+    },
+    "8533": {
+      "event_id": "8529",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-14T10:30:00+00:00",
+      "target_end": "2026-10-14T12:30:00+00:00"
+    },
+    "8541": {
+      "event_id": "8537",
+      "response_success": true,
+      "verified": true,
+      "target_start": "2026-10-14T12:45:00+00:00",
+      "target_end": "2026-10-14T13:45:00+00:00"
+    }
+  },
+  "pending": null
+}

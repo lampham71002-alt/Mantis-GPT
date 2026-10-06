@@ -1,0 +1,49 @@
+curl --url 'https://apiv2.gdesk.io/api/jobs/8502/move' \
+  -X 'PUT' \
+  -H 'Accept: application/json' \
+  -H 'Accept-Language: en-US,en;q=0.9,vi;q=0.8' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Origin: https://r2.gdesk.io' \
+  -H 'Referer: https://r2.gdesk.io/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  -H 'gd-branch-id: GDONWL5A5MI6' \
+  -H 'platform: web' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Google Chrome";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'token: GhI6fKX1PPMcAHEmBtNAymzDSaYhQ5ktEUD4RdKugqg4cZrQgX3Xg1xXEfhg13D98qSDcH9kzrJYWUUWDrN5XeGfoAw4Jre1CPYtW70YCz7dVfk19QXazw8xIZq16FX6843614451790930256' \
+  --data-raw '{"typeEvent":"job","start":"2026-10-11T07:15:00.000Z","color_id":1,"schedule":"31","agenda":"agendaTwoWeeks","agenda_start":"2026-10-04T00:00:00Z","all":0,"notify_tech":0,"socket_id":"1790997828581_main_calendar"}'
+
+==================
+payload: {typeEvent: "job", start: "2026-10-11T07:15:00.000Z", color_id: 1, schedule: "31",…}
+agenda
+: 
+"agendaTwoWeeks"
+agenda_start
+: 
+"2026-10-04T00:00:00Z"
+all
+: 
+0
+color_id
+: 
+1
+notify_tech
+: 
+0
+schedule
+: 
+"31"
+socket_id
+: 
+"1790997828581_main_calendar"
+start
+: 
+"2026-10-11T07:15:00.000Z"
+typeEvent
+: 
+"job"

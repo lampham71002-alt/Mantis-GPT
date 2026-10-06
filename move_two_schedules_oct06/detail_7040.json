@@ -1,0 +1,135 @@
+{
+  "data": {
+    "job": {
+      "id": "7040",
+      "name": "Call Back Service",
+      "status": 1,
+      "service": {
+        "id": "208",
+        "name": "Call Back Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "09/30/2026 02:49PM"
+      },
+      "locked": 1,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 1
+    },
+    "event": {
+      "id": "7036",
+      "start": "2026-10-05T10:08:00+00:00",
+      "end": "2026-10-05T10:38:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2572",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "14859",
+      "account_no": "AUTO_0810_4",
+      "title": "",
+      "first_name": "TestAuto_4",
+      "last_name": "Routing",
+      "full_name": "TestAuto_4 Routing",
+      "avatar": "TR",
+      "email": "test_auto_4@namlongsoft.net",
+      "phones": []
+    },
+    "location": {
+      "id": "14865",
+      "name": "1200 Rotonda Blvd W",
+      "note": "",
+      "street1": "1200 Rotonda Blvd W",
+      "street2": "",
+      "city": "Rotonda West",
+      "state": "FL",
+      "zip": "33947",
+      "lat": "26.889",
+      "lng": "-82.298",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": [
+        {
+          "id": "14836",
+          "email": "test_auto_4@namlongsoft.net",
+          "type": "customer"
+        }
+      ]
+    },
+    "contact": [],
+    "with_invoice": 1,
+    "invoice": {
+      "id": "38",
+      "status": "draft",
+      "total": "$0.00"
+    },
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  "success": true,
+  "message": []
+}

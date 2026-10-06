@@ -1,0 +1,252 @@
+{
+  "id": "1055",
+  "checks": [
+    {
+      "delay_since_previous_seconds": 0,
+      "utc": "2026-10-03T05:18:55.901531+00:00",
+      "detail": {
+        "id": "1055",
+        "title": "Call Back Service Mandatory Assignment",
+        "description": "All Call Back Service jobs must be forcibly assigned to technician Lam 1 as a mandatory requirement.",
+        "status": 2,
+        "created_by": {
+          "id": "84361445",
+          "first_name": "Lam",
+          "last_name": "Test",
+          "full_name": "Lam Test",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "created_date": "2026-10-02T08:01:12+00:00",
+        "updated_date": "2026-10-02T08:01:12+00:00",
+        "conversation_id": "60e93816-74b3-4d2b-9bb9-5927655cf29f",
+        "rule_detail": {
+          "case": {
+            "text": "Conflicts with: System — Cross-technician routing."
+          },
+          "rule": {
+            "text": "All Call Back Service jobs must be forcibly assigned to technician Lam 1 as a mandatory requirement."
+          },
+          "issue": {
+            "text": "Jobs stay on their assigned technician."
+          },
+          "intent_conflicts": {
+            "0:0": {
+              "category": "hard_conflict",
+              "blocked_by": [
+                {
+                  "intent": null,
+                  "rule_id": null,
+                  "rule_type": "system",
+                  "system_rule_key": "system_rules.allow_cross_technician_routing"
+                }
+              ]
+            }
+          },
+          "conflict_system_rule_keys": [
+            "system_rules.allow_cross_technician_routing"
+          ]
+        },
+        "executable_logic": {
+          "id": "rule_1",
+          "name": "Call Back Service Mandatory Assignment",
+          "rule": "All Call Back Service jobs must be forcibly assigned to technician Lam 1 as a mandatory requirement.",
+          "rules": [
+            {
+              "actions": [
+                {
+                  "params": {
+                    "tech_name": "Lam 1"
+                  },
+                  "action_type": "force_tech"
+                }
+              ],
+              "targets": {
+                "match": "all",
+                "statuses": [],
+                "service_date": [],
+                "customer_tags": [],
+                "region_labels": [],
+                "service_types": [
+                  "Call Back Service"
+                ],
+                "customer_names": [],
+                "customer_addresses": []
+              }
+            }
+          ],
+          "summary": "For Call Back Service jobs, the system requires mandatory assignment to technician Lam 1 to ensure dedicated service handling and technician continuity for follow-up visits.",
+          "classify_action": "gen_rule"
+        }
+      }
+    },
+    {
+      "delay_since_previous_seconds": 5,
+      "utc": "2026-10-03T05:19:01.811829+00:00",
+      "detail": {
+        "id": "1055",
+        "title": "Call Back Service Mandatory Assignment",
+        "description": "All Call Back Service jobs must be forcibly assigned to technician Lam 1 as a mandatory requirement.",
+        "status": 2,
+        "created_by": {
+          "id": "84361445",
+          "first_name": "Lam",
+          "last_name": "Test",
+          "full_name": "Lam Test",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "created_date": "2026-10-02T08:01:12+00:00",
+        "updated_date": "2026-10-02T08:01:12+00:00",
+        "conversation_id": "60e93816-74b3-4d2b-9bb9-5927655cf29f",
+        "rule_detail": {
+          "case": {
+            "text": "Conflicts with: System — Cross-technician routing."
+          },
+          "rule": {
+            "text": "All Call Back Service jobs must be forcibly assigned to technician Lam 1 as a mandatory requirement."
+          },
+          "issue": {
+            "text": "Jobs stay on their assigned technician."
+          },
+          "intent_conflicts": {
+            "0:0": {
+              "category": "hard_conflict",
+              "blocked_by": [
+                {
+                  "intent": null,
+                  "rule_id": null,
+                  "rule_type": "system",
+                  "system_rule_key": "system_rules.allow_cross_technician_routing"
+                }
+              ]
+            }
+          },
+          "conflict_system_rule_keys": [
+            "system_rules.allow_cross_technician_routing"
+          ]
+        },
+        "executable_logic": {
+          "id": "rule_1",
+          "name": "Call Back Service Mandatory Assignment",
+          "rule": "All Call Back Service jobs must be forcibly assigned to technician Lam 1 as a mandatory requirement.",
+          "rules": [
+            {
+              "actions": [
+                {
+                  "params": {
+                    "tech_name": "Lam 1"
+                  },
+                  "action_type": "force_tech"
+                }
+              ],
+              "targets": {
+                "match": "all",
+                "statuses": [],
+                "service_date": [],
+                "customer_tags": [],
+                "region_labels": [],
+                "service_types": [
+                  "Call Back Service"
+                ],
+                "customer_names": [],
+                "customer_addresses": []
+              }
+            }
+          ],
+          "summary": "For Call Back Service jobs, the system requires mandatory assignment to technician Lam 1 to ensure dedicated service handling and technician continuity for follow-up visits.",
+          "classify_action": "gen_rule"
+        }
+      }
+    },
+    {
+      "delay_since_previous_seconds": 10,
+      "utc": "2026-10-03T05:19:12.582761+00:00",
+      "detail": {
+        "id": "1055",
+        "title": "Call Back Service Mandatory Assignment",
+        "description": "All Call Back Service jobs must be forcibly assigned to technician Lam 1 as a mandatory requirement.",
+        "status": 2,
+        "created_by": {
+          "id": "84361445",
+          "first_name": "Lam",
+          "last_name": "Test",
+          "full_name": "Lam Test",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "created_date": "2026-10-02T08:01:12+00:00",
+        "updated_date": "2026-10-02T08:01:12+00:00",
+        "conversation_id": "60e93816-74b3-4d2b-9bb9-5927655cf29f",
+        "rule_detail": {
+          "case": {
+            "text": "Conflicts with: System — Cross-technician routing."
+          },
+          "rule": {
+            "text": "All Call Back Service jobs must be forcibly assigned to technician Lam 1 as a mandatory requirement."
+          },
+          "issue": {
+            "text": "Jobs stay on their assigned technician."
+          },
+          "intent_conflicts": {
+            "0:0": {
+              "category": "hard_conflict",
+              "blocked_by": [
+                {
+                  "intent": null,
+                  "rule_id": null,
+                  "rule_type": "system",
+                  "system_rule_key": "system_rules.allow_cross_technician_routing"
+                }
+              ]
+            }
+          },
+          "conflict_system_rule_keys": [
+            "system_rules.allow_cross_technician_routing"
+          ]
+        },
+        "executable_logic": {
+          "id": "rule_1",
+          "name": "Call Back Service Mandatory Assignment",
+          "rule": "All Call Back Service jobs must be forcibly assigned to technician Lam 1 as a mandatory requirement.",
+          "rules": [
+            {
+              "actions": [
+                {
+                  "params": {
+                    "tech_name": "Lam 1"
+                  },
+                  "action_type": "force_tech"
+                }
+              ],
+              "targets": {
+                "match": "all",
+                "statuses": [],
+                "service_date": [],
+                "customer_tags": [],
+                "region_labels": [],
+                "service_types": [
+                  "Call Back Service"
+                ],
+                "customer_names": [],
+                "customer_addresses": []
+              }
+            }
+          ],
+          "summary": "For Call Back Service jobs, the system requires mandatory assignment to technician Lam 1 to ensure dedicated service handling and technician continuity for follow-up visits.",
+          "classify_action": "gen_rule"
+        }
+      }
+    }
+  ],
+  "toggle_response": {
+    "data": {
+      "id": "1055",
+      "status": 1,
+      "rule_conflict": null
+    },
+    "success": true,
+    "message": []
+  },
+  "restored": true
+}

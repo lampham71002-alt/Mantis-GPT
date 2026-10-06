@@ -1,0 +1,279 @@
+#,Group,Conditions (Actions),Input,Object,Expected,Conflict?
+1,1 action,keep_period (week/month),,,Job keeps in original week/month
+2,1 action,force_tech (tech_id),,,Tech must assign to job
+3,1 action,prefer_tech ($stop.preferred),,,Tech priority if available
+4,1 action,movement_limit (max_days: N),,,Limit N days for jobs to be migrated
+5,1 action,time_window (strict) [08:00-14:00],,,Job must arrive within the time frame (hard)
+6,1 action,time_window (soft) [08:00-12:00],,,Prioritize time frame (soft)
+7,1 action,arrival_window_duration (3600s),,,Notification window ±30min
+8,1 action,first_stop,,,Job goes first of the day
+9,1 action,last_stop,,,Job left last for the day
+10,1 action,lock,,,"Job is locked, auto-pilot route around"
+11,1 action,exclude,,,Job is completely excluded from routing
+12,2 actions,keep_period (week/month) + force_tech (tech_id),,,Job kept in base week/month | Tech must assign to job
+13,2 actions,keep_period (week/month) + prefer_tech ($stop.preferred),,,Job kept in base week/month | Tech priority if available
+14,2 actions,keep_period (week/month) + movement_limit (max_days: N),,,Job kept in base week/month | Limit N days for jobs to be migrated
+15,2 actions,keep_period (week/month) + time_window (strict) [08:00-14:00],,,Job kept in base week/month | Job must arrive within the time frame (hard)
+16,2 actions,keep_period (week/month) + time_window (soft) [08:00-12:00],,,Job kept in base week/month | Prioritize time frame (soft)
+17,2 actions,keep_period (week/month) + arrival_window_duration (3600s),,,Job kept in base week/month | Notification window ±30min
+18,2 actions,keep_period (week/month) + first_stop,,,Job kept in base week/month | Job goes first of the day
+19,2 actions,keep_period (week/month) + last_stop,,,Job kept in base week/month | Job left last for the day
+20,2 actions,keep_period (week/month) + lock,,,"Job kept in base week/month | Job is locked, auto-pilot route around"
+21,2 actions,keep_period (week/month) + exclude,,,Job kept in base week/month | Job is completely excluded from routing
+22,2 actions,force_tech (tech_id) + prefer_tech ($stop.preferred),,,Tech must assign to job | Tech priority if available,REDUNDANT — force_tech override prefer_tech
+23,2 actions,force_tech (tech_id) + movement_limit (max_days: N),,,Tech must assign to job | Limit N days for jobs to be migrated
+24,2 actions,force_tech (tech_id) + time_window (strict) [08:00-14:00],,,Tech must assign to job | Job must arrive within the time frame (hard)
+25,2 actions,force_tech (tech_id) + time_window (soft) [08:00-12:00],,,Tech must assign to job | Prioritize time frame (soft)
+26,2 actions,force_tech (tech_id) + arrival_window_duration (3600s),,,Tech must assign to job | Notification window ±30min
+27,2 actions,force_tech (tech_id) + first_stop,,,Tech must assign to job | Job goes first of the day
+28,2 actions,force_tech (tech_id) + last_stop,,,Tech must assign to job | Job left last for the day
+29,2 actions,force_tech (tech_id) + lock,,,"Tech must assign to job | Job is locked, auto-pilot route around"
+30,2 actions,force_tech (tech_id) + exclude,,,Tech must assign to job | Job is completely excluded from routing,CONFLICT — force_tech vs exclude contradictory
+31,2 actions,prefer_tech ($stop.preferred) + movement_limit (max_days: N),,,Tech priority if available | Limit N days for jobs to be migrated
+32,2 actions,prefer_tech ($stop.preferred) + time_window (strict) [08:00-14:00],,,Tech priority if available | Job must arrive within the time frame (hard)
+33,2 actions,prefer_tech ($stop.preferred) + time_window (soft) [08:00-12:00],,,Tech priority if available | Prioritize time frame (soft)
+34,2 actions,prefer_tech ($stop.preferred) + arrival_window_duration (3600s),,,Tech priority if available | Notification window ±30min
+35,2 actions,prefer_tech ($stop.preferred) + first_stop,,,Tech priority if available | Job goes first of the day
+36,2 actions,prefer_tech ($stop.preferred) + last_stop,,,Tech priority if available | Job left last for the day
+37,2 actions,prefer_tech ($stop.preferred) + lock,,,"Tech priority if available | Job is locked, auto-pilot route around"
+38,2 actions,prefer_tech ($stop.preferred) + exclude,,,Tech priority if available | Job is completely excluded from routing
+39,2 actions,movement_limit (max_days: N) + time_window (strict) [08:00-14:00],,,Limit N days for jobs to be moved | Job must arrive within the time frame (hard)
+40,2 actions,movement_limit (max_days: N) + time_window (soft) [08:00-12:00],,,Limit N days for jobs to be moved | Prioritize time frame (soft)
+41,2 actions,movement_limit (max_days: N) + arrival_window_duration (3600s),,,Limit N days for jobs to be moved | Notification window ±30min
+42,2 actions,movement_limit (max_days: N) + first_stop,,,Limit N days for jobs to be moved | Job goes first of the day
+43,2 actions,movement_limit (max_days: N) + last_stop,,,Limit N days for jobs to be moved | Job left last for the day
+44,2 actions,movement_limit (max_days: N) + lock,,,"Limit N days for jobs to be moved | Job is locked, auto-pilot route around"
+45,2 actions,movement_limit (max_days: N) + exclude,,,Limit N days for jobs to be moved | Job is completely excluded from routing
+46,2 actions,time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00],,,Job must arrive within the time frame (hard) | Prioritize time frame (soft)
+47,2 actions,time_window (strict) [08:00-14:00] + arrival_window_duration (3600s),,,Job must arrive within the time frame (hard) | Notification window ±30min
+48,2 actions,time_window (strict) [08:00-14:00] + first_stop,,,Job must arrive within the time frame (hard) | Job goes first of the day
+49,2 actions,time_window (strict) [08:00-14:00] + last_stop,,,Job must arrive within the time frame (hard) | Job left last for the day
+50,2 actions,time_window (strict) [08:00-14:00] + lock,,,"Job must arrive within the time frame (hard) | Job is locked, auto-pilot route around"
+51,2 actions,time_window (strict) [08:00-14:00] + exclude,,,Job must arrive within the time frame (hard) | Job is completely excluded from routing
+52,2 actions,time_window (soft) [08:00-12:00] + arrival_window_duration (3600s),,,Prioritize time frame (soft) | Notification window ±30min
+53,2 actions,time_window (soft) [08:00-12:00] + first_stop,,,Prioritize time frame (soft) | Job goes first of the day
+54,2 actions,time_window (soft) [08:00-12:00] + last_stop,,,Prioritize time frame (soft) | Job left last for the day
+55,2 actions,time_window (soft) [08:00-12:00] + lock,,,"Prioritize time frame (soft) | Job is locked, auto-pilot route around"
+56,2 actions,time_window (soft) [08:00-12:00] + exclude,,,Prioritize time frame (soft) | Job is completely excluded from routing
+57,2 actions,arrival_window_duration (3600s) + first_stop,,,Notification window ±30min | Job goes first of the day
+58,2 actions,arrival_window_duration (3600s) + last_stop,,,Notification window ±30min | Job left last for the day
+59,2 actions,arrival_window_duration (3600s) + lock,,,"Notification window ±30min | Job is locked, auto-pilot route around"
+60,2 actions,arrival_window_duration (3600s) + exclude,,,Notification window ±30min | Job is completely excluded from routing
+61,2 actions,first_stop + last_stop,,,Job goes first of the day | Job left last for the day,CONFLICT — cannot be both first and last
+62,2 actions,first_stop + lock,,,"Job goes first of the day | Job is locked, auto-pilot route around"
+63,2 actions,first_stop + exclude,,,Job goes first of the day | Job is completely excluded from routing,CONFLICT — first_stop vs exclude contradictory
+64,2 actions,last_stop + lock,,,"Last job of the day | Job is locked, auto-pilot route around"
+65,2 actions,last_stop + exclude,,,Last job of the day | Job is completely excluded from routing,CONFLICT — last_stop vs exclude contradictory
+66,2 actions,lock + exclude,,,"Job locked, auto-pilot route around | Job is completely excluded from routing",CONFLICT — lock vs exclude contradictory
+67,3 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred),,,Job kept in base week/month | Tech must assign to job | Tech priority if available,REDUNDANT — force_tech override prefer_tech
+68,3 actions,keep_period (week/month) + force_tech (tech_id) + movement_limit (max_days: N),,,Job kept in base week/month | Tech must assign to job | Limit N days for jobs to be migrated
+69,3 actions,keep_period (week/month) + force_tech (tech_id) + time_window (strict) [08:00-14:00],,,Job kept in base week/month | Tech must assign to job | Job must arrive within the time frame (hard)
+70,3 actions,keep_period (week/month) + force_tech (tech_id) + time_window (soft) [08:00-12:00],,,Job kept in base week/month | Tech must assign to job | Prioritize time frame (soft)
+71,3 actions,keep_period (week/month) + force_tech (tech_id) + arrival_window_duration (3600s),,,Job kept in base week/month | Tech must assign to job | Notification window ±30min
+72,3 actions,keep_period (week/month) + force_tech (tech_id) + first_stop,,,Job kept in base week/month | Tech must assign to job | Job goes first of the day
+73,3 actions,keep_period (week/month) + force_tech (tech_id) + last_stop,,,Job kept in base week/month | Tech must assign to job | Job left last for the day
+74,3 actions,keep_period (week/month) + force_tech (tech_id) + lock,,,"Job kept in base week/month | Tech must assign to job | Job is locked, auto-pilot route around"
+75,3 actions,keep_period (week/month) + force_tech (tech_id) + exclude,,,Job kept in base week/month | Tech must assign to job | Job is completely excluded from routing,CONFLICT — force_tech vs exclude contradictory
+76,3 actions,keep_period (week/month) + prefer_tech ($stop.preferred) + movement_limit (max_days: N),,,Job kept in base week/month | Tech priority if available | Limit N days for jobs to be migrated
+77,3 actions,keep_period (week/month) + prefer_tech ($stop.preferred) + time_window (strict) [08:00-14:00],,,Job kept in base week/month | Tech priority if available | Job must arrive within the time frame (hard)
+78,3 actions,keep_period (week/month) + prefer_tech ($stop.preferred) + time_window (soft) [08:00-12:00],,,Job kept in base week/month | Tech priority if available | Prioritize time frame (soft)
+79,3 actions,keep_period (week/month) + prefer_tech ($stop.preferred) + arrival_window_duration (3600s),,,Job kept in base week/month | Tech priority if available | Notification window ±30min
+80,3 actions,keep_period (week/month) + prefer_tech ($stop.preferred) + first_stop,,,Job kept in base week/month | Tech priority if available | Job goes first of the day
+81,3 actions,keep_period (week/month) + prefer_tech ($stop.preferred) + last_stop,,,Job kept in base week/month | Tech priority if available | Job left last for the day
+82,3 actions,keep_period (week/month) + prefer_tech ($stop.preferred) + lock,,,"Job kept in base week/month | Tech priority if available | Job is locked, auto-pilot route around"
+83,3 actions,keep_period (week/month) + prefer_tech ($stop.preferred) + exclude,,,Job kept in base week/month | Tech priority if available | Job is completely excluded from routing
+84,3 actions,keep_period (week/month) + movement_limit (max_days: N) + time_window (strict) [08:00-14:00],,,Job kept in base week/month | Limit N days for jobs to be moved | Job must arrive within the time frame (hard)
+85,3 actions,keep_period (week/month) + movement_limit (max_days: N) + time_window (soft) [08:00-12:00],,,Job kept in base week/month | Limit N days for jobs to be moved | Prioritize time frame (soft)
+86,3 actions,keep_period (week/month) + movement_limit (max_days: N) + arrival_window_duration (3600s),,,Job kept in base week/month | Limit N days for jobs to be moved | Notification window ±30min
+87,3 actions,keep_period (week/month) + movement_limit (max_days: N) + first_stop,,,Job kept in base week/month | Limit N days for jobs to be moved | Job goes first of the day
+88,3 actions,keep_period (week/month) + movement_limit (max_days: N) + last_stop,,,Job kept in base week/month | Limit N days for jobs to be moved | Job left last for the day
+89,3 actions,keep_period (week/month) + movement_limit (max_days: N) + lock,,,"Job kept in base week/month | Limit N days for jobs to be moved | Job is locked, auto-pilot route around"
+90,3 actions,keep_period (week/month) + movement_limit (max_days: N) + exclude,,,Job kept in base week/month | Limit N days for jobs to be moved | Job is completely excluded from routing
+91,3 actions,keep_period (week/month) + time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00],,,Job kept in base week/month | Job must arrive within the time frame (hard) | Prioritize time frame (soft)
+92,3 actions,keep_period (week/month) + time_window (strict) [08:00-14:00] + arrival_window_duration (3600s),,,Job kept in base week/month | Job must arrive within the time frame (hard) | Notification window ±30min
+93,3 actions,keep_period (week/month) + time_window (strict) [08:00-14:00] + first_stop,,,Job kept in base week/month | Job must arrive within the time frame (hard) | Job goes first of the day
+94,3 actions,keep_period (week/month) + time_window (strict) [08:00-14:00] + last_stop,,,Job kept in base week/month | Job must arrive within the time frame (hard) | Job left last for the day
+95,3 actions,keep_period (week/month) + time_window (strict) [08:00-14:00] + lock,,,"Job kept in base week/month | Job must arrive within the time frame (hard) | Job is locked, auto-pilot route around"
+96,3 actions,keep_period (week/month) + time_window (strict) [08:00-14:00] + exclude,,,Job kept in base week/month | Job must arrive within the time frame (hard) | Job is completely excluded from routing
+97,3 actions,keep_period (week/month) + time_window (soft) [08:00-12:00] + arrival_window_duration (3600s),,,Job kept in base week/month | Prioritize time frame (soft) | Notification window ±30min
+98,3 actions,keep_period (week/month) + time_window (soft) [08:00-12:00] + first_stop,,,Job kept in base week/month | Prioritize time frame (soft) | Job goes first of the day
+99,3 actions,keep_period (week/month) + time_window (soft) [08:00-12:00] + last_stop,,,Job kept in base week/month | Prioritize time frame (soft) | Job left last for the day
+100,3 actions,keep_period (week/month) + time_window (soft) [08:00-12:00] + lock,,,"Job kept in base week/month | Prioritize time frame (soft) | Job is locked, auto-pilot route around"
+101,3 actions,keep_period (week/month) + time_window (soft) [08:00-12:00] + exclude,,,Job kept in base week/month | Prioritize time frame (soft) | Job is completely excluded from routing
+102,3 actions,keep_period (week/month) + arrival_window_duration (3600s) + first_stop,,,Job kept in base week/month | Notification window ±30min | Job goes first of the day
+103,3 actions,keep_period (week/month) + arrival_window_duration (3600s) + last_stop,,,Job kept in base week/month | Notification window ±30min | Job left last for the day
+104,3 actions,keep_period (week/month) + arrival_window_duration (3600s) + lock,,,"Job kept in base week/month | Notification window ±30min | Job is locked, auto-pilot route around"
+105,3 actions,keep_period (week/month) + arrival_window_duration (3600s) + exclude,,,Job kept in base week/month | Notification window ±30min | Job is completely excluded from routing
+106,3 actions,keep_period (week/month) + first_stop + last_stop,,,Job kept in base week/month | Job goes first of the day | Job left last for the day,CONFLICT — cannot be both first and last
+107,3 actions,keep_period (week/month) + first_stop + lock,,,"Job kept in base week/month | Job goes first of the day | Job is locked, auto-pilot route around"
+108,3 actions,keep_period (week/month) + first_stop + exclude,,,Job kept in base week/month | Job goes first of the day | Job is completely excluded from routing,CONFLICT — first_stop vs exclude contradictory
+109,3 actions,keep_period (week/month) + last_stop + lock,,,"Job kept in base week/month | Last job of the day | Job is locked, auto-pilot route around"
+110,3 actions,keep_period (week/month) + last_stop + exclude,,,Job kept in base week/month | Last job of the day | Job is completely excluded from routing,CONFLICT — last_stop vs exclude contradictory
+111,3 actions,keep_period (week/month) + lock + exclude,,,"Job kept in base week/month | Job locked, auto-pilot route around | Job is completely excluded from routing",CONFLICT — lock vs exclude contradictory
+112,3 actions,force_tech (tech_id) + prefer_tech ($stop.preferred) + movement_limit (max_days: N),,,Tech must assign to job | Tech priority if available | Limit N days for jobs to be migrated,REDUNDANT — force_tech override prefer_tech
+113,3 actions,force_tech (tech_id) + prefer_tech ($stop.preferred) + time_window (strict) [08:00-14:00],,,Tech must assign to job | Tech priority if available | Job must arrive within the time frame (hard),REDUNDANT — force_tech override prefer_tech
+114,3 actions,force_tech (tech_id) + prefer_tech ($stop.preferred) + time_window (soft) [08:00-12:00],,,Tech must assign to job | Tech priority if available | Prioritize time frame (soft),REDUNDANT — force_tech override prefer_tech
+115,3 actions,force_tech (tech_id) + prefer_tech ($stop.preferred) + arrival_window_duration (3600s),,,Tech must assign to job | Tech priority if available | Notification window ±30min,REDUNDANT — force_tech override prefer_tech
+116,3 actions,force_tech (tech_id) + prefer_tech ($stop.preferred) + first_stop,,,Tech must assign to job | Tech priority if available | Job goes first of the day,REDUNDANT — force_tech override prefer_tech
+117,3 actions,force_tech (tech_id) + prefer_tech ($stop.preferred) + last_stop,,,Tech must assign to job | Tech priority if available | Job left last for the day,REDUNDANT — force_tech override prefer_tech
+118,3 actions,force_tech (tech_id) + prefer_tech ($stop.preferred) + lock,,,"Tech must assign to job | Tech priority if available | Job is locked, auto-pilot route around",REDUNDANT — force_tech override prefer_tech
+119,3 actions,force_tech (tech_id) + prefer_tech ($stop.preferred) + exclude,,,Tech must assign to job | Tech priority if available | Job is completely excluded from routing,CONFLICT — force_tech vs exclude contradictory
+120,3 actions,force_tech (tech_id) + movement_limit (max_days: N) + time_window (strict) [08:00-14:00],,,Tech must assign to job | Limit N days for jobs to be moved | Job must arrive within the time frame (hard)
+121,3 actions,force_tech (tech_id) + movement_limit (max_days: N) + time_window (soft) [08:00-12:00],,,Tech must assign to job | Limit N days for jobs to be moved | Prioritize time frame (soft)
+122,3 actions,force_tech (tech_id) + movement_limit (max_days: N) + arrival_window_duration (3600s),,,Tech must assign to job | Limit N days for jobs to be moved | Notification window ±30min
+123,3 actions,force_tech (tech_id) + movement_limit (max_days: N) + first_stop,,,Tech must assign to job | Limit N days for jobs to be moved | Job goes first of the day
+124,3 actions,force_tech (tech_id) + movement_limit (max_days: N) + last_stop,,,Tech must assign to job | Limit N days for jobs to be moved | Job left last for the day
+125,3 actions,force_tech (tech_id) + movement_limit (max_days: N) + lock,,,"Tech must assign to job | Limit N days for jobs to be moved | Job is locked, auto-pilot route around"
+126,3 actions,force_tech (tech_id) + movement_limit (max_days: N) + exclude,,,Tech must assign to job | Limit N days for jobs to be moved | Job is completely excluded from routing,CONFLICT — force_tech vs exclude contradictory
+127,3 actions,force_tech (tech_id) + time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00],,,Tech must assign to job | Job must arrive within the time frame (hard) | Prioritize time frame (soft)
+128,3 actions,force_tech (tech_id) + time_window (strict) [08:00-14:00] + arrival_window_duration (3600s),,,Tech must assign to job | Job must arrive within the time frame (hard) | Notification window ±30min
+129,3 actions,force_tech (tech_id) + time_window (strict) [08:00-14:00] + first_stop,,,Tech must assign to job | Job must arrive within the time frame (hard) | Job goes first of the day
+130,3 actions,force_tech (tech_id) + time_window (strict) [08:00-14:00] + last_stop,,,Tech must assign to job | Job must arrive within the time frame (hard) | Job left last for the day
+131,3 actions,force_tech (tech_id) + time_window (strict) [08:00-14:00] + lock,,,"Tech must assign to job | Job must arrive within the time frame (hard) | Job is locked, auto-pilot route around"
+132,3 actions,force_tech (tech_id) + time_window (strict) [08:00-14:00] + exclude,,,Tech must assign to job | Job must arrive within the time frame (hard) | Job is completely excluded from routing,CONFLICT — force_tech vs exclude contradictory
+133,3 actions,force_tech (tech_id) + time_window (soft) [08:00-12:00] + arrival_window_duration (3600s),,,Tech must assign to job | Prioritize time frame (soft) | Notification window ±30min
+134,3 actions,force_tech (tech_id) + time_window (soft) [08:00-12:00] + first_stop,,,Tech must assign to job | Prioritize time frame (soft) | Job goes first of the day
+135,3 actions,force_tech (tech_id) + time_window (soft) [08:00-12:00] + last_stop,,,Tech must assign to job | Prioritize time frame (soft) | Job left last for the day
+136,3 actions,force_tech (tech_id) + time_window (soft) [08:00-12:00] + lock,,,"Tech must assign to job | Prioritize time frame (soft) | Job is locked, auto-pilot route around"
+137,3 actions,force_tech (tech_id) + time_window (soft) [08:00-12:00] + exclude,,,Tech must assign to job | Prioritize time frame (soft) | Job is completely excluded from routing,CONFLICT — force_tech vs exclude contradictory
+138,3 actions,force_tech (tech_id) + arrival_window_duration (3600s) + first_stop,,,Tech must assign to job | Notification window ±30min | Job goes first of the day
+139,3 actions,force_tech (tech_id) + arrival_window_duration (3600s) + last_stop,,,Tech must assign to job | Notification window ±30min | Job left last for the day
+140,3 actions,force_tech (tech_id) + arrival_window_duration (3600s) + lock,,,"Tech must assign to job | Notification window ±30min | Job is locked, auto-pilot route around"
+141,3 actions,force_tech (tech_id) + arrival_window_duration (3600s) + exclude,,,Tech must assign to job | Notification window ±30min | Job is completely excluded from routing,CONFLICT — force_tech vs exclude contradictory
+142,3 actions,force_tech (tech_id) + first_stop + last_stop,,,Tech must assign to job | Job goes first of the day | Job left last for the day,CONFLICT — cannot be both first and last
+143,3 actions,force_tech (tech_id) + first_stop + lock,,,"Tech must assign to job | Job goes first of the day | Job is locked, auto-pilot route around"
+144,3 actions,force_tech (tech_id) + first_stop + exclude,,,Tech must assign to job | Job goes first of the day | Job is completely excluded from routing,CONFLICT — force_tech vs exclude contradictory
+145,3 actions,force_tech (tech_id) + last_stop + lock,,,"Tech must assign to job | Last job of the day | Job is locked, auto-pilot route around"
+146,3 actions,force_tech (tech_id) + last_stop + exclude,,,Tech must assign to job | Last job of the day | Job is completely excluded from routing,CONFLICT — force_tech vs exclude contradictory
+147,3 actions,force_tech (tech_id) + lock + exclude,,,"Tech must assign to job | Job locked, auto-pilot route around | Job is completely excluded from routing",CONFLICT — lock vs exclude contradictory
+148,3 actions,prefer_tech ($stop.preferred) + movement_limit (max_days: N) + time_window (strict) [08:00-14:00],,,Tech priority if available | Limit N days for jobs to be moved | Job must arrive within the time frame (hard)
+149,3 actions,prefer_tech ($stop.preferred) + movement_limit (max_days: N) + time_window (soft) [08:00-12:00],,,Tech priority if available | Limit N days for jobs to be moved | Prioritize time frame (soft)
+150,3 actions,prefer_tech ($stop.preferred) + movement_limit (max_days: N) + arrival_window_duration (3600s),,,Tech priority if available | Limit N days for jobs to be moved | Notification window ±30min
+151,3 actions,prefer_tech ($stop.preferred) + movement_limit (max_days: N) + first_stop,,,Tech priority if available | Limit N days for jobs to be moved | Job goes first of the day
+152,3 actions,prefer_tech ($stop.preferred) + movement_limit (max_days: N) + last_stop,,,Tech priority if available | Limit N days for jobs to be moved | Job left last for the day
+153,3 actions,prefer_tech ($stop.preferred) + movement_limit (max_days: N) + lock,,,"Tech priority if available | Limit N days for jobs to be moved | Job is locked, auto-pilot route around"
+154,3 actions,prefer_tech ($stop.preferred) + movement_limit (max_days: N) + exclude,,,Tech priority if available | Limit N days for jobs to be moved | Job is completely excluded from routing
+155,3 actions,prefer_tech ($stop.preferred) + time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00],,,Tech priority if available | Job must arrive within the time frame (hard) | Prioritize time frame (soft)
+156,3 actions,prefer_tech ($stop.preferred) + time_window (strict) [08:00-14:00] + arrival_window_duration (3600s),,,Tech priority if available | Job must arrive within the time frame (hard) | Notification window ±30min
+157,3 actions,prefer_tech ($stop.preferred) + time_window (strict) [08:00-14:00] + first_stop,,,Tech priority if available | Job must arrive within the time frame (hard) | Job goes first of the day
+158,3 actions,prefer_tech ($stop.preferred) + time_window (strict) [08:00-14:00] + last_stop,,,Tech priority if available | Job must arrive within the time frame (hard) | Job left last for the day
+159,3 actions,prefer_tech ($stop.preferred) + time_window (strict) [08:00-14:00] + lock,,,"Tech priority if available | Job must arrive within the time frame (hard) | Job is locked, auto-pilot route around"
+160,3 actions,prefer_tech ($stop.preferred) + time_window (strict) [08:00-14:00] + exclude,,,Tech priority if available | Job must arrive within the time frame (hard) | Job is completely excluded from routing
+161,3 actions,prefer_tech ($stop.preferred) + time_window (soft) [08:00-12:00] + arrival_window_duration (3600s),,,Tech priority if available | Prioritize time frame (soft) | Notification window ±30min
+162,3 actions,prefer_tech ($stop.preferred) + time_window (soft) [08:00-12:00] + first_stop,,,Tech priority if available | Prioritize time frame (soft) | Job goes first of the day
+163,3 actions,prefer_tech ($stop.preferred) + time_window (soft) [08:00-12:00] + last_stop,,,Tech priority if available | Prioritize time frame (soft) | Job left last for the day
+164,3 actions,prefer_tech ($stop.preferred) + time_window (soft) [08:00-12:00] + lock,,,"Tech priority if available | Prioritize time frame (soft) | Job is locked, auto-pilot route around"
+165,3 actions,prefer_tech ($stop.preferred) + time_window (soft) [08:00-12:00] + exclude,,,Tech priority if available | Prioritize time frame (soft) | Job is completely excluded from routing
+166,3 actions,prefer_tech ($stop.preferred) + arrival_window_duration (3600s) + first_stop,,,Tech priority if available | Notification window ±30min | Job goes first of the day
+167,3 actions,prefer_tech ($stop.preferred) + arrival_window_duration (3600s) + last_stop,,,Tech priority if available | Notification window ±30min | Job left last for the day
+168,3 actions,prefer_tech ($stop.preferred) + arrival_window_duration (3600s) + lock,,,"Tech priority if available | Notification window ±30min | Job is locked, auto-pilot route around"
+169,3 actions,prefer_tech ($stop.preferred) + arrival_window_duration (3600s) + exclude,,,Tech priority if available | Notification window ±30min | Job is completely excluded from routing
+170,3 actions,prefer_tech ($stop.preferred) + first_stop + last_stop,,,Tech priority if available | Job goes first of the day | Job left last for the day,CONFLICT — cannot be both first and last
+171,3 actions,prefer_tech ($stop.preferred) + first_stop + lock,,,"Tech priority if available | Job goes first of the day | Job is locked, auto-pilot route around"
+172,3 actions,prefer_tech ($stop.preferred) + first_stop + exclude,,,Tech priority if available | Job goes first of the day | Job is completely excluded from routing,CONFLICT — first_stop vs exclude contradictory
+173,3 actions,prefer_tech ($stop.preferred) + last_stop + lock,,,"Tech priority if available | Last job of the day | Job is locked, auto-pilot route around"
+174,3 actions,prefer_tech ($stop.preferred) + last_stop + exclude,,,Tech priority if available | Last job of the day | Job is completely excluded from routing,CONFLICT — last_stop vs exclude contradictory
+175,3 actions,prefer_tech ($stop.preferred) + lock + exclude,,,"Tech priority if available | Job locked, auto-pilot route around | Job is completely excluded from routing",CONFLICT — lock vs exclude contradictory
+176,3 actions,movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00],,,Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Prioritize time frame (soft)
+177,3 actions,movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + arrival_window_duration (3600s),,,Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Notification window ±30min
+178,3 actions,movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + first_stop,,,Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Job goes first of the day
+179,3 actions,movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + last_stop,,,Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Job left last for the day
+180,3 actions,movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + lock,,,"Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Job is locked, auto-pilot route around"
+181,3 actions,movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + exclude,,,Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Job is completely excluded from routing
+182,3 actions,movement_limit (max_days: N) + time_window (soft) [08:00-12:00] + arrival_window_duration (3600s),,,Limit N days for jobs to be moved | Prioritize time frame (soft) | Notification window ±30min
+183,3 actions,movement_limit (max_days: N) + time_window (soft) [08:00-12:00] + first_stop,,,Limit N days for jobs to be moved | Prioritize time frame (soft) | Job goes first of the day
+184,3 actions,movement_limit (max_days: N) + time_window (soft) [08:00-12:00] + last_stop,,,Limit N days for jobs to be moved | Prioritize time frame (soft) | Job left last for the day
+185,3 actions,movement_limit (max_days: N) + time_window (soft) [08:00-12:00] + lock,,,"Limit N days for jobs to be moved | Prioritize time frame (soft) | Job is locked, auto-pilot route around"
+186,3 actions,movement_limit (max_days: N) + time_window (soft) [08:00-12:00] + exclude,,,Limit N days for jobs to be moved | Prioritize time frame (soft) | Job is completely excluded from routing
+187,3 actions,movement_limit (max_days: N) + arrival_window_duration (3600s) + first_stop,,,Limit N days for jobs to be moved | Notification window ±30min | Job goes first of the day
+188,3 actions,movement_limit (max_days: N) + arrival_window_duration (3600s) + last_stop,,,Limit N days for jobs to be moved | Notification window ±30min | Job left last for the day
+189,3 actions,movement_limit (max_days: N) + arrival_window_duration (3600s) + lock,,,"Limit N days for jobs to be moved | Notification window ±30min | Job is locked, auto-pilot route around"
+190,3 actions,movement_limit (max_days: N) + arrival_window_duration (3600s) + exclude,,,Limit N days for jobs to be moved | Notification window ±30min | Job is completely excluded from routing
+191,3 actions,movement_limit (max_days: N) + first_stop + last_stop,,,Limit N days for jobs to be moved | Job goes first of the day | Job left last for the day,CONFLICT — cannot be both first and last
+192,3 actions,movement_limit (max_days: N) + first_stop + lock,,,"Limit N days for jobs to be moved | Job goes first of the day | Job is locked, auto-pilot route around"
+193,3 actions,movement_limit (max_days: N) + first_stop + exclude,,,Limit N days for jobs to be moved | Job goes first of the day | Job is completely excluded from routing,CONFLICT — first_stop vs exclude contradictory
+194,3 actions,movement_limit (max_days: N) + last_stop + lock,,,"Limit N days for jobs to be moved | Last job of the day | Job is locked, auto-pilot route around"
+195,3 actions,movement_limit (max_days: N) + last_stop + exclude,,,Limit N days for jobs to be moved | Last job of the day | Job is completely excluded from routing,CONFLICT — last_stop vs exclude contradictory
+196,3 actions,movement_limit (max_days: N) + lock + exclude,,,"Limit N days for jobs to be moved | Job locked, auto-pilot route around | Job is completely excluded from routing",CONFLICT — lock vs exclude contradictory
+197,3 actions,time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00] + arrival_window_duration (3600s),,,Job must arrive within the time frame (hard) | Prioritize time frame (soft) | Notification window ±30min
+198,3 actions,time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00] + first_stop,,,Job must arrive within the time frame (hard) | Prioritize time frame (soft) | Job goes first of the day
+199,3 actions,time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00] + last_stop,,,Job must arrive within the time frame (hard) | Prioritize time frame (soft) | Job left last for the day
+200,3 actions,time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00] + lock,,,"Job must arrive within the time frame (hard) | Prioritize time frame (soft) | Job is locked, auto-pilot route around"
+201,3 actions,time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00] + exclude,,,Job must arrive within the time frame (hard) | Prioritize time frame (soft) | Job is completely excluded from routing
+202,3 actions,time_window (strict) [08:00-14:00] + arrival_window_duration (3600s) + first_stop,,,Job must arrive within the time frame (hard) | Notification window ±30min | Job goes first of the day
+203,3 actions,time_window (strict) [08:00-14:00] + arrival_window_duration (3600s) + last_stop,,,Job must arrive within the time frame (hard) | Notification window ±30min | Job left last for the day
+204,3 actions,time_window (strict) [08:00-14:00] + arrival_window_duration (3600s) + lock,,,"Job must arrive within the time frame (hard) | Notification window ±30min | Job is locked, auto-pilot route around"
+205,3 actions,time_window (strict) [08:00-14:00] + arrival_window_duration (3600s) + exclude,,,Job must arrive within the time frame (hard) | Notification window ±30min | Job is completely excluded from routing
+206,3 actions,time_window (strict) [08:00-14:00] + first_stop + last_stop,,,Job must arrive within the time frame (hard) | Job goes first of the day | Job left last for the day,CONFLICT — cannot be both first and last
+207,3 actions,time_window (strict) [08:00-14:00] + first_stop + lock,,,"Job must arrive within the time frame (hard) | Job goes first of the day | Job is locked, auto-pilot route around"
+208,3 actions,time_window (strict) [08:00-14:00] + first_stop + exclude,,,Job must arrive within the time frame (hard) | Job goes first of the day | Job is completely excluded from routing,CONFLICT — first_stop vs exclude contradictory
+209,3 actions,time_window (strict) [08:00-14:00] + last_stop + lock,,,"Job must arrive within the time frame (hard) | Last job of the day | Job is locked, auto-pilot route around"
+210,3 actions,time_window (strict) [08:00-14:00] + last_stop + exclude,,,Job must arrive within the time frame (hard) | Last job of the day | Job is completely excluded from routing,CONFLICT — last_stop vs exclude contradictory
+211,3 actions,time_window (strict) [08:00-14:00] + lock + exclude,,,"Job must arrive within the time frame (hard) | Job locked, auto-pilot route around | Job is completely excluded from routing",CONFLICT — lock vs exclude contradictory
+212,3 actions,time_window (soft) [08:00-12:00] + arrival_window_duration (3600s) + first_stop,,,Prioritize time frame (soft) | Notification window ±30min | Job goes first of the day
+213,3 actions,time_window (soft) [08:00-12:00] + arrival_window_duration (3600s) + last_stop,,,Prioritize time frame (soft) | Notification window ±30min | Job left last for the day
+214,3 actions,time_window (soft) [08:00-12:00] + arrival_window_duration (3600s) + lock,,,"Prioritize time frame (soft) | Notification window ±30min | Job is locked, auto-pilot route around"
+215,3 actions,time_window (soft) [08:00-12:00] + arrival_window_duration (3600s) + exclude,,,Prioritize time frame (soft) | Notification window ±30min | Job is completely excluded from routing
+216,3 actions,time_window (soft) [08:00-12:00] + first_stop + last_stop,,,Prioritize time frame (soft) | Job goes first of the day | Job left last for the day,CONFLICT — cannot be both first and last
+217,3 actions,time_window (soft) [08:00-12:00] + first_stop + lock,,,"Prioritize time frame (soft) | Job goes first of the day | Job is locked, auto-pilot route around"
+218,3 actions,time_window (soft) [08:00-12:00] + first_stop + exclude,,,Prioritize time frame (soft) | Job goes first of the day | Job is completely excluded from routing,CONFLICT — first_stop vs exclude contradictory
+219,3 actions,time_window (soft) [08:00-12:00] + last_stop + lock,,,"Prioritize time frame (soft) | Last job of the day | Job is locked, auto-pilot route around"
+220,3 actions,time_window (soft) [08:00-12:00] + last_stop + exclude,,,Prioritize time frame (soft) | Last job of the day | Job is completely excluded from routing,CONFLICT — last_stop vs exclude contradictory
+221,3 actions,time_window (soft) [08:00-12:00] + lock + exclude,,,"Prioritize time frame (soft) | Job locked, auto-pilot route around | Job is completely excluded from routing",CONFLICT — lock vs exclude contradictory
+222,3 actions,arrival_window_duration (3600s) + first_stop + last_stop,,,Notification window ±30min | Job goes first of the day | Job left last for the day,CONFLICT — cannot be both first and last
+223,3 actions,arrival_window_duration (3600s) + first_stop + lock,,,"Notification window ±30min | Job goes first of the day | Job is locked, auto-pilot route around"
+224,3 actions,arrival_window_duration (3600s) + first_stop + exclude,,,Notification window ±30min | Job goes first of the day | Job is completely excluded from routing,CONFLICT — first_stop vs exclude contradictory
+225,3 actions,arrival_window_duration (3600s) + last_stop + lock,,,"Notification window ±30min | Last job of the day | Job is locked, auto-pilot route around"
+226,3 actions,arrival_window_duration (3600s) + last_stop + exclude,,,Notification window ±30min | Last job of the day | Job is completely excluded from routing,CONFLICT — last_stop vs exclude contradictory
+227,3 actions,arrival_window_duration (3600s) + lock + exclude,,,"Notification window ±30min | Job locked, auto-pilot route around | Job is completely excluded from routing",CONFLICT — lock vs exclude contradictory
+228,3 actions,first_stop + last_stop + lock,,,"Job goes first of the day | Last job of the day | Job is locked, auto-pilot route around",CONFLICT — cannot be both first and last
+229,3 actions,first_stop + last_stop + exclude,,,Job goes first of the day | Last job of the day | Job is completely excluded from routing,CONFLICT — cannot be both first and last
+230,3 actions,first_stop + lock + exclude,,,"Job goes first of the day | Job locked, auto-pilot route around | Job is completely excluded from routing",CONFLICT — lock vs exclude contradictory
+231,3 actions,last_stop + lock + exclude,,,"Last job of the day | Job locked, auto-pilot route around | Job is completely excluded from routing",CONFLICT — lock vs exclude contradictory
+232,9 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred) + movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00] + arrival_window_duration (3600s) + first_stop + lock,,,"Job kept in base week/month | Tech must assign to job | Tech priority if available | Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Prioritize time frame (soft) | Notification window ±30min | Job goes first of the day | Job is locked, auto-pilot route around",REDUNDANT — force_tech override prefer_tech
+233,9 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred) + movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00] + arrival_window_duration (3600s) + last_stop + lock,,,"Job kept in base week/month | Tech must assign to job | Tech priority if available | Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Prioritize time frame (soft) | Notification window ±30min | Last job of the day | Job is locked, auto-pilot route around",REDUNDANT — force_tech override prefer_tech
+234,8 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred) + movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00] + arrival_window_duration (3600s) + first_stop,,,Job kept in base week/month | Tech must assign to job | Tech priority if available | Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Prioritize time frame (soft) | Notification window ±30min | Job goes first of the day,REDUNDANT — force_tech override prefer_tech
+235,8 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred) + movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00] + arrival_window_duration (3600s) + last_stop,,,Job kept in base week/month | Tech must assign to job | Tech priority if available | Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Prioritize time frame (soft) | Notification window ±30min | Job left last for the day,REDUNDANT — force_tech override prefer_tech
+236,8 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred) + movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00] + arrival_window_duration (3600s) + lock,,,"Job kept in base week/month | Tech must assign to job | Tech priority if available | Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Prioritize time frame (soft) | Notification window ±30min | Job is locked, auto-pilot route around",REDUNDANT — force_tech override prefer_tech
+237,7 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred) + movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00] + arrival_window_duration (3600s),,,Job kept in base week/month | Tech must assign to job | Tech priority if available | Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Prioritize time frame (soft) | Notification window ±30min,REDUNDANT — force_tech override prefer_tech
+238,7 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred) + movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00] + first_stop,,,Job kept in base week/month | Tech must assign to job | Tech priority if available | Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Prioritize time frame (soft) | Job goes first of the day,REDUNDANT — force_tech override prefer_tech
+239,7 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred) + movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00] + last_stop,,,Job kept in base week/month | Tech must assign to job | Tech priority if available | Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Prioritize time frame (soft) | Job left last for the day,REDUNDANT — force_tech override prefer_tech
+240,7 actions,keep_period (week/month) + prefer_tech ($stop.preferred) + movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00] + arrival_window_duration (3600s) + exclude,,,Job kept in base week/month | Tech priority if available | Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Prioritize time frame (soft) | Notification window ±30min | Job is completely excluded from routing
+241,6 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred) + movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + time_window (soft) [08:00-12:00],,,Job kept in base week/month | Tech must assign to job | Tech priority if available | Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Prioritize time frame (soft),REDUNDANT — force_tech override prefer_tech
+242,6 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred) + movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + arrival_window_duration (3600s),,,Job kept in base week/month | Tech must assign to job | Tech priority if available | Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Notification window ±30min,REDUNDANT — force_tech override prefer_tech
+243,6 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred) + movement_limit (max_days: N) + time_window (strict) [08:00-14:00] + first_stop,,,Job kept in base week/month | Tech must assign to job | Tech priority if available | Limit N days for jobs to be moved | Job must arrive within the time frame (hard) | Job goes first of the day,REDUNDANT — force_tech override prefer_tech
+244,5 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred) + movement_limit (max_days: N) + time_window (strict) [08:00-14:00],,,Job kept in base week/month | Tech must assign to job | Tech priority if available | Limit N days for jobs to be moved | Job must arrive within the time frame (hard),REDUNDANT — force_tech override prefer_tech
+245,5 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred) + movement_limit (max_days: N) + time_window (soft) [08:00-12:00],,,Job kept in base week/month | Tech must assign to job | Tech priority if available | Limit N days for jobs to be moved | Prioritize time frame (soft),REDUNDANT — force_tech override prefer_tech
+246,5 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred) + movement_limit (max_days: N) + arrival_window_duration (3600s),,,Job kept in base week/month | Tech must assign to job | Tech priority if available | Limit N days for jobs to be moved | Notification window ±30min,REDUNDANT — force_tech override prefer_tech
+247,4 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred) + movement_limit (max_days: N),,,Job kept in base week/month | Tech must assign to job | Tech priority if available | Limit N days for jobs to be migrated,REDUNDANT — force_tech override prefer_tech
+248,4 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred) + time_window (strict) [08:00-14:00],,,Job kept in base week/month | Tech must assign to job | Tech priority if available | Job must arrive within the time frame (hard),REDUNDANT — force_tech override prefer_tech
+249,4 actions,keep_period (week/month) + force_tech (tech_id) + prefer_tech ($stop.preferred) + time_window (soft) [08:00-12:00],,,Job kept in base week/month | Tech must assign to job | Tech priority if available | Prioritize time frame (soft),REDUNDANT — force_tech override prefer_tech
+250,Edge Case,lock + exclude with 1 stop,,,"CONFLICT — rule status = conflict, user must resolve",YES
+251,Edge Case,first_stop + last_stop are the same stop,,,CONFLICT — cannot be both first and last (except for 1-stop routes),YES
+252,Edge Case,force_tech (chris) + force_tech (alex) same filter,,,CONFLICT — 2 other force_tech techs with the same priority,YES
+253,Edge Case,keep_period(week) + keep_period(month) same stop,,,"No conflict — month stricter, intersection applies"
+254,Edge Case,Rule match: all — stop matching 2/3 filter fields,,,Rule DOES NOT apply (need to match all)
+255,Edge Case,Rule match: any — stop matching 1/3 filter fields,,,Rule apply (any match)
+256,Edge Case,preferred_tech: * but stop preferred_tech_id = null,,,Rule does NOT apply — there is no preferred tech
+257,Edge Case,time_window strict [8-12] + job duration 4h,,,Stop unassigned if there is not enough time in the window
+258,Edge Case,Inactive rule (status: inactive),,,Rule is completely ignored
+259,Edge Case,Stop does not match any custom rules,,,"Only system rules apply, no custom-rule effects"
+260,Edge Case,movement_limit(0) + keep_period(week),,,Stop stays on original date — both restrictions apply
+261,Edge Case,time_window(strict) + movement_limit(0),,,Must be within the time frame AND not move the date — both hard constraints
+262,Edge Case,force_tech + tech has Day Exclusion,,,Tech unavailable but forced — verify: assign or block?
+263,Edge Case,exclude + job is the only stop in the route,,,Exclude single stop → empty route?
+264,Edge Case,arrival_window_duration = 0,,,"Point-in-time, no window. Verify UI/logic cho 0s."
+265,Edge Case,Multiple custom rules match with stop,,,Priority? First match wins? All apply? Verify behavior.
+266,Edge Case,very large movement_limit + keep_period(month),,,Movement allows crossing month but keep_period blocks
+267,Edge Case,"time_window strict in addition to service hours (6AM-7AM, service 8AM-6PM)",,,Impossible window — 0 jobs can be ranked
+268,Edge Case,prefer_tech + tech terminated/inactive,,,Tech not active — fallback or unassigned?
+269,Edge Case,force_tech + tech has no skill,,,Forced but lacking skills — still assign?
+270,Edge Case,All hard: keep_period+force_tech+movement_limit+time_window(strict)+first_stop+lock,,,Verify all 6 hard constraints apply simultaneously — maximum restriction
+271,Edge Case,All soft: prefer_tech+time_window(soft)+arrival_window_duration,,,Verify all 3 soft constraints apply — best-effort only
+272,Edge Case,force_tech + prefer_tech (redundant pair),,,force_tech override prefer_tech — prefer has no effect,REDUNDANT
+\--- SUMMARY ---
+,Tier 1-3 (full),231 combos
+,Tier 4-9 (greedy quad),18 combos
+,Edge cases,23
+,TOTAL,272 TC
+,Quad coverage,100%

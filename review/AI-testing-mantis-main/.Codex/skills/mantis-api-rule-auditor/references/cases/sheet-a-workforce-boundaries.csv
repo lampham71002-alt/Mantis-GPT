@@ -1,0 +1,146 @@
+Link bugs reports
+#,Group,Condition,Input,Object,Expected,Status,NOTE Bug Reports,Status Run Routing,ID bug reports
+1,1 field,Default Service Hours = 8:30AM - 6:00PM,,,"Jobs only ranks between 8:30AM-6:00PM, outside of which hours are ignored",Failed,"ID #2, #12",Passed
+2,1 field,Max Jobs per day = 10,,,"Hard cap 10 jobs/day/tech, 16th job is not assigned",Failed,ID #1,Failed,Max per day = 12 (r_07)
+3,1 field,Preferred Jobs per day = 12,,,"Soft target 12 jobs/day, stop when free, increase when busy",Failed,"ID #13, 14, 15",Failed,Preferred Jobs per day = 10 (r_08)
+4,1 field,Pre/Post-Shift Travel = 30 min,,,First job starts ≥ 9:00AM | Last job ends ≤ 5:30PM,Passed,,Passed
+5,1 field,Max Shift End Time = 6:00PM,,,"Hard stop 6:00PM strict, do not rank any jobs that end \> 6:00PM",Passed,,Passed
+6,1 field,Workload Fairness = ON,,,Jobs is evenly distributed between hourly and travel time techs,Failed,ID #17,Failed,r_09
+7,1 field,Day Exclusions = Tech A off Monday,,,"Tech A does not accept Monday's job, redistributes to the remaining techs",,,Failed,"Day Exclusions = Tech ""qatest mantis5"" off Thu (r_12)"
+8,2 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (10),,,Jobs in 8:30AM-6PM | Max 10 jobs/day,Passed,,Failed
+9,2 fields,Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10),,,Jobs in 8:30AM-6PM | Target 10 jobs/day,Passed,,Passed
+10,2 fields,Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min),,,Effective scheduling window 9:00AM-5:30PM,Passed,Pass but the jobs are unevenly distributed.,Passed
+11,2 fields,Default Service Hours (8:30AM-6PM) + Max Shift End Time (4PM),,,Jobs in 8:30AM-6PM | Max Shift End priority is higher than Service Hours,Passed,,Passed
+12,2 fields,Default Service Hours (8:30AM-6PM) + Workload Fairness (ON),,,Jobs in 8:30AM-6PM | Evenly distributed among techs,Failed,ID #22,Failed
+13,2 fields,Default Service Hours (8:30AM-6PM) + Day Exclusions (Tech A off Monday),,,"Jobs in 8:30AM-6PM | Tech A off, redistribute in the same window",Passed,,Failed
+14,2 fields,Max Jobs per day (10) + Preferred Jobs per day (7),,,"Soft target 7 in free time | Hard cap 10 when busy, do not exceed 15",Failed,,Failed
+15,2 fields,Max Jobs per day (12) + Pre/Post-Shift Travel (1h30min),,,"Max 12 jobs | First job ≥ 9AM, last job ≤ 5:30PM",Failed,,Passed
+16,2 fields,Max Jobs per day (12) + Max Shift End Time (4PM),,,Max 12 jobs | Do not schedule any jobs that end \> 4:00PM,,,Failed
+17,2 fields,Max Jobs per day (15) + Workload Fairness (ON),,,"Max 15 jobs/tech | Evenly distributed, no tech exceeds 15",,,Failed
+18,2 fields,Max Jobs per day (15) + Day Exclusions (Tech A off Monday),,,"Max 15 | Tech A off, remaining techs absorb does not exceed 15",,,Failed
+19,2 fields,Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min),,,"Target 10 jobs | First job ≥ 9AM, last job ≤ 5:30PM",,,Passed
+20,2 fields,Preferred Jobs per day (10) + Max Shift End Time (6PM),,,Target 10 jobs | Do not schedule any jobs that end \> 6:00PM,,,Passed
+21,2 fields,Preferred Jobs per day (10) + Workload Fairness (ON),,,Target 10 jobs/tech | Evenly distributed towards 10/tech,,,Failed
+22,2 fields,Preferred Jobs per day (10) + Day Exclusions (Tech A off Monday),,,"Target 10 | Tech A off redistribute, remaining techs target 10",,,Passed
+23,2 fields,Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM),,,"First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM",,,Passed
+24,2 fields,Pre/Post-Shift Travel (30min) + Workload Fairness (ON),,,"First job ≥ 9AM, last job ≤ 5:30PM | Evenly distributed",,,Failed
+25,2 fields,Pre/Post-Shift Travel (30min) + Day Exclusions (Tech A off Monday),,,"First job ≥ 9AM, last job ≤ 5:30PM | Tech A off redistribute in the same window",,,Failed
+26,2 fields,Max Shift End Time (6PM) + Workload Fairness (ON),,,"Hard stop 6PM | Evenly distributed, no job exceeds 6PM",,,Failed
+27,2 fields,Max Shift End Time (6PM) + Day Exclusions (Tech A off Monday),,,"Hard stop 6PM | Tech A off redistribution, jobs still at 6PM",,,Failed
+28,2 fields,Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Tech A off | Jobs redistribute all to the remaining techs
+29,3 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10),,,Window 8:30AM-6PM | Max 15 | Target 10
+30,3 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Pre/Post-Shift Travel (30min),,,Effective window 9AM-5:30PM | Max 15 jobs
+31,3 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Max Shift End Time (6PM),,,Window 8:30AM-6PM | Max 15 | Max Shift End hard stop 6PM priority
+32,3 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Workload Fairness (ON),,,Window 8:30AM-6PM | Max 15 | Even balance
+33,3 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Day Exclusions (Tech A off Monday),,,Window 8:30AM-6PM | Max 15 | Tech A off redistribute does not exceed 15
+34,3 fields,Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min),,,Effective window 9AM-5:30PM | Target 10 jobs
+35,3 fields,Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Max Shift End Time (6PM),,,Window 8:30AM-6PM | Target 10 | Hard stop 6PM
+36,3 fields,Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Workload Fairness (ON),,,Window 8:30AM-6PM | Target 10 | Even balance
+37,3 fields,Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Day Exclusions (Tech A off Monday),,,Window 8:30AM-6PM | Target 10 | Tech A off redistribute
+38,3 fields,Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM),,,Effective window 9AM-5:30PM | Max Shift End hard stop 6PM priority
+39,3 fields,Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min) + Workload Fairness (ON),,,Effective window 9AM-5:30PM | Even balance
+40,3 fields,Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min) + Day Exclusions (Tech A off Monday),,,Effective window 9AM-5:30PM | Tech A off redistribute trong window
+41,3 fields,Default Service Hours (8:30AM-6PM) + Max Shift End Time (6PM) + Workload Fairness (ON),,,Window 8:30AM-6PM | Hard stop 6PM | Even balance
+42,3 fields,Default Service Hours (8:30AM-6PM) + Max Shift End Time (6PM) + Day Exclusions (Tech A off Monday),,,Window 8:30AM-6PM | Hard stop 6PM | Tech A off redistribute
+43,3 fields,Default Service Hours (8:30AM-6PM) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Window 8:30AM-6PM | Equal balance | Tech A off redistribution
+44,3 fields,Max Jobs per day (15) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min),,,"Max 15 | Target 10 | First job ≥ 9AM, last job ≤ 5:30PM"
+45,3 fields,Max Jobs per day (15) + Preferred Jobs per day (10) + Max Shift End Time (6PM),,,Max 15 | Target 10 | Hard stop 6PM
+46,3 fields,Max Jobs per day (15) + Preferred Jobs per day (10) + Workload Fairness (ON),,,Max 15 | Target 10 | Even balance
+47,3 fields,Max Jobs per day (15) + Preferred Jobs per day (10) + Day Exclusions (Tech A off Monday),,,Max 15 | Target 10 | Tech A off redistribute does not exceed 15
+48,3 fields,Max Jobs per day (15) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM),,,"Max 15 | First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM"
+49,3 fields,Max Jobs per day (15) + Pre/Post-Shift Travel (30min) + Workload Fairness (ON),,,"Max 15 | First job ≥ 9AM, last job ≤ 5:30PM | Even balance"
+50,3 fields,Max Jobs per day (15) + Pre/Post-Shift Travel (30min) + Day Exclusions (Tech A off Monday),,,"Max 15 | First job ≥ 9AM, last job ≤ 5:30PM | Tech A off redistribution"
+51,3 fields,Max Jobs per day (15) + Max Shift End Time (6PM) + Workload Fairness (ON),,,Max 15 | Hard stop 6PM | Even balance
+52,3 fields,Max Jobs per day (15) + Max Shift End Time (6PM) + Day Exclusions (Tech A off Monday),,,Max 15 | Hard stop 6PM | Tech A off redistribute
+53,3 fields,Max Jobs per day (15) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Max 15 | Equal balance | Tech A off redistribute does not exceed 15
+54,3 fields,Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM),,,"Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM"
+55,3 fields,Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Workload Fairness (ON),,,"Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Even balance"
+56,3 fields,Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Day Exclusions (Tech A off Monday),,,"Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Tech A off redistribution"
+57,3 fields,Preferred Jobs per day (10) + Max Shift End Time (6PM) + Workload Fairness (ON),,,Target 10 | Hard stop 6PM | Even balance
+58,3 fields,Preferred Jobs per day (10) + Max Shift End Time (6PM) + Day Exclusions (Tech A off Monday),,,Target 10 | Hard stop 6PM | Tech A off redistribute
+59,3 fields,Preferred Jobs per day (10) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Target 10 | Equal balance | Tech A off redistribution
+60,3 fields,Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Workload Fairness (ON),,,"First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM | Even balance"
+61,3 fields,Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Day Exclusions (Tech A off Monday),,,"First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM | Tech A off redistribution"
+62,3 fields,Pre/Post-Shift Travel (30min) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,"First job ≥ 9AM, last job ≤ 5:30PM | Equal balance | Tech A off redistribution"
+63,3 fields,Max Shift End Time (6PM) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Hard stop 6PM | Equal balance | Tech A off redistribution
+64,4 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min),,,"Window 8:30AM-6PM | Max 15 | Target 10 | First job ≥ 9AM, last job ≤ 5:30PM"
+65,4 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10) + Max Shift End Time (6PM),,,Window 8:30AM-6PM | Max 15 | Target 10 | Hard stop 6PM
+66,4 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10) + Workload Fairness (ON),,,Window 8:30AM-6PM | Max 15 | Target 10 | Even balance
+67,4 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10) + Day Exclusions (Tech A off Monday),,,Window 8:30AM-6PM | Max 15 | Target 10 | Tech A off redistribute
+68,4 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM),,,Eff. window 9AM-5:30PM | Max 15 | Hard stop 6PM
+69,4 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Pre/Post-Shift Travel (30min) + Workload Fairness (ON),,,Eff. window 9AM-5:30PM | Max 15 | Even balance
+70,4 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Pre/Post-Shift Travel (30min) + Day Exclusions (Tech A off Monday),,,Eff. window 9AM-5:30PM | Max 15 | Tech A off redistribute
+71,4 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Max Shift End Time (6PM) + Workload Fairness (ON),,,Window 8:30AM-6PM | Max 15 | Hard stop 6PM | Even balance
+72,4 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Max Shift End Time (6PM) + Day Exclusions (Tech A off Monday),,,Window 8:30AM-6PM | Max 15 | Hard stop 6PM | Tech A off redistribute
+73,4 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Window 8:30AM-6PM | Max 15 | Equal balance | Tech A off redistribution
+74,4 fields,Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM),,,Eff. window 9AM-5:30PM | Target 10 | Hard stop 6PM
+75,4 fields,Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Workload Fairness (ON),,,Eff. window 9AM-5:30PM | Target 10 | Even balance
+76,4 fields,Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Day Exclusions (Tech A off Monday),,,Eff. window 9AM-5:30PM | Target 10 | Tech A off redistribute
+77,4 fields,Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Max Shift End Time (6PM) + Workload Fairness (ON),,,Window 8:30AM-6PM | Target 10 | Hard stop 6PM | Even balance
+78,4 fields,Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Max Shift End Time (6PM) + Day Exclusions (Tech A off Monday),,,Window 8:30AM-6PM | Target 10 | Hard stop 6PM | Tech A off redistribute
+79,4 fields,Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Window 8:30AM-6PM | Target 10 | Equal balance | Tech A off redistribution
+80,4 fields,Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Workload Fairness (ON),,,Eff. window 9AM-5:30PM | Hard stop 6PM | Even balance
+81,4 fields,Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Day Exclusions (Tech A off Monday),,,Eff. window 9AM-5:30PM | Hard stop 6PM | Tech A off redistribute
+82,4 fields,Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Eff. window 9AM-5:30PM | Equal balance | Tech A off redistribution
+83,4 fields,Default Service Hours (8:30AM-6PM) + Max Shift End Time (6PM) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Window 8:30AM-6PM | Hard stop 6PM | Equal balance | Tech A off redistribution
+84,4 fields,Max Jobs per day (15) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM),,,"Max 15 | Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM"
+85,4 fields,Max Jobs per day (15) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Workload Fairness (ON),,,"Max 15 | Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Even balance"
+86,4 fields,Max Jobs per day (15) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Day Exclusions (Tech A off Monday),,,"Max 15 | Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Tech A off redistribution"
+87,4 fields,Max Jobs per day (15) + Preferred Jobs per day (10) + Max Shift End Time (6PM) + Workload Fairness (ON),,,Max 15 | Target 10 | Hard stop 6PM | Even balance
+88,4 fields,Max Jobs per day (15) + Preferred Jobs per day (10) + Max Shift End Time (6PM) + Day Exclusions (Tech A off Monday),,,Max 15 | Target 10 | Hard stop 6PM | Tech A off redistribute
+89,4 fields,Max Jobs per day (15) + Preferred Jobs per day (10) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Max 15 | Target 10 | Equal balance | Tech A off redistribution
+90,4 fields,Max Jobs per day (15) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Workload Fairness (ON),,,"Max 15 | First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM | Even balance"
+91,4 fields,Max Jobs per day (15) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Day Exclusions (Tech A off Monday),,,"Max 15 | First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM | Tech A off redistribution"
+92,4 fields,Max Jobs per day (15) + Pre/Post-Shift Travel (30min) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,"Max 15 | First job ≥ 9AM, last job ≤ 5:30PM | Equal balance | Tech A off redistribution"
+93,4 fields,Max Jobs per day (15) + Max Shift End Time (6PM) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Max 15 | Hard stop 6PM | Equal balance | Tech A off redistribution
+94,4 fields,Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Workload Fairness (ON),,,"Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM | Even balance"
+95,4 fields,Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Day Exclusions (Tech A off Monday),,,"Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM | Tech A off redistribution"
+96,4 fields,Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,"Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Equal balance | Tech A off redistribution"
+97,4 fields,Preferred Jobs per day (10) + Max Shift End Time (6PM) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Target 10 | Hard stop 6PM | Equal balance | Tech A off redistribution
+98,4 fields,Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,"First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM | Equal balance | Tech A off redistribution"
+99,5 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM),,,"Window 8:30AM-6PM | Max 15 | Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM"
+100,5 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Workload Fairness (ON),,,"Window 8:30AM-6PM | Max 15 | Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Even balance"
+101,5 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Day Exclusions (Tech A off Monday),,,"Window 8:30AM-6PM | Max 15 | Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Tech A off redistribution"
+102,5 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10) + Max Shift End Time (6PM) + Workload Fairness (ON),,,Window 8:30AM-6PM | Max 15 | Target 10 | Hard stop 6PM | Even balance
+103,5 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10) + Max Shift End Time (6PM) + Day Exclusions (Tech A off Monday),,,Window 8:30AM-6PM | Max 15 | Target 10 | Hard stop 6PM | Tech A off redistribute
+104,5 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Window 8:30AM-6PM | Max 15 | Target 10 | Equal balance | Tech A off redistribution
+105,5 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Workload Fairness (ON),,,Eff. window 9AM-5:30PM | Max 15 | Hard stop 6PM | Even balance
+106,5 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Day Exclusions (Tech A off Monday),,,Eff. window 9AM-5:30PM | Max 15 | Hard stop 6PM | Tech A off redistribute
+107,5 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Pre/Post-Shift Travel (30min) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Eff. window 9AM-5:30PM | Max 15 | Equal balance | Tech A off redistribution
+108,5 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Max Shift End Time (6PM) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Window 8:30AM-6PM | Max 15 | Hard stop 6PM | Equal balance | Tech A off redistribution
+109,5 fields,Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Workload Fairness (ON),,,Eff. window 9AM-5:30PM | Target 10 | Hard stop 6PM | Even balance
+110,5 fields,Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Day Exclusions (Tech A off Monday),,,Eff. window 9AM-5:30PM | Target 10 | Hard stop 6PM | Tech A off redistribute
+111,5 fields,Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Eff. window 9AM-5:30PM | Target 10 | Equal balance | Tech A off redistribution
+112,5 fields,Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Max Shift End Time (6PM) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Window 8:30AM-6PM | Target 10 | Hard stop 6PM | Equal balance | Tech A off redistribution
+113,5 fields,Default Service Hours (8:30AM-6PM) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Eff. window 9AM-5:30PM | Hard stop 6PM | Equal balance | Tech A off redistribution
+114,5 fields,Max Jobs per day (15) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Workload Fairness (ON),,,"Max 15 | Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM | Even balance"
+115,5 fields,Max Jobs per day (15) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Day Exclusions (Tech A off Monday),,,"Max 15 | Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM | Tech A off redistribution"
+116,5 fields,Max Jobs per day (15) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,"Max 15 | Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Equal balance | Tech A off redistribution"
+117,5 fields,Max Jobs per day (15) + Preferred Jobs per day (10) + Max Shift End Time (6PM) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Max 15 | Target 10 | Hard stop 6PM | Equal balance | Tech A off redistribution
+118,5 fields,Max Jobs per day (15) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,"Max 15 | First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM | Equal balance | Tech A off redistribution"
+119,5 fields,Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,"Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM | Equal balance | Tech A off redistribution"
+120,6 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Workload Fairness (ON),,,"Window 8:30AM-6PM | Max 15 | Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM | Even balance"
+121,6 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Day Exclusions (Tech A off Monday),,,"Window 8:30AM-6PM | Max 15 | Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM | Tech A off redistribution"
+122,6 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,"Window 8:30AM-6PM | Max 15 | Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Equal balance | Tech A off redistribution"
+123,6 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10) + Max Shift End Time (6PM) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Window 8:30AM-6PM | Max 15 | Target 10 | Hard stop 6PM | Equal balance | Tech A off redistribution
+124,6 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Eff. window 9AM-5:30PM | Max 15 | Hard stop 6PM | Equal balance | Tech A off redistribution
+125,6 fields,Default Service Hours (8:30AM-6PM) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,Eff. window 9AM-5:30PM | Target 10 | Hard stop 6PM | Equal balance | Tech A off redistribution
+126,6 fields,Max Jobs per day (15) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,"Max 15 | Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM | Equal balance | Tech A off redistribution"
+127,7 fields,Default Service Hours (8:30AM-6PM) + Max Jobs per day (15) + Preferred Jobs per day (10) + Pre/Post-Shift Travel (30min) + Max Shift End Time (6PM) + Workload Fairness (ON) + Day Exclusions (Tech A off Monday),,,"Window 8:30AM-6PM | Max 15 | Target 10 | First job ≥ 9AM, last job ≤ 5:30PM | Hard stop 6PM | Equal balance | Tech A off redistribution"
+128,Edge Case,Preferred Jobs per day (15) \> Max Jobs per day (10),,,Blocked - validation error: Preferred cannot be greater than Max
+129,Edge Case,Pre/Post-Shift Travel (30min each) + Service Hours window only 30min (8:30-9:00AM),,,"Effective window = 0, no slots available, 0 jobs scheduled"
+130,Edge Case,Pre/Post-Shift Travel total exceeds the Service Hours window,,,"Effective window is negative, 0 jobs are scheduled"
+131,Edge Case,"Service Hours end (6PM) = Max Shift End Time (6PM), job ends exactly at 6:00PM",,,Allowed - job ends exactly at 6:00PM without violating Max Shift End
+132,Edge Case,Job duration is longer than the remaining effective window of the day,,,Blocked - not enough windows to complete the job
+133,Edge Case,Max Jobs per day = 0,,,"Completely blocked, 0 jobs/day for tech"
+134,Edge Case,Preferred Jobs per day = 0,,,"There is no soft target, maximum scheduling according to Max Jobs per day"
+\--- EDITING NOTES (additional) ---
+NOTE,Logic fix,"Combos that do NOT have Default Service Hours (rows 4, 15, 19, 23, 25, 44, 54, 60, 84, 94, 98, 114, 119, 126...) record Expected Job first \>= 9AM, last \<= 5:30PM — WRONG. When Service Hours is OFF, system default applies. Expected must write: Effective window = system default hours +/- Pre/Post-Shift Travel time. No hardcode 8:30AM-6PM."
+\--- ADDITIONAL EDGE CASES ---
+E1,Edge Case,All fields OFF (0 rules ON),,,"System default applies entirely. Verify base case: everything works by default, no rules are overridden."
+E2,Edge Case,Day Exclusions: all 7 days (Mon-Sun) are excluded for All Technicians,,,There are no more available dates. 0 jobs scheduled. Completely blocked.
+E3,Edge Case,Day Exclusions: 1 day (Monday) + All Technicians selected,,,There are no more techs accepting jobs on Monday. Jobs must move to something else or be blocked.
+E4,Edge Case,Workload Fairness ON + only 1 technician active (rest excluded/off),,,"Can't balance — just 1 tech, all jobs assigned to that tech. Fairness doesn't work."
+E5,Edge Case,"Max Shift End Time \< Default Service Hours start (vd: Max Shift End = 7AM, Service = 8AM-6PM)",,,Window impossible. 0 jobs can be ranked. Blocked.
+E6,Edge Case,"Preferred Jobs per day = Max Jobs per day (same value, e.g. both = 10)",,,Soft target = hard cap. Every day there are exactly 10 jobs if there are enough jobs.
+E7,Edge Case,"Default Service Hours: start = end (vd: 8AM-8AM, window = 0)",,,Service window = 0. There are no scheduling slots. 0 jobs.

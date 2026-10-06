@@ -1,0 +1,382 @@
+[
+  {
+    "index": 1,
+    "name": "FL Routing Test 01",
+    "location": {
+      "city": "Vero Beach",
+      "state": "FL",
+      "country": "United States",
+      "county": "Indian River County",
+      "zip": "32960",
+      "lat": 27.6387163,
+      "lng": -80.3975399,
+      "formattedAddress": "Vero Beach, Indian River County, Florida, United States",
+      "street1": "Vero Beach (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 3,
+    "previous_drive_minutes": null,
+    "previous_drive_km": null
+  },
+  {
+    "index": 2,
+    "name": "FL Routing Test 02",
+    "location": {
+      "city": "Melbourne",
+      "state": "FL",
+      "country": "United States",
+      "county": "Brevard County",
+      "zip": "32901",
+      "lat": 28.0785034,
+      "lng": -80.6077908,
+      "formattedAddress": "Melbourne, Brevard County, Florida, United States",
+      "street1": "Melbourne (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 2,
+    "previous_drive_minutes": 53.7,
+    "previous_drive_km": 54.3
+  },
+  {
+    "index": 3,
+    "name": "FL Routing Test 03",
+    "location": {
+      "city": "Kissimmee",
+      "state": "FL",
+      "country": "United States",
+      "county": "Osceola County",
+      "zip": "34741",
+      "lat": 28.2918995,
+      "lng": -81.4075838,
+      "formattedAddress": "Kissimmee, Osceola County, Florida, United States",
+      "street1": "Kissimmee (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 1,
+    "previous_drive_minutes": 77.0,
+    "previous_drive_km": 87.1
+  },
+  {
+    "index": 4,
+    "name": "FL Routing Test 04",
+    "location": {
+      "city": "Fort Pierce",
+      "state": "FL",
+      "country": "United States",
+      "county": "Saint Lucie County",
+      "zip": "34950",
+      "lat": 27.4467056,
+      "lng": -80.3256056,
+      "formattedAddress": "Fort Pierce, Saint Lucie County, Florida, United States",
+      "street1": "Fort Pierce (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 3,
+    "previous_drive_minutes": 119.0,
+    "previous_drive_km": 164.9
+  },
+  {
+    "index": 5,
+    "name": "FL Routing Test 05",
+    "location": {
+      "city": "Titusville",
+      "state": "FL",
+      "country": "United States",
+      "county": "Brevard County",
+      "zip": "32796",
+      "lat": 28.6126236,
+      "lng": -80.8079545,
+      "formattedAddress": "Titusville, Brevard County, Florida, United States",
+      "street1": "Titusville (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 2,
+    "previous_drive_minutes": 110.3,
+    "previous_drive_km": 152.3
+  },
+  {
+    "index": 6,
+    "name": "FL Routing Test 06",
+    "location": {
+      "city": "Lakeland",
+      "state": "FL",
+      "country": "United States",
+      "county": "Polk County",
+      "zip": "33801",
+      "lat": 28.0394654,
+      "lng": -81.9498042,
+      "formattedAddress": "Lakeland, Polk County, Florida, United States",
+      "street1": "Lakeland (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 3,
+    "previous_drive_minutes": 115.9,
+    "previous_drive_km": 152.6
+  },
+  {
+    "index": 7,
+    "name": "FL Routing Test 07",
+    "location": {
+      "city": "Clearwater",
+      "state": "FL",
+      "country": "United States",
+      "county": "Pinellas County",
+      "zip": "33756",
+      "lat": 27.9658533,
+      "lng": -82.8001026,
+      "formattedAddress": "Clearwater, Pinellas County, Florida, United States",
+      "street1": "Clearwater (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 1,
+    "previous_drive_minutes": 78.3,
+    "previous_drive_km": 91.7
+  },
+  {
+    "index": 8,
+    "name": "FL Routing Test 08",
+    "location": {
+      "city": "Tampa",
+      "state": "FL",
+      "country": "United States",
+      "county": "Hillsborough County",
+      "zip": "33602",
+      "lat": 27.9449854,
+      "lng": -82.4583107,
+      "formattedAddress": "Tampa, Hillsborough County, Florida, United States",
+      "street1": "Tampa (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 3,
+    "previous_drive_minutes": 37.4,
+    "previous_drive_km": 37.6
+  },
+  {
+    "index": 9,
+    "name": "FL Routing Test 09",
+    "location": {
+      "city": "Orlando",
+      "state": "FL",
+      "country": "United States",
+      "county": "Orange County",
+      "zip": "32801",
+      "lat": 28.5421218,
+      "lng": -81.379045,
+      "formattedAddress": "Orlando, Orange County, Florida, United States",
+      "street1": "Orlando (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 3,
+    "previous_drive_minutes": 98.5,
+    "previous_drive_km": 136.5
+  },
+  {
+    "index": 10,
+    "name": "FL Routing Test 10",
+    "location": {
+      "city": "Cocoa",
+      "state": "FL",
+      "country": "United States",
+      "county": "Brevard County",
+      "zip": "32922",
+      "lat": 28.3556635,
+      "lng": -80.7325345,
+      "formattedAddress": "Cocoa, Brevard County, Florida, United States",
+      "street1": "Cocoa (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 3,
+    "previous_drive_minutes": 60.2,
+    "previous_drive_km": 78.7
+  },
+  {
+    "index": 11,
+    "name": "FL Routing Test 11",
+    "location": {
+      "city": "Port St. Lucie",
+      "state": "FL",
+      "country": "United States",
+      "county": "Saint Lucie County",
+      "zip": "34983",
+      "lat": 27.2939333,
+      "lng": -80.3503283,
+      "formattedAddress": "Port Saint Lucie, Saint Lucie County, Florida, United States",
+      "street1": "Port St. Lucie (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 3,
+    "previous_drive_minutes": 100.5,
+    "previous_drive_km": 137.4
+  },
+  {
+    "index": 12,
+    "name": "FL Routing Test 12",
+    "location": {
+      "city": "West Palm Beach",
+      "state": "FL",
+      "country": "United States",
+      "county": "Palm Beach County",
+      "zip": "33401",
+      "lat": 26.715364,
+      "lng": -80.0532942,
+      "formattedAddress": "West Palm Beach, Palm Beach County, Florida, United States",
+      "street1": "West Palm Beach (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 1,
+    "previous_drive_minutes": 62.6,
+    "previous_drive_km": 80.6
+  },
+  {
+    "index": 13,
+    "name": "FL Routing Test 13",
+    "location": {
+      "city": "Miami",
+      "state": "FL",
+      "country": "United States",
+      "county": "Miami-Dade County",
+      "zip": "33130",
+      "lat": 25.7741566,
+      "lng": -80.1935973,
+      "formattedAddress": "Miami, Miami-Dade County, Florida, United States",
+      "street1": "Miami (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 3,
+    "previous_drive_minutes": 88.5,
+    "previous_drive_km": 112.6
+  },
+  {
+    "index": 14,
+    "name": "FL Routing Test 14",
+    "location": {
+      "city": "Deerfield Beach",
+      "state": "FL",
+      "country": "United States",
+      "county": "Broward County",
+      "zip": "33073",
+      "lat": 26.318342,
+      "lng": -80.0996306,
+      "formattedAddress": "Deerfield Beach, Broward County, Florida, United States",
+      "street1": "Deerfield Beach (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 1,
+    "previous_drive_minutes": 52.1,
+    "previous_drive_km": 66.2
+  },
+  {
+    "index": 15,
+    "name": "FL Routing Test 15",
+    "location": {
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "country": "United States",
+      "county": "Broward County",
+      "zip": "33301",
+      "lat": 26.1223084,
+      "lng": -80.1433786,
+      "formattedAddress": "Fort Lauderdale, Broward County, Florida, United States",
+      "street1": "Fort Lauderdale (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 2,
+    "previous_drive_minutes": 25.7,
+    "previous_drive_km": 28.9
+  },
+  {
+    "index": 16,
+    "name": "FL Routing Test 16",
+    "location": {
+      "city": "Hollywood",
+      "state": "FL",
+      "country": "United States",
+      "county": "Broward County",
+      "zip": "33020",
+      "lat": 26.0112014,
+      "lng": -80.1494901,
+      "formattedAddress": "Hollywood, Broward County, Florida, United States",
+      "street1": "Hollywood (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 2,
+    "previous_drive_minutes": 16.8,
+    "previous_drive_km": 16.9
+  },
+  {
+    "index": 17,
+    "name": "FL Routing Test 17",
+    "location": {
+      "city": "Boca Raton",
+      "state": "FL",
+      "country": "United States",
+      "county": "Palm Beach County",
+      "zip": "33432",
+      "lat": 26.3586885,
+      "lng": -80.0830984,
+      "formattedAddress": "Boca Raton, Palm Beach County, Florida, United States",
+      "street1": "Boca Raton (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 3,
+    "previous_drive_minutes": 38.2,
+    "previous_drive_km": 45.3
+  },
+  {
+    "index": 18,
+    "name": "FL Routing Test 18",
+    "location": {
+      "city": "Stuart",
+      "state": "FL",
+      "country": "United States",
+      "county": "Martin County",
+      "zip": "34994",
+      "lat": 27.197983,
+      "lng": -80.2519175,
+      "formattedAddress": "Stuart, Martin County, Florida, United States",
+      "street1": "Stuart (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 3,
+    "previous_drive_minutes": 79.9,
+    "previous_drive_km": 101.3
+  },
+  {
+    "index": 19,
+    "name": "FL Routing Test 19",
+    "location": {
+      "city": "Sebastian",
+      "state": "FL",
+      "country": "United States",
+      "county": "Indian River County",
+      "zip": "32958",
+      "lat": 27.817357,
+      "lng": -80.4694039,
+      "formattedAddress": "Sebastian, Indian River County, Florida, 32958, United States",
+      "street1": "Sebastian (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 1,
+    "previous_drive_minutes": 75.8,
+    "previous_drive_km": 89.6
+  },
+  {
+    "index": 20,
+    "name": "FL Routing Test 20",
+    "location": {
+      "city": "Jupiter",
+      "state": "FL",
+      "country": "United States",
+      "county": "Palm Beach County",
+      "zip": "33458",
+      "lat": 26.9342246,
+      "lng": -80.0942087,
+      "formattedAddress": "Jupiter, Palm Beach County, Florida, 33458, United States",
+      "street1": "Jupiter (Routing Test Location)",
+      "street2": ""
+    },
+    "job_count": 1,
+    "previous_drive_minutes": 92.8,
+    "previous_drive_km": 122.6
+  }
+]

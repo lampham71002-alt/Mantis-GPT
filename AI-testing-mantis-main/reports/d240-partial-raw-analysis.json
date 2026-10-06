@@ -1,0 +1,3269 @@
+{
+  "generated_at": "2026-08-22T20:17:18",
+  "runner": {
+    "active_pid": "91776"
+  },
+  "suite": "csv-corrected-240 partial",
+  "scenario_total": 240,
+  "d_matrix_total": 80,
+  "success": 80,
+  "errors": 0,
+  "aggregate": {
+    "setup_ok": 80,
+    "drive_changed_cases": 80,
+    "route_changed_cases": 80,
+    "stats_work_time_mismatch": 80
+  },
+  "verdicts": {
+    "REACHES_ENGINE": 80
+  },
+  "by_module": {
+    "control": {
+      "REACHES_ENGINE": 2
+    },
+    "Workforce Boundaries": {
+      "REACHES_ENGINE": 70
+    },
+    "Route Efficiency": {
+      "REACHES_ENGINE": 8
+    }
+  },
+  "drive_delta_distribution": {
+    "-26.8": 1,
+    "77.9": 79
+  },
+  "latest": [
+    {
+      "name": "d065-workforce-boundaries-128-preferred-jobs-per-day-15-max",
+      "capture": "260822-200245-d065-workforce-boundaries-128-preferred-jobs-per-day-15-max",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d066-workforce-boundaries-129-pre-post-shift-travel-30min-e",
+      "capture": "260822-200327-d066-workforce-boundaries-129-pre-post-shift-travel-30min-e",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d067-workforce-boundaries-130-pre-post-shift-travel-total-e",
+      "capture": "260822-200430-d067-workforce-boundaries-130-pre-post-shift-travel-total-e",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d068-workforce-boundaries-131-service-hours-end-6pm-max-shi",
+      "capture": "260822-200537-d068-workforce-boundaries-131-service-hours-end-6pm-max-shi",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d069-workforce-boundaries-133-max-jobs-per-day-0",
+      "capture": "260822-200640-d069-workforce-boundaries-133-max-jobs-per-day-0",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d070-workforce-boundaries-134-preferred-jobs-per-day-0",
+      "capture": "260822-200725-d070-workforce-boundaries-134-preferred-jobs-per-day-0",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d071-workforce-boundaries-note-combos-that-do-not-have-defa",
+      "capture": "260822-200831-d071-workforce-boundaries-note-combos-that-do-not-have-defa",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d072-route-efficiency-3-max-travel-distance-10mi",
+      "capture": "260822-200937-d072-route-efficiency-3-max-travel-distance-10mi",
+      "module": "Route Efficiency",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d073-route-efficiency-4-max-shift-travel-120min",
+      "capture": "260822-201021-d073-route-efficiency-4-max-shift-travel-120min",
+      "module": "Route Efficiency",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d074-route-efficiency-8-skill-matching-on",
+      "capture": "260822-201127-d074-route-efficiency-8-skill-matching-on",
+      "module": "Route Efficiency",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d075-route-efficiency-10-min-travel-time-5min-max-travel-di",
+      "capture": "260822-201233-d075-route-efficiency-10-min-travel-time-5min-max-travel-di",
+      "module": "Route Efficiency",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d076-route-efficiency-11-min-travel-time-5min-max-shift-tra",
+      "capture": "260822-201305-d076-route-efficiency-11-min-travel-time-5min-max-shift-tra",
+      "module": "Route Efficiency",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d077-route-efficiency-15-min-travel-time-5min-skill-matchin",
+      "capture": "260822-201412-d077-route-efficiency-15-min-travel-time-5min-skill-matchin",
+      "module": "Route Efficiency",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d078-route-efficiency-16-min-travel-distance-0-5mi-max-trav",
+      "capture": "260822-201518-d078-route-efficiency-16-min-travel-distance-0-5mi-max-trav",
+      "module": "Route Efficiency",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d079-route-efficiency-17-min-travel-distance-0-5mi-max-shif",
+      "capture": "260822-201554-d079-route-efficiency-17-min-travel-distance-0-5mi-max-shif",
+      "module": "Route Efficiency",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    }
+  ],
+  "rows": [
+    {
+      "name": "d000-control-future-csv",
+      "capture": "260822-190550-d000-control-future-csv",
+      "module": "control",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d001-control-current-csv",
+      "capture": "260822-190653-d001-control-current-csv",
+      "module": "control",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 83,
+      "jobs_optimized": 83,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 1199.1,
+      "drive_optimized": 1172.3,
+      "drive_delta": -26.8,
+      "route_changed": 1,
+      "stats": {
+        "work_time": [
+          2190,
+          840
+        ],
+        "drive_time": [
+          2986,
+          2986
+        ],
+        "distance": [
+          2609.7,
+          2609.7
+        ],
+        "jobs_assigned": [
+          83,
+          83
+        ]
+      }
+    },
+    {
+      "name": "d002-workforce-boundaries-1-default-service-hours-8-30am-6-",
+      "capture": "260822-190712-d002-workforce-boundaries-1-default-service-hours-8-30am-6-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d003-workforce-boundaries-2-max-jobs-per-day-15",
+      "capture": "260822-190814-d003-workforce-boundaries-2-max-jobs-per-day-15",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d004-workforce-boundaries-3-preferred-jobs-per-day-10",
+      "capture": "260822-190855-d004-workforce-boundaries-3-preferred-jobs-per-day-10",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d005-workforce-boundaries-4-pre-post-shift-travel-30-min",
+      "capture": "260822-190957-d005-workforce-boundaries-4-pre-post-shift-travel-30-min",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d006-workforce-boundaries-5-max-shift-end-time-6-00pm",
+      "capture": "260822-191059-d006-workforce-boundaries-5-max-shift-end-time-6-00pm",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d007-workforce-boundaries-6-workload-fairness-on",
+      "capture": "260822-191202-d007-workforce-boundaries-6-workload-fairness-on",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d008-workforce-boundaries-8-default-service-hours-8-30am-6p",
+      "capture": "260822-191305-d008-workforce-boundaries-8-default-service-hours-8-30am-6p",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d009-workforce-boundaries-9-default-service-hours-8-30am-6p",
+      "capture": "260822-191346-d009-workforce-boundaries-9-default-service-hours-8-30am-6p",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d010-workforce-boundaries-10-default-service-hours-8-30am-6",
+      "capture": "260822-191448-d010-workforce-boundaries-10-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d011-workforce-boundaries-11-default-service-hours-8-30am-6",
+      "capture": "260822-191554-d011-workforce-boundaries-11-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d012-workforce-boundaries-12-default-service-hours-8-30am-6",
+      "capture": "260822-191656-d012-workforce-boundaries-12-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d013-workforce-boundaries-14-max-jobs-per-day-15-preferred-",
+      "capture": "260822-191759-d013-workforce-boundaries-14-max-jobs-per-day-15-preferred-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d014-workforce-boundaries-15-max-jobs-per-day-15-pre-post-s",
+      "capture": "260822-191840-d014-workforce-boundaries-15-max-jobs-per-day-15-pre-post-s",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d015-workforce-boundaries-16-max-jobs-per-day-15-max-shift-",
+      "capture": "260822-191924-d015-workforce-boundaries-16-max-jobs-per-day-15-max-shift-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d016-workforce-boundaries-17-max-jobs-per-day-15-workload-f",
+      "capture": "260822-192004-d016-workforce-boundaries-17-max-jobs-per-day-15-workload-f",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d017-workforce-boundaries-19-preferred-jobs-per-day-10-pre-",
+      "capture": "260822-192047-d017-workforce-boundaries-19-preferred-jobs-per-day-10-pre-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d018-workforce-boundaries-20-preferred-jobs-per-day-10-max-",
+      "capture": "260822-192151-d018-workforce-boundaries-20-preferred-jobs-per-day-10-max-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d019-workforce-boundaries-21-preferred-jobs-per-day-10-work",
+      "capture": "260822-192255-d019-workforce-boundaries-21-preferred-jobs-per-day-10-work",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d020-workforce-boundaries-23-pre-post-shift-travel-30min-ma",
+      "capture": "260822-192359-d020-workforce-boundaries-23-pre-post-shift-travel-30min-ma",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d021-workforce-boundaries-24-pre-post-shift-travel-30min-wo",
+      "capture": "260822-192503-d021-workforce-boundaries-24-pre-post-shift-travel-30min-wo",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d022-workforce-boundaries-26-max-shift-end-time-6pm-workloa",
+      "capture": "260822-192605-d022-workforce-boundaries-26-max-shift-end-time-6pm-workloa",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d023-workforce-boundaries-29-default-service-hours-8-30am-6",
+      "capture": "260822-192707-d023-workforce-boundaries-29-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d024-workforce-boundaries-30-default-service-hours-8-30am-6",
+      "capture": "260822-192750-d024-workforce-boundaries-30-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d025-workforce-boundaries-31-default-service-hours-8-30am-6",
+      "capture": "260822-192839-d025-workforce-boundaries-31-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d026-workforce-boundaries-32-default-service-hours-8-30am-6",
+      "capture": "260822-192919-d026-workforce-boundaries-32-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d027-workforce-boundaries-34-default-service-hours-8-30am-6",
+      "capture": "260822-193008-d027-workforce-boundaries-34-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d028-workforce-boundaries-35-default-service-hours-8-30am-6",
+      "capture": "260822-193110-d028-workforce-boundaries-35-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d029-workforce-boundaries-36-default-service-hours-8-30am-6",
+      "capture": "260822-193212-d029-workforce-boundaries-36-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d030-workforce-boundaries-38-default-service-hours-8-30am-6",
+      "capture": "260822-193317-d030-workforce-boundaries-38-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d031-workforce-boundaries-39-default-service-hours-8-30am-6",
+      "capture": "260822-193420-d031-workforce-boundaries-39-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d032-workforce-boundaries-41-default-service-hours-8-30am-6",
+      "capture": "260822-193523-d032-workforce-boundaries-41-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d033-workforce-boundaries-44-max-jobs-per-day-15-preferred-",
+      "capture": "260822-193625-d033-workforce-boundaries-44-max-jobs-per-day-15-preferred-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d034-workforce-boundaries-45-max-jobs-per-day-15-preferred-",
+      "capture": "260822-193709-d034-workforce-boundaries-45-max-jobs-per-day-15-preferred-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d035-workforce-boundaries-46-max-jobs-per-day-15-preferred-",
+      "capture": "260822-193753-d035-workforce-boundaries-46-max-jobs-per-day-15-preferred-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d036-workforce-boundaries-48-max-jobs-per-day-15-pre-post-s",
+      "capture": "260822-193835-d036-workforce-boundaries-48-max-jobs-per-day-15-pre-post-s",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d037-workforce-boundaries-49-max-jobs-per-day-15-pre-post-s",
+      "capture": "260822-193916-d037-workforce-boundaries-49-max-jobs-per-day-15-pre-post-s",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d038-workforce-boundaries-51-max-jobs-per-day-15-max-shift-",
+      "capture": "260822-194001-d038-workforce-boundaries-51-max-jobs-per-day-15-max-shift-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d039-workforce-boundaries-54-preferred-jobs-per-day-10-pre-",
+      "capture": "260822-194043-d039-workforce-boundaries-54-preferred-jobs-per-day-10-pre-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d040-workforce-boundaries-55-preferred-jobs-per-day-10-pre-",
+      "capture": "260822-194147-d040-workforce-boundaries-55-preferred-jobs-per-day-10-pre-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d041-workforce-boundaries-57-preferred-jobs-per-day-10-max-",
+      "capture": "260822-194252-d041-workforce-boundaries-57-preferred-jobs-per-day-10-max-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d042-workforce-boundaries-60-pre-post-shift-travel-30min-ma",
+      "capture": "260822-194356-d042-workforce-boundaries-60-pre-post-shift-travel-30min-ma",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d043-workforce-boundaries-64-default-service-hours-8-30am-6",
+      "capture": "260822-194459-d043-workforce-boundaries-64-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d044-workforce-boundaries-65-default-service-hours-8-30am-6",
+      "capture": "260822-194544-d044-workforce-boundaries-65-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d045-workforce-boundaries-66-default-service-hours-8-30am-6",
+      "capture": "260822-194625-d045-workforce-boundaries-66-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d046-workforce-boundaries-68-default-service-hours-8-30am-6",
+      "capture": "260822-194707-d046-workforce-boundaries-68-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d047-workforce-boundaries-69-default-service-hours-8-30am-6",
+      "capture": "260822-194749-d047-workforce-boundaries-69-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d048-workforce-boundaries-71-default-service-hours-8-30am-6",
+      "capture": "260822-194831-d048-workforce-boundaries-71-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d049-workforce-boundaries-74-default-service-hours-8-30am-6",
+      "capture": "260822-194916-d049-workforce-boundaries-74-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d050-workforce-boundaries-75-default-service-hours-8-30am-6",
+      "capture": "260822-195021-d050-workforce-boundaries-75-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d051-workforce-boundaries-77-default-service-hours-8-30am-6",
+      "capture": "260822-195128-d051-workforce-boundaries-77-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d052-workforce-boundaries-80-default-service-hours-8-30am-6",
+      "capture": "260822-195233-d052-workforce-boundaries-80-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d053-workforce-boundaries-84-max-jobs-per-day-15-preferred-",
+      "capture": "260822-195335-d053-workforce-boundaries-84-max-jobs-per-day-15-preferred-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d054-workforce-boundaries-85-max-jobs-per-day-15-preferred-",
+      "capture": "260822-195415-d054-workforce-boundaries-85-max-jobs-per-day-15-preferred-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d055-workforce-boundaries-87-max-jobs-per-day-15-preferred-",
+      "capture": "260822-195455-d055-workforce-boundaries-87-max-jobs-per-day-15-preferred-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d056-workforce-boundaries-90-max-jobs-per-day-15-pre-post-s",
+      "capture": "260822-195536-d056-workforce-boundaries-90-max-jobs-per-day-15-pre-post-s",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d057-workforce-boundaries-94-preferred-jobs-per-day-10-pre-",
+      "capture": "260822-195617-d057-workforce-boundaries-94-preferred-jobs-per-day-10-pre-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d058-workforce-boundaries-99-default-service-hours-8-30am-6",
+      "capture": "260822-195718-d058-workforce-boundaries-99-default-service-hours-8-30am-6",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d059-workforce-boundaries-100-default-service-hours-8-30am-",
+      "capture": "260822-195804-d059-workforce-boundaries-100-default-service-hours-8-30am-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d060-workforce-boundaries-102-default-service-hours-8-30am-",
+      "capture": "260822-195850-d060-workforce-boundaries-102-default-service-hours-8-30am-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d061-workforce-boundaries-105-default-service-hours-8-30am-",
+      "capture": "260822-195931-d061-workforce-boundaries-105-default-service-hours-8-30am-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d062-workforce-boundaries-109-default-service-hours-8-30am-",
+      "capture": "260822-200014-d062-workforce-boundaries-109-default-service-hours-8-30am-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d063-workforce-boundaries-114-max-jobs-per-day-15-preferred",
+      "capture": "260822-200121-d063-workforce-boundaries-114-max-jobs-per-day-15-preferred",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d064-workforce-boundaries-120-default-service-hours-8-30am-",
+      "capture": "260822-200203-d064-workforce-boundaries-120-default-service-hours-8-30am-",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d065-workforce-boundaries-128-preferred-jobs-per-day-15-max",
+      "capture": "260822-200245-d065-workforce-boundaries-128-preferred-jobs-per-day-15-max",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d066-workforce-boundaries-129-pre-post-shift-travel-30min-e",
+      "capture": "260822-200327-d066-workforce-boundaries-129-pre-post-shift-travel-30min-e",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d067-workforce-boundaries-130-pre-post-shift-travel-total-e",
+      "capture": "260822-200430-d067-workforce-boundaries-130-pre-post-shift-travel-total-e",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d068-workforce-boundaries-131-service-hours-end-6pm-max-shi",
+      "capture": "260822-200537-d068-workforce-boundaries-131-service-hours-end-6pm-max-shi",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d069-workforce-boundaries-133-max-jobs-per-day-0",
+      "capture": "260822-200640-d069-workforce-boundaries-133-max-jobs-per-day-0",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d070-workforce-boundaries-134-preferred-jobs-per-day-0",
+      "capture": "260822-200725-d070-workforce-boundaries-134-preferred-jobs-per-day-0",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d071-workforce-boundaries-note-combos-that-do-not-have-defa",
+      "capture": "260822-200831-d071-workforce-boundaries-note-combos-that-do-not-have-defa",
+      "module": "Workforce Boundaries",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d072-route-efficiency-3-max-travel-distance-10mi",
+      "capture": "260822-200937-d072-route-efficiency-3-max-travel-distance-10mi",
+      "module": "Route Efficiency",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d073-route-efficiency-4-max-shift-travel-120min",
+      "capture": "260822-201021-d073-route-efficiency-4-max-shift-travel-120min",
+      "module": "Route Efficiency",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d074-route-efficiency-8-skill-matching-on",
+      "capture": "260822-201127-d074-route-efficiency-8-skill-matching-on",
+      "module": "Route Efficiency",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d075-route-efficiency-10-min-travel-time-5min-max-travel-di",
+      "capture": "260822-201233-d075-route-efficiency-10-min-travel-time-5min-max-travel-di",
+      "module": "Route Efficiency",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d076-route-efficiency-11-min-travel-time-5min-max-shift-tra",
+      "capture": "260822-201305-d076-route-efficiency-11-min-travel-time-5min-max-shift-tra",
+      "module": "Route Efficiency",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d077-route-efficiency-15-min-travel-time-5min-skill-matchin",
+      "capture": "260822-201412-d077-route-efficiency-15-min-travel-time-5min-skill-matchin",
+      "module": "Route Efficiency",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d078-route-efficiency-16-min-travel-distance-0-5mi-max-trav",
+      "capture": "260822-201518-d078-route-efficiency-16-min-travel-distance-0-5mi-max-trav",
+      "module": "Route Efficiency",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    },
+    {
+      "name": "d079-route-efficiency-17-min-travel-distance-0-5mi-max-shif",
+      "capture": "260822-201554-d079-route-efficiency-17-min-travel-distance-0-5mi-max-shif",
+      "module": "Route Efficiency",
+      "verdict": "REACHES_ENGINE",
+      "setup_ok": true,
+      "jobs_before": 212,
+      "jobs_optimized": 212,
+      "job_changes": 0,
+      "added": 0,
+      "missing": 0,
+      "drive_before": 3798.5,
+      "drive_optimized": 3876.4,
+      "drive_delta": 77.9,
+      "route_changed": 6,
+      "stats": {
+        "work_time": [
+          5370,
+          0
+        ],
+        "drive_time": [
+          28599,
+          30371
+        ],
+        "distance": [
+          30190,
+          32122.1
+        ],
+        "jobs_assigned": [
+          212,
+          212
+        ]
+      }
+    }
+  ]
+}

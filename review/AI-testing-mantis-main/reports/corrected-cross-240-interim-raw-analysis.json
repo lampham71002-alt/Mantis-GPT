@@ -1,0 +1,6151 @@
+[
+  {
+    "capture": "260823-091526-e000-control-future-cross-csv",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e000-control-future-cross-csv",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-091627-e001-control-current-cross-csv",
+    "change_cats": {},
+    "drive_delta": -26.8,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      55,
+      55
+    ],
+    "drive_sum": [
+      1199.1,
+      1172.3
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 83,
+    "jobs_optimized": 83,
+    "name": "e001-control-current-cross-csv",
+    "route_changed": 1,
+    "route_keys_same": true,
+    "routes": [
+      5,
+      5
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      2609.7,
+      2609.7
+    ],
+    "stats_drive": [
+      2986,
+      2986
+    ],
+    "stats_jobs_assigned": [
+      83,
+      83
+    ],
+    "stats_work": [
+      2190,
+      840
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-091653-e002-4-key-cross-1-default-service-hours-8-30am-6pm-max-tra",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e002-4-key-cross-1-default-service-hours-8-30am-6pm-max-tra",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-091738-e003-4-key-cross-2-default-service-hours-8-30am-6pm-max-tra",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e003-4-key-cross-2-default-service-hours-8-30am-6pm-max-tra",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-091812-e004-4-key-cross-3-default-service-hours-8-30am-6pm-max-tra",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e004-4-key-cross-3-default-service-hours-8-30am-6pm-max-tra",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-091846-e005-4-key-cross-4-default-service-hours-8-30am-6pm-max-tra",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e005-4-key-cross-4-default-service-hours-8-30am-6pm-max-tra",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-091924-e006-4-key-cross-5-default-service-hours-8-30am-6pm-max-tra",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e006-4-key-cross-5-default-service-hours-8-30am-6pm-max-tra",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-091958-e007-4-key-cross-6-default-service-hours-8-30am-6pm-max-tra",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e007-4-key-cross-6-default-service-hours-8-30am-6pm-max-tra",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-092032-e008-4-key-cross-7-default-service-hours-8-30am-6pm-max-tra",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e008-4-key-cross-7-default-service-hours-8-30am-6pm-max-tra",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-092108-e009-4-key-cross-8-default-service-hours-8-30am-6pm-max-tra",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e009-4-key-cross-8-default-service-hours-8-30am-6pm-max-tra",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-092143-e010-4-key-cross-9-default-service-hours-8-30am-6pm-max-tra",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e010-4-key-cross-9-default-service-hours-8-30am-6pm-max-tra",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-092216-e011-4-key-cross-10-default-service-hours-8-30am-6pm-max-tr",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e011-4-key-cross-10-default-service-hours-8-30am-6pm-max-tr",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-092250-e012-4-key-cross-11-default-service-hours-8-30am-6pm-max-tr",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e012-4-key-cross-11-default-service-hours-8-30am-6pm-max-tr",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-092324-e013-4-key-cross-12-default-service-hours-8-30am-6pm-max-tr",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e013-4-key-cross-12-default-service-hours-8-30am-6pm-max-tr",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-092359-e014-4-key-cross-13-default-service-hours-8-30am-6pm-max-tr",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e014-4-key-cross-13-default-service-hours-8-30am-6pm-max-tr",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-092434-e015-4-key-cross-14-default-service-hours-8-30am-6pm-max-tr",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e015-4-key-cross-14-default-service-hours-8-30am-6pm-max-tr",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-092508-e016-4-key-cross-15-default-service-hours-8-30am-6pm-max-tr",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e016-4-key-cross-15-default-service-hours-8-30am-6pm-max-tr",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-092542-e017-4-key-cross-16-default-service-hours-8-30am-6pm-max-tr",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e017-4-key-cross-16-default-service-hours-8-30am-6pm-max-tr",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-092616-e018-4-key-cross-17-default-service-hours-8-30am-6pm-skill-",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e018-4-key-cross-17-default-service-hours-8-30am-6pm-skill-",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-092723-e019-4-key-cross-18-default-service-hours-8-30am-6pm-skill-",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e019-4-key-cross-18-default-service-hours-8-30am-6pm-skill-",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-092831-e020-4-key-cross-19-default-service-hours-8-30am-6pm-skill-",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e020-4-key-cross-19-default-service-hours-8-30am-6pm-skill-",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-092938-e021-4-key-cross-20-default-service-hours-8-30am-6pm-skill-",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e021-4-key-cross-20-default-service-hours-8-30am-6pm-skill-",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-093047-e022-4-key-cross-21-default-service-hours-8-30am-6pm-skill-",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e022-4-key-cross-21-default-service-hours-8-30am-6pm-skill-",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-093154-e023-4-key-cross-22-default-service-hours-8-30am-6pm-skill-",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e023-4-key-cross-22-default-service-hours-8-30am-6pm-skill-",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-093302-e024-4-key-cross-23-default-service-hours-8-30am-6pm-skill-",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e024-4-key-cross-23-default-service-hours-8-30am-6pm-skill-",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-093408-e025-4-key-cross-24-default-service-hours-8-30am-6pm-skill-",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e025-4-key-cross-24-default-service-hours-8-30am-6pm-skill-",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-093514-e026-4-key-cross-25-default-service-hours-8-30am-6pm-skill-",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e026-4-key-cross-25-default-service-hours-8-30am-6pm-skill-",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-093620-e027-4-key-cross-26-default-service-hours-8-30am-6pm-skill-",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e027-4-key-cross-26-default-service-hours-8-30am-6pm-skill-",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-093725-e028-4-key-cross-27-default-service-hours-8-30am-6pm-skill-",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e028-4-key-cross-27-default-service-hours-8-30am-6pm-skill-",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-093830-e029-4-key-cross-28-default-service-hours-8-30am-6pm-skill-",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e029-4-key-cross-28-default-service-hours-8-30am-6pm-skill-",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-093936-e030-4-key-cross-29-default-service-hours-8-30am-6pm-skill-",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e030-4-key-cross-29-default-service-hours-8-30am-6pm-skill-",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-094040-e031-4-key-cross-30-default-service-hours-8-30am-6pm-skill-",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e031-4-key-cross-30-default-service-hours-8-30am-6pm-skill-",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-094146-e032-4-key-cross-31-default-service-hours-8-30am-6pm-skill-",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e032-4-key-cross-31-default-service-hours-8-30am-6pm-skill-",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-094253-e033-4-key-cross-32-default-service-hours-8-30am-6pm-skill-",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e033-4-key-cross-32-default-service-hours-8-30am-6pm-skill-",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-094407-e034-4-key-cross-33-default-service-hours-8-30am-6pm-prefer",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e034-4-key-cross-33-default-service-hours-8-30am-6pm-prefer",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-094512-e035-4-key-cross-34-default-service-hours-8-30am-6pm-prefer",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e035-4-key-cross-34-default-service-hours-8-30am-6pm-prefer",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-094619-e036-4-key-cross-35-default-service-hours-8-30am-6pm-prefer",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e036-4-key-cross-35-default-service-hours-8-30am-6pm-prefer",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-094726-e037-4-key-cross-36-default-service-hours-8-30am-6pm-prefer",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e037-4-key-cross-36-default-service-hours-8-30am-6pm-prefer",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-094832-e038-4-key-cross-37-default-service-hours-8-30am-6pm-prefer",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e038-4-key-cross-37-default-service-hours-8-30am-6pm-prefer",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-094939-e039-4-key-cross-38-default-service-hours-8-30am-6pm-prefer",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e039-4-key-cross-38-default-service-hours-8-30am-6pm-prefer",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-095048-e040-4-key-cross-39-default-service-hours-8-30am-6pm-prefer",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e040-4-key-cross-39-default-service-hours-8-30am-6pm-prefer",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-095155-e041-4-key-cross-40-default-service-hours-8-30am-6pm-prefer",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e041-4-key-cross-40-default-service-hours-8-30am-6pm-prefer",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-095302-e042-4-key-cross-41-default-service-hours-8-30am-6pm-prefer",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e042-4-key-cross-41-default-service-hours-8-30am-6pm-prefer",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-095408-e043-4-key-cross-42-default-service-hours-8-30am-6pm-prefer",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e043-4-key-cross-42-default-service-hours-8-30am-6pm-prefer",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-095515-e044-4-key-cross-43-default-service-hours-8-30am-6pm-prefer",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e044-4-key-cross-43-default-service-hours-8-30am-6pm-prefer",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-095620-e045-4-key-cross-44-default-service-hours-8-30am-6pm-prefer",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e045-4-key-cross-44-default-service-hours-8-30am-6pm-prefer",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-095725-e046-4-key-cross-45-default-service-hours-8-30am-6pm-prefer",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e046-4-key-cross-45-default-service-hours-8-30am-6pm-prefer",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-095832-e047-4-key-cross-46-default-service-hours-8-30am-6pm-prefer",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e047-4-key-cross-46-default-service-hours-8-30am-6pm-prefer",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-095940-e048-4-key-cross-47-default-service-hours-8-30am-6pm-prefer",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e048-4-key-cross-47-default-service-hours-8-30am-6pm-prefer",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-100047-e049-4-key-cross-48-default-service-hours-8-30am-6pm-prefer",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e049-4-key-cross-48-default-service-hours-8-30am-6pm-prefer",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-100155-e050-4-key-cross-49-default-service-hours-8-30am-6pm-max-sh",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e050-4-key-cross-49-default-service-hours-8-30am-6pm-max-sh",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-100300-e051-4-key-cross-50-default-service-hours-8-30am-6pm-max-sh",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e051-4-key-cross-50-default-service-hours-8-30am-6pm-max-sh",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-100406-e052-4-key-cross-51-default-service-hours-8-30am-6pm-max-sh",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e052-4-key-cross-51-default-service-hours-8-30am-6pm-max-sh",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-100512-e053-4-key-cross-52-default-service-hours-8-30am-6pm-max-sh",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e053-4-key-cross-52-default-service-hours-8-30am-6pm-max-sh",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-100617-e054-4-key-cross-53-default-service-hours-8-30am-6pm-max-sh",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e054-4-key-cross-53-default-service-hours-8-30am-6pm-max-sh",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-100721-e055-4-key-cross-54-default-service-hours-8-30am-6pm-max-sh",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e055-4-key-cross-54-default-service-hours-8-30am-6pm-max-sh",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-100831-e056-4-key-cross-55-default-service-hours-8-30am-6pm-max-sh",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e056-4-key-cross-55-default-service-hours-8-30am-6pm-max-sh",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-100938-e057-4-key-cross-56-default-service-hours-8-30am-6pm-max-sh",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e057-4-key-cross-56-default-service-hours-8-30am-6pm-max-sh",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-101046-e058-4-key-cross-57-default-service-hours-8-30am-6pm-max-sh",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e058-4-key-cross-57-default-service-hours-8-30am-6pm-max-sh",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-101153-e059-4-key-cross-58-default-service-hours-8-30am-6pm-max-sh",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e059-4-key-cross-58-default-service-hours-8-30am-6pm-max-sh",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-101258-e060-4-key-cross-59-default-service-hours-8-30am-6pm-max-sh",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e060-4-key-cross-59-default-service-hours-8-30am-6pm-max-sh",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-101403-e061-4-key-cross-60-default-service-hours-8-30am-6pm-max-sh",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e061-4-key-cross-60-default-service-hours-8-30am-6pm-max-sh",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-101509-e062-4-key-cross-61-default-service-hours-8-30am-6pm-max-sh",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e062-4-key-cross-61-default-service-hours-8-30am-6pm-max-sh",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-101616-e063-4-key-cross-62-default-service-hours-8-30am-6pm-max-sh",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e063-4-key-cross-62-default-service-hours-8-30am-6pm-max-sh",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-101721-e064-4-key-cross-63-default-service-hours-8-30am-6pm-max-sh",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e064-4-key-cross-63-default-service-hours-8-30am-6pm-max-sh",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-101827-e065-4-key-cross-64-default-service-hours-8-30am-6pm-max-sh",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e065-4-key-cross-64-default-service-hours-8-30am-6pm-max-sh",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-101934-e066-4-key-cross-65-max-jobs-per-day-15-max-travel-distance",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e066-4-key-cross-65-max-jobs-per-day-15-max-travel-distance",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-102009-e067-4-key-cross-66-max-jobs-per-day-15-max-travel-distance",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e067-4-key-cross-66-max-jobs-per-day-15-max-travel-distance",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-102050-e068-4-key-cross-67-max-jobs-per-day-15-max-travel-distance",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e068-4-key-cross-67-max-jobs-per-day-15-max-travel-distance",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-102131-e069-4-key-cross-68-max-jobs-per-day-15-max-travel-distance",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e069-4-key-cross-68-max-jobs-per-day-15-max-travel-distance",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-102210-e070-4-key-cross-69-max-jobs-per-day-15-max-travel-distance",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e070-4-key-cross-69-max-jobs-per-day-15-max-travel-distance",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-102249-e071-4-key-cross-70-max-jobs-per-day-15-max-travel-distance",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e071-4-key-cross-70-max-jobs-per-day-15-max-travel-distance",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-102326-e072-4-key-cross-71-max-jobs-per-day-15-max-travel-distance",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e072-4-key-cross-71-max-jobs-per-day-15-max-travel-distance",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-102406-e073-4-key-cross-72-max-jobs-per-day-15-max-travel-distance",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e073-4-key-cross-72-max-jobs-per-day-15-max-travel-distance",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-102444-e074-4-key-cross-73-max-jobs-per-day-15-max-travel-distance",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e074-4-key-cross-73-max-jobs-per-day-15-max-travel-distance",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-102519-e075-4-key-cross-74-max-jobs-per-day-15-max-travel-distance",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e075-4-key-cross-74-max-jobs-per-day-15-max-travel-distance",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-102553-e076-4-key-cross-75-max-jobs-per-day-15-max-travel-distance",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e076-4-key-cross-75-max-jobs-per-day-15-max-travel-distance",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-102626-e077-4-key-cross-76-max-jobs-per-day-15-max-travel-distance",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e077-4-key-cross-76-max-jobs-per-day-15-max-travel-distance",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-102703-e078-4-key-cross-77-max-jobs-per-day-15-max-travel-distance",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e078-4-key-cross-77-max-jobs-per-day-15-max-travel-distance",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-102738-e079-4-key-cross-78-max-jobs-per-day-15-max-travel-distance",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e079-4-key-cross-78-max-jobs-per-day-15-max-travel-distance",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-102814-e080-4-key-cross-79-max-jobs-per-day-15-max-travel-distance",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e080-4-key-cross-79-max-jobs-per-day-15-max-travel-distance",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-102849-e081-4-key-cross-80-max-jobs-per-day-15-max-travel-distance",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e081-4-key-cross-80-max-jobs-per-day-15-max-travel-distance",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-102924-e082-4-key-cross-81-max-jobs-per-day-15-skill-matching-on-m",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e082-4-key-cross-81-max-jobs-per-day-15-skill-matching-on-m",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-103011-e083-4-key-cross-82-max-jobs-per-day-15-skill-matching-on-m",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e083-4-key-cross-82-max-jobs-per-day-15-skill-matching-on-m",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-103056-e084-4-key-cross-83-max-jobs-per-day-15-skill-matching-on-m",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e084-4-key-cross-83-max-jobs-per-day-15-skill-matching-on-m",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-103140-e085-4-key-cross-84-max-jobs-per-day-15-skill-matching-on-m",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e085-4-key-cross-84-max-jobs-per-day-15-skill-matching-on-m",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-103225-e086-4-key-cross-85-max-jobs-per-day-15-skill-matching-on-r",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e086-4-key-cross-85-max-jobs-per-day-15-skill-matching-on-r",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-103311-e087-4-key-cross-86-max-jobs-per-day-15-skill-matching-on-r",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e087-4-key-cross-86-max-jobs-per-day-15-skill-matching-on-r",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-103357-e088-4-key-cross-87-max-jobs-per-day-15-skill-matching-on-r",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e088-4-key-cross-87-max-jobs-per-day-15-skill-matching-on-r",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-103446-e089-4-key-cross-88-max-jobs-per-day-15-skill-matching-on-r",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e089-4-key-cross-88-max-jobs-per-day-15-skill-matching-on-r",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-103533-e090-4-key-cross-89-max-jobs-per-day-15-skill-matching-on-d",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e090-4-key-cross-89-max-jobs-per-day-15-skill-matching-on-d",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-103620-e091-4-key-cross-90-max-jobs-per-day-15-skill-matching-on-d",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e091-4-key-cross-90-max-jobs-per-day-15-skill-matching-on-d",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-103706-e092-4-key-cross-91-max-jobs-per-day-15-skill-matching-on-d",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e092-4-key-cross-91-max-jobs-per-day-15-skill-matching-on-d",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-103752-e093-4-key-cross-92-max-jobs-per-day-15-skill-matching-on-d",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e093-4-key-cross-92-max-jobs-per-day-15-skill-matching-on-d",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-103836-e094-4-key-cross-93-max-jobs-per-day-15-skill-matching-on-c",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e094-4-key-cross-93-max-jobs-per-day-15-skill-matching-on-c",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-103922-e095-4-key-cross-94-max-jobs-per-day-15-skill-matching-on-c",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e095-4-key-cross-94-max-jobs-per-day-15-skill-matching-on-c",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-104008-e096-4-key-cross-95-max-jobs-per-day-15-skill-matching-on-c",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e096-4-key-cross-95-max-jobs-per-day-15-skill-matching-on-c",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-104056-e097-4-key-cross-96-max-jobs-per-day-15-skill-matching-on-c",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e097-4-key-cross-96-max-jobs-per-day-15-skill-matching-on-c",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-104142-e098-4-key-cross-97-max-jobs-per-day-15-preferred-tech-stri",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e098-4-key-cross-97-max-jobs-per-day-15-preferred-tech-stri",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-104227-e099-4-key-cross-98-max-jobs-per-day-15-preferred-tech-stri",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e099-4-key-cross-98-max-jobs-per-day-15-preferred-tech-stri",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-104311-e100-4-key-cross-99-max-jobs-per-day-15-preferred-tech-stri",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e100-4-key-cross-99-max-jobs-per-day-15-preferred-tech-stri",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-104356-e101-4-key-cross-100-max-jobs-per-day-15-preferred-tech-str",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e101-4-key-cross-100-max-jobs-per-day-15-preferred-tech-str",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-104441-e102-4-key-cross-101-max-jobs-per-day-15-preferred-tech-str",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e102-4-key-cross-101-max-jobs-per-day-15-preferred-tech-str",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-104526-e103-4-key-cross-102-max-jobs-per-day-15-preferred-tech-str",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e103-4-key-cross-102-max-jobs-per-day-15-preferred-tech-str",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-104610-e104-4-key-cross-103-max-jobs-per-day-15-preferred-tech-str",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e104-4-key-cross-103-max-jobs-per-day-15-preferred-tech-str",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-104655-e105-4-key-cross-104-max-jobs-per-day-15-preferred-tech-str",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e105-4-key-cross-104-max-jobs-per-day-15-preferred-tech-str",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-104741-e106-4-key-cross-105-max-jobs-per-day-15-preferred-tech-str",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e106-4-key-cross-105-max-jobs-per-day-15-preferred-tech-str",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-104826-e107-4-key-cross-106-max-jobs-per-day-15-preferred-tech-str",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e107-4-key-cross-106-max-jobs-per-day-15-preferred-tech-str",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-104911-e108-4-key-cross-107-max-jobs-per-day-15-preferred-tech-str",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e108-4-key-cross-107-max-jobs-per-day-15-preferred-tech-str",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-104956-e109-4-key-cross-108-max-jobs-per-day-15-preferred-tech-str",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e109-4-key-cross-108-max-jobs-per-day-15-preferred-tech-str",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-105041-e110-4-key-cross-109-max-jobs-per-day-15-preferred-tech-str",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e110-4-key-cross-109-max-jobs-per-day-15-preferred-tech-str",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-105127-e111-4-key-cross-110-max-jobs-per-day-15-preferred-tech-str",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e111-4-key-cross-110-max-jobs-per-day-15-preferred-tech-str",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-105212-e112-4-key-cross-111-max-jobs-per-day-15-preferred-tech-str",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e112-4-key-cross-111-max-jobs-per-day-15-preferred-tech-str",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-105257-e113-4-key-cross-112-max-jobs-per-day-15-preferred-tech-str",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e113-4-key-cross-112-max-jobs-per-day-15-preferred-tech-str",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-105342-e114-4-key-cross-113-max-jobs-per-day-15-max-shift-travel-1",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e114-4-key-cross-113-max-jobs-per-day-15-max-shift-travel-1",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-105427-e115-4-key-cross-114-max-jobs-per-day-15-max-shift-travel-1",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e115-4-key-cross-114-max-jobs-per-day-15-max-shift-travel-1",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-105512-e116-4-key-cross-115-max-jobs-per-day-15-max-shift-travel-1",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e116-4-key-cross-115-max-jobs-per-day-15-max-shift-travel-1",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-105557-e117-4-key-cross-116-max-jobs-per-day-15-max-shift-travel-1",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e117-4-key-cross-116-max-jobs-per-day-15-max-shift-travel-1",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-105641-e118-4-key-cross-117-max-jobs-per-day-15-max-shift-travel-1",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e118-4-key-cross-117-max-jobs-per-day-15-max-shift-travel-1",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-105727-e119-4-key-cross-118-max-jobs-per-day-15-max-shift-travel-1",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e119-4-key-cross-118-max-jobs-per-day-15-max-shift-travel-1",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-105818-e120-4-key-cross-119-max-jobs-per-day-15-max-shift-travel-1",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e120-4-key-cross-119-max-jobs-per-day-15-max-shift-travel-1",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-105903-e121-4-key-cross-120-max-jobs-per-day-15-max-shift-travel-1",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e121-4-key-cross-120-max-jobs-per-day-15-max-shift-travel-1",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-105948-e122-4-key-cross-121-max-jobs-per-day-15-max-shift-travel-1",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e122-4-key-cross-121-max-jobs-per-day-15-max-shift-travel-1",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-110035-e123-4-key-cross-122-max-jobs-per-day-15-max-shift-travel-1",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e123-4-key-cross-122-max-jobs-per-day-15-max-shift-travel-1",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-110120-e124-4-key-cross-123-max-jobs-per-day-15-max-shift-travel-1",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e124-4-key-cross-123-max-jobs-per-day-15-max-shift-travel-1",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-110204-e125-4-key-cross-124-max-jobs-per-day-15-max-shift-travel-1",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e125-4-key-cross-124-max-jobs-per-day-15-max-shift-travel-1",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-110249-e126-4-key-cross-125-max-jobs-per-day-15-max-shift-travel-1",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e126-4-key-cross-125-max-jobs-per-day-15-max-shift-travel-1",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-110333-e127-4-key-cross-126-max-jobs-per-day-15-max-shift-travel-1",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e127-4-key-cross-126-max-jobs-per-day-15-max-shift-travel-1",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-110417-e128-4-key-cross-127-max-jobs-per-day-15-max-shift-travel-1",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e128-4-key-cross-127-max-jobs-per-day-15-max-shift-travel-1",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-110502-e129-4-key-cross-128-max-jobs-per-day-15-max-shift-travel-1",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e129-4-key-cross-128-max-jobs-per-day-15-max-shift-travel-1",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-110546-e130-4-key-cross-129-max-shift-end-time-6pm-max-travel-dist",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e130-4-key-cross-129-max-shift-end-time-6pm-max-travel-dist",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-110619-e131-4-key-cross-130-max-shift-end-time-6pm-max-travel-dist",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e131-4-key-cross-130-max-shift-end-time-6pm-max-travel-dist",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-110654-e132-4-key-cross-131-max-shift-end-time-6pm-max-travel-dist",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e132-4-key-cross-131-max-shift-end-time-6pm-max-travel-dist",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-110729-e133-4-key-cross-132-max-shift-end-time-6pm-max-travel-dist",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e133-4-key-cross-132-max-shift-end-time-6pm-max-travel-dist",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-110803-e134-4-key-cross-133-max-shift-end-time-6pm-max-travel-dist",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e134-4-key-cross-133-max-shift-end-time-6pm-max-travel-dist",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-110841-e135-4-key-cross-134-max-shift-end-time-6pm-max-travel-dist",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e135-4-key-cross-134-max-shift-end-time-6pm-max-travel-dist",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-110917-e136-4-key-cross-135-max-shift-end-time-6pm-max-travel-dist",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e136-4-key-cross-135-max-shift-end-time-6pm-max-travel-dist",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-110951-e137-4-key-cross-136-max-shift-end-time-6pm-max-travel-dist",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e137-4-key-cross-136-max-shift-end-time-6pm-max-travel-dist",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-111025-e138-4-key-cross-137-max-shift-end-time-6pm-max-travel-dist",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e138-4-key-cross-137-max-shift-end-time-6pm-max-travel-dist",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-111059-e139-4-key-cross-138-max-shift-end-time-6pm-max-travel-dist",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e139-4-key-cross-138-max-shift-end-time-6pm-max-travel-dist",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-111133-e140-4-key-cross-139-max-shift-end-time-6pm-max-travel-dist",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e140-4-key-cross-139-max-shift-end-time-6pm-max-travel-dist",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-111206-e141-4-key-cross-140-max-shift-end-time-6pm-max-travel-dist",
+    "change_cats": {},
+    "drive_delta": 576.6,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      4375.1
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e141-4-key-cross-140-max-shift-end-time-6pm-max-travel-dist",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      32421
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  },
+  {
+    "capture": "260823-111241-e142-4-key-cross-141-max-shift-end-time-6pm-max-travel-dist",
+    "change_cats": {},
+    "drive_delta": 77.9,
+    "drive_jobid_set_same": false,
+    "drive_segments": [
+      115,
+      115
+    ],
+    "drive_sum": [
+      3798.5,
+      3876.4
+    ],
+    "job_changed": 0,
+    "job_ids_same": true,
+    "jobs_before": 212,
+    "jobs_optimized": 212,
+    "name": "e142-4-key-cross-141-max-shift-end-time-6pm-max-travel-dist",
+    "route_changed": 6,
+    "route_keys_same": true,
+    "routes": [
+      7,
+      7
+    ],
+    "setup_ok": true,
+    "stats_distance": [
+      30190,
+      32122.1
+    ],
+    "stats_drive": [
+      28599,
+      30371
+    ],
+    "stats_jobs_assigned": [
+      212,
+      212
+    ],
+    "stats_work": [
+      5370,
+      0
+    ],
+    "verdict": "REACHES_ENGINE"
+  }
+]

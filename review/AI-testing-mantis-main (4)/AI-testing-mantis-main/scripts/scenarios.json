@@ -1,0 +1,41 @@
+[
+ {"name":"s00-control-all-off",
+  "config":{"service-commitment":{"max_departure_time":{"status":0,"value":960}}},
+  "filters":{"schedule_ids":"245","start":"2026-08-23T00:00:00+00:00","end":"2026-08-29T23:59:59+00:00","statuses":-1,"inc":"recurring","color_id":1,"exclude":[]}},
+
+ {"name":"s01-wb-max-jobs-5",
+  "config":{"workforce-boundaries":{"max_jobs_per_day":{"status":1,"value":5},"preferred_jobs_per_day":{"status":1,"value":5}},
+            "service-commitment":{"max_departure_time":{"status":0,"value":960}}},
+  "filters":{"schedule_ids":"245","start":"2026-08-23T00:00:00+00:00","end":"2026-08-29T23:59:59+00:00","statuses":-1,"inc":"recurring","color_id":1,"exclude":[]}},
+
+ {"name":"s02-wb-service-hours-0830-1800",
+  "config":{"workforce-boundaries":{"default_service_hours":{"status":1,"value":{"system_default":0,"start":510,"end":1080}}},
+            "service-commitment":{"max_departure_time":{"status":0,"value":960}}},
+  "filters":{"schedule_ids":"245","start":"2026-08-23T00:00:00+00:00","end":"2026-08-29T23:59:59+00:00","statuses":-1,"inc":"recurring","color_id":1,"exclude":[]}},
+
+ {"name":"s03-wb-max-shift-end-1600",
+  "config":{"workforce-boundaries":{"max_shift_end_time":{"status":1,"value":960}},
+            "service-commitment":{"max_departure_time":{"status":0,"value":960}}},
+  "filters":{"schedule_ids":"245","start":"2026-08-23T00:00:00+00:00","end":"2026-08-29T23:59:59+00:00","statuses":-1,"inc":"recurring","color_id":1,"exclude":[]}},
+
+ {"name":"s04-re-max-travel-10mi",
+  "config":{"route-efficiency":{"max_travel_distance_miles":{"status":1,"value":10}},
+            "service-commitment":{"max_departure_time":{"status":0,"value":960}}},
+  "filters":{"schedule_ids":"245","start":"2026-08-23T00:00:00+00:00","end":"2026-08-29T23:59:59+00:00","statuses":-1,"inc":"recurring","color_id":1,"exclude":[]}},
+
+ {"name":"s05-sc-drive-buffer-10",
+  "config":{"service-commitment":{"drive_buffer":{"status":1,"value":10},"max_departure_time":{"status":0,"value":960}}},
+  "filters":{"schedule_ids":"245","start":"2026-08-23T00:00:00+00:00","end":"2026-08-29T23:59:59+00:00","statuses":-1,"inc":"recurring","color_id":1,"exclude":[]}},
+
+ {"name":"s06-sc-max-departure-1600",
+  "config":{"service-commitment":{"max_departure_time":{"status":1,"value":960}}},
+  "filters":{"schedule_ids":"245","start":"2026-08-23T00:00:00+00:00","end":"2026-08-29T23:59:59+00:00","statuses":-1,"inc":"recurring","color_id":1,"exclude":[]}},
+
+ {"name":"s07-filter-jobs-per-day-5",
+  "config":{"service-commitment":{"max_departure_time":{"status":0,"value":960}}},
+  "filters":{"schedule_ids":"245","start":"2026-08-23T00:00:00+00:00","end":"2026-08-29T23:59:59+00:00","statuses":-1,"inc":"recurring","color_id":1,"jobs_per_day":5,"exclude":[]}},
+
+ {"name":"s08-filter-drive-buffer-10",
+  "config":{"service-commitment":{"max_departure_time":{"status":0,"value":960}}},
+  "filters":{"schedule_ids":"245","start":"2026-08-23T00:00:00+00:00","end":"2026-08-29T23:59:59+00:00","statuses":-1,"inc":"recurring","color_id":1,"drive_buffer":10,"exclude":[]}}
+]

@@ -1,0 +1,277 @@
+#,Group,Condition,Input,Object,Expected,Status,NOTE Bug Reports
+1,1 field,Min Travel Time (5min),,,5min priority,Passed
+2,1 field,Min Travel Distance (0.5mi),,,0.5mi priority,Passed
+3,1 field,Max Travel Distance (10mi),,,Hard cap 10mi,Passed
+4,1 field,Max Shift Travel (120min),,,Shift ≤120min,Passed
+5,1 field,Ignore reroute (ON),,,Skip reroute,Passed
+6,1 field,Route around (ON),,,Avoid status,Passed,ID #8
+7,1 field,Preferred Tech (Strict),,,Strict pref,Passed
+8,1 field,Skill Matching (ON),,,Skill filter,Failed,r_16
+9,2 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi),,,5min priority | 0.5mi priority,Passed
+10,2 fields,Min Travel Time (5min) + Max Travel Distance (10mi),,,5min priority | Hard cap 10mi,Failed
+11,2 fields,Min Travel Time (5min) + Max Shift Travel (120min),,,5min priority | Shift ≤120min
+12,2 fields,Min Travel Time (5min) + Ignore reroute (ON),,,5min priority | Skip reroute
+13,2 fields,Min Travel Time (5min) + Route around (ON),,,5min priority | Avoid status
+14,2 fields,Min Travel Time (5min) + Preferred Tech (Soft),,,5min priority | Soft pref
+15,2 fields,Min Travel Time (5min) + Skill Matching (ON),,,5min priority | Skill filter
+16,2 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi),,,0.5mi priority | Hard cap 10mi
+17,2 fields,Min Travel Distance (0.5mi) + Max Shift Travel (120min),,,0.5mi priority | Shift ≤120min
+18,2 fields,Min Travel Distance (0.5mi) + Ignore reroute (ON),,,0.5mi priority | Skip reroute,Passed
+19,2 fields,Min Travel Distance (0.5mi) + Route around (ON),,,0.5mi priority | Avoid status
+20,2 fields,Min Travel Distance (0.5mi) + Preferred Tech (Soft),,,0.5mi priority | Soft pref
+21,2 fields,Min Travel Distance (0.5mi) + Skill Matching (ON),,,0.5mi priority | Skill filter
+22,2 fields,Max Travel Distance (10mi) + Max Shift Travel (120min),,,Hard cap 10mi | Shift ≤120min
+23,2 fields,Max Travel Distance (10mi) + Ignore reroute (ON),,,Hard cap 10mi | Skip reroute
+24,2 fields,Max Travel Distance (10mi) + Route around (ON),,,Hard cap 10mi | Avoid status
+25,2 fields,Max Travel Distance (10mi) + Preferred Tech (Soft),,,Hard cap 10mi | Soft pref
+26,2 fields,Max Travel Distance (10mi) + Skill Matching (ON),,,Hard cap 10mi | Skill filter
+27,2 fields,Max Shift Travel (120min) + Ignore reroute (ON),,,Shift ≤120min | Skip reroute
+28,2 fields,Max Shift Travel (120min) + Route around (ON),,,Shift ≤120min | Avoid status
+29,2 fields,Max Shift Travel (120min) + Preferred Tech (Soft),,,Shift ≤120min | Soft pref
+30,2 fields,Max Shift Travel (120min) + Skill Matching (ON),,,Shift ≤120min | Skill filter
+31,2 fields,Ignore reroute (ON) + Route around (ON),,,Skip reroute | Avoid status
+32,2 fields,Ignore reroute (ON) + Preferred Tech (Soft),,,Skip reroute | Soft pref
+33,2 fields,Ignore reroute (ON) + Skill Matching (ON),,,Skip reroute | Skill filter
+34,2 fields,Route around (ON) + Preferred Tech (Soft),,,Avoid status | Soft pref
+35,2 fields,Route around (ON) + Skill Matching (ON),,,Avoid status | Skill filter
+36,2 fields,Preferred Tech (Soft) + Skill Matching (ON),,,Soft pref | Skill filter
+37,3 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi),,,5min priority | 0.5mi priority | Hard cap 10mi
+38,3 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Shift Travel (120min),,,5min priority | 0.5mi priority | Shift ≤120min
+39,3 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Ignore reroute (ON),,,5min priority | 0.5mi priority | Skip reroute
+40,3 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Route around (ON),,,5min priority | 0.5mi priority | Avoid status
+41,3 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Preferred Tech (Soft),,,5min priority | 0.5mi priority | Soft pref
+42,3 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Skill Matching (ON),,,5min priority | 0.5mi priority | Skill filter
+43,3 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Max Shift Travel (120min),,,5min priority | Hard cap 10mi | Shift ≤120min
+44,3 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Ignore reroute (ON),,,5min priority | Hard cap 10mi | Skip reroute
+45,3 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Route around (ON),,,5min priority | Hard cap 10mi | Avoid status
+46,3 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Preferred Tech (Soft),,,5min priority | Hard cap 10mi | Soft pref
+47,3 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Skill Matching (ON),,,5min priority | Hard cap 10mi | Skill filter
+48,3 fields,Min Travel Time (5min) + Max Shift Travel (120min) + Ignore reroute (ON),,,5min priority | Shift ≤120min | Skip reroute
+49,3 fields,Min Travel Time (5min) + Max Shift Travel (120min) + Route around (ON),,,5min priority | Shift ≤120min | Avoid status
+50,3 fields,Min Travel Time (5min) + Max Shift Travel (120min) + Preferred Tech (Soft),,,5min priority | Shift ≤120min | Soft pref
+51,3 fields,Min Travel Time (5min) + Max Shift Travel (120min) + Skill Matching (ON),,,5min priority | Shift ≤120min | Skill filter
+52,3 fields,Min Travel Time (5min) + Ignore reroute (ON) + Route around (ON),,,5min priority | Skip reroute | Avoid status
+53,3 fields,Min Travel Time (5min) + Ignore reroute (ON) + Preferred Tech (Soft),,,5min priority | Skip reroute | Soft pref
+54,3 fields,Min Travel Time (5min) + Ignore reroute (ON) + Skill Matching (ON),,,5min priority | Skip reroute | Skill filter
+55,3 fields,Min Travel Time (5min) + Route around (ON) + Preferred Tech (Soft),,,5min priority | Avoid status | Soft pref
+56,3 fields,Min Travel Time (5min) + Route around (ON) + Skill Matching (ON),,,5min priority | Avoid status | Skill filter
+57,3 fields,Min Travel Time (5min) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | Soft pref | Skill filter
+58,3 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min),,,0.5mi priority | Hard cap 10mi | Shift ≤120min
+59,3 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Ignore reroute (ON),,,0.5mi priority | Hard cap 10mi | Skip reroute
+60,3 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Route around (ON),,,0.5mi priority | Hard cap 10mi | Avoid status
+61,3 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Preferred Tech (Soft),,,0.5mi priority | Hard cap 10mi | Soft pref
+62,3 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Skill Matching (ON),,,0.5mi priority | Hard cap 10mi | Skill filter
+63,3 fields,Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Ignore reroute (ON),,,0.5mi priority | Shift ≤120min | Skip reroute
+64,3 fields,Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Route around (ON),,,0.5mi priority | Shift ≤120min | Avoid status
+65,3 fields,Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Preferred Tech (Soft),,,0.5mi priority | Shift ≤120min | Soft pref
+66,3 fields,Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Skill Matching (ON),,,0.5mi priority | Shift ≤120min | Skill filter
+67,3 fields,Min Travel Distance (0.5mi) + Ignore reroute (ON) + Route around (ON),,,0.5mi priority | Skip reroute | Avoid status
+68,3 fields,Min Travel Distance (0.5mi) + Ignore reroute (ON) + Preferred Tech (Soft),,,0.5mi priority | Skip reroute | Soft pref
+69,3 fields,Min Travel Distance (0.5mi) + Ignore reroute (ON) + Skill Matching (ON),,,0.5mi priority | Skip reroute | Skill filter
+70,3 fields,Min Travel Distance (0.5mi) + Route around (ON) + Preferred Tech (Soft),,,0.5mi priority | Avoid status | Soft pref
+71,3 fields,Min Travel Distance (0.5mi) + Route around (ON) + Skill Matching (ON),,,0.5mi priority | Avoid status | Skill filter
+72,3 fields,Min Travel Distance (0.5mi) + Preferred Tech (Soft) + Skill Matching (ON),,,0.5mi priority | Soft pref | Skill filter
+73,3 fields,Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON),,,Hard cap 10mi | Shift ≤120min | Skip reroute
+74,3 fields,Max Travel Distance (10mi) + Max Shift Travel (120min) + Route around (ON),,,Hard cap 10mi | Shift ≤120min | Avoid status
+75,3 fields,Max Travel Distance (10mi) + Max Shift Travel (120min) + Preferred Tech (Soft),,,Hard cap 10mi | Shift ≤120min | Soft pref
+76,3 fields,Max Travel Distance (10mi) + Max Shift Travel (120min) + Skill Matching (ON),,,Hard cap 10mi | Shift ≤120min | Skill filter
+77,3 fields,Max Travel Distance (10mi) + Ignore reroute (ON) + Route around (ON),,,Hard cap 10mi | Skip reroute | Avoid status
+78,3 fields,Max Travel Distance (10mi) + Ignore reroute (ON) + Preferred Tech (Soft),,,Hard cap 10mi | Skip reroute | Soft pref
+79,3 fields,Max Travel Distance (10mi) + Ignore reroute (ON) + Skill Matching (ON),,,Hard cap 10mi | Skip reroute | Skill filter
+80,3 fields,Max Travel Distance (10mi) + Route around (ON) + Preferred Tech (Soft),,,Hard cap 10mi | Avoid status | Soft pref
+81,3 fields,Max Travel Distance (10mi) + Route around (ON) + Skill Matching (ON),,,Hard cap 10mi | Avoid status | Skill filter
+82,3 fields,Max Travel Distance (10mi) + Preferred Tech (Soft) + Skill Matching (ON),,,Hard cap 10mi | Soft pref | Skill filter
+83,3 fields,Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON),,,Shift ≤120min | Skip reroute | Avoid status
+84,3 fields,Max Shift Travel (120min) + Ignore reroute (ON) + Preferred Tech (Soft),,,Shift ≤120min | Skip reroute | Soft pref
+85,3 fields,Max Shift Travel (120min) + Ignore reroute (ON) + Skill Matching (ON),,,Shift ≤120min | Skip reroute | Skill filter
+86,3 fields,Max Shift Travel (120min) + Route around (ON) + Preferred Tech (Soft),,,Shift ≤120min | Avoid status | Soft pref
+87,3 fields,Max Shift Travel (120min) + Route around (ON) + Skill Matching (ON),,,Shift ≤120min | Avoid status | Skill filter
+88,3 fields,Max Shift Travel (120min) + Preferred Tech (Soft) + Skill Matching (ON),,,Shift ≤120min | Soft pref | Skill filter
+89,3 fields,Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft),,,Skip reroute | Avoid status | Soft pref
+90,3 fields,Ignore reroute (ON) + Route around (ON) + Skill Matching (ON),,,Skip reroute | Avoid status | Skill filter
+91,3 fields,Ignore reroute (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,Skip reroute | Soft pref | Skill filter
+92,3 fields,Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,Avoid status | Soft pref | Skill filter
+93,4 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min),,,5min priority | 0.5mi priority | Hard cap 10mi | Shift ≤120min
+94,4 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Ignore reroute (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Skip reroute
+95,4 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Route around (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Avoid status
+96,4 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Preferred Tech (Soft),,,5min priority | 0.5mi priority | Hard cap 10mi | Soft pref
+97,4 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Skill Matching (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Skill filter
+98,4 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Ignore reroute (ON),,,5min priority | 0.5mi priority | Shift ≤120min | Skip reroute
+99,4 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Route around (ON),,,5min priority | 0.5mi priority | Shift ≤120min | Avoid status
+100,4 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Preferred Tech (Soft),,,5min priority | 0.5mi priority | Shift ≤120min | Soft pref
+101,4 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Skill Matching (ON),,,5min priority | 0.5mi priority | Shift ≤120min | Skill filter
+102,4 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Ignore reroute (ON) + Route around (ON),,,5min priority | 0.5mi priority | Skip reroute | Avoid status
+103,4 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Ignore reroute (ON) + Preferred Tech (Soft),,,5min priority | 0.5mi priority | Skip reroute | Soft pref
+104,4 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Ignore reroute (ON) + Skill Matching (ON),,,5min priority | 0.5mi priority | Skip reroute | Skill filter
+105,4 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Route around (ON) + Preferred Tech (Soft),,,5min priority | 0.5mi priority | Avoid status | Soft pref
+106,4 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Route around (ON) + Skill Matching (ON),,,5min priority | 0.5mi priority | Avoid status | Skill filter
+107,4 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | 0.5mi priority | Soft pref | Skill filter
+108,4 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON),,,5min priority | Hard cap 10mi | Shift ≤120min | Skip reroute
+109,4 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Route around (ON),,,5min priority | Hard cap 10mi | Shift ≤120min | Avoid status
+110,4 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Preferred Tech (Soft),,,5min priority | Hard cap 10mi | Shift ≤120min | Soft pref
+111,4 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Skill Matching (ON),,,5min priority | Hard cap 10mi | Shift ≤120min | Skill filter
+112,4 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Ignore reroute (ON) + Route around (ON),,,5min priority | Hard cap 10mi | Skip reroute | Avoid status
+113,4 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Ignore reroute (ON) + Preferred Tech (Soft),,,5min priority | Hard cap 10mi | Skip reroute | Soft pref
+114,4 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Ignore reroute (ON) + Skill Matching (ON),,,5min priority | Hard cap 10mi | Skip reroute | Skill filter
+115,4 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Route around (ON) + Preferred Tech (Soft),,,5min priority | Hard cap 10mi | Avoid status | Soft pref
+116,4 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Route around (ON) + Skill Matching (ON),,,5min priority | Hard cap 10mi | Avoid status | Skill filter
+117,4 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | Hard cap 10mi | Soft pref | Skill filter
+118,4 fields,Min Travel Time (5min) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON),,,5min priority | Shift ≤120min | Skip reroute | Avoid status
+119,4 fields,Min Travel Time (5min) + Max Shift Travel (120min) + Ignore reroute (ON) + Preferred Tech (Soft),,,5min priority | Shift ≤120min | Skip reroute | Soft pref
+120,4 fields,Min Travel Time (5min) + Max Shift Travel (120min) + Ignore reroute (ON) + Skill Matching (ON),,,5min priority | Shift ≤120min | Skip reroute | Skill filter
+121,4 fields,Min Travel Time (5min) + Max Shift Travel (120min) + Route around (ON) + Preferred Tech (Soft),,,5min priority | Shift ≤120min | Avoid status | Soft pref
+122,4 fields,Min Travel Time (5min) + Max Shift Travel (120min) + Route around (ON) + Skill Matching (ON),,,5min priority | Shift ≤120min | Avoid status | Skill filter
+123,4 fields,Min Travel Time (5min) + Max Shift Travel (120min) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | Shift ≤120min | Soft pref | Skill filter
+124,4 fields,Min Travel Time (5min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft),,,5min priority | Skip reroute | Avoid status | Soft pref
+125,4 fields,Min Travel Time (5min) + Ignore reroute (ON) + Route around (ON) + Skill Matching (ON),,,5min priority | Skip reroute | Avoid status | Skill filter
+126,4 fields,Min Travel Time (5min) + Ignore reroute (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | Skip reroute | Soft pref | Skill filter
+127,4 fields,Min Travel Time (5min) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | Avoid status | Soft pref | Skill filter
+128,4 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON),,,0.5mi priority | Hard cap 10mi | Shift ≤120min | Skip reroute
+129,4 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Route around (ON),,,0.5mi priority | Hard cap 10mi | Shift ≤120min | Avoid status
+130,4 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Preferred Tech (Soft),,,0.5mi priority | Hard cap 10mi | Shift ≤120min | Soft pref
+131,4 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Skill Matching (ON),,,0.5mi priority | Hard cap 10mi | Shift ≤120min | Skill filter
+132,4 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Ignore reroute (ON) + Route around (ON),,,0.5mi priority | Hard cap 10mi | Skip reroute | Avoid status
+133,4 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Ignore reroute (ON) + Preferred Tech (Soft),,,0.5mi priority | Hard cap 10mi | Skip reroute | Soft pref
+134,4 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Ignore reroute (ON) + Skill Matching (ON),,,0.5mi priority | Hard cap 10mi | Skip reroute | Skill filter
+135,4 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Route around (ON) + Preferred Tech (Soft),,,0.5mi priority | Hard cap 10mi | Avoid status | Soft pref
+136,4 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Route around (ON) + Skill Matching (ON),,,0.5mi priority | Hard cap 10mi | Avoid status | Skill filter
+137,4 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Preferred Tech (Soft) + Skill Matching (ON),,,0.5mi priority | Hard cap 10mi | Soft pref | Skill filter
+138,4 fields,Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON),,,0.5mi priority | Shift ≤120min | Skip reroute | Avoid status
+139,4 fields,Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Preferred Tech (Soft),,,0.5mi priority | Shift ≤120min | Skip reroute | Soft pref
+140,4 fields,Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Skill Matching (ON),,,0.5mi priority | Shift ≤120min | Skip reroute | Skill filter
+141,4 fields,Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Route around (ON) + Preferred Tech (Soft),,,0.5mi priority | Shift ≤120min | Avoid status | Soft pref
+142,4 fields,Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Route around (ON) + Skill Matching (ON),,,0.5mi priority | Shift ≤120min | Avoid status | Skill filter
+143,4 fields,Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Preferred Tech (Soft) + Skill Matching (ON),,,0.5mi priority | Shift ≤120min | Soft pref | Skill filter
+144,4 fields,Min Travel Distance (0.5mi) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft),,,0.5mi priority | Skip reroute | Avoid status | Soft pref
+145,4 fields,Min Travel Distance (0.5mi) + Ignore reroute (ON) + Route around (ON) + Skill Matching (ON),,,0.5mi priority | Skip reroute | Avoid status | Skill filter
+146,4 fields,Min Travel Distance (0.5mi) + Ignore reroute (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,0.5mi priority | Skip reroute | Soft pref | Skill filter
+147,4 fields,Min Travel Distance (0.5mi) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,0.5mi priority | Avoid status | Soft pref | Skill filter
+148,4 fields,Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON),,,Hard cap 10mi | Shift ≤120min | Skip reroute | Avoid status
+149,4 fields,Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Preferred Tech (Soft),,,Hard cap 10mi | Shift ≤120min | Skip reroute | Soft pref
+150,4 fields,Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Skill Matching (ON),,,Hard cap 10mi | Shift ≤120min | Skip reroute | Skill filter
+151,4 fields,Max Travel Distance (10mi) + Max Shift Travel (120min) + Route around (ON) + Preferred Tech (Soft),,,Hard cap 10mi | Shift ≤120min | Avoid status | Soft pref
+152,4 fields,Max Travel Distance (10mi) + Max Shift Travel (120min) + Route around (ON) + Skill Matching (ON),,,Hard cap 10mi | Shift ≤120min | Avoid status | Skill filter
+153,4 fields,Max Travel Distance (10mi) + Max Shift Travel (120min) + Preferred Tech (Soft) + Skill Matching (ON),,,Hard cap 10mi | Shift ≤120min | Soft pref | Skill filter
+154,4 fields,Max Travel Distance (10mi) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft),,,Hard cap 10mi | Skip reroute | Avoid status | Soft pref
+155,4 fields,Max Travel Distance (10mi) + Ignore reroute (ON) + Route around (ON) + Skill Matching (ON),,,Hard cap 10mi | Skip reroute | Avoid status | Skill filter
+156,4 fields,Max Travel Distance (10mi) + Ignore reroute (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,Hard cap 10mi | Skip reroute | Soft pref | Skill filter
+157,4 fields,Max Travel Distance (10mi) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,Hard cap 10mi | Avoid status | Soft pref | Skill filter
+158,4 fields,Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft),,,Shift ≤120min | Skip reroute | Avoid status | Soft pref
+159,4 fields,Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Skill Matching (ON),,,Shift ≤120min | Skip reroute | Avoid status | Skill filter
+160,4 fields,Max Shift Travel (120min) + Ignore reroute (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,Shift ≤120min | Skip reroute | Soft pref | Skill filter
+161,4 fields,Max Shift Travel (120min) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,Shift ≤120min | Avoid status | Soft pref | Skill filter
+162,4 fields,Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,Skip reroute | Avoid status | Soft pref | Skill filter
+163,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Shift ≤120min | Skip reroute
+164,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Route around (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Shift ≤120min | Avoid status
+165,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Preferred Tech (Soft),,,5min priority | 0.5mi priority | Hard cap 10mi | Shift ≤120min | Soft pref
+166,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Skill Matching (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Shift ≤120min | Skill filter
+167,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Ignore reroute (ON) + Route around (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Skip reroute | Avoid status
+168,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Ignore reroute (ON) + Preferred Tech (Soft),,,5min priority | 0.5mi priority | Hard cap 10mi | Skip reroute | Soft pref
+169,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Ignore reroute (ON) + Skill Matching (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Skip reroute | Skill filter
+170,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Route around (ON) + Preferred Tech (Soft),,,5min priority | 0.5mi priority | Hard cap 10mi | Avoid status | Soft pref
+171,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Route around (ON) + Skill Matching (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Avoid status | Skill filter
+172,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Soft pref | Skill filter
+173,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON),,,5min priority | 0.5mi priority | Shift ≤120min | Skip reroute | Avoid status
+174,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Preferred Tech (Soft),,,5min priority | 0.5mi priority | Shift ≤120min | Skip reroute | Soft pref
+175,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Skill Matching (ON),,,5min priority | 0.5mi priority | Shift ≤120min | Skip reroute | Skill filter
+176,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Route around (ON) + Preferred Tech (Soft),,,5min priority | 0.5mi priority | Shift ≤120min | Avoid status | Soft pref
+177,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Route around (ON) + Skill Matching (ON),,,5min priority | 0.5mi priority | Shift ≤120min | Avoid status | Skill filter
+178,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | 0.5mi priority | Shift ≤120min | Soft pref | Skill filter
+179,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft),,,5min priority | 0.5mi priority | Skip reroute | Avoid status | Soft pref
+180,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Ignore reroute (ON) + Route around (ON) + Skill Matching (ON),,,5min priority | 0.5mi priority | Skip reroute | Avoid status | Skill filter
+181,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Ignore reroute (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | 0.5mi priority | Skip reroute | Soft pref | Skill filter
+182,5 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | 0.5mi priority | Avoid status | Soft pref | Skill filter
+183,5 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON),,,5min priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Avoid status
+184,5 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Preferred Tech (Soft),,,5min priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Soft pref
+185,5 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Skill Matching (ON),,,5min priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Skill filter
+186,5 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Route around (ON) + Preferred Tech (Soft),,,5min priority | Hard cap 10mi | Shift ≤120min | Avoid status | Soft pref
+187,5 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Route around (ON) + Skill Matching (ON),,,5min priority | Hard cap 10mi | Shift ≤120min | Avoid status | Skill filter
+188,5 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | Hard cap 10mi | Shift ≤120min | Soft pref | Skill filter
+189,5 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft),,,5min priority | Hard cap 10mi | Skip reroute | Avoid status | Soft pref
+190,5 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Ignore reroute (ON) + Route around (ON) + Skill Matching (ON),,,5min priority | Hard cap 10mi | Skip reroute | Avoid status | Skill filter
+191,5 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Ignore reroute (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | Hard cap 10mi | Skip reroute | Soft pref | Skill filter
+192,5 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | Hard cap 10mi | Avoid status | Soft pref | Skill filter
+193,5 fields,Min Travel Time (5min) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft),,,5min priority | Shift ≤120min | Skip reroute | Avoid status | Soft pref
+194,5 fields,Min Travel Time (5min) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Skill Matching (ON),,,5min priority | Shift ≤120min | Skip reroute | Avoid status | Skill filter
+195,5 fields,Min Travel Time (5min) + Max Shift Travel (120min) + Ignore reroute (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | Shift ≤120min | Skip reroute | Soft pref | Skill filter
+196,5 fields,Min Travel Time (5min) + Max Shift Travel (120min) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | Shift ≤120min | Avoid status | Soft pref | Skill filter
+197,5 fields,Min Travel Time (5min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | Skip reroute | Avoid status | Soft pref | Skill filter
+198,5 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON),,,0.5mi priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Avoid status
+199,5 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Preferred Tech (Soft),,,0.5mi priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Soft pref
+200,5 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Skill Matching (ON),,,0.5mi priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Skill filter
+201,5 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Route around (ON) + Preferred Tech (Soft),,,0.5mi priority | Hard cap 10mi | Shift ≤120min | Avoid status | Soft pref
+202,5 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Route around (ON) + Skill Matching (ON),,,0.5mi priority | Hard cap 10mi | Shift ≤120min | Avoid status | Skill filter
+203,5 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Preferred Tech (Soft) + Skill Matching (ON),,,0.5mi priority | Hard cap 10mi | Shift ≤120min | Soft pref | Skill filter
+204,5 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft),,,0.5mi priority | Hard cap 10mi | Skip reroute | Avoid status | Soft pref
+205,5 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Ignore reroute (ON) + Route around (ON) + Skill Matching (ON),,,0.5mi priority | Hard cap 10mi | Skip reroute | Avoid status | Skill filter
+206,5 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Ignore reroute (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,0.5mi priority | Hard cap 10mi | Skip reroute | Soft pref | Skill filter
+207,5 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,0.5mi priority | Hard cap 10mi | Avoid status | Soft pref | Skill filter
+208,5 fields,Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft),,,0.5mi priority | Shift ≤120min | Skip reroute | Avoid status | Soft pref
+209,5 fields,Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Skill Matching (ON),,,0.5mi priority | Shift ≤120min | Skip reroute | Avoid status | Skill filter
+210,5 fields,Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,0.5mi priority | Shift ≤120min | Skip reroute | Soft pref | Skill filter
+211,5 fields,Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,0.5mi priority | Shift ≤120min | Avoid status | Soft pref | Skill filter
+212,5 fields,Min Travel Distance (0.5mi) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,0.5mi priority | Skip reroute | Avoid status | Soft pref | Skill filter
+213,5 fields,Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft),,,Hard cap 10mi | Shift ≤120min | Skip reroute | Avoid status | Soft pref
+214,5 fields,Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Skill Matching (ON),,,Hard cap 10mi | Shift ≤120min | Skip reroute | Avoid status | Skill filter
+215,5 fields,Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,Hard cap 10mi | Shift ≤120min | Skip reroute | Soft pref | Skill filter
+216,5 fields,Max Travel Distance (10mi) + Max Shift Travel (120min) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,Hard cap 10mi | Shift ≤120min | Avoid status | Soft pref | Skill filter
+217,5 fields,Max Travel Distance (10mi) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,Hard cap 10mi | Skip reroute | Avoid status | Soft pref | Skill filter
+218,5 fields,Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,Shift ≤120min | Skip reroute | Avoid status | Soft pref | Skill filter
+219,6 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Avoid status
+220,6 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Preferred Tech (Soft),,,5min priority | 0.5mi priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Soft pref
+221,6 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Skill Matching (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Skill filter
+222,6 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Route around (ON) + Preferred Tech (Soft),,,5min priority | 0.5mi priority | Hard cap 10mi | Shift ≤120min | Avoid status | Soft pref
+223,6 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Route around (ON) + Skill Matching (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Shift ≤120min | Avoid status | Skill filter
+224,6 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Shift ≤120min | Soft pref | Skill filter
+225,6 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft),,,5min priority | 0.5mi priority | Hard cap 10mi | Skip reroute | Avoid status | Soft pref
+226,6 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Ignore reroute (ON) + Route around (ON) + Skill Matching (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Skip reroute | Avoid status | Skill filter
+227,6 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Ignore reroute (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Skip reroute | Soft pref | Skill filter
+228,6 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Avoid status | Soft pref | Skill filter
+229,6 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft),,,5min priority | 0.5mi priority | Shift ≤120min | Skip reroute | Avoid status | Soft pref
+230,6 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Skill Matching (ON),,,5min priority | 0.5mi priority | Shift ≤120min | Skip reroute | Avoid status | Skill filter
+231,6 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | 0.5mi priority | Shift ≤120min | Skip reroute | Soft pref | Skill filter
+232,6 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | 0.5mi priority | Shift ≤120min | Avoid status | Soft pref | Skill filter
+233,6 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | 0.5mi priority | Skip reroute | Avoid status | Soft pref | Skill filter
+234,6 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft),,,5min priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Avoid status | Soft pref
+235,6 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Skill Matching (ON),,,5min priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Avoid status | Skill filter
+236,6 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Soft pref | Skill filter
+237,6 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | Hard cap 10mi | Shift ≤120min | Avoid status | Soft pref | Skill filter
+238,6 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | Hard cap 10mi | Skip reroute | Avoid status | Soft pref | Skill filter
+239,6 fields,Min Travel Time (5min) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | Shift ≤120min | Skip reroute | Avoid status | Soft pref | Skill filter
+240,6 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft),,,0.5mi priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Avoid status | Soft pref
+241,6 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Skill Matching (ON),,,0.5mi priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Avoid status | Skill filter
+242,6 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,0.5mi priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Soft pref | Skill filter
+243,6 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,0.5mi priority | Hard cap 10mi | Shift ≤120min | Avoid status | Soft pref | Skill filter
+244,6 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,0.5mi priority | Hard cap 10mi | Skip reroute | Avoid status | Soft pref | Skill filter
+245,6 fields,Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,0.5mi priority | Shift ≤120min | Skip reroute | Avoid status | Soft pref | Skill filter
+246,6 fields,Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,Hard cap 10mi | Shift ≤120min | Skip reroute | Avoid status | Soft pref | Skill filter
+247,7 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft),,,5min priority | 0.5mi priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Avoid status | Soft pref
+248,7 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Skill Matching (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Avoid status | Skill filter
+249,7 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Soft pref | Skill filter
+250,7 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Shift ≤120min | Avoid status | Soft pref | Skill filter
+251,7 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Skip reroute | Avoid status | Soft pref | Skill filter
+252,7 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | 0.5mi priority | Shift ≤120min | Skip reroute | Avoid status | Soft pref | Skill filter
+253,7 fields,Min Travel Time (5min) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Avoid status | Soft pref | Skill filter
+254,7 fields,Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,0.5mi priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Avoid status | Soft pref | Skill filter
+255,8 fields,Min Travel Time (5min) + Min Travel Distance (0.5mi) + Max Travel Distance (10mi) + Max Shift Travel (120min) + Ignore reroute (ON) + Route around (ON) + Preferred Tech (Soft) + Skill Matching (ON),,,5min priority | 0.5mi priority | Hard cap 10mi | Shift ≤120min | Skip reroute | Avoid status | Soft pref | Skill filter
+256,Edge Case,"Min Travel Time vs Min Travel Distance conflict (close in time, far in distance)",,,Conflict resolution: confirm priority rule between time vs distance
+257,Edge Case,Max Travel Distance = 0,,,"Blocked: no jobs assignable, 0 jobs scheduled"
+258,Edge Case,Max Shift Travel = 0,,,"Blocked: 0 travel allowed, no job assignments"
+259,Edge Case,Min Travel Distance (0.5mi) vs Max Travel Distance (10mi) gap,,,0.5mi threshold well within 10mi hard cap — both apply normally
+260,Edge Case,Ignore reroute (ON) + Route around (ON) simultaneously,,,Reroute jobs ignored; other status jobs routed around — verify no loop
+261,Edge Case,Skill Matching (ON) + Preferred Tech (Soft): preferred tech missing skill,,,Skill match overrides soft pref — assign capable tech instead
+262,Edge Case,"All optimization OFF: no time/distance minimize, no pref, no skill",,,"Default routing algorithm, no optimization constraints applied"
+263,Edge Case,Job location \> 10mi from ALL technicians,,,Unassigned — no tech within 10mi radius hard cap
+\--- EDITING NOTES (additional) ---
+NOTE 1,Preferred Tech only tests Soft,All 255 + edge combos say Preferred Tech (Soft). Ticket AI-470 has Soft/Strict switcher. Strict mode has not been tested at all. Need more combos or at least edge cases for Strict mode.
+NOTE 2,Edge case #259 sai,"Edge case 259: Min Travel Distance (0.5mi) vs Max Travel Distance (10mi) gap — 0.5 \< 10 la binh thuong, khong phai conflict. Nen thay bang: Min Travel Distance \> Max Travel Distance (vd: Min=15mi, Max=10mi) -\> target khong dat duoc trong hard cap."
+\--- ADDITIONAL EDGE CASES ---
+E1,Edge Case,Preferred Technician Matching = Strict (tat ca combo can test lai voi Strict),,,"Strict mode: chi assign preferred tech, khong fallback. Neu preferred tech unavailable -\> job unassigned."
+E2,Edge Case,Min Travel Distance (15mi) \> Max Travel Distance (10mi),,,Conflict: target 15mi vuot hard cap 10mi. Target khong dat duoc. Routing se gan gan 10mi nhat co the.
+E3,Edge Case,Min Travel Time (150min) \> Max Shift Travel (120min),,,Conflict: target time vuot shift limit. Khong the dat target trong shift. Routing se gan 120min nhat.
+E4,Edge Case,Ignore reroute ON + khong chon status nao trong dropdown,,,Toggle ON nhung dropdown rong. Khong co status nao bi ignore. Tat ca jobs van reroute binh thuong.
+E5,Edge Case,Route around ON + khong chon status nao trong dropdown,,,Toggle ON nhung dropdown rong. Khong co status nao bi route around. Tat ca jobs reroute binh thuong.
+E6,Edge Case,Cung job status (vd: Cancelled) chon trong ca Ignore reroute + Route around,,,Contradictory: status bi ignore (khong reroute) dong thoi bi route around (reroute quanh no). Verify hanh vi: ignore hay route around duoc uu tien?
+E7,Edge Case,Skill Matching ON + none of the techs have skills necessary for the job,,,Khong assign duoc. Job unassigned hoac fallback (bo skill match) — verify behavior.
+E8,Edge Case,Preferred Tech = Strict + preferred tech unavailable (off/terminated/excluded),,,Strict mode khong fallback. Job unassigned. Verify khong assign tech khac.
+E9,Edge Case,Max Travel Distance (10mi) + tat ca tech nam ngoai 10mi tu job location,,,Khong tech nao trong hard cap. Job unassigned. (Giong edge 263 nhung cu the hon: ket hop voi field Max Travel Distance ON.)

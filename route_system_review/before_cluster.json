@@ -1,0 +1,35 @@
+{
+  "minimize_travel_time_minutes": {
+    "status": 0,
+    "value": 5
+  },
+  "minimize_travel_distance_miles": {
+    "status": 0,
+    "value": 30
+  },
+  "max_travel_distance_miles": {
+    "status": 0,
+    "value": 30
+  },
+  "max_shift_travel_time_minutes": {
+    "status": 0,
+    "value": 30
+  },
+  "do_not_reroute_statuses": {
+    "status": 0,
+    "value": []
+  },
+  "route_around_statuses": {
+    "status": 0,
+    "value": []
+  },
+  "preferred_tech_matching": {
+    "status": 0,
+    "value": "soft"
+  },
+  "routing_algorithm": {
+    "status": 1,
+    "value": 2
+  },
+  "tech_skill_matching": 0
+}

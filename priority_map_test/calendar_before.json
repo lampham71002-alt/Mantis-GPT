@@ -1,0 +1,5110 @@
+{
+  "data": [
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "NaplesAuto_4 Test"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "4915 Golden Gate Pkwy"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "4915 Golden Gate Pkwy"
+        },
+        {
+          "field": "service_city",
+          "value": "Naples"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "34116"
+        },
+        {
+          "field": "service_type",
+          "value": "Preventative Monitoring & Maintenance"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "8 - 8:30am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "NaplesAuto_4 Test"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "4915 Golden Gate Pkwy"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Preventative Monitoring & Maintenance"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Tue Oct 6th, 2026 8 - 8:30am",
+        "content": [
+          "NaplesAuto_4 Test ",
+          "4915 Golden Gate Pkwy ",
+          "Preventative Monitoring & Maintenance"
+        ]
+      },
+      "tile": {
+        "header": "8 - 8:30am",
+        "content": [
+          "NaplesAuto_4 Test ",
+          "4915 Golden Gate Pkwy ",
+          "Preventative Monitoring & Maintenance"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "7086",
+        "name": "Preventative Monitoring & Maintenance",
+        "locked": 0,
+        "parent_job_id": "7086",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "",
+        "emoji": [
+          "😀"
+        ]
+      },
+      "active_event": true,
+      "event": {
+        "id": "7082",
+        "current_parent_event": "0",
+        "start": "2026-10-06T08:00:00+00:00",
+        "end": "2026-10-06T08:30:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#d0d0d0",
+        "border": "#686868"
+      },
+      "customer": {
+        "id": "14869",
+        "full_name": "NaplesAuto_4 Test",
+        "first_name": "NaplesAuto_4",
+        "last_name": "Test",
+        "avatar": "NT"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-06-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14875",
+        "name": "4915 Golden Gate Pkwy",
+        "street1": "4915 Golden Gate Pkwy",
+        "street2": "",
+        "city": "Naples",
+        "state": "FL",
+        "zip": "34116",
+        "lat": "26.1882",
+        "lng": "-81.7214",
+        "note": "Test routing Naples area"
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Clark Kent"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "500 Lakeview Dr"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "500 Lakeview Dr"
+        },
+        {
+          "field": "service_city",
+          "value": "Sebring"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33870"
+        },
+        {
+          "field": "service_type",
+          "value": "Bi-Monthly Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "8:49 - 9:19am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Clark Kent"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "500 Lakeview Dr"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Bi-Monthly Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": "$65.00"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Thu Oct 8th, 2026 8:49 - 9:19am",
+        "content": [
+          "Clark Kent ",
+          "500 Lakeview Dr ",
+          "Bi-Monthly Service ",
+          "$65.00"
+        ]
+      },
+      "tile": {
+        "header": "8:49 - 9:19am",
+        "content": [
+          "Clark Kent ",
+          "500 Lakeview Dr ",
+          "Bi-Monthly Service $65.00"
+        ]
+      },
+      "invoice": {
+        "total": "$65.00",
+        "status": "draft"
+      },
+      "job": {
+        "id": "8234",
+        "name": "Bi-Monthly Service",
+        "locked": 0,
+        "parent_job_id": "8234",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "8230",
+        "current_parent_event": "0",
+        "start": "2026-10-08T08:49:00+00:00",
+        "end": "2026-10-08T09:19:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "customer": {
+        "id": "15376",
+        "full_name": "Clark Kent",
+        "first_name": "Clark",
+        "last_name": "Kent",
+        "avatar": "CK"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-08-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "15382",
+        "name": "500 Lakeview Dr",
+        "street1": "500 Lakeview Dr",
+        "street2": "",
+        "city": "Sebring",
+        "state": "FL",
+        "zip": "33870",
+        "lat": "27.495",
+        "lng": "-81.442",
+        "note": "Sebring Map Area Test"
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "John Wick"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "2205 US Highway 27 S"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "2205 US Highway 27 S"
+        },
+        {
+          "field": "service_city",
+          "value": "Sebring"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33870"
+        },
+        {
+          "field": "service_type",
+          "value": "Eco-Friendly Pest Solutions"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "9:24 - 9:39am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "John Wick"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "2205 US Highway 27 S"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Eco-Friendly Pest Solutions"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Thu Oct 8th, 2026 9:24 - 9:39am",
+        "content": [
+          "John Wick ",
+          "2205 US Highway 27 S ",
+          "Eco-Friendly Pest Solutions"
+        ]
+      },
+      "tile": {
+        "header": "9:24 - 9:39am",
+        "content": [
+          "John Wick ",
+          "2205 US Highway 27 S ",
+          "Eco-Friendly Pest Solutions"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "8246",
+        "name": "Eco-Friendly Pest Solutions",
+        "locked": 0,
+        "parent_job_id": "8246",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "8242",
+        "current_parent_event": "0",
+        "start": "2026-10-08T09:24:00+00:00",
+        "end": "2026-10-08T09:39:00+00:00",
+        "repeat": 0,
+        "length": 15
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#d0d0d0",
+        "border": "#686868"
+      },
+      "customer": {
+        "id": "15372",
+        "full_name": "John Wick",
+        "first_name": "John",
+        "last_name": "Wick",
+        "avatar": "JW"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-08-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "15378",
+        "name": "2205 US Highway 27 S",
+        "street1": "2205 US Highway 27 S",
+        "street2": "",
+        "city": "Sebring",
+        "state": "FL",
+        "zip": "33870",
+        "lat": "27.4725",
+        "lng": "-81.439",
+        "note": "Sebring Map Area Test"
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Peter Parker"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "150 Arbuckle Creek Rd"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "150 Arbuckle Creek Rd"
+        },
+        {
+          "field": "service_city",
+          "value": "Sebring"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33870"
+        },
+        {
+          "field": "service_type",
+          "value": "Flea & Tick Control"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "8 - 8:30am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Peter Parker"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "150 Arbuckle Creek Rd"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Flea & Tick Control"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Thu Oct 8th, 2026 8 - 8:30am",
+        "content": [
+          "Peter Parker ",
+          "150 Arbuckle Creek Rd ",
+          "Flea & Tick Control"
+        ]
+      },
+      "tile": {
+        "header": "8 - 8:30am",
+        "content": [
+          "Peter Parker ",
+          "150 Arbuckle Creek Rd ",
+          "Flea & Tick Control"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "8247",
+        "name": "Flea & Tick Control",
+        "locked": 0,
+        "parent_job_id": "8247",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "8243",
+        "current_parent_event": "0",
+        "start": "2026-10-08T08:00:00+00:00",
+        "end": "2026-10-08T08:30:00+00:00",
+        "repeat": 0,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#d0d0d0",
+        "border": "#686868"
+      },
+      "customer": {
+        "id": "15375",
+        "full_name": "Peter Parker",
+        "first_name": "Peter",
+        "last_name": "Parker",
+        "avatar": "PP"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-08-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "15381",
+        "name": "150 Arbuckle Creek Rd",
+        "street1": "150 Arbuckle Creek Rd",
+        "street2": "",
+        "city": "Sebring",
+        "state": "FL",
+        "zip": "33870",
+        "lat": "27.489",
+        "lng": "-81.385",
+        "note": "Sebring Map Area Test"
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Tony Stark"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "100 Miller Ave"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "100 Miller Ave"
+        },
+        {
+          "field": "service_city",
+          "value": "Sebring"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33870"
+        },
+        {
+          "field": "service_type",
+          "value": "Preventative Monitoring & Maintenance"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "9:43 - 10:13am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Tony Stark"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "100 Miller Ave"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Preventative Monitoring & Maintenance"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Thu Oct 8th, 2026 9:43 - 10:13am",
+        "content": [
+          "Tony Stark ",
+          "100 Miller Ave ",
+          "Preventative Monitoring & Maintenance"
+        ]
+      },
+      "tile": {
+        "header": "9:43 - 10:13am",
+        "content": [
+          "Tony Stark ",
+          "100 Miller Ave ",
+          "Preventative Monitoring & Maintenance"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "8248",
+        "name": "Preventative Monitoring & Maintenance",
+        "locked": 0,
+        "parent_job_id": "8248",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "8244",
+        "current_parent_event": "0",
+        "start": "2026-10-08T09:43:00+00:00",
+        "end": "2026-10-08T10:13:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#d0d0d0",
+        "border": "#686868"
+      },
+      "customer": {
+        "id": "15373",
+        "full_name": "Tony Stark",
+        "first_name": "Tony",
+        "last_name": "Stark",
+        "avatar": "TS"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-08-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "15379",
+        "name": "100 Miller Ave",
+        "street1": "100 Miller Ave",
+        "street2": "",
+        "city": "Sebring",
+        "state": "FL",
+        "zip": "33870",
+        "lat": "27.458",
+        "lng": "-81.421",
+        "note": "Sebring Map Area Test"
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 02 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 02"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Melbourne (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Melbourne"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32901"
+        },
+        {
+          "field": "service_type",
+          "value": "Flea & Tick Control"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "12:31 - 1:01pm"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 02 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 02"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Flea & Tick Control"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Thu Oct 8th, 2026 12:31 - 1:01pm",
+        "content": [
+          "FL Routing Test 02  ",
+          "Melbourne (Routing Test Location) ",
+          "Flea & Tick Control"
+        ]
+      },
+      "tile": {
+        "header": "12:31 - 1:01pm",
+        "content": [
+          "FL Routing Test 02  ",
+          "FL Routing Test 02 ",
+          "Flea & Tick Control"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "8502",
+        "name": "Flea & Tick Control",
+        "locked": 0,
+        "parent_job_id": "8502",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "8498",
+        "current_parent_event": "0",
+        "start": "2026-10-08T12:31:00+00:00",
+        "end": "2026-10-08T13:01:00+00:00",
+        "repeat": 0,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "customer": {
+        "id": "15521",
+        "full_name": "FL Routing Test 02 ",
+        "first_name": "FL Routing Test 02",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-08-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "15528",
+        "name": "FL Routing Test 02",
+        "street1": "Melbourne (Routing Test Location)",
+        "street2": "",
+        "city": "Melbourne",
+        "state": "FL",
+        "zip": "32901",
+        "lat": "28.0785034",
+        "lng": "-80.6077908",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 15 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 15"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Fort Lauderdale (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Fort Lauderdale"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33301"
+        },
+        {
+          "field": "service_type",
+          "value": "Flea & Tick Control"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "8 - 8:30am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 15 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 15"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Flea & Tick Control"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Sat Oct 10th, 2026 8 - 8:30am",
+        "content": [
+          "FL Routing Test 15  ",
+          "Fort Lauderdale (Routing Test Location) ",
+          "Flea & Tick Control"
+        ]
+      },
+      "tile": {
+        "header": "8 - 8:30am",
+        "content": [
+          "FL Routing Test 15  ",
+          "FL Routing Test 15 ",
+          "Flea & Tick Control"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "8531",
+        "name": "Flea & Tick Control",
+        "locked": 0,
+        "parent_job_id": "8531",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "8527",
+        "current_parent_event": "0",
+        "start": "2026-10-10T08:00:00+00:00",
+        "end": "2026-10-10T08:30:00+00:00",
+        "repeat": 0,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "customer": {
+        "id": "15534",
+        "full_name": "FL Routing Test 15 ",
+        "first_name": "FL Routing Test 15",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-10-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "15541",
+        "name": "FL Routing Test 15",
+        "street1": "Fort Lauderdale (Routing Test Location)",
+        "street2": "",
+        "city": "Fort Lauderdale",
+        "state": "FL",
+        "zip": "33301",
+        "lat": "26.1223084",
+        "lng": "-80.1433786",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 15 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 15"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Fort Lauderdale (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Fort Lauderdale"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33301"
+        },
+        {
+          "field": "service_type",
+          "value": "Wasp Nest Removal"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "8:30 - 9:30am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 15 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 15"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Wasp Nest Removal"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Sat Oct 10th, 2026 8:30 - 9:30am",
+        "content": [
+          "FL Routing Test 15  ",
+          "Fort Lauderdale (Routing Test Location) ",
+          "Wasp Nest Removal"
+        ]
+      },
+      "tile": {
+        "header": "8:30 - 9:30am",
+        "content": [
+          "FL Routing Test 15  ",
+          "FL Routing Test 15 ",
+          "Wasp Nest Removal"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "8532",
+        "name": "Wasp Nest Removal",
+        "locked": 0,
+        "parent_job_id": "8532",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "8528",
+        "current_parent_event": "0",
+        "start": "2026-10-10T08:30:00+00:00",
+        "end": "2026-10-10T09:30:00+00:00",
+        "repeat": 0,
+        "length": 60
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "customer": {
+        "id": "15534",
+        "full_name": "FL Routing Test 15 ",
+        "first_name": "FL Routing Test 15",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-10-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "15541",
+        "name": "FL Routing Test 15",
+        "street1": "Fort Lauderdale (Routing Test Location)",
+        "street2": "",
+        "city": "Fort Lauderdale",
+        "state": "FL",
+        "zip": "33301",
+        "lat": "26.1223084",
+        "lng": "-80.1433786",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 15 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 15"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Fort Lauderdale (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Fort Lauderdale"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33301"
+        },
+        {
+          "field": "service_type",
+          "value": "Eco-Friendly Pest Solutions"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "9:30 - 9:40am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 15 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 15"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Eco-Friendly Pest Solutions"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Sat Oct 10th, 2026 9:30 - 9:40am",
+        "content": [
+          "FL Routing Test 15  ",
+          "Fort Lauderdale (Routing Test Location) ",
+          "Eco-Friendly Pest Solutions"
+        ]
+      },
+      "tile": {
+        "header": "9:30 - 9:40am",
+        "content": [
+          "FL Routing Test 15  ",
+          "FL Routing Test 15 ",
+          "Eco-Friendly Pest Solutions"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "8549",
+        "name": "Eco-Friendly Pest Solutions",
+        "locked": 0,
+        "parent_job_id": "8549",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "8545",
+        "current_parent_event": "0",
+        "start": "2026-10-10T09:30:00+00:00",
+        "end": "2026-10-10T09:40:00+00:00",
+        "repeat": 0,
+        "length": 10
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "customer": {
+        "id": "15534",
+        "full_name": "FL Routing Test 15 ",
+        "first_name": "FL Routing Test 15",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-10-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "15541",
+        "name": "FL Routing Test 15",
+        "street1": "Fort Lauderdale (Routing Test Location)",
+        "street2": "",
+        "city": "Fort Lauderdale",
+        "state": "FL",
+        "zip": "33301",
+        "lat": "26.1223084",
+        "lng": "-80.1433786",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 15 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 15"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Fort Lauderdale (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Fort Lauderdale"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33301"
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "9:40 - 10am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 15 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 15"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Sat Oct 10th, 2026 9:40 - 10am",
+        "content": [
+          "FL Routing Test 15  ",
+          "Fort Lauderdale (Routing Test Location) ",
+          "Call Back Service"
+        ]
+      },
+      "tile": {
+        "header": "9:40 - 10am",
+        "content": [
+          "FL Routing Test 15  ",
+          "FL Routing Test 15 ",
+          "Call Back Service"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "8572",
+        "name": "Call Back Service",
+        "locked": 0,
+        "parent_job_id": "8572",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "8568",
+        "current_parent_event": "0",
+        "start": "2026-10-10T09:40:00+00:00",
+        "end": "2026-10-10T10:00:00+00:00",
+        "repeat": 0,
+        "length": 20
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "customer": {
+        "id": "15534",
+        "full_name": "FL Routing Test 15 ",
+        "first_name": "FL Routing Test 15",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-10-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "15541",
+        "name": "FL Routing Test 15",
+        "street1": "Fort Lauderdale (Routing Test Location)",
+        "street2": "",
+        "city": "Fort Lauderdale",
+        "state": "FL",
+        "zip": "33301",
+        "lat": "26.1223084",
+        "lng": "-80.1433786",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "service_city",
+          "value": "Palm Bay"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32907"
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "9:15 - 9:45am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "invoice_total",
+          "value": "$60.00"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Sun Oct 4th, 2026 9:15 - 9:45am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Every 21 Days ",
+          "$60.00"
+        ]
+      },
+      "tile": {
+        "header": "9:15 - 9:45am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Every 21 Days $60.00"
+        ]
+      },
+      "invoice": {
+        "total": "$60.00",
+        "status": "draft"
+      },
+      "job": {
+        "id": "3791",
+        "name": "Every 21 Days",
+        "locked": 0,
+        "parent_job_id": "3791",
+        "job_no": 0,
+        "previously_completed": 1,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "",
+        "emoji": [
+          "😶‍🌫️"
+        ]
+      },
+      "active_event": true,
+      "event": {
+        "id": "3787",
+        "current_parent_event": "0",
+        "start": "2026-10-04T09:15:00+00:00",
+        "end": "2026-10-04T09:45:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#d0d0d0",
+        "border": "#686868"
+      },
+      "customer": {
+        "id": "14783",
+        "full_name": "Minh ",
+        "first_name": "Minh",
+        "last_name": "",
+        "avatar": "M"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-04-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14784",
+        "name": "Myakka Street Northeast",
+        "street1": "Myakka Street Northeast",
+        "street2": "",
+        "city": "Palm Bay",
+        "state": "FL",
+        "zip": "32907",
+        "lat": "28.0268755",
+        "lng": "-80.6634882",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "service_city",
+          "value": "Palm Bay"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32907"
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "8:45 - 9am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": "$0.00"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Sun Oct 4th, 2026 8:45 - 9am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Call Back Service ",
+          "$0.00"
+        ]
+      },
+      "tile": {
+        "header": "8:45 - 9am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Call Back Service $0.00"
+        ]
+      },
+      "invoice": {
+        "total": "$0.00",
+        "status": "draft"
+      },
+      "job": {
+        "id": "3900",
+        "name": "Call Back Service",
+        "locked": 0,
+        "parent_job_id": "3900",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [
+          "👍"
+        ]
+      },
+      "active_event": true,
+      "event": {
+        "id": "3896",
+        "current_parent_event": "0",
+        "start": "2026-10-04T08:45:00+00:00",
+        "end": "2026-10-04T09:00:00+00:00",
+        "repeat": 0,
+        "length": 15
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "customer": {
+        "id": "14783",
+        "full_name": "Minh ",
+        "first_name": "Minh",
+        "last_name": "",
+        "avatar": "M"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-04-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14784",
+        "name": "Myakka Street Northeast",
+        "street1": "Myakka Street Northeast",
+        "street2": "",
+        "city": "Palm Bay",
+        "state": "FL",
+        "zip": "32907",
+        "lat": "28.0268755",
+        "lng": "-80.6634882",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "service_city",
+          "value": "Palm Bay"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32907"
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "8 - 8:30am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "invoice_total",
+          "value": "$60.00"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Sun Oct 4th, 2026 8 - 8:30am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Every 21 Days ",
+          "$60.00"
+        ]
+      },
+      "tile": {
+        "header": "8 - 8:30am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Every 21 Days $60.00"
+        ]
+      },
+      "invoice": {
+        "total": "$60.00",
+        "status": "draft"
+      },
+      "job": {
+        "id": "3917",
+        "name": "Every 21 Days",
+        "locked": 0,
+        "parent_job_id": "3917",
+        "job_no": 0,
+        "previously_completed": 1,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "3913",
+        "current_parent_event": "0",
+        "start": "2026-10-04T08:00:00+00:00",
+        "end": "2026-10-04T08:30:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "customer": {
+        "id": "14783",
+        "full_name": "Minh ",
+        "first_name": "Minh",
+        "last_name": "",
+        "avatar": "M"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-04-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14784",
+        "name": "Myakka Street Northeast",
+        "street1": "Myakka Street Northeast",
+        "street2": "",
+        "city": "Palm Bay",
+        "state": "FL",
+        "zip": "32907",
+        "lat": "28.0268755",
+        "lng": "-80.6634882",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "TestAuto_5 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "150 Rebel Ct"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "150 Rebel Ct"
+        },
+        {
+          "field": "service_city",
+          "value": "Rotonda West"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33947"
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "9:37 - 10:07am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "TestAuto_5 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "150 Rebel Ct"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": "$0.00"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Mon Oct 5th, 2026 9:37 - 10:07am",
+        "content": [
+          "TestAuto_5 Routing ",
+          "150 Rebel Ct ",
+          "Call Back Service ",
+          "$0.00"
+        ]
+      },
+      "tile": {
+        "header": "9:37 - 10:07am",
+        "content": [
+          "TestAuto_5 Routing ",
+          "150 Rebel Ct ",
+          "Call Back Service $0.00"
+        ]
+      },
+      "invoice": {
+        "total": "$0.00",
+        "status": "draft"
+      },
+      "job": {
+        "id": "7041",
+        "name": "Call Back Service",
+        "locked": 0,
+        "parent_job_id": "7041",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "7037",
+        "current_parent_event": "0",
+        "start": "2026-10-05T09:37:00+00:00",
+        "end": "2026-10-05T10:07:00+00:00",
+        "repeat": 0,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "customer": {
+        "id": "14860",
+        "full_name": "TestAuto_5 Routing",
+        "first_name": "TestAuto_5",
+        "last_name": "Routing",
+        "avatar": "TR"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-05-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14866",
+        "name": "150 Rebel Ct",
+        "street1": "150 Rebel Ct",
+        "street2": "",
+        "city": "Rotonda West",
+        "state": "FL",
+        "zip": "33947",
+        "lat": "26.885",
+        "lng": "-82.291",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "nami "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Rotonda Boulevard West"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Rotonda Boulevard West"
+        },
+        {
+          "field": "service_city",
+          "value": "Rotonda West"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33947"
+        },
+        {
+          "field": "service_type",
+          "value": "Wasp Nest Removal"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "11:09 - 11:54am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "nami "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Rotonda Boulevard West"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Wasp Nest Removal"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Mon Oct 5th, 2026 11:09 - 11:54am",
+        "content": [
+          "nami  ",
+          "Rotonda Boulevard West ",
+          "Wasp Nest Removal"
+        ]
+      },
+      "tile": {
+        "header": "11:09 - 11:54am",
+        "content": [
+          "nami  ",
+          "Rotonda Boulevard West ",
+          "Wasp Nest Removal"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "8497",
+        "name": "Wasp Nest Removal",
+        "locked": 0,
+        "parent_job_id": "8497",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "8493",
+        "current_parent_event": "0",
+        "start": "2026-10-05T11:09:00+00:00",
+        "end": "2026-10-05T11:54:00+00:00",
+        "repeat": 0,
+        "length": 45
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#d0d0d0",
+        "border": "#686868"
+      },
+      "customer": {
+        "id": "14790",
+        "full_name": "nami ",
+        "first_name": "nami",
+        "last_name": "",
+        "avatar": "n"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-05-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14858",
+        "name": "Rotonda Boulevard West",
+        "street1": "Rotonda Boulevard West",
+        "street2": "",
+        "city": "Rotonda West",
+        "state": "FL",
+        "zip": "33947",
+        "lat": "26.89262",
+        "lng": "-82.2920725",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 13 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 13"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Miami (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Miami"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33130"
+        },
+        {
+          "field": "service_type",
+          "value": "Flea & Tick Control"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "9:15 - 9:54am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 13 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 13"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Flea & Tick Control"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Fri Oct 9th, 2026 9:15 - 9:54am",
+        "content": [
+          "FL Routing Test 13  ",
+          "Miami (Routing Test Location) ",
+          "Flea & Tick Control"
+        ]
+      },
+      "tile": {
+        "header": "9:15 - 9:54am",
+        "content": [
+          "FL Routing Test 13  ",
+          "FL Routing Test 13 ",
+          "Flea & Tick Control"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "8544",
+        "name": "Flea & Tick Control",
+        "locked": 0,
+        "parent_job_id": "8544",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 3,
+        "status_type": 3,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "8540",
+        "current_parent_event": "0",
+        "start": "2026-10-09T09:15:00+00:00",
+        "end": "2026-10-09T09:54:00+00:00",
+        "repeat": 0,
+        "length": 39
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#ffa500",
+        "border": "#E99B09"
+      },
+      "customer": {
+        "id": "15532",
+        "full_name": "FL Routing Test 13 ",
+        "first_name": "FL Routing Test 13",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "32",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-09-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "15539",
+        "name": "FL Routing Test 13",
+        "street1": "Miami (Routing Test Location)",
+        "street2": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33130",
+        "lat": "25.7741566",
+        "lng": "-80.1935973",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "nami "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Rotonda Boulevard West"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Rotonda Boulevard West"
+        },
+        {
+          "field": "service_city",
+          "value": "Rotonda West"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33947"
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "11:49am - 12:34pm"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "nami "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Rotonda Boulevard West"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": "$0.00"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Mon Oct 5th, 2026 11:49am - 12:34pm",
+        "content": [
+          "nami  ",
+          "Rotonda Boulevard West ",
+          "Call Back Service ",
+          "$0.00"
+        ]
+      },
+      "tile": {
+        "header": "11:49am - 12:34pm",
+        "content": [
+          "nami  ",
+          "Rotonda Boulevard West ",
+          "Call Back Service $0.00"
+        ]
+      },
+      "invoice": {
+        "total": "$0.00",
+        "status": "draft"
+      },
+      "job": {
+        "id": "6815",
+        "name": "Call Back Service",
+        "locked": 0,
+        "parent_job_id": "6815",
+        "job_no": 0,
+        "previously_completed": 1,
+        "status": 2,
+        "status_type": 2,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "6811",
+        "current_parent_event": "0",
+        "start": "2026-10-05T11:49:00+00:00",
+        "end": "2026-10-05T12:34:00+00:00",
+        "repeat": 0,
+        "length": 45
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#bbd6ee",
+        "border": "#477BB3"
+      },
+      "customer": {
+        "id": "14790",
+        "full_name": "nami ",
+        "first_name": "nami",
+        "last_name": "",
+        "avatar": "n"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-05-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 1,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": false,
+      "location": {
+        "id": "14858",
+        "name": "Rotonda Boulevard West",
+        "street1": "Rotonda Boulevard West",
+        "street2": "",
+        "city": "Rotonda West",
+        "state": "FL",
+        "zip": "33947",
+        "lat": "26.89262",
+        "lng": "-82.2920725",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "service_city",
+          "value": "Palm Bay"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32907"
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "8:30 - 8:45am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": "$0.00"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Sun Oct 4th, 2026 8:30 - 8:45am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Call Back Service ",
+          "$0.00"
+        ]
+      },
+      "tile": {
+        "header": "8:30 - 8:45am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Call Back Service $0.00"
+        ]
+      },
+      "invoice": {
+        "total": "$0.00",
+        "status": "draft"
+      },
+      "job": {
+        "id": "3899",
+        "name": "Call Back Service",
+        "locked": 0,
+        "parent_job_id": "3899",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [
+          "👍"
+        ]
+      },
+      "active_event": true,
+      "event": {
+        "id": "3895",
+        "current_parent_event": "0",
+        "start": "2026-10-04T08:30:00+00:00",
+        "end": "2026-10-04T08:45:00+00:00",
+        "repeat": 0,
+        "length": 15
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "customer": {
+        "id": "14783",
+        "full_name": "Minh ",
+        "first_name": "Minh",
+        "last_name": "",
+        "avatar": "M"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-04-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14784",
+        "name": "Myakka Street Northeast",
+        "street1": "Myakka Street Northeast",
+        "street2": "",
+        "city": "Palm Bay",
+        "state": "FL",
+        "zip": "32907",
+        "lat": "28.0268755",
+        "lng": "-80.6634882",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "service_city",
+          "value": "Palm Bay"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32907"
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "9 - 9:15am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": "$900.00"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Sun Oct 4th, 2026 9 - 9:15am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Call Back Service ",
+          "$900.00"
+        ]
+      },
+      "tile": {
+        "header": "9 - 9:15am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Call Back Service $900.00"
+        ]
+      },
+      "invoice": {
+        "total": "$900.00",
+        "status": "draft"
+      },
+      "job": {
+        "id": "3916",
+        "name": "Call Back Service",
+        "locked": 0,
+        "parent_job_id": "3916",
+        "job_no": 0,
+        "previously_completed": 1,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [
+          "😀"
+        ]
+      },
+      "active_event": true,
+      "event": {
+        "id": "3912",
+        "current_parent_event": "0",
+        "start": "2026-10-04T09:00:00+00:00",
+        "end": "2026-10-04T09:15:00+00:00",
+        "repeat": 0,
+        "length": 15
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "customer": {
+        "id": "14783",
+        "full_name": "Minh ",
+        "first_name": "Minh",
+        "last_name": "",
+        "avatar": "M"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-04-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14784",
+        "name": "Myakka Street Northeast",
+        "street1": "Myakka Street Northeast",
+        "street2": "",
+        "city": "Palm Bay",
+        "state": "FL",
+        "zip": "32907",
+        "lat": "28.0268755",
+        "lng": "-80.6634882",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "TestAuto_4 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "1200 Rotonda Blvd W"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "1200 Rotonda Blvd W"
+        },
+        {
+          "field": "service_city",
+          "value": "Rotonda West"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33947"
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "10:08 - 10:38am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "TestAuto_4 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "1200 Rotonda Blvd W"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": "$0.00"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Mon Oct 5th, 2026 10:08 - 10:38am",
+        "content": [
+          "TestAuto_4 Routing ",
+          "1200 Rotonda Blvd W ",
+          "Call Back Service ",
+          "$0.00"
+        ]
+      },
+      "tile": {
+        "header": "10:08 - 10:38am",
+        "content": [
+          "TestAuto_4 Routing ",
+          "1200 Rotonda Blvd W ",
+          "Call Back Service $0.00"
+        ]
+      },
+      "invoice": {
+        "total": "$0.00",
+        "status": "draft"
+      },
+      "job": {
+        "id": "7040",
+        "name": "Call Back Service",
+        "locked": 1,
+        "parent_job_id": "7040",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "7036",
+        "current_parent_event": "0",
+        "start": "2026-10-05T10:08:00+00:00",
+        "end": "2026-10-05T10:38:00+00:00",
+        "repeat": 0,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "customer": {
+        "id": "14859",
+        "full_name": "TestAuto_4 Routing",
+        "first_name": "TestAuto_4",
+        "last_name": "Routing",
+        "avatar": "TR"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-05-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": false,
+      "location": {
+        "id": "14865",
+        "name": "1200 Rotonda Blvd W",
+        "street1": "1200 Rotonda Blvd W",
+        "street2": "",
+        "city": "Rotonda West",
+        "state": "FL",
+        "zip": "33947",
+        "lat": "26.889",
+        "lng": "-82.298",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 04 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 04"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Fort Pierce (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Fort Pierce"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "34950"
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "11:13 - 11:43am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 04 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 04"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Sun Oct 4th, 2026 11:13 - 11:43am",
+        "content": [
+          "FL Routing Test 04  ",
+          "Fort Pierce (Routing Test Location) ",
+          "Every 21 Days"
+        ]
+      },
+      "tile": {
+        "header": "11:13 - 11:43am",
+        "content": [
+          "FL Routing Test 04  ",
+          "FL Routing Test 04 ",
+          "Every 21 Days"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "8507",
+        "name": "Every 21 Days",
+        "locked": 0,
+        "parent_job_id": "8507",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "8503",
+        "current_parent_event": "0",
+        "start": "2026-10-04T11:13:00+00:00",
+        "end": "2026-10-04T11:43:00+00:00",
+        "repeat": 0,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "customer": {
+        "id": "15523",
+        "full_name": "FL Routing Test 04 ",
+        "first_name": "FL Routing Test 04",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-04-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "15530",
+        "name": "FL Routing Test 04",
+        "street1": "Fort Pierce (Routing Test Location)",
+        "street2": "",
+        "city": "Fort Pierce",
+        "state": "FL",
+        "zip": "34950",
+        "lat": "27.4467056",
+        "lng": "-80.3256056",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Test_10 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "2400 Harbor Blvd"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "2400 Harbor Blvd"
+        },
+        {
+          "field": "service_city",
+          "value": "Port Charlotte"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33952"
+        },
+        {
+          "field": "service_type",
+          "value": "Follow Up Inspections"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "1:58 - 2:28pm"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Test_10 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "2400 Harbor Blvd"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Follow Up Inspections"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Mon Oct 5th, 2026 1:58 - 2:28pm",
+        "content": [
+          "Test_10 Routing ",
+          "2400 Harbor Blvd ",
+          "Follow Up Inspections"
+        ]
+      },
+      "tile": {
+        "header": "1:58 - 2:28pm",
+        "content": [
+          "Test_10 Routing ",
+          "2400 Harbor Blvd ",
+          "Follow Up Inspections"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "7046",
+        "name": "Follow Up Inspections",
+        "locked": 0,
+        "parent_job_id": "7046",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "7042",
+        "current_parent_event": "0",
+        "start": "2026-10-05T13:58:00+00:00",
+        "end": "2026-10-05T14:28:00+00:00",
+        "repeat": 0,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#d0d0d0",
+        "border": "#686868"
+      },
+      "customer": {
+        "id": "14865",
+        "full_name": "Test_10 Routing",
+        "first_name": "Test_10",
+        "last_name": "Routing",
+        "avatar": "TR"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-05-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14871",
+        "name": "2400 Harbor Blvd",
+        "street1": "2400 Harbor Blvd",
+        "street2": "",
+        "city": "Port Charlotte",
+        "state": "FL",
+        "zip": "33952",
+        "lat": "26.96",
+        "lng": "-82.09",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Test_9 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "3100 Tamiami Trail"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "3100 Tamiami Trail"
+        },
+        {
+          "field": "service_city",
+          "value": "Port Charlotte"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33952"
+        },
+        {
+          "field": "service_type",
+          "value": "Follow Up Inspections"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "1:25 - 1:55pm"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Test_9 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "3100 Tamiami Trail"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Follow Up Inspections"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Mon Oct 5th, 2026 1:25 - 1:55pm",
+        "content": [
+          "Test_9 Routing ",
+          "3100 Tamiami Trail ",
+          "Follow Up Inspections"
+        ]
+      },
+      "tile": {
+        "header": "1:25 - 1:55pm",
+        "content": [
+          "Test_9 Routing ",
+          "3100 Tamiami Trail ",
+          "Follow Up Inspections"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "7045",
+        "name": "Follow Up Inspections",
+        "locked": 0,
+        "parent_job_id": "7045",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "7041",
+        "current_parent_event": "0",
+        "start": "2026-10-05T13:25:00+00:00",
+        "end": "2026-10-05T13:55:00+00:00",
+        "repeat": 0,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#d0d0d0",
+        "border": "#686868"
+      },
+      "customer": {
+        "id": "14864",
+        "full_name": "Test_9 Routing",
+        "first_name": "Test_9",
+        "last_name": "Routing",
+        "avatar": "TR"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-05-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14870",
+        "name": "3100 Tamiami Trail",
+        "street1": "3100 Tamiami Trail",
+        "street2": "",
+        "city": "Port Charlotte",
+        "state": "FL",
+        "zip": "33952",
+        "lat": "26.975",
+        "lng": "-82.105",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Test_7 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "4500 Myakka St NE"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "4500 Myakka St NE"
+        },
+        {
+          "field": "service_city",
+          "value": "Port Charlotte"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33953"
+        },
+        {
+          "field": "service_type",
+          "value": "Bed Bug Heat Treatment"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "12:11 - 12:41pm"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Test_7 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "4500 Myakka St NE"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Bed Bug Heat Treatment"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Mon Oct 5th, 2026 12:11 - 12:41pm",
+        "content": [
+          "Test_7 Routing ",
+          "4500 Myakka St NE ",
+          "Bed Bug Heat Treatment"
+        ]
+      },
+      "tile": {
+        "header": "12:11 - 12:41pm",
+        "content": [
+          "Test_7 Routing ",
+          "4500 Myakka St NE ",
+          "Bed Bug Heat Treatment"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "7043",
+        "name": "Bed Bug Heat Treatment",
+        "locked": 0,
+        "parent_job_id": "7043",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "7039",
+        "current_parent_event": "0",
+        "start": "2026-10-05T12:11:00+00:00",
+        "end": "2026-10-05T12:41:00+00:00",
+        "repeat": 0,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#d0d0d0",
+        "border": "#686868"
+      },
+      "customer": {
+        "id": "14862",
+        "full_name": "Test_7 Routing",
+        "first_name": "Test_7",
+        "last_name": "Routing",
+        "avatar": "TR"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-05-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14868",
+        "name": "4500 Myakka St NE",
+        "street1": "4500 Myakka St NE",
+        "street2": "",
+        "city": "Port Charlotte",
+        "state": "FL",
+        "zip": "33953",
+        "lat": "26.991",
+        "lng": "-82.21",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Test6 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "300 Parade Cir"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "300 Parade Cir"
+        },
+        {
+          "field": "service_city",
+          "value": "Rotonda West"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33947"
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "9:06 - 9:36am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Test6 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "300 Parade Cir"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": "$0.00"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Mon Oct 5th, 2026 9:06 - 9:36am",
+        "content": [
+          "Test6 Routing ",
+          "300 Parade Cir ",
+          "Call Back Service ",
+          "$0.00"
+        ]
+      },
+      "tile": {
+        "header": "9:06 - 9:36am",
+        "content": [
+          "Test6 Routing ",
+          "300 Parade Cir ",
+          "Call Back Service $0.00"
+        ]
+      },
+      "invoice": {
+        "total": "$0.00",
+        "status": "draft"
+      },
+      "job": {
+        "id": "7042",
+        "name": "Call Back Service",
+        "locked": 0,
+        "parent_job_id": "7042",
+        "job_no": 0,
+        "previously_completed": 1,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "7038",
+        "current_parent_event": "0",
+        "start": "2026-10-05T09:06:00+00:00",
+        "end": "2026-10-05T09:36:00+00:00",
+        "repeat": 0,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "customer": {
+        "id": "14861",
+        "full_name": "Test6 Routing",
+        "first_name": "Test6",
+        "last_name": "Routing",
+        "avatar": "TR"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-05-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14867",
+        "name": "300 Parade Cir",
+        "street1": "300 Parade Cir",
+        "street2": "",
+        "city": "Rotonda West",
+        "state": "FL",
+        "zip": "33947",
+        "lat": "26.882",
+        "lng": "-82.288",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Lam "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Rotonda Boulevard West"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Rotonda Boulevard West"
+        },
+        {
+          "field": "service_city",
+          "value": "Rotonda West"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33947"
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "10:39 - 11:09am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Lam "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Rotonda Boulevard West"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "invoice_total",
+          "value": "$60.00"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Mon Oct 5th, 2026 10:39 - 11:09am",
+        "content": [
+          "Lam  ",
+          "Rotonda Boulevard West ",
+          "Every 21 Days ",
+          "$60.00"
+        ]
+      },
+      "tile": {
+        "header": "10:39 - 11:09am",
+        "content": [
+          "Lam  ",
+          "Rotonda Boulevard West ",
+          "Every 21 Days $60.00"
+        ]
+      },
+      "invoice": {
+        "total": "$60.00",
+        "status": "draft"
+      },
+      "job": {
+        "id": "3755",
+        "name": "Every 21 Days",
+        "locked": 0,
+        "parent_job_id": "3755",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "",
+        "emoji": [
+          "😶‍🌫️"
+        ]
+      },
+      "active_event": true,
+      "event": {
+        "id": "3751",
+        "current_parent_event": "0",
+        "start": "2026-10-05T10:39:00+00:00",
+        "end": "2026-10-05T11:09:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#d0d0d0",
+        "border": "#686868"
+      },
+      "customer": {
+        "id": "14780",
+        "full_name": "Lam ",
+        "first_name": "Lam",
+        "last_name": "",
+        "avatar": "L"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-05-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14781",
+        "name": "Rotonda Boulevard West",
+        "street1": "Rotonda Boulevard West",
+        "street2": "",
+        "city": "Rotonda West",
+        "state": "FL",
+        "zip": "33947",
+        "lat": "26.89262",
+        "lng": "-82.2920725",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Test_8 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "1000 El Jobean Rd"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "1000 El Jobean Rd"
+        },
+        {
+          "field": "service_city",
+          "value": "Port Charlotte"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33953"
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "12:43 - 1:13pm"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Test_8 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "1000 El Jobean Rd"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": "$0.00"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Mon Oct 5th, 2026 12:43 - 1:13pm",
+        "content": [
+          "Test_8 Routing ",
+          "1000 El Jobean Rd ",
+          "Call Back Service ",
+          "$0.00"
+        ]
+      },
+      "tile": {
+        "header": "12:43 - 1:13pm",
+        "content": [
+          "Test_8 Routing ",
+          "1000 El Jobean Rd ",
+          "Call Back Service $0.00"
+        ]
+      },
+      "invoice": {
+        "total": "$0.00",
+        "status": "draft"
+      },
+      "job": {
+        "id": "7044",
+        "name": "Call Back Service",
+        "locked": 0,
+        "parent_job_id": "7044",
+        "job_no": 0,
+        "previously_completed": 1,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": []
+      },
+      "active_event": true,
+      "event": {
+        "id": "7040",
+        "current_parent_event": "0",
+        "start": "2026-10-05T12:43:00+00:00",
+        "end": "2026-10-05T13:13:00+00:00",
+        "repeat": 0,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "customer": {
+        "id": "14863",
+        "full_name": "Test_8 Routing",
+        "first_name": "Test_8",
+        "last_name": "Routing",
+        "avatar": "TR"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-05-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14869",
+        "name": "1000 El Jobean Rd",
+        "street1": "1000 El Jobean Rd",
+        "street2": "",
+        "city": "Port Charlotte",
+        "state": "FL",
+        "zip": "33953",
+        "lat": "26.98",
+        "lng": "-82.2",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "NaplesAuto_1 Test"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "8950 Tamiami Trail N"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "8950 Tamiami Trail N"
+        },
+        {
+          "field": "service_city",
+          "value": "Naples"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "34108"
+        },
+        {
+          "field": "service_type",
+          "value": "Bi-Monthly Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "8 - 8:45am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "NaplesAuto_1 Test"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "8950 Tamiami Trail N"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Bi-Monthly Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": "$65.00"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Fri Oct 9th, 2026 8 - 8:45am",
+        "content": [
+          "NaplesAuto_1 Test ",
+          "8950 Tamiami Trail N ",
+          "Bi-Monthly Service ",
+          "$65.00"
+        ]
+      },
+      "tile": {
+        "header": "8 - 8:45am",
+        "content": [
+          "NaplesAuto_1 Test ",
+          "8950 Tamiami Trail N ",
+          "Bi-Monthly Service $65.00"
+        ]
+      },
+      "invoice": {
+        "total": "$65.00",
+        "status": "draft"
+      },
+      "job": {
+        "id": "7047",
+        "name": "Bi-Monthly Service",
+        "locked": 0,
+        "parent_job_id": "7047",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [
+          "😀"
+        ]
+      },
+      "active_event": true,
+      "event": {
+        "id": "7043",
+        "current_parent_event": "0",
+        "start": "2026-10-09T08:00:00+00:00",
+        "end": "2026-10-09T08:45:00+00:00",
+        "repeat": 1,
+        "length": 45
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "customer": {
+        "id": "14866",
+        "full_name": "NaplesAuto_1 Test",
+        "first_name": "NaplesAuto_1",
+        "last_name": "Test",
+        "avatar": "NT"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-09-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14872",
+        "name": "8950 Tamiami Trail N",
+        "street1": "8950 Tamiami Trail N",
+        "street2": "",
+        "city": "Naples",
+        "state": "FL",
+        "zip": "34108",
+        "lat": "26.2512",
+        "lng": "-81.7941",
+        "note": "Test routing Naples area"
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "NaplesAuto_2 Test"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "26811 Tamiami Trail S"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "26811 Tamiami Trail S"
+        },
+        {
+          "field": "service_city",
+          "value": "Bonita Springs"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "34134"
+        },
+        {
+          "field": "service_type",
+          "value": "Flea & Tick Control"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "8 - 8:45am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "NaplesAuto_2 Test"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "26811 Tamiami Trail S"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Flea & Tick Control"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Wed Oct 7th, 2026 8 - 8:45am",
+        "content": [
+          "NaplesAuto_2 Test ",
+          "26811 Tamiami Trail S ",
+          "Flea & Tick Control"
+        ]
+      },
+      "tile": {
+        "header": "8 - 8:45am",
+        "content": [
+          "NaplesAuto_2 Test ",
+          "26811 Tamiami Trail S ",
+          "Flea & Tick Control"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "7059",
+        "name": "Flea & Tick Control",
+        "locked": 0,
+        "parent_job_id": "7059",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "",
+        "emoji": [
+          "😀"
+        ]
+      },
+      "active_event": true,
+      "event": {
+        "id": "7055",
+        "current_parent_event": "0",
+        "start": "2026-10-07T08:00:00+00:00",
+        "end": "2026-10-07T08:45:00+00:00",
+        "repeat": 0,
+        "length": 45
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "black",
+        "background": "#d0d0d0",
+        "border": "#686868"
+      },
+      "customer": {
+        "id": "14867",
+        "full_name": "NaplesAuto_2 Test",
+        "first_name": "NaplesAuto_2",
+        "last_name": "Test",
+        "avatar": "NT"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-07-2026",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14873",
+        "name": "26811 Tamiami Trail S",
+        "street1": "26811 Tamiami Trail S",
+        "street2": "",
+        "city": "Bonita Springs",
+        "state": "FL",
+        "zip": "34134",
+        "lat": "26.3385",
+        "lng": "-81.782",
+        "note": "Test routing Naples area"
+      },
+      "type": "job"
+    }
+  ],
+  "success": true,
+  "message": []
+}

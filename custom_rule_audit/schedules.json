@@ -1,0 +1,47 @@
+{
+  "data": {
+    "groups": [],
+    "schedules": [
+      {
+        "id": "31",
+        "user_id": "84361445",
+        "name": "Lam",
+        "nickname": "Lam",
+        "schedule": "Schedule 1",
+        "role": "SuperAdmin",
+        "start_point": {
+          "location": "Manasota Beach Road, Englewood, FL ",
+          "lat": "27.0136596",
+          "lng": "-82.4024241"
+        },
+        "end_point": {
+          "location": "Manasota Beach Road, Englewood, FL ",
+          "lat": "27.0136596",
+          "lng": "-82.4024241"
+        },
+        "color": "#69C91A"
+      },
+      {
+        "id": "32",
+        "user_id": "84361447",
+        "name": "custom",
+        "nickname": "custom",
+        "schedule": "Schedule 2",
+        "role": "Admin",
+        "start_point": {
+          "location": "Beach Boulevard, Huntington Beach, CA ",
+          "lat": "33.6923704",
+          "lng": "-117.9889437"
+        },
+        "end_point": {
+          "location": "500 Mississippi St, Tallahassee, FL, 32304",
+          "lat": "30.4649282",
+          "lng": "-84.3857442"
+        },
+        "color": "#FE5400"
+      }
+    ]
+  },
+  "success": true,
+  "message": []
+}

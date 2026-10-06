@@ -1,0 +1,20 @@
+MANTIS ROUTING RULES — TEST CASE DRAFT FOR DES-9169 / DES-9619,,,,
+Routing Rules only. Designed to be copied into the existing Mantis rule sheets. Status is initialized as Not Run; business oracle is defined in the accompanying Markdown.,,,,
+Item,Value,,Verdict / status,Meaning
+Version,V1 — 2026-09-14,,Not Run,Not executed yet
+Jira,https://gorilladesk1.atlassian.net/browse/DES-9619,,Passed,Hard rule compliant
+Source format 1,DES-9169 mantis-all-rules-combined,,Failed,Confirmed hard-rule violation
+Source format 2,DES-9619 Cross-Module Combos,,Data Gap,Missing routing opportunity / witness / safe fixture
+Routing Rules cases,49,,Need Probe,Technical evidence/action missing
+Focused cross-module cases,28,,Open Question,Business behavior not confirmed
+Primary logic file,MANTIS_ROUTING_RULES_LOGIC_EXPECTED_PASS_FAIL_V1.md,,Review,Evidence exists but not enough for strict verdict
+Important week definition,Sunday → Saturday (NOT ISO week),,HARD_ONLY,PASS but no sensitivity proof
+,,,SENSITIVITY_STRONG,Comparative witness proves rule effect
+How to use,,,,
+1,Copy tab `Routing Rules` into DES-9169 as a new module tab.,,,
+2,Append/review tab `RR Cross-Module` when updating DES-9619.,,,
+3,Use the Markdown logic file as the authoritative Expected + PASS/FAIL guide.,,,
+4,Do not mark sensitivity strong unless OFF/wider phase produced a discriminating witness.,,,
+5,Do not use ISO week for Keep Week.,,,
+6,Do not fail Optimization Window solely because final placement overflows outside the window.,,,
+7,Resolve Schedule → Technician before Cross-Tech verdict.,,,

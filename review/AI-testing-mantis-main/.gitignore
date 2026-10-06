@@ -1,0 +1,9 @@
+# Local credentials / runtime state
+captures/.env.local
+captures/.runner.lock
+# OS/editor
+.DS_Store
+
+# Python runtime artifacts
+__pycache__/
+*.py[cod]

@@ -1,0 +1,2114 @@
+{
+  "kind": "LOCAL_AUTHORING_CATALOG_NOT_API_PAYLOAD",
+  "counts": {
+    "single": 20,
+    "pair": 21,
+    "triple": 20,
+    "total": 61,
+    "four_filter_templates": 244
+  },
+  "source": "User action list + supplied HAR snapshots",
+  "rules": [
+    {
+      "id": "A01",
+      "group": "single",
+      "source_text": "Giữ tất cả job Quarterly trong tuần ban đầu.",
+      "scope": {
+        "service_label": "Quarterly",
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "week"
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "A02",
+      "group": "single",
+      "source_text": "Giữ job Monthly trong tháng ban đầu.",
+      "scope": {
+        "service_label": "Monthly",
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "month"
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "A03",
+      "group": "single",
+      "source_text": "Bắt buộc assign Emergency cho Chris.",
+      "scope": {
+        "service_label": "Emergency",
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "force_tech",
+          "logical_parameters": {
+            "technician_name": "Chris"
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "A04",
+      "group": "single",
+      "source_text": "Bắt buộc assign Bed Bug cho Lam.",
+      "scope": {
+        "service_label": "Bed Bug",
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "force_tech",
+          "logical_parameters": {
+            "technician_name": "Lam"
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "A05",
+      "group": "single",
+      "source_text": "Ưu tiên technician mà customer đã preferred.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "prefer_tech",
+          "logical_parameters": {
+            "source": "customer_preferred_technician"
+          },
+          "class": "Soft"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Resolve actual customer/location preferred technician; do not assign Chris or Lam by default."
+      ]
+    },
+    {
+      "id": "A06",
+      "group": "single",
+      "source_text": "Ưu tiên preferred technician cho Quarterly.",
+      "scope": {
+        "service_label": "Quarterly",
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "prefer_tech",
+          "logical_parameters": {
+            "source": "customer_preferred_technician"
+          },
+          "class": "Soft"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Resolve actual customer/location preferred technician; do not assign Chris or Lam by default."
+      ]
+    },
+    {
+      "id": "A07",
+      "group": "single",
+      "source_text": "Không cho job di chuyển quá 2 ngày.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": 2
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "A08",
+      "group": "single",
+      "source_text": "Emergency chỉ được move tối đa 1 ngày.",
+      "scope": {
+        "service_label": "Emergency",
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": 1
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "A09",
+      "group": "single",
+      "source_text": "Emergency bắt buộc nằm trong 08:00–14:00.",
+      "scope": {
+        "service_label": "Emergency",
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "time_window",
+          "logical_parameters": {
+            "start": "08:00",
+            "end": "14:00",
+            "strict": true
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "A10",
+      "group": "single",
+      "source_text": "Quarterly bắt buộc trong 09:00–15:00.",
+      "scope": {
+        "service_label": "Quarterly",
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "time_window",
+          "logical_parameters": {
+            "start": "09:00",
+            "end": "15:00",
+            "strict": true
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "A11",
+      "group": "single",
+      "source_text": "Ưu tiên Bed Bug trong 08:00–12:00.",
+      "scope": {
+        "service_label": "Bed Bug",
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "time_window",
+          "logical_parameters": {
+            "start": "08:00",
+            "end": "12:00",
+            "strict": false
+          },
+          "class": "Soft"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "A12",
+      "group": "single",
+      "source_text": "Ưu tiên Routine trong 13:00–16:00.",
+      "scope": {
+        "service_label": "Routine",
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "time_window",
+          "logical_parameters": {
+            "start": "13:00",
+            "end": "16:00",
+            "strict": false
+          },
+          "class": "Soft"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "A13",
+      "group": "single",
+      "source_text": "Arrival window duration = 1 giờ.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "arrival_window_duration",
+          "logical_parameters": {
+            "duration_seconds": 3600
+          },
+          "class": "Display"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Display window only; not routing arrival constraint."
+      ]
+    },
+    {
+      "id": "A14",
+      "group": "single",
+      "source_text": "Arrival window duration = 30 phút.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "arrival_window_duration",
+          "logical_parameters": {
+            "duration_seconds": 1800
+          },
+          "class": "Display"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Display window only; not routing arrival constraint."
+      ]
+    },
+    {
+      "id": "A15",
+      "group": "single",
+      "source_text": "Emergency là stop đầu tiên.",
+      "scope": {
+        "service_label": "Emergency",
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "first_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "A16",
+      "group": "single",
+      "source_text": "Initial Service là stop đầu tiên.",
+      "scope": {
+        "service_label": "Initial Service",
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "first_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "A17",
+      "group": "single",
+      "source_text": "Routine Service là stop cuối.",
+      "scope": {
+        "service_label": "Routine Service",
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "last_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "A18",
+      "group": "single",
+      "source_text": "Quarterly là stop cuối.",
+      "scope": {
+        "service_label": "Quarterly",
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "last_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "A19",
+      "group": "single",
+      "source_text": "Lock Emergency, Auto-Pilot route around job.",
+      "scope": {
+        "service_label": "Emergency",
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "lock",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Lock placement, not same-day restriction; preserve actual baseline."
+      ]
+    },
+    {
+      "id": "A20",
+      "group": "single",
+      "source_text": "Completed jobs bị loại khỏi routing.",
+      "scope": {
+        "service_label": null,
+        "status_label": "Completed"
+      },
+      "actions": [
+        {
+          "primitive": "exclude",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "B01",
+      "group": "pair",
+      "source_text": "keep_period + force_tech.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "force_tech",
+          "logical_parameters": {
+            "technician_name": null
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "keep_period.period",
+        "force_tech.technician_name"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "B02",
+      "group": "pair",
+      "source_text": "Keep month + force_tech.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "month"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "force_tech",
+          "logical_parameters": {
+            "technician_name": null
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "force_tech.technician_name"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "B03",
+      "group": "pair",
+      "source_text": "force_tech + movement_limit.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "force_tech",
+          "logical_parameters": {
+            "technician_name": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": null
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "force_tech.technician_name",
+        "movement_limit.max_days"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "B04",
+      "group": "pair",
+      "source_text": "tech + strict time window.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "technician_action_to_confirm",
+          "logical_parameters": {
+            "mode": null,
+            "technician_name": null
+          },
+          "class": "Unresolved"
+        },
+        {
+          "primitive": "time_window",
+          "logical_parameters": {
+            "start": null,
+            "end": null,
+            "strict": true
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "technician_action_to_confirm.mode",
+        "technician_action_to_confirm.technician_name",
+        "time_window.start",
+        "time_window.end"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "B05",
+      "group": "pair",
+      "source_text": "prefer_tech + movement_limit.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "prefer_tech",
+          "logical_parameters": {
+            "source": "customer_preferred_technician"
+          },
+          "class": "Soft"
+        },
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": null
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "movement_limit.max_days"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Resolve actual customer/location preferred technician; do not assign Chris or Lam by default."
+      ]
+    },
+    {
+      "id": "B06",
+      "group": "pair",
+      "source_text": "Preferred tech + strict window.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "prefer_tech",
+          "logical_parameters": {
+            "source": "customer_preferred_technician"
+          },
+          "class": "Soft"
+        },
+        {
+          "primitive": "time_window",
+          "logical_parameters": {
+            "start": null,
+            "end": null,
+            "strict": true
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "time_window.start",
+        "time_window.end"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Resolve actual customer/location preferred technician; do not assign Chris or Lam by default."
+      ]
+    },
+    {
+      "id": "B07",
+      "group": "pair",
+      "source_text": "Preferred tech + soft window.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "prefer_tech",
+          "logical_parameters": {
+            "source": "customer_preferred_technician"
+          },
+          "class": "Soft"
+        },
+        {
+          "primitive": "time_window",
+          "logical_parameters": {
+            "start": null,
+            "end": null,
+            "strict": false
+          },
+          "class": "Soft"
+        }
+      ],
+      "missing_action_parameters": [
+        "time_window.start",
+        "time_window.end"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Resolve actual customer/location preferred technician; do not assign Chris or Lam by default."
+      ]
+    },
+    {
+      "id": "B08",
+      "group": "pair",
+      "source_text": "Preferred tech + arrival window.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "prefer_tech",
+          "logical_parameters": {
+            "source": "customer_preferred_technician"
+          },
+          "class": "Soft"
+        },
+        {
+          "primitive": "arrival_window_duration",
+          "logical_parameters": {
+            "duration_seconds": null
+          },
+          "class": "Display"
+        }
+      ],
+      "missing_action_parameters": [
+        "arrival_window_duration.duration_seconds"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Display window only; not routing arrival constraint.",
+        "Resolve actual customer/location preferred technician; do not assign Chris or Lam by default."
+      ]
+    },
+    {
+      "id": "B09",
+      "group": "pair",
+      "source_text": "Preferred tech + first stop.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "prefer_tech",
+          "logical_parameters": {
+            "source": "customer_preferred_technician"
+          },
+          "class": "Soft"
+        },
+        {
+          "primitive": "first_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Resolve actual customer/location preferred technician; do not assign Chris or Lam by default."
+      ]
+    },
+    {
+      "id": "B10",
+      "group": "pair",
+      "source_text": "Preferred tech + last stop.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "prefer_tech",
+          "logical_parameters": {
+            "source": "customer_preferred_technician"
+          },
+          "class": "Soft"
+        },
+        {
+          "primitive": "last_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Resolve actual customer/location preferred technician; do not assign Chris or Lam by default."
+      ]
+    },
+    {
+      "id": "B11",
+      "group": "pair",
+      "source_text": "Preferred tech + lock.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "prefer_tech",
+          "logical_parameters": {
+            "source": "customer_preferred_technician"
+          },
+          "class": "Soft"
+        },
+        {
+          "primitive": "lock",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Resolve actual customer/location preferred technician; do not assign Chris or Lam by default.",
+        "Lock placement, not same-day restriction; preserve actual baseline."
+      ]
+    },
+    {
+      "id": "B12",
+      "group": "pair",
+      "source_text": "Keep week + max movement 2 days.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "week"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": 2
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "B13",
+      "group": "pair",
+      "source_text": "Keep month + strict window.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "month"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "time_window",
+          "logical_parameters": {
+            "start": null,
+            "end": null,
+            "strict": true
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "time_window.start",
+        "time_window.end"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "B14",
+      "group": "pair",
+      "source_text": "Keep week + arrival window.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "week"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "arrival_window_duration",
+          "logical_parameters": {
+            "duration_seconds": null
+          },
+          "class": "Display"
+        }
+      ],
+      "missing_action_parameters": [
+        "arrival_window_duration.duration_seconds"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Display window only; not routing arrival constraint."
+      ]
+    },
+    {
+      "id": "B15",
+      "group": "pair",
+      "source_text": "Keep week + first stop.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "week"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "first_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "B16",
+      "group": "pair",
+      "source_text": "Keep week + last stop.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "week"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "last_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "B17",
+      "group": "pair",
+      "source_text": "Keep week + lock.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "week"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "lock",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Lock placement, not same-day restriction; preserve actual baseline."
+      ]
+    },
+    {
+      "id": "B18",
+      "group": "pair",
+      "source_text": "Movement limit + first stop.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "first_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "movement_limit.max_days"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "B19",
+      "group": "pair",
+      "source_text": "Movement limit + last stop.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "last_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "movement_limit.max_days"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "B20",
+      "group": "pair",
+      "source_text": "Movement limit + exclude.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "exclude",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "movement_limit.max_days"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Exclude dominates; cannot independently prove movement_limit on excluded jobs."
+      ]
+    },
+    {
+      "id": "B21",
+      "group": "pair",
+      "source_text": "Movement limit + time window.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "time_window",
+          "logical_parameters": {
+            "start": null,
+            "end": null,
+            "strict": null
+          },
+          "class": "Unresolved"
+        }
+      ],
+      "missing_action_parameters": [
+        "movement_limit.max_days",
+        "time_window.start",
+        "time_window.end",
+        "time_window.strict"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "C01",
+      "group": "triple",
+      "source_text": "keep_period + force_tech + movement_limit.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "force_tech",
+          "logical_parameters": {
+            "technician_name": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": null
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "keep_period.period",
+        "force_tech.technician_name",
+        "movement_limit.max_days"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "C02",
+      "group": "triple",
+      "source_text": "Giữ tháng + force Lam + strict window.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "month"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "force_tech",
+          "logical_parameters": {
+            "technician_name": "Lam"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "time_window",
+          "logical_parameters": {
+            "start": null,
+            "end": null,
+            "strict": true
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "time_window.start",
+        "time_window.end"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "C03",
+      "group": "triple",
+      "source_text": "Keep week + force Chris + first stop.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "week"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "force_tech",
+          "logical_parameters": {
+            "technician_name": "Chris"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "first_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "C04",
+      "group": "triple",
+      "source_text": "Keep week + preferred tech + last stop.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "week"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "prefer_tech",
+          "logical_parameters": {
+            "source": "customer_preferred_technician"
+          },
+          "class": "Soft"
+        },
+        {
+          "primitive": "last_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Resolve actual customer/location preferred technician; do not assign Chris or Lam by default."
+      ]
+    },
+    {
+      "id": "C05",
+      "group": "triple",
+      "source_text": "Keep week + preferred tech + lock.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "week"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "prefer_tech",
+          "logical_parameters": {
+            "source": "customer_preferred_technician"
+          },
+          "class": "Soft"
+        },
+        {
+          "primitive": "lock",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Resolve actual customer/location preferred technician; do not assign Chris or Lam by default.",
+        "Lock placement, not same-day restriction; preserve actual baseline."
+      ]
+    },
+    {
+      "id": "C06",
+      "group": "triple",
+      "source_text": "Keep week + movement limit + strict window.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "week"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "time_window",
+          "logical_parameters": {
+            "start": null,
+            "end": null,
+            "strict": true
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "movement_limit.max_days",
+        "time_window.start",
+        "time_window.end"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "C07",
+      "group": "triple",
+      "source_text": "Keep week + movement limit + arrival window.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "week"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "arrival_window_duration",
+          "logical_parameters": {
+            "duration_seconds": null
+          },
+          "class": "Display"
+        }
+      ],
+      "missing_action_parameters": [
+        "movement_limit.max_days",
+        "arrival_window_duration.duration_seconds"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Display window only; not routing arrival constraint."
+      ]
+    },
+    {
+      "id": "C08",
+      "group": "triple",
+      "source_text": "Keep week + max 1 day + first stop.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "week"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": 1
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "first_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "C09",
+      "group": "triple",
+      "source_text": "Keep week + max 2 days + last stop.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "week"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": 2
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "last_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "C10",
+      "group": "triple",
+      "source_text": "Keep week + movement limit + lock.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "keep_period",
+          "logical_parameters": {
+            "period": "week"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "lock",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "movement_limit.max_days"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Lock placement, not same-day restriction; preserve actual baseline."
+      ]
+    },
+    {
+      "id": "C11",
+      "group": "triple",
+      "source_text": "Force tech + movement limit + time window + strict.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "force_tech",
+          "logical_parameters": {
+            "technician_name": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "time_window",
+          "logical_parameters": {
+            "start": null,
+            "end": null,
+            "strict": true
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "force_tech.technician_name",
+        "movement_limit.max_days",
+        "time_window.start",
+        "time_window.end"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "C12",
+      "group": "triple",
+      "source_text": "Force Lam + arrival window + first stop.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "force_tech",
+          "logical_parameters": {
+            "technician_name": "Lam"
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "arrival_window_duration",
+          "logical_parameters": {
+            "duration_seconds": null
+          },
+          "class": "Display"
+        },
+        {
+          "primitive": "first_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "arrival_window_duration.duration_seconds"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Display window only; not routing arrival constraint."
+      ]
+    },
+    {
+      "id": "C13",
+      "group": "triple",
+      "source_text": "Force tech + arrival window + last stop.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "force_tech",
+          "logical_parameters": {
+            "technician_name": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "arrival_window_duration",
+          "logical_parameters": {
+            "duration_seconds": null
+          },
+          "class": "Display"
+        },
+        {
+          "primitive": "last_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "force_tech.technician_name",
+        "arrival_window_duration.duration_seconds"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Display window only; not routing arrival constraint."
+      ]
+    },
+    {
+      "id": "C14",
+      "group": "triple",
+      "source_text": "Preferred tech + movement limit + strict window.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "prefer_tech",
+          "logical_parameters": {
+            "source": "customer_preferred_technician"
+          },
+          "class": "Soft"
+        },
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "time_window",
+          "logical_parameters": {
+            "start": null,
+            "end": null,
+            "strict": true
+          },
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "movement_limit.max_days",
+        "time_window.start",
+        "time_window.end"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Resolve actual customer/location preferred technician; do not assign Chris or Lam by default."
+      ]
+    },
+    {
+      "id": "C15",
+      "group": "triple",
+      "source_text": "Preferred tech + movement limit + soft window.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "prefer_tech",
+          "logical_parameters": {
+            "source": "customer_preferred_technician"
+          },
+          "class": "Soft"
+        },
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "time_window",
+          "logical_parameters": {
+            "start": null,
+            "end": null,
+            "strict": false
+          },
+          "class": "Soft"
+        }
+      ],
+      "missing_action_parameters": [
+        "movement_limit.max_days",
+        "time_window.start",
+        "time_window.end"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Resolve actual customer/location preferred technician; do not assign Chris or Lam by default."
+      ]
+    },
+    {
+      "id": "C16",
+      "group": "triple",
+      "source_text": "Preferred tech + arrival window + first stop.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "prefer_tech",
+          "logical_parameters": {
+            "source": "customer_preferred_technician"
+          },
+          "class": "Soft"
+        },
+        {
+          "primitive": "arrival_window_duration",
+          "logical_parameters": {
+            "duration_seconds": null
+          },
+          "class": "Display"
+        },
+        {
+          "primitive": "first_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "arrival_window_duration.duration_seconds"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Display window only; not routing arrival constraint.",
+        "Resolve actual customer/location preferred technician; do not assign Chris or Lam by default."
+      ]
+    },
+    {
+      "id": "C17",
+      "group": "triple",
+      "source_text": "Preferred tech + arrival window + lock.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "prefer_tech",
+          "logical_parameters": {
+            "source": "customer_preferred_technician"
+          },
+          "class": "Soft"
+        },
+        {
+          "primitive": "arrival_window_duration",
+          "logical_parameters": {
+            "duration_seconds": null
+          },
+          "class": "Display"
+        },
+        {
+          "primitive": "lock",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "arrival_window_duration.duration_seconds"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Display window only; not routing arrival constraint.",
+        "Resolve actual customer/location preferred technician; do not assign Chris or Lam by default.",
+        "Lock placement, not same-day restriction; preserve actual baseline."
+      ]
+    },
+    {
+      "id": "C18",
+      "group": "triple",
+      "source_text": "Movement limit + strict window + first stop.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "time_window",
+          "logical_parameters": {
+            "start": null,
+            "end": null,
+            "strict": true
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "first_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "movement_limit.max_days",
+        "time_window.start",
+        "time_window.end"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": []
+    },
+    {
+      "id": "C19",
+      "group": "triple",
+      "source_text": "Movement limit + arrival window + last stop.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "arrival_window_duration",
+          "logical_parameters": {
+            "duration_seconds": null
+          },
+          "class": "Display"
+        },
+        {
+          "primitive": "last_stop",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "movement_limit.max_days",
+        "arrival_window_duration.duration_seconds"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Display window only; not routing arrival constraint."
+      ]
+    },
+    {
+      "id": "C20",
+      "group": "triple",
+      "source_text": "Movement limit + strict window + lock.",
+      "scope": {
+        "service_label": null,
+        "status_label": null
+      },
+      "actions": [
+        {
+          "primitive": "movement_limit",
+          "logical_parameters": {
+            "max_days": null
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "time_window",
+          "logical_parameters": {
+            "start": null,
+            "end": null,
+            "strict": true
+          },
+          "class": "Hard"
+        },
+        {
+          "primitive": "lock",
+          "logical_parameters": {},
+          "class": "Hard"
+        }
+      ],
+      "missing_action_parameters": [
+        "movement_limit.max_days",
+        "time_window.start",
+        "time_window.end"
+      ],
+      "intended_activation": "ALTERNATIVE_TEST_CASE_NOT_AUTOMATICALLY_ENABLED",
+      "notes": [
+        "Lock placement, not same-day restriction; preserve actual baseline."
+      ]
+    }
+  ],
+  "filter_bindings": {
+    "service": {
+      "har_target_field": "service_types",
+      "wire_value_type": "NOT_OBSERVED_NONEMPTY_IN_HAR",
+      "available_services": [
+        {
+          "id": "217",
+          "name": "Bed Bug Heat Treatment"
+        },
+        {
+          "id": "207",
+          "name": "Bi-Monthly Service"
+        },
+        {
+          "id": "208",
+          "name": "Call Back Service"
+        },
+        {
+          "id": "221",
+          "name": "Eco-Friendly Pest Solutions"
+        },
+        {
+          "id": "210",
+          "name": "Every 21 Days"
+        },
+        {
+          "id": "220",
+          "name": "Flea & Tick Control"
+        },
+        {
+          "id": "222",
+          "name": "Follow Up Inspections"
+        },
+        {
+          "id": "212",
+          "name": "General Pest Control"
+        },
+        {
+          "id": "211",
+          "name": "Initial Service"
+        },
+        {
+          "id": "205",
+          "name": "Monthly Service"
+        },
+        {
+          "id": "215",
+          "name": "Mosquito Reduction Program"
+        },
+        {
+          "id": "223",
+          "name": "Preventative Monitoring & Maintenance"
+        },
+        {
+          "id": "213",
+          "name": "Quarterly Pest Control"
+        },
+        {
+          "id": "206",
+          "name": "Quarterly Service"
+        },
+        {
+          "id": "216",
+          "name": "Rodent Control & Exclusion"
+        },
+        {
+          "id": "214",
+          "name": "Termite Baiting & Monitoring"
+        },
+        {
+          "id": "219",
+          "name": "Wasp Nest Removal"
+        },
+        {
+          "id": "218",
+          "name": "Wildlife Trapping & Relocation"
+        }
+      ],
+      "label_candidates": {
+        "Quarterly": [
+          {
+            "id": "213",
+            "name": "Quarterly Pest Control"
+          },
+          {
+            "id": "206",
+            "name": "Quarterly Service"
+          }
+        ],
+        "Monthly": [
+          {
+            "id": "205",
+            "name": "Monthly Service"
+          }
+        ],
+        "Bed Bug": [
+          {
+            "id": "217",
+            "name": "Bed Bug Heat Treatment"
+          }
+        ],
+        "Initial Service": [
+          {
+            "id": "211",
+            "name": "Initial Service"
+          }
+        ],
+        "Emergency": [],
+        "Routine": [],
+        "Routine Service": []
+      }
+    },
+    "status": {
+      "har_target_field": "statuses",
+      "wire_value_type": "NOT_OBSERVED_NONEMPTY_IN_HAR",
+      "completed_status_id": null,
+      "note": "Do not guess Completed ID from job.status=1; fetch status mapping."
+    },
+    "customer_tag": {
+      "har_target_field": "customer_tags",
+      "wire_value_type": "NOT_OBSERVED_NONEMPTY_IN_HAR",
+      "selected_values": null,
+      "note": "No tag definitions or customer tag assignments were provided."
+    },
+    "customer": {
+      "har_target_field": "customer_names",
+      "wire_value_type": "NOT_OBSERVED_NONEMPTY_IN_HAR",
+      "available_customers": [
+        {
+          "id": "15520",
+          "name": "FL Routing Test 01",
+          "location_id": "15527",
+          "city": "Vero Beach"
+        },
+        {
+          "id": "15521",
+          "name": "FL Routing Test 02",
+          "location_id": "15528",
+          "city": "Melbourne"
+        },
+        {
+          "id": "15522",
+          "name": "FL Routing Test 03",
+          "location_id": "15529",
+          "city": "Kissimmee"
+        },
+        {
+          "id": "15523",
+          "name": "FL Routing Test 04",
+          "location_id": "15530",
+          "city": "Fort Pierce"
+        },
+        {
+          "id": "15524",
+          "name": "FL Routing Test 05",
+          "location_id": "15531",
+          "city": "Titusville"
+        },
+        {
+          "id": "15525",
+          "name": "FL Routing Test 06",
+          "location_id": "15532",
+          "city": "Lakeland"
+        },
+        {
+          "id": "15526",
+          "name": "FL Routing Test 07",
+          "location_id": "15533",
+          "city": "Clearwater"
+        },
+        {
+          "id": "15527",
+          "name": "FL Routing Test 08",
+          "location_id": "15534",
+          "city": "Tampa"
+        },
+        {
+          "id": "15528",
+          "name": "FL Routing Test 09",
+          "location_id": "15535",
+          "city": "Orlando"
+        },
+        {
+          "id": "15529",
+          "name": "FL Routing Test 10",
+          "location_id": "15536",
+          "city": "Cocoa"
+        },
+        {
+          "id": "15530",
+          "name": "FL Routing Test 11",
+          "location_id": "15537",
+          "city": "Port St. Lucie"
+        },
+        {
+          "id": "15531",
+          "name": "FL Routing Test 12",
+          "location_id": "15538",
+          "city": "West Palm Beach"
+        },
+        {
+          "id": "15532",
+          "name": "FL Routing Test 13",
+          "location_id": "15539",
+          "city": "Miami"
+        },
+        {
+          "id": "15533",
+          "name": "FL Routing Test 14",
+          "location_id": "15540",
+          "city": "Deerfield Beach"
+        },
+        {
+          "id": "15534",
+          "name": "FL Routing Test 15",
+          "location_id": "15541",
+          "city": "Fort Lauderdale"
+        },
+        {
+          "id": "15535",
+          "name": "FL Routing Test 16",
+          "location_id": "15542",
+          "city": "Hollywood"
+        },
+        {
+          "id": "15536",
+          "name": "FL Routing Test 17",
+          "location_id": "15543",
+          "city": "Boca Raton"
+        },
+        {
+          "id": "15537",
+          "name": "FL Routing Test 18",
+          "location_id": "15544",
+          "city": "Stuart"
+        },
+        {
+          "id": "15538",
+          "name": "FL Routing Test 19",
+          "location_id": "15545",
+          "city": "Sebastian"
+        },
+        {
+          "id": "15539",
+          "name": "FL Routing Test 20",
+          "location_id": "15546",
+          "city": "Jupiter"
+        }
+      ],
+      "note": "Observed field is customer_names, not customer_ids; resolve names/IDs via chatbot compilation."
+    }
+  },
+  "har_verified_contract": {
+    "conversation": "POST /api/routing/mantis/custom-rules/conversations",
+    "verify": "POST /api/routing/mantis/custom-rules/verify",
+    "save": "POST /api/routing/mantis/custom-rules",
+    "toggle": "PUT /api/routing/mantis/custom-rules/{rule_id}/status",
+    "status_on": 1,
+    "status_off": 0,
+    "only_observed_compiled_action": {
+      "action_type": "time_window",
+      "params": {
+        "start_sec": 28800,
+        "end_sec": 43200,
+        "strict": true
+      }
+    }
+  }
+}

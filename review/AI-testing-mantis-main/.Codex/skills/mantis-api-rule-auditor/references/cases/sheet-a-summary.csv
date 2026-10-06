@@ -1,0 +1,7 @@
+#,Module,Number of fields/actions,TC number,File source
+1,Workforce Boundaries,7 fields,134,workforce-boundaries-testcases2.xlsx
+2,Route Efficiency,8 fields,263,route-efficiency.xlsx
+3,Service Commitments,5 fields,60,service-commitments-v2.xlsx
+4,Custom Rules,11 actions,272,custom-rules-v2.xlsx
+5,Cross-Module,31 fields combined,44,mantis-rules-combined.xlsx (sheet Cross-Module)
+,TOTAL,31 fields/actions,773

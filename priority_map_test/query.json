@@ -1,0 +1,8 @@
+{
+  "agenda": "agendaTwoWeeks",
+  "color_id": "1",
+  "end": "2026-10-10T23:59:59.999Z",
+  "inc": "recurring",
+  "schedule_ids": "31",
+  "start": "2026-09-27T00:00:00.000Z"
+}

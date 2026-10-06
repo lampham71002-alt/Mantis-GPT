@@ -1,0 +1,1202 @@
+[
+  {
+    "name": "x00-control-all-off",
+    "config": {
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x01-sys-horizon-7-days",
+    "config": {
+      "system-rules": {
+        "optimization_horizon": {
+          "status": 1,
+          "value": "7_days"
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x02-sys-horizon-14-days",
+    "config": {
+      "system-rules": {
+        "optimization_horizon": {
+          "status": 1,
+          "value": "14_days"
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x03-sys-restrict-0-days",
+    "config": {
+      "system-rules": {
+        "job_movement_restriction_days": {
+          "status": 1,
+          "value": 0
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x04-sys-restrict-1-day",
+    "config": {
+      "system-rules": {
+        "job_movement_restriction_days": {
+          "status": 1,
+          "value": 1
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x05-sys-preserve-week",
+    "config": {
+      "system-rules": {
+        "preserve_original_period": {
+          "status": 1,
+          "value": "week"
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x06-sys-cross-tech-on",
+    "config": {
+      "system-rules": {
+        "allow_cross_technician_routing": 1
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x10-wb-service-0830-1800",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x11-wb-service-0900-1700",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 540,
+            "end": 1020
+          }
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x12-wb-service-impossible-0830-0900",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 540
+          }
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x13-wb-max-jobs-0",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 0
+        },
+        "preferred_jobs_per_day": {
+          "status": 0,
+          "value": 0
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x14-wb-max-jobs-1",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 1
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 1
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x15-wb-max-jobs-5",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 5
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 5
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x16-wb-max-jobs-15",
+    "config": {
+      "workforce-boundaries": {
+        "max_jobs_per_day": {
+          "status": 1,
+          "value": 15
+        },
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x17-wb-preferred-jobs-10",
+    "config": {
+      "workforce-boundaries": {
+        "preferred_jobs_per_day": {
+          "status": 1,
+          "value": 10
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x18-wb-shift-travel-30",
+    "config": {
+      "workforce-boundaries": {
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x19-wb-max-shift-end-1600",
+    "config": {
+      "workforce-boundaries": {
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 960
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x20-wb-max-shift-end-0700",
+    "config": {
+      "workforce-boundaries": {
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 420
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x21-wb-workload-balance",
+    "config": {
+      "workforce-boundaries": {
+        "workload_balance": 1
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x22-wb-service-plus-shift-travel",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "shift_travel_minutes": {
+          "status": 1,
+          "value": 30
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x30-re-min-travel-time-5",
+    "config": {
+      "route-efficiency": {
+        "minimize_travel_time_minutes": {
+          "status": 1,
+          "value": 5
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x31-re-min-distance-05",
+    "config": {
+      "route-efficiency": {
+        "minimize_travel_distance_miles": {
+          "status": 1,
+          "value": 0.5
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x32-re-max-travel-0mi",
+    "config": {
+      "route-efficiency": {
+        "max_travel_distance_miles": {
+          "status": 1,
+          "value": 0
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x33-re-max-travel-10mi",
+    "config": {
+      "route-efficiency": {
+        "max_travel_distance_miles": {
+          "status": 1,
+          "value": 10
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x34-re-max-travel-50mi",
+    "config": {
+      "route-efficiency": {
+        "max_travel_distance_miles": {
+          "status": 1,
+          "value": 50
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x35-re-max-shift-travel-0",
+    "config": {
+      "route-efficiency": {
+        "max_shift_travel_time_minutes": {
+          "status": 1,
+          "value": 0
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x36-re-max-shift-travel-120",
+    "config": {
+      "route-efficiency": {
+        "max_shift_travel_time_minutes": {
+          "status": 1,
+          "value": 120
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x37-re-preferred-tech-soft",
+    "config": {
+      "route-efficiency": {
+        "preferred_tech_matching": {
+          "status": 1,
+          "value": "soft"
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x38-re-preferred-tech-strict",
+    "config": {
+      "route-efficiency": {
+        "preferred_tech_matching": {
+          "status": 1,
+          "value": "strict"
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x39-re-tech-skill-matching",
+    "config": {
+      "route-efficiency": {
+        "tech_skill_matching": 1
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x50-sc-max-departure-0600",
+    "config": {
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 1,
+          "value": 360
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x51-sc-max-departure-1600",
+    "config": {
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 1,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x52-sc-max-departure-1800",
+    "config": {
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x53-sc-arrival-window-0",
+    "config": {
+      "service-commitment": {
+        "arrival_window_hours": {
+          "status": 1,
+          "value": 0
+        },
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x54-sc-arrival-window-2",
+    "config": {
+      "service-commitment": {
+        "arrival_window_hours": {
+          "status": 1,
+          "value": 2
+        },
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x55-sc-region-soft",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "soft"
+        },
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x56-sc-region-strict",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        },
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x57-sc-customer-preferences",
+    "config": {
+      "service-commitment": {
+        "customer_scheduling_preferences": 1,
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x58-sc-drive-buffer-0",
+    "config": {
+      "service-commitment": {
+        "drive_buffer": {
+          "status": 1,
+          "value": 0
+        },
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x59-sc-drive-buffer-10",
+    "config": {
+      "service-commitment": {
+        "drive_buffer": {
+          "status": 1,
+          "value": 10
+        },
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x60-sc-drive-buffer-30",
+    "config": {
+      "service-commitment": {
+        "drive_buffer": {
+          "status": 1,
+          "value": 30
+        },
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x61-sc-drive-buffer-plus-max-departure",
+    "config": {
+      "service-commitment": {
+        "drive_buffer": {
+          "status": 1,
+          "value": 30
+        },
+        "max_departure_time": {
+          "status": 1,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    }
+  },
+  {
+    "name": "x70-filter-jobs-per-day-1",
+    "config": {
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 1
+    }
+  },
+  {
+    "name": "x71-filter-jobs-per-day-5",
+    "config": {
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 5
+    }
+  },
+  {
+    "name": "x72-filter-jobs-per-day-15",
+    "config": {
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "jobs_per_day": 15
+    }
+  },
+  {
+    "name": "x73-filter-drive-buffer-0",
+    "config": {
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "drive_buffer": 0
+    }
+  },
+  {
+    "name": "x74-filter-drive-buffer-10",
+    "config": {
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "drive_buffer": 10
+    }
+  },
+  {
+    "name": "x75-filter-drive-buffer-30",
+    "config": {
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 0,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": [],
+      "drive_buffer": 30
+    }
+  }
+]

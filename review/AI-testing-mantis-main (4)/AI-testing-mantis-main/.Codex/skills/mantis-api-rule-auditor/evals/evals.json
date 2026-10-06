@@ -1,0 +1,511 @@
+{
+  "skill_name": "mantis-api-rule-auditor",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Given a two-column settings list with Optimization Window=14 days, Restrict Job Movement=±2 days, Max Jobs per Day=12, and Default Service Hours=ON, plus an autopilot/jobs SSE stream, normalize settings before judging placements.",
+      "expected_output": "A normalized settings table; PASS/FAIL is computed only from the API response.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "text-input",
+          "text": "Parses each two-column line into rule and configured value"
+        },
+        {
+          "id": "normalization",
+          "text": "Preserves ±2 days and units"
+        },
+        {
+          "id": "no-invention",
+          "text": "Marks unseen rows NOT SUPPLIED and does not invent verdicts"
+        },
+        {
+          "id": "no-default-hours",
+          "text": "Does not assume a clock range for Default Service Hours ON without start/end; uses API values or marks UNVERIFIABLE"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "prompt": "Given active rules with a day exclusion and 10-minute drive buffer, an autopilot stream that schedules a job on the excluded day and reports only a 5-minute buffer, judge it without changing settings.",
+      "expected_output": "FAIL for hard day exclusion or effective buffer mismatch; identify evidence and do not perform a settings update.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "hard-fail",
+          "text": "Fails the hard day-exclusion violation"
+        },
+        {
+          "id": "buffer",
+          "text": "Checks the configured drive-buffer value per drive leg"
+        },
+        {
+          "id": "read-only",
+          "text": "Does not propose or perform a rule update"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Given Today=13/08, Freeze=1 day, Horizon=7 days, Restrict=OFF, Max Jobs per Day=10, a job moved to 20/08, and one technician-day holding 11 jobs, analyze the autopilot/jobs response.",
+      "expected_output": "The gate is 14/08–19/08 with 13/08 frozen; the job moved to 20/08 lands outside the Optimization Window, which is not a FAIL by itself (Sheet C Routing Rules #16), and Restrict OFF sets no date-distance limit; 11 jobs on one tech-day is a hard Max Jobs FAIL per the sheets.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "window-math",
+          "text": "Computes 14/08–19/08"
+        },
+        {
+          "id": "overflow-not-fail",
+          "text": "Does not FAIL the 20/08 placement only because it is outside the Optimization Window"
+        },
+        {
+          "id": "max-jobs-hard",
+          "text": "Fails the 11th job because Max Jobs per day is Hard in Module references"
+        },
+        {
+          "id": "jira-not-override",
+          "text": "Does not use the Jira soft-spillover comment to excuse the breach"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Checklist has Default Service Hours 8:30 AM-6:00 PM and Arrival Window Duration Override 2 hours. A job starts at 1:00 PM and the stream shows its customer window as 12:30-1:30 PM.",
+      "expected_output": "FAIL: sheet expects the 2h override to display 12:00-2:00 PM for a 1:00 PM start. Placement impact of the override is reported as OPEN QUESTION.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "window-formula",
+          "text": "Computes start ± H/2 = 12:00-2:00 PM"
+        },
+        {
+          "id": "hard-class",
+          "text": "Treats Arrival Window Duration Override as Hard, not display-only"
+        },
+        {
+          "id": "open-placement",
+          "text": "Leaves whether the override constrains placement as OPEN QUESTION"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Checklist rules include Technician Skill Matching ON and Region Enforcement Strict.\nCustom rules:\nForce chris for Pool\nRule: Pool service jobs must always be assigned to chris.\nThe stream assigns a Pool job to chris, who lacks the Pool skill and is outside the region.",
+      "expected_output": "OBSERVED on an OPEN QUESTION: force_tech vs Skill Matching and force_tech vs Region Strict are POTENTIAL conflicts in the sheets; no PASS or FAIL for that job on those rules.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "custom-parse",
+          "text": "Interprets the rule text as scope = Pool service jobs and maps it to force_tech(chris), hard"
+        },
+        {
+          "id": "no-rank-guess",
+          "text": "Does not resolve the conflict from the priority rank alone"
+        },
+        {
+          "id": "observed-label",
+          "text": "Labels the empirical assignment OBSERVED and lists both sheet rows"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Checklist rules: Maximum Travel Distance 10 miles, Minimize Travel Distance 15 miles. No Custom rules block. The optimized route for one tech totals 9.6 miles.",
+      "expected_output": "PASS for the hard cap; the 15-mile soft target is unreachable by design and never fails; every CR expectation is NOT SUPPLIED.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "hard-cap",
+          "text": "Checks 9.6 ≤ 10 total per shift"
+        },
+        {
+          "id": "min-gt-max",
+          "text": "Explains Min > Max is an unreachable soft target, not a FAIL"
+        },
+        {
+          "id": "cr-not-supplied",
+          "text": "Marks custom rules NOT SUPPLIED instead of inferring them"
+        },
+        {
+          "id": "distance-meaning",
+          "text": "Notes the sheet contradiction total-per-shift vs radius as OPEN QUESTION when relevant"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "Custom rules:\n1. Hold VIP\nRule: VIP jobs must not be moved.\n2. Skip VIP\nRule: Do not route VIP jobs.\nThe stream keeps the VIP job locked in the route and reports no conflict.",
+      "expected_output": "FAIL: sheets accept either a rule-status conflict (Custom Rules #250) or exclude winning (Cross-Module Combos #658); a locked job with no conflict flag matches neither.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "map-primitives",
+          "text": "Maps rule 1 to lock and rule 2 to exclude for the same scope"
+        },
+        {
+          "id": "both-outcomes",
+          "text": "Cites both acceptable sheet outcomes"
+        },
+        {
+          "id": "fail-neither",
+          "text": "Fails only because neither outcome occurred"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "Checklist rules: Freeze Window 1 day, Optimization Window 7 days. Evidence: a Route Optimizer accept where job 12 was unchecked but moved, a Sandbox run after which one Live calendar job changed start time, and synopsis saved distance 4.0 mi while before and optimized routes are identical.",
+      "expected_output": "Flow section: FAIL for unchecked job moved on accept, FAIL for Sandbox mutating Live, SCHEMA FAIL for non-zero savings with unchanged placement; reported separately from rule placement.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "accept-selection",
+          "text": "Fails the unchecked job that moved on Accept New Routes"
+        },
+        {
+          "id": "sandbox-live",
+          "text": "Fails the Sandbox run that changed a Live calendar job"
+        },
+        {
+          "id": "savings-consistency",
+          "text": "Flags non-zero savings with unchanged placement as SCHEMA FAIL"
+        },
+        {
+          "id": "separate-section",
+          "text": "Reports flow results separately from rule placement verdicts"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "Kiểm tra giúp response này: curl -N 'https://api.example/api/routing/mantis/autopilot/jobs?schedules=2,3' -H 'token: abc123' -H 'Accept: text/event-stream' kèm output SSE.",
+      "expected_output": "No verdict. Vietnamese reply: one-sentence reason (no Checklist rules block), a short filled example, the full template verbatim in a text code block, and an instruction to paste checklist + curl + full response together. The reply also explains how to supply dynamic custom rules.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "no-verdict",
+          "text": "Does not parse the stream or give PASS/FAIL"
+        },
+        {
+          "id": "short-example",
+          "text": "Shows a short filled Checklist rules example"
+        },
+        {
+          "id": "full-template",
+          "text": "Includes the full template verbatim in one code block with English labels"
+        },
+        {
+          "id": "user-language",
+          "text": "Explains in the user's language (Vietnamese)"
+        },
+        {
+          "id": "no-token-echo",
+          "text": "Does not echo the token value abc123"
+        },
+        {
+          "id": "custom-rules-syntax",
+          "text": "Explains Custom rules are optional and dynamic (omit, write none, or paste each rule as written in Mantis or the custom-rules JSON) with a natural-language example"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "prompt": "Checklist rules:\nMax Jobz per Day    ten\nFoo Rule            ON\n\nCurl/API response:\n<stream>",
+      "expected_output": "SETTINGS INPUT ERROR listing both rejected lines with reasons (unknown label / malformed value), then the missing-checklist reply with example and full template; no route verdict.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "rejected-lines",
+          "text": "Quotes each rejected line with its reason"
+        },
+        {
+          "id": "template-again",
+          "text": "Sends the short example and full template"
+        },
+        {
+          "id": "no-verdict",
+          "text": "Does not judge the stream"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "prompt": "Checklist rules:\nMax Jobs per Day    10\n\nCustom rules:\n1. Prefer own tech\nRule: Prefer the customer's preferred technician when available.\n2. <title>\nRule: <rule text>\n3. Morning only\nStatus: inactive\nRule: Jobs must start between 08:00 and 12:00.\n\nCurl/API response:\n<stream>",
+      "expected_output": "Rule 1 interpreted as prefer_tech (soft). Rule 2 SETTINGS INPUT ERROR (placeholder) for that rule only. Rule 3 interpreted as strict time_window 08:00-12:00 but inactive, so listed and not applied. Audit continues.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "soft-map",
+          "text": "Maps rule 1 to prefer_tech with Soft class"
+        },
+        {
+          "id": "placeholder-error",
+          "text": "Rejects rule 2 only, quoting the placeholder"
+        },
+        {
+          "id": "inactive",
+          "text": "Interprets rule 3 but never applies it"
+        },
+        {
+          "id": "interpreted-table",
+          "text": "Shows an Interpreted custom rules table before verdicts"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "prompt": "Checklist rules:\nFreeze Window 1 day\nOptimization Window 7 days\n\nCustom rules:\nAll jobs at the same customer location will be scheduled together on the first date selected within the routing period.\nRule: Schedule all jobs for the same customer location on the same day within the selected period, keeping jobs together without forcing a specific technician.\n\nToday is 13/08. Stream: three jobs with the same location id are placed on 14/08 (tech A), 14/08 (tech B), and 16/08 (tech A).",
+      "expected_output": "Interpreted table with scope + A1-A5. A1 FAIL (group spans 14/08 and 16/08) unless a system hard rule forced it. Different technicians are not a failure. 'First date' (R1/R2) and 'together' (T1/T2) readings reported; unresolved readings as OPEN QUESTION.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "scope",
+          "text": "Groups jobs by customer location and names the fields used"
+        },
+        {
+          "id": "same-day-fail",
+          "text": "Fails the same-day assertion for the job on 16/08"
+        },
+        {
+          "id": "no-tech-fail",
+          "text": "Does not fail because two technicians were used"
+        },
+        {
+          "id": "ambiguity",
+          "text": "Lists both readings of 'first date' and 'together'"
+        },
+        {
+          "id": "gate",
+          "text": "Uses the 14/08-19/08 gate with 13/08 frozen"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "prompt": "Checklist rules:\nMax Jobs per Day 12\nCustom rules: none\n\nApplied Rules response for job_event_id 11 lists one item in rules.custom.",
+      "expected_output": "Custom rules explicitly empty; the rules.custom item is reported as an attribution mismatch, not ignored and not treated as NOT SUPPLIED.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "explicit-none",
+          "text": "Distinguishes 'none' from an omitted Custom rules block"
+        },
+        {
+          "id": "mismatch",
+          "text": "Reports the unexpected rules.custom item as a mismatch"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "prompt": "use .Codex/skills/mantis-api-rule-auditor/SKILL.md\n\nChecklist rules:\nFreeze Window          Until end of work day\nKeep Original Period   Week\nMax Jobs per Day       12\n\nCurl list:\nS1: <autopilot/jobs curl with pasted response where event 206433730 moves from Saturday 2026-09-26 to Sunday 2026-09-27; customer name 'Andrew Mayne' appears in the stream>\n\nExisting files: test/bug1.md … test/bug5.md (bug4.md is empty).",
+      "expected_output": "Chat report, then a new file test/bug6.md in the bug-report-format: checklist table with Keep Original Period FAIL, validation list, 'Bug 1 — Keep Original Period = Week is not respected' with IDs and before/after, run summary; no customer name, token, or raw stream in the file.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "next-number",
+          "text": "Writes test/bug6.md and does not overwrite the empty bug4.md"
+        },
+        {
+          "id": "freeze-value",
+          "text": "Accepts 'Until end of work day' as today frozen, first optimizable date tomorrow"
+        },
+        {
+          "id": "sunday-week",
+          "text": "Explains the failure with Sunday–Saturday weeks (20/09–26/09 → 27/09–03/10), not ISO week numbers"
+        },
+        {
+          "id": "format",
+          "text": "Follows the table, validation list, Bug sections, and Run summary format"
+        },
+        {
+          "id": "no-pii",
+          "text": "The file contains IDs and dates only, not 'Andrew Mayne', tokens, or raw stream"
+        },
+        {
+          "id": "path-in-chat",
+          "text": "Ends the chat reply with the bug file path"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "prompt": "Checklist rules:\nMax Jobs per Day 12\n\nCurl list:\nS1: curl -N 'https://api.example/api/routing/mantis/autopilot/jobs?schedules=17486' -H 'token: secret-xyz' -H 'Accept: text/event-stream'\nS2: curl -X PUT 'https://api.example/api/routing/mantis/settings' -H 'token: secret-xyz' -d '{\"max_jobs_per_day\":20}'",
+      "expected_output": "Runs S1 (GET) and saves raw output under captures/; does not run S2 (PUT settings) and lists it as skipped; never prints secret-xyz.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "run-get",
+          "text": "Runs only the GET stream curl and saves it under captures/"
+        },
+        {
+          "id": "skip-put",
+          "text": "Refuses to run the PUT settings curl and reports it as skipped"
+        },
+        {
+          "id": "no-token",
+          "text": "Never echoes the token value"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "prompt": "Checklist rules:\nMax Jobs per Day 12\n\nCustom rules:\nHold route-around\nRule: Jobs for customer 5621133 must not be moved.\n\nCurl list:\nS1: <jobs stream whose completed event has summary.custom_rule_signal_counts all 0, and job 206597746 (customer_id 5621133, inside the gate) has constraints_applied.locked=false and moves from 07:16 to 08:14>",
+      "expected_output": "Rule interpreted as lock for customer 5621133. Signals all zero and the in-scope job moved → FAIL (custom rule not applied), written to the bug file with IDs only.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "map-lock",
+          "text": "Maps the rule to lock with scope customer_id 5621133"
+        },
+        {
+          "id": "signal-zero",
+          "text": "Reads custom_rule_signal_counts.locked=0 and constraints_applied.locked=false"
+        },
+        {
+          "id": "fail-not-applied",
+          "text": "Reports FAIL because the in-scope job moved and no lock signal exists"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "prompt": "Checklist rules:\nMax Jobs per Day 12\nDay Exclusions Tech A: Mon\n\nCustom rules: none\n\nCurl list:\nS1: <jobs stream whose feature_test_log.planning_resolved.jobs_per_day=15, features.day_exclusions.active=false, and all custom_rule_signal_counts are 0>",
+      "expected_output": "UNVERIFIABLE (setup: REVIEW_SETUP_MISMATCH): Max Jobs requested 12 vs resolved 15; Day Exclusions requested ON vs active=false. No saved readback or config timing was supplied, so neither mismatch proves a product bug. Keep requested/resolved values separate, request same-account readback, and show only conditional placement findings. Zero custom signals are consistent with none but do not prove missing per-job fields are empty.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "max-jobs-mismatch",
+          "text": "Reports Max Jobs config mismatch 12 vs 15"
+        },
+        {
+          "id": "day-excl-mismatch",
+          "text": "Reports Day Exclusions checklist ON vs features.day_exclusions.active=false"
+        },
+        {
+          "id": "resolved-value",
+          "text": "Separates requested and resolved values; no product FAIL without proven saved settings and matching run context"
+        },
+        {
+          "id": "none-confirmed",
+          "text": "Reports zero custom signals as consistent with none without treating absent per-job attribution as verified empty"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "prompt": "Checklist rules:\nKeep Original Period   Week\nRestrict Job Movement  ±2 days\n\nCurl list:\nS1: <jobs stream where event 206433730 moves from Sunday 2026-09-27 to Monday 2026-09-28 and job 206588686 moves from Monday 2026-09-21 to Sunday 2026-09-20; no Keep Week OFF phase is supplied>\n\nExisting files: test/bug1.md … test/bug5.md.",
+      "expected_output": "Both moves stay inside one Sunday–Saturday week (27/09–03/10 and 20/09–26/09): PASS with evidence_strength HARD_ONLY because no OFF witness exists; no ISO week numbers; no new bug file; the earlier Keep Week reports in bug1/bug2/bug5 are flagged for re-verification instead of cited as previously reported.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "sunday-week",
+          "text": "Uses Sunday–Saturday weeks and passes both moves"
+        },
+        {
+          "id": "hard-only",
+          "text": "Labels the PASS HARD_ONLY, not SENSITIVITY_STRONG"
+        },
+        {
+          "id": "no-bug-file",
+          "text": "Creates no test/bug file"
+        },
+        {
+          "id": "prior-reports",
+          "text": "Does not cite bug1/bug2/bug5 Keep Week as previously reported; says they need re-verification"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "prompt": "Checklist rules:\nFreeze Window                     1 day\nOptimization Window               7 days\nRestrict Job Movement             ±3 days\nRoute Across All Tech Schedules   OFF\n\nToday is Fri 11/09/2026. Evidence: Phase A with Restrict ±7 where job 501 moves 8 days; exact baseline restored; Phase B (the checklist above) where job 501 moves 2 days. In Phase B job 502 moves 17/09 → 19/09; job 503 changes schedule 17486 → 86 and nothing maps schedules to technicians; job 504 changes schedule 9171 → 15012 and both schedules map to technician user 44.",
+      "expected_output": "Horizon 11/09–17/09 with 11/09 frozen, open range 12/09–17/09. Job 501: FAIL for Phase A (8 > 7) even though Phase B passes. Job 502: lands after the window but within ±3, so not FAIL for overflow. Job 503: UNVERIFIABLE (need schedule → technician mapping). Job 504: PASS, same technician.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "phase-no-mask",
+          "text": "Keeps the Phase A Restrict violation as FAIL despite the clean Phase B"
+        },
+        {
+          "id": "overflow",
+          "text": "Does not FAIL job 502 for landing after 17/09"
+        },
+        {
+          "id": "missing-mapping",
+          "text": "Marks job 503 UNVERIFIABLE instead of inferring a technician change from schedule IDs"
+        },
+        {
+          "id": "same-tech",
+          "text": "Passes job 504 because the technician is unchanged with Cross-Tech OFF"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "prompt": "Checklist rules:\nMax Jobs per Day          12\nMaximum Travel Distance   7 miles\n\nCustom rules: none\n\nCurl list:\nS1: <jobs stream whose summary.by_status.optimized is 126 while 125 jobs have routing_status optimized; summary.workload_by_schedule differs from a per-schedule recount by one job; 21 frozen jobs have constraints_applied.locked=true with lock_reason freeze_window while custom_rule_signal_counts.locked=0; schedule 215 on 2026-09-18 has two stops: an unchanged job with after.distance_m 14909 and to_next_distance_m 4182, then an optimized job with after.distance_m 4182>",
+      "expected_output": "Saves the capture and runs scripts/summarize-jobs-stream.py first. SCHEMA FAIL for summary.by_status vs routing_status counts. No SCHEMA FAIL for workload_by_schedule or for freeze_window locks, and Custom rules: none still holds. Schedule 215 on 18/09 totals 19,091 m ≈ 11.86 mi from inbound legs only (adding to_next would wrongly give 14.46 mi): Max Travel Distance FAIL for the optimized stop added to a route whose unchanged first stop already exceeds 7 mi, with that pre-existing part OBSERVED.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "run-extractor",
+          "text": "Runs scripts/summarize-jobs-stream.py on the saved capture before judging"
+        },
+        {
+          "id": "schema-by-status",
+          "text": "Raises SCHEMA FAIL for the by_status mismatch"
+        },
+        {
+          "id": "no-false-schema",
+          "text": "Does not raise SCHEMA FAIL for workload_by_schedule or for freeze_window locks"
+        },
+        {
+          "id": "inbound-only",
+          "text": "Computes 11.86 mi from inbound legs and does not add to_next legs"
+        },
+        {
+          "id": "attribution",
+          "text": "Separates the pre-existing unchanged-stop excess (OBSERVED) from the FAIL for the optimized stop"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "prompt": "Offline audit, no external access. Checklist rules:\nRestrict Job Movement ±2 days\nKeep Original Period Week\nCustom rules:\nForce Sunday\nRule: Always schedule job 501 on Sunday 2026-09-20.\nSame-account saved GET confirms both system values before this Sandbox run. Event 601/job 501 BEFORE=2026-09-19T09:00:00+00:00, AFTER=2026-09-20T09:00:00+00:00; same tech. API says keep_period matched=true and custom rule applied. Judge from embedded rules.",
+      "expected_output": "Keep Week FAIL: original Sun-Sat period 13/09–19/09 vs AFTER period 20/09–26/09, despite matched=true and the custom rule. Restrict delta=1 <=2 passes HARD_ONLY. Custom rule cannot loosen Keep Week; unresolved conflict presentation is separate. No Drive access is required.",
+      "files": [],
+      "assertions": [
+        {"id": "raw-over-signal", "text": "Recomputes the actual week and identifies the false matched signal"},
+        {"id": "system-not-loosened", "text": "Does not downgrade the confirmed system violation to OPEN QUESTION because of the custom conflict"}
+      ]
+    },
+    {
+      "id": 21,
+      "prompt": "Checklist rules:\nMax Jobs per Day 10\nSame-account saved readback and run config both confirm 10. Full Sandbox response: schedule 1 and schedule 2 map to user_id 90. On 2026-09-21 each schedule has 7 distinct optimized event IDs, 14 total; no duplicates. The summaries say max_jobs matched=true for each schedule.",
+      "expected_output": "FAIL: 14 distinct events for technician 90 on the same day exceeds cap 10. Combine both schedules; report all 14 checked and do not trust the per-schedule matched flags.",
+      "files": [],
+      "assertions": [{"id": "tech-cap", "text": "Finds the violation that per-schedule counting misses"}]
+    },
+    {
+      "id": 22,
+      "prompt": "Checklist rules:\nFreeze Window 2 days\nOptimization Window 7 days\nRestrict Job Movement ±2 days\nKeep Original Period Week\nConfirmed manual Route Optimizer preview, requested date 2026-09-18, today=2026-09-18. Saved readback agrees. Event 601 moves 09:00 to 10:00 on 2026-09-18, same technician. No other data is supplied.",
+      "expected_output": "Manual selected dates do not apply Auto-Pilot Freeze/Window; do not report a Freeze failure. Restrict delta=0 and same Sun-Sat week satisfy these two placement constraints with HARD_ONLY. No overall PASS for evidence not supplied.",
+      "files": [],
+      "assertions": [{"id": "mode-first", "text": "Selects manual semantics before judging Freeze/Window"}]
+    },
+    {
+      "id": 23,
+      "prompt": "Checklist rules:\nMax Jobs per Day 10\nSame-account GET at 09:00 confirms saved cap 10. Sandbox run started 09:01 with no toolbar override, no intervening config changes and the matching optimization ID. That run resolves jobs_per_day=15 and puts 12 distinct events on a fully mapped technician/day.",
+      "expected_output": "FAIL (config application): confirmed saved cap 10 was ignored. The same trusted placements also exceed intended cap 10. Explain shared evidence, avoid replacing the expected cap with 15, and distinguish this from requested/readback setup mismatch.",
+      "files": [],
+      "assertions": [{"id": "proven-config-defect", "text": "Does not hide a proven config application defect as setup error"}]
+    },
+    {
+      "id": 24,
+      "prompt": "Checklist rules:\nRestrict Job Movement ±2 days\nTechnician Skill Matching ON\nSame-run config confirms these values. Event 601 has trusted BEFORE=2026-09-19 and AFTER=2026-09-23. summary.by_status contradicts the raw status count. Assigned tech skill IDs and service requirements are missing. API says all_rules_passed=true.",
+      "expected_output": "Restrict FAIL from delta=4 >2 remains independently proven. SCHEMA FAIL for status summary contradiction; Skill Matching UNVERIFIABLE with exact missing skill/requirement fields. No overall PASS and no blanket rejection of all usable evidence.",
+      "files": [],
+      "assertions": [{"id": "scoped-evidence", "text": "Separates raw placement violation, summary corruption, and missing skill evidence"}]
+    }
+  ]
+}

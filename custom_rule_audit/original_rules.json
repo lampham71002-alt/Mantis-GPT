@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "1097",
+    "title": "Call Back Service Last Stop",
+    "description": "All Call Back Service jobs must be scheduled as the final stop on a technician's route.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T12:23:38+00:00",
+    "updated_date": "2026-10-02T12:23:38+00:00"
+  },
+  {
+    "id": "1055",
+    "title": "Call Back Service Mandatory Assignment",
+    "description": "All Call Back Service jobs must be forcibly assigned to technician Lam 1 as a mandatory requirement.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T08:01:12+00:00",
+    "updated_date": "2026-10-02T08:01:12+00:00"
+  },
+  {
+    "id": "961",
+    "title": "Call Back Service Mandatory Assignment and Lock",
+    "description": "All Call Back Service jobs must be strictly assigned to technician custom (Lam 1) and locked in place to prevent auto-pilot from making automated schedule changes.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T09:46:44+00:00",
+    "updated_date": "2026-09-29T09:46:44+00:00"
+  },
+  {
+    "id": "956",
+    "title": "Call Back Service Mandatory Assignment and Time Window",
+    "description": "All Call Back Service jobs must be forcibly assigned to technician Lam 1 (custom) and scheduled within a mandatory time window between 8:00 AM and 6:00 PM.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T09:32:30+00:00",
+    "updated_date": "2026-09-29T09:32:30+00:00"
+  },
+  {
+    "id": "867",
+    "title": "Call Back Service Mandatory Time Window",
+    "description": "All Call Back Service jobs must be scheduled between 8:00 AM and 2:00 PM as a mandatory time window requirement.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T03:52:19+00:00",
+    "updated_date": "2026-09-28T03:52:19+00:00"
+  },
+  {
+    "id": "966",
+    "title": "Call Back Service Monthly & Morning Window Policy",
+    "description": "All Call Back Service jobs must be scheduled within their original month and restricted strictly to a morning time window between 9:00 AM and 12:00 PM.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T09:54:04+00:00",
+    "updated_date": "2026-09-29T09:54:04+00:00"
+  },
+  {
+    "id": "1098",
+    "title": "Call Back Service Movement Limit",
+    "description": "Call Back Service jobs cannot be moved or rescheduled more than 2 days from their originally scheduled service date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T12:24:21+00:00",
+    "updated_date": "2026-10-02T12:24:21+00:00"
+  },
+  {
+    "id": "1052",
+    "title": "Call Back Service Movement Limit",
+    "description": "Call Back Service jobs cannot be rescheduled or moved by more than 6 days from their original scheduled date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T07:52:34+00:00",
+    "updated_date": "2026-10-02T07:52:34+00:00"
+  },
+  {
+    "id": "1051",
+    "title": "Call Back Service Movement Limit",
+    "description": "All Call Back Service jobs are restricted to a maximum movement limit of 5 days from their original date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T07:51:48+00:00",
+    "updated_date": "2026-10-02T07:51:48+00:00"
+  },
+  {
+    "id": "898",
+    "title": "Call Back Service Priority & Assignment Rule",
+    "description": "All Call Back Service jobs must be forcibly assigned to technician custom (Lam 1), remain scheduled within their original week, and be positioned as the first stop of the day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T12:15:18+00:00",
+    "updated_date": "2026-09-28T12:15:18+00:00"
+  },
+  {
+    "id": "1099",
+    "title": "Call Back Service Priority & Movement Constraint",
+    "description": "Call Back Service jobs must be scheduled as the first stop of the day and cannot be moved more than 5 days from their original date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T12:41:57+00:00",
+    "updated_date": "2026-10-02T12:41:57+00:00"
+  },
+  {
+    "id": "1095",
+    "title": "Call Back Service Priority & Same-Day Lock",
+    "description": "All Call Back Service stops must remain scheduled on their original service day and be assigned as the technician's first stop.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T11:34:04+00:00",
+    "updated_date": "2026-10-02T11:34:04+00:00"
+  },
+  {
+    "id": "1100",
+    "title": "Call Back Service Route & Weekly Anchor",
+    "description": "All Call Back Service jobs must be scheduled within the same week and positioned as the last stop on the technician's route.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T13:09:49+00:00",
+    "updated_date": "2026-10-02T13:09:49+00:00"
+  },
+  {
+    "id": "1005",
+    "title": "Call Back Service Routing Exclude",
+    "description": "All Call Back Service jobs must be excluded from automated routing and remain unchanged.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-30T04:59:08+00:00",
+    "updated_date": "2026-09-30T04:59:08+00:00"
+  },
+  {
+    "id": "998",
+    "title": "Call Back Service Routing Policy",
+    "description": "All Call Back Service jobs must be retained within their original week, scheduled as the last stop of the day, and assigned with a preference for technician custom.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-30T03:52:53+00:00",
+    "updated_date": "2026-09-30T03:52:53+00:00"
+  },
+  {
+    "id": "557",
+    "title": "Call Back Service Routing Protection",
+    "description": "All Call Back Service jobs must be excluded from automatic routing and kept in their existing schedule positions.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-21T08:49:45+00:00",
+    "updated_date": "2026-09-21T08:49:45+00:00"
+  },
+  {
+    "id": "863",
+    "title": "Call Back Service Same-Day Lock",
+    "description": "All Call Back Service stops must remain scheduled within their original day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T03:33:59+00:00",
+    "updated_date": "2026-09-28T03:33:59+00:00"
+  },
+  {
+    "id": "1000",
+    "title": "Call Back Service Schedule Lock & Assignment",
+    "description": "All Call Back Service jobs must remain scheduled within their original week, be locked against automated routing adjustments, and prefer assignment to technician Lam 1.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-30T04:07:16+00:00",
+    "updated_date": "2026-09-30T04:07:16+00:00"
+  },
+  {
+    "id": "897",
+    "title": "Call Back Service Scheduling & Assignment Policy",
+    "description": "All Call Back Service stops must remain within their original scheduled week, be assigned exclusively to technician Custom (Lam 1), and be scheduled as the first stop of the day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T12:12:48+00:00",
+    "updated_date": "2026-09-28T12:12:48+00:00"
+  },
+  {
+    "id": "996",
+    "title": "Call Back Service Scheduling & Assignment Rule",
+    "description": "All Call Back Service stops must remain within their original scheduled week, be strictly assigned to Technician: Lam 1 - nickname: custom, and be restricted to moving no more than 1 day from their original service date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-30T03:43:08+00:00",
+    "updated_date": "2026-09-30T03:43:08+00:00"
+  },
+  {
+    "id": "1001",
+    "title": "Call Back Service Scheduling & Movement Limits",
+    "description": "Call Back Service jobs must remain within their original scheduled week, be limited to a maximum movement of 1 day from their original date, and be scheduled strictly within the 8:00 AM to 12:00 PM time window.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-30T04:10:48+00:00",
+    "updated_date": "2026-09-30T04:10:48+00:00"
+  },
+  {
+    "id": "1002",
+    "title": "Call Back Service Scheduling & Priority Rules",
+    "description": "All Call Back Service stops must remain within their original week, cannot be moved by more than 1 day from their original service date, and must be scheduled as the first stop of the technician's day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-30T04:17:06+00:00",
+    "updated_date": "2026-09-30T04:17:06+00:00"
+  },
+  {
+    "id": "555",
+    "title": "Call Back Service Scheduling & Technician Lock",
+    "description": "All Call Back Service jobs must be assigned to technician Lam and scheduled strictly within the 8:00 AM to 12:00 PM time window.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-21T08:46:02+00:00",
+    "updated_date": "2026-09-21T08:46:02+00:00"
+  },
+  {
+    "id": "978",
+    "title": "Call Back Service Scheduling Constraints",
+    "description": "All Call Back Service stops must remain within their original scheduled week, be limited to a maximum movement of 2 days, and be placed as the last stop on the technician's route.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T10:51:25+00:00",
+    "updated_date": "2026-09-29T10:51:25+00:00"
+  },
+  {
+    "id": "1096",
+    "title": "Call Back Service Scheduling Limits",
+    "description": "All Call Back Service jobs must be scheduled as the first stop of the technician's day and cannot be moved or rescheduled more than 2 days from their original date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T11:35:56+00:00",
+    "updated_date": "2026-10-02T11:35:56+00:00"
+  },
+  {
+    "id": "864",
+    "title": "Call Back Service Technician Assignment",
+    "description": "All Call Back Service jobs must be assigned to technician Lam 1 (custom) as a required assignment.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T03:37:21+00:00",
+    "updated_date": "2026-09-28T03:37:21+00:00"
+  },
+  {
+    "id": "695",
+    "title": "Call Back Service Technician Assignment",
+    "description": "All Call Back Service jobs must be forcibly assigned to technician Lam 1.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-22T10:36:38+00:00",
+    "updated_date": "2026-09-22T10:36:38+00:00"
+  },
+  {
+    "id": "865",
+    "title": "Call Back Service Technician Lock",
+    "description": "All Call Back Service jobs must be assigned to Technician Lam 1 - nickname: custom.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T03:47:31+00:00",
+    "updated_date": "2026-09-28T03:47:31+00:00"
+  },
+  {
+    "id": "1106",
+    "title": "Call Back Service Time Window",
+    "description": "All Call Back Service jobs must strictly be scheduled within the mandatory time window of 8:00 AM to 2:00 PM.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-03T02:49:39+00:00",
+    "updated_date": "2026-10-03T02:49:39+00:00"
+  },
+  {
+    "id": "801",
+    "title": "Call Back Service Time Window",
+    "description": "All Call Back Service jobs must be scheduled within a mandatory time window of 8:00 AM to 12:00 PM.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-25T04:09:58+00:00",
+    "updated_date": "2026-09-25T04:09:58+00:00"
+  },
+  {
+    "id": "779",
+    "title": "Call Back Service Time Window",
+    "description": "All Call Back Service jobs must be scheduled within a mandatory time window of 8:00 AM to 3:00 PM.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-24T06:35:20+00:00",
+    "updated_date": "2026-09-24T06:35:20+00:00"
+  },
+  {
+    "id": "963",
+    "title": "Call Back Service Weekly & 2-Day Movement Limit",
+    "description": "All Call Back Service stops must remain scheduled within their original week and cannot be moved more than 2 days from their initial date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T09:51:34+00:00",
+    "updated_date": "2026-09-29T09:51:34+00:00"
+  },
+  {
+    "id": "970",
+    "title": "Call Back Service Weekly & Movement Constraints",
+    "description": "All Call Back Service stops must remain within their originally scheduled week and cannot be moved more than 2 days from their original date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T10:21:17+00:00",
+    "updated_date": "2026-09-29T10:21:17+00:00"
+  },
+  {
+    "id": "983",
+    "title": "Call Back Service Weekly Lock & Last Stop",
+    "description": "All Call Back Service stops must remain scheduled within the same week and be positioned as the last stop of the day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T10:56:49+00:00",
+    "updated_date": "2026-09-29T10:56:49+00:00"
+  },
+  {
+    "id": "911",
+    "title": "Call Back Service Weekly Lock & Technician Assignment",
+    "description": "All Call Back Service jobs must be scheduled within the same calendar week and strictly assigned to technician Lam 1.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T03:16:31+00:00",
+    "updated_date": "2026-09-29T03:16:31+00:00"
+  },
+  {
+    "id": "952",
+    "title": "Call Back Service Weekly Lock and Tech Assignment",
+    "description": "All Call Back Service jobs must be assigned to technician custom (Technician: Lam 1 - nickname: custom) and scheduled within the same week.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T09:24:49+00:00",
+    "updated_date": "2026-09-29T09:24:49+00:00"
+  },
+  {
+    "id": "881",
+    "title": "Company-Wide Mandatory Early Morning Arrival Window",
+    "description": "All jobs and stops must be scheduled for arrival between 12:00 AM and 8:00 AM as a mandatory requirement.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T07:56:40+00:00",
+    "updated_date": "2026-09-28T07:56:40+00:00"
+  },
+  {
+    "id": "880",
+    "title": "Confirmed Job Drive Time Buffer",
+    "description": "All jobs with a 'Confirmed' status must include a 120-minute drive buffer.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T07:50:01+00:00",
+    "updated_date": "2026-09-28T07:50:01+00:00"
+  },
+  {
+    "id": "1010",
+    "title": "Confirmed Job Lock Policy",
+    "description": "All jobs with a status of Confirmed must be locked in place on their assigned technician and route, preventing automated reassignment or reschedule.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-30T08:59:09+00:00",
+    "updated_date": "2026-09-30T08:59:09+00:00"
+  },
+  {
+    "id": "1006",
+    "title": "Confirmed Job Lock and Friday Reschedule Exclusion",
+    "description": "Jobs with the status \"Confirmed\" must remain locked in place, and jobs with the status \"Reschedule\" are excluded from routing on Fridays.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-30T07:09:23+00:00",
+    "updated_date": "2026-09-30T07:09:23+00:00"
+  },
+  {
+    "id": "955",
+    "title": "Confirmed Jobs Custom Tech & Movement Restriction",
+    "description": "All Confirmed jobs must be strictly assigned to technician Lam 1 (custom) and restricted to a maximum service date shift of 1 day from their original schedule.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T09:30:48+00:00",
+    "updated_date": "2026-09-29T09:30:48+00:00"
+  },
+  {
+    "id": "879",
+    "title": "Confirmed Jobs Drive Buffer",
+    "description": "All jobs with a status of Confirmed must include a 120-minute drive buffer.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T07:37:53+00:00",
+    "updated_date": "2026-09-28T07:37:53+00:00"
+  },
+  {
+    "id": "957",
+    "title": "Confirmed Jobs Mandatory Tech and Schedule Lock",
+    "description": "All Confirmed status jobs must be forcibly assigned to technician custom (Lam 1) and restricted from moving more than 2 days from their scheduled date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T09:35:34+00:00",
+    "updated_date": "2026-09-29T09:35:34+00:00"
+  },
+  {
+    "id": "871",
+    "title": "Confirmed Jobs Routing Exclusion",
+    "description": "All jobs with a status of Confirmed must be excluded from automated routing.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T04:00:31+00:00",
+    "updated_date": "2026-09-28T04:00:31+00:00"
+  },
+  {
+    "id": "997",
+    "title": "Confirmed Status Routing Rules",
+    "description": "All Confirmed status jobs must be assigned to technician custom (Lam 1), remain scheduled within their original week, and be placed as the first stop of the day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-30T03:45:11+00:00",
+    "updated_date": "2026-09-30T03:45:11+00:00"
+  },
+  {
+    "id": "928",
+    "title": "Confirmed Test Job Last Stop Policy",
+    "description": "All jobs with the status \"Confirmed - test\" must be scheduled as the last stop of the technician's day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T06:48:50+00:00",
+    "updated_date": "2026-09-29T06:48:50+00:00"
+  },
+  {
+    "id": "1081",
+    "title": "Customer Exclusions - Tuesday Routing",
+    "description": "Customers enzo and Clark Kent must be excluded from automated routing on Tuesdays.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T10:00:24+00:00",
+    "updated_date": "2026-10-02T10:00:24+00:00"
+  },
+  {
+    "id": "1083",
+    "title": "Customer Exclusions for Oct 6",
+    "description": "Jobs scheduled for customers enzo and Clark Kent on October 6, 2026, must be excluded from automated routing.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T10:08:16+00:00",
+    "updated_date": "2026-10-02T10:08:16+00:00"
+  },
+  {
+    "id": "1024",
+    "title": "Customer Messi Last Stop Routing",
+    "description": "Service stops for customer messi must always be scheduled as the last stop of the technician's route.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-01T07:20:05+00:00",
+    "updated_date": "2026-10-01T07:20:05+00:00"
+  },
+  {
+    "id": "1084",
+    "title": "Customer Route Exclusion",
+    "description": "Jobs for customers enzo and Clark Kent scheduled on October 6, 2026, must be excluded from automated routing moves.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T10:09:45+00:00",
+    "updated_date": "2026-10-02T10:09:45+00:00"
+  },
+  {
+    "id": "1074",
+    "title": "Enzo Same-Day & 12PM-3PM Window Lock",
+    "description": "For customer Enzo, all scheduled jobs must remain within their originally assigned day and adhere to a strict arrival time window between 12:00 PM and 3:00 PM.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T09:12:16+00:00",
+    "updated_date": "2026-10-02T09:12:16+00:00"
+  },
+  {
+    "id": "1072",
+    "title": "Every 21 Days Day Retention",
+    "description": "All Every 21 Days service jobs must be scheduled within their original day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T09:08:06+00:00",
+    "updated_date": "2026-10-02T09:08:06+00:00"
+  },
+  {
+    "id": "1089",
+    "title": "Every 21 Days First Stop Priority",
+    "description": "All appointments with the service type Every 21 Days must be scheduled as the first stop of the technician's route.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T10:22:45+00:00",
+    "updated_date": "2026-10-02T10:22:45+00:00"
+  },
+  {
+    "id": "868",
+    "title": "Every 21 Days First Stop Priority",
+    "description": "All jobs with the service type 'Every 21 Days' must be scheduled as the first stop of the day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T03:54:13+00:00",
+    "updated_date": "2026-09-28T03:54:13+00:00"
+  },
+  {
+    "id": "1049",
+    "title": "Every 21 Days Last Stop Constraint",
+    "description": "All jobs with the 'Every 21 Days' service type must be scheduled as the final stop of the day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T07:47:30+00:00",
+    "updated_date": "2026-10-02T07:47:30+00:00"
+  },
+  {
+    "id": "869",
+    "title": "Every 21 Days Last Stop Constraint",
+    "description": "All 'Every 21 Days' service jobs must be scheduled as the last stop of the day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T03:55:20+00:00",
+    "updated_date": "2026-09-28T03:55:20+00:00"
+  },
+  {
+    "id": "1085",
+    "title": "Every 21 Days Last Stop Priority",
+    "description": "Jobs with the Every 21 Days service type must be scheduled as the last stop of the day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T10:18:51+00:00",
+    "updated_date": "2026-10-02T10:18:51+00:00"
+  },
+  {
+    "id": "1087",
+    "title": "Every 21 Days Last Stop Rule",
+    "description": "All services assigned the 'Every 21 Days' service type must be routed as the final stop of the technician's daily schedule.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T10:21:20+00:00",
+    "updated_date": "2026-10-02T10:21:20+00:00"
+  },
+  {
+    "id": "960",
+    "title": "Every 21 Days Preferred Assignment and Last Stop Policy",
+    "description": "For all Every 21 Days service jobs, prefer assigning technician Lam 1 (custom) and schedule the appointment as the last stop of the day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T09:45:09+00:00",
+    "updated_date": "2026-09-29T09:45:09+00:00"
+  },
+  {
+    "id": "959",
+    "title": "Every 21 Days Preferred Tech & First Stop",
+    "description": "For all 'Every 21 Days' service jobs, prefer assigning technician Lam 1 (custom) and schedule the job as the first stop of the day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T09:43:29+00:00",
+    "updated_date": "2026-09-29T09:43:29+00:00"
+  },
+  {
+    "id": "958",
+    "title": "Every 21 Days Preferred Technician & Strict Window",
+    "description": "For all Every 21 Days services, prefer assigning technician Lam 1 (custom) and enforce a mandatory arrival time window between 8:00 AM and 12:00 PM.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T09:38:30+00:00",
+    "updated_date": "2026-09-29T09:38:30+00:00"
+  },
+  {
+    "id": "984",
+    "title": "Every 21 Days Scheduling & Routing Constraints",
+    "description": "All Every 21 Days service jobs must be scheduled as the first stop of the day and cannot be moved or rescheduled more than 2 days from their original date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T10:59:04+00:00",
+    "updated_date": "2026-09-29T10:59:04+00:00"
+  },
+  {
+    "id": "973",
+    "title": "Every 21 Days Service Constraints",
+    "description": "All Every 21 Days service jobs must be scheduled as the first stop of the technician's daily route and cannot be moved more than 2 days from their original date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T10:35:14+00:00",
+    "updated_date": "2026-09-29T10:35:14+00:00"
+  },
+  {
+    "id": "1101",
+    "title": "Every 21 Days Service Movement Limit & Exclusion",
+    "description": "Service jobs categorized as 'Every 21 Days' are excluded from automated routing optimization and must not be rescheduled or moved by more than 5 days.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T13:13:14+00:00",
+    "updated_date": "2026-10-02T13:13:14+00:00"
+  },
+  {
+    "id": "972",
+    "title": "Every 21 Days Service Preservation Rule",
+    "description": "All 'Every 21 Days' service jobs must be kept within their originally scheduled week and locked to prevent automated or auto-pilot changes.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T10:32:18+00:00",
+    "updated_date": "2026-09-29T10:32:18+00:00"
+  },
+  {
+    "id": "954",
+    "title": "Every 21 Days Technician & Day Lock",
+    "description": "All Every 21 Days service jobs must be strictly scheduled on their original day and assigned to custom (Technician: Lam 1 - nickname: custom).",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T09:27:47+00:00",
+    "updated_date": "2026-09-29T09:27:47+00:00"
+  },
+  {
+    "id": "890",
+    "title": "Exclude Confirmed Status Jobs",
+    "description": "Jobs with a status of Confirmed must be excluded from automated routing and remain on their assigned technician and schedule.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T08:59:17+00:00",
+    "updated_date": "2026-09-28T08:59:17+00:00"
+  },
+  {
+    "id": "910",
+    "title": "Exclude Every 21 Days Service Type",
+    "description": "Jobs with the service type 'Every 21 Days' must be excluded from automated routing and cannot be moved.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T02:54:20+00:00",
+    "updated_date": "2026-09-29T02:54:20+00:00"
+  },
+  {
+    "id": "1082",
+    "title": "Exclusion for enzo and Clark Kent",
+    "description": "Exclude appointments for customers enzo and Clark Kent scheduled on October 6, 2026, from being moved by automated routing.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T10:03:12+00:00",
+    "updated_date": "2026-10-02T10:03:12+00:00"
+  },
+  {
+    "id": "1103",
+    "title": "Global Job Movement Limit",
+    "description": "All jobs and stops across all service types, regions, and technicians are restricted to moving no more than 2 days from their original scheduled date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-03T01:51:07+00:00",
+    "updated_date": "2026-10-03T01:51:07+00:00"
+  },
+  {
+    "id": "907",
+    "title": "Global Movement Limit Rule",
+    "description": "All jobs and stops are restricted from being moved more than 3 days from their original scheduled date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T02:43:25+00:00",
+    "updated_date": "2026-09-29T02:43:25+00:00"
+  },
+  {
+    "id": "866",
+    "title": "Job Rescheduling Day Limit",
+    "description": "No job or stop may be moved more than 1 day from its original scheduled service date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T03:49:42+00:00",
+    "updated_date": "2026-09-28T03:49:42+00:00"
+  },
+  {
+    "id": "1056",
+    "title": "Lam 1 Call Back Service Dedicated Routing",
+    "description": "Technician Lam 1 must be strictly assigned to all Call Back Service jobs, and all other service types are explicitly excluded from being assigned or moved to technician Lam 1.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T08:05:26+00:00",
+    "updated_date": "2026-10-02T08:05:26+00:00"
+  },
+  {
+    "id": "1112",
+    "title": "Lam 1 Job Movement Limit",
+    "description": "Jobs assigned to Technician Lam 1 (custom) cannot be rescheduled or moved more than 2 days from their originally scheduled date.",
+    "status": 1,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-03T03:57:06+00:00",
+    "updated_date": "2026-10-03T03:57:06+00:00"
+  },
+  {
+    "id": "922",
+    "title": "Lam 1 Morning Time Window",
+    "description": "All jobs assigned to technician Lam 1 must be scheduled strictly between 8:00 AM and 12:00 PM.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T04:15:02+00:00",
+    "updated_date": "2026-09-29T04:15:02+00:00"
+  },
+  {
+    "id": "909",
+    "title": "Lam 1 Same-Day Assignment Lock",
+    "description": "All jobs assigned to technician Lam 1 must remain scheduled within their original day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T02:47:03+00:00",
+    "updated_date": "2026-09-29T02:47:03+00:00"
+  },
+  {
+    "id": "1086",
+    "title": "Lam 1 Schedule Lock",
+    "description": "All jobs assigned to technician Lam 1 must remain locked and fixed on their schedule during route optimization.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T10:19:54+00:00",
+    "updated_date": "2026-10-02T10:19:54+00:00"
+  },
+  {
+    "id": "921",
+    "title": "Lam 1 Schedule Lock",
+    "description": "Lock all appointments assigned to technician Lam 1 to prevent them from being rescheduled or moved during routing optimization.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T04:12:04+00:00",
+    "updated_date": "2026-09-29T04:12:04+00:00"
+  },
+  {
+    "id": "882",
+    "title": "Lam Test Job Movement Restriction",
+    "description": "Jobs assigned to technician Lam Test cannot be rescheduled or moved more than 1 day from their originally scheduled date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T08:09:39+00:00",
+    "updated_date": "2026-09-28T08:09:39+00:00"
+  },
+  {
+    "id": "895",
+    "title": "Lam Test Max Shift Travel Time Limit",
+    "description": "For all jobs assigned to technician Lam Test, strictly cap the maximum allowed shift travel time to 30 minutes.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T09:56:20+00:00",
+    "updated_date": "2026-09-28T09:56:20+00:00"
+  },
+  {
+    "id": "884",
+    "title": "Lam Test Maximum Shift End Time Constraint",
+    "description": "Jobs assigned to Technician Lam Test must be scheduled to occur strictly between 12:00 AM and 8:00 AM to enforce maximum shift end times and prevent overtime.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T08:17:19+00:00",
+    "updated_date": "2026-09-28T08:17:19+00:00"
+  },
+  {
+    "id": "883",
+    "title": "Lam Test Morning Service Window",
+    "description": "Jobs assigned to technician Lam Test must strictly be scheduled between 8:00 AM and 12:00 PM.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T08:12:19+00:00",
+    "updated_date": "2026-09-28T08:12:19+00:00"
+  },
+  {
+    "id": "1040",
+    "title": "Lam Test Movement Limit",
+    "description": "Jobs assigned to technician Lam Test cannot be moved or rescheduled by more than 2 days from their original date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T03:50:04+00:00",
+    "updated_date": "2026-10-02T03:50:04+00:00"
+  },
+  {
+    "id": "1076",
+    "title": "Lam Test Same-Day Time Window Constraint",
+    "description": "All stops assigned to technician Lam Test must be kept within the same day and strictly scheduled between 12:00 PM and 3:00 PM.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T09:43:43+00:00",
+    "updated_date": "2026-10-02T09:43:43+00:00"
+  },
+  {
+    "id": "894",
+    "title": "Lam Test Schedule Movement Restriction",
+    "description": "Jobs assigned to technician Lam Test cannot be moved more than 1 day from their original scheduled date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T09:38:33+00:00",
+    "updated_date": "2026-09-28T09:38:33+00:00"
+  },
+  {
+    "id": "886",
+    "title": "Lam Test Shift Travel Time Limit",
+    "description": "Total shift travel time for technician Lam Test must not exceed 240 minutes.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T08:34:55+00:00",
+    "updated_date": "2026-09-28T08:34:55+00:00"
+  },
+  {
+    "id": "1014",
+    "title": "Lam Test Strict Morning Time Window",
+    "description": "All jobs assigned to Technician: Lam Test - nickname: Lam must be scheduled within a strict mandatory arrival window of 8:00 AM to 12:00 PM.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-30T12:26:38+00:00",
+    "updated_date": "2026-09-30T12:26:38+00:00"
+  },
+  {
+    "id": "888",
+    "title": "Lam Test Travel Distance Cap",
+    "description": "Technician Lam Test is limited to a maximum travel distance of 30.0 miles per shift.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T08:44:58+00:00",
+    "updated_date": "2026-09-28T08:44:58+00:00"
+  },
+  {
+    "id": "889",
+    "title": "Lam Test Tuesday Schedule Exclusion",
+    "description": "Exclude technician Lam Test from having any jobs or stops scheduled or moved to them on Tuesdays.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T08:56:04+00:00",
+    "updated_date": "2026-09-28T08:56:04+00:00"
+  },
+  {
+    "id": "885",
+    "title": "Lam Test Tuesday Schedule Lock",
+    "description": "Technician Lam Test is restricted from having jobs scheduled or moved on any Tuesday.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T08:20:07+00:00",
+    "updated_date": "2026-09-28T08:20:07+00:00"
+  },
+  {
+    "id": "913",
+    "title": "Lam Test Wednesday Schedule Exclusion",
+    "description": "Do not route or schedule any jobs or stops for technician Lam Test on Wednesdays.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T03:22:03+00:00",
+    "updated_date": "2026-09-29T03:22:03+00:00"
+  },
+  {
+    "id": "1004",
+    "title": "Lock Call Back Service Jobs",
+    "description": "All jobs with the service type Call Back Service must be locked in place to prevent them from being moved or reassigned during routing.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-30T04:47:32+00:00",
+    "updated_date": "2026-09-30T04:47:32+00:00"
+  },
+  {
+    "id": "870",
+    "title": "Lock Call Back Service Jobs",
+    "description": "All Call Back Service jobs must be locked in place to prevent automated routing changes.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T03:57:02+00:00",
+    "updated_date": "2026-09-28T03:57:02+00:00"
+  },
+  {
+    "id": "1019",
+    "title": "Lock Confirmed Jobs",
+    "description": "All jobs with a status of Confirmed must be locked in place to prevent them from being moved or reassigned during routing optimization.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-01T04:56:12+00:00",
+    "updated_date": "2026-10-01T04:56:12+00:00"
+  },
+  {
+    "id": "1020",
+    "title": "Lock Rescheduled Jobs",
+    "description": "Jobs marked with the \"Reschedule\" status must be locked in place to prevent them from being moved during route optimization.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-01T05:00:10+00:00",
+    "updated_date": "2026-10-01T05:00:10+00:00"
+  },
+  {
+    "id": "802",
+    "title": "Mandatory Initial Service Time Window",
+    "description": "All Initial Service jobs must be scheduled within a mandatory time window between 8:00 AM and 3:00 PM.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-25T04:14:13+00:00",
+    "updated_date": "2026-09-25T04:14:13+00:00"
+  },
+  {
+    "id": "1025",
+    "title": "Messi Customer Assignment Rule",
+    "description": "All service appointments for customer Messi must be forcefully assigned to technician Lam 1.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-01T07:22:12+00:00",
+    "updated_date": "2026-10-01T07:22:12+00:00"
+  },
+  {
+    "id": "1023",
+    "title": "Messi Customer Routing & Assignment Lock",
+    "description": "All service jobs for customer Messi must be strictly scheduled between 8:00 AM and 9:00 AM and forcefully assigned to technician Lam Test.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-01T07:19:11+00:00",
+    "updated_date": "2026-10-01T07:19:11+00:00"
+  },
+  {
+    "id": "953",
+    "title": "Monthly Service Same-Day Custom Tech Assignment",
+    "description": "All Monthly Service jobs must be scheduled on the same day and require assignment to technician Lam 1 (nickname: custom).",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T09:26:33+00:00",
+    "updated_date": "2026-09-29T09:26:33+00:00"
+  },
+  {
+    "id": "1022",
+    "title": "Nami Preferred Service Schedule & Technician Assignment",
+    "description": "For all service jobs for customer Nami, routing must strictly enforce an arrival time window between 8:00 AM and 9:00 AM and require assignment to technician Lam Test.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-01T07:14:56+00:00",
+    "updated_date": "2026-10-01T07:14:56+00:00"
+  },
+  {
+    "id": "975",
+    "title": "Quarterly and Call Back Service Routing Constraints",
+    "description": "All Quarterly Service and Call Back Service jobs must be scheduled as the last stop of the day and cannot be moved by more than 3 days from their original date.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T10:36:24+00:00",
+    "updated_date": "2026-09-29T10:36:24+00:00"
+  },
+  {
+    "id": "793",
+    "title": "Recurrence Status Morning Time Window",
+    "description": "All jobs with the status \"Recurrence\" must be strictly scheduled to arrive between 8:00 AM and 12:00 PM.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-24T08:14:07+00:00",
+    "updated_date": "2026-09-24T08:14:07+00:00"
+  },
+  {
+    "id": "794",
+    "title": "Recurring Job Morning Time Window",
+    "description": "All jobs with a 'Recurrence' status must be scheduled within a mandatory time window between 8:00 AM and 12:00 PM.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-24T08:17:34+00:00",
+    "updated_date": "2026-09-24T08:17:34+00:00"
+  },
+  {
+    "id": "1029",
+    "title": "Region 2 Final Stop Priority",
+    "description": "All jobs located in Region 2 must be scheduled as the last stop of the technician's day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-01T07:43:40+00:00",
+    "updated_date": "2026-10-01T07:43:40+00:00"
+  },
+  {
+    "id": "1031",
+    "title": "Region 2 Friday Routing Exclusion",
+    "description": "All jobs located in Region 2 are excluded from being scheduled or moved on Fridays.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-01T07:47:17+00:00",
+    "updated_date": "2026-10-01T07:47:17+00:00"
+  },
+  {
+    "id": "1034",
+    "title": "Region 2 Mandatory Technician Assignment",
+    "description": "All jobs located in Region 2 must be mandatorily assigned to technician Lam 1 (custom).",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-01T08:13:15+00:00",
+    "updated_date": "2026-10-01T08:13:15+00:00"
+  },
+  {
+    "id": "1030",
+    "title": "Region 2 Routing Exclusion",
+    "description": "All jobs assigned to Region 2 must be excluded from automated routing and remain locked in their current state.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-01T07:45:28+00:00",
+    "updated_date": "2026-10-01T07:45:28+00:00"
+  },
+  {
+    "id": "1032",
+    "title": "Region 2 Sunday Exclusion",
+    "description": "All jobs in Region 2 are excluded from being scheduled or routed on Sundays.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-01T07:48:20+00:00",
+    "updated_date": "2026-10-01T07:48:20+00:00"
+  },
+  {
+    "id": "1033",
+    "title": "Reschedule Status Last Stop Constraint",
+    "description": "All jobs with the \"Reschedule\" status must be routed as the final stop of the technician's day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-01T07:55:47+00:00",
+    "updated_date": "2026-10-01T07:55:47+00:00"
+  },
+  {
+    "id": "906",
+    "title": "Same-Day Schedule Lock",
+    "description": "All jobs must remain on their originally scheduled date and cannot be moved to a different day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T02:42:23+00:00",
+    "updated_date": "2026-09-29T02:42:23+00:00"
+  },
+  {
+    "id": "896",
+    "title": "Technician Lam Test 10 AM Cutoff",
+    "description": "Technician Lam Test must not depart for any new appointments after 10:00 AM. This cutoff time is a strict mandatory constraint.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T10:18:12+00:00",
+    "updated_date": "2026-09-28T10:18:12+00:00"
+  },
+  {
+    "id": "1041",
+    "title": "Technician Lam Test Saturday Lock",
+    "description": "All jobs assigned to technician Lam Test scheduled for Saturday, October 03, 2026, must remain locked in place and cannot be moved or rescheduled during routing.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T04:11:14+00:00",
+    "updated_date": "2026-10-02T04:11:14+00:00"
+  },
+  {
+    "id": "887",
+    "title": "Technician Movement Lock - Lam Test",
+    "description": "Jobs assigned to technician Lam Test must remain strictly on their originally scheduled date and cannot be moved to a different day.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T08:37:48+00:00",
+    "updated_date": "2026-09-28T08:37:48+00:00"
+  },
+  {
+    "id": "1017",
+    "title": "Unconfirmed Job Time Window Restriction",
+    "description": "All jobs with an Unconfirmed status must be scheduled strictly within the 8:00 AM to 12:00 PM time window.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-01T03:00:26+00:00",
+    "updated_date": "2026-10-01T03:00:26+00:00"
+  },
+  {
+    "id": "1060",
+    "title": "Unconfirmed Jobs Assignment for Lam 1",
+    "description": "Jobs with the Unconfirmed status must be forcibly assigned to technician Lam 1, while jobs with all other statuses are excluded from being assigned to Lam 1.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T08:22:58+00:00",
+    "updated_date": "2026-10-02T08:22:58+00:00"
+  },
+  {
+    "id": "878",
+    "title": "Universal Drive Buffer",
+    "description": "A 10-minute drive buffer must be added to all scheduled jobs and stops across all technicians, regions, and service types.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-28T07:35:07+00:00",
+    "updated_date": "2026-09-28T07:35:07+00:00"
+  },
+  {
+    "id": "1110",
+    "title": "Universal Morning Arrival Window",
+    "description": "All jobs must be scheduled to arrive within a mandatory time window of 8:00 AM to 12:00 PM.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-03T03:45:00+00:00",
+    "updated_date": "2026-10-03T03:45:00+00:00"
+  },
+  {
+    "id": "808",
+    "title": "VIP Customer Exclusion Policy",
+    "description": "Exclude all jobs associated with the VIP customer tag from being moved or modified during automated routing optimizations.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-25T10:31:25+00:00",
+    "updated_date": "2026-09-25T10:31:25+00:00"
+  },
+  {
+    "id": "807",
+    "title": "VIP Customer Job Lock",
+    "description": "Jobs assigned to customers with the VIP customer tag must be locked in place and cannot be moved or rescheduled during route optimization.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-25T10:24:47+00:00",
+    "updated_date": "2026-09-25T10:24:47+00:00"
+  },
+  {
+    "id": "908",
+    "title": "Wednesday Routing Restriction for Lam",
+    "description": "Technician Lam Test (Lam) must not have jobs scheduled or moved on Wednesdays.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-29T02:45:36+00:00",
+    "updated_date": "2026-09-29T02:45:36+00:00"
+  }
+]

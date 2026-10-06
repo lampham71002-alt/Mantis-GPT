@@ -1,0 +1,1368 @@
+[
+  {
+    "job_id": "8497",
+    "event_id": "8493",
+    "customer": "nami ",
+    "service": "Wasp Nest Removal",
+    "before": {
+      "event": "8493",
+      "start": "2026-10-05T11:09:00+00:00",
+      "end": "2026-10-05T11:54:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 0
+    },
+    "duration": 45.0,
+    "target_start": "2026-10-06T12:30:00+00:00",
+    "target_end": "2026-10-06T13:15:00+00:00"
+  },
+  {
+    "job_id": "7042",
+    "event_id": "7038",
+    "customer": "Test6 Routing",
+    "service": "Call Back Service",
+    "before": {
+      "event": "7038",
+      "start": "2026-10-05T09:06:00+00:00",
+      "end": "2026-10-05T09:36:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-06T10:15:00+00:00",
+    "target_end": "2026-10-06T10:45:00+00:00"
+  },
+  {
+    "job_id": "7045",
+    "event_id": "7041",
+    "customer": "Test_9 Routing",
+    "service": "Follow Up Inspections",
+    "before": {
+      "event": "7041",
+      "start": "2026-10-05T13:25:00+00:00",
+      "end": "2026-10-05T13:55:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 0
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-07T10:30:00+00:00",
+    "target_end": "2026-10-07T11:00:00+00:00"
+  },
+  {
+    "job_id": "6815",
+    "event_id": "6811",
+    "customer": "nami ",
+    "service": "Call Back Service",
+    "before": {
+      "event": "6811",
+      "start": "2026-10-05T11:49:00+00:00",
+      "end": "2026-10-05T12:34:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 2
+    },
+    "duration": 45.0,
+    "target_start": "2026-10-07T08:00:00+00:00",
+    "target_end": "2026-10-07T08:45:00+00:00"
+  },
+  {
+    "job_id": "8507",
+    "event_id": "8503",
+    "customer": "FL Routing Test 04 ",
+    "service": "Every 21 Days",
+    "before": {
+      "event": "8503",
+      "start": "2026-10-04T11:13:00+00:00",
+      "end": "2026-10-04T11:43:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-06T09:30:00+00:00",
+    "target_end": "2026-10-06T10:00:00+00:00"
+  },
+  {
+    "job_id": "8505",
+    "event_id": "8501",
+    "customer": "FL Routing Test 04 ",
+    "service": "Flea & Tick Control",
+    "before": {
+      "event": "8501",
+      "start": "2026-10-12T11:21:00+00:00",
+      "end": "2026-10-12T11:51:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-10T08:00:00+00:00",
+    "target_end": "2026-10-10T08:30:00+00:00"
+  },
+  {
+    "job_id": "8508",
+    "event_id": "8504",
+    "customer": "FL Routing Test 05 ",
+    "service": "Call Back Service",
+    "before": {
+      "event": "8504",
+      "start": "2026-10-10T08:00:00+00:00",
+      "end": "2026-10-10T08:15:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 15.0,
+    "target_start": "2026-10-08T13:42:00+00:00",
+    "target_end": "2026-10-08T13:57:00+00:00"
+  },
+  {
+    "job_id": "8509",
+    "event_id": "8505",
+    "customer": "FL Routing Test 05 ",
+    "service": "Call Back Service",
+    "before": {
+      "event": "8505",
+      "start": "2026-10-10T08:15:00+00:00",
+      "end": "2026-10-10T08:30:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 15.0,
+    "target_start": "2026-10-09T09:00:00+00:00",
+    "target_end": "2026-10-09T09:15:00+00:00"
+  },
+  {
+    "job_id": "8502",
+    "event_id": "8498",
+    "customer": "FL Routing Test 02 ",
+    "service": "Flea & Tick Control",
+    "before": {
+      "event": "8498",
+      "start": "2026-10-12T10:08:00+00:00",
+      "end": "2026-10-12T10:38:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-08T09:19:00+00:00",
+    "target_end": "2026-10-08T09:49:00+00:00"
+  },
+  {
+    "job_id": "8514",
+    "event_id": "8510",
+    "customer": "FL Routing Test 08 ",
+    "service": "Call Back Service",
+    "before": {
+      "event": "8510",
+      "start": "2026-10-05T08:00:00+00:00",
+      "end": "2026-10-05T08:15:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 15.0,
+    "target_start": "2026-10-06T09:45:00+00:00",
+    "target_end": "2026-10-06T10:00:00+00:00"
+  },
+  {
+    "job_id": "8504",
+    "event_id": "8500",
+    "customer": "FL Routing Test 03 ",
+    "service": "Flea & Tick Control",
+    "before": {
+      "event": "8500",
+      "start": "2026-10-14T08:00:00+00:00",
+      "end": "2026-10-14T08:30:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-10T08:45:00+00:00",
+    "target_end": "2026-10-10T09:15:00+00:00"
+  },
+  {
+    "job_id": "8506",
+    "event_id": "8502",
+    "customer": "FL Routing Test 04 ",
+    "service": "Initial Service",
+    "before": {
+      "event": "8502",
+      "start": "2026-10-06T08:00:00+00:00",
+      "end": "2026-10-06T09:00:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 60.0,
+    "target_start": "2026-10-07T12:00:00+00:00",
+    "target_end": "2026-10-07T13:00:00+00:00"
+  },
+  {
+    "job_id": "8537",
+    "event_id": "8533",
+    "customer": "FL Routing Test 17 ",
+    "service": "Every 21 Days",
+    "before": {
+      "event": "8533",
+      "start": "2026-10-08T09:30:00+00:00",
+      "end": "2026-10-08T10:00:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-08T09:15:00+00:00",
+    "target_end": "2026-10-08T09:45:00+00:00"
+  },
+  {
+    "job_id": "8544",
+    "event_id": "8540",
+    "customer": "FL Routing Test 13 ",
+    "service": "Flea & Tick Control",
+    "before": {
+      "event": "8540",
+      "start": "2026-10-09T10:04:00+00:00",
+      "end": "2026-10-09T10:43:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31",
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 3
+    },
+    "duration": 39.0,
+    "target_start": "2026-10-08T12:48:00+00:00",
+    "target_end": "2026-10-08T13:27:00+00:00"
+  },
+  {
+    "job_id": "8519",
+    "event_id": "8515",
+    "customer": "FL Routing Test 09 ",
+    "service": "Rodent Control & Exclusion",
+    "before": {
+      "event": "8515",
+      "start": "2026-10-14T10:26:00+00:00",
+      "end": "2026-10-14T11:26:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 60.0,
+    "target_start": "2026-10-10T11:30:00+00:00",
+    "target_end": "2026-10-10T12:30:00+00:00"
+  },
+  {
+    "job_id": "8520",
+    "event_id": "8516",
+    "customer": "FL Routing Test 10 ",
+    "service": "Monthly Service",
+    "before": {
+      "event": "8516",
+      "start": "2026-10-14T10:25:00+00:00",
+      "end": "2026-10-14T10:40:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 15.0,
+    "target_start": "2026-10-08T12:08:00+00:00",
+    "target_end": "2026-10-08T12:23:00+00:00"
+  },
+  {
+    "job_id": "3899",
+    "event_id": "3895",
+    "customer": "Minh ",
+    "service": "Call Back Service",
+    "before": {
+      "event": "3895",
+      "start": "2026-10-04T08:30:00+00:00",
+      "end": "2026-10-04T08:45:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 15.0,
+    "target_start": "2026-10-06T08:00:00+00:00",
+    "target_end": "2026-10-06T08:15:00+00:00"
+  },
+  {
+    "job_id": "8521",
+    "event_id": "8517",
+    "customer": "FL Routing Test 10 ",
+    "service": "Eco-Friendly Pest Solutions",
+    "before": {
+      "event": "8517",
+      "start": "2026-10-14T13:05:00+00:00",
+      "end": "2026-10-14T14:05:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 60.0,
+    "target_start": "2026-10-10T14:07:00+00:00",
+    "target_end": "2026-10-10T15:07:00+00:00"
+  },
+  {
+    "job_id": "8548",
+    "event_id": "8544",
+    "customer": "FL Routing Test 16 ",
+    "service": "Quarterly Service",
+    "before": {
+      "event": "8544",
+      "start": "2026-10-10T10:37:00+00:00",
+      "end": "2026-10-10T11:16:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 39.0,
+    "target_start": "2026-10-07T11:22:00+00:00",
+    "target_end": "2026-10-07T12:01:00+00:00"
+  },
+  {
+    "job_id": "8555",
+    "event_id": "8551",
+    "customer": "FL Routing Test 13 ",
+    "service": "Rodent Control & Exclusion",
+    "before": {
+      "event": "8551",
+      "start": "2026-10-09T10:43:00+00:00",
+      "end": "2026-10-09T11:03:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 20.0,
+    "target_start": "2026-10-06T13:00:00+00:00",
+    "target_end": "2026-10-06T13:20:00+00:00"
+  },
+  {
+    "job_id": "8523",
+    "event_id": "8519",
+    "customer": "FL Routing Test 11 ",
+    "service": "Flea & Tick Control",
+    "before": {
+      "event": "8519",
+      "start": "2026-10-12T08:00:00+00:00",
+      "end": "2026-10-12T08:30:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-09T10:39:00+00:00",
+    "target_end": "2026-10-09T11:09:00+00:00"
+  },
+  {
+    "job_id": "8547",
+    "event_id": "8543",
+    "customer": "FL Routing Test 16 ",
+    "service": "Mosquito Reduction Program",
+    "before": {
+      "event": "8543",
+      "start": "2026-10-10T10:15:00+00:00",
+      "end": "2026-10-10T10:37:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 22.0,
+    "target_start": "2026-10-07T10:45:00+00:00",
+    "target_end": "2026-10-07T11:07:00+00:00"
+  },
+  {
+    "job_id": "8522",
+    "event_id": "8518",
+    "customer": "FL Routing Test 10 ",
+    "service": "Follow Up Inspections",
+    "before": {
+      "event": "8518",
+      "start": "2026-10-04T09:30:00+00:00",
+      "end": "2026-10-04T10:00:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-06T09:00:00+00:00",
+    "target_end": "2026-10-06T09:30:00+00:00"
+  },
+  {
+    "job_id": "8550",
+    "event_id": "8546",
+    "customer": "FL Routing Test 18 ",
+    "service": "Preventative Monitoring & Maintenance",
+    "before": {
+      "event": "8546",
+      "start": "2026-10-16T11:00:00+00:00",
+      "end": "2026-10-16T11:20:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 20.0,
+    "target_start": "2026-10-09T11:30:00+00:00",
+    "target_end": "2026-10-09T11:50:00+00:00"
+  },
+  {
+    "job_id": "8524",
+    "event_id": "8520",
+    "customer": "FL Routing Test 11 ",
+    "service": "Termite Baiting & Monitoring",
+    "before": {
+      "event": "8520",
+      "start": "2026-10-12T08:30:00+00:00",
+      "end": "2026-10-12T09:30:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 60.0,
+    "target_start": "2026-10-09T11:24:00+00:00",
+    "target_end": "2026-10-09T12:24:00+00:00"
+  },
+  {
+    "job_id": "8525",
+    "event_id": "8521",
+    "customer": "FL Routing Test 11 ",
+    "service": "Wasp Nest Removal",
+    "before": {
+      "event": "8521",
+      "start": "2026-10-12T09:30:00+00:00",
+      "end": "2026-10-12T10:30:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 60.0,
+    "target_start": "2026-10-09T12:39:00+00:00",
+    "target_end": "2026-10-09T13:39:00+00:00"
+  },
+  {
+    "job_id": "8517",
+    "event_id": "8513",
+    "customer": "FL Routing Test 09 ",
+    "service": "Preventative Monitoring & Maintenance",
+    "before": {
+      "event": "8513",
+      "start": "2026-10-14T08:56:00+00:00",
+      "end": "2026-10-14T09:26:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-10T09:30:00+00:00",
+    "target_end": "2026-10-10T10:00:00+00:00"
+  },
+  {
+    "job_id": "8536",
+    "event_id": "8532",
+    "customer": "FL Routing Test 17 ",
+    "service": "Quarterly Pest Control",
+    "before": {
+      "event": "8532",
+      "start": "2026-10-08T08:30:00+00:00",
+      "end": "2026-10-08T09:30:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 60.0,
+    "target_start": "2026-10-08T08:00:00+00:00",
+    "target_end": "2026-10-08T09:00:00+00:00"
+  },
+  {
+    "job_id": "8558",
+    "event_id": "8554",
+    "customer": "FL Routing Test 05 ",
+    "service": "Termite Baiting & Monitoring",
+    "before": {
+      "event": "8554",
+      "start": "2026-10-10T08:30:00+00:00",
+      "end": "2026-10-10T08:51:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 21.0,
+    "target_start": "2026-10-09T09:30:00+00:00",
+    "target_end": "2026-10-09T09:51:00+00:00"
+  },
+  {
+    "job_id": "8518",
+    "event_id": "8514",
+    "customer": "FL Routing Test 09 ",
+    "service": "Rodent Control & Exclusion",
+    "before": {
+      "event": "8514",
+      "start": "2026-10-14T09:26:00+00:00",
+      "end": "2026-10-14T10:26:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 60.0,
+    "target_start": "2026-10-10T10:15:00+00:00",
+    "target_end": "2026-10-10T11:15:00+00:00"
+  },
+  {
+    "job_id": "8551",
+    "event_id": "8547",
+    "customer": "FL Routing Test 09 ",
+    "service": "Flea & Tick Control",
+    "before": {
+      "event": "8547",
+      "start": "2026-10-14T11:26:00+00:00",
+      "end": "2026-10-14T11:38:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 12.0,
+    "target_start": "2026-10-10T12:45:00+00:00",
+    "target_end": "2026-10-10T12:57:00+00:00"
+  },
+  {
+    "job_id": "8563",
+    "event_id": "8559",
+    "customer": "FL Routing Test 19 ",
+    "service": "Initial Service",
+    "before": {
+      "event": "8559",
+      "start": "2026-10-14T09:00:00+00:00",
+      "end": "2026-10-14T09:34:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 34.0,
+    "target_start": "2026-10-08T11:19:00+00:00",
+    "target_end": "2026-10-08T11:53:00+00:00"
+  },
+  {
+    "job_id": "8526",
+    "event_id": "8522",
+    "customer": "FL Routing Test 12 ",
+    "service": "Follow Up Inspections",
+    "before": {
+      "event": "8522",
+      "start": "2026-10-08T11:25:00+00:00",
+      "end": "2026-10-08T11:55:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-08T10:52:00+00:00",
+    "target_end": "2026-10-08T11:22:00+00:00"
+  },
+  {
+    "job_id": "8527",
+    "event_id": "8523",
+    "customer": "FL Routing Test 13 ",
+    "service": "Call Back Service",
+    "before": {
+      "event": "8523",
+      "start": "2026-10-09T08:49:00+00:00",
+      "end": "2026-10-09T09:04:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 15.0,
+    "target_start": "2026-10-06T11:00:00+00:00",
+    "target_end": "2026-10-06T11:15:00+00:00"
+  },
+  {
+    "job_id": "8553",
+    "event_id": "8549",
+    "customer": "FL Routing Test 09 ",
+    "service": "Call Back Service",
+    "before": {
+      "event": "8549",
+      "start": "2026-10-14T11:38:00+00:00",
+      "end": "2026-10-14T12:18:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 40.0,
+    "target_start": "2026-10-10T13:12:00+00:00",
+    "target_end": "2026-10-10T13:52:00+00:00"
+  },
+  {
+    "job_id": "8528",
+    "event_id": "8524",
+    "customer": "FL Routing Test 13 ",
+    "service": "Every 21 Days",
+    "before": {
+      "event": "8524",
+      "start": "2026-10-09T09:04:00+00:00",
+      "end": "2026-10-09T09:34:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 3
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-06T11:30:00+00:00",
+    "target_end": "2026-10-06T12:00:00+00:00"
+  },
+  {
+    "job_id": "8554",
+    "event_id": "8550",
+    "customer": "FL Routing Test 11 ",
+    "service": "Eco-Friendly Pest Solutions",
+    "before": {
+      "event": "8550",
+      "start": "2026-10-12T10:30:00+00:00",
+      "end": "2026-10-12T11:01:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 31.0,
+    "target_start": "2026-10-09T13:54:00+00:00",
+    "target_end": "2026-10-09T14:25:00+00:00"
+  },
+  {
+    "job_id": "8529",
+    "event_id": "8525",
+    "customer": "FL Routing Test 13 ",
+    "service": "Preventative Monitoring & Maintenance",
+    "before": {
+      "event": "8525",
+      "start": "2026-10-09T09:34:00+00:00",
+      "end": "2026-10-09T10:04:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-06T12:15:00+00:00",
+    "target_end": "2026-10-06T12:45:00+00:00"
+  },
+  {
+    "job_id": "8556",
+    "event_id": "8552",
+    "customer": "FL Routing Test 02 ",
+    "service": "General Pest Control",
+    "before": {
+      "event": "8552",
+      "start": "2026-10-16T12:40:00+00:00",
+      "end": "2026-10-16T13:03:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 23.0,
+    "target_start": "2026-10-09T12:05:00+00:00",
+    "target_end": "2026-10-09T12:28:00+00:00"
+  },
+  {
+    "job_id": "8557",
+    "event_id": "8553",
+    "customer": "FL Routing Test 04 ",
+    "service": "Quarterly Pest Control",
+    "before": {
+      "event": "8553",
+      "start": "2026-10-08T14:08:00+00:00",
+      "end": "2026-10-08T14:19:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 11.0,
+    "target_start": "2026-10-08T12:22:00+00:00",
+    "target_end": "2026-10-08T12:33:00+00:00"
+  },
+  {
+    "job_id": "8533",
+    "event_id": "8529",
+    "customer": "FL Routing Test 16 ",
+    "service": "Wildlife Trapping & Relocation",
+    "before": {
+      "event": "8529",
+      "start": "2026-10-10T08:00:00+00:00",
+      "end": "2026-10-10T10:00:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 120.0,
+    "target_start": "2026-10-07T08:00:00+00:00",
+    "target_end": "2026-10-07T10:00:00+00:00"
+  },
+  {
+    "job_id": "8534",
+    "event_id": "8530",
+    "customer": "FL Routing Test 16 ",
+    "service": "Call Back Service",
+    "before": {
+      "event": "8530",
+      "start": "2026-10-10T10:00:00+00:00",
+      "end": "2026-10-10T10:15:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 15.0,
+    "target_start": "2026-10-07T10:15:00+00:00",
+    "target_end": "2026-10-07T10:30:00+00:00"
+  },
+  {
+    "job_id": "8535",
+    "event_id": "8531",
+    "customer": "FL Routing Test 17 ",
+    "service": "Flea & Tick Control",
+    "before": {
+      "event": "8531",
+      "start": "2026-10-08T08:00:00+00:00",
+      "end": "2026-10-08T08:30:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-07T14:15:00+00:00",
+    "target_end": "2026-10-07T14:45:00+00:00"
+  },
+  {
+    "job_id": "8562",
+    "event_id": "8558",
+    "customer": "FL Routing Test 12 ",
+    "service": "Quarterly Pest Control",
+    "before": {
+      "event": "8558",
+      "start": "2026-10-08T11:55:00+00:00",
+      "end": "2026-10-08T12:25:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-08T11:37:00+00:00",
+    "target_end": "2026-10-08T12:07:00+00:00"
+  },
+  {
+    "job_id": "7043",
+    "event_id": "7039",
+    "customer": "Test_7 Routing",
+    "service": "Bed Bug Heat Treatment",
+    "before": {
+      "event": "7039",
+      "start": "2026-10-05T12:11:00+00:00",
+      "end": "2026-10-05T12:41:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 0
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-07T09:00:00+00:00",
+    "target_end": "2026-10-07T09:30:00+00:00"
+  },
+  {
+    "job_id": "7046",
+    "event_id": "7042",
+    "customer": "Test_10 Routing",
+    "service": "Follow Up Inspections",
+    "before": {
+      "event": "7042",
+      "start": "2026-10-05T13:58:00+00:00",
+      "end": "2026-10-05T14:28:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 0
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-07T11:15:00+00:00",
+    "target_end": "2026-10-07T11:45:00+00:00"
+  },
+  {
+    "job_id": "7060",
+    "event_id": "7056",
+    "customer": "NaplesAuto_3 Test",
+    "service": "Follow Up Inspections",
+    "before": {
+      "event": "7056",
+      "start": "2026-10-07T08:00:00+00:00",
+      "end": "2026-10-07T08:30:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 0
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-06T10:15:00+00:00",
+    "target_end": "2026-10-06T10:45:00+00:00"
+  },
+  {
+    "job_id": "7044",
+    "event_id": "7040",
+    "customer": "Test_8 Routing",
+    "service": "Call Back Service",
+    "before": {
+      "event": "7040",
+      "start": "2026-10-05T12:43:00+00:00",
+      "end": "2026-10-05T13:13:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-07T09:45:00+00:00",
+    "target_end": "2026-10-07T10:15:00+00:00"
+  },
+  {
+    "job_id": "7059",
+    "event_id": "7055",
+    "customer": "NaplesAuto_2 Test",
+    "service": "Flea & Tick Control",
+    "before": {
+      "event": "7055",
+      "start": "2026-10-07T08:00:00+00:00",
+      "end": "2026-10-07T08:45:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 0
+    },
+    "duration": 45.0,
+    "target_start": "2026-10-07T13:15:00+00:00",
+    "target_end": "2026-10-07T14:00:00+00:00"
+  },
+  {
+    "job_id": "8538",
+    "event_id": "8534",
+    "customer": "FL Routing Test 18 ",
+    "service": "Termite Baiting & Monitoring",
+    "before": {
+      "event": "8534",
+      "start": "2026-10-16T08:00:00+00:00",
+      "end": "2026-10-16T09:00:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 60.0,
+    "target_start": "2026-10-08T13:42:00+00:00",
+    "target_end": "2026-10-08T14:42:00+00:00"
+  },
+  {
+    "job_id": "7040",
+    "event_id": "7036",
+    "customer": "TestAuto_4 Routing",
+    "service": "Call Back Service",
+    "before": {
+      "event": "7036",
+      "start": "2026-10-05T10:08:00+00:00",
+      "end": "2026-10-05T10:38:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 1,
+      "status": 1
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-06T11:45:00+00:00",
+    "target_end": "2026-10-06T12:15:00+00:00"
+  },
+  {
+    "job_id": "3998",
+    "event_id": "3994",
+    "customer": "Minh ",
+    "service": "Follow Up Inspections",
+    "before": {
+      "event": "3994",
+      "start": "2026-10-04T08:00:00+00:00",
+      "end": "2026-10-04T08:45:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 0
+    },
+    "duration": 45.0,
+    "target_start": "2026-10-06T08:00:00+00:00",
+    "target_end": "2026-10-06T08:45:00+00:00"
+  },
+  {
+    "job_id": "3900",
+    "event_id": "3896",
+    "customer": "Minh ",
+    "service": "Call Back Service",
+    "before": {
+      "event": "3896",
+      "start": "2026-10-04T08:45:00+00:00",
+      "end": "2026-10-04T09:00:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 15.0,
+    "target_start": "2026-10-06T08:30:00+00:00",
+    "target_end": "2026-10-06T08:45:00+00:00"
+  },
+  {
+    "job_id": "3916",
+    "event_id": "3912",
+    "customer": "Minh ",
+    "service": "Call Back Service",
+    "before": {
+      "event": "3912",
+      "start": "2026-10-04T09:00:00+00:00",
+      "end": "2026-10-04T09:15:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 15.0,
+    "target_start": "2026-10-06T09:00:00+00:00",
+    "target_end": "2026-10-06T09:15:00+00:00"
+  },
+  {
+    "job_id": "8539",
+    "event_id": "8535",
+    "customer": "FL Routing Test 18 ",
+    "service": "Bed Bug Heat Treatment",
+    "before": {
+      "event": "8535",
+      "start": "2026-10-16T09:00:00+00:00",
+      "end": "2026-10-16T10:00:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 60.0,
+    "target_start": "2026-10-09T09:00:00+00:00",
+    "target_end": "2026-10-09T10:00:00+00:00"
+  },
+  {
+    "job_id": "7041",
+    "event_id": "7037",
+    "customer": "TestAuto_5 Routing",
+    "service": "Call Back Service",
+    "before": {
+      "event": "7037",
+      "start": "2026-10-05T09:37:00+00:00",
+      "end": "2026-10-05T10:07:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-06T11:00:00+00:00",
+    "target_end": "2026-10-06T11:30:00+00:00"
+  },
+  {
+    "job_id": "8565",
+    "event_id": "8561",
+    "customer": "FL Routing Test 17 ",
+    "service": "Wildlife Trapping & Relocation",
+    "before": {
+      "event": "8561",
+      "start": "2026-10-08T10:00:00+00:00",
+      "end": "2026-10-08T10:37:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 37.0,
+    "target_start": "2026-10-08T10:00:00+00:00",
+    "target_end": "2026-10-08T10:37:00+00:00"
+  },
+  {
+    "job_id": "8540",
+    "event_id": "8536",
+    "customer": "FL Routing Test 18 ",
+    "service": "Rodent Control & Exclusion",
+    "before": {
+      "event": "8536",
+      "start": "2026-10-16T10:00:00+00:00",
+      "end": "2026-10-16T11:00:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 60.0,
+    "target_start": "2026-10-09T10:15:00+00:00",
+    "target_end": "2026-10-09T11:15:00+00:00"
+  },
+  {
+    "job_id": "8541",
+    "event_id": "8537",
+    "customer": "FL Routing Test 19 ",
+    "service": "Rodent Control & Exclusion",
+    "before": {
+      "event": "8537",
+      "start": "2026-10-14T08:00:00+00:00",
+      "end": "2026-10-14T09:00:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 60.0,
+    "target_start": "2026-10-08T10:04:00+00:00",
+    "target_end": "2026-10-08T11:04:00+00:00"
+  },
+  {
+    "job_id": "8568",
+    "event_id": "8564",
+    "customer": "FL Routing Test 02 ",
+    "service": "Every 21 Days",
+    "before": {
+      "event": "8564",
+      "start": "2026-10-10T10:07:00+00:00",
+      "end": "2026-10-10T10:25:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "31"
+      ],
+      "primary": "31",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 18.0,
+    "target_start": "2026-10-09T10:06:00+00:00",
+    "target_end": "2026-10-09T10:24:00+00:00"
+  },
+  {
+    "job_id": "8542",
+    "event_id": "8538",
+    "customer": "FL Routing Test 20 ",
+    "service": "Call Back Service",
+    "before": {
+      "event": "8538",
+      "start": "2026-10-12T08:00:00+00:00",
+      "end": "2026-10-12T08:15:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 3
+    },
+    "duration": 15.0,
+    "target_start": "2026-10-07T14:16:00+00:00",
+    "target_end": "2026-10-07T14:31:00+00:00"
+  },
+  {
+    "job_id": "8570",
+    "event_id": "8566",
+    "customer": "FL Routing Test 20 ",
+    "service": "Rodent Control & Exclusion",
+    "before": {
+      "event": "8566",
+      "start": "2026-10-12T08:15:00+00:00",
+      "end": "2026-10-12T08:34:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 1
+    },
+    "duration": 19.0,
+    "target_start": "2026-10-08T08:45:00+00:00",
+    "target_end": "2026-10-08T09:04:00+00:00"
+  },
+  {
+    "job_id": "8482",
+    "event_id": "8478",
+    "customer": "Alexander ",
+    "service": "Bed Bug Heat Treatment",
+    "before": {
+      "event": "8478",
+      "start": "2026-10-10T13:13:00+00:00",
+      "end": "2026-10-10T13:28:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 0
+    },
+    "duration": 15.0,
+    "target_start": "2026-10-07T13:46:00+00:00",
+    "target_end": "2026-10-07T14:01:00+00:00"
+  },
+  {
+    "job_id": "8468",
+    "event_id": "8464",
+    "customer": "Vance ",
+    "service": "Follow Up Inspections",
+    "before": {
+      "event": "8464",
+      "start": "2026-10-10T12:34:00+00:00",
+      "end": "2026-10-10T13:04:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 0
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-07T13:01:00+00:00",
+    "target_end": "2026-10-07T13:31:00+00:00"
+  },
+  {
+    "job_id": "8442",
+    "event_id": "8438",
+    "customer": "Miller ",
+    "service": "Flea & Tick Control",
+    "before": {
+      "event": "8438",
+      "start": "2026-10-10T11:32:00+00:00",
+      "end": "2026-10-10T12:02:00+00:00",
+      "repeat": 0,
+      "schedules": [
+        "32"
+      ],
+      "primary": "32",
+      "locked": 0,
+      "status": 0
+    },
+    "duration": 30.0,
+    "target_start": "2026-10-07T12:16:00+00:00",
+    "target_end": "2026-10-07T12:46:00+00:00"
+  }
+]

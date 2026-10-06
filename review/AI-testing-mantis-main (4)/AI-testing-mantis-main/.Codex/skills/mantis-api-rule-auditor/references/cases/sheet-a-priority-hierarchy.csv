@@ -1,0 +1,29 @@
+Priority order
+Order,Rule,Note
+1,exclude (CR),Complete type — overrides ALL other rules
+2,lock (CR),"Lock job — auto-pilot route around, no movement"
+3,force_tech (CR),"Force tech — override Preferred Tech (RE), Workload Fairness (WB)"
+4,time_window strict (CR),"Hard time constraint — narrower than Service Hours (WB), Max Shift End (WB), Max Last Appt (SC)"
+5,Max Last Appt (SC),Strict cutoff — wins Max Shift End (WB) if earlier
+6,Max Shift End (WB),Hard stop — win Service Hours (WB)
+7,Region Enforcement Strict (SC),Block tech outside region — wins Preferred Tech (RE)
+8,Skill Matching (RE),Filter tech by skill — win Preferred Tech (RE)
+9,keep_period (CR),Hold week/month — win movement_limit (CR) if movement exceeds period
+10,movement_limit (CR),Travel day limit
+11,Service Hours (WB),Service hours
+12,Max Jobs (WB),Hard cap jobs/tech/day
+13,Max Travel Distance (RE),Hard cap travel distance
+14,Max Shift Travel (RE),Hard cap travel time
+15,Day Exclusions (WB),Tech off someday
+16,Arrival Window Override (SC),Override Time Window displays customer
+17,first_stop / last_stop (CR),Job position in route
+18,Workload Fairness (WB),"Even balance — soft, overridden by force_tech"
+19,Preferred Tech Soft (RE),Soft preference — overridden by force_tech
+20,prefer_tech (CR),Soft preference — overridden by force_tech
+21,Min Travel Time (RE),Soft target — best-effort
+22,Min Travel Distance (RE),Soft target — best-effort
+23,Customer Scheduling Pref (SC),Soft — best-effort
+24,Preferred Jobs (WB),Soft target — under Max Jobs
+25,Arrival Window Duration (CR),Display only — does not affect routing
+26,time_window soft (CR),Soft preference — under strict
+27,Preferred Tech Strict (RE),"Strict — no fallback, but under force_tech"

@@ -1,0 +1,1288 @@
+[
+  {
+    "name": "d205-service-commitments-35-region-enforcement-soft-custome",
+    "description": "CSV240 Service Commitments #35: Region Enforcement (Soft) + Customer Scheduling Preferences (ON)",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        },
+        "customer_scheduling_preferences": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "35",
+      "group": "2 fields (Soft)",
+      "condition": "Region Enforcement (Soft) + Customer Scheduling Preferences (ON)",
+      "expected": "Region soft \u2014 jobs outside the region are still ranked but have low priority, no hard block | Honor customer scheduling preferences \u2014 sort according to customer preferences",
+      "conflict": "",
+      "mapped_rules": [
+        "SC region enforcement strict",
+        "SC customer scheduling preferences on"
+      ]
+    }
+  },
+  {
+    "name": "d206-service-commitments-36-region-enforcement-soft-add-dri",
+    "description": "CSV240 Service Commitments #36: Region Enforcement (Soft) + Add Drive Buffer Time (10 min)",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        },
+        "drive_buffer": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "36",
+      "group": "2 fields (Soft)",
+      "condition": "Region Enforcement (Soft) + Add Drive Buffer Time (10 min)",
+      "expected": "Region soft \u2014 jobs outside the region are still ranked but have low priority, no hard block | Drive buffer +10min on original drive. Drive 4min + buffer 10min = 14min",
+      "conflict": "",
+      "mapped_rules": [
+        "SC region enforcement strict",
+        "SC drive buffer 10min"
+      ]
+    }
+  },
+  {
+    "name": "d207-service-commitments-37-max-last-appointment-departure-",
+    "description": "CSV240 Service Commitments #37: Max Last Appointment Departure Time (4:00 PM) + Arrival Window Duration Override (2h) + Region Enforcement (Soft)",
+    "config": {
+      "service-commitment": {
+        "arrival_window_hours": {
+          "status": 1,
+          "value": 2
+        },
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "37",
+      "group": "3 fields (Soft)",
+      "condition": "Max Last Appointment Departure Time (4:00 PM) + Arrival Window Duration Override (2h) + Region Enforcement (Soft)",
+      "expected": "Strict 4:00 PM cutoff \u2014 no jobs will end after 4:00 PM | Override Time Window to 2h. Job 1:00 PM displays 12:00 PM - 2:00 PM | Region soft \u2014 jobs outside the region are still ranked but have low priority, no hard block",
+      "conflict": "",
+      "mapped_rules": [
+        "SC arrival window 2h",
+        "SC region enforcement strict"
+      ]
+    }
+  },
+  {
+    "name": "d208-service-commitments-38-max-last-appointment-departure-",
+    "description": "CSV240 Service Commitments #38: Max Last Appointment Departure Time (4:00 PM) + Region Enforcement (Soft) + Customer Scheduling Preferences (ON)",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        },
+        "customer_scheduling_preferences": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "38",
+      "group": "3 fields (Soft)",
+      "condition": "Max Last Appointment Departure Time (4:00 PM) + Region Enforcement (Soft) + Customer Scheduling Preferences (ON)",
+      "expected": "Strict 4:00 PM cutoff \u2014 no jobs will end after 4:00 PM | Region soft \u2014 jobs outside the region are still ranked but have low priority, no hard block | Honor customer scheduling preferences \u2014 sort according to customer preferences",
+      "conflict": "",
+      "mapped_rules": [
+        "SC region enforcement strict",
+        "SC customer scheduling preferences on"
+      ]
+    }
+  },
+  {
+    "name": "d209-service-commitments-39-max-last-appointment-departure-",
+    "description": "CSV240 Service Commitments #39: Max Last Appointment Departure Time (4:00 PM) + Region Enforcement (Soft) + Add Drive Buffer Time (10 min)",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        },
+        "drive_buffer": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "39",
+      "group": "3 fields (Soft)",
+      "condition": "Max Last Appointment Departure Time (4:00 PM) + Region Enforcement (Soft) + Add Drive Buffer Time (10 min)",
+      "expected": "Strict 4:00 PM cutoff \u2014 no jobs will end after 4:00 PM | Region soft \u2014 jobs outside the region are still ranked but have low priority, no hard block | Drive buffer +10min on original drive. Drive 4min + buffer 10min = 14min",
+      "conflict": "",
+      "mapped_rules": [
+        "SC region enforcement strict",
+        "SC drive buffer 10min"
+      ]
+    }
+  },
+  {
+    "name": "d210-service-commitments-40-arrival-window-duration-overrid",
+    "description": "CSV240 Service Commitments #40: Arrival Window Duration Override (2h) + Region Enforcement (Soft) + Customer Scheduling Preferences (ON)",
+    "config": {
+      "service-commitment": {
+        "arrival_window_hours": {
+          "status": 1,
+          "value": 2
+        },
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        },
+        "customer_scheduling_preferences": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "40",
+      "group": "3 fields (Soft)",
+      "condition": "Arrival Window Duration Override (2h) + Region Enforcement (Soft) + Customer Scheduling Preferences (ON)",
+      "expected": "Override Time Window to 2h. Job 1:00 PM displays 12:00 PM - 2:00 PM | Region soft \u2014 jobs outside the region are still ranked but have low priority, no hard block | Honor customer scheduling preferences \u2014 sort according to customer preferences",
+      "conflict": "",
+      "mapped_rules": [
+        "SC arrival window 2h",
+        "SC region enforcement strict",
+        "SC customer scheduling preferences on"
+      ]
+    }
+  },
+  {
+    "name": "d211-service-commitments-41-arrival-window-duration-overrid",
+    "description": "CSV240 Service Commitments #41: Arrival Window Duration Override (2h) + Region Enforcement (Soft) + Add Drive Buffer Time (10 min)",
+    "config": {
+      "service-commitment": {
+        "arrival_window_hours": {
+          "status": 1,
+          "value": 2
+        },
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        },
+        "drive_buffer": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "41",
+      "group": "3 fields (Soft)",
+      "condition": "Arrival Window Duration Override (2h) + Region Enforcement (Soft) + Add Drive Buffer Time (10 min)",
+      "expected": "Override Time Window to 2h. Job 1:00 PM displays 12:00 PM - 2:00 PM | Region soft \u2014 jobs outside the region are still ranked but have low priority, no hard block | Drive buffer +10min on original drive. Drive 4min + buffer 10min = 14min",
+      "conflict": "",
+      "mapped_rules": [
+        "SC arrival window 2h",
+        "SC region enforcement strict",
+        "SC drive buffer 10min"
+      ]
+    }
+  },
+  {
+    "name": "d212-service-commitments-42-region-enforcement-soft-custome",
+    "description": "CSV240 Service Commitments #42: Region Enforcement (Soft) + Customer Scheduling Preferences (ON) + Add Drive Buffer Time (10 min)",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        },
+        "drive_buffer": {
+          "status": 1,
+          "value": 10
+        },
+        "customer_scheduling_preferences": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "42",
+      "group": "3 fields (Soft)",
+      "condition": "Region Enforcement (Soft) + Customer Scheduling Preferences (ON) + Add Drive Buffer Time (10 min)",
+      "expected": "Region soft \u2014 jobs outside the region are still ranked but have low priority, no hard block | Honor customer scheduling preferences \u2014 sorted by customer preferences | Drive buffer +10min on original drive. Drive 4min + buffer 10min = 14min",
+      "conflict": "",
+      "mapped_rules": [
+        "SC region enforcement strict",
+        "SC drive buffer 10min",
+        "SC customer scheduling preferences on"
+      ]
+    }
+  },
+  {
+    "name": "d213-service-commitments-43-max-last-appointment-departure-",
+    "description": "CSV240 Service Commitments #43: Max Last Appointment Departure Time (4:00 PM) + Arrival Window Duration Override (2h) + Region Enforcement (Soft) + Customer Scheduling Preferences (ON)",
+    "config": {
+      "service-commitment": {
+        "arrival_window_hours": {
+          "status": 1,
+          "value": 2
+        },
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        },
+        "customer_scheduling_preferences": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "43",
+      "group": "4 fields (Soft)",
+      "condition": "Max Last Appointment Departure Time (4:00 PM) + Arrival Window Duration Override (2h) + Region Enforcement (Soft) + Customer Scheduling Preferences (ON)",
+      "expected": "Strict 4:00 PM cutoff \u2014 no jobs will end after 4:00 PM | Override Time Window to 2h. Job 1:00 PM displays 12:00 PM - 2:00 PM | Region soft \u2014 jobs outside the region are still ranked but have low priority, no hard block | Honor customer scheduling preferences \u2014 sort according to customer preferences",
+      "conflict": "",
+      "mapped_rules": [
+        "SC arrival window 2h",
+        "SC region enforcement strict",
+        "SC customer scheduling preferences on"
+      ]
+    }
+  },
+  {
+    "name": "d214-service-commitments-44-max-last-appointment-departure-",
+    "description": "CSV240 Service Commitments #44: Max Last Appointment Departure Time (4:00 PM) + Arrival Window Duration Override (2h) + Region Enforcement (Soft) + Add Drive Buffer Time (10 min)",
+    "config": {
+      "service-commitment": {
+        "arrival_window_hours": {
+          "status": 1,
+          "value": 2
+        },
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        },
+        "drive_buffer": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "44",
+      "group": "4 fields (Soft)",
+      "condition": "Max Last Appointment Departure Time (4:00 PM) + Arrival Window Duration Override (2h) + Region Enforcement (Soft) + Add Drive Buffer Time (10 min)",
+      "expected": "Strict 4:00 PM cutoff \u2014 no jobs will end after 4:00 PM | Override Time Window to 2h. Job 1:00 PM displays 12:00 PM - 2:00 PM | Region soft \u2014 jobs outside the region are still ranked but have low priority, no hard block | Drive buffer +10min on original drive. Drive 4min + buffer 10min = 14min",
+      "conflict": "",
+      "mapped_rules": [
+        "SC arrival window 2h",
+        "SC region enforcement strict",
+        "SC drive buffer 10min"
+      ]
+    }
+  },
+  {
+    "name": "d215-service-commitments-45-max-last-appointment-departure-",
+    "description": "CSV240 Service Commitments #45: Max Last Appointment Departure Time (4:00 PM) + Region Enforcement (Soft) + Customer Scheduling Preferences (ON) + Add Drive Buffer Time (10 min)",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        },
+        "drive_buffer": {
+          "status": 1,
+          "value": 10
+        },
+        "customer_scheduling_preferences": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "45",
+      "group": "4 fields (Soft)",
+      "condition": "Max Last Appointment Departure Time (4:00 PM) + Region Enforcement (Soft) + Customer Scheduling Preferences (ON) + Add Drive Buffer Time (10 min)",
+      "expected": "Strict 4:00 PM cutoff \u2014 no jobs will end after 4:00 PM | Region soft \u2014 jobs outside the region are still ranked but have low priority, no hard block | Honor customer scheduling preferences \u2014 sorted by customer preferences | Drive buffer +10min on original drive. Drive 4min + buffer 10min = 14min",
+      "conflict": "",
+      "mapped_rules": [
+        "SC region enforcement strict",
+        "SC drive buffer 10min",
+        "SC customer scheduling preferences on"
+      ]
+    }
+  },
+  {
+    "name": "d216-service-commitments-46-arrival-window-duration-overrid",
+    "description": "CSV240 Service Commitments #46: Arrival Window Duration Override (2h) + Region Enforcement (Soft) + Customer Scheduling Preferences (ON) + Add Drive Buffer Time (10 min)",
+    "config": {
+      "service-commitment": {
+        "arrival_window_hours": {
+          "status": 1,
+          "value": 2
+        },
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        },
+        "drive_buffer": {
+          "status": 1,
+          "value": 10
+        },
+        "customer_scheduling_preferences": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "46",
+      "group": "4 fields (Soft)",
+      "condition": "Arrival Window Duration Override (2h) + Region Enforcement (Soft) + Customer Scheduling Preferences (ON) + Add Drive Buffer Time (10 min)",
+      "expected": "Override Time Window to 2h. Job 1:00 PM displays 12:00 PM - 2:00 PM | Region soft \u2014 jobs outside the region are still ranked but have low priority, no hard block | Honor customer scheduling preferences \u2014 sorted by customer preferences | Drive buffer +10min on original drive. Drive 4min + buffer 10min = 14min",
+      "conflict": "",
+      "mapped_rules": [
+        "SC arrival window 2h",
+        "SC region enforcement strict",
+        "SC drive buffer 10min",
+        "SC customer scheduling preferences on"
+      ]
+    }
+  },
+  {
+    "name": "d217-service-commitments-47-max-last-appointment-departure-",
+    "description": "CSV240 Service Commitments #47: Max Last Appointment Departure Time (4:00 PM) + Arrival Window Duration Override (2h) + Region Enforcement (Soft) + Customer Scheduling Preferences (ON) + Add Drive Buffer Time (10 min)",
+    "config": {
+      "service-commitment": {
+        "arrival_window_hours": {
+          "status": 1,
+          "value": 2
+        },
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        },
+        "drive_buffer": {
+          "status": 1,
+          "value": 10
+        },
+        "customer_scheduling_preferences": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "47",
+      "group": "5 fields (Soft)",
+      "condition": "Max Last Appointment Departure Time (4:00 PM) + Arrival Window Duration Override (2h) + Region Enforcement (Soft) + Customer Scheduling Preferences (ON) + Add Drive Buffer Time (10 min)",
+      "expected": "Strict 4:00 PM cutoff \u2014 no jobs will end after 4:00 PM | Override Time Window to 2h. Job 1:00 PM displays 12:00 PM - 2:00 PM | Region soft \u2014 jobs outside the region are still ranked but have low priority, no hard block | Honor customer scheduling preferences \u2014 sorted by customer preferences | Drive buffer +10min on original drive. Drive 4min + buffer 10min = 14min",
+      "conflict": "",
+      "mapped_rules": [
+        "SC arrival window 2h",
+        "SC region enforcement strict",
+        "SC drive buffer 10min",
+        "SC customer scheduling preferences on"
+      ]
+    }
+  },
+  {
+    "name": "d218-service-commitments-49-arrival-window-duration-overrid",
+    "description": "CSV240 Service Commitments #49: Arrival Window Duration Override = 0h",
+    "config": {
+      "service-commitment": {
+        "arrival_window_hours": {
+          "status": 1,
+          "value": 2
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "49",
+      "group": "Edge Case",
+      "condition": "Arrival Window Duration Override = 0h",
+      "expected": "Window = 0h, point-in-time only. Job displays on time, no window. Verify UI/logic for 0h.",
+      "conflict": "",
+      "mapped_rules": [
+        "SC arrival window 2h"
+      ]
+    }
+  },
+  {
+    "name": "d219-service-commitments-50-region-enforcement-soft-job-out",
+    "description": "CSV240 Service Commitments #50: Region Enforcement (Soft) \u2014 job outside region",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "50",
+      "group": "Edge Case",
+      "condition": "Region Enforcement (Soft) \u2014 job outside region",
+      "expected": "Scheduled, low priority, no hard block. Jobs are still assigned but ranked behind jobs in the region.",
+      "conflict": "",
+      "mapped_rules": [
+        "SC region enforcement strict"
+      ]
+    }
+  },
+  {
+    "name": "d220-service-commitments-53-region-enforcement-strict-custo",
+    "description": "CSV240 Service Commitments #53: Region Enforcement (Strict) + Customer Pref conflict (customer in different region)",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "53",
+      "group": "Edge Case",
+      "condition": "Region Enforcement (Strict) + Customer Pref conflict (customer in different region)",
+      "expected": "Strict region wins \u2014 customer preference overridden, jobs not assigned to techs outside the region. Priority: Strict > Customer Pref.",
+      "conflict": "",
+      "mapped_rules": [
+        "SC region enforcement strict"
+      ]
+    }
+  },
+  {
+    "name": "d221-service-commitments-54-customer-pref-on-arrival-window",
+    "description": "CSV240 Service Commitments #54: Customer Pref (ON) + Arrival Window (2h): window spans 2 time slots",
+    "config": {
+      "service-commitment": {
+        "arrival_window_hours": {
+          "status": 1,
+          "value": 2
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Service Commitments",
+      "id": "54",
+      "group": "Edge Case",
+      "condition": "Customer Pref (ON) + Arrival Window (2h): window spans 2 time slots",
+      "expected": "Honor customer window first, apply 2h override on top. Verify: customer window priority, 2h override applies later.",
+      "conflict": "",
+      "mapped_rules": [
+        "SC arrival window 2h"
+      ]
+    }
+  },
+  {
+    "name": "d222-cross-module-1-default-service-hours-8-30am-6pm-workfo",
+    "description": "CSV240 Cross-Module #1: Default Service Hours (8:30AM-6PM) + Workforce Boundaries",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Cross-Module",
+      "id": "1",
+      "group": "1 module",
+      "condition": "Default Service Hours (8:30AM-6PM) + Workforce Boundaries",
+      "expected": "Jobs only ranks in 8:30AM-6PM. All other module rules are OFF.",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00"
+      ]
+    }
+  },
+  {
+    "name": "d223-cross-module-2-max-travel-distance-10mi-skill-matching",
+    "description": "CSV240 Cross-Module #2: Max Travel Distance (10mi) + Skill Matching (ON) + Route Efficiency",
+    "config": {
+      "route-efficiency": {
+        "max_travel_distance_miles": {
+          "status": 1,
+          "value": 10
+        },
+        "tech_skill_matching": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Cross-Module",
+      "id": "2",
+      "group": "1 module",
+      "condition": "Max Travel Distance (10mi) + Skill Matching (ON) + Route Efficiency",
+      "expected": "Hard cap 10mi + skill filter. All other module rules are OFF.",
+      "conflict": "",
+      "mapped_rules": [
+        "RE max travel distance 10mi",
+        "RE skill matching on"
+      ]
+    }
+  },
+  {
+    "name": "d224-cross-module-3-max-last-appt-4pm-region-enforcement-st",
+    "description": "CSV240 Cross-Module #3: Max Last Appt (4PM) + Region Enforcement (Strict) + Service Commitments",
+    "config": {
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 1,
+          "value": 960
+        },
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Cross-Module",
+      "id": "3",
+      "group": "1 module",
+      "condition": "Max Last Appt (4PM) + Region Enforcement (Strict) + Service Commitments",
+      "expected": "Strict 4PM cutoff + region block. All other module rules are OFF.",
+      "conflict": "",
+      "mapped_rules": [
+        "SC max last appointment/departure 16:00",
+        "SC region enforcement strict"
+      ]
+    }
+  },
+  {
+    "name": "d225-cross-module-5-service-hours-8-30am-6pm-max-travel-dis",
+    "description": "CSV240 Cross-Module #5: Service Hours (8:30AM-6PM) + Max Travel Distance (10mi) + WB + RE",
+    "config": {
+      "route-efficiency": {
+        "max_travel_distance_miles": {
+          "status": 1,
+          "value": 10
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Cross-Module",
+      "id": "5",
+      "group": "2 modules",
+      "condition": "Service Hours (8:30AM-6PM) + Max Travel Distance (10mi) + WB + RE",
+      "expected": "Jobs trong 8:30AM-6PM + travel \u226410mi. SC + CR OFF.",
+      "conflict": "",
+      "mapped_rules": [
+        "RE max travel distance 10mi"
+      ]
+    }
+  },
+  {
+    "name": "d226-cross-module-6-max-jobs-15-preferred-tech-strict-skill",
+    "description": "CSV240 Cross-Module #6: Max Jobs (15) + Preferred Tech (Strict) + Skill Matching + WB + RE",
+    "config": {
+      "route-efficiency": {
+        "tech_skill_matching": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Cross-Module",
+      "id": "6",
+      "group": "2 modules",
+      "condition": "Max Jobs (15) + Preferred Tech (Strict) + Skill Matching + WB + RE",
+      "expected": "Max 15 jobs/tech + strict preferred tech + skill filter. SC + CR OFF.",
+      "conflict": "",
+      "mapped_rules": [
+        "RE skill matching on"
+      ]
+    }
+  },
+  {
+    "name": "d227-cross-module-7-service-hours-8-30am-6pm-max-last-appt-",
+    "description": "CSV240 Cross-Module #7: Service Hours (8:30AM-6PM) + Max Last Appt (4PM) + WB + SC",
+    "config": {
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 1,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Cross-Module",
+      "id": "7",
+      "group": "2 modules",
+      "condition": "Service Hours (8:30AM-6PM) + Max Last Appt (4PM) + WB + SC",
+      "expected": "Service hours 8:30-6PM but Max Last Appt 4PM strict \u2192 cutoff earlier. RE + CR OFF.",
+      "conflict": "",
+      "mapped_rules": [
+        "SC max last appointment/departure 16:00"
+      ]
+    }
+  },
+  {
+    "name": "d228-cross-module-8-max-shift-end-6pm-drive-buffer-10min-re",
+    "description": "CSV240 Cross-Module #8: Max Shift End (6PM) + Drive Buffer (10min) + Region Enforcement (Strict) + WB + SC",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Cross-Module",
+      "id": "8",
+      "group": "2 modules",
+      "condition": "Max Shift End (6PM) + Drive Buffer (10min) + Region Enforcement (Strict) + WB + SC",
+      "expected": "Hard stop 6PM + buffer +10min + region block. RE + CR OFF.",
+      "conflict": "",
+      "mapped_rules": [
+        "SC region enforcement strict"
+      ]
+    }
+  },
+  {
+    "name": "d229-cross-module-11-max-travel-distance-10mi-max-last-appt",
+    "description": "CSV240 Cross-Module #11: Max Travel Distance (10mi) + Max Last Appt (4PM) + RE + SC",
+    "config": {
+      "route-efficiency": {
+        "max_travel_distance_miles": {
+          "status": 1,
+          "value": 10
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 1,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Cross-Module",
+      "id": "11",
+      "group": "2 modules",
+      "condition": "Max Travel Distance (10mi) + Max Last Appt (4PM) + RE + SC",
+      "expected": "Travel \u226410mi + strict 4PM cutoff. WB + CR OFF.",
+      "conflict": "",
+      "mapped_rules": [
+        "RE max travel distance 10mi",
+        "SC max last appointment/departure 16:00"
+      ]
+    }
+  },
+  {
+    "name": "d230-cross-module-12-preferred-tech-strict-region-enforceme",
+    "description": "CSV240 Cross-Module #12: Preferred Tech (Strict) + Region Enforcement (Strict) + RE + SC",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Cross-Module",
+      "id": "12",
+      "group": "2 modules",
+      "condition": "Preferred Tech (Strict) + Region Enforcement (Strict) + RE + SC",
+      "expected": "Strict preferred tech + strict region. If preferred tech is out of region \u2192 conflict. WB + CR OFF.",
+      "conflict": "POTENTIAL CONFLICT",
+      "mapped_rules": [
+        "SC region enforcement strict"
+      ]
+    }
+  },
+  {
+    "name": "d231-cross-module-17-service-hours-8-30-6pm-max-travel-dist",
+    "description": "CSV240 Cross-Module #17: Service Hours (8:30-6PM) + Max Travel Distance (10mi) + Max Last Appt (4PM) + WB + RE + SC",
+    "config": {
+      "route-efficiency": {
+        "max_travel_distance_miles": {
+          "status": 1,
+          "value": 10
+        }
+      },
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 1,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Cross-Module",
+      "id": "17",
+      "group": "3 modules",
+      "condition": "Service Hours (8:30-6PM) + Max Travel Distance (10mi) + Max Last Appt (4PM) + WB + RE + SC",
+      "expected": "Jobs trong 8:30-6PM, travel \u226410mi, cutoff 4PM. 3 time/capacity constraints overlap. CR OFF.",
+      "conflict": "",
+      "mapped_rules": [
+        "RE max travel distance 10mi",
+        "SC max last appointment/departure 16:00"
+      ]
+    }
+  },
+  {
+    "name": "d232-cross-module-18-max-jobs-15-preferred-tech-strict-regi",
+    "description": "CSV240 Cross-Module #18: Max Jobs (15) + Preferred Tech (Strict) + Region Enforcement (Strict) + WB + RE + SC",
+    "config": {
+      "service-commitment": {
+        "region_enforcement": {
+          "status": 1,
+          "value": "strict"
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Cross-Module",
+      "id": "18",
+      "group": "3 modules",
+      "condition": "Max Jobs (15) + Preferred Tech (Strict) + Region Enforcement (Strict) + WB + RE + SC",
+      "expected": "Max 15 + strict preferred + strict region. If preferred tech is out of region \u2192 unassigned. CR OFF.",
+      "conflict": "POTENTIAL CONFLICT",
+      "mapped_rules": [
+        "SC region enforcement strict"
+      ]
+    }
+  },
+  {
+    "name": "d233-cross-module-24-preferred-tech-strict-max-last-appt-4p",
+    "description": "CSV240 Cross-Module #24: Preferred Tech (Strict) + Max Last Appt (4PM) + movement_limit(3) + last_stop + RE + SC + CR",
+    "config": {
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 1,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Cross-Module",
+      "id": "24",
+      "group": "3 modules",
+      "condition": "Preferred Tech (Strict) + Max Last Appt (4PM) + movement_limit(3) + last_stop + RE + SC + CR",
+      "expected": "Strict preferred + 4PM cutoff + 3 day limit + last job. WB OFF.",
+      "conflict": "",
+      "mapped_rules": [
+        "SC max last appointment/departure 16:00"
+      ]
+    }
+  },
+  {
+    "name": "d234-cross-module-28-workload-fairness-on-max-shift-travel-",
+    "description": "CSV240 Cross-Module #28: Workload Fairness (ON) + Max Shift Travel (120min) + Customer Scheduling Pref (ON) + arrival_window_duration (3600s) + prefer_tech + WB + RE + SC + CR",
+    "config": {
+      "workforce-boundaries": {
+        "workload_balance": 1
+      },
+      "route-efficiency": {
+        "max_shift_travel_time_minutes": {
+          "status": 1,
+          "value": 120
+        }
+      },
+      "service-commitment": {
+        "customer_scheduling_preferences": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Cross-Module",
+      "id": "28",
+      "group": "4 modules",
+      "condition": "Workload Fairness (ON) + Max Shift Travel (120min) + Customer Scheduling Pref (ON) + arrival_window_duration (3600s) + prefer_tech + WB + RE + SC + CR",
+      "expected": "Balance + shift travel \u2264120min + customer pref + \u00b130min window + soft preferred. All soft/best-effort.",
+      "conflict": "",
+      "mapped_rules": [
+        "WB workload fairness on",
+        "RE max shift travel 120min",
+        "SC customer scheduling preferences on"
+      ]
+    }
+  },
+  {
+    "name": "d235-cross-module-30-max-shift-end-wb-vs-max-last-appt-sc-w",
+    "description": "CSV240 Cross-Module #30: Max Shift End (WB) vs Max Last Appt (SC) + WB + SC",
+    "config": {
+      "service-commitment": {
+        "max_departure_time": {
+          "status": 1,
+          "value": 960
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Cross-Module",
+      "id": "30",
+      "group": "Cross-module Edge",
+      "condition": "Max Shift End (WB) vs Max Last Appt (SC) + WB + SC",
+      "expected": "Max Shift End = 6PM, Max Last Appt = 4PM. SC strict \u2192 cutoff 4PM wins. Job does not end after 4PM.",
+      "conflict": "",
+      "mapped_rules": [
+        "SC max last appointment/departure 16:00"
+      ]
+    }
+  },
+  {
+    "name": "d236-cross-module-38-arrival-window-override-sc-vs-arrival-",
+    "description": "CSV240 Cross-Module #38: Arrival Window Override (SC) vs arrival_window_duration (CR) + SC + CR",
+    "config": {
+      "service-commitment": {
+        "arrival_window_hours": {
+          "status": 1,
+          "value": 2
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Cross-Module",
+      "id": "38",
+      "group": "Cross-module Edge",
+      "condition": "Arrival Window Override (SC) vs arrival_window_duration (CR) + SC + CR",
+      "expected": "SC override Time Window + CR set \u00b130min. CR applies on top of SC. Verify: customer window = SC override \u00b1 CR duration.",
+      "conflict": "",
+      "mapped_rules": [
+        "SC arrival window 2h"
+      ]
+    }
+  },
+  {
+    "name": "d237-cross-module-41-preferred-tech-soft-re-vs-customer-sch",
+    "description": "CSV240 Cross-Module #41: Preferred Tech Soft (RE) vs Customer Scheduling Pref (SC) vs prefer_tech (CR) + RE + SC + CR",
+    "config": {
+      "route-efficiency": {
+        "preferred_tech_matching": {
+          "status": 1,
+          "value": "soft"
+        }
+      },
+      "service-commitment": {
+        "customer_scheduling_preferences": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Cross-Module",
+      "id": "41",
+      "group": "Cross-module Edge",
+      "condition": "Preferred Tech Soft (RE) vs Customer Scheduling Pref (SC) vs prefer_tech (CR) + RE + SC + CR",
+      "expected": "3 soft preferences apply together. Verify: priority order between RE preferred, SC customer pref, CR prefer_tech.",
+      "conflict": "",
+      "mapped_rules": [
+        "RE preferred tech soft",
+        "SC customer scheduling preferences on"
+      ]
+    }
+  },
+  {
+    "name": "d238-workforce-boundaries-e4-workload-fairness-on-only-1-te",
+    "description": "CSV240 Workforce Boundaries #E4: Workload Fairness ON + only 1 technician active (rest excluded/off)",
+    "config": {
+      "workforce-boundaries": {
+        "workload_balance": 1
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "E4",
+      "group": "Edge Case",
+      "condition": "Workload Fairness ON + only 1 technician active (rest excluded/off)",
+      "expected": "Can't balance \u2014 just 1 tech, all jobs assigned to that tech. Fairness doesn't work.",
+      "conflict": "",
+      "mapped_rules": [
+        "WB workload fairness on"
+      ]
+    }
+  },
+  {
+    "name": "d239-workforce-boundaries-e5-max-shift-end-time-default-ser",
+    "description": "CSV240 Workforce Boundaries #E5: Max Shift End Time < Default Service Hours start (vd: Max Shift End = 7AM, Service = 8AM-6PM)",
+    "config": {
+      "workforce-boundaries": {
+        "default_service_hours": {
+          "status": 1,
+          "value": {
+            "system_default": 0,
+            "start": 510,
+            "end": 1080
+          }
+        },
+        "max_shift_end_time": {
+          "status": 1,
+          "value": 1080
+        }
+      }
+    },
+    "filters": {
+      "schedule_ids": "245",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-29T23:59:59+00:00",
+      "statuses": -1,
+      "inc": "recurring",
+      "color_id": 1,
+      "exclude": []
+    },
+    "expected_source": {
+      "file": "module-rules-testcases.csv",
+      "module": "Workforce Boundaries",
+      "id": "E5",
+      "group": "Edge Case",
+      "condition": "Max Shift End Time < Default Service Hours start (vd: Max Shift End = 7AM, Service = 8AM-6PM)",
+      "expected": "Window impossible. 0 jobs can be ranked. Blocked.",
+      "conflict": "",
+      "mapped_rules": [
+        "WB service window 08:30-18:00",
+        "WB max shift end 18:00"
+      ]
+    }
+  }
+]

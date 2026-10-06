@@ -1,0 +1,7976 @@
+[
+  {
+    "job": {
+      "id": "8497",
+      "name": "Wasp Nest Removal",
+      "status": 0,
+      "service": {
+        "id": "219",
+        "name": "Wasp Nest Removal"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 08:42AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8493",
+      "start": "2026-10-05T11:09:00+00:00",
+      "end": "2026-10-05T11:54:00+00:00",
+      "repeat": 0,
+      "length": 45,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2995",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "14790",
+      "account_no": "5015",
+      "title": "",
+      "first_name": "nami",
+      "last_name": "",
+      "full_name": "nami ",
+      "avatar": "n",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "14858",
+      "name": "Rotonda Boulevard West",
+      "note": "",
+      "street1": "Rotonda Boulevard West",
+      "street2": "",
+      "city": "Rotonda West",
+      "state": "FL",
+      "zip": "33947",
+      "lat": "26.89262",
+      "lng": "-82.2920725",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "7042",
+      "name": "Call Back Service",
+      "status": 1,
+      "service": {
+        "id": "208",
+        "name": "Call Back Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "09/30/2026 02:51PM"
+      },
+      "locked": 0,
+      "previously_completed": 1,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "7038",
+      "start": "2026-10-05T09:06:00+00:00",
+      "end": "2026-10-05T09:36:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2574",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "14861",
+      "account_no": "2973_6",
+      "title": "",
+      "first_name": "Test6",
+      "last_name": "Routing",
+      "full_name": "Test6 Routing",
+      "avatar": "TR",
+      "email": "test_auto_6@namlongsoft.net",
+      "phones": []
+    },
+    "location": {
+      "id": "14867",
+      "name": "300 Parade Cir",
+      "note": "",
+      "street1": "300 Parade Cir",
+      "street2": "",
+      "city": "Rotonda West",
+      "state": "FL",
+      "zip": "33947",
+      "lat": "26.882",
+      "lng": "-82.288",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": [
+        {
+          "id": "14838",
+          "email": "test_auto_6@namlongsoft.net",
+          "type": "customer"
+        }
+      ]
+    },
+    "contact": [],
+    "with_invoice": 1,
+    "invoice": {
+      "id": "40",
+      "status": "draft",
+      "total": "$0.00"
+    },
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "7045",
+      "name": "Follow Up Inspections",
+      "status": 0,
+      "service": {
+        "id": "222",
+        "name": "Follow Up Inspections"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "09/30/2026 02:52PM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "7041",
+      "start": "2026-10-05T13:25:00+00:00",
+      "end": "2026-10-05T13:55:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2577",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "14864",
+      "account_no": "6136_9",
+      "title": "",
+      "first_name": "Test_9",
+      "last_name": "Routing",
+      "full_name": "Test_9 Routing",
+      "avatar": "TR",
+      "email": "test_auto_9@namlongsoft.net",
+      "phones": []
+    },
+    "location": {
+      "id": "14870",
+      "name": "3100 Tamiami Trail",
+      "note": "",
+      "street1": "3100 Tamiami Trail",
+      "street2": "",
+      "city": "Port Charlotte",
+      "state": "FL",
+      "zip": "33952",
+      "lat": "26.975",
+      "lng": "-82.105",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": [
+        {
+          "id": "14841",
+          "email": "test_auto_9@namlongsoft.net",
+          "type": "customer"
+        }
+      ]
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "6815",
+      "name": "Call Back Service",
+      "status": 2,
+      "service": {
+        "id": "208",
+        "name": "Call Back Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "09/30/2026 02:21PM"
+      },
+      "locked": 0,
+      "previously_completed": 1,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "6811",
+      "start": "2026-10-05T11:49:00+00:00",
+      "end": "2026-10-05T12:34:00+00:00",
+      "repeat": 0,
+      "length": 45,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2411",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "14790",
+      "account_no": "5015",
+      "title": "",
+      "first_name": "nami",
+      "last_name": "",
+      "full_name": "nami ",
+      "avatar": "n",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "14858",
+      "name": "Rotonda Boulevard West",
+      "note": "",
+      "street1": "Rotonda Boulevard West",
+      "street2": "",
+      "city": "Rotonda West",
+      "state": "FL",
+      "zip": "33947",
+      "lat": "26.89262",
+      "lng": "-82.2920725",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 1,
+    "invoice": {
+      "id": "36",
+      "status": "draft",
+      "total": "$0.00"
+    },
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8507",
+      "name": "Every 21 Days",
+      "status": 1,
+      "service": {
+        "id": "210",
+        "name": "Every 21 Days"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:17AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8503",
+      "start": "2026-10-04T11:13:00+00:00",
+      "end": "2026-10-04T11:43:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3005",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15523",
+      "account_no": "SEB_8491_18",
+      "title": "",
+      "first_name": "FL Routing Test 04",
+      "last_name": "",
+      "full_name": "FL Routing Test 04 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15530",
+      "name": "FL Routing Test 04",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Fort Pierce (Routing Test Location)",
+      "street2": "",
+      "city": "Fort Pierce",
+      "state": "FL",
+      "zip": "34950",
+      "lat": "27.4467056",
+      "lng": "-80.3256056",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8505",
+      "name": "Flea & Tick Control",
+      "status": 1,
+      "service": {
+        "id": "220",
+        "name": "Flea & Tick Control"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:17AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8501",
+      "start": "2026-10-12T11:21:00+00:00",
+      "end": "2026-10-12T11:51:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3003",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15523",
+      "account_no": "SEB_8491_18",
+      "title": "",
+      "first_name": "FL Routing Test 04",
+      "last_name": "",
+      "full_name": "FL Routing Test 04 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15530",
+      "name": "FL Routing Test 04",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Fort Pierce (Routing Test Location)",
+      "street2": "",
+      "city": "Fort Pierce",
+      "state": "FL",
+      "zip": "34950",
+      "lat": "27.4467056",
+      "lng": "-80.3256056",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8508",
+      "name": "Call Back Service",
+      "status": 1,
+      "service": {
+        "id": "208",
+        "name": "Call Back Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:18AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8504",
+      "start": "2026-10-10T08:00:00+00:00",
+      "end": "2026-10-10T08:15:00+00:00",
+      "repeat": 0,
+      "length": 15,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3006",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15524",
+      "account_no": "SEB_8491_19",
+      "title": "",
+      "first_name": "FL Routing Test 05",
+      "last_name": "",
+      "full_name": "FL Routing Test 05 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15531",
+      "name": "FL Routing Test 05",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Titusville (Routing Test Location)",
+      "street2": "",
+      "city": "Titusville",
+      "state": "FL",
+      "zip": "32796",
+      "lat": "28.6126236",
+      "lng": "-80.8079545",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8509",
+      "name": "Call Back Service",
+      "status": 1,
+      "service": {
+        "id": "208",
+        "name": "Call Back Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:18AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8505",
+      "start": "2026-10-10T08:15:00+00:00",
+      "end": "2026-10-10T08:30:00+00:00",
+      "repeat": 0,
+      "length": 15,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3007",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15524",
+      "account_no": "SEB_8491_19",
+      "title": "",
+      "first_name": "FL Routing Test 05",
+      "last_name": "",
+      "full_name": "FL Routing Test 05 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15531",
+      "name": "FL Routing Test 05",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Titusville (Routing Test Location)",
+      "street2": "",
+      "city": "Titusville",
+      "state": "FL",
+      "zip": "32796",
+      "lat": "28.6126236",
+      "lng": "-80.8079545",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8502",
+      "name": "Flea & Tick Control",
+      "status": 1,
+      "service": {
+        "id": "220",
+        "name": "Flea & Tick Control"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:17AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8498",
+      "start": "2026-10-12T10:08:00+00:00",
+      "end": "2026-10-12T10:38:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3000",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15521",
+      "account_no": "SEB_8491_16",
+      "title": "",
+      "first_name": "FL Routing Test 02",
+      "last_name": "",
+      "full_name": "FL Routing Test 02 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15528",
+      "name": "FL Routing Test 02",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Melbourne (Routing Test Location)",
+      "street2": "",
+      "city": "Melbourne",
+      "state": "FL",
+      "zip": "32901",
+      "lat": "28.0785034",
+      "lng": "-80.6077908",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8514",
+      "name": "Call Back Service",
+      "status": 1,
+      "service": {
+        "id": "208",
+        "name": "Call Back Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:18AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8510",
+      "start": "2026-10-05T08:00:00+00:00",
+      "end": "2026-10-05T08:15:00+00:00",
+      "repeat": 0,
+      "length": 15,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3012",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15527",
+      "account_no": "SEB_8491_22",
+      "title": "",
+      "first_name": "FL Routing Test 08",
+      "last_name": "",
+      "full_name": "FL Routing Test 08 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15534",
+      "name": "FL Routing Test 08",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Tampa (Routing Test Location)",
+      "street2": "",
+      "city": "Tampa",
+      "state": "FL",
+      "zip": "33602",
+      "lat": "27.9449854",
+      "lng": "-82.4583107",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8504",
+      "name": "Flea & Tick Control",
+      "status": 1,
+      "service": {
+        "id": "220",
+        "name": "Flea & Tick Control"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:17AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8500",
+      "start": "2026-10-14T08:00:00+00:00",
+      "end": "2026-10-14T08:30:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3002",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15522",
+      "account_no": "SEB_8491_17",
+      "title": "",
+      "first_name": "FL Routing Test 03",
+      "last_name": "",
+      "full_name": "FL Routing Test 03 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15529",
+      "name": "FL Routing Test 03",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Kissimmee (Routing Test Location)",
+      "street2": "",
+      "city": "Kissimmee",
+      "state": "FL",
+      "zip": "34741",
+      "lat": "28.2918995",
+      "lng": "-81.4075838",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8506",
+      "name": "Initial Service",
+      "status": 1,
+      "service": {
+        "id": "211",
+        "name": "Initial Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:17AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8502",
+      "start": "2026-10-06T08:00:00+00:00",
+      "end": "2026-10-06T09:00:00+00:00",
+      "repeat": 0,
+      "length": 60,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3004",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15523",
+      "account_no": "SEB_8491_18",
+      "title": "",
+      "first_name": "FL Routing Test 04",
+      "last_name": "",
+      "full_name": "FL Routing Test 04 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15530",
+      "name": "FL Routing Test 04",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Fort Pierce (Routing Test Location)",
+      "street2": "",
+      "city": "Fort Pierce",
+      "state": "FL",
+      "zip": "34950",
+      "lat": "27.4467056",
+      "lng": "-80.3256056",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8537",
+      "name": "Every 21 Days",
+      "status": 1,
+      "service": {
+        "id": "210",
+        "name": "Every 21 Days"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:19AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8533",
+      "start": "2026-10-08T09:30:00+00:00",
+      "end": "2026-10-08T10:00:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3035",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15536",
+      "account_no": "SEB_8491_31",
+      "title": "",
+      "first_name": "FL Routing Test 17",
+      "last_name": "",
+      "full_name": "FL Routing Test 17 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15543",
+      "name": "FL Routing Test 17",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Boca Raton (Routing Test Location)",
+      "street2": "",
+      "city": "Boca Raton",
+      "state": "FL",
+      "zip": "33432",
+      "lat": "26.3586885",
+      "lng": "-80.0830984",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8544",
+      "name": "Flea & Tick Control",
+      "status": 3,
+      "service": {
+        "id": "220",
+        "name": "Flea & Tick Control"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 10:48AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 1
+    },
+    "event": {
+      "id": "8540",
+      "start": "2026-10-09T10:04:00+00:00",
+      "end": "2026-10-09T10:43:00+00:00",
+      "repeat": 0,
+      "length": 39,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3042",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom",
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      },
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 0
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15532",
+      "account_no": "SEB_8491_27",
+      "title": "",
+      "first_name": "FL Routing Test 13",
+      "last_name": "",
+      "full_name": "FL Routing Test 13 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15539",
+      "name": "FL Routing Test 13",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Miami (Routing Test Location)",
+      "street2": "",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33130",
+      "lat": "25.7741566",
+      "lng": "-80.1935973",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8519",
+      "name": "Rodent Control & Exclusion",
+      "status": 1,
+      "service": {
+        "id": "216",
+        "name": "Rodent Control & Exclusion"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:18AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8515",
+      "start": "2026-10-14T10:26:00+00:00",
+      "end": "2026-10-14T11:26:00+00:00",
+      "repeat": 0,
+      "length": 60,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3017",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15528",
+      "account_no": "SEB_8491_23",
+      "title": "",
+      "first_name": "FL Routing Test 09",
+      "last_name": "",
+      "full_name": "FL Routing Test 09 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15535",
+      "name": "FL Routing Test 09",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Orlando (Routing Test Location)",
+      "street2": "",
+      "city": "Orlando",
+      "state": "FL",
+      "zip": "32801",
+      "lat": "28.5421218",
+      "lng": "-81.379045",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8520",
+      "name": "Monthly Service",
+      "status": 1,
+      "service": {
+        "id": "205",
+        "name": "Monthly Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:18AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8516",
+      "start": "2026-10-14T10:25:00+00:00",
+      "end": "2026-10-14T10:40:00+00:00",
+      "repeat": 0,
+      "length": 15,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3018",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15529",
+      "account_no": "SEB_8491_24",
+      "title": "",
+      "first_name": "FL Routing Test 10",
+      "last_name": "",
+      "full_name": "FL Routing Test 10 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15536",
+      "name": "FL Routing Test 10",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Cocoa (Routing Test Location)",
+      "street2": "",
+      "city": "Cocoa",
+      "state": "FL",
+      "zip": "32922",
+      "lat": "28.3556635",
+      "lng": "-80.7325345",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "3899",
+      "name": "Call Back Service",
+      "status": 1,
+      "service": {
+        "id": "208",
+        "name": "Call Back Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "09/25/2026 04:38PM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [
+        "👍"
+      ],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "3895",
+      "start": "2026-10-04T08:30:00+00:00",
+      "end": "2026-10-04T08:45:00+00:00",
+      "repeat": 0,
+      "length": 15,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2247",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "14783",
+      "account_no": "5010",
+      "title": "",
+      "first_name": "Minh",
+      "last_name": "",
+      "full_name": "Minh ",
+      "avatar": "M",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "14784",
+      "name": "Myakka Street Northeast",
+      "note": "",
+      "street1": "Myakka Street Northeast",
+      "street2": "",
+      "city": "Palm Bay",
+      "state": "FL",
+      "zip": "32907",
+      "lat": "28.0268755",
+      "lng": "-80.6634882",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 1,
+    "invoice": {
+      "id": "26",
+      "status": "draft",
+      "total": "$0.00"
+    },
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8521",
+      "name": "Eco-Friendly Pest Solutions",
+      "status": 1,
+      "service": {
+        "id": "221",
+        "name": "Eco-Friendly Pest Solutions"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:18AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [
+        "😀"
+      ],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8517",
+      "start": "2026-10-14T13:05:00+00:00",
+      "end": "2026-10-14T14:05:00+00:00",
+      "repeat": 0,
+      "length": 60,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3019",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15529",
+      "account_no": "SEB_8491_24",
+      "title": "",
+      "first_name": "FL Routing Test 10",
+      "last_name": "",
+      "full_name": "FL Routing Test 10 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15536",
+      "name": "FL Routing Test 10",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Cocoa (Routing Test Location)",
+      "street2": "",
+      "city": "Cocoa",
+      "state": "FL",
+      "zip": "32922",
+      "lat": "28.3556635",
+      "lng": "-80.7325345",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8548",
+      "name": "Quarterly Service",
+      "status": 1,
+      "service": {
+        "id": "206",
+        "name": "Quarterly Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 10:49AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8544",
+      "start": "2026-10-10T10:37:00+00:00",
+      "end": "2026-10-10T11:16:00+00:00",
+      "repeat": 0,
+      "length": 39,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3046",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15535",
+      "account_no": "SEB_8491_30",
+      "title": "",
+      "first_name": "FL Routing Test 16",
+      "last_name": "",
+      "full_name": "FL Routing Test 16 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15542",
+      "name": "FL Routing Test 16",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Hollywood (Routing Test Location)",
+      "street2": "",
+      "city": "Hollywood",
+      "state": "FL",
+      "zip": "33020",
+      "lat": "26.0112014",
+      "lng": "-80.1494901",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8555",
+      "name": "Rodent Control & Exclusion",
+      "status": 1,
+      "service": {
+        "id": "216",
+        "name": "Rodent Control & Exclusion"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 10:49AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8551",
+      "start": "2026-10-09T10:43:00+00:00",
+      "end": "2026-10-09T11:03:00+00:00",
+      "repeat": 0,
+      "length": 20,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3053",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15532",
+      "account_no": "SEB_8491_27",
+      "title": "",
+      "first_name": "FL Routing Test 13",
+      "last_name": "",
+      "full_name": "FL Routing Test 13 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15539",
+      "name": "FL Routing Test 13",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Miami (Routing Test Location)",
+      "street2": "",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33130",
+      "lat": "25.7741566",
+      "lng": "-80.1935973",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8523",
+      "name": "Flea & Tick Control",
+      "status": 1,
+      "service": {
+        "id": "220",
+        "name": "Flea & Tick Control"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:18AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8519",
+      "start": "2026-10-12T08:00:00+00:00",
+      "end": "2026-10-12T08:30:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3021",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15530",
+      "account_no": "SEB_8491_25",
+      "title": "",
+      "first_name": "FL Routing Test 11",
+      "last_name": "",
+      "full_name": "FL Routing Test 11 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15537",
+      "name": "FL Routing Test 11",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Port St. Lucie (Routing Test Location)",
+      "street2": "",
+      "city": "Port St. Lucie",
+      "state": "FL",
+      "zip": "34983",
+      "lat": "27.2939333",
+      "lng": "-80.3503283",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8547",
+      "name": "Mosquito Reduction Program",
+      "status": 1,
+      "service": {
+        "id": "215",
+        "name": "Mosquito Reduction Program"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 10:49AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8543",
+      "start": "2026-10-10T10:15:00+00:00",
+      "end": "2026-10-10T10:37:00+00:00",
+      "repeat": 0,
+      "length": 22,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3045",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15535",
+      "account_no": "SEB_8491_30",
+      "title": "",
+      "first_name": "FL Routing Test 16",
+      "last_name": "",
+      "full_name": "FL Routing Test 16 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15542",
+      "name": "FL Routing Test 16",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Hollywood (Routing Test Location)",
+      "street2": "",
+      "city": "Hollywood",
+      "state": "FL",
+      "zip": "33020",
+      "lat": "26.0112014",
+      "lng": "-80.1494901",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8522",
+      "name": "Follow Up Inspections",
+      "status": 1,
+      "service": {
+        "id": "222",
+        "name": "Follow Up Inspections"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:18AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8518",
+      "start": "2026-10-04T09:30:00+00:00",
+      "end": "2026-10-04T10:00:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3020",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15529",
+      "account_no": "SEB_8491_24",
+      "title": "",
+      "first_name": "FL Routing Test 10",
+      "last_name": "",
+      "full_name": "FL Routing Test 10 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15536",
+      "name": "FL Routing Test 10",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Cocoa (Routing Test Location)",
+      "street2": "",
+      "city": "Cocoa",
+      "state": "FL",
+      "zip": "32922",
+      "lat": "28.3556635",
+      "lng": "-80.7325345",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8550",
+      "name": "Preventative Monitoring & Maintenance",
+      "status": 1,
+      "service": {
+        "id": "223",
+        "name": "Preventative Monitoring & Maintenance"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 10:49AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8546",
+      "start": "2026-10-16T11:00:00+00:00",
+      "end": "2026-10-16T11:20:00+00:00",
+      "repeat": 0,
+      "length": 20,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3048",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15537",
+      "account_no": "SEB_8491_32",
+      "title": "",
+      "first_name": "FL Routing Test 18",
+      "last_name": "",
+      "full_name": "FL Routing Test 18 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15544",
+      "name": "FL Routing Test 18",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Stuart (Routing Test Location)",
+      "street2": "",
+      "city": "Stuart",
+      "state": "FL",
+      "zip": "34994",
+      "lat": "27.197983",
+      "lng": "-80.2519175",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8524",
+      "name": "Termite Baiting & Monitoring",
+      "status": 1,
+      "service": {
+        "id": "214",
+        "name": "Termite Baiting & Monitoring"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:18AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8520",
+      "start": "2026-10-12T08:30:00+00:00",
+      "end": "2026-10-12T09:30:00+00:00",
+      "repeat": 0,
+      "length": 60,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3022",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15530",
+      "account_no": "SEB_8491_25",
+      "title": "",
+      "first_name": "FL Routing Test 11",
+      "last_name": "",
+      "full_name": "FL Routing Test 11 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15537",
+      "name": "FL Routing Test 11",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Port St. Lucie (Routing Test Location)",
+      "street2": "",
+      "city": "Port St. Lucie",
+      "state": "FL",
+      "zip": "34983",
+      "lat": "27.2939333",
+      "lng": "-80.3503283",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8525",
+      "name": "Wasp Nest Removal",
+      "status": 1,
+      "service": {
+        "id": "219",
+        "name": "Wasp Nest Removal"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:18AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8521",
+      "start": "2026-10-12T09:30:00+00:00",
+      "end": "2026-10-12T10:30:00+00:00",
+      "repeat": 0,
+      "length": 60,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3023",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15530",
+      "account_no": "SEB_8491_25",
+      "title": "",
+      "first_name": "FL Routing Test 11",
+      "last_name": "",
+      "full_name": "FL Routing Test 11 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15537",
+      "name": "FL Routing Test 11",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Port St. Lucie (Routing Test Location)",
+      "street2": "",
+      "city": "Port St. Lucie",
+      "state": "FL",
+      "zip": "34983",
+      "lat": "27.2939333",
+      "lng": "-80.3503283",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8517",
+      "name": "Preventative Monitoring & Maintenance",
+      "status": 1,
+      "service": {
+        "id": "223",
+        "name": "Preventative Monitoring & Maintenance"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:18AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8513",
+      "start": "2026-10-14T08:56:00+00:00",
+      "end": "2026-10-14T09:26:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3015",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15528",
+      "account_no": "SEB_8491_23",
+      "title": "",
+      "first_name": "FL Routing Test 09",
+      "last_name": "",
+      "full_name": "FL Routing Test 09 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15535",
+      "name": "FL Routing Test 09",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Orlando (Routing Test Location)",
+      "street2": "",
+      "city": "Orlando",
+      "state": "FL",
+      "zip": "32801",
+      "lat": "28.5421218",
+      "lng": "-81.379045",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8536",
+      "name": "Quarterly Pest Control",
+      "status": 1,
+      "service": {
+        "id": "213",
+        "name": "Quarterly Pest Control"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:19AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8532",
+      "start": "2026-10-08T08:30:00+00:00",
+      "end": "2026-10-08T09:30:00+00:00",
+      "repeat": 0,
+      "length": 60,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3034",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15536",
+      "account_no": "SEB_8491_31",
+      "title": "",
+      "first_name": "FL Routing Test 17",
+      "last_name": "",
+      "full_name": "FL Routing Test 17 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15543",
+      "name": "FL Routing Test 17",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Boca Raton (Routing Test Location)",
+      "street2": "",
+      "city": "Boca Raton",
+      "state": "FL",
+      "zip": "33432",
+      "lat": "26.3586885",
+      "lng": "-80.0830984",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8558",
+      "name": "Termite Baiting & Monitoring",
+      "status": 1,
+      "service": {
+        "id": "214",
+        "name": "Termite Baiting & Monitoring"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 10:49AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [
+        "😀"
+      ],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8554",
+      "start": "2026-10-10T08:30:00+00:00",
+      "end": "2026-10-10T08:51:00+00:00",
+      "repeat": 0,
+      "length": 21,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3056",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15524",
+      "account_no": "SEB_8491_19",
+      "title": "",
+      "first_name": "FL Routing Test 05",
+      "last_name": "",
+      "full_name": "FL Routing Test 05 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15531",
+      "name": "FL Routing Test 05",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Titusville (Routing Test Location)",
+      "street2": "",
+      "city": "Titusville",
+      "state": "FL",
+      "zip": "32796",
+      "lat": "28.6126236",
+      "lng": "-80.8079545",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8518",
+      "name": "Rodent Control & Exclusion",
+      "status": 1,
+      "service": {
+        "id": "216",
+        "name": "Rodent Control & Exclusion"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:18AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8514",
+      "start": "2026-10-14T09:26:00+00:00",
+      "end": "2026-10-14T10:26:00+00:00",
+      "repeat": 0,
+      "length": 60,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3016",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15528",
+      "account_no": "SEB_8491_23",
+      "title": "",
+      "first_name": "FL Routing Test 09",
+      "last_name": "",
+      "full_name": "FL Routing Test 09 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15535",
+      "name": "FL Routing Test 09",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Orlando (Routing Test Location)",
+      "street2": "",
+      "city": "Orlando",
+      "state": "FL",
+      "zip": "32801",
+      "lat": "28.5421218",
+      "lng": "-81.379045",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8551",
+      "name": "Flea & Tick Control",
+      "status": 1,
+      "service": {
+        "id": "220",
+        "name": "Flea & Tick Control"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 10:49AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8547",
+      "start": "2026-10-14T11:26:00+00:00",
+      "end": "2026-10-14T11:38:00+00:00",
+      "repeat": 0,
+      "length": 12,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3049",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15528",
+      "account_no": "SEB_8491_23",
+      "title": "",
+      "first_name": "FL Routing Test 09",
+      "last_name": "",
+      "full_name": "FL Routing Test 09 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15535",
+      "name": "FL Routing Test 09",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Orlando (Routing Test Location)",
+      "street2": "",
+      "city": "Orlando",
+      "state": "FL",
+      "zip": "32801",
+      "lat": "28.5421218",
+      "lng": "-81.379045",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8563",
+      "name": "Initial Service",
+      "status": 1,
+      "service": {
+        "id": "211",
+        "name": "Initial Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 10:49AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8559",
+      "start": "2026-10-14T09:00:00+00:00",
+      "end": "2026-10-14T09:34:00+00:00",
+      "repeat": 0,
+      "length": 34,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3061",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15538",
+      "account_no": "SEB_8491_33",
+      "title": "",
+      "first_name": "FL Routing Test 19",
+      "last_name": "",
+      "full_name": "FL Routing Test 19 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15545",
+      "name": "FL Routing Test 19",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Sebastian (Routing Test Location)",
+      "street2": "",
+      "city": "Sebastian",
+      "state": "FL",
+      "zip": "32958",
+      "lat": "27.817357",
+      "lng": "-80.4694039",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8526",
+      "name": "Follow Up Inspections",
+      "status": 1,
+      "service": {
+        "id": "222",
+        "name": "Follow Up Inspections"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:19AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8522",
+      "start": "2026-10-08T11:25:00+00:00",
+      "end": "2026-10-08T11:55:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3024",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15531",
+      "account_no": "SEB_8491_26",
+      "title": "",
+      "first_name": "FL Routing Test 12",
+      "last_name": "",
+      "full_name": "FL Routing Test 12 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15538",
+      "name": "FL Routing Test 12",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "West Palm Beach (Routing Test Location)",
+      "street2": "",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "zip": "33401",
+      "lat": "26.715364",
+      "lng": "-80.0532942",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8527",
+      "name": "Call Back Service",
+      "status": 1,
+      "service": {
+        "id": "208",
+        "name": "Call Back Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:19AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8523",
+      "start": "2026-10-09T08:49:00+00:00",
+      "end": "2026-10-09T09:04:00+00:00",
+      "repeat": 0,
+      "length": 15,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3025",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15532",
+      "account_no": "SEB_8491_27",
+      "title": "",
+      "first_name": "FL Routing Test 13",
+      "last_name": "",
+      "full_name": "FL Routing Test 13 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15539",
+      "name": "FL Routing Test 13",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Miami (Routing Test Location)",
+      "street2": "",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33130",
+      "lat": "25.7741566",
+      "lng": "-80.1935973",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8553",
+      "name": "Call Back Service",
+      "status": 1,
+      "service": {
+        "id": "208",
+        "name": "Call Back Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 10:49AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8549",
+      "start": "2026-10-14T11:38:00+00:00",
+      "end": "2026-10-14T12:18:00+00:00",
+      "repeat": 0,
+      "length": 40,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3051",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15528",
+      "account_no": "SEB_8491_23",
+      "title": "",
+      "first_name": "FL Routing Test 09",
+      "last_name": "",
+      "full_name": "FL Routing Test 09 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15535",
+      "name": "FL Routing Test 09",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Orlando (Routing Test Location)",
+      "street2": "",
+      "city": "Orlando",
+      "state": "FL",
+      "zip": "32801",
+      "lat": "28.5421218",
+      "lng": "-81.379045",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8528",
+      "name": "Every 21 Days",
+      "status": 3,
+      "service": {
+        "id": "210",
+        "name": "Every 21 Days"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:19AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8524",
+      "start": "2026-10-09T09:04:00+00:00",
+      "end": "2026-10-09T09:34:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3026",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15532",
+      "account_no": "SEB_8491_27",
+      "title": "",
+      "first_name": "FL Routing Test 13",
+      "last_name": "",
+      "full_name": "FL Routing Test 13 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15539",
+      "name": "FL Routing Test 13",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Miami (Routing Test Location)",
+      "street2": "",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33130",
+      "lat": "25.7741566",
+      "lng": "-80.1935973",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8554",
+      "name": "Eco-Friendly Pest Solutions",
+      "status": 1,
+      "service": {
+        "id": "221",
+        "name": "Eco-Friendly Pest Solutions"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 10:49AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8550",
+      "start": "2026-10-12T10:30:00+00:00",
+      "end": "2026-10-12T11:01:00+00:00",
+      "repeat": 0,
+      "length": 31,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3052",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15530",
+      "account_no": "SEB_8491_25",
+      "title": "",
+      "first_name": "FL Routing Test 11",
+      "last_name": "",
+      "full_name": "FL Routing Test 11 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15537",
+      "name": "FL Routing Test 11",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Port St. Lucie (Routing Test Location)",
+      "street2": "",
+      "city": "Port St. Lucie",
+      "state": "FL",
+      "zip": "34983",
+      "lat": "27.2939333",
+      "lng": "-80.3503283",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8529",
+      "name": "Preventative Monitoring & Maintenance",
+      "status": 1,
+      "service": {
+        "id": "223",
+        "name": "Preventative Monitoring & Maintenance"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:19AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8525",
+      "start": "2026-10-09T09:34:00+00:00",
+      "end": "2026-10-09T10:04:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3027",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15532",
+      "account_no": "SEB_8491_27",
+      "title": "",
+      "first_name": "FL Routing Test 13",
+      "last_name": "",
+      "full_name": "FL Routing Test 13 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15539",
+      "name": "FL Routing Test 13",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Miami (Routing Test Location)",
+      "street2": "",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33130",
+      "lat": "25.7741566",
+      "lng": "-80.1935973",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8556",
+      "name": "General Pest Control",
+      "status": 1,
+      "service": {
+        "id": "212",
+        "name": "General Pest Control"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 10:49AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [
+        "😀"
+      ],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8552",
+      "start": "2026-10-16T12:40:00+00:00",
+      "end": "2026-10-16T13:03:00+00:00",
+      "repeat": 0,
+      "length": 23,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3054",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15521",
+      "account_no": "SEB_8491_16",
+      "title": "",
+      "first_name": "FL Routing Test 02",
+      "last_name": "",
+      "full_name": "FL Routing Test 02 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15528",
+      "name": "FL Routing Test 02",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Melbourne (Routing Test Location)",
+      "street2": "",
+      "city": "Melbourne",
+      "state": "FL",
+      "zip": "32901",
+      "lat": "28.0785034",
+      "lng": "-80.6077908",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8557",
+      "name": "Quarterly Pest Control",
+      "status": 1,
+      "service": {
+        "id": "213",
+        "name": "Quarterly Pest Control"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 10:49AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8553",
+      "start": "2026-10-08T14:08:00+00:00",
+      "end": "2026-10-08T14:19:00+00:00",
+      "repeat": 0,
+      "length": 11,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3055",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15523",
+      "account_no": "SEB_8491_18",
+      "title": "",
+      "first_name": "FL Routing Test 04",
+      "last_name": "",
+      "full_name": "FL Routing Test 04 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15530",
+      "name": "FL Routing Test 04",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Fort Pierce (Routing Test Location)",
+      "street2": "",
+      "city": "Fort Pierce",
+      "state": "FL",
+      "zip": "34950",
+      "lat": "27.4467056",
+      "lng": "-80.3256056",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8533",
+      "name": "Wildlife Trapping & Relocation",
+      "status": 1,
+      "service": {
+        "id": "218",
+        "name": "Wildlife Trapping & Relocation"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:19AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8529",
+      "start": "2026-10-10T08:00:00+00:00",
+      "end": "2026-10-10T10:00:00+00:00",
+      "repeat": 0,
+      "length": 120,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3031",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15535",
+      "account_no": "SEB_8491_30",
+      "title": "",
+      "first_name": "FL Routing Test 16",
+      "last_name": "",
+      "full_name": "FL Routing Test 16 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15542",
+      "name": "FL Routing Test 16",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Hollywood (Routing Test Location)",
+      "street2": "",
+      "city": "Hollywood",
+      "state": "FL",
+      "zip": "33020",
+      "lat": "26.0112014",
+      "lng": "-80.1494901",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8534",
+      "name": "Call Back Service",
+      "status": 1,
+      "service": {
+        "id": "208",
+        "name": "Call Back Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:19AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8530",
+      "start": "2026-10-10T10:00:00+00:00",
+      "end": "2026-10-10T10:15:00+00:00",
+      "repeat": 0,
+      "length": 15,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3032",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15535",
+      "account_no": "SEB_8491_30",
+      "title": "",
+      "first_name": "FL Routing Test 16",
+      "last_name": "",
+      "full_name": "FL Routing Test 16 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15542",
+      "name": "FL Routing Test 16",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Hollywood (Routing Test Location)",
+      "street2": "",
+      "city": "Hollywood",
+      "state": "FL",
+      "zip": "33020",
+      "lat": "26.0112014",
+      "lng": "-80.1494901",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8535",
+      "name": "Flea & Tick Control",
+      "status": 1,
+      "service": {
+        "id": "220",
+        "name": "Flea & Tick Control"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:19AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8531",
+      "start": "2026-10-08T08:00:00+00:00",
+      "end": "2026-10-08T08:30:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3033",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15536",
+      "account_no": "SEB_8491_31",
+      "title": "",
+      "first_name": "FL Routing Test 17",
+      "last_name": "",
+      "full_name": "FL Routing Test 17 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15543",
+      "name": "FL Routing Test 17",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Boca Raton (Routing Test Location)",
+      "street2": "",
+      "city": "Boca Raton",
+      "state": "FL",
+      "zip": "33432",
+      "lat": "26.3586885",
+      "lng": "-80.0830984",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8562",
+      "name": "Quarterly Pest Control",
+      "status": 1,
+      "service": {
+        "id": "213",
+        "name": "Quarterly Pest Control"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 10:49AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8558",
+      "start": "2026-10-08T11:55:00+00:00",
+      "end": "2026-10-08T12:25:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3060",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15531",
+      "account_no": "SEB_8491_26",
+      "title": "",
+      "first_name": "FL Routing Test 12",
+      "last_name": "",
+      "full_name": "FL Routing Test 12 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15538",
+      "name": "FL Routing Test 12",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "West Palm Beach (Routing Test Location)",
+      "street2": "",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "zip": "33401",
+      "lat": "26.715364",
+      "lng": "-80.0532942",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "7043",
+      "name": "Bed Bug Heat Treatment",
+      "status": 0,
+      "service": {
+        "id": "217",
+        "name": "Bed Bug Heat Treatment"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "09/30/2026 02:51PM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "7039",
+      "start": "2026-10-05T12:11:00+00:00",
+      "end": "2026-10-05T12:41:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2575",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "14862",
+      "account_no": "4059_7",
+      "title": "",
+      "first_name": "Test_7",
+      "last_name": "Routing",
+      "full_name": "Test_7 Routing",
+      "avatar": "TR",
+      "email": "test_auto_7@namlongsoft.net",
+      "phones": []
+    },
+    "location": {
+      "id": "14868",
+      "name": "4500 Myakka St NE",
+      "note": "",
+      "street1": "4500 Myakka St NE",
+      "street2": "",
+      "city": "Port Charlotte",
+      "state": "FL",
+      "zip": "33953",
+      "lat": "26.991",
+      "lng": "-82.21",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": [
+        {
+          "id": "14839",
+          "email": "test_auto_7@namlongsoft.net",
+          "type": "customer"
+        }
+      ]
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "7046",
+      "name": "Follow Up Inspections",
+      "status": 0,
+      "service": {
+        "id": "222",
+        "name": "Follow Up Inspections"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "09/30/2026 02:52PM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "7042",
+      "start": "2026-10-05T13:58:00+00:00",
+      "end": "2026-10-05T14:28:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2578",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "14865",
+      "account_no": "7183_10",
+      "title": "",
+      "first_name": "Test_10",
+      "last_name": "Routing",
+      "full_name": "Test_10 Routing",
+      "avatar": "TR",
+      "email": "test_auto_10@namlongsoft.net",
+      "phones": []
+    },
+    "location": {
+      "id": "14871",
+      "name": "2400 Harbor Blvd",
+      "note": "",
+      "street1": "2400 Harbor Blvd",
+      "street2": "",
+      "city": "Port Charlotte",
+      "state": "FL",
+      "zip": "33952",
+      "lat": "26.96",
+      "lng": "-82.09",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": [
+        {
+          "id": "14842",
+          "email": "test_auto_10@namlongsoft.net",
+          "type": "customer"
+        }
+      ]
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "7060",
+      "name": "Follow Up Inspections",
+      "status": 0,
+      "service": {
+        "id": "222",
+        "name": "Follow Up Inspections"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "09/30/2026 03:12PM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [
+        "😀"
+      ],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "7056",
+      "start": "2026-10-07T08:00:00+00:00",
+      "end": "2026-10-07T08:30:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2581",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "14868",
+      "account_no": "NAPLES_8135_3",
+      "title": "",
+      "first_name": "NaplesAuto_3",
+      "last_name": "Test",
+      "full_name": "NaplesAuto_3 Test",
+      "avatar": "NT",
+      "email": "naples_test_3@namlongsoft.net",
+      "phones": []
+    },
+    "location": {
+      "id": "14874",
+      "name": "11911 Collier Blvd",
+      "note": "Test routing Naples area",
+      "street1": "11911 Collier Blvd",
+      "street2": "",
+      "city": "Naples",
+      "state": "FL",
+      "zip": "34116",
+      "lat": "26.1963",
+      "lng": "-81.6875",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": [
+        {
+          "id": "14845",
+          "email": "naples_test_3@namlongsoft.net",
+          "type": "customer"
+        }
+      ]
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "7044",
+      "name": "Call Back Service",
+      "status": 1,
+      "service": {
+        "id": "208",
+        "name": "Call Back Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "09/30/2026 02:51PM"
+      },
+      "locked": 0,
+      "previously_completed": 1,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "7040",
+      "start": "2026-10-05T12:43:00+00:00",
+      "end": "2026-10-05T13:13:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2576",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "14863",
+      "account_no": "5088_8",
+      "title": "",
+      "first_name": "Test_8",
+      "last_name": "Routing",
+      "full_name": "Test_8 Routing",
+      "avatar": "TR",
+      "email": "test_auto_8@namlongsoft.net",
+      "phones": []
+    },
+    "location": {
+      "id": "14869",
+      "name": "1000 El Jobean Rd",
+      "note": "",
+      "street1": "1000 El Jobean Rd",
+      "street2": "",
+      "city": "Port Charlotte",
+      "state": "FL",
+      "zip": "33953",
+      "lat": "26.98",
+      "lng": "-82.2",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": [
+        {
+          "id": "14840",
+          "email": "test_auto_8@namlongsoft.net",
+          "type": "customer"
+        }
+      ]
+    },
+    "contact": [],
+    "with_invoice": 1,
+    "invoice": {
+      "id": "41",
+      "status": "draft",
+      "total": "$0.00"
+    },
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "7059",
+      "name": "Flea & Tick Control",
+      "status": 0,
+      "service": {
+        "id": "220",
+        "name": "Flea & Tick Control"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "09/30/2026 03:11PM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [
+        "😀"
+      ],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "7055",
+      "start": "2026-10-07T08:00:00+00:00",
+      "end": "2026-10-07T08:45:00+00:00",
+      "repeat": 0,
+      "length": 45,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2580",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "14867",
+      "account_no": "NAPLES_7056_2",
+      "title": "",
+      "first_name": "NaplesAuto_2",
+      "last_name": "Test",
+      "full_name": "NaplesAuto_2 Test",
+      "avatar": "NT",
+      "email": "naples_test_2@namlongsoft.net",
+      "phones": []
+    },
+    "location": {
+      "id": "14873",
+      "name": "26811 Tamiami Trail S",
+      "note": "Test routing Naples area",
+      "street1": "26811 Tamiami Trail S",
+      "street2": "",
+      "city": "Bonita Springs",
+      "state": "FL",
+      "zip": "34134",
+      "lat": "26.3385",
+      "lng": "-81.782",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": [
+        {
+          "id": "14844",
+          "email": "naples_test_2@namlongsoft.net",
+          "type": "customer"
+        }
+      ]
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8538",
+      "name": "Termite Baiting & Monitoring",
+      "status": 1,
+      "service": {
+        "id": "214",
+        "name": "Termite Baiting & Monitoring"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:19AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8534",
+      "start": "2026-10-16T08:00:00+00:00",
+      "end": "2026-10-16T09:00:00+00:00",
+      "repeat": 0,
+      "length": 60,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3036",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15537",
+      "account_no": "SEB_8491_32",
+      "title": "",
+      "first_name": "FL Routing Test 18",
+      "last_name": "",
+      "full_name": "FL Routing Test 18 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15544",
+      "name": "FL Routing Test 18",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Stuart (Routing Test Location)",
+      "street2": "",
+      "city": "Stuart",
+      "state": "FL",
+      "zip": "34994",
+      "lat": "27.197983",
+      "lng": "-80.2519175",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "7040",
+      "name": "Call Back Service",
+      "status": 1,
+      "service": {
+        "id": "208",
+        "name": "Call Back Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "09/30/2026 02:49PM"
+      },
+      "locked": 1,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 1
+    },
+    "event": {
+      "id": "7036",
+      "start": "2026-10-05T10:08:00+00:00",
+      "end": "2026-10-05T10:38:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2572",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "14859",
+      "account_no": "AUTO_0810_4",
+      "title": "",
+      "first_name": "TestAuto_4",
+      "last_name": "Routing",
+      "full_name": "TestAuto_4 Routing",
+      "avatar": "TR",
+      "email": "test_auto_4@namlongsoft.net",
+      "phones": []
+    },
+    "location": {
+      "id": "14865",
+      "name": "1200 Rotonda Blvd W",
+      "note": "",
+      "street1": "1200 Rotonda Blvd W",
+      "street2": "",
+      "city": "Rotonda West",
+      "state": "FL",
+      "zip": "33947",
+      "lat": "26.889",
+      "lng": "-82.298",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": [
+        {
+          "id": "14836",
+          "email": "test_auto_4@namlongsoft.net",
+          "type": "customer"
+        }
+      ]
+    },
+    "contact": [],
+    "with_invoice": 1,
+    "invoice": {
+      "id": "38",
+      "status": "draft",
+      "total": "$0.00"
+    },
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "3998",
+      "name": "Follow Up Inspections",
+      "status": 0,
+      "service": {
+        "id": "222",
+        "name": "Follow Up Inspections"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "09/26/2026 12:44PM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "3994",
+      "start": "2026-10-04T08:00:00+00:00",
+      "end": "2026-10-04T08:45:00+00:00",
+      "repeat": 0,
+      "length": 45,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2258",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "14783",
+      "account_no": "5010",
+      "title": "",
+      "first_name": "Minh",
+      "last_name": "",
+      "full_name": "Minh ",
+      "avatar": "M",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "14784",
+      "name": "Myakka Street Northeast",
+      "note": "",
+      "street1": "Myakka Street Northeast",
+      "street2": "",
+      "city": "Palm Bay",
+      "state": "FL",
+      "zip": "32907",
+      "lat": "28.0268755",
+      "lng": "-80.6634882",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "3900",
+      "name": "Call Back Service",
+      "status": 1,
+      "service": {
+        "id": "208",
+        "name": "Call Back Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "09/26/2026 07:25AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [
+        "👍"
+      ],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "3896",
+      "start": "2026-10-04T08:45:00+00:00",
+      "end": "2026-10-04T09:00:00+00:00",
+      "repeat": 0,
+      "length": 15,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2248",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "14783",
+      "account_no": "5010",
+      "title": "",
+      "first_name": "Minh",
+      "last_name": "",
+      "full_name": "Minh ",
+      "avatar": "M",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "14784",
+      "name": "Myakka Street Northeast",
+      "note": "",
+      "street1": "Myakka Street Northeast",
+      "street2": "",
+      "city": "Palm Bay",
+      "state": "FL",
+      "zip": "32907",
+      "lat": "28.0268755",
+      "lng": "-80.6634882",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 1,
+    "invoice": {
+      "id": "27",
+      "status": "draft",
+      "total": "$0.00"
+    },
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "3916",
+      "name": "Call Back Service",
+      "status": 1,
+      "service": {
+        "id": "208",
+        "name": "Call Back Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "09/26/2026 10:55AM"
+      },
+      "locked": 0,
+      "previously_completed": 1,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [
+        "😀"
+      ],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "3912",
+      "start": "2026-10-04T09:00:00+00:00",
+      "end": "2026-10-04T09:15:00+00:00",
+      "repeat": 0,
+      "length": 15,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2252",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "14783",
+      "account_no": "5010",
+      "title": "",
+      "first_name": "Minh",
+      "last_name": "",
+      "full_name": "Minh ",
+      "avatar": "M",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "14784",
+      "name": "Myakka Street Northeast",
+      "note": "",
+      "street1": "Myakka Street Northeast",
+      "street2": "",
+      "city": "Palm Bay",
+      "state": "FL",
+      "zip": "32907",
+      "lat": "28.0268755",
+      "lng": "-80.6634882",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 1,
+    "invoice": {
+      "id": "30",
+      "status": "draft",
+      "total": "$900.00"
+    },
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8539",
+      "name": "Bed Bug Heat Treatment",
+      "status": 1,
+      "service": {
+        "id": "217",
+        "name": "Bed Bug Heat Treatment"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:19AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8535",
+      "start": "2026-10-16T09:00:00+00:00",
+      "end": "2026-10-16T10:00:00+00:00",
+      "repeat": 0,
+      "length": 60,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3037",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15537",
+      "account_no": "SEB_8491_32",
+      "title": "",
+      "first_name": "FL Routing Test 18",
+      "last_name": "",
+      "full_name": "FL Routing Test 18 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15544",
+      "name": "FL Routing Test 18",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Stuart (Routing Test Location)",
+      "street2": "",
+      "city": "Stuart",
+      "state": "FL",
+      "zip": "34994",
+      "lat": "27.197983",
+      "lng": "-80.2519175",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "7041",
+      "name": "Call Back Service",
+      "status": 1,
+      "service": {
+        "id": "208",
+        "name": "Call Back Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "09/30/2026 02:49PM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "7037",
+      "start": "2026-10-05T09:37:00+00:00",
+      "end": "2026-10-05T10:07:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2573",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "14860",
+      "account_no": "AUTO_1915_5",
+      "title": "",
+      "first_name": "TestAuto_5",
+      "last_name": "Routing",
+      "full_name": "TestAuto_5 Routing",
+      "avatar": "TR",
+      "email": "test_auto_5@namlongsoft.net",
+      "phones": []
+    },
+    "location": {
+      "id": "14866",
+      "name": "150 Rebel Ct",
+      "note": "",
+      "street1": "150 Rebel Ct",
+      "street2": "",
+      "city": "Rotonda West",
+      "state": "FL",
+      "zip": "33947",
+      "lat": "26.885",
+      "lng": "-82.291",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": [
+        {
+          "id": "14837",
+          "email": "test_auto_5@namlongsoft.net",
+          "type": "customer"
+        }
+      ]
+    },
+    "contact": [],
+    "with_invoice": 1,
+    "invoice": {
+      "id": "39",
+      "status": "draft",
+      "total": "$0.00"
+    },
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8565",
+      "name": "Wildlife Trapping & Relocation",
+      "status": 1,
+      "service": {
+        "id": "218",
+        "name": "Wildlife Trapping & Relocation"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 10:49AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8561",
+      "start": "2026-10-08T10:00:00+00:00",
+      "end": "2026-10-08T10:37:00+00:00",
+      "repeat": 0,
+      "length": 37,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3063",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15536",
+      "account_no": "SEB_8491_31",
+      "title": "",
+      "first_name": "FL Routing Test 17",
+      "last_name": "",
+      "full_name": "FL Routing Test 17 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15543",
+      "name": "FL Routing Test 17",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Boca Raton (Routing Test Location)",
+      "street2": "",
+      "city": "Boca Raton",
+      "state": "FL",
+      "zip": "33432",
+      "lat": "26.3586885",
+      "lng": "-80.0830984",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8540",
+      "name": "Rodent Control & Exclusion",
+      "status": 1,
+      "service": {
+        "id": "216",
+        "name": "Rodent Control & Exclusion"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:19AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8536",
+      "start": "2026-10-16T10:00:00+00:00",
+      "end": "2026-10-16T11:00:00+00:00",
+      "repeat": 0,
+      "length": 60,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3038",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15537",
+      "account_no": "SEB_8491_32",
+      "title": "",
+      "first_name": "FL Routing Test 18",
+      "last_name": "",
+      "full_name": "FL Routing Test 18 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15544",
+      "name": "FL Routing Test 18",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Stuart (Routing Test Location)",
+      "street2": "",
+      "city": "Stuart",
+      "state": "FL",
+      "zip": "34994",
+      "lat": "27.197983",
+      "lng": "-80.2519175",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8541",
+      "name": "Rodent Control & Exclusion",
+      "status": 1,
+      "service": {
+        "id": "216",
+        "name": "Rodent Control & Exclusion"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:19AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8537",
+      "start": "2026-10-14T08:00:00+00:00",
+      "end": "2026-10-14T09:00:00+00:00",
+      "repeat": 0,
+      "length": 60,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3039",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15538",
+      "account_no": "SEB_8491_33",
+      "title": "",
+      "first_name": "FL Routing Test 19",
+      "last_name": "",
+      "full_name": "FL Routing Test 19 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15545",
+      "name": "FL Routing Test 19",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Sebastian (Routing Test Location)",
+      "street2": "",
+      "city": "Sebastian",
+      "state": "FL",
+      "zip": "32958",
+      "lat": "27.817357",
+      "lng": "-80.4694039",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8568",
+      "name": "Every 21 Days",
+      "status": 1,
+      "service": {
+        "id": "210",
+        "name": "Every 21 Days"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 10:49AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8564",
+      "start": "2026-10-10T10:07:00+00:00",
+      "end": "2026-10-10T10:25:00+00:00",
+      "repeat": 0,
+      "length": 18,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3066",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "Lam"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15521",
+      "account_no": "SEB_8491_16",
+      "title": "",
+      "first_name": "FL Routing Test 02",
+      "last_name": "",
+      "full_name": "FL Routing Test 02 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15528",
+      "name": "FL Routing Test 02",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Melbourne (Routing Test Location)",
+      "street2": "",
+      "city": "Melbourne",
+      "state": "FL",
+      "zip": "32901",
+      "lat": "28.0785034",
+      "lng": "-80.6077908",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8542",
+      "name": "Call Back Service",
+      "status": 3,
+      "service": {
+        "id": "208",
+        "name": "Call Back Service"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 09:20AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8538",
+      "start": "2026-10-12T08:00:00+00:00",
+      "end": "2026-10-12T08:15:00+00:00",
+      "repeat": 0,
+      "length": 15,
+      "always_confirmed": 1,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3040",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15539",
+      "account_no": "SEB_8491_34",
+      "title": "",
+      "first_name": "FL Routing Test 20",
+      "last_name": "",
+      "full_name": "FL Routing Test 20 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15546",
+      "name": "FL Routing Test 20",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Jupiter (Routing Test Location)",
+      "street2": "",
+      "city": "Jupiter",
+      "state": "FL",
+      "zip": "33458",
+      "lat": "26.9342246",
+      "lng": "-80.0942087",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8570",
+      "name": "Rodent Control & Exclusion",
+      "status": 1,
+      "service": {
+        "id": "216",
+        "name": "Rodent Control & Exclusion"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/03/2026 10:49AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8566",
+      "start": "2026-10-12T08:15:00+00:00",
+      "end": "2026-10-12T08:34:00+00:00",
+      "repeat": 0,
+      "length": 19,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "3068",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15539",
+      "account_no": "SEB_8491_34",
+      "title": "",
+      "first_name": "FL Routing Test 20",
+      "last_name": "",
+      "full_name": "FL Routing Test 20 ",
+      "avatar": "FR",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15546",
+      "name": "FL Routing Test 20",
+      "note": "Synthetic routing test location at city center; not an actual customer residence",
+      "street1": "Jupiter (Routing Test Location)",
+      "street2": "",
+      "city": "Jupiter",
+      "state": "FL",
+      "zip": "33458",
+      "lat": "26.9342246",
+      "lng": "-80.0942087",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8482",
+      "name": "Bed Bug Heat Treatment",
+      "status": 0,
+      "service": {
+        "id": "217",
+        "name": "Bed Bug Heat Treatment"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/02/2026 01:07PM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8478",
+      "start": "2026-10-10T13:13:00+00:00",
+      "end": "2026-10-10T13:28:00+00:00",
+      "repeat": 0,
+      "length": 15,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2992",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15506",
+      "account_no": "SEB_8491_8",
+      "title": "",
+      "first_name": "Alexander",
+      "last_name": "",
+      "full_name": "Alexander ",
+      "avatar": "A",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15514",
+      "name": "14500 Miramar Parkway",
+      "note": "",
+      "street1": "14500 Miramar Parkway",
+      "street2": "",
+      "city": "Miramar",
+      "state": "FL",
+      "zip": "33027",
+      "lat": "25.978756",
+      "lng": "-80.312554",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8468",
+      "name": "Follow Up Inspections",
+      "status": 0,
+      "service": {
+        "id": "222",
+        "name": "Follow Up Inspections"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/02/2026 09:10AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8464",
+      "start": "2026-10-10T12:34:00+00:00",
+      "end": "2026-10-10T13:04:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2990",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15509",
+      "account_no": "SEB_8491_11",
+      "title": "",
+      "first_name": "Vance",
+      "last_name": "",
+      "full_name": "Vance ",
+      "avatar": "V",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15517",
+      "name": "Northwest 57th Avenue",
+      "note": "",
+      "street1": "Northwest 57th Avenue",
+      "street2": "",
+      "city": "Miami Gardens",
+      "state": "FL",
+      "zip": "33055",
+      "lat": "25.9162497",
+      "lng": "-80.2927737",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  },
+  {
+    "job": {
+      "id": "8442",
+      "name": "Flea & Tick Control",
+      "status": 0,
+      "service": {
+        "id": "220",
+        "name": "Flea & Tick Control"
+      },
+      "service_plan": null,
+      "check_in": "",
+      "check_out": "",
+      "logs": {
+        "text": "Created by Lam Test",
+        "created": "10/02/2026 09:09AM"
+      },
+      "locked": 0,
+      "previously_completed": 0,
+      "parent_job_id": "",
+      "job_no": 0,
+      "todo": {
+        "repeat": 0,
+        "total": 0,
+        "completed": 0
+      },
+      "emoji": [],
+      "job_cycle": 0
+    },
+    "event": {
+      "id": "8438",
+      "start": "2026-10-10T11:32:00+00:00",
+      "end": "2026-10-10T12:02:00+00:00",
+      "repeat": 0,
+      "length": 30,
+      "always_confirmed": 0,
+      "recurrence": {
+        "offset": null,
+        "summary": "Once"
+      },
+      "time_window": null,
+      "exception": {
+        "id": "2988",
+        "options": {
+          "first": null,
+          "second": null,
+          "third": null,
+          "fourth": null,
+          "fifth": null,
+          "sixth": null,
+          "seventh": null,
+          "eighth": null,
+          "ninth": null,
+          "tenth": null,
+          "eleventh": null
+        },
+        "summary": ""
+      },
+      "assignees": [
+        "custom"
+      ]
+    },
+    "schedule": [
+      {
+        "id": "32",
+        "name": "custom",
+        "user_id": "84361447",
+        "is_primary": 1
+      }
+    ],
+    "crew_ids": [],
+    "customer": {
+      "id": "15508",
+      "account_no": "SEB_8491_10",
+      "title": "",
+      "first_name": "Miller",
+      "last_name": "",
+      "full_name": "Miller ",
+      "avatar": "M",
+      "email": "",
+      "phones": []
+    },
+    "location": {
+      "id": "15516",
+      "name": "3475 Northwest 191st Street",
+      "note": "",
+      "street1": "3475 Northwest 191st Street",
+      "street2": "",
+      "city": "Miami Gardens",
+      "state": "FL",
+      "zip": "33056",
+      "lat": "25.9478928",
+      "lng": "-80.2595144",
+      "photo": null,
+      "tax1": null,
+      "tax2": null,
+      "payment_terms": null
+    },
+    "messaging_preferences": {
+      "appointment_confirmations": 2,
+      "appointment_reminders": 2,
+      "appointment_followups": 2,
+      "broadcasts": 2,
+      "late_payment_reminders": 2,
+      "tipping_enabled": 1,
+      "sms_to": [],
+      "email_to": []
+    },
+    "contact": [],
+    "with_invoice": 0,
+    "invoice": null,
+    "with_estimate": 0,
+    "estimate": null,
+    "with_documents": 0,
+    "with_devices": 0,
+    "with_units_job": 0,
+    "is_workpool": 0,
+    "has_pending_jobs": 0,
+    "sold_by": [],
+    "job_state": "active",
+    "can_send_tip_request": false
+  }
+]

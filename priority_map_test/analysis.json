@@ -1,0 +1,947 @@
+{
+  "cluster_1": {
+    "jobs": 35,
+    "unique_events": 35,
+    "routing_jobs": 18,
+    "drive_minutes": 513,
+    "work_minutes": 998,
+    "routed_days": 4,
+    "days": {
+      "2026-10-04": 6,
+      "2026-10-05": 10,
+      "2026-10-06": 2,
+      "2026-10-07": 5,
+      "2026-10-08": 7,
+      "2026-10-09": 5
+    },
+    "hours_violations": [],
+    "overlaps": [
+      {
+        "day": "2026-10-05",
+        "from_job": "8497",
+        "to_job": "6815",
+        "minutes": 5.0
+      },
+      {
+        "day": "2026-10-05",
+        "from_job": "6815",
+        "to_job": "7043",
+        "minutes": 23.0
+      }
+    ],
+    "map_coverage": [
+      {
+        "day": "2026-10-04",
+        "job": "3917",
+        "customer": "Minh",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-04",
+        "job": "3899",
+        "customer": "Minh",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-04",
+        "job": "3900",
+        "customer": "Minh",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-04",
+        "job": "3916",
+        "customer": "Minh",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-04",
+        "job": "3791",
+        "customer": "Minh",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-04",
+        "job": "8507",
+        "customer": "FL Routing Test 04",
+        "nearest_vertex_m": 10.1
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7042",
+        "customer": "Test6 Routing",
+        "nearest_vertex_m": 86.0
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7041",
+        "customer": "TestAuto_5 Routing",
+        "nearest_vertex_m": 33.7
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7040",
+        "customer": "TestAuto_4 Routing",
+        "nearest_vertex_m": 76.0
+      },
+      {
+        "day": "2026-10-05",
+        "job": "3755",
+        "customer": "Lam",
+        "nearest_vertex_m": 0.2
+      },
+      {
+        "day": "2026-10-05",
+        "job": "8497",
+        "customer": "nami",
+        "nearest_vertex_m": 0.2
+      },
+      {
+        "day": "2026-10-05",
+        "job": "6815",
+        "customer": "nami",
+        "nearest_vertex_m": 0.2
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7043",
+        "customer": "Test_7 Routing",
+        "nearest_vertex_m": 54.5
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7044",
+        "customer": "Test_8 Routing",
+        "nearest_vertex_m": 61.4
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7045",
+        "customer": "Test_9 Routing",
+        "nearest_vertex_m": 14.6
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7046",
+        "customer": "Test_10 Routing",
+        "nearest_vertex_m": 28.8
+      },
+      {
+        "day": "2026-10-06",
+        "job": "7086",
+        "customer": "NaplesAuto_4 Test",
+        "nearest_vertex_m": 43.8
+      },
+      {
+        "day": "2026-10-06",
+        "job": "7047",
+        "customer": "NaplesAuto_1 Test",
+        "nearest_vertex_m": 55.4
+      },
+      {
+        "day": "2026-10-07",
+        "job": "7059",
+        "customer": "NaplesAuto_2 Test",
+        "nearest_vertex_m": 23.9
+      },
+      {
+        "day": "2026-10-07",
+        "job": "8248",
+        "customer": "Tony Stark",
+        "nearest_vertex_m": 171.3
+      },
+      {
+        "day": "2026-10-07",
+        "job": "8246",
+        "customer": "John Wick",
+        "nearest_vertex_m": 20.0
+      },
+      {
+        "day": "2026-10-07",
+        "job": "8234",
+        "customer": "Clark Kent",
+        "nearest_vertex_m": 13.5
+      },
+      {
+        "day": "2026-10-07",
+        "job": "8247",
+        "customer": "Peter Parker",
+        "nearest_vertex_m": 143.9
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8484",
+        "customer": "Julian Alvarez",
+        "nearest_vertex_m": 8.6
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8508",
+        "customer": "FL Routing Test 05",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8509",
+        "customer": "FL Routing Test 05",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8558",
+        "customer": "FL Routing Test 05",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8520",
+        "customer": "FL Routing Test 10",
+        "nearest_vertex_m": 7.1
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8502",
+        "customer": "FL Routing Test 02",
+        "nearest_vertex_m": 3.9
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8556",
+        "customer": "FL Routing Test 02",
+        "nearest_vertex_m": 3.9
+      },
+      {
+        "day": "2026-10-09",
+        "job": "8544",
+        "customer": "FL Routing Test 13",
+        "nearest_vertex_m": 0.5
+      },
+      {
+        "day": "2026-10-09",
+        "job": "8531",
+        "customer": "FL Routing Test 15",
+        "nearest_vertex_m": 5.7
+      },
+      {
+        "day": "2026-10-09",
+        "job": "8532",
+        "customer": "FL Routing Test 15",
+        "nearest_vertex_m": 5.7
+      },
+      {
+        "day": "2026-10-09",
+        "job": "8549",
+        "customer": "FL Routing Test 15",
+        "nearest_vertex_m": 5.7
+      },
+      {
+        "day": "2026-10-09",
+        "job": "8572",
+        "customer": "FL Routing Test 15",
+        "nearest_vertex_m": 5.7
+      }
+    ],
+    "legs": [
+      {
+        "from_job": "7086",
+        "from_customer": "NaplesAuto_4 Test",
+        "to_job": "7047",
+        "to_customer": "NaplesAuto_1 Test",
+        "minutes": 20,
+        "matched": true
+      },
+      {
+        "from_job": "7059",
+        "from_customer": "NaplesAuto_2 Test",
+        "to_job": "8248",
+        "to_customer": "Tony Stark",
+        "minutes": 110,
+        "matched": true
+      },
+      {
+        "from_job": "8248",
+        "from_customer": "Tony Stark",
+        "to_job": "8246",
+        "to_customer": "John Wick",
+        "minutes": 4,
+        "matched": true
+      },
+      {
+        "from_job": "8246",
+        "from_customer": "John Wick",
+        "to_job": "8234",
+        "to_customer": "Clark Kent",
+        "minutes": 5,
+        "matched": true
+      },
+      {
+        "from_job": "8234",
+        "from_customer": "Clark Kent",
+        "to_job": "8247",
+        "to_customer": "Peter Parker",
+        "minutes": 19,
+        "matched": true
+      },
+      {
+        "from_job": "8484",
+        "from_customer": "Julian Alvarez",
+        "to_job": "8508",
+        "to_customer": "FL Routing Test 05",
+        "minutes": 271,
+        "matched": true
+      },
+      {
+        "from_job": "8558",
+        "from_customer": "FL Routing Test 05",
+        "to_job": "8520",
+        "to_customer": "FL Routing Test 10",
+        "minutes": 25,
+        "matched": true
+      },
+      {
+        "from_job": "8520",
+        "from_customer": "FL Routing Test 10",
+        "to_job": "8502",
+        "to_customer": "FL Routing Test 02",
+        "minutes": 29,
+        "matched": true
+      },
+      {
+        "from_job": "8544",
+        "from_customer": "FL Routing Test 13",
+        "to_job": "8531",
+        "to_customer": "FL Routing Test 15",
+        "minutes": 30,
+        "matched": true
+      }
+    ],
+    "missing_route_days": []
+  },
+  "balanced_2": {
+    "jobs": 35,
+    "unique_events": 35,
+    "routing_jobs": 18,
+    "drive_minutes": 242,
+    "work_minutes": 998,
+    "routed_days": 5,
+    "days": {
+      "2026-10-04": 6,
+      "2026-10-05": 10,
+      "2026-10-06": 2,
+      "2026-10-07": 1,
+      "2026-10-08": 6,
+      "2026-10-09": 5,
+      "2026-10-10": 5
+    },
+    "hours_violations": [],
+    "overlaps": [
+      {
+        "day": "2026-10-05",
+        "from_job": "8497",
+        "to_job": "6815",
+        "minutes": 5.0
+      },
+      {
+        "day": "2026-10-05",
+        "from_job": "6815",
+        "to_job": "7043",
+        "minutes": 23.0
+      }
+    ],
+    "map_coverage": [
+      {
+        "day": "2026-10-04",
+        "job": "3917",
+        "customer": "Minh",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-04",
+        "job": "3899",
+        "customer": "Minh",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-04",
+        "job": "3900",
+        "customer": "Minh",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-04",
+        "job": "3916",
+        "customer": "Minh",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-04",
+        "job": "3791",
+        "customer": "Minh",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-04",
+        "job": "8507",
+        "customer": "FL Routing Test 04",
+        "nearest_vertex_m": 10.1
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7042",
+        "customer": "Test6 Routing",
+        "nearest_vertex_m": 86.0
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7041",
+        "customer": "TestAuto_5 Routing",
+        "nearest_vertex_m": 33.7
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7040",
+        "customer": "TestAuto_4 Routing",
+        "nearest_vertex_m": 76.0
+      },
+      {
+        "day": "2026-10-05",
+        "job": "3755",
+        "customer": "Lam",
+        "nearest_vertex_m": 0.2
+      },
+      {
+        "day": "2026-10-05",
+        "job": "8497",
+        "customer": "nami",
+        "nearest_vertex_m": 0.2
+      },
+      {
+        "day": "2026-10-05",
+        "job": "6815",
+        "customer": "nami",
+        "nearest_vertex_m": 0.2
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7043",
+        "customer": "Test_7 Routing",
+        "nearest_vertex_m": 54.5
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7044",
+        "customer": "Test_8 Routing",
+        "nearest_vertex_m": 61.4
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7045",
+        "customer": "Test_9 Routing",
+        "nearest_vertex_m": 14.6
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7046",
+        "customer": "Test_10 Routing",
+        "nearest_vertex_m": 28.8
+      },
+      {
+        "day": "2026-10-06",
+        "job": "7086",
+        "customer": "NaplesAuto_4 Test",
+        "nearest_vertex_m": 43.8
+      },
+      {
+        "day": "2026-10-06",
+        "job": "7047",
+        "customer": "NaplesAuto_1 Test",
+        "nearest_vertex_m": 55.4
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8502",
+        "customer": "FL Routing Test 02",
+        "nearest_vertex_m": 3.9
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8556",
+        "customer": "FL Routing Test 02",
+        "nearest_vertex_m": 3.9
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8520",
+        "customer": "FL Routing Test 10",
+        "nearest_vertex_m": 7.1
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8508",
+        "customer": "FL Routing Test 05",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8509",
+        "customer": "FL Routing Test 05",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8558",
+        "customer": "FL Routing Test 05",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-09",
+        "job": "8544",
+        "customer": "FL Routing Test 13",
+        "nearest_vertex_m": 0.5
+      },
+      {
+        "day": "2026-10-09",
+        "job": "8531",
+        "customer": "FL Routing Test 15",
+        "nearest_vertex_m": 5.7
+      },
+      {
+        "day": "2026-10-09",
+        "job": "8532",
+        "customer": "FL Routing Test 15",
+        "nearest_vertex_m": 5.7
+      },
+      {
+        "day": "2026-10-09",
+        "job": "8549",
+        "customer": "FL Routing Test 15",
+        "nearest_vertex_m": 5.7
+      },
+      {
+        "day": "2026-10-09",
+        "job": "8572",
+        "customer": "FL Routing Test 15",
+        "nearest_vertex_m": 5.7
+      },
+      {
+        "day": "2026-10-10",
+        "job": "7059",
+        "customer": "NaplesAuto_2 Test",
+        "nearest_vertex_m": 23.9
+      },
+      {
+        "day": "2026-10-10",
+        "job": "8248",
+        "customer": "Tony Stark",
+        "nearest_vertex_m": 171.3
+      },
+      {
+        "day": "2026-10-10",
+        "job": "8246",
+        "customer": "John Wick",
+        "nearest_vertex_m": 20.0
+      },
+      {
+        "day": "2026-10-10",
+        "job": "8234",
+        "customer": "Clark Kent",
+        "nearest_vertex_m": 13.5
+      },
+      {
+        "day": "2026-10-10",
+        "job": "8247",
+        "customer": "Peter Parker",
+        "nearest_vertex_m": 143.9
+      }
+    ],
+    "legs": [
+      {
+        "from_job": "7086",
+        "from_customer": "NaplesAuto_4 Test",
+        "to_job": "7047",
+        "to_customer": "NaplesAuto_1 Test",
+        "minutes": 20,
+        "matched": true
+      },
+      {
+        "from_job": "8556",
+        "from_customer": "FL Routing Test 02",
+        "to_job": "8520",
+        "to_customer": "FL Routing Test 10",
+        "minutes": 29,
+        "matched": true
+      },
+      {
+        "from_job": "8520",
+        "from_customer": "FL Routing Test 10",
+        "to_job": "8508",
+        "to_customer": "FL Routing Test 05",
+        "minutes": 25,
+        "matched": true
+      },
+      {
+        "from_job": "8544",
+        "from_customer": "FL Routing Test 13",
+        "to_job": "8531",
+        "to_customer": "FL Routing Test 15",
+        "minutes": 30,
+        "matched": true
+      },
+      {
+        "from_job": "7059",
+        "from_customer": "NaplesAuto_2 Test",
+        "to_job": "8248",
+        "to_customer": "Tony Stark",
+        "minutes": 110,
+        "matched": true
+      },
+      {
+        "from_job": "8248",
+        "from_customer": "Tony Stark",
+        "to_job": "8246",
+        "to_customer": "John Wick",
+        "minutes": 4,
+        "matched": true
+      },
+      {
+        "from_job": "8246",
+        "from_customer": "John Wick",
+        "to_job": "8234",
+        "to_customer": "Clark Kent",
+        "minutes": 5,
+        "matched": true
+      },
+      {
+        "from_job": "8234",
+        "from_customer": "Clark Kent",
+        "to_job": "8247",
+        "to_customer": "Peter Parker",
+        "minutes": 19,
+        "matched": true
+      }
+    ],
+    "missing_route_days": []
+  },
+  "cluster_repeat": {
+    "jobs": 35,
+    "unique_events": 35,
+    "routing_jobs": 18,
+    "drive_minutes": 513,
+    "work_minutes": 998,
+    "routed_days": 4,
+    "days": {
+      "2026-10-04": 6,
+      "2026-10-05": 10,
+      "2026-10-06": 2,
+      "2026-10-07": 5,
+      "2026-10-08": 7,
+      "2026-10-09": 5
+    },
+    "hours_violations": [],
+    "overlaps": [
+      {
+        "day": "2026-10-05",
+        "from_job": "8497",
+        "to_job": "6815",
+        "minutes": 5.0
+      },
+      {
+        "day": "2026-10-05",
+        "from_job": "6815",
+        "to_job": "7043",
+        "minutes": 23.0
+      }
+    ],
+    "map_coverage": [
+      {
+        "day": "2026-10-04",
+        "job": "3917",
+        "customer": "Minh",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-04",
+        "job": "3899",
+        "customer": "Minh",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-04",
+        "job": "3900",
+        "customer": "Minh",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-04",
+        "job": "3916",
+        "customer": "Minh",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-04",
+        "job": "3791",
+        "customer": "Minh",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-04",
+        "job": "8507",
+        "customer": "FL Routing Test 04",
+        "nearest_vertex_m": 10.1
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7042",
+        "customer": "Test6 Routing",
+        "nearest_vertex_m": 86.0
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7041",
+        "customer": "TestAuto_5 Routing",
+        "nearest_vertex_m": 33.7
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7040",
+        "customer": "TestAuto_4 Routing",
+        "nearest_vertex_m": 76.0
+      },
+      {
+        "day": "2026-10-05",
+        "job": "3755",
+        "customer": "Lam",
+        "nearest_vertex_m": 0.2
+      },
+      {
+        "day": "2026-10-05",
+        "job": "8497",
+        "customer": "nami",
+        "nearest_vertex_m": 0.2
+      },
+      {
+        "day": "2026-10-05",
+        "job": "6815",
+        "customer": "nami",
+        "nearest_vertex_m": 0.2
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7043",
+        "customer": "Test_7 Routing",
+        "nearest_vertex_m": 54.5
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7044",
+        "customer": "Test_8 Routing",
+        "nearest_vertex_m": 61.4
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7045",
+        "customer": "Test_9 Routing",
+        "nearest_vertex_m": 14.6
+      },
+      {
+        "day": "2026-10-05",
+        "job": "7046",
+        "customer": "Test_10 Routing",
+        "nearest_vertex_m": 28.8
+      },
+      {
+        "day": "2026-10-06",
+        "job": "7086",
+        "customer": "NaplesAuto_4 Test",
+        "nearest_vertex_m": 43.8
+      },
+      {
+        "day": "2026-10-06",
+        "job": "7047",
+        "customer": "NaplesAuto_1 Test",
+        "nearest_vertex_m": 55.4
+      },
+      {
+        "day": "2026-10-07",
+        "job": "7059",
+        "customer": "NaplesAuto_2 Test",
+        "nearest_vertex_m": 23.9
+      },
+      {
+        "day": "2026-10-07",
+        "job": "8248",
+        "customer": "Tony Stark",
+        "nearest_vertex_m": 171.3
+      },
+      {
+        "day": "2026-10-07",
+        "job": "8246",
+        "customer": "John Wick",
+        "nearest_vertex_m": 20.0
+      },
+      {
+        "day": "2026-10-07",
+        "job": "8234",
+        "customer": "Clark Kent",
+        "nearest_vertex_m": 13.5
+      },
+      {
+        "day": "2026-10-07",
+        "job": "8247",
+        "customer": "Peter Parker",
+        "nearest_vertex_m": 143.9
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8484",
+        "customer": "Julian Alvarez",
+        "nearest_vertex_m": 8.6
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8508",
+        "customer": "FL Routing Test 05",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8509",
+        "customer": "FL Routing Test 05",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8558",
+        "customer": "FL Routing Test 05",
+        "nearest_vertex_m": 0.6
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8520",
+        "customer": "FL Routing Test 10",
+        "nearest_vertex_m": 7.1
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8502",
+        "customer": "FL Routing Test 02",
+        "nearest_vertex_m": 3.9
+      },
+      {
+        "day": "2026-10-08",
+        "job": "8556",
+        "customer": "FL Routing Test 02",
+        "nearest_vertex_m": 3.9
+      },
+      {
+        "day": "2026-10-09",
+        "job": "8544",
+        "customer": "FL Routing Test 13",
+        "nearest_vertex_m": 0.5
+      },
+      {
+        "day": "2026-10-09",
+        "job": "8531",
+        "customer": "FL Routing Test 15",
+        "nearest_vertex_m": 5.7
+      },
+      {
+        "day": "2026-10-09",
+        "job": "8532",
+        "customer": "FL Routing Test 15",
+        "nearest_vertex_m": 5.7
+      },
+      {
+        "day": "2026-10-09",
+        "job": "8549",
+        "customer": "FL Routing Test 15",
+        "nearest_vertex_m": 5.7
+      },
+      {
+        "day": "2026-10-09",
+        "job": "8572",
+        "customer": "FL Routing Test 15",
+        "nearest_vertex_m": 5.7
+      }
+    ],
+    "legs": [
+      {
+        "from_job": "7086",
+        "from_customer": "NaplesAuto_4 Test",
+        "to_job": "7047",
+        "to_customer": "NaplesAuto_1 Test",
+        "minutes": 20,
+        "matched": true
+      },
+      {
+        "from_job": "7059",
+        "from_customer": "NaplesAuto_2 Test",
+        "to_job": "8248",
+        "to_customer": "Tony Stark",
+        "minutes": 110,
+        "matched": true
+      },
+      {
+        "from_job": "8248",
+        "from_customer": "Tony Stark",
+        "to_job": "8246",
+        "to_customer": "John Wick",
+        "minutes": 4,
+        "matched": true
+      },
+      {
+        "from_job": "8246",
+        "from_customer": "John Wick",
+        "to_job": "8234",
+        "to_customer": "Clark Kent",
+        "minutes": 5,
+        "matched": true
+      },
+      {
+        "from_job": "8234",
+        "from_customer": "Clark Kent",
+        "to_job": "8247",
+        "to_customer": "Peter Parker",
+        "minutes": 19,
+        "matched": true
+      },
+      {
+        "from_job": "8484",
+        "from_customer": "Julian Alvarez",
+        "to_job": "8508",
+        "to_customer": "FL Routing Test 05",
+        "minutes": 271,
+        "matched": true
+      },
+      {
+        "from_job": "8558",
+        "from_customer": "FL Routing Test 05",
+        "to_job": "8520",
+        "to_customer": "FL Routing Test 10",
+        "minutes": 25,
+        "matched": true
+      },
+      {
+        "from_job": "8520",
+        "from_customer": "FL Routing Test 10",
+        "to_job": "8502",
+        "to_customer": "FL Routing Test 02",
+        "minutes": 29,
+        "matched": true
+      },
+      {
+        "from_job": "8544",
+        "from_customer": "FL Routing Test 13",
+        "to_job": "8531",
+        "to_customer": "FL Routing Test 15",
+        "minutes": 30,
+        "matched": true
+      }
+    ],
+    "missing_route_days": []
+  },
+  "repeat_identical": true,
+  "repeat_routes_identical": true,
+  "calendar_unchanged": true,
+  "cohort_equal": true
+}

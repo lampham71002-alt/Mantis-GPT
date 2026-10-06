@@ -1,0 +1,2600 @@
+[
+  {
+    "id": "1055",
+    "utc": "2026-10-03T05:20:21.774420+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "1055",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "1055",
+      "title": "Call Back Service Mandatory Assignment",
+      "description": "All Call Back Service jobs must be forcibly assigned to technician Lam 1 as a mandatory requirement.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-10-02T08:01:12+00:00",
+      "updated_date": "2026-10-02T08:01:12+00:00",
+      "conversation_id": "60e93816-74b3-4d2b-9bb9-5927655cf29f",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All Call Back Service jobs must be forcibly assigned to technician Lam 1 as a mandatory requirement."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "0:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Call Back Service Mandatory Assignment",
+        "rule": "All Call Back Service jobs must be forcibly assigned to technician Lam 1 as a mandatory requirement.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "Lam 1"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "For Call Back Service jobs, the system requires mandatory assignment to technician Lam 1 to ensure dedicated service handling and technician continuity for follow-up visits.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "961",
+    "utc": "2026-10-03T05:20:24.946759+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "961",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "961",
+      "title": "Call Back Service Mandatory Assignment and Lock",
+      "description": "All Call Back Service jobs must be strictly assigned to technician custom (Lam 1) and locked in place to prevent auto-pilot from making automated schedule changes.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-09-29T09:46:44+00:00",
+      "updated_date": "2026-09-29T09:46:44+00:00",
+      "conversation_id": "6eb76a84-5242-47b3-afb6-b7e4e117303c",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All Call Back Service jobs must be strictly assigned to technician custom (Lam 1) and locked in place to prevent auto-pilot from making automated schedule changes."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "1:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Call Back Service Mandatory Assignment and Lock",
+        "rule": "All Call Back Service jobs must be strictly assigned to technician custom (Lam 1) and locked in place to prevent auto-pilot from making automated schedule changes.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": [],
+                "action_type": "lock"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "custom"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This rule enforces mandatory assignment of Call Back Service jobs to technician custom (Lam 1) while locking those jobs in place to prevent automated routing adjustments by auto-pilot, ensuring dedicated service continuity and schedule stability for callback requests.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "956",
+    "utc": "2026-10-03T05:20:28.259984+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "956",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "956",
+      "title": "Call Back Service Mandatory Assignment and Time Window",
+      "description": "All Call Back Service jobs must be forcibly assigned to technician Lam 1 (custom) and scheduled within a mandatory time window between 8:00 AM and 6:00 PM.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-09-29T09:32:30+00:00",
+      "updated_date": "2026-09-29T09:32:30+00:00",
+      "conversation_id": "352f3cbe-1f07-4453-aede-d77b257aa2fa",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All Call Back Service jobs must be forcibly assigned to technician Lam 1 (custom) and scheduled within a mandatory time window between 8:00 AM and 6:00 PM."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "0:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Call Back Service Mandatory Assignment and Time Window",
+        "rule": "All Call Back Service jobs must be forcibly assigned to technician Lam 1 (custom) and scheduled within a mandatory time window between 8:00 AM and 6:00 PM.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "custom"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "strict": true,
+                  "end_sec": 64800,
+                  "start_sec": 28800
+                },
+                "action_type": "time_window"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "Forcibly routes all Call Back Service jobs to technician Lam 1 (custom) while enforcing a strict scheduled arrival time window between 8:00 AM and 6:00 PM to ensure prompt resolution within designated operating hours.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "898",
+    "utc": "2026-10-03T05:20:31.695618+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "898",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "898",
+      "title": "Call Back Service Priority & Assignment Rule",
+      "description": "All Call Back Service jobs must be forcibly assigned to technician custom (Lam 1), remain scheduled within their original week, and be positioned as the first stop of the day.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-09-28T12:15:18+00:00",
+      "updated_date": "2026-09-28T12:15:18+00:00",
+      "conversation_id": "24318481-03f8-4003-933a-bf90abb62000",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All Call Back Service jobs must be forcibly assigned to technician custom (Lam 1), remain scheduled within their original week, and be positioned as the first stop of the day."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "1:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Call Back Service Priority & Assignment Rule",
+        "rule": "All Call Back Service jobs must be forcibly assigned to technician custom (Lam 1), remain scheduled within their original week, and be positioned as the first stop of the day.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "period": "week"
+                },
+                "action_type": "keep_period"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "custom"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": [],
+                "action_type": "first_stop"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This draft rule establishes routing protocols for Call Back Service orders by ensuring they are forcibly assigned to technician custom (Lam 1), maintained within their original week, and scheduled as the first stop of the day to ensure rapid customer follow-up and operational efficiency.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "897",
+    "utc": "2026-10-03T05:20:34.994593+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "897",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "897",
+      "title": "Call Back Service Scheduling & Assignment Policy",
+      "description": "All Call Back Service stops must remain within their original scheduled week, be assigned exclusively to technician Custom (Lam 1), and be scheduled as the first stop of the day.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-09-28T12:12:48+00:00",
+      "updated_date": "2026-09-28T12:12:48+00:00",
+      "conversation_id": "b60bbd8b-51d7-4b45-ba38-8547fd237e87",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All Call Back Service stops must remain within their original scheduled week, be assigned exclusively to technician Custom (Lam 1), and be scheduled as the first stop of the day."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "1:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Call Back Service Scheduling & Assignment Policy",
+        "rule": "All Call Back Service stops must remain within their original scheduled week, be assigned exclusively to technician Custom (Lam 1), and be scheduled as the first stop of the day.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "period": "week"
+                },
+                "action_type": "keep_period"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "custom"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": [],
+                "action_type": "first_stop"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This rule prioritizes Call Back Service jobs by requiring them to be scheduled as the first stop of the day, forcing their assignment specifically to technician Custom (Lam 1), and constraining them to remain within their original service week to maintain quick response times and quality of service.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "996",
+    "utc": "2026-10-03T05:20:38.138110+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "996",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "996",
+      "title": "Call Back Service Scheduling & Assignment Rule",
+      "description": "All Call Back Service stops must remain within their original scheduled week, be strictly assigned to Technician: Lam 1 - nickname: custom, and be restricted to moving no more than 1 day from their original service date.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-09-30T03:43:08+00:00",
+      "updated_date": "2026-09-30T03:43:08+00:00",
+      "conversation_id": "b4a23351-7641-4ce1-b4f1-761e3c51742c",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All Call Back Service stops must remain within their original scheduled week, be strictly assigned to Technician: Lam 1 - nickname: custom, and be restricted to moving no more than 1 day from their original service date."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "1:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Call Back Service Scheduling & Assignment Rule",
+        "rule": "All Call Back Service stops must remain within their original scheduled week, be strictly assigned to Technician: Lam 1 - nickname: custom, and be restricted to moving no more than 1 day from their original service date.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "period": "week"
+                },
+                "action_type": "keep_period"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "custom"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "max_days": 1
+                },
+                "action_type": "movement_limit"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This rule establishes strict scheduling and assignment constraints for Call Back Service stops by keeping them within their original calendar week, locking them specifically to Technician: Lam 1 - nickname: custom, and capping any schedule movement to a maximum of 1 day to ensure timely resolution and continuity of service.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "555",
+    "utc": "2026-10-03T05:20:41.320345+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "555",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "555",
+      "title": "Call Back Service Scheduling & Technician Lock",
+      "description": "All Call Back Service jobs must be assigned to technician Lam and scheduled strictly within the 8:00 AM to 12:00 PM time window.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-09-21T08:46:02+00:00",
+      "updated_date": "2026-09-21T08:46:02+00:00",
+      "conversation_id": "e4ec2f64-23c1-4fae-89c5-8cfd4c4d97ab",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All Call Back Service jobs must be assigned to technician Lam and scheduled strictly within the 8:00 AM to 12:00 PM time window."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "1:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Call Back Service Scheduling & Technician Lock",
+        "rule": "All Call Back Service jobs must be assigned to technician Lam and scheduled strictly within the 8:00 AM to 12:00 PM time window.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "strict": true,
+                  "end_sec": 43200,
+                  "start_sec": 28800
+                },
+                "action_type": "time_window"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "Lam"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "For Call Back Service jobs, this draft rule enforces a strict morning arrival window between 8:00 AM and 12:00 PM while requiring mandatory assignment to technician Lam, ensuring immediate dedicated coverage and specific timing for follow-up service requests.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "864",
+    "utc": "2026-10-03T05:20:44.660222+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "864",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "864",
+      "title": "Call Back Service Technician Assignment",
+      "description": "All Call Back Service jobs must be assigned to technician Lam 1 (custom) as a required assignment.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-09-28T03:37:21+00:00",
+      "updated_date": "2026-09-28T03:37:21+00:00",
+      "conversation_id": "505fa6f7-b1fd-4570-baa1-16dddb363f55",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All Call Back Service jobs must be assigned to technician Lam 1 (custom) as a required assignment."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "0:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Call Back Service Technician Assignment",
+        "rule": "All Call Back Service jobs must be assigned to technician Lam 1 (custom) as a required assignment.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "custom"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "Routes all Call Back Service jobs exclusively to technician Lam 1 (custom) to ensure consistent service handling and dedicated coverage for follow-up requests.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "695",
+    "utc": "2026-10-03T05:20:47.776793+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "695",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "695",
+      "title": "Call Back Service Technician Assignment",
+      "description": "All Call Back Service jobs must be forcibly assigned to technician Lam 1.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-09-22T10:36:38+00:00",
+      "updated_date": "2026-09-22T10:36:38+00:00",
+      "conversation_id": "c324b16c-3200-419b-a51b-6048f976883f",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All Call Back Service jobs must be forcibly assigned to technician Lam 1."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "0:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Call Back Service Technician Assignment",
+        "rule": "All Call Back Service jobs must be forcibly assigned to technician Lam 1.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "Lam 1"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This proposed rule automatically assigns all Call Back Service jobs to technician Lam 1. Enforcing a designated technician for callbacks ensures consistent service quality and familiarity with previous service history on follow-up visits.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "865",
+    "utc": "2026-10-03T05:20:51.056964+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "865",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "865",
+      "title": "Call Back Service Technician Lock",
+      "description": "All Call Back Service jobs must be assigned to Technician Lam 1 - nickname: custom.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-09-28T03:47:31+00:00",
+      "updated_date": "2026-09-28T03:47:31+00:00",
+      "conversation_id": "84b67fea-0e9b-4d99-8335-e43a64ad4d9c",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All Call Back Service jobs must be assigned to Technician Lam 1 - nickname: custom."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "0:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Call Back Service Technician Lock",
+        "rule": "All Call Back Service jobs must be assigned to Technician Lam 1 - nickname: custom.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "custom"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This rule requires that all Call Back Service jobs are forcefully assigned to Technician Lam 1 (nickname: custom), ensuring call back requests are handled specifically by this technician.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "911",
+    "utc": "2026-10-03T05:20:54.325935+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "911",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "911",
+      "title": "Call Back Service Weekly Lock & Technician Assignment",
+      "description": "All Call Back Service jobs must be scheduled within the same calendar week and strictly assigned to technician Lam 1.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-09-29T03:16:31+00:00",
+      "updated_date": "2026-09-29T03:16:31+00:00",
+      "conversation_id": "cac2a7fb-819a-4482-afb1-077afd303c02",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All Call Back Service jobs must be scheduled within the same calendar week and strictly assigned to technician Lam 1."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "1:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Call Back Service Weekly Lock & Technician Assignment",
+        "rule": "All Call Back Service jobs must be scheduled within the same calendar week and strictly assigned to technician Lam 1.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "period": "week"
+                },
+                "action_type": "keep_period"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "Lam 1"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This rule targets all Call Back Service jobs, enforcing that they remain scheduled within the same calendar week while strictly requiring assignment to technician Lam 1. This ensures service continuity and dedicated handling for callback requests.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "952",
+    "utc": "2026-10-03T05:20:57.482339+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "952",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "952",
+      "title": "Call Back Service Weekly Lock and Tech Assignment",
+      "description": "All Call Back Service jobs must be assigned to technician custom (Technician: Lam 1 - nickname: custom) and scheduled within the same week.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-09-29T09:24:49+00:00",
+      "updated_date": "2026-09-29T09:24:49+00:00",
+      "conversation_id": "b82b1161-16f6-42ba-8af3-abc29864d5bd",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All Call Back Service jobs must be assigned to technician custom (Technician: Lam 1 - nickname: custom) and scheduled within the same week."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "1:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Call Back Service Weekly Lock and Tech Assignment",
+        "rule": "All Call Back Service jobs must be assigned to technician custom (Technician: Lam 1 - nickname: custom) and scheduled within the same week.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "period": "week"
+                },
+                "action_type": "keep_period"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "custom"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This rule targets all Call Back Service stops, ensuring they remain scheduled within their original week and are forcibly assigned to technician custom (Technician: Lam 1 - nickname: custom). This helps maintain service continuity and ensures specialized call-back requests are handled consistently by the designated technician.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "955",
+    "utc": "2026-10-03T05:21:00.698970+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "955",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "955",
+      "title": "Confirmed Jobs Custom Tech & Movement Restriction",
+      "description": "All Confirmed jobs must be strictly assigned to technician Lam 1 (custom) and restricted to a maximum service date shift of 1 day from their original schedule.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-09-29T09:30:48+00:00",
+      "updated_date": "2026-09-29T09:30:48+00:00",
+      "conversation_id": "e703752c-ccf3-40d5-8454-58633c2ea79b",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All Confirmed jobs must be strictly assigned to technician Lam 1 (custom) and restricted to a maximum service date shift of 1 day from their original schedule."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "0:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Confirmed Jobs Custom Tech & Movement Restriction",
+        "rule": "All Confirmed jobs must be strictly assigned to technician Lam 1 (custom) and restricted to a maximum service date shift of 1 day from their original schedule.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "custom"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [
+                "Confirmed"
+              ],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "max_days": 1
+                },
+                "action_type": "movement_limit"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [
+                "Confirmed"
+              ],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This proposed draft rule targets all jobs currently in Confirmed status, forcing their assignment to technician Lam 1 (nickname: custom) while restricting any schedule adjustments to no more than 1 day from the original service date. This ensures dedicated technician coverage while preserving original scheduling commitments.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "957",
+    "utc": "2026-10-03T05:21:03.932408+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "957",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "957",
+      "title": "Confirmed Jobs Mandatory Tech and Schedule Lock",
+      "description": "All Confirmed status jobs must be forcibly assigned to technician custom (Lam 1) and restricted from moving more than 2 days from their scheduled date.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-09-29T09:35:34+00:00",
+      "updated_date": "2026-09-29T09:35:34+00:00",
+      "conversation_id": "18c7a744-a2e8-4865-9668-0ef1a79cb6e8",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All Confirmed status jobs must be forcibly assigned to technician custom (Lam 1) and restricted from moving more than 2 days from their scheduled date."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "1:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Confirmed Jobs Mandatory Tech and Schedule Lock",
+        "rule": "All Confirmed status jobs must be forcibly assigned to technician custom (Lam 1) and restricted from moving more than 2 days from their scheduled date.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "max_days": 2
+                },
+                "action_type": "movement_limit"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [
+                "Confirmed"
+              ],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "custom"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [
+                "Confirmed"
+              ],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This rule applies to all jobs currently in Confirmed status. It mandates that these jobs must be assigned to technician custom (Lam 1 - nickname: custom) while strictly limiting any schedule adjustments or date movements to a maximum of 2 days. This ensures critical confirmed appointments remain with the intended technician while keeping schedule volatility to a minimum.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "997",
+    "utc": "2026-10-03T05:21:07.182611+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "997",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "997",
+      "title": "Confirmed Status Routing Rules",
+      "description": "All Confirmed status jobs must be assigned to technician custom (Lam 1), remain scheduled within their original week, and be placed as the first stop of the day.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-09-30T03:45:11+00:00",
+      "updated_date": "2026-09-30T03:45:11+00:00",
+      "conversation_id": "0b962583-554c-48b0-b64c-d4567c7d8f79",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All Confirmed status jobs must be assigned to technician custom (Lam 1), remain scheduled within their original week, and be placed as the first stop of the day."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "1:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Confirmed Status Routing Rules",
+        "rule": "All Confirmed status jobs must be assigned to technician custom (Lam 1), remain scheduled within their original week, and be placed as the first stop of the day.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "period": "week"
+                },
+                "action_type": "keep_period"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [
+                "Confirmed"
+              ],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "custom"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [
+                "Confirmed"
+              ],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": [],
+                "action_type": "first_stop"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [
+                "Confirmed"
+              ],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This draft rule applies to all jobs with a status of Confirmed. It locks these stops to their original scheduled week, forcibly assigns them to technician custom (Lam 1), and prioritizes them as the first stop on the daily route to streamline start-of-day operations.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "954",
+    "utc": "2026-10-03T05:21:10.445669+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "954",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "954",
+      "title": "Every 21 Days Technician & Day Lock",
+      "description": "All Every 21 Days service jobs must be strictly scheduled on their original day and assigned to custom (Technician: Lam 1 - nickname: custom).",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-09-29T09:27:47+00:00",
+      "updated_date": "2026-09-29T09:27:47+00:00",
+      "conversation_id": "a508d9e8-3f51-4987-8cff-e21d4c436c5d",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All Every 21 Days service jobs must be strictly scheduled on their original day and assigned to custom (Technician: Lam 1 - nickname: custom)."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "1:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Every 21 Days Technician & Day Lock",
+        "rule": "All Every 21 Days service jobs must be strictly scheduled on their original day and assigned to custom (Technician: Lam 1 - nickname: custom).",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "period": "day"
+                },
+                "action_type": "keep_period"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Every 21 Days"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "custom"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Every 21 Days"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This draft rule applies to all Every 21 Days service jobs, locking them to their original scheduled day and mandating assignment to custom (Technician: Lam 1 - nickname: custom) to ensure consistency and service continuity.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "1056",
+    "utc": "2026-10-03T05:21:13.666959+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "1056",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "1056",
+      "title": "Lam 1 Call Back Service Dedicated Routing",
+      "description": "Technician Lam 1 must be strictly assigned to all Call Back Service jobs, and all other service types are explicitly excluded from being assigned or moved to technician Lam 1.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-10-02T08:05:26+00:00",
+      "updated_date": "2026-10-02T08:05:26+00:00",
+      "conversation_id": "7d6bdd62-21ad-48f0-b7e5-07a14f9333f4",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "Technician Lam 1 must be strictly assigned to all Call Back Service jobs, and all other service types are explicitly excluded from being assigned or moved to technician Lam 1."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "0:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Lam 1 Call Back Service Dedicated Routing",
+        "rule": "Technician Lam 1 must be strictly assigned to all Call Back Service jobs, and all other service types are explicitly excluded from being assigned or moved to technician Lam 1.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "Lam 1"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Call Back Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "Lam 1"
+                },
+                "action_type": "exclude"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Bed Bug Heat Treatment",
+                "Bi-Monthly Service",
+                "Eco-Friendly Pest Solutions",
+                "Every 21 Days",
+                "Flea & Tick Control",
+                "Follow Up Inspections",
+                "General Pest Control",
+                "Initial Service",
+                "Monthly Service",
+                "Mosquito Reduction Program",
+                "Preventative Monitoring & Maintenance",
+                "Quarterly Pest Control",
+                "Quarterly Service",
+                "Rodent Control & Exclusion",
+                "Termite Baiting & Monitoring",
+                "Wasp Nest Removal",
+                "Wildlife Trapping & Relocation"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This rule dedicates technician Lam 1 exclusively to Call Back Service jobs by requiring forced assignment for Call Back Services while excluding Lam 1 from all other offered service types to ensure specialized focus on callback requests.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "1025",
+    "utc": "2026-10-03T05:21:16.988709+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "1025",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "1025",
+      "title": "Messi Customer Assignment Rule",
+      "description": "All service appointments for customer Messi must be forcefully assigned to technician Lam 1.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-10-01T07:22:12+00:00",
+      "updated_date": "2026-10-01T07:22:12+00:00",
+      "conversation_id": "befbad22-480f-4ba6-90ed-91e2b4aca1bc",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All service appointments for customer Messi must be forcefully assigned to technician Lam 1."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "0:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Messi Customer Assignment Rule",
+        "rule": "All service appointments for customer Messi must be forcefully assigned to technician Lam 1.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "Lam 1"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [],
+              "customer_names": [
+                "Messi"
+              ],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This rule enforces a required technician assignment for customer Messi, ensuring all associated jobs are routed exclusively to Lam 1.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "1023",
+    "utc": "2026-10-03T05:21:20.168238+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "1023",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "1023",
+      "title": "Messi Customer Routing & Assignment Lock",
+      "description": "All service jobs for customer Messi must be strictly scheduled between 8:00 AM and 9:00 AM and forcefully assigned to technician Lam Test.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-10-01T07:19:11+00:00",
+      "updated_date": "2026-10-01T07:19:11+00:00",
+      "conversation_id": "aa292d9d-af60-45e9-bcb3-13aa4b080e96",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All service jobs for customer Messi must be strictly scheduled between 8:00 AM and 9:00 AM and forcefully assigned to technician Lam Test."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "1:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Messi Customer Routing & Assignment Lock",
+        "rule": "All service jobs for customer Messi must be strictly scheduled between 8:00 AM and 9:00 AM and forcefully assigned to technician Lam Test.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "strict": true,
+                  "end_sec": 32400,
+                  "start_sec": 28800
+                },
+                "action_type": "time_window"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [],
+              "customer_names": [
+                "Messi"
+              ],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "Lam Test"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [],
+              "customer_names": [
+                "Messi"
+              ],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "Enforces a strict 8:00 AM to 9:00 AM arrival window and mandatory technician assignment to Lam Test for all service appointments associated with customer Messi.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "953",
+    "utc": "2026-10-03T05:21:23.307871+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "953",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "953",
+      "title": "Monthly Service Same-Day Custom Tech Assignment",
+      "description": "All Monthly Service jobs must be scheduled on the same day and require assignment to technician Lam 1 (nickname: custom).",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-09-29T09:26:33+00:00",
+      "updated_date": "2026-09-29T09:26:33+00:00",
+      "conversation_id": "04697dc5-107a-4155-8eba-85c5a7d443b6",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All Monthly Service jobs must be scheduled on the same day and require assignment to technician Lam 1 (nickname: custom)."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "1:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Monthly Service Same-Day Custom Tech Assignment",
+        "rule": "All Monthly Service jobs must be scheduled on the same day and require assignment to technician Lam 1 (nickname: custom).",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "period": "day"
+                },
+                "action_type": "keep_period"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Monthly Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "custom"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [
+                "Monthly Service"
+              ],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This rule ensures that Monthly Service stops remain scheduled within their original day while strictly requiring assignment to technician Lam 1 (nickname: custom) to maintain service continuity and workload management.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "1022",
+    "utc": "2026-10-03T05:21:26.576967+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "1022",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "1022",
+      "title": "Nami Preferred Service Schedule & Technician Assignment",
+      "description": "For all service jobs for customer Nami, routing must strictly enforce an arrival time window between 8:00 AM and 9:00 AM and require assignment to technician Lam Test.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-10-01T07:14:56+00:00",
+      "updated_date": "2026-10-01T07:14:56+00:00",
+      "conversation_id": "7fd4e7c3-ddc8-42ba-9c85-8d291f3d6089",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "For all service jobs for customer Nami, routing must strictly enforce an arrival time window between 8:00 AM and 9:00 AM and require assignment to technician Lam Test."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "0:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Nami Preferred Service Schedule & Technician Assignment",
+        "rule": "For all service jobs for customer Nami, routing must strictly enforce an arrival time window between 8:00 AM and 9:00 AM and require assignment to technician Lam Test.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "Lam Test"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [],
+              "customer_names": [
+                "Nami"
+              ],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "strict": true,
+                  "end_sec": 32400,
+                  "start_sec": 28800
+                },
+                "action_type": "time_window"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [],
+              "customer_names": [
+                "Nami"
+              ],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This rule establishes specific routing constraints for customer Nami by enforcing a strict morning arrival time window between 8:00 AM and 9:00 AM and mandating assignment to technician Lam Test. This ensures customer preferences are consistently met while maintaining proper schedule compliance.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "1034",
+    "utc": "2026-10-03T05:21:29.822530+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "1034",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "1034",
+      "title": "Region 2 Mandatory Technician Assignment",
+      "description": "All jobs located in Region 2 must be mandatorily assigned to technician Lam 1 (custom).",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-10-01T08:13:15+00:00",
+      "updated_date": "2026-10-01T08:13:15+00:00",
+      "conversation_id": "5a51bad9-8dac-4423-99f8-3a730b8a10d0",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "All jobs located in Region 2 must be mandatorily assigned to technician Lam 1 (custom)."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "0:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Region 2 Mandatory Technician Assignment",
+        "rule": "All jobs located in Region 2 must be mandatorily assigned to technician Lam 1 (custom).",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "custom"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [
+                "Region 2"
+              ],
+              "service_types": [],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This proposed draft rule automatically forces the assignment of all jobs in Region 2 to technician Lam 1 (custom), ensuring strict technician exclusivity for service requests originating within this region.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  },
+  {
+    "id": "1060",
+    "utc": "2026-10-03T05:21:33.073834+00:00",
+    "toggle_response": {
+      "data": {
+        "id": "1060",
+        "status": 1,
+        "rule_conflict": null
+      },
+      "success": true,
+      "message": []
+    },
+    "status_readback": 2,
+    "readback_detail": {
+      "id": "1060",
+      "title": "Unconfirmed Jobs Assignment for Lam 1",
+      "description": "Jobs with the Unconfirmed status must be forcibly assigned to technician Lam 1, while jobs with all other statuses are excluded from being assigned to Lam 1.",
+      "status": 2,
+      "created_by": {
+        "id": "84361445",
+        "first_name": "Lam",
+        "last_name": "Test",
+        "full_name": "Lam Test",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+        "type": 0
+      },
+      "created_date": "2026-10-02T08:22:58+00:00",
+      "updated_date": "2026-10-02T08:22:58+00:00",
+      "conversation_id": "7da9ae5e-797d-4a61-b142-25876c552741",
+      "rule_detail": {
+        "case": {
+          "text": "Conflicts with: System — Cross-technician routing."
+        },
+        "rule": {
+          "text": "Jobs with the Unconfirmed status must be forcibly assigned to technician Lam 1, while jobs with all other statuses are excluded from being assigned to Lam 1."
+        },
+        "issue": {
+          "text": "Jobs stay on their assigned technician."
+        },
+        "intent_conflicts": {
+          "0:0": {
+            "category": "hard_conflict",
+            "blocked_by": [
+              {
+                "intent": null,
+                "rule_id": null,
+                "rule_type": "system",
+                "system_rule_key": "system_rules.allow_cross_technician_routing"
+              }
+            ]
+          }
+        },
+        "conflict_system_rule_keys": [
+          "system_rules.allow_cross_technician_routing"
+        ]
+      },
+      "executable_logic": {
+        "id": "rule_1",
+        "name": "Unconfirmed Jobs Assignment for Lam 1",
+        "rule": "Jobs with the Unconfirmed status must be forcibly assigned to technician Lam 1, while jobs with all other statuses are excluded from being assigned to Lam 1.",
+        "rules": [
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "Lam 1"
+                },
+                "action_type": "force_tech"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [
+                "Unconfirmed"
+              ],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          },
+          {
+            "actions": [
+              {
+                "params": {
+                  "tech_name": "Lam 1"
+                },
+                "action_type": "exclude"
+              }
+            ],
+            "targets": {
+              "match": "all",
+              "statuses": [
+                "Confirmed",
+                "Completed",
+                "Reschedule",
+                "Pending Confirmation",
+                "Canceled",
+                "Pending Booking",
+                "Terminate Service",
+                "Confirmed - test"
+              ],
+              "tech_name": [],
+              "service_date": [],
+              "customer_tags": [],
+              "region_labels": [],
+              "service_types": [],
+              "customer_names": [],
+              "customer_addresses": []
+            }
+          }
+        ],
+        "summary": "This rule ensures that technician Lam 1 is exclusively assigned to unconfirmed jobs while blocking all other job statuses from being routed to them, streamlining specialized scheduling and preventing incorrect status assignments for this technician.",
+        "classify_action": "gen_rule"
+      }
+    },
+    "retry_result": "STILL_NOT_ENABLED",
+    "off_readback": true
+  }
+]

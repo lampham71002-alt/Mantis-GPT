@@ -1,0 +1,3168 @@
+{
+  "data": [
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "nami "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Lake City Way Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Lake City Way Northeast"
+        },
+        {
+          "field": "service_city",
+          "value": "Seattle"
+        },
+        {
+          "field": "service_state",
+          "value": "WA"
+        },
+        {
+          "field": "service_zip",
+          "value": "5555"
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "11:30am - 12pm"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "nami "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Lake City Way Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Tue Jan 12th, 2027 11:30am - 12pm",
+        "content": [
+          "nami  ",
+          "Lake City Way Northeast ",
+          "Every 21 Days"
+        ]
+      },
+      "tile": {
+        "header": "11:30am - 12pm",
+        "content": [
+          "nami  ",
+          "Lake City Way Northeast ",
+          "Every 21 Days"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "3958",
+        "name": "Every 21 Days",
+        "locked": 0,
+        "parent_job_id": "3953",
+        "job_no": 5,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "recurrence",
+        "emoji": []
+      },
+      "active_event": false,
+      "event": {
+        "id": "3954",
+        "current_parent_event": "3953",
+        "start": "2027-01-12T11:30:00+00:00",
+        "end": "2027-01-12T12:00:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#f2f2f2",
+        "border": "#cfcfcf"
+      },
+      "customer": {
+        "id": "14790",
+        "full_name": "nami ",
+        "first_name": "nami",
+        "last_name": "",
+        "avatar": "n"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "01-12-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "0",
+        "name": "Lake City Way Northeast",
+        "street1": "Lake City Way Northeast",
+        "street2": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "5555",
+        "lat": "47.7075944",
+        "lng": "-122.3015595",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "nami "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Lake City Way Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Lake City Way Northeast"
+        },
+        {
+          "field": "service_city",
+          "value": "Seattle"
+        },
+        {
+          "field": "service_state",
+          "value": "WA"
+        },
+        {
+          "field": "service_zip",
+          "value": "5555"
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "11:30am - 12pm"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "nami "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Lake City Way Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Tue Feb 2nd, 2027 11:30am - 12pm",
+        "content": [
+          "nami  ",
+          "Lake City Way Northeast ",
+          "Every 21 Days"
+        ]
+      },
+      "tile": {
+        "header": "11:30am - 12pm",
+        "content": [
+          "nami  ",
+          "Lake City Way Northeast ",
+          "Every 21 Days"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "3959",
+        "name": "Every 21 Days",
+        "locked": 0,
+        "parent_job_id": "3953",
+        "job_no": 6,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "recurrence",
+        "emoji": []
+      },
+      "active_event": false,
+      "event": {
+        "id": "3955",
+        "current_parent_event": "3953",
+        "start": "2027-02-02T11:30:00+00:00",
+        "end": "2027-02-02T12:00:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#f2f2f2",
+        "border": "#cfcfcf"
+      },
+      "customer": {
+        "id": "14790",
+        "full_name": "nami ",
+        "first_name": "nami",
+        "last_name": "",
+        "avatar": "n"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "02-02-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "0",
+        "name": "Lake City Way Northeast",
+        "street1": "Lake City Way Northeast",
+        "street2": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "5555",
+        "lat": "47.7075944",
+        "lng": "-122.3015595",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Clark Kent"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "500 Lakeview Dr"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "500 Lakeview Dr"
+        },
+        {
+          "field": "service_city",
+          "value": "Sebring"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33870"
+        },
+        {
+          "field": "service_type",
+          "value": "Bi-Monthly Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "1:15 - 1:45pm"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Clark Kent"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "500 Lakeview Dr"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Bi-Monthly Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Sat Feb 6th, 2027 1:15 - 1:45pm",
+        "content": [
+          "Clark Kent ",
+          "500 Lakeview Dr ",
+          "Bi-Monthly Service"
+        ]
+      },
+      "tile": {
+        "header": "1:15 - 1:45pm",
+        "content": [
+          "Clark Kent ",
+          "500 Lakeview Dr ",
+          "Bi-Monthly Service"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "8236",
+        "name": "Bi-Monthly Service",
+        "locked": 0,
+        "parent_job_id": "8234",
+        "job_no": 2,
+        "previously_completed": 0,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "recurrence",
+        "emoji": []
+      },
+      "active_event": false,
+      "event": {
+        "id": "8232",
+        "current_parent_event": "8234",
+        "start": "2027-02-06T13:15:00+00:00",
+        "end": "2027-02-06T13:45:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#ebf8bc",
+        "border": "#c2ed55"
+      },
+      "customer": {
+        "id": "15376",
+        "full_name": "Clark Kent",
+        "first_name": "Clark",
+        "last_name": "Kent",
+        "avatar": "CK"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "02-06-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "15382",
+        "name": "500 Lakeview Dr",
+        "street1": "500 Lakeview Dr",
+        "street2": "",
+        "city": "Sebring",
+        "state": "FL",
+        "zip": "33870",
+        "lat": "27.495",
+        "lng": "-81.442",
+        "note": "Sebring Map Area Test"
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Tony Stark"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "100 Miller Ave"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "100 Miller Ave"
+        },
+        {
+          "field": "service_city",
+          "value": "Sebring"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33870"
+        },
+        {
+          "field": "service_type",
+          "value": "Preventative Monitoring & Maintenance"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "1 - 1:30pm"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Tony Stark"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "100 Miller Ave"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Preventative Monitoring & Maintenance"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Wed Jan 6th, 2027 1 - 1:30pm",
+        "content": [
+          "Tony Stark ",
+          "100 Miller Ave ",
+          "Preventative Monitoring & Maintenance"
+        ]
+      },
+      "tile": {
+        "header": "1 - 1:30pm",
+        "content": [
+          "Tony Stark ",
+          "100 Miller Ave ",
+          "Preventative Monitoring & Maintenance"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "8249",
+        "name": "Preventative Monitoring & Maintenance",
+        "locked": 0,
+        "parent_job_id": "8248",
+        "job_no": 1,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "recurrence",
+        "emoji": []
+      },
+      "active_event": false,
+      "event": {
+        "id": "8245",
+        "current_parent_event": "8248",
+        "start": "2027-01-06T13:00:00+00:00",
+        "end": "2027-01-06T13:30:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#f2f2f2",
+        "border": "#cfcfcf"
+      },
+      "customer": {
+        "id": "15373",
+        "full_name": "Tony Stark",
+        "first_name": "Tony",
+        "last_name": "Stark",
+        "avatar": "TS"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "01-06-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "15379",
+        "name": "100 Miller Ave",
+        "street1": "100 Miller Ave",
+        "street2": "",
+        "city": "Sebring",
+        "state": "FL",
+        "zip": "33870",
+        "lat": "27.458",
+        "lng": "-81.421",
+        "note": "Sebring Map Area Test"
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Rostova "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "7900 Northwest 183rd Street"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "7900 Northwest 183rd Street"
+        },
+        {
+          "field": "service_city",
+          "value": "Miami Gardens"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33055"
+        },
+        {
+          "field": "service_type",
+          "value": "Mosquito Reduction Program"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "8 - 8:10am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Rostova "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "7900 Northwest 183rd Street"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Mosquito Reduction Program"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Thu Jan 7th, 2027 8 - 8:10am",
+        "content": [
+          "Rostova  ",
+          "7900 Northwest 183rd Street ",
+          "Mosquito Reduction Program"
+        ]
+      },
+      "tile": {
+        "header": "8 - 8:10am",
+        "content": [
+          "Rostova  ",
+          "7900 Northwest 183rd Street ",
+          "Mosquito Reduction Program"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "8446",
+        "name": "Mosquito Reduction Program",
+        "locked": 0,
+        "parent_job_id": "8443",
+        "job_no": 3,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "recurrence",
+        "emoji": []
+      },
+      "active_event": false,
+      "event": {
+        "id": "8442",
+        "current_parent_event": "8443",
+        "start": "2027-01-07T08:00:00+00:00",
+        "end": "2027-01-07T08:10:00+00:00",
+        "repeat": 1,
+        "length": 10
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#f2f2f2",
+        "border": "#cfcfcf"
+      },
+      "customer": {
+        "id": "15510",
+        "full_name": "Rostova ",
+        "first_name": "Rostova",
+        "last_name": "",
+        "avatar": "R"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "01-07-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "15518",
+        "name": "7900 Northwest 183rd Street",
+        "street1": "7900 Northwest 183rd Street",
+        "street2": "",
+        "city": "Miami Gardens",
+        "state": "FL",
+        "zip": "33055",
+        "lat": "25.9393671",
+        "lng": "-80.2770983",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Rostova "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "7900 Northwest 183rd Street"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "7900 Northwest 183rd Street"
+        },
+        {
+          "field": "service_city",
+          "value": "Miami Gardens"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33055"
+        },
+        {
+          "field": "service_type",
+          "value": "Mosquito Reduction Program"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "8 - 8:10am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Rostova "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "7900 Northwest 183rd Street"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Mosquito Reduction Program"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Sun Feb 7th, 2027 8 - 8:10am",
+        "content": [
+          "Rostova  ",
+          "7900 Northwest 183rd Street ",
+          "Mosquito Reduction Program"
+        ]
+      },
+      "tile": {
+        "header": "8 - 8:10am",
+        "content": [
+          "Rostova  ",
+          "7900 Northwest 183rd Street ",
+          "Mosquito Reduction Program"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "8447",
+        "name": "Mosquito Reduction Program",
+        "locked": 0,
+        "parent_job_id": "8443",
+        "job_no": 4,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "recurrence",
+        "emoji": []
+      },
+      "active_event": false,
+      "event": {
+        "id": "8443",
+        "current_parent_event": "8443",
+        "start": "2027-02-07T08:00:00+00:00",
+        "end": "2027-02-07T08:10:00+00:00",
+        "repeat": 1,
+        "length": 10
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#f2f2f2",
+        "border": "#cfcfcf"
+      },
+      "customer": {
+        "id": "15510",
+        "full_name": "Rostova ",
+        "first_name": "Rostova",
+        "last_name": "",
+        "avatar": "R"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "02-07-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "15518",
+        "name": "7900 Northwest 183rd Street",
+        "street1": "7900 Northwest 183rd Street",
+        "street2": "",
+        "city": "Miami Gardens",
+        "state": "FL",
+        "zip": "33055",
+        "lat": "25.9393671",
+        "lng": "-80.2770983",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Lam "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Rotonda Boulevard West"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Rotonda Boulevard West"
+        },
+        {
+          "field": "service_city",
+          "value": "Rotonda West"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33947"
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "3:54 - 4:24pm"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Lam "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Rotonda Boulevard West"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Wed Jan 13th, 2027 3:54 - 4:24pm",
+        "content": [
+          "Lam  ",
+          "Rotonda Boulevard West ",
+          "Every 21 Days"
+        ]
+      },
+      "tile": {
+        "header": "3:54 - 4:24pm",
+        "content": [
+          "Lam  ",
+          "Rotonda Boulevard West ",
+          "Every 21 Days"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "3760",
+        "name": "Every 21 Days",
+        "locked": 0,
+        "parent_job_id": "3755",
+        "job_no": 5,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "recurrence",
+        "emoji": [
+          "😶‍🌫️"
+        ]
+      },
+      "active_event": false,
+      "event": {
+        "id": "3756",
+        "current_parent_event": "3755",
+        "start": "2027-01-13T15:54:00+00:00",
+        "end": "2027-01-13T16:24:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#f2f2f2",
+        "border": "#cfcfcf"
+      },
+      "customer": {
+        "id": "14780",
+        "full_name": "Lam ",
+        "first_name": "Lam",
+        "last_name": "",
+        "avatar": "L"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "01-13-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14781",
+        "name": "Rotonda Boulevard West",
+        "street1": "Rotonda Boulevard West",
+        "street2": "",
+        "city": "Rotonda West",
+        "state": "FL",
+        "zip": "33947",
+        "lat": "26.89262",
+        "lng": "-82.2920725",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Lam "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Rotonda Boulevard West"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Rotonda Boulevard West"
+        },
+        {
+          "field": "service_city",
+          "value": "Rotonda West"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33947"
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "3:54 - 4:24pm"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Lam "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Rotonda Boulevard West"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Wed Feb 3rd, 2027 3:54 - 4:24pm",
+        "content": [
+          "Lam  ",
+          "Rotonda Boulevard West ",
+          "Every 21 Days"
+        ]
+      },
+      "tile": {
+        "header": "3:54 - 4:24pm",
+        "content": [
+          "Lam  ",
+          "Rotonda Boulevard West ",
+          "Every 21 Days"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "3761",
+        "name": "Every 21 Days",
+        "locked": 0,
+        "parent_job_id": "3755",
+        "job_no": 6,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "recurrence",
+        "emoji": [
+          "😶‍🌫️"
+        ]
+      },
+      "active_event": false,
+      "event": {
+        "id": "3757",
+        "current_parent_event": "3755",
+        "start": "2027-02-03T15:54:00+00:00",
+        "end": "2027-02-03T16:24:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#f2f2f2",
+        "border": "#cfcfcf"
+      },
+      "customer": {
+        "id": "14780",
+        "full_name": "Lam ",
+        "first_name": "Lam",
+        "last_name": "",
+        "avatar": "L"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "02-03-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14781",
+        "name": "Rotonda Boulevard West",
+        "street1": "Rotonda Boulevard West",
+        "street2": "",
+        "city": "Rotonda West",
+        "state": "FL",
+        "zip": "33947",
+        "lat": "26.89262",
+        "lng": "-82.2920725",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "service_city",
+          "value": "Palm Bay"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32907"
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "9:45 - 10:15am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Thu Jan 14th, 2027 9:45 - 10:15am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Every 21 Days"
+        ]
+      },
+      "tile": {
+        "header": "9:45 - 10:15am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Every 21 Days"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "3796",
+        "name": "Every 21 Days",
+        "locked": 0,
+        "parent_job_id": "3791",
+        "job_no": 5,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "recurrence",
+        "emoji": [
+          "😶‍🌫️"
+        ]
+      },
+      "active_event": false,
+      "event": {
+        "id": "3792",
+        "current_parent_event": "3791",
+        "start": "2027-01-14T09:45:00+00:00",
+        "end": "2027-01-14T10:15:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#f2f2f2",
+        "border": "#cfcfcf"
+      },
+      "customer": {
+        "id": "14783",
+        "full_name": "Minh ",
+        "first_name": "Minh",
+        "last_name": "",
+        "avatar": "M"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "01-14-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14784",
+        "name": "Myakka Street Northeast",
+        "street1": "Myakka Street Northeast",
+        "street2": "",
+        "city": "Palm Bay",
+        "state": "FL",
+        "zip": "32907",
+        "lat": "28.0268755",
+        "lng": "-80.6634882",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "service_city",
+          "value": "Palm Bay"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32907"
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "9:45 - 10:15am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Thu Feb 4th, 2027 9:45 - 10:15am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Every 21 Days"
+        ]
+      },
+      "tile": {
+        "header": "9:45 - 10:15am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Every 21 Days"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "3797",
+        "name": "Every 21 Days",
+        "locked": 0,
+        "parent_job_id": "3791",
+        "job_no": 6,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "recurrence",
+        "emoji": [
+          "😶‍🌫️"
+        ]
+      },
+      "active_event": false,
+      "event": {
+        "id": "3793",
+        "current_parent_event": "3791",
+        "start": "2027-02-04T09:45:00+00:00",
+        "end": "2027-02-04T10:15:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#f2f2f2",
+        "border": "#cfcfcf"
+      },
+      "customer": {
+        "id": "14783",
+        "full_name": "Minh ",
+        "first_name": "Minh",
+        "last_name": "",
+        "avatar": "M"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "02-04-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14784",
+        "name": "Myakka Street Northeast",
+        "street1": "Myakka Street Northeast",
+        "street2": "",
+        "city": "Palm Bay",
+        "state": "FL",
+        "zip": "32907",
+        "lat": "28.0268755",
+        "lng": "-80.6634882",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "service_city",
+          "value": "Palm Bay"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32907"
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "10:30 - 11am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Thu Jan 14th, 2027 10:30 - 11am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Every 21 Days"
+        ]
+      },
+      "tile": {
+        "header": "10:30 - 11am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Every 21 Days"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "3922",
+        "name": "Every 21 Days",
+        "locked": 0,
+        "parent_job_id": "3917",
+        "job_no": 5,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "recurrence",
+        "emoji": []
+      },
+      "active_event": false,
+      "event": {
+        "id": "3918",
+        "current_parent_event": "3917",
+        "start": "2027-01-14T10:30:00+00:00",
+        "end": "2027-01-14T11:00:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#f2f2f2",
+        "border": "#cfcfcf"
+      },
+      "customer": {
+        "id": "14783",
+        "full_name": "Minh ",
+        "first_name": "Minh",
+        "last_name": "",
+        "avatar": "M"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "01-14-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14784",
+        "name": "Myakka Street Northeast",
+        "street1": "Myakka Street Northeast",
+        "street2": "",
+        "city": "Palm Bay",
+        "state": "FL",
+        "zip": "32907",
+        "lat": "28.0268755",
+        "lng": "-80.6634882",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "service_city",
+          "value": "Palm Bay"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32907"
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "10:30 - 11am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Minh "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Myakka Street Northeast"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Thu Feb 4th, 2027 10:30 - 11am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Every 21 Days"
+        ]
+      },
+      "tile": {
+        "header": "10:30 - 11am",
+        "content": [
+          "Minh  ",
+          "Myakka Street Northeast ",
+          "Every 21 Days"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "3923",
+        "name": "Every 21 Days",
+        "locked": 0,
+        "parent_job_id": "3917",
+        "job_no": 6,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "recurrence",
+        "emoji": []
+      },
+      "active_event": false,
+      "event": {
+        "id": "3919",
+        "current_parent_event": "3917",
+        "start": "2027-02-04T10:30:00+00:00",
+        "end": "2027-02-04T11:00:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#f2f2f2",
+        "border": "#cfcfcf"
+      },
+      "customer": {
+        "id": "14783",
+        "full_name": "Minh ",
+        "first_name": "Minh",
+        "last_name": "",
+        "avatar": "M"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "02-04-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14784",
+        "name": "Myakka Street Northeast",
+        "street1": "Myakka Street Northeast",
+        "street2": "",
+        "city": "Palm Bay",
+        "state": "FL",
+        "zip": "32907",
+        "lat": "28.0268755",
+        "lng": "-80.6634882",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Messi "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Southwest 9th Street"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Southwest 9th Street"
+        },
+        {
+          "field": "service_city",
+          "value": "Miami"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "5555"
+        },
+        {
+          "field": "service_type",
+          "value": "Termite Baiting & Monitoring"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "2:08 - 2:38pm"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Messi "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "Southwest 9th Street"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Termite Baiting & Monitoring"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Fri Jan 1st, 2027 2:08 - 2:38pm",
+        "content": [
+          "Messi  ",
+          "Southwest 9th Street ",
+          "Termite Baiting & Monitoring"
+        ]
+      },
+      "tile": {
+        "header": "2:08 - 2:38pm",
+        "content": [
+          "Messi  ",
+          "Southwest 9th Street ",
+          "Termite Baiting & Monitoring"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "6769",
+        "name": "Termite Baiting & Monitoring",
+        "locked": 0,
+        "parent_job_id": "6768",
+        "job_no": 1,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "recurrence",
+        "emoji": []
+      },
+      "active_event": false,
+      "event": {
+        "id": "6765",
+        "current_parent_event": "6768",
+        "start": "2027-01-01T14:08:00+00:00",
+        "end": "2027-01-01T14:38:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#f2f2f2",
+        "border": "#cfcfcf"
+      },
+      "customer": {
+        "id": "14787",
+        "full_name": "Messi ",
+        "first_name": "Messi",
+        "last_name": "",
+        "avatar": "M"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "01-01-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "0",
+        "name": "Southwest 9th Street",
+        "street1": "Southwest 9th Street",
+        "street2": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "5555",
+        "lat": "25.7648345",
+        "lng": "-80.2224856",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "TestAuto_3 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "500 Placida Rd"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "500 Placida Rd"
+        },
+        {
+          "field": "service_city",
+          "value": "Englewood"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "34223"
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "1:30 - 2pm"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "TestAuto_3 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "500 Placida Rd"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Sat Jan 16th, 2027 1:30 - 2pm",
+        "content": [
+          "TestAuto_3 Routing ",
+          "500 Placida Rd ",
+          "Every 21 Days"
+        ]
+      },
+      "tile": {
+        "header": "1:30 - 2pm",
+        "content": [
+          "TestAuto_3 Routing ",
+          "500 Placida Rd ",
+          "Every 21 Days"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "7010",
+        "name": "Every 21 Days",
+        "locked": 0,
+        "parent_job_id": "7005",
+        "job_no": 5,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "recurrence",
+        "emoji": []
+      },
+      "active_event": false,
+      "event": {
+        "id": "7006",
+        "current_parent_event": "7005",
+        "start": "2027-01-16T13:30:00+00:00",
+        "end": "2027-01-16T14:00:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#f2f2f2",
+        "border": "#cfcfcf"
+      },
+      "customer": {
+        "id": "14858",
+        "full_name": "TestAuto_3 Routing",
+        "first_name": "TestAuto_3",
+        "last_name": "Routing",
+        "avatar": "TR"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "01-16-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14864",
+        "name": "500 Placida Rd",
+        "street1": "500 Placida Rd",
+        "street2": "",
+        "city": "Englewood",
+        "state": "FL",
+        "zip": "34223",
+        "lat": "26.945",
+        "lng": "-82.345",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "TestAuto_3 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "500 Placida Rd"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "500 Placida Rd"
+        },
+        {
+          "field": "service_city",
+          "value": "Englewood"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "34223"
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "1:30 - 2pm"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "TestAuto_3 Routing"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "500 Placida Rd"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Sat Feb 6th, 2027 1:30 - 2pm",
+        "content": [
+          "TestAuto_3 Routing ",
+          "500 Placida Rd ",
+          "Every 21 Days"
+        ]
+      },
+      "tile": {
+        "header": "1:30 - 2pm",
+        "content": [
+          "TestAuto_3 Routing ",
+          "500 Placida Rd ",
+          "Every 21 Days"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "7011",
+        "name": "Every 21 Days",
+        "locked": 0,
+        "parent_job_id": "7005",
+        "job_no": 6,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "recurrence",
+        "emoji": []
+      },
+      "active_event": false,
+      "event": {
+        "id": "7007",
+        "current_parent_event": "7005",
+        "start": "2027-02-06T13:30:00+00:00",
+        "end": "2027-02-06T14:00:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#f2f2f2",
+        "border": "#cfcfcf"
+      },
+      "customer": {
+        "id": "14858",
+        "full_name": "TestAuto_3 Routing",
+        "first_name": "TestAuto_3",
+        "last_name": "Routing",
+        "avatar": "TR"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "02-06-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14864",
+        "name": "500 Placida Rd",
+        "street1": "500 Placida Rd",
+        "street2": "",
+        "city": "Englewood",
+        "state": "FL",
+        "zip": "34223",
+        "lat": "26.945",
+        "lng": "-82.345",
+        "note": ""
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "NaplesAuto_1 Test"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "8950 Tamiami Trail N"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "8950 Tamiami Trail N"
+        },
+        {
+          "field": "service_city",
+          "value": "Naples"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "34108"
+        },
+        {
+          "field": "service_type",
+          "value": "Bi-Monthly Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "11 - 11:30am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "NaplesAuto_1 Test"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "8950 Tamiami Trail N"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Bi-Monthly Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Sat Feb 6th, 2027 11 - 11:30am",
+        "content": [
+          "NaplesAuto_1 Test ",
+          "8950 Tamiami Trail N ",
+          "Bi-Monthly Service"
+        ]
+      },
+      "tile": {
+        "header": "11 - 11:30am",
+        "content": [
+          "NaplesAuto_1 Test ",
+          "8950 Tamiami Trail N ",
+          "Bi-Monthly Service"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "7049",
+        "name": "Bi-Monthly Service",
+        "locked": 0,
+        "parent_job_id": "7047",
+        "job_no": 2,
+        "previously_completed": 0,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "recurrence",
+        "emoji": [
+          "😀"
+        ]
+      },
+      "active_event": false,
+      "event": {
+        "id": "7045",
+        "current_parent_event": "7047",
+        "start": "2027-02-06T11:00:00+00:00",
+        "end": "2027-02-06T11:30:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#ebf8bc",
+        "border": "#c2ed55"
+      },
+      "customer": {
+        "id": "14866",
+        "full_name": "NaplesAuto_1 Test",
+        "first_name": "NaplesAuto_1",
+        "last_name": "Test",
+        "avatar": "NT"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "02-06-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14872",
+        "name": "8950 Tamiami Trail N",
+        "street1": "8950 Tamiami Trail N",
+        "street2": "",
+        "city": "Naples",
+        "state": "FL",
+        "zip": "34108",
+        "lat": "26.2512",
+        "lng": "-81.7941",
+        "note": "Test routing Naples area"
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "NaplesAuto_4 Test"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "4915 Golden Gate Pkwy"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "4915 Golden Gate Pkwy"
+        },
+        {
+          "field": "service_city",
+          "value": "Naples"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "34116"
+        },
+        {
+          "field": "service_type",
+          "value": "Preventative Monitoring & Maintenance"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "1:15 - 1:45pm"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "NaplesAuto_4 Test"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "4915 Golden Gate Pkwy"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Preventative Monitoring & Maintenance"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Fri Jan 1st, 2027 1:15 - 1:45pm",
+        "content": [
+          "NaplesAuto_4 Test ",
+          "4915 Golden Gate Pkwy ",
+          "Preventative Monitoring & Maintenance"
+        ]
+      },
+      "tile": {
+        "header": "1:15 - 1:45pm",
+        "content": [
+          "NaplesAuto_4 Test ",
+          "4915 Golden Gate Pkwy ",
+          "Preventative Monitoring & Maintenance"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "7087",
+        "name": "Preventative Monitoring & Maintenance",
+        "locked": 0,
+        "parent_job_id": "7086",
+        "job_no": 1,
+        "previously_completed": 0,
+        "status": 0,
+        "status_type": 0,
+        "recurrence": "recurrence",
+        "emoji": [
+          "😀"
+        ]
+      },
+      "active_event": false,
+      "event": {
+        "id": "7083",
+        "current_parent_event": "7086",
+        "start": "2027-01-01T13:15:00+00:00",
+        "end": "2027-01-01T13:45:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#f2f2f2",
+        "border": "#cfcfcf"
+      },
+      "customer": {
+        "id": "14869",
+        "full_name": "NaplesAuto_4 Test",
+        "first_name": "NaplesAuto_4",
+        "last_name": "Test",
+        "avatar": "NT"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "01-01-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "14875",
+        "name": "4915 Golden Gate Pkwy",
+        "street1": "4915 Golden Gate Pkwy",
+        "street2": "",
+        "city": "Naples",
+        "state": "FL",
+        "zip": "34116",
+        "lat": "26.1882",
+        "lng": "-81.7214",
+        "note": "Test routing Naples area"
+      },
+      "type": "job"
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "Julian Alvarez"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "1800 Jackson Bluff Rd"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "1800 Jackson Bluff Rd"
+        },
+        {
+          "field": "service_city",
+          "value": "Tallahassee"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32304"
+        },
+        {
+          "field": "service_type",
+          "value": "Bi-Monthly Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "11:15 - 11:45am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "Julian Alvarez"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "1800 Jackson Bluff Rd"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Bi-Monthly Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "workpool_tiles": {
+        "header": "Tue Feb 2nd, 2027 11:15 - 11:45am",
+        "content": [
+          "Julian Alvarez ",
+          "1800 Jackson Bluff Rd ",
+          "Bi-Monthly Service"
+        ]
+      },
+      "tile": {
+        "header": "11:15 - 11:45am",
+        "content": [
+          "Julian Alvarez ",
+          "1800 Jackson Bluff Rd ",
+          "Bi-Monthly Service"
+        ]
+      },
+      "invoice": {
+        "total": "",
+        "status": ""
+      },
+      "job": {
+        "id": "8486",
+        "name": "Bi-Monthly Service",
+        "locked": 0,
+        "parent_job_id": "8484",
+        "job_no": 2,
+        "previously_completed": 0,
+        "status": 1,
+        "status_type": 1,
+        "recurrence": "recurrence",
+        "emoji": []
+      },
+      "active_event": false,
+      "event": {
+        "id": "8482",
+        "current_parent_event": "8484",
+        "start": "2027-02-02T11:15:00+00:00",
+        "end": "2027-02-02T11:45:00+00:00",
+        "repeat": 1,
+        "length": 30
+      },
+      "time_window": null,
+      "is_workpool": false,
+      "has_pending_jobs": 0,
+      "color": {
+        "text": "#999999",
+        "background": "#ebf8bc",
+        "border": "#c2ed55"
+      },
+      "customer": {
+        "id": "15371",
+        "full_name": "Julian Alvarez",
+        "first_name": "Julian",
+        "last_name": "Alvarez",
+        "avatar": "JA"
+      },
+      "schedule": {
+        "id": "31",
+        "primary_id": "31",
+        "name": "Lam",
+        "user_id": "84361445",
+        "primary": {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      },
+      "show_map": 1,
+      "date_label": "02-02-2027",
+      "all_day": false,
+      "linked_job": 0,
+      "draft_invoice": 0,
+      "active_job": 0,
+      "circle_notify": 0,
+      "editable": true,
+      "location": {
+        "id": "15377",
+        "name": "1800 Jackson Bluff Rd",
+        "street1": "1800 Jackson Bluff Rd",
+        "street2": "",
+        "city": "Tallahassee",
+        "state": "FL",
+        "zip": "32304",
+        "lat": "30.4385",
+        "lng": "-84.312",
+        "note": "Tallahassee Map Area Test"
+      },
+      "type": "job"
+    }
+  ],
+  "success": true,
+  "message": []
+}

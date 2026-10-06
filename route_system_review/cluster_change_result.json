@@ -1,0 +1,77 @@
+{
+  "before": {
+    "minimize_travel_time_minutes": {
+      "status": 0,
+      "value": 5
+    },
+    "minimize_travel_distance_miles": {
+      "status": 0,
+      "value": 30
+    },
+    "max_travel_distance_miles": {
+      "status": 0,
+      "value": 30
+    },
+    "max_shift_travel_time_minutes": {
+      "status": 0,
+      "value": 30
+    },
+    "do_not_reroute_statuses": {
+      "status": 0,
+      "value": []
+    },
+    "route_around_statuses": {
+      "status": 0,
+      "value": []
+    },
+    "preferred_tech_matching": {
+      "status": 0,
+      "value": "soft"
+    },
+    "routing_algorithm": {
+      "status": 1,
+      "value": 2
+    },
+    "tech_skill_matching": 0
+  },
+  "after": {
+    "minimize_travel_time_minutes": {
+      "status": 0,
+      "value": 5
+    },
+    "minimize_travel_distance_miles": {
+      "status": 0,
+      "value": 30
+    },
+    "max_travel_distance_miles": {
+      "status": 0,
+      "value": 30
+    },
+    "max_shift_travel_time_minutes": {
+      "status": 0,
+      "value": 30
+    },
+    "do_not_reroute_statuses": {
+      "status": 0,
+      "value": []
+    },
+    "route_around_statuses": {
+      "status": 0,
+      "value": []
+    },
+    "preferred_tech_matching": {
+      "status": 0,
+      "value": "soft"
+    },
+    "routing_algorithm": {
+      "status": 1,
+      "value": 1
+    },
+    "tech_skill_matching": 0
+  },
+  "changed_fields": [
+    "routing_algorithm"
+  ],
+  "verified": true,
+  "time": "2026-10-05T02:00:23.793532+00:00"
+}

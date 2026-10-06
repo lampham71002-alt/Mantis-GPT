@@ -1,0 +1,29 @@
+#,Group,RR (Routing Rules),WB (Workforce Boundaries),RE (Route Efficiency),SC (Service Commitments),CR (Custom Rules),Expected,Conflict?
+1,RR × WB,Freeze Window,Default Service Hours,,,,Frozen Jobs remain unchanged; evaluate Service Hours on movable Jobs. Open Jobs must stay inside effective Service Hours.,No conflict — Freeze immovability + WB on movable jobs
+2,RR × WB,Freeze Window,Day Exclusions,,,,"Frozen Jobs remain unchanged. For movable Jobs, excluded technician/day remains a hard constraint.",No conflict; do not use frozen Job as Day Exclusion witness
+3,RR × WB,Restrict ±N,Day Exclusions,,,,Final movable placement must be within ±N and must not remain on an excluded technician/day.,Intersection of hard constraints
+4,RR × WB,Restrict ±N,Max Jobs per Day,,,,Final date must be within ±N and technician/day count must not exceed Max Jobs.,Intersection of hard constraints
+5,RR × WB,Keep Week,Default Service Hours,,,,"Job stays in original Sunday-Saturday week and, when movable, inside Service Hours.",Intersection of date + time constraints
+6,RR × WB,Keep Month,Max Shift End,,,,Job stays in original calendar month and movable job must finish within Max Shift End.,Intersection of hard constraints
+7,RR × WB,Cross-Tech OFF,Day Exclusions,,,,"Technician cannot change. If current tech/day is excluded, solver must move date within other rules or leave unassigned; it must not reassign to another tech.",Cross-Tech OFF is hard
+8,RR × WB,Cross-Tech ON,Day Exclusions,,,,Technician change is allowed; final placement must still respect Day Exclusion.,No conflict
+9,RR × RE,Cross-Tech OFF,,Technician Skill Matching,,,"Technician cannot change. A placement must not violate Skill Matching; if no valid placement exists, do not assign an invalid tech.",Hard + hard; no illegal fallback
+10,RR × RE,Cross-Tech ON,,Technician Skill Matching,,,"Solver may change technician, but only to a technician satisfying Skill Matching.",No conflict
+11,RR × RE,Cross-Tech OFF,,Preferred Technician Matching (Soft),,,Soft preference cannot force a technician change while Cross-Tech is OFF.,RR hard beats soft preference
+12,RR × RE,Cross-Tech OFF,,Preferred Technician Matching (Strict),,,"Cross-Tech OFF must not be loosened. If strict preferred tech differs from current tech, exact conflict/unassigned presentation needs confirmation; illegal tech change is not allowed.","OPEN QUESTION on product presentation, not on illegal reassignment"
+13,RR × SC,Optimization Window,,,Max Last Appointment Departure,,"A final overflow placement may be outside Optimization Window, but movable Job start must still satisfy Max Last Departure.",No conflict
+14,RR × SC,Restrict ±N,,,Max Last Appointment Departure,,Final date movement <= N and Job start <= configured departure cutoff.,Intersection of hard constraints
+15,RR × SC,Keep Week,,,Add Drive Buffer Time,,Job stays in original Sunday-Saturday week and drive-buffer timing must be valid for movable route edges.,No conflict
+16,RR × SC,Cross-Tech ON,,,Region Enforcement (Strict),,Technician may change only to a technician/route valid under strict Region Enforcement.,No conflict
+17,RR × CR,Restrict ±N,,,,movement_limit(max_days=M),"System + Custom cannot loosen each other; effective movement must satisfy both, equivalent to the tighter/intersection limit.",No conflict — intersection
+18,RR × CR,Restrict ±N,,,,keep_period(week/month),Final date must satisfy system Restrict and Custom keep_period simultaneously.,No conflict — intersection
+19,RR × CR,Keep Week,,,,keep_period(month),Final date must remain in both original Sunday-Saturday week and original calendar month.,No conflict — intersection
+20,RR × CR,Keep Month,,,,movement_limit(max_days=M),Final date stays in original month and within Custom movement_limit.,No conflict — intersection
+21,RR × CR,Optimization Window,,,,movement_limit(max_days=M),"Optimization Window may overflow, but Custom movement_limit remains a hard final movement constraint.",No conflict
+22,RR × CR,Optimization Window,,,,keep_period(week/month),Optimization Window may overflow only if final placement still satisfies Custom keep_period.,No conflict
+23,RR × CR,Freeze Window,,,,lock,Both imply immovability for the matching Job; Job stays unchanged.,Redundant compatible constraints
+24,RR × CR,Cross-Tech OFF,,,,force_tech(other technician),Custom rule must not loosen Cross-Tech OFF. The Job must not illegally switch technician; exact conflict/unassigned UI/state requires confirmation.,OPEN QUESTION on conflict presentation
+25,RR × CR,Cross-Tech ON,,,,force_tech(valid technician),Cross-Tech allows reassignment; force_tech may require the specified technician if all other hard constraints allow it.,No conflict when target tech is otherwise valid
+26,RR × Multi,Optimization Window + Restrict + Keep Week,Default Service Hours,Skill Matching,Max Last Departure,,"Final route may overflow Window, but each movable Job must satisfy Restrict, original week, Service Hours, Skill Matching and Max Last Departure.",All confirmed hard constraints intersect
+27,RR × Multi,Cross-Tech OFF + Restrict,Day Exclusions,Skill Matching,,,"Technician cannot change; final date must stay within Restrict and all WB/RE hard constraints. If no valid solution exists, do not place illegally.",All hard constraints intersect
+28,RR × Multi,Auto-Pilot scheduled activation,Max Jobs per Day,Skill Matching,Max Last Departure,,Scheduled runtime activation does not bypass downstream hard rules; FINAL Live must satisfy every active hard constraint.,Runtime evidence required

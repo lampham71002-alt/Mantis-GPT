@@ -1,0 +1,5214 @@
+{
+  "captured_utc": "2026-10-03T05:09:00.100308+00:00",
+  "query": {
+    "agenda": "agendaTwoWeeks",
+    "color_id": 1,
+    "start": "2026-10-03T00:00:00.000Z",
+    "end": "2026-10-16T23:59:59.999Z",
+    "inc": "recurring",
+    "schedule_ids": "32"
+  },
+  "completed": {
+    "type": "completed",
+    "success": true,
+    "message": [],
+    "optimization_id": "opt_sandbox_25ae83c50fdec34404bef0747e02ac49",
+    "zone_overlap": {
+      "routing_algorithm": 2,
+      "zone_definition": "technician_day",
+      "technician_day_count": 4,
+      "overlapping_pair_count": 0,
+      "max_overlap_pct": 0,
+      "any_overlapping_pair_count": 0,
+      "stops_inside_other_zone_count": 0,
+      "top_pairs": [],
+      "raw": {
+        "overlapping_pair_count": 0,
+        "max_overlap_pct": 0,
+        "any_overlapping_pair_count": 0,
+        "stops_inside_other_zone_count": 0
+      },
+      "rotation": {
+        "technician_weekday_zone_count": 4,
+        "overlapping_pair_count": 0,
+        "same_date_technician_pair_count": 0,
+        "weekday_zone_pair_count": 0,
+        "max_overlap_pct": 0,
+        "stops_inside_other_zone_count": 0,
+        "top_pairs": []
+      },
+      "balanced_solve_count": 1,
+      "balanced_fallback_solve_count": 0,
+      "balanced_fallback": null,
+      "balanced_global_plan": true,
+      "balanced_plan_ms": 133,
+      "balanced_plan_zone_count": 4,
+      "balanced_plan_error": null,
+      "balanced_job_accounting": {
+        "input_job_count": 30,
+        "final_calendar_job_count": 30,
+        "missing_event_ids": []
+      },
+      "balanced_exception_count": 0,
+      "balanced_exceptions": [],
+      "balanced_fixed_zone_conflict_count": 0,
+      "balanced_fixed_zone_conflicts": [],
+      "balanced_fixed_zone_dropped_count": 0,
+      "balanced_fixed_zone_dropped": [],
+      "balanced_series_bound_count": 0,
+      "balanced_series_bound_dropped_count": 0,
+      "balanced_series_bounds": []
+    }
+  },
+  "rows": [
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 13 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 13"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Miami (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Miami"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33130"
+        },
+        {
+          "field": "service_type",
+          "value": "Flea & Tick Control"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "6 - 6:39am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 13 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 13"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Flea & Tick Control"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "6 - 6:39am",
+        "content": [
+          "FL Routing Test 13  ",
+          "FL Routing Test 13 ",
+          "Flea & Tick Control"
+        ]
+      },
+      "job": {
+        "id": "8544",
+        "name": "Flea & Tick Control",
+        "locked": 0,
+        "parent_job_id": "8544",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "220",
+        "service_name": "Flea & Tick Control"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8540",
+        "current_parent_event": "0",
+        "start": "2026-10-04T06:00:00+00:00",
+        "end": "2026-10-04T06:39:00+00:00",
+        "repeat": 0,
+        "length": 39,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-04-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15539",
+        "name": "FL Routing Test 13",
+        "street1": "Miami (Routing Test Location)",
+        "street2": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33130",
+        "lat": "25.7741566",
+        "lng": "-80.1935973",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15532",
+        "full_name": "FL Routing Test 13",
+        "first_name": "FL Routing Test 13",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "additional_schedules": [
+        {
+          "id": "31",
+          "name": "Lam",
+          "user_id": "84361445"
+        }
+      ],
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 13 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 13"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Miami (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Miami"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33130"
+        },
+        {
+          "field": "service_type",
+          "value": "Rodent Control & Exclusion"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "6:39 - 6:59am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 13 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 13"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Rodent Control & Exclusion"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "6:39 - 6:59am",
+        "content": [
+          "FL Routing Test 13  ",
+          "FL Routing Test 13 ",
+          "Rodent Control & Exclusion"
+        ]
+      },
+      "job": {
+        "id": "8555",
+        "name": "Rodent Control & Exclusion",
+        "locked": 0,
+        "parent_job_id": "8555",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "216",
+        "service_name": "Rodent Control & Exclusion"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8551",
+        "current_parent_event": "0",
+        "start": "2026-10-04T06:39:00+00:00",
+        "end": "2026-10-04T06:59:00+00:00",
+        "repeat": 0,
+        "length": 20,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-04-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15539",
+        "name": "FL Routing Test 13",
+        "street1": "Miami (Routing Test Location)",
+        "street2": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33130",
+        "lat": "25.7741566",
+        "lng": "-80.1935973",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15532",
+        "full_name": "FL Routing Test 13",
+        "first_name": "FL Routing Test 13",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 16 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 16"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Hollywood (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Hollywood"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33020"
+        },
+        {
+          "field": "service_type",
+          "value": "Mosquito Reduction Program"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "7:20 - 7:42am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 16 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 16"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Mosquito Reduction Program"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "7:20 - 7:42am",
+        "content": [
+          "FL Routing Test 16  ",
+          "FL Routing Test 16 ",
+          "Mosquito Reduction Program"
+        ]
+      },
+      "job": {
+        "id": "8547",
+        "name": "Mosquito Reduction Program",
+        "locked": 0,
+        "parent_job_id": "8547",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "215",
+        "service_name": "Mosquito Reduction Program"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8543",
+        "current_parent_event": "0",
+        "start": "2026-10-04T07:20:00+00:00",
+        "end": "2026-10-04T07:42:00+00:00",
+        "repeat": 0,
+        "length": 22,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-04-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15542",
+        "name": "FL Routing Test 16",
+        "street1": "Hollywood (Routing Test Location)",
+        "street2": "",
+        "city": "Hollywood",
+        "state": "FL",
+        "zip": "33020",
+        "lat": "26.0112014",
+        "lng": "-80.1494901",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15535",
+        "full_name": "FL Routing Test 16",
+        "first_name": "FL Routing Test 16",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 16 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 16"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Hollywood (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Hollywood"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33020"
+        },
+        {
+          "field": "service_type",
+          "value": "Quarterly Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "7:42 - 8:21am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 16 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 16"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Quarterly Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "7:42 - 8:21am",
+        "content": [
+          "FL Routing Test 16  ",
+          "FL Routing Test 16 ",
+          "Quarterly Service"
+        ]
+      },
+      "job": {
+        "id": "8548",
+        "name": "Quarterly Service",
+        "locked": 0,
+        "parent_job_id": "8548",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "206",
+        "service_name": "Quarterly Service"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8544",
+        "current_parent_event": "0",
+        "start": "2026-10-04T07:42:00+00:00",
+        "end": "2026-10-04T08:21:00+00:00",
+        "repeat": 0,
+        "length": 39,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-04-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15542",
+        "name": "FL Routing Test 16",
+        "street1": "Hollywood (Routing Test Location)",
+        "street2": "",
+        "city": "Hollywood",
+        "state": "FL",
+        "zip": "33020",
+        "lat": "26.0112014",
+        "lng": "-80.1494901",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15535",
+        "full_name": "FL Routing Test 16",
+        "first_name": "FL Routing Test 16",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 15 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 15"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Fort Lauderdale (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Fort Lauderdale"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33301"
+        },
+        {
+          "field": "service_type",
+          "value": "Eco-Friendly Pest Solutions"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "8:35 - 8:45am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 15 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 15"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Eco-Friendly Pest Solutions"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "8:35 - 8:45am",
+        "content": [
+          "FL Routing Test 15  ",
+          "FL Routing Test 15 ",
+          "Eco-Friendly Pest Solutions"
+        ]
+      },
+      "job": {
+        "id": "8549",
+        "name": "Eco-Friendly Pest Solutions",
+        "locked": 0,
+        "parent_job_id": "8549",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "221",
+        "service_name": "Eco-Friendly Pest Solutions"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8545",
+        "current_parent_event": "0",
+        "start": "2026-10-04T08:35:00+00:00",
+        "end": "2026-10-04T08:45:00+00:00",
+        "repeat": 0,
+        "length": 10,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-04-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15541",
+        "name": "FL Routing Test 15",
+        "street1": "Fort Lauderdale (Routing Test Location)",
+        "street2": "",
+        "city": "Fort Lauderdale",
+        "state": "FL",
+        "zip": "33301",
+        "lat": "26.1223084",
+        "lng": "-80.1433786",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15534",
+        "full_name": "FL Routing Test 15",
+        "first_name": "FL Routing Test 15",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 15 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 15"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Fort Lauderdale (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Fort Lauderdale"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33301"
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "8:45 - 9:05am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 15 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 15"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "8:45 - 9:05am",
+        "content": [
+          "FL Routing Test 15  ",
+          "FL Routing Test 15 ",
+          "Call Back Service"
+        ]
+      },
+      "job": {
+        "id": "8572",
+        "name": "Call Back Service",
+        "locked": 0,
+        "parent_job_id": "8572",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "208",
+        "service_name": "Call Back Service"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8568",
+        "current_parent_event": "0",
+        "start": "2026-10-04T08:45:00+00:00",
+        "end": "2026-10-04T09:05:00+00:00",
+        "repeat": 0,
+        "length": 20,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-04-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15541",
+        "name": "FL Routing Test 15",
+        "street1": "Fort Lauderdale (Routing Test Location)",
+        "street2": "",
+        "city": "Fort Lauderdale",
+        "state": "FL",
+        "zip": "33301",
+        "lat": "26.1223084",
+        "lng": "-80.1433786",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15534",
+        "full_name": "FL Routing Test 15",
+        "first_name": "FL Routing Test 15",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 14 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 14"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Deerfield Beach (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Deerfield Beach"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33073"
+        },
+        {
+          "field": "service_type",
+          "value": "Eco-Friendly Pest Solutions"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "9:23 - 9:49am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 14 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 14"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Eco-Friendly Pest Solutions"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "9:23 - 9:49am",
+        "content": [
+          "FL Routing Test 14  ",
+          "FL Routing Test 14 ",
+          "Eco-Friendly Pest Solutions"
+        ]
+      },
+      "job": {
+        "id": "8564",
+        "name": "Eco-Friendly Pest Solutions",
+        "locked": 0,
+        "parent_job_id": "8564",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "221",
+        "service_name": "Eco-Friendly Pest Solutions"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8560",
+        "current_parent_event": "0",
+        "start": "2026-10-04T09:23:00+00:00",
+        "end": "2026-10-04T09:49:00+00:00",
+        "repeat": 0,
+        "length": 26,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-04-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15540",
+        "name": "FL Routing Test 14",
+        "street1": "Deerfield Beach (Routing Test Location)",
+        "street2": "",
+        "city": "Deerfield Beach",
+        "state": "FL",
+        "zip": "33073",
+        "lat": "26.318342",
+        "lng": "-80.0996306",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15533",
+        "full_name": "FL Routing Test 14",
+        "first_name": "FL Routing Test 14",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 14 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 14"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Deerfield Beach (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Deerfield Beach"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33073"
+        },
+        {
+          "field": "service_type",
+          "value": "Mosquito Reduction Program"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "9:49 - 10:07am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 14 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 14"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Mosquito Reduction Program"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "9:49 - 10:07am",
+        "content": [
+          "FL Routing Test 14  ",
+          "FL Routing Test 14 ",
+          "Mosquito Reduction Program"
+        ]
+      },
+      "job": {
+        "id": "8569",
+        "name": "Mosquito Reduction Program",
+        "locked": 0,
+        "parent_job_id": "8569",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "215",
+        "service_name": "Mosquito Reduction Program"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8565",
+        "current_parent_event": "0",
+        "start": "2026-10-04T09:49:00+00:00",
+        "end": "2026-10-04T10:07:00+00:00",
+        "repeat": 0,
+        "length": 18,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-04-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15540",
+        "name": "FL Routing Test 14",
+        "street1": "Deerfield Beach (Routing Test Location)",
+        "street2": "",
+        "city": "Deerfield Beach",
+        "state": "FL",
+        "zip": "33073",
+        "lat": "26.318342",
+        "lng": "-80.0996306",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15533",
+        "full_name": "FL Routing Test 14",
+        "first_name": "FL Routing Test 14",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 17 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 17"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Boca Raton (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Boca Raton"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33432"
+        },
+        {
+          "field": "service_type",
+          "value": "Wildlife Trapping & Relocation"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "10:15 - 10:52am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 17 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 17"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Wildlife Trapping & Relocation"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "10:15 - 10:52am",
+        "content": [
+          "FL Routing Test 17  ",
+          "FL Routing Test 17 ",
+          "Wildlife Trapping & Relocation"
+        ]
+      },
+      "job": {
+        "id": "8565",
+        "name": "Wildlife Trapping & Relocation",
+        "locked": 0,
+        "parent_job_id": "8565",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "218",
+        "service_name": "Wildlife Trapping & Relocation"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8561",
+        "current_parent_event": "0",
+        "start": "2026-10-04T10:15:00+00:00",
+        "end": "2026-10-04T10:52:00+00:00",
+        "repeat": 0,
+        "length": 37,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-04-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15543",
+        "name": "FL Routing Test 17",
+        "street1": "Boca Raton (Routing Test Location)",
+        "street2": "",
+        "city": "Boca Raton",
+        "state": "FL",
+        "zip": "33432",
+        "lat": "26.3586885",
+        "lng": "-80.0830984",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15536",
+        "full_name": "FL Routing Test 17",
+        "first_name": "FL Routing Test 17",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 19 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 19"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Sebastian (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Sebastian"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32958"
+        },
+        {
+          "field": "service_type",
+          "value": "Initial Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "6 - 6:34am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 19 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 19"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Initial Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "6 - 6:34am",
+        "content": [
+          "FL Routing Test 19  ",
+          "FL Routing Test 19 ",
+          "Initial Service"
+        ]
+      },
+      "job": {
+        "id": "8563",
+        "name": "Initial Service",
+        "locked": 0,
+        "parent_job_id": "8563",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "211",
+        "service_name": "Initial Service"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8559",
+        "current_parent_event": "0",
+        "start": "2026-10-06T06:00:00+00:00",
+        "end": "2026-10-06T06:34:00+00:00",
+        "repeat": 0,
+        "length": 34,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-06-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15545",
+        "name": "FL Routing Test 19",
+        "street1": "Sebastian (Routing Test Location)",
+        "street2": "",
+        "city": "Sebastian",
+        "state": "FL",
+        "zip": "32958",
+        "lat": "27.817357",
+        "lng": "-80.4694039",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15538",
+        "full_name": "FL Routing Test 19",
+        "first_name": "FL Routing Test 19",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 01 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 01"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Vero Beach (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Vero Beach"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32960"
+        },
+        {
+          "field": "service_type",
+          "value": "Wasp Nest Removal"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "6:52 - 7:30am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 01 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 01"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Wasp Nest Removal"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "6:52 - 7:30am",
+        "content": [
+          "FL Routing Test 01  ",
+          "FL Routing Test 01 ",
+          "Wasp Nest Removal"
+        ]
+      },
+      "job": {
+        "id": "8559",
+        "name": "Wasp Nest Removal",
+        "locked": 0,
+        "parent_job_id": "8559",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "219",
+        "service_name": "Wasp Nest Removal"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8555",
+        "current_parent_event": "0",
+        "start": "2026-10-06T06:52:00+00:00",
+        "end": "2026-10-06T07:30:00+00:00",
+        "repeat": 0,
+        "length": 38,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-06-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15527",
+        "name": "FL Routing Test 01",
+        "street1": "Vero Beach (Routing Test Location)",
+        "street2": "",
+        "city": "Vero Beach",
+        "state": "FL",
+        "zip": "32960",
+        "lat": "27.6387163",
+        "lng": "-80.3975399",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15520",
+        "full_name": "FL Routing Test 01",
+        "first_name": "FL Routing Test 01",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 01 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 01"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Vero Beach (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Vero Beach"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32960"
+        },
+        {
+          "field": "service_type",
+          "value": "Eco-Friendly Pest Solutions"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "7:30 - 7:48am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 01 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 01"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Eco-Friendly Pest Solutions"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "7:30 - 7:48am",
+        "content": [
+          "FL Routing Test 01  ",
+          "FL Routing Test 01 ",
+          "Eco-Friendly Pest Solutions"
+        ]
+      },
+      "job": {
+        "id": "8560",
+        "name": "Eco-Friendly Pest Solutions",
+        "locked": 0,
+        "parent_job_id": "8560",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "221",
+        "service_name": "Eco-Friendly Pest Solutions"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8556",
+        "current_parent_event": "0",
+        "start": "2026-10-06T07:30:00+00:00",
+        "end": "2026-10-06T07:48:00+00:00",
+        "repeat": 0,
+        "length": 18,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-06-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15527",
+        "name": "FL Routing Test 01",
+        "street1": "Vero Beach (Routing Test Location)",
+        "street2": "",
+        "city": "Vero Beach",
+        "state": "FL",
+        "zip": "32960",
+        "lat": "27.6387163",
+        "lng": "-80.3975399",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15520",
+        "full_name": "FL Routing Test 01",
+        "first_name": "FL Routing Test 01",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 04 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 04"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Fort Pierce (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Fort Pierce"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "34950"
+        },
+        {
+          "field": "service_type",
+          "value": "Quarterly Pest Control"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "8:10 - 8:21am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 04 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 04"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Quarterly Pest Control"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "8:10 - 8:21am",
+        "content": [
+          "FL Routing Test 04  ",
+          "FL Routing Test 04 ",
+          "Quarterly Pest Control"
+        ]
+      },
+      "job": {
+        "id": "8557",
+        "name": "Quarterly Pest Control",
+        "locked": 0,
+        "parent_job_id": "8557",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "213",
+        "service_name": "Quarterly Pest Control"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8553",
+        "current_parent_event": "0",
+        "start": "2026-10-06T08:10:00+00:00",
+        "end": "2026-10-06T08:21:00+00:00",
+        "repeat": 0,
+        "length": 11,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-06-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15530",
+        "name": "FL Routing Test 04",
+        "street1": "Fort Pierce (Routing Test Location)",
+        "street2": "",
+        "city": "Fort Pierce",
+        "state": "FL",
+        "zip": "34950",
+        "lat": "27.4467056",
+        "lng": "-80.3256056",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15523",
+        "full_name": "FL Routing Test 04",
+        "first_name": "FL Routing Test 04",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 11 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 11"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Port St. Lucie (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Port St. Lucie"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "34983"
+        },
+        {
+          "field": "service_type",
+          "value": "Eco-Friendly Pest Solutions"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "8:41 - 9:12am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 11 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 11"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Eco-Friendly Pest Solutions"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "8:41 - 9:12am",
+        "content": [
+          "FL Routing Test 11  ",
+          "FL Routing Test 11 ",
+          "Eco-Friendly Pest Solutions"
+        ]
+      },
+      "job": {
+        "id": "8554",
+        "name": "Eco-Friendly Pest Solutions",
+        "locked": 0,
+        "parent_job_id": "8554",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "221",
+        "service_name": "Eco-Friendly Pest Solutions"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8550",
+        "current_parent_event": "0",
+        "start": "2026-10-06T08:41:00+00:00",
+        "end": "2026-10-06T09:12:00+00:00",
+        "repeat": 0,
+        "length": 31,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-06-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15537",
+        "name": "FL Routing Test 11",
+        "street1": "Port St. Lucie (Routing Test Location)",
+        "street2": "",
+        "city": "Port St. Lucie",
+        "state": "FL",
+        "zip": "34983",
+        "lat": "27.2939333",
+        "lng": "-80.3503283",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15530",
+        "full_name": "FL Routing Test 11",
+        "first_name": "FL Routing Test 11",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 18 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 18"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Stuart (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Stuart"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "34994"
+        },
+        {
+          "field": "service_type",
+          "value": "Preventative Monitoring & Maintenance"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "9:30 - 9:50am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 18 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 18"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Preventative Monitoring & Maintenance"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "9:30 - 9:50am",
+        "content": [
+          "FL Routing Test 18  ",
+          "FL Routing Test 18 ",
+          "Preventative Monitoring & Maintenance"
+        ]
+      },
+      "job": {
+        "id": "8550",
+        "name": "Preventative Monitoring & Maintenance",
+        "locked": 0,
+        "parent_job_id": "8550",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "223",
+        "service_name": "Preventative Monitoring & Maintenance"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8546",
+        "current_parent_event": "0",
+        "start": "2026-10-06T09:30:00+00:00",
+        "end": "2026-10-06T09:50:00+00:00",
+        "repeat": 0,
+        "length": 20,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-06-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15544",
+        "name": "FL Routing Test 18",
+        "street1": "Stuart (Routing Test Location)",
+        "street2": "",
+        "city": "Stuart",
+        "state": "FL",
+        "zip": "34994",
+        "lat": "27.197983",
+        "lng": "-80.2519175",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15537",
+        "full_name": "FL Routing Test 18",
+        "first_name": "FL Routing Test 18",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 20 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 20"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Jupiter (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Jupiter"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33458"
+        },
+        {
+          "field": "service_type",
+          "value": "Rodent Control & Exclusion"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "10:19 - 10:38am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 20 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 20"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Rodent Control & Exclusion"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "10:19 - 10:38am",
+        "content": [
+          "FL Routing Test 20  ",
+          "FL Routing Test 20 ",
+          "Rodent Control & Exclusion"
+        ]
+      },
+      "job": {
+        "id": "8570",
+        "name": "Rodent Control & Exclusion",
+        "locked": 0,
+        "parent_job_id": "8570",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "216",
+        "service_name": "Rodent Control & Exclusion"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8566",
+        "current_parent_event": "0",
+        "start": "2026-10-06T10:19:00+00:00",
+        "end": "2026-10-06T10:38:00+00:00",
+        "repeat": 0,
+        "length": 19,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-06-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15546",
+        "name": "FL Routing Test 20",
+        "street1": "Jupiter (Routing Test Location)",
+        "street2": "",
+        "city": "Jupiter",
+        "state": "FL",
+        "zip": "33458",
+        "lat": "26.9342246",
+        "lng": "-80.0942087",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15539",
+        "full_name": "FL Routing Test 20",
+        "first_name": "FL Routing Test 20",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 12 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 12"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "West Palm Beach (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "West Palm Beach"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33401"
+        },
+        {
+          "field": "service_type",
+          "value": "Quarterly Pest Control"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "11:01 - 11:31am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 12 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 12"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Quarterly Pest Control"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "11:01 - 11:31am",
+        "content": [
+          "FL Routing Test 12  ",
+          "FL Routing Test 12 ",
+          "Quarterly Pest Control"
+        ]
+      },
+      "job": {
+        "id": "8562",
+        "name": "Quarterly Pest Control",
+        "locked": 0,
+        "parent_job_id": "8562",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "213",
+        "service_name": "Quarterly Pest Control"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8558",
+        "current_parent_event": "0",
+        "start": "2026-10-06T11:01:00+00:00",
+        "end": "2026-10-06T11:31:00+00:00",
+        "repeat": 0,
+        "length": 30,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-06-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15538",
+        "name": "FL Routing Test 12",
+        "street1": "West Palm Beach (Routing Test Location)",
+        "street2": "",
+        "city": "West Palm Beach",
+        "state": "FL",
+        "zip": "33401",
+        "lat": "26.715364",
+        "lng": "-80.0532942",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15531",
+        "full_name": "FL Routing Test 12",
+        "first_name": "FL Routing Test 12",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 02 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 02"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Melbourne (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Melbourne"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32901"
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "6 - 6:18am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 02 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 02"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Every 21 Days"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "6 - 6:18am",
+        "content": [
+          "FL Routing Test 02  ",
+          "FL Routing Test 02 ",
+          "Every 21 Days"
+        ]
+      },
+      "job": {
+        "id": "8568",
+        "name": "Every 21 Days",
+        "locked": 0,
+        "parent_job_id": "8568",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "210",
+        "service_name": "Every 21 Days"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8564",
+        "current_parent_event": "0",
+        "start": "2026-10-07T06:00:00+00:00",
+        "end": "2026-10-07T06:18:00+00:00",
+        "repeat": 0,
+        "length": 18,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-07-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15528",
+        "name": "FL Routing Test 02",
+        "street1": "Melbourne (Routing Test Location)",
+        "street2": "",
+        "city": "Melbourne",
+        "state": "FL",
+        "zip": "32901",
+        "lat": "28.0785034",
+        "lng": "-80.6077908",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15521",
+        "full_name": "FL Routing Test 02",
+        "first_name": "FL Routing Test 02",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 02 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 02"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Melbourne (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Melbourne"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32901"
+        },
+        {
+          "field": "service_type",
+          "value": "General Pest Control"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "6:18 - 6:41am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 02 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 02"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "General Pest Control"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "6:18 - 6:41am",
+        "content": [
+          "FL Routing Test 02  ",
+          "FL Routing Test 02 ",
+          "General Pest Control"
+        ]
+      },
+      "job": {
+        "id": "8556",
+        "name": "General Pest Control",
+        "locked": 0,
+        "parent_job_id": "8556",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "212",
+        "service_name": "General Pest Control"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8552",
+        "current_parent_event": "0",
+        "start": "2026-10-07T06:18:00+00:00",
+        "end": "2026-10-07T06:41:00+00:00",
+        "repeat": 0,
+        "length": 23,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-07-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15528",
+        "name": "FL Routing Test 02",
+        "street1": "Melbourne (Routing Test Location)",
+        "street2": "",
+        "city": "Melbourne",
+        "state": "FL",
+        "zip": "32901",
+        "lat": "28.0785034",
+        "lng": "-80.6077908",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15521",
+        "full_name": "FL Routing Test 02",
+        "first_name": "FL Routing Test 02",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 10 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 10"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Cocoa (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Cocoa"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32922"
+        },
+        {
+          "field": "service_type",
+          "value": "Bed Bug Heat Treatment"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "7:10 - 7:31am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 10 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 10"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Bed Bug Heat Treatment"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "7:10 - 7:31am",
+        "content": [
+          "FL Routing Test 10  ",
+          "FL Routing Test 10 ",
+          "Bed Bug Heat Treatment"
+        ]
+      },
+      "job": {
+        "id": "8543",
+        "name": "Bed Bug Heat Treatment",
+        "locked": 0,
+        "parent_job_id": "8543",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "217",
+        "service_name": "Bed Bug Heat Treatment"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8539",
+        "current_parent_event": "0",
+        "start": "2026-10-07T07:10:00+00:00",
+        "end": "2026-10-07T07:31:00+00:00",
+        "repeat": 0,
+        "length": 21,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-07-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15536",
+        "name": "FL Routing Test 10",
+        "street1": "Cocoa (Routing Test Location)",
+        "street2": "",
+        "city": "Cocoa",
+        "state": "FL",
+        "zip": "32922",
+        "lat": "28.3556635",
+        "lng": "-80.7325345",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15529",
+        "full_name": "FL Routing Test 10",
+        "first_name": "FL Routing Test 10",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 05 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 05"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Titusville (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Titusville"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32796"
+        },
+        {
+          "field": "service_type",
+          "value": "Termite Baiting & Monitoring"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "7:56 - 8:17am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 05 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 05"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Termite Baiting & Monitoring"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "7:56 - 8:17am",
+        "content": [
+          "FL Routing Test 05  ",
+          "FL Routing Test 05 ",
+          "Termite Baiting & Monitoring"
+        ]
+      },
+      "job": {
+        "id": "8558",
+        "name": "Termite Baiting & Monitoring",
+        "locked": 0,
+        "parent_job_id": "8558",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "214",
+        "service_name": "Termite Baiting & Monitoring"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8554",
+        "current_parent_event": "0",
+        "start": "2026-10-07T07:56:00+00:00",
+        "end": "2026-10-07T08:17:00+00:00",
+        "repeat": 0,
+        "length": 21,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-07-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15531",
+        "name": "FL Routing Test 05",
+        "street1": "Titusville (Routing Test Location)",
+        "street2": "",
+        "city": "Titusville",
+        "state": "FL",
+        "zip": "32796",
+        "lat": "28.6126236",
+        "lng": "-80.8079545",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15524",
+        "full_name": "FL Routing Test 05",
+        "first_name": "FL Routing Test 05",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 09 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 09"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Orlando (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Orlando"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32801"
+        },
+        {
+          "field": "service_type",
+          "value": "Flea & Tick Control"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "9:02 - 9:14am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 09 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 09"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Flea & Tick Control"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "9:02 - 9:14am",
+        "content": [
+          "FL Routing Test 09  ",
+          "FL Routing Test 09 ",
+          "Flea & Tick Control"
+        ]
+      },
+      "job": {
+        "id": "8551",
+        "name": "Flea & Tick Control",
+        "locked": 0,
+        "parent_job_id": "8551",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "220",
+        "service_name": "Flea & Tick Control"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8547",
+        "current_parent_event": "0",
+        "start": "2026-10-07T09:02:00+00:00",
+        "end": "2026-10-07T09:14:00+00:00",
+        "repeat": 0,
+        "length": 12,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-07-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15535",
+        "name": "FL Routing Test 09",
+        "street1": "Orlando (Routing Test Location)",
+        "street2": "",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "32801",
+        "lat": "28.5421218",
+        "lng": "-81.379045",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15528",
+        "full_name": "FL Routing Test 09",
+        "first_name": "FL Routing Test 09",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 09 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 09"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Orlando (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Orlando"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "32801"
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "9:14 - 9:54am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 09 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 09"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "9:14 - 9:54am",
+        "content": [
+          "FL Routing Test 09  ",
+          "FL Routing Test 09 ",
+          "Call Back Service"
+        ]
+      },
+      "job": {
+        "id": "8553",
+        "name": "Call Back Service",
+        "locked": 0,
+        "parent_job_id": "8553",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "208",
+        "service_name": "Call Back Service"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8549",
+        "current_parent_event": "0",
+        "start": "2026-10-07T09:14:00+00:00",
+        "end": "2026-10-07T09:54:00+00:00",
+        "repeat": 0,
+        "length": 40,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-07-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15535",
+        "name": "FL Routing Test 09",
+        "street1": "Orlando (Routing Test Location)",
+        "street2": "",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "32801",
+        "lat": "28.5421218",
+        "lng": "-81.379045",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15528",
+        "full_name": "FL Routing Test 09",
+        "first_name": "FL Routing Test 09",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 03 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 03"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Kissimmee (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Kissimmee"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "34741"
+        },
+        {
+          "field": "service_type",
+          "value": "Termite Baiting & Monitoring"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "10:20 - 10:57am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 03 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 03"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Termite Baiting & Monitoring"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "10:20 - 10:57am",
+        "content": [
+          "FL Routing Test 03  ",
+          "FL Routing Test 03 ",
+          "Termite Baiting & Monitoring"
+        ]
+      },
+      "job": {
+        "id": "8546",
+        "name": "Termite Baiting & Monitoring",
+        "locked": 0,
+        "parent_job_id": "8546",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "214",
+        "service_name": "Termite Baiting & Monitoring"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8542",
+        "current_parent_event": "0",
+        "start": "2026-10-07T10:20:00+00:00",
+        "end": "2026-10-07T10:57:00+00:00",
+        "repeat": 0,
+        "length": 37,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-07-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15529",
+        "name": "FL Routing Test 03",
+        "street1": "Kissimmee (Routing Test Location)",
+        "street2": "",
+        "city": "Kissimmee",
+        "state": "FL",
+        "zip": "34741",
+        "lat": "28.2918995",
+        "lng": "-81.4075838",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15522",
+        "full_name": "FL Routing Test 03",
+        "first_name": "FL Routing Test 03",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 07 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 07"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Clearwater (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Clearwater"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33756"
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "6 - 6:12am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 07 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 07"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "6 - 6:12am",
+        "content": [
+          "FL Routing Test 07  ",
+          "FL Routing Test 07 ",
+          "Call Back Service"
+        ]
+      },
+      "job": {
+        "id": "8552",
+        "name": "Call Back Service",
+        "locked": 0,
+        "parent_job_id": "8552",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "208",
+        "service_name": "Call Back Service"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8548",
+        "current_parent_event": "0",
+        "start": "2026-10-08T06:00:00+00:00",
+        "end": "2026-10-08T06:12:00+00:00",
+        "repeat": 0,
+        "length": 12,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-08-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15533",
+        "name": "FL Routing Test 07",
+        "street1": "Clearwater (Routing Test Location)",
+        "street2": "",
+        "city": "Clearwater",
+        "state": "FL",
+        "zip": "33756",
+        "lat": "27.9658533",
+        "lng": "-82.8001026",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15526",
+        "full_name": "FL Routing Test 07",
+        "first_name": "FL Routing Test 07",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 07 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 07"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Clearwater (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Clearwater"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33756"
+        },
+        {
+          "field": "service_type",
+          "value": "Monthly Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "6:12 - 6:48am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 07 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 07"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Monthly Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "6:12 - 6:48am",
+        "content": [
+          "FL Routing Test 07  ",
+          "FL Routing Test 07 ",
+          "Monthly Service"
+        ]
+      },
+      "job": {
+        "id": "8566",
+        "name": "Monthly Service",
+        "locked": 0,
+        "parent_job_id": "8566",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "205",
+        "service_name": "Monthly Service"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8562",
+        "current_parent_event": "0",
+        "start": "2026-10-08T06:12:00+00:00",
+        "end": "2026-10-08T06:48:00+00:00",
+        "repeat": 0,
+        "length": 36,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-08-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15533",
+        "name": "FL Routing Test 07",
+        "street1": "Clearwater (Routing Test Location)",
+        "street2": "",
+        "city": "Clearwater",
+        "state": "FL",
+        "zip": "33756",
+        "lat": "27.9658533",
+        "lng": "-82.8001026",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15526",
+        "full_name": "FL Routing Test 07",
+        "first_name": "FL Routing Test 07",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 08 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 08"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Tampa (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Tampa"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33602"
+        },
+        {
+          "field": "service_type",
+          "value": "Termite Baiting & Monitoring"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "7:18 - 7:55am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 08 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 08"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Termite Baiting & Monitoring"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "7:18 - 7:55am",
+        "content": [
+          "FL Routing Test 08  ",
+          "FL Routing Test 08 ",
+          "Termite Baiting & Monitoring"
+        ]
+      },
+      "job": {
+        "id": "8567",
+        "name": "Termite Baiting & Monitoring",
+        "locked": 0,
+        "parent_job_id": "8567",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "214",
+        "service_name": "Termite Baiting & Monitoring"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8563",
+        "current_parent_event": "0",
+        "start": "2026-10-08T07:18:00+00:00",
+        "end": "2026-10-08T07:55:00+00:00",
+        "repeat": 0,
+        "length": 37,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-08-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15534",
+        "name": "FL Routing Test 08",
+        "street1": "Tampa (Routing Test Location)",
+        "street2": "",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "33602",
+        "lat": "27.9449854",
+        "lng": "-82.4583107",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15527",
+        "full_name": "FL Routing Test 08",
+        "first_name": "FL Routing Test 08",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 08 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 08"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Tampa (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Tampa"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33602"
+        },
+        {
+          "field": "service_type",
+          "value": "Follow Up Inspections"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "7:55 - 8:14am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 08 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 08"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Follow Up Inspections"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "7:55 - 8:14am",
+        "content": [
+          "FL Routing Test 08  ",
+          "FL Routing Test 08 ",
+          "Follow Up Inspections"
+        ]
+      },
+      "job": {
+        "id": "8571",
+        "name": "Follow Up Inspections",
+        "locked": 0,
+        "parent_job_id": "8571",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "222",
+        "service_name": "Follow Up Inspections"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8567",
+        "current_parent_event": "0",
+        "start": "2026-10-08T07:55:00+00:00",
+        "end": "2026-10-08T08:14:00+00:00",
+        "repeat": 0,
+        "length": 19,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-08-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15534",
+        "name": "FL Routing Test 08",
+        "street1": "Tampa (Routing Test Location)",
+        "street2": "",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "33602",
+        "lat": "27.9449854",
+        "lng": "-82.4583107",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15527",
+        "full_name": "FL Routing Test 08",
+        "first_name": "FL Routing Test 08",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 06 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 06"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Lakeland (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Lakeland"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33801"
+        },
+        {
+          "field": "service_type",
+          "value": "Rodent Control & Exclusion"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "8:52 - 9:16am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 06 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 06"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Rodent Control & Exclusion"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "8:52 - 9:16am",
+        "content": [
+          "FL Routing Test 06  ",
+          "FL Routing Test 06 ",
+          "Rodent Control & Exclusion"
+        ]
+      },
+      "job": {
+        "id": "8545",
+        "name": "Rodent Control & Exclusion",
+        "locked": 0,
+        "parent_job_id": "8545",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "216",
+        "service_name": "Rodent Control & Exclusion"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8541",
+        "current_parent_event": "0",
+        "start": "2026-10-08T08:52:00+00:00",
+        "end": "2026-10-08T09:16:00+00:00",
+        "repeat": 0,
+        "length": 24,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-08-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15532",
+        "name": "FL Routing Test 06",
+        "street1": "Lakeland (Routing Test Location)",
+        "street2": "",
+        "city": "Lakeland",
+        "state": "FL",
+        "zip": "33801",
+        "lat": "28.0394654",
+        "lng": "-81.9498042",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15525",
+        "full_name": "FL Routing Test 06",
+        "first_name": "FL Routing Test 06",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    },
+    {
+      "job_state": "active",
+      "map_tiles": [
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 06 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 06"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_address_1",
+          "value": "Lakeland (Routing Test Location)"
+        },
+        {
+          "field": "service_city",
+          "value": "Lakeland"
+        },
+        {
+          "field": "service_state",
+          "value": "FL"
+        },
+        {
+          "field": "service_zip",
+          "value": "33801"
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "job_tiles": [
+        {
+          "field": "calendar_time",
+          "value": "9:16 - 9:56am"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "customer_name",
+          "value": "FL Routing Test 06 "
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "location_name",
+          "value": "FL Routing Test 06"
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "service_type",
+          "value": "Call Back Service"
+        },
+        {
+          "field": "invoice_total",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        },
+        {
+          "field": "",
+          "value": ""
+        }
+      ],
+      "tile": {
+        "header": "9:16 - 9:56am",
+        "content": [
+          "FL Routing Test 06  ",
+          "FL Routing Test 06 ",
+          "Call Back Service"
+        ]
+      },
+      "job": {
+        "id": "8561",
+        "name": "Call Back Service",
+        "locked": 0,
+        "parent_job_id": "8561",
+        "job_no": 0,
+        "previously_completed": 0,
+        "status": 1,
+        "custom_status_id": null,
+        "status_type": 1,
+        "recurrence": "",
+        "emoji": [],
+        "service_id": "208",
+        "service_name": "Call Back Service"
+      },
+      "active_event": true,
+      "event": {
+        "id": "8557",
+        "current_parent_event": "0",
+        "start": "2026-10-08T09:16:00+00:00",
+        "end": "2026-10-08T09:56:00+00:00",
+        "repeat": 0,
+        "length": 40,
+        "tw_template_id": null,
+        "time_window": null,
+        "locked": 0
+      },
+      "is_workpool": false,
+      "color": {
+        "text": "black",
+        "background": "#c9e69a",
+        "border": "#96B90E"
+      },
+      "schedule": {
+        "id": 32,
+        "primary_id": "32",
+        "name": "custom",
+        "user_id": 84361447,
+        "tech_name": "Lam 1",
+        "primary": {
+          "id": "32",
+          "name": "custom",
+          "user_id": "84361447"
+        }
+      },
+      "show_map": 1,
+      "date_label": "10-08-2026",
+      "all_day": false,
+      "draft_invoice": 0,
+      "active_job": 1,
+      "circle_notify": 0,
+      "location": {
+        "id": "15532",
+        "name": "FL Routing Test 06",
+        "street1": "Lakeland (Routing Test Location)",
+        "street2": "",
+        "city": "Lakeland",
+        "state": "FL",
+        "zip": "33801",
+        "lat": "28.0394654",
+        "lng": "-81.9498042",
+        "note": "Synthetic routing test location at city center; not an actual customer residence"
+      },
+      "type": "job",
+      "customer": {
+        "id": "15525",
+        "full_name": "FL Routing Test 06",
+        "first_name": "FL Routing Test 06",
+        "last_name": "",
+        "avatar": "FR"
+      },
+      "is_routing": 1
+    }
+  ],
+  "duplicate_event_ids_deduplicated": [],
+  "drive": [
+    {
+      "start": "2026-10-04T06:59:00+00:00",
+      "end": "2026-10-04T07:20:00+00:00",
+      "job_id": "8555",
+      "schedule_id": "32",
+      "value": 21,
+      "unit": "minutes"
+    },
+    {
+      "start": "2026-10-04T08:21:00+00:00",
+      "end": "2026-10-04T08:35:00+00:00",
+      "job_id": "8548",
+      "schedule_id": "32",
+      "value": 14,
+      "unit": "minutes"
+    },
+    {
+      "start": "2026-10-04T09:05:00+00:00",
+      "end": "2026-10-04T09:23:00+00:00",
+      "job_id": "8572",
+      "schedule_id": "32",
+      "value": 18,
+      "unit": "minutes"
+    },
+    {
+      "start": "2026-10-04T10:07:00+00:00",
+      "end": "2026-10-04T10:15:00+00:00",
+      "job_id": "8569",
+      "schedule_id": "32",
+      "value": 8,
+      "unit": "minutes"
+    },
+    {
+      "start": "2026-10-06T06:34:00+00:00",
+      "end": "2026-10-06T06:52:00+00:00",
+      "job_id": "8563",
+      "schedule_id": "32",
+      "value": 18,
+      "unit": "minutes"
+    },
+    {
+      "start": "2026-10-06T07:48:00+00:00",
+      "end": "2026-10-06T08:10:00+00:00",
+      "job_id": "8560",
+      "schedule_id": "32",
+      "value": 22,
+      "unit": "minutes"
+    },
+    {
+      "start": "2026-10-06T08:21:00+00:00",
+      "end": "2026-10-06T08:41:00+00:00",
+      "job_id": "8557",
+      "schedule_id": "32",
+      "value": 20,
+      "unit": "minutes"
+    },
+    {
+      "start": "2026-10-06T09:12:00+00:00",
+      "end": "2026-10-06T09:30:00+00:00",
+      "job_id": "8554",
+      "schedule_id": "32",
+      "value": 18,
+      "unit": "minutes"
+    },
+    {
+      "start": "2026-10-06T09:50:00+00:00",
+      "end": "2026-10-06T10:19:00+00:00",
+      "job_id": "8550",
+      "schedule_id": "32",
+      "value": 29,
+      "unit": "minutes"
+    },
+    {
+      "start": "2026-10-06T10:38:00+00:00",
+      "end": "2026-10-06T11:01:00+00:00",
+      "job_id": "8570",
+      "schedule_id": "32",
+      "value": 23,
+      "unit": "minutes"
+    },
+    {
+      "start": "2026-10-07T06:41:00+00:00",
+      "end": "2026-10-07T07:10:00+00:00",
+      "job_id": "8556",
+      "schedule_id": "32",
+      "value": 29,
+      "unit": "minutes"
+    },
+    {
+      "start": "2026-10-07T07:31:00+00:00",
+      "end": "2026-10-07T07:56:00+00:00",
+      "job_id": "8543",
+      "schedule_id": "32",
+      "value": 25,
+      "unit": "minutes"
+    },
+    {
+      "start": "2026-10-07T08:17:00+00:00",
+      "end": "2026-10-07T09:02:00+00:00",
+      "job_id": "8558",
+      "schedule_id": "32",
+      "value": 45,
+      "unit": "minutes"
+    },
+    {
+      "start": "2026-10-07T09:54:00+00:00",
+      "end": "2026-10-07T10:20:00+00:00",
+      "job_id": "8553",
+      "schedule_id": "32",
+      "value": 26,
+      "unit": "minutes"
+    },
+    {
+      "start": "2026-10-08T06:48:00+00:00",
+      "end": "2026-10-08T07:18:00+00:00",
+      "job_id": "8566",
+      "schedule_id": "32",
+      "value": 30,
+      "unit": "minutes"
+    },
+    {
+      "start": "2026-10-08T08:14:00+00:00",
+      "end": "2026-10-08T08:52:00+00:00",
+      "job_id": "8571",
+      "schedule_id": "32",
+      "value": 38,
+      "unit": "minutes"
+    }
+  ],
+  "downtime": []
+}

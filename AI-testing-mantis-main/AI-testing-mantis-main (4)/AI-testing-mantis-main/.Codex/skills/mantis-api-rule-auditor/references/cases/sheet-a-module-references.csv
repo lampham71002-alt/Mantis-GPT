@@ -1,0 +1,32 @@
+Module,#,Field/Action,Type,Control,Logical notes
+Workforce Boundaries,1,Default Service Hours,Hard,Range slider (6AM-7PM) + System Default toggle,Jobs only rank in hours
+Workforce Boundaries,2,Max Jobs per day,Hard,Numeric stepper,Hard cap jobs/tech/day
+Workforce Boundaries,3,Preferred Jobs per day,Soft,Numeric stepper,"Soft target, Max Jobs is the cap"
+Workforce Boundaries,4,Pre/Post-Shift Travel Time,Hard,Numeric stepper (mins),Except travel time before/after shift
+Workforce Boundaries,5,Max Shift End Time,Hard,Time selector + AM/PM,Higher priority than Service Hours
+Workforce Boundaries,6,Workload Fairness,Soft,Toggle ON/OFF,Even balance between techs
+Workforce Boundaries,7,Day Exclusions,Hard,Day checkboxes + Tech selector + Add,Tech off someday
+Route Efficiency,1,Minimize Travel Time,Soft,Numeric stepper (mins),"Priority, no hard stop"
+Route Efficiency,2,Minimize Travel Distance,Soft,Numeric stepper (miles),"Priority, no hard stop"
+Route Efficiency,3,Maximum Travel Distance,Hard,Numeric stepper (miles),Hard cap total travel/shift
+Route Efficiency,4,Max Shift Travel Time Limit,Hard,Numeric stepper (mins),Hard cap total travel time/shift
+Route Efficiency,5,Do not reroute — ignore jobs with status,Hard,Multi-select dropdown,"Ignore, slot can be used for other jobs"
+Route Efficiency,6,Do not reroute — route around jobs with status,Hard,Multi-select dropdown,"Route around, do not use slots"
+Route Efficiency,7,Preferred Technician Matching,Soft/Strict,Soft/Strict switcher,"Soft = best-effort, Strict = no fallback"
+Route Efficiency,8,Technician Skill Matching,Hard,Toggle ON/OFF,Match service type vs skill
+Service Commitments,1,Max Last Appointment Departure Time,Hard,Time selector,"Strict, do not rank jobs after cutoff"
+Service Commitments,2,Arrival Window Duration Override,Hard,Numeric stepper (hours),Override old Time Window logic
+Service Commitments,3,Region Enforcement,Soft/Strict,Soft/Strict switcher,"Soft = low priority, Strict = block"
+Service Commitments,4,Customer Scheduling Preferences,Soft,Toggle ON/OFF,Honor customer pref
+Service Commitments,5,Add Drive Buffer Time,Hard,Numeric stepper (mins),Plus on original drive time
+Custom Rules,1,keep_period,Hard,week/month,Keep within the original week/month
+Custom Rules,2,force_tech,Hard,tech_id,Mandatory assign tech
+Custom Rules,3,prefer_tech,Soft,$stop.preferred,Prioritize tech if available
+Custom Rules,4,movement_limit,Hard,max_days: N,Limit N travel days
+Custom Rules,5,time_window (strict),Hard,HH:MM-HH:MM,Must arrive within time frame
+Custom Rules,6,time_window (soft),Soft,HH:MM-HH:MM,Prioritize time frame
+Custom Rules,7,arrival_window_duration,Display,seconds,Customer notification window
+Custom Rules,8,first_stop,Hard,—,First job of the day
+Custom Rules,9,last_stop,Hard,—,Last job of the day
+Custom Rules,10,lock,Hard,—,"Lock, route xung quanh"
+Custom Rules,11,exclude,Hard,—,Completely removed from routing

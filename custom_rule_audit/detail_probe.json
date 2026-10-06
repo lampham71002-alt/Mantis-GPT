@@ -1,0 +1,63 @@
+{
+  "data": {
+    "id": "1097",
+    "title": "Call Back Service Last Stop",
+    "description": "All Call Back Service jobs must be scheduled as the final stop on a technician's route.",
+    "status": 0,
+    "created_by": {
+      "id": "84361445",
+      "first_name": "Lam",
+      "last_name": "Test",
+      "full_name": "Lam Test",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-02T12:23:38+00:00",
+    "updated_date": "2026-10-02T12:23:38+00:00",
+    "conversation_id": "cbd49aa7-e0ac-4074-93d8-b39f6e3f66cf",
+    "rule_detail": {
+      "case": {
+        "text": ""
+      },
+      "rule": {
+        "text": "All Call Back Service jobs must be scheduled as the final stop on a technician's route."
+      },
+      "issue": {
+        "text": ""
+      },
+      "conflict_system_rule_keys": []
+    },
+    "executable_logic": {
+      "id": "rule_1",
+      "name": "Call Back Service Last Stop",
+      "rule": "All Call Back Service jobs must be scheduled as the final stop on a technician's route.",
+      "rules": [
+        {
+          "actions": [
+            {
+              "params": [],
+              "action_type": "last_stop"
+            }
+          ],
+          "targets": {
+            "match": "all",
+            "statuses": [],
+            "tech_name": [],
+            "service_date": [],
+            "customer_tags": [],
+            "region_labels": [],
+            "service_types": [
+              "Call Back Service"
+            ],
+            "customer_names": [],
+            "customer_addresses": []
+          }
+        }
+      ],
+      "summary": "This rule ensures that any Call Back Service job is automatically assigned as the last stop on a technician's daily route, allowing for flexible end-of-day scheduling and minimizing disruption to regular service schedules.",
+      "classify_action": "gen_rule"
+    }
+  },
+  "success": true,
+  "message": []
+}
