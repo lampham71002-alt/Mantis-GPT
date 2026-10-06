@@ -1,0 +1,56 @@
+[
+  {
+    "action": "time_window",
+    "prompt": "All jobs in Region 1 must start exactly at 8:00 AM",
+    "status": "ERROR",
+    "error": "Unexpected non-whitespace character after JSON at position 340 (line 2 column 1)"
+  },
+  {
+    "action": "first_stop",
+    "prompt": "Jobs assigned to customer Messi must be the first stop of the day",
+    "status": "ERROR",
+    "error": "Unexpected non-whitespace character after JSON at position 340 (line 2 column 1)"
+  },
+  {
+    "action": "last_stop",
+    "prompt": "All jobs located in Region 2 must be scheduled as the last stop",
+    "status": "ERROR",
+    "error": "Unexpected non-whitespace character after JSON at position 340 (line 2 column 1)"
+  },
+  {
+    "action": "lock",
+    "prompt": "Lock all jobs on 6 Tue to technician Lam",
+    "status": "ERROR",
+    "error": "Unexpected non-whitespace character after JSON at position 340 (line 2 column 1)"
+  },
+  {
+    "action": "exclude",
+    "prompt": "Exclude technician Lam from servicing jobs in Region 2",
+    "status": "ERROR",
+    "error": "Unexpected non-whitespace character after JSON at position 340 (line 2 column 1)"
+  },
+  {
+    "action": "arrival_window_duration",
+    "prompt": "Arrival window duration for all jobs in Region 1 must be 2 hours",
+    "status": "ERROR",
+    "error": "Unexpected non-whitespace character after JSON at position 340 (line 2 column 1)"
+  },
+  {
+    "action": "prefer_tech",
+    "prompt": "Prefer technician Lam for all pest control jobs",
+    "status": "ERROR",
+    "error": "Unexpected non-whitespace character after JSON at position 340 (line 2 column 1)"
+  },
+  {
+    "action": "force_tech",
+    "prompt": "Force technician Lam for all jobs in Region 1",
+    "status": "ERROR",
+    "error": "Unexpected non-whitespace character after JSON at position 340 (line 2 column 1)"
+  },
+  {
+    "action": "keep_period",
+    "prompt": "Jobs can move at most 2 days from their original date",
+    "status": "ERROR",
+    "error": "Unexpected non-whitespace character after JSON at position 340 (line 2 column 1)"
+  }
+]

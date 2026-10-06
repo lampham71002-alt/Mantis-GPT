@@ -1,0 +1,56 @@
+[
+  {
+    "action": "time_window",
+    "prompt": "All jobs in Region 1 must start exactly at 8:00 AM",
+    "httpStatus": 200,
+    "responseSnippet": "{\"id\":\"a9087516-fae9-47d8-b849-0a5d16d4bb4f\",\"conversation_id\":\"48c6727e-0830-431a-b5b6-9d419dbd1e71\",\"content_parts\":[],\"sender\":{\"name\":\"Help Agent\",\"avatar\":\"https:\\/\\/d2e627ktfmb6xb.cloudfront.net"
+  },
+  {
+    "action": "first_stop",
+    "prompt": "Jobs assigned to customer Messi must be the first stop of the day",
+    "httpStatus": 200,
+    "responseSnippet": "{\"id\":\"dd1d41bf-0911-4b6c-a9df-79e0dd187092\",\"conversation_id\":\"08a8db09-c3e1-4bc9-9922-5d48b3d06a4c\",\"content_parts\":[],\"sender\":{\"name\":\"Help Agent\",\"avatar\":\"https:\\/\\/d2e627ktfmb6xb.cloudfront.net"
+  },
+  {
+    "action": "last_stop",
+    "prompt": "All jobs located in Region 2 must be scheduled as the last stop",
+    "httpStatus": 200,
+    "responseSnippet": "{\"id\":\"ba9690d8-6b03-4313-998e-7e988cf19a9c\",\"conversation_id\":\"d4e137cb-90c6-471a-a8ac-2a121766504e\",\"content_parts\":[],\"sender\":{\"name\":\"Help Agent\",\"avatar\":\"https:\\/\\/d2e627ktfmb6xb.cloudfront.net"
+  },
+  {
+    "action": "lock",
+    "prompt": "Lock all jobs on 6 Tue to technician Lam",
+    "httpStatus": 200,
+    "responseSnippet": "{\"id\":\"20c24d84-17d9-43af-88b4-89d5b0db7417\",\"conversation_id\":\"01aee128-cd5e-4eed-899c-b5b408f48c7e\",\"content_parts\":[],\"sender\":{\"name\":\"Help Agent\",\"avatar\":\"https:\\/\\/d2e627ktfmb6xb.cloudfront.net"
+  },
+  {
+    "action": "exclude",
+    "prompt": "Exclude technician Lam from servicing jobs in Region 2",
+    "httpStatus": 200,
+    "responseSnippet": "{\"id\":\"5cb07e65-86d2-470c-90d7-55dfd54bf96f\",\"conversation_id\":\"9b7295d4-0cf0-4b41-b7ed-be3a3001dc53\",\"content_parts\":[],\"sender\":{\"name\":\"Help Agent\",\"avatar\":\"https:\\/\\/d2e627ktfmb6xb.cloudfront.net"
+  },
+  {
+    "action": "arrival_window_duration",
+    "prompt": "Arrival window duration for all jobs in Region 1 must be 2 hours",
+    "httpStatus": 200,
+    "responseSnippet": "{\"id\":\"611ffd3d-7ae7-4548-9acb-398d20eead99\",\"conversation_id\":\"b933b8a6-0f80-454d-bbd5-fd7befe09d46\",\"content_parts\":[],\"sender\":{\"name\":\"Help Agent\",\"avatar\":\"https:\\/\\/d2e627ktfmb6xb.cloudfront.net"
+  },
+  {
+    "action": "prefer_tech",
+    "prompt": "Prefer technician Lam for all pest control jobs",
+    "httpStatus": 200,
+    "responseSnippet": "{\"id\":\"2da7293e-5606-4822-a43c-f900c5f0245e\",\"conversation_id\":\"9fe3f440-b4a0-4374-ae84-40b1b5586f5f\",\"content_parts\":[],\"sender\":{\"name\":\"Help Agent\",\"avatar\":\"https:\\/\\/d2e627ktfmb6xb.cloudfront.net"
+  },
+  {
+    "action": "force_tech",
+    "prompt": "Force technician Lam for all jobs in Region 1",
+    "httpStatus": 200,
+    "responseSnippet": "{\"id\":\"8ce96637-6372-4fd1-a72f-317238c2f491\",\"conversation_id\":\"81ace541-5446-4d15-b240-ed38b310cb21\",\"content_parts\":[],\"sender\":{\"name\":\"Help Agent\",\"avatar\":\"https:\\/\\/d2e627ktfmb6xb.cloudfront.net"
+  },
+  {
+    "action": "keep_period",
+    "prompt": "Jobs can move at most 2 days from their original date",
+    "httpStatus": 200,
+    "responseSnippet": "{\"id\":\"85dcd907-dc9b-49a1-9a48-6397e2279f64\",\"conversation_id\":\"400502a8-9af0-4ec9-b2f8-083e8b1f5be5\",\"content_parts\":[],\"sender\":{\"name\":\"Help Agent\",\"avatar\":\"https:\\/\\/d2e627ktfmb6xb.cloudfront.net"
+  }
+]
