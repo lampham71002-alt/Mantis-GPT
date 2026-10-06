@@ -1,0 +1,52 @@
+#,Group,Combined conditions,Module coinvolved,Expected,Conflict?
+1,1 module,Default Service Hours (8:30AM-6PM),Workforce Boundaries,Jobs only ranks in 8:30AM-6PM. All other module rules are OFF.
+2,1 module,Max Travel Distance (10mi) + Skill Matching (ON),Route Efficiency,Hard cap 10mi + skill filter. All other module rules are OFF.
+3,1 module,Max Last Appt (4PM) + Region Enforcement (Strict),Service Commitments,Strict 4PM cutoff + region block. All other module rules are OFF.
+4,1 module,keep_period(week) + force_tech(chris) + time_window(strict)[8-14],Custom Rules,Job held during the week + force tech chris + must arrive from 8-2pm. System rules are all OFF.
+5,2 modules,Service Hours (8:30AM-6PM) + Max Travel Distance (10mi),WB + RE,Jobs trong 8:30AM-6PM + travel ≤10mi. SC + CR OFF.
+6,2 modules,Max Jobs (15) + Preferred Tech (Strict) + Skill Matching,WB + RE,Max 15 jobs/tech + strict preferred tech + skill filter. SC + CR OFF.
+7,2 modules,Service Hours (8:30AM-6PM) + Max Last Appt (4PM),WB + SC,Service hours 8:30-6PM but Max Last Appt 4PM strict → cutoff earlier. RE + CR OFF.
+8,2 modules,Max Shift End (6PM) + Drive Buffer (10min) + Region Enforcement (Strict),WB + SC,Hard stop 6PM + buffer +10min + region block. RE + CR OFF.
+9,2 modules,Service Hours (8:30AM-6PM) + keep_period(week) + time_window(strict)[8-14],WB + CR,Job within 8:30-6PM + weekdays + must arrive at 8-2pm. Conflict: time_window(8-14) is narrower than Service Hours(8:30-18) → time_window优先.
+10,2 modules,Max Jobs (15) + force_tech(chris) + first_stop,WB + CR,Max 15 jobs + force tech chris + chris goes first. RE + SC OFF.
+11,2 modules,Max Travel Distance (10mi) + Max Last Appt (4PM),RE + SC,Travel ≤10mi + strict 4PM cutoff. WB + CR OFF.
+12,2 modules,Preferred Tech (Strict) + Region Enforcement (Strict),RE + SC,Strict preferred tech + strict region. If preferred tech is out of region → conflict. WB + CR OFF.,POTENTIAL CONFLICT
+13,2 modules,Max Travel Distance (10mi) + force_tech(chris) + exclude,RE + SC + CR,Travel ≤10mi + force chris + exclude job. Exclude override force_tech.,CONFLICT
+14,2 modules,Skill Matching (ON) + movement_limit(3) + time_window(soft)[8-12],RE + CR,Skill filter + 3 day limit + 8-12 hour priority. WB + SC OFF.
+15,2 modules,Max Last Appt (4PM) + time_window(strict)[8-14] + lock,SC + CR,4PM cutoff + not until 8-2pm + job lock. WB + RE OFF.
+16,2 modules,Region Enforcement (Strict) + force_tech(chris) + keep_period(month),SC + CR,Strict region + force chris + keep month. If chris is out of region → conflict.,POTENTIAL CONFLICT
+17,3 modules,Service Hours (8:30-6PM) + Max Travel Distance (10mi) + Max Last Appt (4PM),WB + RE + SC,"Jobs trong 8:30-6PM, travel ≤10mi, cutoff 4PM. 3 time/capacity constraints overlap. CR OFF."
+18,3 modules,Max Jobs (15) + Preferred Tech (Strict) + Region Enforcement (Strict),WB + RE + SC,Max 15 + strict preferred + strict region. If preferred tech is out of region → unassigned. CR OFF.,POTENTIAL CONFLICT
+19,3 modules,Service Hours (8:30-6PM) + Max Travel Distance (10mi) + force_tech(chris) + time_window(strict)[8-14],WB + RE + CR,Service hours + travel cap + force chris + must arrive at 8-14:00. SC OFF.
+20,3 modules,Max Jobs (15) + Skill Matching (ON) + keep_period(week) + exclude,WB + RE + CR,Max 15 + skill filter + keep week + exclude. Exclude override all.,CONFLICT — exclude overrides
+21,3 modules,Max Shift End (6PM) + Drive Buffer (10min) + keep_period(week) + first_stop,WB + SC + CR,Hard stop 6PM + buffer +10min + week hold + first job. RE OFF.
+22,3 modules,Service Hours (8:30-6PM) + Max Last Appt (4PM) + force_tech(chris) + lock,WB + SC + CR,Service hours + 4PM cutoff + force chris + lock job. RE OFF.
+23,3 modules,Max Travel Distance (10mi) + Region Enforcement (Strict) + time_window(strict)[8-14] + exclude,RE + SC + CR,Travel cap + strict region + must be 8-14 hours + exclude. Exclude override. WB OFF.,CONFLICT — exclude overrides
+24,3 modules,Preferred Tech (Strict) + Max Last Appt (4PM) + movement_limit(3) + last_stop,RE + SC + CR,Strict preferred + 4PM cutoff + 3 day limit + last job. WB OFF.
+25,4 modules,Service Hours (8:30-6PM) + Max Travel Distance (10mi) + Max Last Appt (4PM) + keep_period(week) + force_tech(chris),WB + RE + SC + CR,"All 4 modules ON. Max restriction. Verify: job within 8:30-6PM, travel ≤10mi, cutoff 4PM, keep week, force chris."
+26,4 modules,Max Jobs (15) + Preferred Tech (Strict) + Region Enforcement (Strict) + time_window(strict)[8-14] + first_stop,WB + RE + SC + CR,Max 15 + strict preferred + strict region + 8-14h + first. Potential conflict if preferred tech is out of region.,POTENTIAL CONFLICT
+27,4 modules,Max Shift End (6PM) + Skill Matching (ON) + Drive Buffer (10min) + movement_limit(3) + lock,WB + RE + SC + CR,Hard stop 6PM + skill filter + buffer +10min + 3 days + lock. Lock = surrounding route.
+28,4 modules,Workload Fairness (ON) + Max Shift Travel (120min) + Customer Scheduling Pref (ON) + arrival_window_duration (3600s) + prefer_tech,WB + RE + SC + CR,Balance + shift travel ≤120min + customer pref + ±30min window + soft preferred. All soft/best-effort.
+29,Cross-module Edge,Service Hours (WB) vs time_window strict (CR),WB + CR,time_window(8-14) is narrower than Service Hours(8:30-18). Custom priority rule → job only takes 8-14 hours.
+30,Cross-module Edge,Max Shift End (WB) vs Max Last Appt (SC),WB + SC,"Max Shift End = 6PM, Max Last Appt = 4PM. SC strict → cutoff 4PM wins. Job does not end after 4PM."
+31,Cross-module Edge,Max Jobs (WB) vs exclude (CR),WB + CR,Max 15 jobs but 1 job is excluded → only 14 jobs available. Exclude override.
+32,Cross-module Edge,force_tech (CR) vs Preferred Tech Strict (RE),WB + RE + CR,"force_tech = chris, Preferred Tech = alex (strict). force_tech override → chris assigned, alex ignore."
+33,Cross-module Edge,force_tech (CR) vs Region Enforcement Strict (SC),SC + CR,"force_tech = chris, Region strict, chris outside region. Conflict: force or region win?",POTENTIAL CONFLICT
+34,Cross-module Edge,force_tech (CR) vs Skill Matching (RE),RE + CR,"force_tech = chris, Skill Matching ON, chris lacks skill. Force override or skill block?",POTENTIAL CONFLICT
+35,Cross-module Edge,lock (CR) vs Max Travel Distance (RE),RE + CR,Job is locked → auto-pilot route around. Max Travel Distance still applies to other jobs.
+36,Cross-module Edge,exclude (CR) vs All modules ON,All 4,"Job is excluded → all constraints (WB, RE, SC) are ineffective for that job. Job does not enter the route.",CONFLICT — exclude overrides all
+37,Cross-module Edge,movement_limit(0) (CR) vs keep_period equivalent (WB),WB + CR,Both restrict movement. movement_limit(0) = no movement. keep_period(week) = keep week. Same hard constraints.
+38,Cross-module Edge,Arrival Window Override (SC) vs arrival_window_duration (CR),SC + CR,SC override Time Window + CR set ±30min. CR applies on top of SC. Verify: customer window = SC override ± CR duration.
+39,Cross-module Edge,Workload Fairness (WB) vs force_tech (CR),WB + CR,Fairness balance is even but force_tech forces 1 tech. force_tech override fairness for that job. Fairness still applies to remaining jobs.
+40,Cross-module Edge,Day Exclusions (WB) vs force_tech (CR) + tech is excluded that day,WB + CR,Tech gets Day Exclusion but CR force_tech. Conflict: force assign tech unavailable?,POTENTIAL CONFLICT
+41,Cross-module Edge,Preferred Tech Soft (RE) vs Customer Scheduling Pref (SC) vs prefer_tech (CR),RE + SC + CR,"3 soft preferences apply together. Verify: priority order between RE preferred, SC customer pref, CR prefer_tech."
+42,Cross-module Edge,All hard constraints: Service Hours + Max Travel Distance + Max Last Appt + keep_period + force_tech + time_window(strict) + first_stop + lock,All 4,"8 hard constraints simultaneously. Maximum restriction. Verify: job in window, travel ≤10mi, cutoff 4PM, keep week, force chris, 8-14h, first, lock."
+43,Cross-module Edge,All soft constraints: Workload Fairness + Min Travel Time + Customer Pref + prefer_tech + time_window(soft),All 4,5 soft constraints simultaneously. Best-effort only. Verify: routing algorithm balances all soft targets.
+44,Cross-module Edge,All OFF (0 modules ON),None,"System default. Only default routing algorithm, no rules apply."
+\--- SUMMARY ---
+,1 module ON,4
+,2 modules ON,12
+,3 modules ON,8
+,4 modules ON,4
+,Cross-module edge,16
+,TOTAL,44
