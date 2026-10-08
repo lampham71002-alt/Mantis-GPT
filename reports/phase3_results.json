@@ -1,0 +1,56 @@
+[
+  {
+    "id": "TC-ADV-01",
+    "title": "TC-ADV-01: Every 21 Days Keep Week & Customer 176 First Stop",
+    "ruleId": "1669",
+    "c1": false,
+    "c2": true,
+    "verdict": "FAIL",
+    "note": "Every 21 Days trong Tuần 1: KHÔNG (7 jobs) | Stop #1: \"176\" (7 - 8am)"
+  },
+  {
+    "id": "TC-ADV-02",
+    "title": "TC-ADV-02: Customer Specific test Keep Week & Force Tech lam 1",
+    "ruleId": "1670",
+    "c1": false,
+    "c2": true,
+    "verdict": "FAIL",
+    "note": "Specific test trong Tuần 1: SAI | Gán lam 1: ĐỦ (lam 1, lam 1, lam 1, lam 1)"
+  },
+  {
+    "id": "TC-ADV-03",
+    "title": "TC-ADV-03: Exclude Call Back Service & Customer test move Keep Week",
+    "ruleId": "1671",
+    "c1": true,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Call Back bị Exclude khỏi 09/10: ĐÚNG (0 jobs) | test move giữ trong Tuần 1: SAI"
+  },
+  {
+    "id": "TC-ADV-04",
+    "title": "TC-ADV-04: Exclude Specific test & Customer test pool Last Stop",
+    "ruleId": "1672",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Specific test bị Exclude hoàn toàn: ĐÚNG (0 jobs) | Stop cuối: \"test pool\" (12:17 - 1:17pm)"
+  },
+  {
+    "id": "TC-ADV-05",
+    "title": "TC-ADV-05: Customer location Keep Day & First Stop",
+    "ruleId": "1673",
+    "c1": false,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "location giữ nguyên ngày 09/10: SAI (10-10-2026) | Stop #1 (lam 1): test 1 (7 - 8am)"
+  },
+  {
+    "id": "TC-ADV-06",
+    "title": "TC-ADV-06: Exclude Initial Service & Customer qa 1 Force Tech lam 1",
+    "ruleId": "1674",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Initial Service bị Exclude: ĐÚNG (0 jobs) | qa 1 gán lam 1: ĐÚNG"
+  }
+]

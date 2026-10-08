@@ -1,0 +1,74 @@
+[
+  {
+    "id": "TC-06R",
+    "title": "TC-06R: Customer 176 First Stop & Customer test qa Last Stop",
+    "ruleId": "1572",
+    "c1": false,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Stop đầu: \"location\" (8:14 - 10:14am) | Stop cuối: \"location\" (8:14 - 10:14am)"
+  },
+  {
+    "id": "TC-07R",
+    "title": "TC-07R: Monthly Service Force Tech lam 1 & qa 1 Time Window 7-9AM",
+    "ruleId": "1573",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Monthly gán lam 1: ĐỦ (5 jobs) | qa 1 trong 7-9AM: ĐÚNG (7:31 - 7:46am, 7:46 - 8:01am, 8:01 - 8:31am, 8:31 - 8:46am)"
+  },
+  {
+    "id": "TC-08R",
+    "title": "TC-08R: Customer test pool Force Tech lam 1 & Call Back Time Window 8-10AM",
+    "ruleId": "1574",
+    "c1": true,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "test pool KTV lam 1: ĐÚNG | Call Back ngày 14/10 (8-10AM): SAI ()"
+  },
+  {
+    "id": "TC-09R",
+    "title": "TC-09R: Initial Service Time Window 12-2PM & Call Back Service Last Stop",
+    "ruleId": "1575",
+    "c1": false,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Initial Service giờ: \"\" | Stop cuối ngày 08/10: \"Every 21 Days\" (1:35 - 5:05pm)"
+  },
+  {
+    "id": "TC-10R",
+    "title": "TC-10R: Customer Qa custom Force Tech lam 1 & Quarterly Service Time Window 8AM-12PM",
+    "ruleId": "1576",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Qa custom KTV lam 1: ĐÚNG | Quarterly (8AM-12PM): ĐÚNG (8:07 - 10:37am, 8:07 - 9:37am)"
+  },
+  {
+    "id": "TC-11R",
+    "title": "TC-11R: Bi-Monthly Service Time Window 7AM-12PM & Customer qa 1 Force Tech lam 1",
+    "ruleId": "1577",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Bi-Monthly (7AM-12PM) ngày 13/10: ĐÚNG (7:46 - 8:16am) | qa 1 gán lam 1: ĐÚNG"
+  },
+  {
+    "id": "TC-12R",
+    "title": "TC-12R: Customer Specific test Time Window 1-4PM & Customer test move First Stop",
+    "ruleId": "1578",
+    "c1": false,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "test move đầu ngày (#1): KHÔNG (undefined) | Specific test (1-4PM): SAI ()"
+  },
+  {
+    "id": "TC-13R",
+    "title": "TC-13R: Customer lam minh First Stop & Customer location Time Window 11AM-2PM",
+    "ruleId": "1579",
+    "c1": false,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "lam minh đầu ngày (#1): KHÔNG (undefined) | location (11AM-2PM): SAI ()"
+  }
+]

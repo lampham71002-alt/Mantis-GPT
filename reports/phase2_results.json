@@ -1,0 +1,56 @@
+[
+  {
+    "id": "TC-DELTA-01",
+    "title": "TC-DELTA-01: Customer test 1 First Stop & Customer 176 Last Stop",
+    "ruleId": "1657",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Stop #1: \"test 1\" (7 - 8am) | Stop cuối: \"176\" (2:20 - 3:20pm)"
+  },
+  {
+    "id": "TC-DELTA-02",
+    "title": "TC-DELTA-02: Customer Specific test Force Tech lam 1 & Time Window 1-3:30PM",
+    "ruleId": "1658",
+    "c1": true,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Specific test gán lam 1: ĐỦ (4 jobs) | Giờ: 1 - 1:45pm, 1:45 - 2:45pm, 1 - 2pm, 2 - 3pm"
+  },
+  {
+    "id": "TC-DELTA-03",
+    "title": "TC-DELTA-03: Customer location Force Tech lam 1 & Last Stop",
+    "ruleId": "1659",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "location gán lam 1: ĐÚNG | Vị trí chốt cuối ngày (10-11-2026): location (8:14 - 9:59am)"
+  },
+  {
+    "id": "TC-DELTA-04",
+    "title": "TC-DELTA-04: Customer test move First Stop & Time Window 7-9AM",
+    "ruleId": "1660",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Stop #1 đầu ngày: test move (7 - 7:45am) | test move giờ: 7 - 7:45am, 7 - 8am, 7 - 7:45am, 7 - 7:45am, 7 - 7:45am, 7 - 7:45am, 7 - 7:45am, 7 - 7:45am, 7 - 7:45am"
+  },
+  {
+    "id": "TC-DELTA-05",
+    "title": "TC-DELTA-05: Customer lam minh Force Tech QA hihi & Time Window 8-10:30AM",
+    "ruleId": "1661",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "lam minh gán QA hihi: ĐỦ (QA hihi, QA hihi, QA hihi, QA hihi, QA hihi, QA hihi, QA hihi, QA hihi, QA hihi) | Khung giờ: 8 - 8:15am, 9:15 - 10:15am, 8 - 8:15am, 8 - 8:15am, 8 - 8:15am, 8 - 8:15am, 8 - 8:15am, 8 - 8:15am, 8 - 8:15am"
+  },
+  {
+    "id": "TC-DELTA-06",
+    "title": "TC-DELTA-06: Every 21 Days Force Tech QA hihi & Initial Service Last Stop",
+    "ruleId": "1662",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Every 21 Days gán QA hihi: ĐỦ (7 jobs) | Initial Service chốt cuối ngày: CÓ"
+  }
+]

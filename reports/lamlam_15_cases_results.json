@@ -1,0 +1,137 @@
+[
+  {
+    "id": "TC-15-01",
+    "title": "TC-15-01: Bed Bug First Stop & Peter Parker Last Stop",
+    "ruleId": "1686",
+    "c1": true,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Bed Bug First Stop: ĐẠT (2 jobs) | Peter Parker Last Stop: KHÔNG (0 jobs)"
+  },
+  {
+    "id": "TC-15-02",
+    "title": "TC-15-02: FL Routing Test 01 Force Tech Minh & Morning Window",
+    "ruleId": "1687",
+    "c1": false,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Không tìm thấy FL Routing Test 01"
+  },
+  {
+    "id": "TC-15-03",
+    "title": "TC-15-03: Exclude Call Back Service & FL Routing Test 08 Force Tech custom",
+    "ruleId": "1688",
+    "c1": true,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Call Back bị Exclude: ĐÚNG (0 jobs) | FL Test 08 gán custom: SAI ()"
+  },
+  {
+    "id": "TC-15-04",
+    "title": "TC-15-04: Peter Parker Keep Day & First Stop",
+    "ruleId": "1689",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Peter Parker giữ đúng ngày: ĐÚNG | First Stop: ĐẠT"
+  },
+  {
+    "id": "TC-15-05",
+    "title": "TC-15-05: Exclude enzo & Quarterly Service Last Stop",
+    "ruleId": "1690",
+    "c1": true,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "enzo bị Exclude hoàn toàn: ĐÚNG (0 jobs) | Quarterly Last Stop: KHÔNG"
+  },
+  {
+    "id": "TC-15-06",
+    "title": "TC-15-06: Initial Service Afternoon Window & FL Routing Test 03 Force Tech Lam",
+    "ruleId": "1691",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Initial Service chiều (13-17h): ĐẠT (1:33 - 2:13pm) | FL Test 03 gán Lam: ĐÚNG"
+  },
+  {
+    "id": "TC-15-07",
+    "title": "TC-15-07: FL Routing Test 06 Keep Day & Morning Window",
+    "ruleId": "1692",
+    "c1": false,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Không tìm thấy FL Routing Test 06"
+  },
+  {
+    "id": "TC-15-08",
+    "title": "TC-15-08: Exclude Wildlife Trapping & FL Routing Test 14 First Stop",
+    "ruleId": "1693",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Wildlife bị Exclude: ĐÚNG (0 jobs) | FL Test 14 First Stop: ĐẠT"
+  },
+  {
+    "id": "TC-15-09",
+    "title": "TC-15-09: Clark Kent Force Tech Minh & Last Stop",
+    "ruleId": "1694",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Clark Kent gán Minh: ĐÚNG | Last Stop: ĐẠT"
+  },
+  {
+    "id": "TC-15-10",
+    "title": "TC-15-10: Alexander Morning Window & Miller Afternoon Window",
+    "ruleId": "1695",
+    "c1": false,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Alexander sáng (7-11h): NGOÀI GIỜ | Miller chiều (13-17h): NGOÀI GIỜ"
+  },
+  {
+    "id": "TC-15-11",
+    "title": "TC-15-11: NaplesAuto_3 Test Keep Day & Force Tech Lam",
+    "ruleId": "1696",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "NaplesAuto_3 giữ đúng ngày: ĐÚNG | Gán KTV Lam: ĐÚNG (Lam)"
+  },
+  {
+    "id": "TC-15-12",
+    "title": "TC-15-12: Dual Exclude Flea & Tick Control and Wasp Nest Removal",
+    "ruleId": "1697",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Flea & Tick bị Exclude: ĐÚNG (0 jobs) | Wasp Nest bị Exclude: ĐÚNG (0 jobs)"
+  },
+  {
+    "id": "TC-15-13",
+    "title": "TC-15-13: FL Routing Test 16 First Stop & Early Window",
+    "ruleId": "1698",
+    "c1": false,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Không tìm thấy FL Routing Test 16"
+  },
+  {
+    "id": "TC-15-14",
+    "title": "TC-15-14: FL Routing Test 19 Keep Day & Last Stop",
+    "ruleId": "1699",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "FL Test 19 giữ đúng ngày: ĐÚNG | Last Stop: ĐẠT"
+  },
+  {
+    "id": "TC-15-15",
+    "title": "TC-15-15: Cross Tech Force Vance to Minh & NaplesAuto_5 to custom",
+    "ruleId": "1700",
+    "c1": false,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Vance gán Minh: SAI () | NaplesAuto_5 gán custom: SAI ()"
+  }
+]

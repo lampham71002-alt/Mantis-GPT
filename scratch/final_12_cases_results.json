@@ -1,0 +1,266 @@
+[
+  {
+    "id": "TC-01",
+    "name": "time_window (3PM-5PM) + last_stop",
+    "ruleId": "1366",
+    "prompt": "For Call Back Service jobs, schedule between 3:00 PM and 5:00 PM and must be the last stop of the day",
+    "action1": {
+      "name": "time_window (15:00 - 17:00)",
+      "pass": false
+    },
+    "action2": {
+      "name": "last_stop (cuối ngày)",
+      "pass": false
+    },
+    "verdict": "FAIL",
+    "detail": "Khung giờ:  | Vị trí: #0/3",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-01_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-01_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-01_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-01_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-02",
+    "name": "time_window (8AM-10AM) + first_stop",
+    "ruleId": "1367",
+    "prompt": "For Eco-Friendly Pest Solutions jobs, schedule between 8:00 AM and 10:00 AM and must be the first stop of the day",
+    "action1": {
+      "name": "time_window (08:00 - 10:00)",
+      "pass": false
+    },
+    "action2": {
+      "name": "first_stop (đầu ngày)",
+      "pass": false
+    },
+    "verdict": "FAIL",
+    "detail": "Khung giờ:  | Vị trí: #0/3",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-02_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-02_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-02_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-02_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-03",
+    "name": "lock + time_window (1PM-3PM)",
+    "ruleId": "1368",
+    "prompt": "Lock all Bi-Monthly Service jobs and schedule them between 1:00 PM and 3:00 PM",
+    "action1": {
+      "name": "lock (khóa cứng job)",
+      "pass": false
+    },
+    "action2": {
+      "name": "time_window (13:00 - 15:00)",
+      "pass": false
+    },
+    "verdict": "FAIL",
+    "detail": "Khóa: KHÔNG | Giờ: ",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-03_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-03_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-03_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-03_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-04",
+    "name": "force_tech (Lam) + last_stop",
+    "ruleId": "1369",
+    "prompt": "Force technician Lam for Every 21 Days jobs and schedule them as the last stop of the day",
+    "action1": {
+      "name": "force_tech (KTV Lam)",
+      "pass": false
+    },
+    "action2": {
+      "name": "last_stop (cuối ngày)",
+      "pass": false
+    },
+    "verdict": "FAIL",
+    "detail": "KTV: N/A | Vị trí: Chưa cuối ngày",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-04_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-04_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-04_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-04_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-05",
+    "name": "movement_limit (1 day) + first_stop",
+    "ruleId": "1370",
+    "prompt": "Eco-Friendly Pest Solutions jobs can move at most 1 day from original date and must be the first stop",
+    "action1": {
+      "name": "movement_limit (<= 1 ngày)",
+      "pass": false
+    },
+    "action2": {
+      "name": "first_stop (đầu ngày)",
+      "pass": false
+    },
+    "verdict": "FAIL",
+    "detail": "Ngày: undefined | Đầu ngày: KHÔNG",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-05_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-05_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-05_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-05_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-06",
+    "name": "keep_period (week) + time_window (10AM-12PM)",
+    "ruleId": "1371",
+    "prompt": "Bed Bug Heat Treatment jobs must stay inside their original week and start between 10:00 AM and 12:00 PM",
+    "action1": {
+      "name": "keep_period (giữ nguyên tuần)",
+      "pass": false
+    },
+    "action2": {
+      "name": "time_window (10:00 - 12:00)",
+      "pass": false
+    },
+    "verdict": "FAIL",
+    "detail": "Tuần gốc: KHÔNG | Giờ: ",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-06_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-06_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-06_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-06_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-07",
+    "name": "arrival_window_duration (2h) + last_stop",
+    "ruleId": "1372",
+    "prompt": "For Call Back Service jobs, arrival window duration must be 2 hours and be scheduled as the last stop",
+    "action1": {
+      "name": "arrival_window_duration (2 giờ)",
+      "pass": true
+    },
+    "action2": {
+      "name": "last_stop (cuối ngày)",
+      "pass": false
+    },
+    "verdict": "FAIL",
+    "detail": "Arrival Window 2h: CÓ | Vị trí: Không cuối ngày",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-07_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-07_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-07_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-07_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-08",
+    "name": "exclude (tech) + time_window (1PM-3PM)",
+    "ruleId": "1373",
+    "prompt": "Exclude technician Lam from Call Back Service jobs and schedule them between 1:00 PM and 3:00 PM",
+    "action1": {
+      "name": "exclude (loại trừ KTV)",
+      "pass": true
+    },
+    "action2": {
+      "name": "time_window (13:00 - 15:00)",
+      "pass": true
+    },
+    "verdict": "PASS",
+    "detail": "Loại trừ khỏi KTV Lam: CÓ",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-08_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-08_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-08_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-08_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-09",
+    "name": "prefer_tech (Lam) + first_stop",
+    "ruleId": "1374",
+    "prompt": "Prefer technician Lam for Bi-Monthly Service jobs and must be the first stop of the day",
+    "action1": {
+      "name": "prefer_tech (ưu tiên Lam)",
+      "pass": false
+    },
+    "action2": {
+      "name": "first_stop (đầu ngày)",
+      "pass": false
+    },
+    "verdict": "FAIL",
+    "detail": "KTV: N/A | Vị trí: Thứ tự #0",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-09_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-09_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-09_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-09_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-10",
+    "name": "lock + keep_period (week)",
+    "ruleId": "1375",
+    "prompt": "Lock all jobs on Tuesday and keep them inside their original week",
+    "action1": {
+      "name": "lock (khóa toàn bộ)",
+      "pass": true
+    },
+    "action2": {
+      "name": "keep_period (giữ tuần gốc)",
+      "pass": true
+    },
+    "verdict": "PASS",
+    "detail": "Toàn bộ 3 jobs Thứ 3 đóng băng giữ nguyên tuần gốc",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-10_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-10_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-10_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-10_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-11",
+    "name": "force_tech (Lam) + time_window (9AM-11AM)",
+    "ruleId": "1376",
+    "prompt": "Force technician Lam for Eco-Friendly Pest Solutions and schedule between 9:00 AM and 11:00 AM",
+    "action1": {
+      "name": "force_tech (KTV Lam)",
+      "pass": false
+    },
+    "action2": {
+      "name": "time_window (09:00 - 11:00)",
+      "pass": false
+    },
+    "verdict": "FAIL",
+    "detail": "KTV Lam: KHÔNG | Giờ: ",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-11_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-11_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-11_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-11_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-12",
+    "name": "movement_limit (2 days) + last_stop",
+    "ruleId": "1377",
+    "prompt": "Every 21 Days jobs can move at most 2 days from original date and must be scheduled as the last stop",
+    "action1": {
+      "name": "movement_limit (<= 2 ngày)",
+      "pass": false
+    },
+    "action2": {
+      "name": "last_stop (cuối ngày)",
+      "pass": false
+    },
+    "verdict": "FAIL",
+    "detail": "Ngày: undefined | Cuối ngày: KHÔNG",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-12_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-12_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-12_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-12_step4_rule_turned_off.png"
+    }
+  }
+]

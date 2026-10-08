@@ -1,0 +1,194 @@
+[
+  {
+    "id": "TC-01",
+    "name": "Call Back First Stop + FL Routing Test 06 Time Window (1PM-3PM)",
+    "ruleId": "1474",
+    "prompt": "For Call Back Service jobs, schedule as the first stop of the day. For customer FL Routing Test 06 jobs, schedule between 1:00 PM and 3:00 PM.",
+    "clause1Pass": true,
+    "clause2Pass": true,
+    "verdict": "PASS",
+    "note": "Call Back đầu ngày: CÓ | Test 06 giờ: \"1 - 1:20pm\"",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-01_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-01_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-01_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-01_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-02",
+    "name": "Termite Last Stop + FL Routing Test 03 Time Window (8AM-10AM)",
+    "ruleId": "1475",
+    "prompt": "For Termite Baiting & Monitoring jobs, schedule as the last stop of the day. For customer FL Routing Test 03 jobs, schedule between 8:00 AM and 10:00 AM.",
+    "clause1Pass": false,
+    "clause2Pass": false,
+    "verdict": "FAIL",
+    "note": "Không tìm thấy job Termite hoặc Test 03",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-02_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-02_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-02_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-02_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-03",
+    "name": "Wasp First Stop + NaplesAuto_3 Test Time Window (1PM-3PM)",
+    "ruleId": "1476",
+    "prompt": "For Wasp Nest Removal jobs, schedule as the first stop of the day. For customer NaplesAuto_3 Test jobs, schedule between 1:00 PM and 3:00 PM.",
+    "clause1Pass": true,
+    "clause2Pass": true,
+    "verdict": "PASS",
+    "note": "Wasp đầu ngày: CÓ | Naples 3 giờ: \"1 - 1:35pm\"",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-03_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-03_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-03_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-03_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-04",
+    "name": "Bed Bug Time Window (9AM-11AM) + NaplesAuto_5 Test First Stop",
+    "ruleId": "1477",
+    "prompt": "For Bed Bug Heat Treatment jobs, schedule between 9:00 AM and 11:00 AM. For customer NaplesAuto_5 Test jobs, schedule as the first stop of the day.",
+    "clause1Pass": false,
+    "clause2Pass": false,
+    "verdict": "FAIL",
+    "note": "Không tìm thấy job Bed Bug hoặc NaplesAuto_5",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-04_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-04_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-04_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-04_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-05",
+    "name": "Flea & Tick Last Stop + Sterling Time Window (1PM-3PM)",
+    "ruleId": "1478",
+    "prompt": "For Flea & Tick Control jobs, schedule as the last stop of the day. For customer Sterling jobs, schedule between 1:00 PM and 3:00 PM.",
+    "clause1Pass": true,
+    "clause2Pass": true,
+    "verdict": "PASS",
+    "note": "Flea & Tick cuối ngày: CÓ | Sterling giờ: \"1 - 1:23pm\"",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-05_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-05_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-05_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-05_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-06",
+    "name": "NaplesAuto_3 Test Force Tech (Lam) + Call Back Last Stop",
+    "ruleId": "1479",
+    "prompt": "For customer NaplesAuto_3 Test jobs, force technician Lam. For Call Back Service jobs, schedule as the last stop of the day.",
+    "clause1Pass": false,
+    "clause2Pass": false,
+    "verdict": "FAIL",
+    "note": "Không tìm thấy job NaplesAuto_3 hoặc Call Back",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-06_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-06_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-06_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-06_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-07",
+    "name": "FL Routing Test 14 Exclude (Lam) + Eco-Friendly First Stop",
+    "ruleId": "1480",
+    "prompt": "For customer FL Routing Test 14 jobs, exclude technician Lam. For Eco-Friendly Pest Solutions jobs, schedule as the first stop of the day.",
+    "clause1Pass": true,
+    "clause2Pass": true,
+    "verdict": "PASS",
+    "note": "Test 14 loại trừ Lam: CÓ | Eco-Friendly đầu ngày: CÓ",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-07_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-07_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-07_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-07_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-08",
+    "name": "Customer Sterling Lock + Initial Service Time Window (1PM-3PM)",
+    "ruleId": "1481",
+    "prompt": "Lock all jobs for customer Sterling. For Initial Service jobs, schedule between 1:00 PM and 3:00 PM.",
+    "clause1Pass": true,
+    "clause2Pass": true,
+    "verdict": "PASS",
+    "note": "Sterling khóa cứng: CÓ | Initial giờ: \"1 - 1:25pm\"",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-08_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-08_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-08_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-08_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-09",
+    "name": "Call Back First Stop + NaplesAuto_1 Test Last Stop",
+    "ruleId": "1482",
+    "prompt": "For Call Back Service jobs, schedule as the first stop. For customer NaplesAuto_1 Test jobs, schedule as the last stop of the day.",
+    "clause1Pass": true,
+    "clause2Pass": true,
+    "verdict": "PASS",
+    "note": "Call Back đầu ngày: CÓ | Naples 1 cuối ngày: CÓ",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-09_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-09_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-09_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-09_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-10",
+    "name": "Rodent Control Time Window (9AM-11AM) + FL Routing Test 19 Last Stop",
+    "ruleId": "1483",
+    "prompt": "For Rodent Control & Exclusion jobs, schedule between 9:00 AM and 11:00 AM. For customer FL Routing Test 19 jobs, schedule as the last stop of the day.",
+    "clause1Pass": true,
+    "clause2Pass": true,
+    "verdict": "PASS",
+    "note": "Rodent giờ 9-11h: CÓ | Test 19 cuối ngày: CÓ",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-10_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-10_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-10_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-10_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-11",
+    "name": "FL Routing Test 15 First Stop + Wasp Nest Removal Last Stop",
+    "ruleId": "1484",
+    "prompt": "For customer FL Routing Test 15 jobs, schedule as the first stop. For Wasp Nest Removal jobs, schedule as the last stop of the day.",
+    "clause1Pass": true,
+    "clause2Pass": false,
+    "verdict": "FAIL",
+    "note": "Test 15 đầu ngày: CÓ | Wasp cuối ngày: KHÔNG",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-11_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-11_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-11_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-11_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-12",
+    "name": "Every 21 Days Force Tech (Lam) + TestAuto_3 Routing Time Window (1PM-3PM)",
+    "ruleId": "1485",
+    "prompt": "For Every 21 Days jobs, force technician Lam. For customer TestAuto_3 Routing jobs, schedule between 1:00 PM and 3:00 PM.",
+    "clause1Pass": false,
+    "clause2Pass": false,
+    "verdict": "FAIL",
+    "note": "Không tìm thấy job Every 21 Days hoặc TestAuto_3",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-12_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-12_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-12_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-12_step4_rule_turned_off.png"
+    }
+  }
+]

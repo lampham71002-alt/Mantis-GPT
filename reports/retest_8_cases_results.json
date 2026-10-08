@@ -1,0 +1,74 @@
+[
+  {
+    "id": "TC-REV-01",
+    "title": "TC-REV-01: Bed Bug Heat Treatment First Stop & Peter Parker Last Stop",
+    "ruleId": "1703",
+    "c1": true,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Bed Bug First Stop: ĐẠT (2 jobs) | Peter Parker Last Stop: KHÔNG"
+  },
+  {
+    "id": "TC-REV-02",
+    "title": "TC-REV-02: FL Routing Test 14 Force Tech Minh & Morning Window",
+    "ruleId": "1704",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "FL Test 14 gán Minh: ĐỦ (5 jobs) | Giờ sáng (7-11h): ĐẠT"
+  },
+  {
+    "id": "TC-REV-03",
+    "title": "TC-REV-03: Call Back Service Exclude & Clark Kent Force Tech Minh",
+    "ruleId": "1705",
+    "c1": true,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Call Back Exclude: ĐẠT | Clark Kent chuyển sang KTV Minh: KHÔNG ()"
+  },
+  {
+    "id": "TC-REV-04",
+    "title": "TC-REV-04: Bruce Wayne Exclude & Initial Service Last Stop",
+    "ruleId": "1706",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Bruce Wayne Exclude: ĐẠT | Initial Service Last Stop: ĐẠT"
+  },
+  {
+    "id": "TC-REV-05",
+    "title": "TC-REV-05: Alexander Keep Day & Morning Window",
+    "ruleId": "1707",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Alexander giữ đúng ngày 10-12: ĐÚNG | Khung sáng (7-11:30h): ĐẠT (8:30 - 9am)"
+  },
+  {
+    "id": "TC-REV-06",
+    "title": "TC-REV-06: Alexander Morning Window & Miller Afternoon Window",
+    "ruleId": "1708",
+    "c1": false,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Alexander sáng: NGOÀI GIỜ | Miller chiều: NGOÀI GIỜ"
+  },
+  {
+    "id": "TC-REV-07",
+    "title": "TC-REV-07: FL Routing Test 17 First Stop & Morning Window",
+    "ruleId": "1709",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "FL Test 17 First Stop: ĐẠT | Khung sáng (7-10h): ĐẠT"
+  },
+  {
+    "id": "TC-REV-08",
+    "title": "TC-REV-08: Cross Force Tech Alexander to Minh & Peter Parker to Lam",
+    "ruleId": "1710",
+    "c1": false,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Alexander gán Minh: SAI () | Peter Parker gán Lam: SAI ()"
+  }
+]

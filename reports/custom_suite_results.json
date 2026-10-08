@@ -1,0 +1,56 @@
+[
+  {
+    "id": "TC-CUSTOM-01",
+    "title": "TC-CUSTOM-01: Customer 176 First Stop & test pool Last Stop",
+    "ruleId": "1628",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Stop #1: \"176\" (7 - 8am) | Stop cuối: \"test pool\" (2:18 - 3:18pm)"
+  },
+  {
+    "id": "TC-CUSTOM-02",
+    "title": "TC-CUSTOM-02: Initial Service Time Window 8-10AM & Call Back Last Stop",
+    "ruleId": "1629",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Initial Service giờ: 8 - 8:45am, 8:56 - 9:41am | Cuối ngày: lam 1=\"Call Back Service\", QA hihi=\"Call Back Service\""
+  },
+  {
+    "id": "TC-CUSTOM-03",
+    "title": "TC-CUSTOM-03: Customer qa 1 Force Tech lam 1 & Time Window 8-10AM",
+    "ruleId": "1630",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "KTV gán: lam 1 | Khung giờ: 8:01 - 9:01am"
+  },
+  {
+    "id": "TC-CUSTOM-04",
+    "title": "TC-CUSTOM-04: Every 21 Days Force Tech lam 1 & Quarterly Service Time Window 10AM-12PM",
+    "ruleId": "1631",
+    "c1": true,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Every 21 Days gán lam 1: ĐỦ (7 jobs) | Quarterly Service giờ: 10 - 11am"
+  },
+  {
+    "id": "TC-CUSTOM-05",
+    "title": "TC-CUSTOM-05: Customer lam minh Time Window 1-3PM & Customer test qa First Stop",
+    "ruleId": "1632",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "test qa đầu ngày (#1): CÓ (test qa - 7 - 8am) | lam minh (1-3PM): ĐÚNG (1 - 1:15pm, 1:15 - 2:15pm)"
+  },
+  {
+    "id": "TC-CUSTOM-06",
+    "title": "TC-CUSTOM-06: Customer Specific test Force Tech QA hihi & Bi-Monthly First Stop",
+    "ruleId": "1633",
+    "c1": false,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Specific test gán QA hihi: THIẾU (0 jobs) | Bi-Monthly đầu ngày: KHÔNG (undefined - undefined)"
+  }
+]

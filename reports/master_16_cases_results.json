@@ -1,0 +1,146 @@
+[
+  {
+    "id": "TC-FC-01",
+    "title": "TC-FC-01: Lock Peter Parker & Bed Bug Afternoon Window",
+    "ruleId": "1716",
+    "c1": false,
+    "c2": true,
+    "verdict": "FAIL",
+    "note": "Peter Parker bị khóa cứng tại ngày 10-12: SAI | Route around: ĐẠT"
+  },
+  {
+    "id": "TC-FC-02",
+    "title": "TC-FC-02: Exclude Call Back Service & Bruce Wayne First Stop",
+    "ruleId": "1717",
+    "c1": true,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Call Back Exclude: ĐẠT | Bruce Wayne First Stop: KHÔNG"
+  },
+  {
+    "id": "TC-FC-03",
+    "title": "TC-FC-03: Clark Kent Lock vs Exclude Priority",
+    "ruleId": "1718",
+    "c1": false,
+    "c2": true,
+    "verdict": "FAIL",
+    "note": "Lock thắng Exclude: ĐÚNG (Clark Kent khóa cứng tại ngày 10-12, cấm đè)"
+  },
+  {
+    "id": "TC-FC-04",
+    "title": "TC-FC-04: Call Back Service Exclude vs Clark Kent Force Tech",
+    "ruleId": "1719",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Exclude thắng Force Tech: ĐÚNG (Clark Kent giữ nguyên trạng thái Exclude)"
+  },
+  {
+    "id": "TC-FC-05",
+    "title": "TC-FC-05: FL Routing Test 14 Force Tech Minh & Morning Window",
+    "ruleId": "1720",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "FL Test 14 gán Minh: ĐỦ (5 jobs) | Khung sáng: ĐẠT"
+  },
+  {
+    "id": "TC-FC-06",
+    "title": "TC-FC-06: Bruce Wayne Force Tech Lam & First Stop",
+    "ruleId": "1721",
+    "c1": false,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Không tìm thấy Bruce Wayne"
+  },
+  {
+    "id": "TC-FC-07",
+    "title": "TC-FC-07: Cross Force Tech Peter Parker to Lam & Alexander to custom",
+    "ruleId": "1722",
+    "c1": false,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Peter Parker gán Lam: SAI | Alexander gán custom: SAI"
+  },
+  {
+    "id": "TC-FC-08",
+    "title": "TC-FC-08: Prefer Tech Lam for Alexander & Initial Service Afternoon Window",
+    "ruleId": "1723",
+    "c1": false,
+    "c2": true,
+    "verdict": "FAIL",
+    "note": "Alexander ưu tiên KTV Lam: SAI | Initial Service chiều: ĐẠT"
+  },
+  {
+    "id": "TC-FC-09",
+    "title": "TC-FC-09: Bed Bug Heat Treatment First Stop & Bruce Wayne Last Stop",
+    "ruleId": "1724",
+    "c1": true,
+    "c2": false,
+    "verdict": "FAIL",
+    "note": "Bed Bug First Stop: ĐẠT | Bruce Wayne Last Stop: KHÔNG"
+  },
+  {
+    "id": "TC-FC-10",
+    "title": "TC-FC-10: FL Routing Test 17 First Stop & Morning Window",
+    "ruleId": "1725",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "FL Test 17 First Stop: ĐẠT | Khung sáng: ĐẠT"
+  },
+  {
+    "id": "TC-FC-11",
+    "title": "TC-FC-11: Sterling Morning Window & Miller Last Stop",
+    "ruleId": "1726",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Sterling sáng (7-11h): ĐẠT | Miller Last Stop: ĐẠT"
+  },
+  {
+    "id": "TC-FC-12",
+    "title": "TC-FC-12: Peter Parker Keep Day & First Stop",
+    "ruleId": "1727",
+    "c1": false,
+    "c2": true,
+    "verdict": "FAIL",
+    "note": "Peter Parker giữ đúng ngày 10-12: SAI | First Stop: ĐẠT"
+  },
+  {
+    "id": "TC-FC-13",
+    "title": "TC-FC-13: Clark Kent Movement Limit 0 & First Stop",
+    "ruleId": "1728",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Clark Kent giữ ngày gốc (max_days=0): ĐÚNG | First Stop: ĐẠT"
+  },
+  {
+    "id": "TC-FC-14",
+    "title": "TC-FC-14: Alexander Keep Day & Morning Window",
+    "ruleId": "1729",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Alexander giữ đúng ngày 10-12: ĐÚNG | Khung sáng (7-11:30h): ĐẠT"
+  },
+  {
+    "id": "TC-FC-15",
+    "title": "TC-FC-15: Peter Parker First Stop & Last Stop Fallback Conflict",
+    "ruleId": "1730",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Xung đột bất khả thi -> Solver đưa ra Fallback Day: ĐÚNG (Chuẩn kiến trúc Mantis)"
+  },
+  {
+    "id": "TC-FC-16",
+    "title": "TC-FC-16: Alexander Morning Window & Miller Afternoon Window Fallback",
+    "ruleId": "1731",
+    "c1": true,
+    "c2": true,
+    "verdict": "PASS",
+    "note": "Không đủ giờ rải 5 jobs -> Solver đưa ra Fallback Day: ĐÚNG (Chuẩn kiến trúc Mantis)"
+  }
+]

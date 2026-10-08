@@ -1,0 +1,140 @@
+[
+  {
+    "id": "TC-13",
+    "name": "Customer Messi + time_window (1PM-3PM) + first_stop",
+    "ruleId": "1394",
+    "prompt": "For jobs assigned to customer Messi, schedule between 1:00 PM and 3:00 PM and must be the first stop of the day",
+    "action1": {
+      "name": "time_window (13:00 - 15:00)",
+      "pass": true,
+      "detail": "Nằm trong khung giờ 13:00 - 15:00"
+    },
+    "action2": {
+      "name": "first_stop (điểm dừng đầu ngày)",
+      "pass": true,
+      "detail": "Xếp vị trí đầu tiên của ngày"
+    },
+    "verdict": "PASS",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-13_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-13_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-13_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-13_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-14",
+    "name": "Wasp Nest Removal + force_tech (Lam) + first_stop",
+    "ruleId": "1395",
+    "prompt": "Force technician Lam for Wasp Nest Removal jobs and schedule them as the first stop of the day",
+    "action1": {
+      "name": "force_tech (KTV Lam)",
+      "pass": true,
+      "detail": "Bắt buộc gán KTV Lam"
+    },
+    "action2": {
+      "name": "first_stop (điểm dừng đầu ngày)",
+      "pass": true,
+      "detail": "Xếp vị trí đầu tiên trong ngày"
+    },
+    "verdict": "PASS",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-14_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-14_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-14_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-14_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-15",
+    "name": "Call Back Service + movement_limit (3 days) + keep_period (month)",
+    "ruleId": "1396",
+    "prompt": "Call Back Service jobs can move at most 3 days from original date and must stay inside their original month",
+    "action1": {
+      "name": "movement_limit (<= 3 ngày)",
+      "pass": true,
+      "detail": "Dời ngày không quá 3 ngày"
+    },
+    "action2": {
+      "name": "keep_period (giữ nguyên tháng)",
+      "pass": true,
+      "detail": "Nằm trong tháng 10/2026"
+    },
+    "verdict": "PASS",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-15_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-15_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-15_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-15_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-16",
+    "name": "Bi-Monthly Service + arrival_window_duration (3h) + time_window (8AM-11AM)",
+    "ruleId": "1397",
+    "prompt": "For Bi-Monthly Service jobs, arrival window duration must be 3 hours and schedule between 8:00 AM and 11:00 AM",
+    "action1": {
+      "name": "arrival_window_duration (3 giờ)",
+      "pass": true,
+      "detail": "Khung chờ hiển thị 3 tiếng"
+    },
+    "action2": {
+      "name": "time_window (08:00 - 11:00)",
+      "pass": true,
+      "detail": "Bắt đầu trong khung 08:00 - 11:00"
+    },
+    "verdict": "PASS",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-16_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-16_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-16_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-16_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-17",
+    "name": "Eco-Friendly Pest + exclude (Lam) + keep_period (week)",
+    "ruleId": "1398",
+    "prompt": "Exclude technician Lam from Eco-Friendly Pest Solutions jobs and keep them inside their original week",
+    "action1": {
+      "name": "exclude (loại trừ KTV Lam)",
+      "pass": true,
+      "detail": "Loại trừ hoàn toàn khỏi KTV Lam"
+    },
+    "action2": {
+      "name": "keep_period (giữ nguyên tuần)",
+      "pass": true,
+      "detail": "Giữ trong tuần từ 04/10 đến 10/10"
+    },
+    "verdict": "PASS",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-17_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-17_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-17_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-17_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-18",
+    "name": "Customer Lam + prefer_tech (Lam) + time_window (2PM-4PM)",
+    "ruleId": "1399",
+    "prompt": "For customer Lam jobs, prefer technician Lam and schedule between 2:00 PM and 4:00 PM",
+    "action1": {
+      "name": "prefer_tech (ưu tiên KTV Lam)",
+      "pass": true,
+      "detail": "Ưu tiên gán cho Lam"
+    },
+    "action2": {
+      "name": "time_window (14:00 - 16:00)",
+      "pass": true,
+      "detail": "Nằm trong khung giờ 14:00 - 16:00"
+    },
+    "verdict": "PASS",
+    "screenshots": {
+      "step1": "reports/screenshots/TC-18_step1_rule_created_on.png",
+      "step2": "reports/screenshots/TC-18_step2_sandbox_applied.png",
+      "step3": "reports/screenshots/TC-18_step3_calendar_compared.png",
+      "step4": "reports/screenshots/TC-18_step4_rule_turned_off.png"
+    }
+  }
+]

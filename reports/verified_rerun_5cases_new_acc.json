@@ -1,0 +1,82 @@
+[
+  {
+    "id": "TC-01R",
+    "name": "Call Back Last Stop + Qa custom Time Window (8AM-11AM)",
+    "ruleId": "1549",
+    "prompt": "For Call Back Service jobs, schedule as the last stop of the day. For customer Qa custom jobs, schedule between 8:00 AM and 11:00 AM.",
+    "clause1Pass": true,
+    "clause2Pass": true,
+    "verdict": "PASS",
+    "note": "Call Back cuối ngày: CÓ | Qa custom giờ: \"8 - 9:30am\"",
+    "screenshots": {
+      "step1": "reports/screenshots_rerun/TC-01R_step1_rule_created_on.png",
+      "step2": "reports/screenshots_rerun/TC-01R_step2_sandbox_applied.png",
+      "step3": "reports/screenshots_rerun/TC-01R_step3_calendar_compared.png",
+      "step4": "reports/screenshots_rerun/TC-01R_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-02R",
+    "name": "test move First Stop + Quarterly Service Time Window (9AM-12PM)",
+    "ruleId": "1550",
+    "prompt": "For customer test move jobs, schedule as the first stop of the day. For Quarterly Service jobs, schedule between 9:00 AM and 12:00 PM.",
+    "clause1Pass": true,
+    "clause2Pass": true,
+    "verdict": "PASS",
+    "note": "test move đầu ngày: CÓ | Quarterly giờ: \"9 - 9:30am\"",
+    "screenshots": {
+      "step1": "reports/screenshots_rerun/TC-02R_step1_rule_created_on.png",
+      "step2": "reports/screenshots_rerun/TC-02R_step2_sandbox_applied.png",
+      "step3": "reports/screenshots_rerun/TC-02R_step3_calendar_compared.png",
+      "step4": "reports/screenshots_rerun/TC-02R_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-03R",
+    "name": "Specific test Force Tech (lam 1) + Call Back Last Stop",
+    "ruleId": "1551",
+    "prompt": "For customer Specific test jobs, force technician lam 1. For Call Back Service jobs, schedule as the last stop of the day.",
+    "clause1Pass": true,
+    "clause2Pass": true,
+    "verdict": "PASS",
+    "note": "Specific test gán lam 1: CÓ | Call Back cuối ngày: CÓ",
+    "screenshots": {
+      "step1": "reports/screenshots_rerun/TC-03R_step1_rule_created_on.png",
+      "step2": "reports/screenshots_rerun/TC-03R_step2_sandbox_applied.png",
+      "step3": "reports/screenshots_rerun/TC-03R_step3_calendar_compared.png",
+      "step4": "reports/screenshots_rerun/TC-03R_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-04R",
+    "name": "lam minh First Stop + Bi-Monthly Service Last Stop",
+    "ruleId": "1552",
+    "prompt": "For customer lam minh jobs, schedule as the first stop of the day. For Bi-Monthly Service jobs, schedule as the last stop of the day.",
+    "clause1Pass": false,
+    "clause2Pass": false,
+    "verdict": "FAIL",
+    "note": "Không tìm thấy job lam minh hoặc Bi-Monthly",
+    "screenshots": {
+      "step1": "reports/screenshots_rerun/TC-04R_step1_rule_created_on.png",
+      "step2": "reports/screenshots_rerun/TC-04R_step2_sandbox_applied.png",
+      "step3": "reports/screenshots_rerun/TC-04R_step3_calendar_compared.png",
+      "step4": "reports/screenshots_rerun/TC-04R_step4_rule_turned_off.png"
+    }
+  },
+  {
+    "id": "TC-05R",
+    "name": "Every 21 Days Force Tech (lam 1) + test qa Time Window (8AM-10AM)",
+    "ruleId": "1553",
+    "prompt": "For Every 21 Days jobs, force technician lam 1. For customer test qa jobs, schedule between 8:00 AM and 10:00 AM.",
+    "clause1Pass": true,
+    "clause2Pass": true,
+    "verdict": "PASS",
+    "note": "21 Days gán lam 1: CÓ | test qa giờ: \"8 - 8:30am\"",
+    "screenshots": {
+      "step1": "reports/screenshots_rerun/TC-05R_step1_rule_created_on.png",
+      "step2": "reports/screenshots_rerun/TC-05R_step2_sandbox_applied.png",
+      "step3": "reports/screenshots_rerun/TC-05R_step3_calendar_compared.png",
+      "step4": "reports/screenshots_rerun/TC-05R_step4_rule_turned_off.png"
+    }
+  }
+]
