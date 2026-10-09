@@ -1,0 +1,635 @@
+[
+  {
+    "id": "TC-SR-01",
+    "title": "TC-SR-01: Boundary Isolation (Same Customer Outside History Log)",
+    "prompt": "For customer test move in this optimization run, schedule all jobs as the first stop of the day.",
+    "ruleId": "1782",
+    "verdict": "PASS",
+    "note": "Job trong Log 1581 ngày 10-09 chịu tác động: ĐÚNG | Job ngoài Log (19 jobs khác) được bảo toàn biên: ĐẠT",
+    "logic": {
+      "id": "rule_1",
+      "name": "Test Move First Stop Priority",
+      "rule": "Jobs for customer test move must always be scheduled as the first stop of the day during route optimization.",
+      "summary": "Draft rule to prioritize customer test move by requiring all of their jobs to be scheduled as the first stop of the day, ensuring punctual service and accommodating specific customer access requirements.",
+      "rules": [
+        {
+          "targets": {
+            "match": "all",
+            "statuses": [],
+            "service_types": [],
+            "customer_tags": [],
+            "region_labels": [],
+            "customer_names": [
+              "test move"
+            ],
+            "customer_addresses": [],
+            "service_date": [],
+            "customer_source": [],
+            "tech_name": []
+          },
+          "actions": [
+            {
+              "action_type": "first_stop",
+              "params": []
+            }
+          ]
+        }
+      ],
+      "classify_action": "gen_rule",
+      "history_id": "1581"
+    }
+  },
+  {
+    "id": "TC-SR-02",
+    "title": "TC-SR-02: Sub-set Filtering within Log (Specific test Call Back Last Stop)",
+    "prompt": "For customer Specific test in this optimization run, schedule Call Back Service jobs as the last stop of the day.",
+    "ruleId": "1783",
+    "verdict": "PASS",
+    "note": "Chỉ lọc tập con Call Back Service của Specific test: ĐẠT (1 job) | Các dịch vụ khác giữ nguyên: ĐẠT (4 jobs)",
+    "logic": {
+      "id": "rule_1",
+      "name": "Customer Specific Test Last Stop Rule",
+      "rule": "Call Back Service jobs for customer \"Specific test\" in the selected optimization run must be scheduled as the last stop of the day.",
+      "summary": "This proposed rule ensures that any \"Call Back Service\" jobs for the customer \"Specific test\" are prioritized to be scheduled as the final stop of the day, helping structure field schedules efficiently around specific customer service needs.",
+      "rules": [
+        {
+          "targets": {
+            "match": "all",
+            "statuses": [],
+            "service_types": [
+              "Call Back Service"
+            ],
+            "customer_tags": [],
+            "region_labels": [],
+            "customer_names": [
+              "Specific test"
+            ],
+            "customer_addresses": [],
+            "service_date": [],
+            "customer_source": [],
+            "tech_name": []
+          },
+          "actions": [
+            {
+              "action_type": "last_stop",
+              "params": []
+            }
+          ]
+        }
+      ],
+      "classify_action": "gen_rule",
+      "history_id": "1581"
+    }
+  },
+  {
+    "id": "TC-SR-03",
+    "title": "TC-SR-03: Strict Time Window (Specific test Quarterly Service Morning Window)",
+    "prompt": "For customer Specific test in this optimization run, schedule Quarterly Service jobs within a strict mandatory arrival time window between 8:00 AM and 11:00 AM.",
+    "ruleId": "1785",
+    "verdict": "PASS",
+    "note": "Quarterly Service trong khung giờ buổi sáng 08:00-11:00: ĐÚNG (2 jobs thỏa mãn)",
+    "logic": {
+      "id": "rule_1",
+      "name": "Specific Test Quarterly Service Time Window",
+      "rule": "All Quarterly Service jobs for customer Specific test must be scheduled within a mandatory arrival window between 8:00 AM and 11:00 AM.",
+      "summary": "Establishes a strict arrival time window of 8:00 AM to 11:00 AM for Quarterly Service jobs for customer Specific test, ensuring routing constraints strictly honor this window during schedule optimization.",
+      "rules": [
+        {
+          "targets": {
+            "match": "all",
+            "statuses": [],
+            "service_types": [
+              "Quarterly Service"
+            ],
+            "customer_tags": [],
+            "region_labels": [],
+            "customer_names": [
+              "Specific test"
+            ],
+            "customer_addresses": [],
+            "service_date": [],
+            "customer_source": [],
+            "tech_name": []
+          },
+          "actions": [
+            {
+              "action_type": "time_window",
+              "params": {
+                "start_sec": 28800,
+                "end_sec": 39600,
+                "strict": true
+              }
+            }
+          ]
+        }
+      ],
+      "classify_action": "gen_rule",
+      "history_id": "1581"
+    }
+  },
+  {
+    "id": "TC-SR-04",
+    "title": "TC-SR-04: Force Tech lam 1 & Dual-Schedule Verification",
+    "prompt": "For customer Specific test in this optimization run, strictly force technician lam 1 for all jobs.",
+    "ruleId": "1786",
+    "verdict": "PASS",
+    "note": "Schedule lam 1 nhận job: ĐẠT | Schedule QA hihi nhả job đối chiếu 2 schedules: ĐẠT",
+    "logic": {
+      "id": "rule_1",
+      "name": "Specific Test Customer Technician Lock",
+      "rule": "For all jobs belonging to customer Specific test, force the required assignment to technician lam 1.",
+      "summary": "This rule requires all jobs for customer Specific test to be assigned exclusively to technician lam 1, ensuring specific customer preferences or specialized needs are met during route optimization.",
+      "rules": [
+        {
+          "targets": {
+            "match": "all",
+            "statuses": [],
+            "service_types": [],
+            "customer_tags": [],
+            "region_labels": [],
+            "customer_names": [
+              "Specific test"
+            ],
+            "customer_addresses": [],
+            "service_date": [],
+            "customer_source": []
+          },
+          "actions": [
+            {
+              "action_type": "force_tech",
+              "params": {
+                "tech_name": "lam 1"
+              }
+            }
+          ]
+        }
+      ],
+      "classify_action": "gen_rule",
+      "history_id": "1581"
+    }
+  },
+  {
+    "id": "TC-SR-05",
+    "title": "TC-SR-05: Prefer Tech lam 1 for Specific test",
+    "prompt": "For customer Specific test in this optimization run, prefer technician lam 1.",
+    "ruleId": "1787",
+    "verdict": "PASS",
+    "note": "Ưu tiên xếp sang lam 1 theo công suất trống: ĐẠT (5 jobs được tối ưu)",
+    "logic": {
+      "id": "rule_1",
+      "name": "Specific Test Customer Preferred Technician",
+      "rule": "For customer Specific test, prefer assigning jobs to technician lam 1 during routing optimization.",
+      "summary": "This draft rule ensures that jobs for the customer Specific test are assigned to technician lam 1 whenever possible during routing optimization, keeping consistent technician service for this specific client.",
+      "rules": [
+        {
+          "targets": {
+            "match": "all",
+            "statuses": [],
+            "service_types": [],
+            "customer_tags": [],
+            "region_labels": [],
+            "customer_names": [
+              "Specific test"
+            ],
+            "customer_addresses": [],
+            "service_date": [],
+            "customer_source": []
+          },
+          "actions": [
+            {
+              "action_type": "prefer_tech",
+              "params": {
+                "tech_name": "lam 1"
+              }
+            }
+          ]
+        }
+      ],
+      "classify_action": "gen_rule",
+      "history_id": "1581"
+    }
+  },
+  {
+    "id": "TC-SR-06",
+    "title": "TC-SR-06: Lock test move in Place (Route Around)",
+    "prompt": "For customer test move in this optimization run, lock all jobs to prevent schedule changes.",
+    "ruleId": "1788",
+    "verdict": "PASS",
+    "note": "Khóa cứng test move tại ngày và KTV gốc: ĐẠT | Route around bảo toàn không cho đè: ĐÚNG",
+    "logic": {
+      "id": "rule_1",
+      "name": "Lock Jobs for Customer test move",
+      "rule": "All jobs for customer test move must be locked in place to prevent them from being moved during route optimization.",
+      "summary": "This rule targets all jobs associated with customer \"test move\" and locks them in their current schedule positions, ensuring that automated route optimization does not relocate or reschedule them.",
+      "rules": [
+        {
+          "targets": {
+            "match": "all",
+            "statuses": [],
+            "service_types": [],
+            "customer_tags": [],
+            "region_labels": [],
+            "customer_names": [
+              "test move"
+            ],
+            "customer_addresses": [],
+            "service_date": [],
+            "customer_source": [],
+            "tech_name": []
+          },
+          "actions": [
+            {
+              "action_type": "lock",
+              "params": []
+            }
+          ]
+        }
+      ],
+      "classify_action": "gen_rule",
+      "history_id": "1581"
+    }
+  },
+  {
+    "id": "TC-SR-07",
+    "title": "TC-SR-07: Exclude Call Back Service (Allow Overwrite)",
+    "prompt": "For customer Specific test in this optimization run, exclude Call Back Service jobs from routing.",
+    "ruleId": "1789",
+    "verdict": "PASS",
+    "note": "Exclude Call Back Service: Giữ ngày gốc và cho phép đè slot: ĐẠT",
+    "logic": {
+      "id": "rule_1",
+      "name": "Exclude Specific Test Call Back Services",
+      "rule": "Call Back Service jobs for customer \"Specific test\" must be excluded from routing optimization.",
+      "summary": "This rule excludes Call Back Service jobs for customer \"Specific test\" from being moved or reassigned during routing optimization, keeping those specific services locked to their original schedule.",
+      "rules": [
+        {
+          "targets": {
+            "match": "all",
+            "statuses": [],
+            "service_types": [
+              "Call Back Service"
+            ],
+            "customer_tags": [],
+            "region_labels": [],
+            "customer_names": [
+              "Specific test"
+            ],
+            "customer_addresses": [],
+            "service_date": [],
+            "customer_source": [],
+            "tech_name": []
+          },
+          "actions": [
+            {
+              "action_type": "exclude",
+              "params": []
+            }
+          ]
+        }
+      ],
+      "classify_action": "gen_rule",
+      "history_id": "1581"
+    }
+  },
+  {
+    "id": "TC-SR-08",
+    "title": "TC-SR-08: Composite Action (Force Tech lam 1 + First Stop)",
+    "prompt": "For customer Specific test in this optimization run, strictly force technician lam 1 and schedule as the first stop of the day.",
+    "ruleId": "1790",
+    "verdict": "PASS",
+    "note": "Ép KTV lam 1 đồng thời xếp First Stop cho Specific test: ĐẠT",
+    "logic": {
+      "id": "rule_1",
+      "name": "Specific Test First Stop & Tech Lock",
+      "rule": "Jobs for Specific test must be assigned strictly to technician lam 1 and scheduled as the first stop of the day.",
+      "summary": "For customer Specific test, this rule strictly forces the assignment of technician lam 1 and ensures the job is scheduled as the first stop of the day.",
+      "rules": [
+        {
+          "targets": {
+            "match": "all",
+            "statuses": [],
+            "service_types": [],
+            "customer_tags": [],
+            "region_labels": [],
+            "customer_names": [
+              "Specific test"
+            ],
+            "customer_addresses": [],
+            "service_date": [],
+            "customer_source": []
+          },
+          "actions": [
+            {
+              "action_type": "force_tech",
+              "params": {
+                "tech_name": "lam 1"
+              }
+            }
+          ]
+        },
+        {
+          "targets": {
+            "match": "all",
+            "statuses": [],
+            "service_types": [],
+            "customer_tags": [],
+            "region_labels": [],
+            "customer_names": [
+              "Specific test"
+            ],
+            "customer_addresses": [],
+            "service_date": [],
+            "customer_source": [],
+            "tech_name": []
+          },
+          "actions": [
+            {
+              "action_type": "first_stop",
+              "params": []
+            }
+          ]
+        }
+      ],
+      "classify_action": "gen_rule",
+      "history_id": "1581"
+    }
+  },
+  {
+    "id": "TC-SR-09",
+    "title": "TC-SR-09: Composite Action (Afternoon Window + Last Stop)",
+    "prompt": "For customer Specific test in this optimization run, schedule Initial Service jobs within a strict mandatory arrival time window between 1:00 PM and 5:00 PM and make them the last stop of the day.",
+    "ruleId": "1792",
+    "verdict": "PASS",
+    "note": "Khung giờ chiều 13:00-17:00 kết hợp Last Stop: ĐẠT",
+    "logic": {
+      "id": "rule_1",
+      "name": "Initial Service Late Afternoon Last Stop Policy",
+      "rule": "Initial Service jobs must be scheduled as the last stop of the day with a strict mandatory arrival time window between 1:00 PM and 5:00 PM.",
+      "summary": "This rule targets Initial Service jobs to ensure they are scheduled as the final stop of the technician's day while enforcing a strict arrival window between 1:00 PM and 5:00 PM. This helps field technicians manage longer or more intensive initial consultations at the end of their shift without disrupting earlier routine services.",
+      "rules": [
+        {
+          "targets": {
+            "match": "all",
+            "statuses": [],
+            "service_types": [
+              "Initial Service"
+            ],
+            "customer_tags": [],
+            "region_labels": [],
+            "customer_names": [],
+            "customer_addresses": [],
+            "service_date": [],
+            "customer_source": [],
+            "tech_name": []
+          },
+          "actions": [
+            {
+              "action_type": "time_window",
+              "params": {
+                "start_sec": 46800,
+                "end_sec": 61200,
+                "strict": true
+              }
+            }
+          ]
+        },
+        {
+          "targets": {
+            "match": "all",
+            "statuses": [],
+            "service_types": [
+              "Initial Service"
+            ],
+            "customer_tags": [],
+            "region_labels": [],
+            "customer_names": [],
+            "customer_addresses": [],
+            "service_date": [],
+            "customer_source": [],
+            "tech_name": []
+          },
+          "actions": [
+            {
+              "action_type": "last_stop",
+              "params": []
+            }
+          ]
+        }
+      ],
+      "classify_action": "gen_rule",
+      "history_id": "1581"
+    }
+  },
+  {
+    "id": "TC-SR-10",
+    "title": "TC-SR-10: Composite Filter (Multiple Service Types First Stop)",
+    "prompt": "For customer Specific test in this optimization run, schedule Call Back Service and Quarterly Service jobs as the first stop of the day.",
+    "ruleId": "1793",
+    "verdict": "PASS",
+    "note": "Đúng các dịch vụ mục tiêu được ưu tiên First Stop: ĐẠT (3 jobs)",
+    "logic": {
+      "id": "rule_1",
+      "name": "Specific Test First Stop Priority",
+      "rule": "Call Back Service and Quarterly Service jobs for customer \"Specific test\" must be scheduled as the first stop of the day during route optimization.",
+      "summary": "This rule ensures that any Call Back Service or Quarterly Service jobs for the customer \"Specific test\" are prioritized as the first stop of the day, helping guarantee timely arrival for key service types.",
+      "rules": [
+        {
+          "targets": {
+            "match": "any",
+            "statuses": [],
+            "service_types": [
+              "Call Back Service",
+              "Quarterly Service"
+            ],
+            "customer_tags": [],
+            "region_labels": [],
+            "customer_names": [
+              "Specific test"
+            ],
+            "customer_addresses": [],
+            "service_date": [],
+            "customer_source": [],
+            "tech_name": []
+          },
+          "actions": [
+            {
+              "action_type": "first_stop",
+              "params": []
+            }
+          ]
+        }
+      ],
+      "classify_action": "gen_rule",
+      "history_id": "1581"
+    }
+  },
+  {
+    "id": "TC-SR-11",
+    "title": "TC-SR-11: Precedence Conflict (Specific Last Stop vs Custom First Stop)",
+    "prompt": "For customer Specific test in this optimization run, schedule all jobs as the last stop of the day.",
+    "ruleId": "1795",
+    "verdict": "PASS",
+    "note": "Specific Rule THẮNG Custom Rule (Last Stop thắng First Stop): ĐẠT",
+    "logic": {
+      "id": "rule_1",
+      "name": "Specific Test Last Stop Priority",
+      "rule": "All jobs for customer Specific test in the selected run must be scheduled as the last stop of the day.",
+      "summary": "Jobs for customer Specific test selected in this optimization run will automatically be routed as the final stop of the day to accommodate specific customer arrival preferences.",
+      "rules": [
+        {
+          "targets": {
+            "match": "all",
+            "statuses": [],
+            "service_types": [],
+            "customer_tags": [],
+            "region_labels": [],
+            "customer_names": [
+              "Specific test"
+            ],
+            "customer_addresses": [],
+            "service_date": [],
+            "customer_source": [],
+            "tech_name": []
+          },
+          "actions": [
+            {
+              "action_type": "last_stop",
+              "params": []
+            }
+          ]
+        }
+      ],
+      "classify_action": "gen_rule",
+      "history_id": "1581"
+    }
+  },
+  {
+    "id": "TC-SR-12",
+    "title": "TC-SR-12: Precedence Conflict (Specific Force lam 1 vs Custom Force QA hihi)",
+    "prompt": "For customer Specific test in this optimization run, strictly force technician lam 1.",
+    "ruleId": "1796",
+    "verdict": "PASS",
+    "note": "Specific Rule THẮNG Custom Rule (Gán đúng KTV lam 1 theo Specific): ĐẠT",
+    "logic": {
+      "id": "rule_1",
+      "name": "Specific Test Required Technician Lock",
+      "rule": "For all jobs associated with customer 'Specific test', the system must strictly assign the job to Technician: lam 1 - nickname: lam 1.",
+      "summary": "This draft rule requires that any jobs for customer 'Specific test' be forcefully assigned to Technician: lam 1 - nickname: lam 1 during routing, ensuring consistent service assignment for this customer.",
+      "rules": [
+        {
+          "targets": {
+            "match": "all",
+            "statuses": [],
+            "service_types": [],
+            "customer_tags": [],
+            "region_labels": [],
+            "customer_names": [
+              "Specific test"
+            ],
+            "customer_addresses": [],
+            "service_date": [],
+            "customer_source": []
+          },
+          "actions": [
+            {
+              "action_type": "force_tech",
+              "params": {
+                "tech_name": "Technician: lam 1 - nickname: lam 1"
+              }
+            }
+          ]
+        }
+      ],
+      "classify_action": "gen_rule",
+      "history_id": "1581"
+    }
+  },
+  {
+    "id": "TC-SR-13",
+    "title": "TC-SR-13: Primitive Precedence Conflict (Specific Exclude vs Custom Force)",
+    "prompt": "For customer Specific test in this optimization run, exclude Call Back Service jobs from routing.",
+    "ruleId": "1798",
+    "verdict": "PASS",
+    "note": "Exclude THẮNG Force Tech (Giữ nguyên vị trí gốc, không bị cưỡng ép KTV): ĐẠT",
+    "logic": {
+      "id": "rule_1",
+      "name": "Specific Test Call Back Exclusion",
+      "rule": "Call Back Service jobs for customer Specific test must be excluded from automated routing during optimization runs.",
+      "summary": "This rule excludes Call Back Service jobs associated with the customer Specific test from being automatically moved or assigned during routing optimization.",
+      "rules": [
+        {
+          "targets": {
+            "match": "all",
+            "statuses": [],
+            "service_types": [
+              "Call Back Service"
+            ],
+            "customer_tags": [],
+            "region_labels": [],
+            "customer_names": [
+              "Specific test"
+            ],
+            "customer_addresses": [],
+            "service_date": [],
+            "customer_source": [],
+            "tech_name": []
+          },
+          "actions": [
+            {
+              "action_type": "exclude",
+              "params": []
+            }
+          ]
+        }
+      ],
+      "classify_action": "gen_rule",
+      "history_id": "1581"
+    }
+  },
+  {
+    "id": "TC-SR-14",
+    "title": "TC-SR-14: Solver Overload & Fallback Day Handling",
+    "prompt": "For customer Specific test and test move in this optimization run, strictly force arrival time window between 8:00 AM and 9:00 AM for technician lam 1.",
+    "ruleId": "1799",
+    "verdict": "PASS",
+    "note": "Solver tự động phân rải sang nhiều ngày hoặc đưa ra Fallback Day: HỢP LỆ (PASS)",
+    "logic": {
+      "id": "rule_1",
+      "name": "Specific Test Customer Arrival Window",
+      "rule": "For customer Specific test and test move assigned to technician lam 1, arrival must strictly occur within the time window of 8:00 AM to 9:00 AM.",
+      "summary": "A strict arrival time window of 8:00 AM to 9:00 AM is established for customer Specific test and test move when assigned to technician lam 1 to ensure mandatory schedule compliance during routing.",
+      "rules": [
+        {
+          "targets": {
+            "match": "all",
+            "statuses": [],
+            "service_types": [],
+            "customer_tags": [],
+            "region_labels": [],
+            "customer_names": [
+              "Specific test and test move"
+            ],
+            "customer_addresses": [],
+            "service_date": [],
+            "customer_source": [],
+            "tech_name": [
+              "lam 1"
+            ]
+          },
+          "actions": [
+            {
+              "action_type": "time_window",
+              "params": {
+                "start_sec": 28800,
+                "end_sec": 32400,
+                "strict": true
+              }
+            }
+          ]
+        }
+      ],
+      "classify_action": "gen_rule",
+      "history_id": "1581"
+    }
+  }
+]
