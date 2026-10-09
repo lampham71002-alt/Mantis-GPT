@@ -1,0 +1,506 @@
+[
+  {
+    "id": "1610",
+    "mode": "manual",
+    "item": {
+      "id": "",
+      "name": "Manual Optimize",
+      "type": "manual-optimize"
+    },
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_at": "2026-10-09T08:02:58+00:00",
+    "stats": {
+      "saved_drive_time": {
+        "value": 193,
+        "type": "minutes"
+      },
+      "saved_distance": {
+        "value": 105.82,
+        "type": "miles"
+      },
+      "saved_fuel": {
+        "value": 5.3,
+        "type": "gallons"
+      }
+    },
+    "status": 2,
+    "fuel_price": {
+      "value": 4.81,
+      "as_of": "2026-09-28T00:00:00+00:00",
+      "source": "static",
+      "currency": "USD"
+    },
+    "drive_time_price": {
+      "value": 0.5,
+      "unit": "minute",
+      "as_of": "2026-08-08T00:00:00+00:00",
+      "source": "static",
+      "currency": "USD"
+    },
+    "fuel_consumption": {
+      "value": 0.05,
+      "unit": "gallon_per_mile",
+      "mpg": 20,
+      "decimals": 2,
+      "as_of": "2026-10-02T00:00:00+00:00",
+      "source": "static"
+    }
+  },
+  {
+    "id": "1582",
+    "mode": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Scheduled Autopilot",
+      "type": "trigger"
+    },
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_at": "2026-10-08T17:00:39+00:00",
+    "stats": {
+      "saved_drive_time": {
+        "value": -3,
+        "type": "minutes"
+      },
+      "saved_distance": {
+        "value": -1.12,
+        "type": "miles"
+      },
+      "saved_fuel": {
+        "value": -0.06,
+        "type": "gallons"
+      }
+    },
+    "status": 2,
+    "fuel_price": {
+      "value": 4.81,
+      "as_of": "2026-09-28T00:00:00+00:00",
+      "source": "static",
+      "currency": "USD"
+    },
+    "drive_time_price": {
+      "value": 0.5,
+      "unit": "minute",
+      "as_of": "2026-08-08T00:00:00+00:00",
+      "source": "static",
+      "currency": "USD"
+    },
+    "fuel_consumption": {
+      "value": 0.05,
+      "unit": "gallon_per_mile",
+      "mpg": 20,
+      "decimals": 2,
+      "as_of": "2026-10-02T00:00:00+00:00",
+      "source": "static"
+    }
+  },
+  {
+    "id": "1581",
+    "mode": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_at": "2026-10-08T11:30:43+00:00",
+    "stats": {
+      "saved_drive_time": {
+        "value": 42,
+        "type": "minutes"
+      },
+      "saved_distance": {
+        "value": 22.71,
+        "type": "miles"
+      },
+      "saved_fuel": {
+        "value": 1.1,
+        "type": "gallons"
+      }
+    },
+    "status": 3,
+    "fuel_price": {
+      "value": 4.81,
+      "as_of": "2026-09-28T00:00:00+00:00",
+      "source": "static",
+      "currency": "USD"
+    },
+    "drive_time_price": {
+      "value": 0.5,
+      "unit": "minute",
+      "as_of": "2026-08-08T00:00:00+00:00",
+      "source": "static",
+      "currency": "USD"
+    },
+    "fuel_consumption": {
+      "value": 0.05,
+      "unit": "gallon_per_mile",
+      "mpg": 20,
+      "decimals": 2,
+      "as_of": "2026-10-02T00:00:00+00:00",
+      "source": "static"
+    }
+  },
+  {
+    "id": "1541",
+    "mode": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Scheduled Auto-Pilot",
+      "type": "trigger"
+    },
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_at": "2026-10-07T17:00:40+00:00",
+    "stats": {
+      "saved_drive_time": {
+        "value": -3,
+        "type": "minutes"
+      },
+      "saved_distance": {
+        "value": -1.12,
+        "type": "miles"
+      },
+      "saved_fuel": {
+        "value": -0.06,
+        "type": "gallons"
+      }
+    },
+    "status": 2,
+    "fuel_price": {
+      "value": 4.81,
+      "as_of": "2026-09-28T00:00:00+00:00",
+      "source": "static",
+      "currency": "USD"
+    },
+    "drive_time_price": {
+      "value": 0.5,
+      "unit": "minute",
+      "as_of": "2026-08-08T00:00:00+00:00",
+      "source": "static",
+      "currency": "USD"
+    },
+    "fuel_consumption": {
+      "value": 0.05,
+      "unit": "gallon_per_mile",
+      "mpg": 20,
+      "decimals": 2,
+      "as_of": "2026-10-02T00:00:00+00:00",
+      "source": "static"
+    }
+  },
+  {
+    "id": "1519",
+    "mode": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Scheduled Auto-Pilot",
+      "type": "trigger"
+    },
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_at": "2026-10-06T17:00:40+00:00",
+    "stats": {
+      "saved_drive_time": {
+        "value": 2,
+        "type": "minutes"
+      },
+      "saved_distance": {
+        "value": 0.79,
+        "type": "miles"
+      },
+      "saved_fuel": {
+        "value": 0.05,
+        "type": "gallons"
+      }
+    },
+    "status": 2,
+    "fuel_price": null,
+    "drive_time_price": null,
+    "fuel_consumption": null
+  },
+  {
+    "id": "1474",
+    "mode": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Scheduled Auto-Pilot",
+      "type": "trigger"
+    },
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_at": "2026-10-05T17:01:45+00:00",
+    "stats": {
+      "saved_drive_time": {
+        "value": 4,
+        "type": "minutes"
+      },
+      "saved_distance": {
+        "value": 1.78,
+        "type": "miles"
+      },
+      "saved_fuel": {
+        "value": 0.08,
+        "type": "gallons"
+      }
+    },
+    "status": 2,
+    "fuel_price": null,
+    "drive_time_price": null,
+    "fuel_consumption": null
+  },
+  {
+    "id": "1472",
+    "mode": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Scheduled Auto-Pilot",
+      "type": "trigger"
+    },
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_at": "2026-10-05T17:00:41+00:00",
+    "stats": {
+      "saved_drive_time": {
+        "value": -5,
+        "type": "minutes"
+      },
+      "saved_distance": {
+        "value": -1.57,
+        "type": "miles"
+      },
+      "saved_fuel": {
+        "value": -0.09,
+        "type": "gallons"
+      }
+    },
+    "status": 2,
+    "fuel_price": null,
+    "drive_time_price": null,
+    "fuel_consumption": null
+  },
+  {
+    "id": "1442",
+    "mode": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Scheduled Auto-Pilot",
+      "type": "trigger"
+    },
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_at": "2026-10-04T17:00:37+00:00",
+    "stats": {
+      "saved_drive_time": {
+        "value": 0,
+        "type": "minutes"
+      },
+      "saved_distance": {
+        "value": -0.78,
+        "type": "miles"
+      },
+      "saved_fuel": {
+        "value": -0.04,
+        "type": "gallons"
+      }
+    },
+    "status": 2,
+    "fuel_price": null,
+    "drive_time_price": null,
+    "fuel_consumption": null
+  },
+  {
+    "id": "1432",
+    "mode": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Scheduled Auto-Pilot",
+      "type": "trigger"
+    },
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_at": "2026-10-03T17:00:36+00:00",
+    "stats": {
+      "saved_drive_time": {
+        "value": 0,
+        "type": "minutes"
+      },
+      "saved_distance": {
+        "value": 0,
+        "type": "miles"
+      },
+      "saved_fuel": {
+        "value": 0,
+        "type": "gallons"
+      }
+    },
+    "status": 2,
+    "fuel_price": null,
+    "drive_time_price": null,
+    "fuel_consumption": null
+  },
+  {
+    "id": "1394",
+    "mode": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Scheduled Auto-Pilot",
+      "type": "trigger"
+    },
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_at": "2026-10-02T17:00:37+00:00",
+    "stats": {
+      "saved_drive_time": {
+        "value": -2,
+        "type": "minutes"
+      },
+      "saved_distance": {
+        "value": -0.74,
+        "type": "miles"
+      },
+      "saved_fuel": {
+        "value": -0.04,
+        "type": "gallons"
+      }
+    },
+    "status": 2,
+    "fuel_price": null,
+    "drive_time_price": null,
+    "fuel_consumption": null
+  },
+  {
+    "id": "1363",
+    "mode": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Scheduled Auto-Pilot",
+      "type": "trigger"
+    },
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_at": "2026-10-01T17:00:48+00:00",
+    "stats": {
+      "saved_drive_time": {
+        "value": 2,
+        "type": "minutes"
+      },
+      "saved_distance": {
+        "value": 1.12,
+        "type": "miles"
+      },
+      "saved_fuel": {
+        "value": 0.05,
+        "type": "gallons"
+      }
+    },
+    "status": 2,
+    "fuel_price": null,
+    "drive_time_price": null,
+    "fuel_consumption": null
+  },
+  {
+    "id": "1306",
+    "mode": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Scheduled Auto-Pilot",
+      "type": "trigger"
+    },
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_at": "2026-09-30T17:00:49+00:00",
+    "stats": {
+      "saved_drive_time": {
+        "value": 14,
+        "type": "minutes"
+      },
+      "saved_distance": {
+        "value": 6.31,
+        "type": "miles"
+      },
+      "saved_fuel": {
+        "value": 0.32,
+        "type": "gallons"
+      }
+    },
+    "status": 2,
+    "fuel_price": null,
+    "drive_time_price": null,
+    "fuel_consumption": null
+  }
+]

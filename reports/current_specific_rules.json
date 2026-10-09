@@ -1,0 +1,662 @@
+[
+  {
+    "id": "1799",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T04:04:56+00:00",
+    "updated_date": "2026-10-09T04:04:56+00:00"
+  },
+  {
+    "id": "1798",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T04:04:12+00:00",
+    "updated_date": "2026-10-09T04:04:12+00:00"
+  },
+  {
+    "id": "1796",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T04:03:25+00:00",
+    "updated_date": "2026-10-09T04:03:25+00:00"
+  },
+  {
+    "id": "1795",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T04:02:35+00:00",
+    "updated_date": "2026-10-09T04:02:35+00:00"
+  },
+  {
+    "id": "1793",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T04:01:50+00:00",
+    "updated_date": "2026-10-09T04:01:50+00:00"
+  },
+  {
+    "id": "1792",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T04:01:04+00:00",
+    "updated_date": "2026-10-09T04:01:04+00:00"
+  },
+  {
+    "id": "1790",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T04:00:11+00:00",
+    "updated_date": "2026-10-09T04:00:11+00:00"
+  },
+  {
+    "id": "1789",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T03:59:24+00:00",
+    "updated_date": "2026-10-09T03:59:24+00:00"
+  },
+  {
+    "id": "1788",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T03:58:40+00:00",
+    "updated_date": "2026-10-09T03:58:40+00:00"
+  },
+  {
+    "id": "1787",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T03:57:57+00:00",
+    "updated_date": "2026-10-09T03:57:57+00:00"
+  },
+  {
+    "id": "1786",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T03:57:12+00:00",
+    "updated_date": "2026-10-09T03:57:12+00:00"
+  },
+  {
+    "id": "1785",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T03:56:26+00:00",
+    "updated_date": "2026-10-09T03:56:26+00:00"
+  },
+  {
+    "id": "1783",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T03:55:41+00:00",
+    "updated_date": "2026-10-09T03:55:41+00:00"
+  },
+  {
+    "id": "1782",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T03:54:55+00:00",
+    "updated_date": "2026-10-09T03:54:55+00:00"
+  },
+  {
+    "id": "1780",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T03:46:18+00:00",
+    "updated_date": "2026-10-09T03:46:18+00:00"
+  },
+  {
+    "id": "1779",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T03:45:35+00:00",
+    "updated_date": "2026-10-09T03:45:35+00:00"
+  },
+  {
+    "id": "1778",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T03:44:29+00:00",
+    "updated_date": "2026-10-09T03:44:29+00:00"
+  },
+  {
+    "id": "1777",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T03:43:44+00:00",
+    "updated_date": "2026-10-09T03:43:44+00:00"
+  },
+  {
+    "id": "1776",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T03:43:00+00:00",
+    "updated_date": "2026-10-09T03:43:00+00:00"
+  },
+  {
+    "id": "1775",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T03:42:13+00:00",
+    "updated_date": "2026-10-09T03:42:13+00:00"
+  },
+  {
+    "id": "1774",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T03:41:24+00:00",
+    "updated_date": "2026-10-09T03:41:24+00:00"
+  },
+  {
+    "id": "1773",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T03:40:35+00:00",
+    "updated_date": "2026-10-09T03:40:35+00:00"
+  },
+  {
+    "id": "1772",
+    "description": "",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Autopilot Trigger",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-10-09T03:39:00+00:00",
+    "updated_date": "2026-10-09T03:39:00+00:00"
+  },
+  {
+    "id": "861",
+    "description": "All service appointments for customers tagged as VIP must be routed as the technician's last stop of the day.",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Scheduled Auto-Pilot",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-27T09:09:51+00:00",
+    "updated_date": "2026-09-27T09:09:51+00:00"
+  },
+  {
+    "id": "860",
+    "description": "All jobs and stops must be strictly assigned to technician Custom.",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Scheduled Auto-Pilot",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-27T09:09:11+00:00",
+    "updated_date": "2026-09-27T09:09:11+00:00"
+  },
+  {
+    "id": "859",
+    "description": "All selected jobs must be scheduled within a mandatory arrival time window between 5:00 AM and 8:00 AM.",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Scheduled Auto-Pilot",
+      "type": "trigger"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-27T09:08:32+00:00",
+    "updated_date": "2026-09-27T09:08:32+00:00"
+  },
+  {
+    "id": "855",
+    "description": "All selected jobs must be scheduled within a strict, mandatory time window between 5:00 AM and 8:00 AM.",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Copilot Move",
+      "type": "copilot-move"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-26T09:26:23+00:00",
+    "updated_date": "2026-09-26T09:26:23+00:00"
+  },
+  {
+    "id": "854",
+    "description": "All selected jobs must be scheduled within a strict time window from 5:00 AM to 8:00 AM.",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Copilot Move",
+      "type": "copilot-move"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-26T09:22:51+00:00",
+    "updated_date": "2026-09-26T09:22:51+00:00"
+  },
+  {
+    "id": "851",
+    "description": "All Call Back Service jobs must remain within their original scheduled week and cannot be moved more than 1 day from their original date.",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Copilot Move",
+      "type": "copilot-move"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-26T08:05:16+00:00",
+    "updated_date": "2026-09-26T08:05:16+00:00"
+  },
+  {
+    "id": "849",
+    "description": "All Call Back Service jobs must remain scheduled on their original day, prefer assignment to technician Custom, and be placed as the final stop on the route.",
+    "routing_type": "autopilot",
+    "item": {
+      "id": "",
+      "name": "Copilot Move",
+      "type": "copilot-move"
+    },
+    "attachments": [],
+    "status": 0,
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "created_date": "2026-09-26T07:27:07+00:00",
+    "updated_date": "2026-09-26T07:27:07+00:00"
+  }
+]

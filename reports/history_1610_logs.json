@@ -1,0 +1,3026 @@
+{
+  "data": [
+    {
+      "id": "136669",
+      "item": {
+        "id": "101519",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1592",
+        "first_name": "HCM Customer 26",
+        "last_name": "",
+        "full_name": "HCM Customer 26 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1907",
+        "service_address": "200 Xo Viet Nghe Tinh Phuong 21, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 1,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-16T08:00:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-10T08:00:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/16/2026 at 8:00 AM to 10/10/2026 at 8:00 AM with lam 1 (schedule lam 1).",
+        "Day: 10/10/2026. The day plan grouped it with the 6 jobs of that day, next to Initial Service (2 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 8:00 AM, the start of the working day; it is the first job of the day.",
+        "Measured on the final routes after the run: this placement adds 2 min of driving; the original slot would add 0 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 2 minutes (1.1 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/16/2026 at 8:00 AM to 10/10/2026 at 8:00 AM with lam 1 (schedule lam 1). Day: 10/10/2026. The day plan grouped it with the 6 jobs of that day, next to Initial Service (2 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 8:00 AM, the start of the working day; it is the first job of the day. Measured on the final routes after the run: this placement adds 2 min of driving; the original slot would add 0 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 2 minutes (1.1 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136670",
+      "item": {
+        "id": "101498",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1572",
+        "first_name": "HCM Customer 06",
+        "last_name": "",
+        "full_name": "HCM Customer 06 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1887",
+        "service_address": "152 Dien Bien Phu Phuong 25, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-13T10:15:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-10T09:02:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/13/2026 at 10:15 AM to 10/10/2026 at 9:02 AM with lam 1 (schedule lam 1).",
+        "Day: 10/10/2026. The day plan grouped it with the 6 jobs of that day, next to Initial Service (2 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 9:02 AM = Initial Service ends at 9:00 AM + 2 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 10 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 2 minutes (2 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/13/2026 at 10:15 AM to 10/10/2026 at 9:02 AM with lam 1 (schedule lam 1). Day: 10/10/2026. The day plan grouped it with the 6 jobs of that day, next to Initial Service (2 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 9:02 AM = Initial Service ends at 9:00 AM + 2 minutes of travel. Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 10 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 2 minutes (2 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136671",
+      "item": {
+        "id": "100842",
+        "name": "Every 21 Days",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1097",
+        "first_name": "qa",
+        "last_name": "1",
+        "full_name": "qa 1",
+        "avatar": "Q1"
+      },
+      "location": {
+        "id": "1143",
+        "service_address": "Đường Nguyễn Văn Thương Bờ Quan 17, Thành phố Hồ Chí Minh, Hồ Chí Minh 550000, Thành phố Hồ Chí Minh, Hồ Chí Minh, 550000"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-10T08:00:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-10T10:05:00+00:00"
+      },
+      "reasons": [
+        "We moved Every 21 Days from 10/10/2026 at 8:00 AM to 10/10/2026 at 10:05 AM with lam 1 (schedule lam 1).",
+        "Day: unchanged (10/10/2026).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 10:05 AM = Initial Service ends at 10:02 AM + 3 minutes of travel.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is less than a minute away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Every 21 Days from 10/10/2026 at 8:00 AM to 10/10/2026 at 10:05 AM with lam 1 (schedule lam 1). Day: unchanged (10/10/2026). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 10:05 AM = Initial Service ends at 10:02 AM + 3 minutes of travel. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is less than a minute away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136672",
+      "item": {
+        "id": "100843",
+        "name": "Every 21 Days",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1096",
+        "first_name": "test",
+        "last_name": "qa",
+        "full_name": "test qa",
+        "avatar": "TQ"
+      },
+      "location": {
+        "id": "1142",
+        "service_address": "Đường Nguyễn Văn Thương Đường Nguyễn Văn Thương, Thành phố Hồ Chí Minh, Hồ Chí Minh 54401, Thành phố Hồ Chí Minh, Hồ Chí Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-12T05:00:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-10T11:05:00+00:00"
+      },
+      "reasons": [
+        "We moved Every 21 Days from 10/12/2026 at 5:00 AM to 10/10/2026 at 11:05 AM with lam 1 (schedule lam 1).",
+        "Day: 10/10/2026. The day plan grouped it with the 6 jobs of that day, next to Every 21 Days (1 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 11:05 AM, when Every 21 Days ends (11:05 AM); the drive between them is under a minute.",
+        "Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 7 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is less than a minute away (0.3 km)."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Every 21 Days from 10/12/2026 at 5:00 AM to 10/10/2026 at 11:05 AM with lam 1 (schedule lam 1). Day: 10/10/2026. The day plan grouped it with the 6 jobs of that day, next to Every 21 Days (1 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 11:05 AM, when Every 21 Days ends (11:05 AM); the drive between them is under a minute. Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 7 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is less than a minute away (0.3 km).",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136673",
+      "item": {
+        "id": "100835",
+        "name": "Every 21 Days",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1098",
+        "first_name": "176",
+        "last_name": "",
+        "full_name": "176 ",
+        "avatar": "1"
+      },
+      "location": {
+        "id": "1144",
+        "service_address": "24 Đường Võ Oanh, Thành phố Hồ Chí Minh, Hồ Chí Minh 54401, Thành phố Hồ Chí Minh, Hồ Chí Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-10T02:15:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-10T12:06:00+00:00"
+      },
+      "reasons": [
+        "We moved Every 21 Days from 10/10/2026 at 2:15 AM to 10/10/2026 at 12:06 PM with lam 1 (schedule lam 1).",
+        "Day: unchanged (10/10/2026).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 12:06 PM = Every 21 Days ends at 12:05 PM + 1 minute of travel.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is less than a minute away (0.5 km)."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Every 21 Days from 10/10/2026 at 2:15 AM to 10/10/2026 at 12:06 PM with lam 1 (schedule lam 1). Day: unchanged (10/10/2026). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 12:06 PM = Every 21 Days ends at 12:05 PM + 1 minute of travel. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is less than a minute away (0.5 km).",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136674",
+      "item": {
+        "id": "101497",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1571",
+        "first_name": "HCM Customer 05",
+        "last_name": "",
+        "full_name": "HCM Customer 05 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1886",
+        "service_address": "24 Vo Oanh Phuong 25, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-11T08:15:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-10T13:07:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/11/2026 at 8:15 AM to 10/10/2026 at 1:07 PM with lam 1 (schedule lam 1).",
+        "Day: 10/10/2026. The day plan grouped it with the 6 jobs of that day, next to Every 21 Days (1 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 1:07 PM = Every 21 Days ends at 1:06 PM + 1 minute of travel.",
+        "Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 5 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 2 minutes (1.5 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/11/2026 at 8:15 AM to 10/10/2026 at 1:07 PM with lam 1 (schedule lam 1). Day: 10/10/2026. The day plan grouped it with the 6 jobs of that day, next to Every 21 Days (1 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 1:07 PM = Every 21 Days ends at 1:06 PM + 1 minute of travel. Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 5 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 2 minutes (1.5 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136675",
+      "item": {
+        "id": "43172",
+        "name": "Quarterly Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1175",
+        "first_name": "Qa custom",
+        "last_name": "",
+        "full_name": "Qa custom ",
+        "avatar": "Qc"
+      },
+      "location": {
+        "id": "1262",
+        "service_address": "Bạch Đằng, Thành phố Hồ Chí Minh, Hồ Chí Minh 550000, Thành phố Hồ Chí Minh, Hồ Chí Minh, 550000"
+      },
+      "status": 3,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-12T06:47:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-10T14:09:00+00:00"
+      },
+      "reasons": [
+        "We moved Quarterly Service from 10/12/2026 at 6:47 AM to 10/10/2026 at 2:09 PM with lam 1 (schedule lam 1).",
+        "Day: 10/10/2026. The day plan grouped it with the 6 jobs of that day, next to Initial Service (2 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 2:09 PM = Initial Service ends at 2:07 PM + 2 minutes of travel. Its 1:30 PM–3:00 PM arrival window is a template and was not a routing rule in this run.",
+        "Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 5 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 3 minutes (2.2 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Quarterly Service from 10/12/2026 at 6:47 AM to 10/10/2026 at 2:09 PM with lam 1 (schedule lam 1). Day: 10/10/2026. The day plan grouped it with the 6 jobs of that day, next to Initial Service (2 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 2:09 PM = Initial Service ends at 2:07 PM + 2 minutes of travel. Its 1:30 PM–3:00 PM arrival window is a template and was not a routing rule in this run. Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 5 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 3 minutes (2.2 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136676",
+      "item": {
+        "id": "101501",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1575",
+        "first_name": "HCM Customer 09",
+        "last_name": "",
+        "full_name": "HCM Customer 09 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1890",
+        "service_address": "88 Phan Xich Long Phuong 2, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-13T07:15:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-10T15:42:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/13/2026 at 7:15 AM to 10/10/2026 at 3:42 PM with lam 1 (schedule lam 1).",
+        "Day: 10/10/2026. The day plan grouped it with the 6 jobs of that day, next to Quarterly Service (3 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 3:42 PM = Quarterly Service ends at 3:39 PM + 3 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 3 min of driving; the original slot would add 10 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/13/2026 at 7:15 AM to 10/10/2026 at 3:42 PM with lam 1 (schedule lam 1). Day: 10/10/2026. The day plan grouped it with the 6 jobs of that day, next to Quarterly Service (3 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 3:42 PM = Quarterly Service ends at 3:39 PM + 3 minutes of travel. Measured on the final routes after the run: this placement adds 3 min of driving; the original slot would add 10 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136677",
+      "item": {
+        "id": "101502",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1576",
+        "first_name": "HCM Customer 10",
+        "last_name": "",
+        "full_name": "HCM Customer 10 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1891",
+        "service_address": "108 Hoang Van Thu Phuong 9, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-17T12:45:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-11T08:00:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/17/2026 at 12:45 PM to 10/11/2026 at 8:00 AM with lam 1 (schedule lam 1).",
+        "Day: 10/11/2026. The day plan grouped it with the 6 jobs of that day, next to Initial Service (2 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 8:00 AM, the start of the working day; it is the first job of the day.",
+        "Measured on the final routes after the run: this placement adds 2 min of driving; the original slot would add 0 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 2 minutes (1.1 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/17/2026 at 12:45 PM to 10/11/2026 at 8:00 AM with lam 1 (schedule lam 1). Day: 10/11/2026. The day plan grouped it with the 6 jobs of that day, next to Initial Service (2 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 8:00 AM, the start of the working day; it is the first job of the day. Measured on the final routes after the run: this placement adds 2 min of driving; the original slot would add 0 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 2 minutes (1.1 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136678",
+      "item": {
+        "id": "101503",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1577",
+        "first_name": "HCM Customer 11",
+        "last_name": "",
+        "full_name": "HCM Customer 11 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1892",
+        "service_address": "25 Cong Hoa Phuong 4, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-12T13:30:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-11T09:02:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/12/2026 at 1:30 PM to 10/11/2026 at 9:02 AM with lam 1 (schedule lam 1).",
+        "Day: 10/11/2026. The day plan grouped it with the 6 jobs of that day, next to Initial Service (2 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 9:02 AM = Initial Service ends at 9:00 AM + 2 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 3 min of driving; the original slot would add 3 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 5 minutes (4.1 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/12/2026 at 1:30 PM to 10/11/2026 at 9:02 AM with lam 1 (schedule lam 1). Day: 10/11/2026. The day plan grouped it with the 6 jobs of that day, next to Initial Service (2 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 9:02 AM = Initial Service ends at 9:00 AM + 2 minutes of travel. Measured on the final routes after the run: this placement adds 3 min of driving; the original slot would add 3 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 5 minutes (4.1 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136679",
+      "item": {
+        "id": "101520",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1593",
+        "first_name": "HCM Customer 27",
+        "last_name": "",
+        "full_name": "HCM Customer 27 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1908",
+        "service_address": "12 Pho Quang Phuong 2, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-16T09:30:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-11T10:08:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/16/2026 at 9:30 AM to 10/11/2026 at 10:08 AM with lam 1 (schedule lam 1).",
+        "Day: 10/11/2026. The day plan grouped it with the 6 jobs of that day, next to Initial Service (4 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 10:08 AM = Initial Service ends at 10:02 AM + 6 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 2 min of driving; the original slot would add 0 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 5 minutes (3.5 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/16/2026 at 9:30 AM to 10/11/2026 at 10:08 AM with lam 1 (schedule lam 1). Day: 10/11/2026. The day plan grouped it with the 6 jobs of that day, next to Initial Service (4 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 10:08 AM = Initial Service ends at 10:02 AM + 6 minutes of travel. Measured on the final routes after the run: this placement adds 2 min of driving; the original slot would add 0 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 5 minutes (3.5 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136680",
+      "item": {
+        "id": "101500",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1574",
+        "first_name": "HCM Customer 08",
+        "last_name": "",
+        "full_name": "HCM Customer 08 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1889",
+        "service_address": "56 Nguyen Thai Son Phuong 3, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-13T08:30:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-11T11:13:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/13/2026 at 8:30 AM to 10/11/2026 at 11:13 AM with lam 1 (schedule lam 1).",
+        "Day: 10/11/2026. The day plan grouped it with the 6 jobs of that day, next to Every 21 Days (0 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 11:13 AM = Initial Service ends at 11:08 AM + 5 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 11 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is less than a minute away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/13/2026 at 8:30 AM to 10/11/2026 at 11:13 AM with lam 1 (schedule lam 1). Day: 10/11/2026. The day plan grouped it with the 6 jobs of that day, next to Every 21 Days (0 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 11:13 AM = Initial Service ends at 11:08 AM + 5 minutes of travel. Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 11 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is less than a minute away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136681",
+      "item": {
+        "id": "100845",
+        "name": "Every 21 Days",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1095",
+        "first_name": "test",
+        "last_name": "1",
+        "full_name": "test 1",
+        "avatar": "T1"
+      },
+      "location": {
+        "id": "1141",
+        "service_address": "Đường Nguyễn Thái Sơn, Thành phố Hồ Chí Minh, Hồ Chí Minh 550000, Thành phố Hồ Chí Minh, Hồ Chí Minh, 550000"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-11T04:30:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-11T12:13:00+00:00"
+      },
+      "reasons": [
+        "We moved Every 21 Days from 10/11/2026 at 4:30 AM to 10/11/2026 at 12:13 PM with lam 1 (schedule lam 1).",
+        "Day: unchanged (10/11/2026).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 12:13 PM, when Initial Service ends (12:13 PM); the drive between them is under a minute.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is less than a minute away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Every 21 Days from 10/11/2026 at 4:30 AM to 10/11/2026 at 12:13 PM with lam 1 (schedule lam 1). Day: unchanged (10/11/2026). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 12:13 PM, when Initial Service ends (12:13 PM); the drive between them is under a minute. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is less than a minute away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136682",
+      "item": {
+        "id": "100840",
+        "name": "Every 21 Days",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1127",
+        "first_name": "lam",
+        "last_name": "minh",
+        "full_name": "lam minh",
+        "avatar": "LM"
+      },
+      "location": {
+        "id": "1179",
+        "service_address": "Đường Nguyễn Thái Sơn, Thành phố Hồ Chí Minh, Hồ Chí Minh 54401, Thành phố Hồ Chí Minh, Hồ Chí Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-17T07:00:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-11T13:13:00+00:00"
+      },
+      "reasons": [
+        "We moved Every 21 Days from 10/17/2026 at 7:00 AM to 10/11/2026 at 1:13 PM with lam 1 (schedule lam 1).",
+        "Day: 10/11/2026. The day plan grouped it with the 6 jobs of that day, next to Initial Service (0 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 1:13 PM, when Every 21 Days ends (1:13 PM); the drive between them is under a minute.",
+        "Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 0 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 1 minute (1.1 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Every 21 Days from 10/17/2026 at 7:00 AM to 10/11/2026 at 1:13 PM with lam 1 (schedule lam 1). Day: 10/11/2026. The day plan grouped it with the 6 jobs of that day, next to Initial Service (0 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 1:13 PM, when Every 21 Days ends (1:13 PM); the drive between them is under a minute. Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 0 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 1 minute (1.1 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136683",
+      "item": {
+        "id": "101499",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1573",
+        "first_name": "HCM Customer 07",
+        "last_name": "",
+        "full_name": "HCM Customer 07 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1888",
+        "service_address": "18 Phan Van Tri Phuong 7, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-13T05:45:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-11T14:15:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/13/2026 at 5:45 AM to 10/11/2026 at 2:15 PM with lam 1 (schedule lam 1).",
+        "Day: 10/11/2026. The day plan grouped it with the 6 jobs of that day, next to Every 21 Days (1 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 2:15 PM = Every 21 Days ends at 2:13 PM + 2 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 2 min of driving; the original slot would add 13 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 4 minutes (3 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/13/2026 at 5:45 AM to 10/11/2026 at 2:15 PM with lam 1 (schedule lam 1). Day: 10/11/2026. The day plan grouped it with the 6 jobs of that day, next to Every 21 Days (1 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 2:15 PM = Every 21 Days ends at 2:13 PM + 2 minutes of travel. Measured on the final routes after the run: this placement adds 2 min of driving; the original slot would add 13 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 4 minutes (3 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136684",
+      "item": {
+        "id": "100837",
+        "name": "Every 21 Days",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1154",
+        "first_name": "test move",
+        "last_name": "",
+        "full_name": "test move ",
+        "avatar": "tm"
+      },
+      "location": {
+        "id": "1223",
+        "service_address": "Đường Phan Văn Trị, Thành phố Hồ Chí Minh, Hồ Chí Minh 54401, Thành phố Hồ Chí Minh, Hồ Chí Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-10T03:45:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-11T15:19:00+00:00"
+      },
+      "reasons": [
+        "We moved Every 21 Days from 10/10/2026 at 3:45 AM to 10/11/2026 at 3:19 PM with lam 1 (schedule lam 1).",
+        "Day: 10/11/2026. The day plan grouped it with the 6 jobs of that day, next to Initial Service (3 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 3:19 PM = Initial Service ends at 3:15 PM + 4 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 4 min of driving; the original slot would add 3 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Every 21 Days from 10/10/2026 at 3:45 AM to 10/11/2026 at 3:19 PM with lam 1 (schedule lam 1). Day: 10/11/2026. The day plan grouped it with the 6 jobs of that day, next to Initial Service (3 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 3:19 PM = Initial Service ends at 3:15 PM + 4 minutes of travel. Measured on the final routes after the run: this placement adds 4 min of driving; the original slot would add 3 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136685",
+      "item": {
+        "id": "101494",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1568",
+        "first_name": "HCM Customer 02",
+        "last_name": "",
+        "full_name": "HCM Customer 02 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1883",
+        "service_address": "135 Nam Ky Khoi Nghia Ben Thanh, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-11T06:30:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-12T08:00:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/11/2026 at 6:30 AM to 10/12/2026 at 8:00 AM with lam 1 (schedule lam 1).",
+        "Day: 10/12/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (2 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 8:00 AM, the start of the working day; it is the first job of the day.",
+        "Measured on the final routes after the run: this placement adds 2 min of driving; the original slot would add 8 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 2 minutes (1 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/11/2026 at 6:30 AM to 10/12/2026 at 8:00 AM with lam 1 (schedule lam 1). Day: 10/12/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (2 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 8:00 AM, the start of the working day; it is the first job of the day. Measured on the final routes after the run: this placement adds 2 min of driving; the original slot would add 8 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 2 minutes (1 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136686",
+      "item": {
+        "id": "101493",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1567",
+        "first_name": "HCM Customer 01",
+        "last_name": "",
+        "full_name": "HCM Customer 01 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1882",
+        "service_address": "65 Le Loi Ben Nghe, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-11T14:15:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-12T09:02:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/11/2026 at 2:15 PM to 10/12/2026 at 9:02 AM with lam 1 (schedule lam 1).",
+        "Day: 10/12/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (1 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 9:02 AM = Initial Service ends at 9:00 AM + 2 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 7 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is less than a minute away (0.7 km)."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/11/2026 at 2:15 PM to 10/12/2026 at 9:02 AM with lam 1 (schedule lam 1). Day: 10/12/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (1 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 9:02 AM = Initial Service ends at 9:00 AM + 2 minutes of travel. Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 7 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is less than a minute away (0.7 km).",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136687",
+      "item": {
+        "id": "101515",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1588",
+        "first_name": "HCM Customer 22",
+        "last_name": "",
+        "full_name": "HCM Customer 22 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1903",
+        "service_address": "2 Pasteur Ben Nghe, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-15T09:30:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-12T10:03:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/15/2026 at 9:30 AM to 10/12/2026 at 10:03 AM with lam 1 (schedule lam 1).",
+        "Day: 10/12/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (1 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 10:03 AM = Initial Service ends at 10:02 AM + 1 minute of travel.",
+        "Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 7 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is less than a minute away (0.3 km)."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/15/2026 at 9:30 AM to 10/12/2026 at 10:03 AM with lam 1 (schedule lam 1). Day: 10/12/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (1 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 10:03 AM = Initial Service ends at 10:02 AM + 1 minute of travel. Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 7 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is less than a minute away (0.3 km).",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136688",
+      "item": {
+        "id": "101514",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1587",
+        "first_name": "HCM Customer 21",
+        "last_name": "",
+        "full_name": "HCM Customer 21 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1902",
+        "service_address": "100 Ham Nghi Ben Nghe, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-17T09:30:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-12T11:04:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/17/2026 at 9:30 AM to 10/12/2026 at 11:04 AM with lam 1 (schedule lam 1).",
+        "Day: 10/12/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (1 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 11:04 AM = Initial Service ends at 11:03 AM + 1 minute of travel.",
+        "Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 0 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 4 minutes (3.1 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/17/2026 at 9:30 AM to 10/12/2026 at 11:04 AM with lam 1 (schedule lam 1). Day: 10/12/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (1 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 11:04 AM = Initial Service ends at 11:03 AM + 1 minute of travel. Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 0 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 4 minutes (3.1 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136689",
+      "item": {
+        "id": "101496",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1570",
+        "first_name": "HCM Customer 04",
+        "last_name": "",
+        "full_name": "HCM Customer 04 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1885",
+        "service_address": "180 Cach Mang Thang 8 Phuong 10, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-12T08:30:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-12T12:09:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/12/2026 at 8:30 AM to 10/12/2026 at 12:09 PM with lam 1 (schedule lam 1).",
+        "Day: unchanged (10/12/2026).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 12:09 PM = Initial Service ends at 12:04 PM + 5 minutes of travel.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 2 minutes (1.3 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/12/2026 at 8:30 AM to 10/12/2026 at 12:09 PM with lam 1 (schedule lam 1). Day: unchanged (10/12/2026). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 12:09 PM = Initial Service ends at 12:04 PM + 5 minutes of travel. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 2 minutes (1.3 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136690",
+      "item": {
+        "id": "101516",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1589",
+        "first_name": "HCM Customer 23",
+        "last_name": "",
+        "full_name": "HCM Customer 23 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1904",
+        "service_address": "32 Tran Quoc Thao Phuong 7, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-15T11:00:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-12T13:11:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/15/2026 at 11:00 AM to 10/12/2026 at 1:11 PM with lam 1 (schedule lam 1).",
+        "Day: 10/12/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (1 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 1:11 PM = Initial Service ends at 1:09 PM + 2 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 3 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 1 minute (1 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/15/2026 at 11:00 AM to 10/12/2026 at 1:11 PM with lam 1 (schedule lam 1). Day: 10/12/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (1 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 1:11 PM = Initial Service ends at 1:09 PM + 2 minutes of travel. Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 3 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 1 minute (1 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136691",
+      "item": {
+        "id": "101495",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1569",
+        "first_name": "HCM Customer 03",
+        "last_name": "",
+        "full_name": "HCM Customer 03 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1884",
+        "service_address": "209 Hai Ba Trung Phuong 6, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-12T10:00:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-12T14:13:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/12/2026 at 10:00 AM to 10/12/2026 at 2:13 PM with lam 1 (schedule lam 1).",
+        "Day: unchanged (10/12/2026).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 2:13 PM = Initial Service ends at 2:11 PM + 2 minutes of travel.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 3 minutes (2.3 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/12/2026 at 10:00 AM to 10/12/2026 at 2:13 PM with lam 1 (schedule lam 1). Day: unchanged (10/12/2026). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 2:13 PM = Initial Service ends at 2:11 PM + 2 minutes of travel. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 3 minutes (2.3 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136692",
+      "item": {
+        "id": "101518",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1591",
+        "first_name": "HCM Customer 25",
+        "last_name": "",
+        "full_name": "HCM Customer 25 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1906",
+        "service_address": "150 Huynh Van Banh Phuong 12, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-15T15:00:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-12T15:16:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/15/2026 at 3:00 PM to 10/12/2026 at 3:16 PM with lam 1 (schedule lam 1).",
+        "Day: 10/12/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (3 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 3:16 PM = Initial Service ends at 3:13 PM + 3 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 3 min of driving; the original slot would add 6 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/15/2026 at 3:00 PM to 10/12/2026 at 3:16 PM with lam 1 (schedule lam 1). Day: 10/12/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (3 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 3:16 PM = Initial Service ends at 3:13 PM + 3 minutes of travel. Measured on the final routes after the run: this placement adds 3 min of driving; the original slot would add 6 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136693",
+      "item": {
+        "id": "101508",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1582",
+        "first_name": "HCM Customer 16",
+        "last_name": "",
+        "full_name": "HCM Customer 16 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1897",
+        "service_address": "50 Nguyen Van Linh Tan Thuan Tay, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 1,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-13T12:00:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-13T08:00:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/13/2026 at 12:00 PM to 10/13/2026 at 8:00 AM with lam 1 (schedule lam 1).",
+        "Day: unchanged (10/13/2026).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 8:00 AM, the start of the working day; it is the first job of the day.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 3 minutes (1.8 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/13/2026 at 12:00 PM to 10/13/2026 at 8:00 AM with lam 1 (schedule lam 1). Day: unchanged (10/13/2026). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 8:00 AM, the start of the working day; it is the first job of the day. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 3 minutes (1.8 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136694",
+      "item": {
+        "id": "101507",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1581",
+        "first_name": "HCM Customer 15",
+        "last_name": "",
+        "full_name": "HCM Customer 15 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1896",
+        "service_address": "101 Nguyen Thi Thap Tan Phu, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-15T06:30:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-13T09:03:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/15/2026 at 6:30 AM to 10/13/2026 at 9:03 AM with lam 1 (schedule lam 1).",
+        "Day: 10/13/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (3 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 9:03 AM = Initial Service ends at 9:00 AM + 3 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 11 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 3 minutes (1.4 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/15/2026 at 6:30 AM to 10/13/2026 at 9:03 AM with lam 1 (schedule lam 1). Day: 10/13/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (3 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 9:03 AM = Initial Service ends at 9:00 AM + 3 minutes of travel. Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 11 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 3 minutes (1.4 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136695",
+      "item": {
+        "id": "101521",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1594",
+        "first_name": "HCM Customer 28",
+        "last_name": "",
+        "full_name": "HCM Customer 28 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1909",
+        "service_address": "10 Nguyen Thi Thap Tan Hung, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-16T11:00:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-13T10:06:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/16/2026 at 11:00 AM to 10/13/2026 at 10:06 AM with lam 1 (schedule lam 1).",
+        "Day: 10/13/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (3 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 10:06 AM = Initial Service ends at 10:03 AM + 3 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 0 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 4 minutes (2.9 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/16/2026 at 11:00 AM to 10/13/2026 at 10:06 AM with lam 1 (schedule lam 1). Day: 10/13/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (3 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 10:06 AM = Initial Service ends at 10:03 AM + 3 minutes of travel. Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 0 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 4 minutes (2.9 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136696",
+      "item": {
+        "id": "101511",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1585",
+        "first_name": "HCM Customer 19",
+        "last_name": "",
+        "full_name": "HCM Customer 19 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1900",
+        "service_address": "45 Doan Van Bo Phuong 12, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-15T07:45:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-13T11:11:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/15/2026 at 7:45 AM to 10/13/2026 at 11:11 AM with lam 1 (schedule lam 1).",
+        "Day: 10/13/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (4 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 11:11 AM = Initial Service ends at 11:06 AM + 5 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 3 min of driving; the original slot would add 7 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 6 minutes (4.2 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/15/2026 at 7:45 AM to 10/13/2026 at 11:11 AM with lam 1 (schedule lam 1). Day: 10/13/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (4 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 11:11 AM = Initial Service ends at 11:06 AM + 5 minutes of travel. Measured on the final routes after the run: this placement adds 3 min of driving; the original slot would add 7 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 6 minutes (4.2 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136697",
+      "item": {
+        "id": "101506",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1580",
+        "first_name": "HCM Customer 14",
+        "last_name": "",
+        "full_name": "HCM Customer 14 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1895",
+        "service_address": "88 An Duong Vuong Phuong 9, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-14T08:15:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-13T12:17:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/14/2026 at 8:15 AM to 10/13/2026 at 12:17 PM with lam 1 (schedule lam 1).",
+        "Day: 10/13/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (1 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 12:17 PM = Initial Service ends at 12:11 PM + 6 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 14 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 2 minutes (1.1 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/14/2026 at 8:15 AM to 10/13/2026 at 12:17 PM with lam 1 (schedule lam 1). Day: 10/13/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (1 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 12:17 PM = Initial Service ends at 12:11 PM + 6 minutes of travel. Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 14 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 2 minutes (1.1 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136698",
+      "item": {
+        "id": "101505",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1579",
+        "first_name": "HCM Customer 13",
+        "last_name": "",
+        "full_name": "HCM Customer 13 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1894",
+        "service_address": "120 Nguyen Trai Phuong 3, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-14T06:30:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-13T13:19:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/14/2026 at 6:30 AM to 10/13/2026 at 1:19 PM with lam 1 (schedule lam 1).",
+        "Day: 10/13/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (1 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 1:19 PM = Initial Service ends at 1:17 PM + 2 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 2 min of driving; the original slot would add 12 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 2 minutes (1.3 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/14/2026 at 6:30 AM to 10/13/2026 at 1:19 PM with lam 1 (schedule lam 1). Day: 10/13/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (1 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 1:19 PM = Initial Service ends at 1:17 PM + 2 minutes of travel. Measured on the final routes after the run: this placement adds 2 min of driving; the original slot would add 12 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 2 minutes (1.3 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136699",
+      "item": {
+        "id": "101523",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1596",
+        "first_name": "HCM Customer 30",
+        "last_name": "",
+        "full_name": "HCM Customer 30 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1911",
+        "service_address": "200 Tran Hung Dao Phuong 11, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-16T15:00:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-13T14:21:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/16/2026 at 3:00 PM to 10/13/2026 at 2:21 PM with lam 1 (schedule lam 1).",
+        "Day: 10/13/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (2 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 2:21 PM = Initial Service ends at 2:19 PM + 2 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 0 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 5 minutes (3.2 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/16/2026 at 3:00 PM to 10/13/2026 at 2:21 PM with lam 1 (schedule lam 1). Day: 10/13/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (2 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 2:21 PM = Initial Service ends at 2:19 PM + 2 minutes of travel. Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 0 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 5 minutes (3.2 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136700",
+      "item": {
+        "id": "101512",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1586",
+        "first_name": "HCM Customer 20",
+        "last_name": "",
+        "full_name": "HCM Customer 20 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1901",
+        "service_address": "86 Lac Long Quan Phuong 3, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 1,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-14T13:00:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-13T15:26:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/14/2026 at 1:00 PM to 10/13/2026 at 3:26 PM with lam 1 (schedule lam 1).",
+        "Day: 10/13/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (5 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 3:26 PM = Initial Service ends at 3:21 PM + 5 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 5 min of driving; the original slot would add 14 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/14/2026 at 1:00 PM to 10/13/2026 at 3:26 PM with lam 1 (schedule lam 1). Day: 10/13/2026. The day plan grouped it with the 7 jobs of that day, next to Initial Service (5 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 3:26 PM = Initial Service ends at 3:21 PM + 5 minutes of travel. Measured on the final routes after the run: this placement adds 5 min of driving; the original slot would add 14 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136701",
+      "item": {
+        "id": "101510",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1584",
+        "first_name": "HCM Customer 18",
+        "last_name": "",
+        "full_name": "HCM Customer 18 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1899",
+        "service_address": "10 Vo Van Ngan Linh Chieu, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 109,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-17T11:15:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-14T08:00:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/17/2026 at 11:15 AM to 10/14/2026 at 8:00 AM with lam 1 (schedule lam 1).",
+        "Day: 10/14/2026. The day plan grouped it with the 5 jobs of that day, next to Call Back Service (7 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 8:00 AM, the start of the working day; it is the first job of the day.",
+        "Measured on the final routes after the run: this placement adds 7 min of driving; the original slot would add 0 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 7 minutes (5.7 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/17/2026 at 11:15 AM to 10/14/2026 at 8:00 AM with lam 1 (schedule lam 1). Day: 10/14/2026. The day plan grouped it with the 5 jobs of that day, next to Call Back Service (7 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 8:00 AM, the start of the working day; it is the first job of the day. Measured on the final routes after the run: this placement adds 7 min of driving; the original slot would add 0 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 7 minutes (5.7 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136702",
+      "item": {
+        "id": "43094",
+        "name": "Call Back Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1164",
+        "first_name": "test pool",
+        "last_name": "",
+        "full_name": "test pool ",
+        "avatar": "tp"
+      },
+      "location": {
+        "id": "1239",
+        "service_address": "Đường Phạm Văn Đồng, Thành phố Hồ Chí Minh, Hồ Chí Minh 54404, Thành phố Hồ Chí Minh, Hồ Chí Minh, 54404"
+      },
+      "status": 1,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-10T09:27:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-14T09:07:00+00:00"
+      },
+      "reasons": [
+        "We moved Call Back Service from 10/10/2026 at 9:27 AM to 10/14/2026 at 9:07 AM with lam 1 (schedule lam 1).",
+        "Day: 10/14/2026. The day plan grouped it with the 5 jobs of that day, next to Every 21 Days (6 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 9:07 AM = Initial Service ends at 9:00 AM + 7 minutes of travel. Its 10:30 AM–11:00 AM arrival window is a template and was not a routing rule in this run.",
+        "Measured on the final routes after the run: this placement adds 2 min of driving; the original slot would add 7 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 6 minutes (5.1 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Call Back Service from 10/10/2026 at 9:27 AM to 10/14/2026 at 9:07 AM with lam 1 (schedule lam 1). Day: 10/14/2026. The day plan grouped it with the 5 jobs of that day, next to Every 21 Days (6 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 9:07 AM = Initial Service ends at 9:00 AM + 7 minutes of travel. Its 10:30 AM–11:00 AM arrival window is a template and was not a routing rule in this run. Measured on the final routes after the run: this placement adds 2 min of driving; the original slot would add 7 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 6 minutes (5.1 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136703",
+      "item": {
+        "id": "100839",
+        "name": "Every 21 Days",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1156",
+        "first_name": "Specific test",
+        "last_name": "",
+        "full_name": "Specific test ",
+        "avatar": "St"
+      },
+      "location": {
+        "id": "1226",
+        "service_address": "Đường Ung Văn Khiêm, Thành phố Hồ Chí Minh, Hồ Chí Minh 54402, Thành phố Hồ Chí Minh, Hồ Chí Minh, 54402"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-17T05:00:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-14T10:14:00+00:00"
+      },
+      "reasons": [
+        "We moved Every 21 Days from 10/17/2026 at 5:00 AM to 10/14/2026 at 10:14 AM with lam 1 (schedule lam 1).",
+        "Day: 10/14/2026. The day plan grouped it with the 5 jobs of that day, next to Quarterly Service (0 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 10:14 AM = Call Back Service ends at 10:07 AM + 7 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 0 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is less than a minute away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Every 21 Days from 10/17/2026 at 5:00 AM to 10/14/2026 at 10:14 AM with lam 1 (schedule lam 1). Day: 10/14/2026. The day plan grouped it with the 5 jobs of that day, next to Quarterly Service (0 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 10:14 AM = Call Back Service ends at 10:07 AM + 7 minutes of travel. Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 0 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is less than a minute away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136704",
+      "item": {
+        "id": "40285",
+        "name": "Quarterly Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1156",
+        "first_name": "Specific test",
+        "last_name": "",
+        "full_name": "Specific test ",
+        "avatar": "St"
+      },
+      "location": {
+        "id": "1226",
+        "service_address": "Đường Ung Văn Khiêm, Thành phố Hồ Chí Minh, Hồ Chí Minh 54402, Thành phố Hồ Chí Minh, Hồ Chí Minh, 54402"
+      },
+      "status": 1,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-10T13:06:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-14T11:14:00+00:00"
+      },
+      "reasons": [
+        "We moved Quarterly Service from 10/10/2026 at 1:06 PM to 10/14/2026 at 11:14 AM with lam 1 (schedule lam 1).",
+        "Day: 10/14/2026. The day plan grouped it with the 5 jobs of that day, next to Every 21 Days (0 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 11:14 AM, when Every 21 Days ends (11:14 AM); the drive between them is under a minute. Its 5:00 PM–5:30 PM arrival window is a template and was not a routing rule in this run.",
+        "Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 2 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 5 minutes (4 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Quarterly Service from 10/10/2026 at 1:06 PM to 10/14/2026 at 11:14 AM with lam 1 (schedule lam 1). Day: 10/14/2026. The day plan grouped it with the 5 jobs of that day, next to Every 21 Days (0 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 11:14 AM, when Every 21 Days ends (11:14 AM); the drive between them is under a minute. Its 5:00 PM–5:30 PM arrival window is a template and was not a routing rule in this run. Measured on the final routes after the run: this placement adds 0 min of driving; the original slot would add 2 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 5 minutes (4 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136705",
+      "item": {
+        "id": "101522",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1595",
+        "first_name": "HCM Customer 29",
+        "last_name": "",
+        "full_name": "HCM Customer 29 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1910",
+        "service_address": "50 Tran Nao An Khanh, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 1,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-16T13:30:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-14T11:49:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/16/2026 at 1:30 PM to 10/14/2026 at 11:49 AM with lam 1 (schedule lam 1).",
+        "Day: 10/14/2026. The day plan grouped it with the 5 jobs of that day, next to Initial Service (4 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 11:49 AM = Quarterly Service ends at 11:44 AM + 5 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 0 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 4 minutes (2.4 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/16/2026 at 1:30 PM to 10/14/2026 at 11:49 AM with lam 1 (schedule lam 1). Day: 10/14/2026. The day plan grouped it with the 5 jobs of that day, next to Initial Service (4 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 11:49 AM = Quarterly Service ends at 11:44 AM + 5 minutes of travel. Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 0 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 4 minutes (2.4 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136706",
+      "item": {
+        "id": "101509",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1583",
+        "first_name": "HCM Customer 17",
+        "last_name": "",
+        "full_name": "HCM Customer 17 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1898",
+        "service_address": "68 Thao Dien Thao Dien, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-14T09:45:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-14T12:53:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/14/2026 at 9:45 AM to 10/14/2026 at 12:53 PM with lam 1 (schedule lam 1).",
+        "Day: unchanged (10/14/2026).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 12:53 PM = Initial Service ends at 12:49 PM + 4 minutes of travel.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/14/2026 at 9:45 AM to 10/14/2026 at 12:53 PM with lam 1 (schedule lam 1). Day: unchanged (10/14/2026). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 12:53 PM = Initial Service ends at 12:49 PM + 4 minutes of travel. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136707",
+      "item": {
+        "id": "27604",
+        "name": "Bi-Monthly Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1099",
+        "first_name": "location",
+        "last_name": "",
+        "full_name": "location ",
+        "avatar": "l"
+      },
+      "location": {
+        "id": "1145",
+        "service_address": "Đường Thành Thái, Thành phố Hồ Chí Minh, Hồ Chí Minh 550000, Thành phố Hồ Chí Minh, Hồ Chí Minh, 550000"
+      },
+      "status": 3,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-10T11:00:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-15T08:00:00+00:00"
+      },
+      "reasons": [
+        "We moved Bi-Monthly Service from 10/10/2026 at 11:00 AM to 10/15/2026 at 8:00 AM with lam 1 (schedule lam 1).",
+        "Day: 10/15/2026. The day plan grouped it with the 2 jobs of that day, next to Initial Service (1 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 8:00 AM, the start of the working day; it is the first job of the day. Its 2:51 AM–4:51 PM arrival window is a template and was not a routing rule in this run.",
+        "Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 7 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 1 minute (0.6 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Bi-Monthly Service from 10/10/2026 at 11:00 AM to 10/15/2026 at 8:00 AM with lam 1 (schedule lam 1). Day: 10/15/2026. The day plan grouped it with the 2 jobs of that day, next to Initial Service (1 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 8:00 AM, the start of the working day; it is the first job of the day. Its 2:51 AM–4:51 PM arrival window is a template and was not a routing rule in this run. Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 7 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 1 minute (0.6 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136708",
+      "item": {
+        "id": "101517",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1590",
+        "first_name": "HCM Customer 24",
+        "last_name": "",
+        "full_name": "HCM Customer 24 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1905",
+        "service_address": "500 Su Van Hanh Phuong 12, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 1,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-15T13:30:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-15T09:47:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/15/2026 at 1:30 PM to 10/15/2026 at 9:47 AM with lam 1 (schedule lam 1).",
+        "Day: unchanged (10/15/2026).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 9:47 AM = Bi-Monthly Service ends at 9:45 AM + 2 minutes of travel.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+        "The next job is about 1 minute (0.7 km) away."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/15/2026 at 1:30 PM to 10/15/2026 at 9:47 AM with lam 1 (schedule lam 1). Day: unchanged (10/15/2026). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 9:47 AM = Bi-Monthly Service ends at 9:45 AM + 2 minutes of travel. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician. The next job is about 1 minute (0.7 km) away.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    },
+    {
+      "id": "136709",
+      "item": {
+        "id": "101504",
+        "name": "Initial Service",
+        "type": "job"
+      },
+      "customer": {
+        "id": "1578",
+        "first_name": "HCM Customer 12",
+        "last_name": "",
+        "full_name": "HCM Customer 12 ",
+        "avatar": "HC"
+      },
+      "location": {
+        "id": "1893",
+        "service_address": "256 Ba Thang Hai Phuong 12, Thanh pho Ho Chi Minh, Ho Chi Minh 54401, Thanh pho Ho Chi Minh, Ho Chi Minh, 54401"
+      },
+      "status": 0,
+      "from": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-12T12:00:00+00:00"
+      },
+      "to": {
+        "schedules": [
+          {
+            "id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "is_primary": true
+          }
+        ],
+        "user": {
+          "id": "84361397",
+          "first_name": "lam",
+          "last_name": "1",
+          "full_name": "lam 1",
+          "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+          "type": 0
+        },
+        "start": "2026-10-15T10:49:00+00:00"
+      },
+      "reasons": [
+        "We moved Initial Service from 10/12/2026 at 12:00 PM to 10/15/2026 at 10:49 AM with lam 1 (schedule lam 1).",
+        "Day: 10/15/2026. The day plan grouped it with the 2 jobs of that day, next to Initial Service (1 min away).",
+        "Technician: unchanged (lam 1), the only technician the run could use for it.",
+        "Time: 10:49 AM = Initial Service ends at 10:47 AM + 2 minutes of travel.",
+        "Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 4 min.",
+        "Preferences taken into account: Optimization Priority (Most Jobs per Day).",
+        "We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician."
+      ],
+      "reason_codes": [
+        "routing_optimized"
+      ],
+      "message": "We moved Initial Service from 10/12/2026 at 12:00 PM to 10/15/2026 at 10:49 AM with lam 1 (schedule lam 1). Day: 10/15/2026. The day plan grouped it with the 2 jobs of that day, next to Initial Service (1 min away). Technician: unchanged (lam 1), the only technician the run could use for it. Time: 10:49 AM = Initial Service ends at 10:47 AM + 2 minutes of travel. Measured on the final routes after the run: this placement adds 1 min of driving; the original slot would add 4 min. Preferences taken into account: Optimization Priority (Most Jobs per Day). We compared 8 possible days (10/10/2026–10/17/2026) across 1 technician.",
+      "spilled_past_horizon": false,
+      "is_recurrence": false
+    }
+  ],
+  "success": true,
+  "message": []
+}

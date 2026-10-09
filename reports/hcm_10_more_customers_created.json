@@ -1,0 +1,122 @@
+[
+  {
+    "index": 21,
+    "name": "HCM Customer 21",
+    "customerId": "1587",
+    "accountNo": "5033",
+    "street": "100 Ham Nghi",
+    "district": "Quan 1",
+    "address": "100 Ham Nghi Ben Nghe, Thanh pho Ho Chi Minh, Ho Chi Minh 54401",
+    "lat": "10.7712",
+    "lng": "106.7025",
+    "tags": []
+  },
+  {
+    "index": 22,
+    "name": "HCM Customer 22",
+    "customerId": "1588",
+    "accountNo": "5034",
+    "street": "2 Pasteur",
+    "district": "Quan 1",
+    "address": "2 Pasteur Ben Nghe, Thanh pho Ho Chi Minh, Ho Chi Minh 54401",
+    "lat": "10.77",
+    "lng": "106.7042",
+    "tags": []
+  },
+  {
+    "index": 23,
+    "name": "HCM Customer 23",
+    "customerId": "1589",
+    "accountNo": "5035",
+    "street": "32 Tran Quoc Thao",
+    "district": "Quan 3",
+    "address": "32 Tran Quoc Thao Phuong 7, Thanh pho Ho Chi Minh, Ho Chi Minh 54401",
+    "lat": "10.7812",
+    "lng": "106.6881",
+    "tags": []
+  },
+  {
+    "index": 24,
+    "name": "HCM Customer 24",
+    "customerId": "1590",
+    "accountNo": "5036",
+    "street": "500 Su Van Hanh",
+    "district": "Quan 10",
+    "address": "500 Su Van Hanh Phuong 12, Thanh pho Ho Chi Minh, Ho Chi Minh 54401",
+    "lat": "10.775",
+    "lng": "106.6675",
+    "tags": []
+  },
+  {
+    "index": 25,
+    "name": "HCM Customer 25",
+    "customerId": "1591",
+    "accountNo": "5037",
+    "street": "150 Huynh Van Banh",
+    "district": "Phu Nhuan",
+    "address": "150 Huynh Van Banh Phuong 12, Thanh pho Ho Chi Minh, Ho Chi Minh 54401",
+    "lat": "10.7925",
+    "lng": "106.678",
+    "tags": []
+  },
+  {
+    "index": 26,
+    "name": "HCM Customer 26",
+    "customerId": "1592",
+    "accountNo": "5038",
+    "street": "200 Xo Viet Nghe Tinh",
+    "district": "Binh Thanh",
+    "address": "200 Xo Viet Nghe Tinh Phuong 21, Thanh pho Ho Chi Minh, Ho Chi Minh 54401",
+    "lat": "10.798",
+    "lng": "106.7115",
+    "tags": []
+  },
+  {
+    "index": 27,
+    "name": "HCM Customer 27",
+    "customerId": "1593",
+    "accountNo": "5039",
+    "street": "12 Pho Quang",
+    "district": "Tan Binh",
+    "address": "12 Pho Quang Phuong 2, Thanh pho Ho Chi Minh, Ho Chi Minh 54401",
+    "lat": "10.8065",
+    "lng": "106.666",
+    "tags": []
+  },
+  {
+    "index": 28,
+    "name": "HCM Customer 28",
+    "customerId": "1594",
+    "accountNo": "5040",
+    "street": "10 Nguyen Thi Thap",
+    "district": "Quan 7",
+    "address": "10 Nguyen Thi Thap Tan Hung, Thanh pho Ho Chi Minh, Ho Chi Minh 54401",
+    "lat": "10.741",
+    "lng": "106.7015",
+    "tags": []
+  },
+  {
+    "index": 29,
+    "name": "HCM Customer 29",
+    "customerId": "1595",
+    "accountNo": "5041",
+    "street": "50 Tran Nao",
+    "district": "Thu Duc",
+    "address": "50 Tran Nao An Khanh, Thanh pho Ho Chi Minh, Ho Chi Minh 54401",
+    "lat": "10.7985",
+    "lng": "106.735",
+    "tags": []
+  },
+  {
+    "index": 30,
+    "name": "HCM Customer 30",
+    "customerId": "1596",
+    "accountNo": "5042",
+    "street": "200 Tran Hung Dao",
+    "district": "Quan 5",
+    "address": "200 Tran Hung Dao Phuong 11, Thanh pho Ho Chi Minh, Ho Chi Minh 54401",
+    "lat": "10.753",
+    "lng": "106.665",
+    "tags": []
+  }
+]

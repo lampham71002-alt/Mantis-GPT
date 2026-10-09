@@ -1,0 +1,321 @@
+{
+  "data": {
+    "id": "1610",
+    "mode": "manual",
+    "status": 2,
+    "can_undo": true,
+    "jobs_count": 41,
+    "created_at": "2026-10-09T08:02:58+00:00",
+    "created_by": {
+      "id": "84361374",
+      "first_name": "lam",
+      "last_name": "qa",
+      "full_name": "lam qa",
+      "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg",
+      "type": 0
+    },
+    "item": {
+      "id": "",
+      "name": "Manual Optimize",
+      "type": "manual-optimize"
+    },
+    "optimization_id": "opt_sandbox_50adcf653d0b3977e36c2b2455c314b2",
+    "period": {
+      "start": "2026-10-10",
+      "end": "2026-10-17"
+    },
+    "stats": {
+      "time_ratio": {
+        "before": {
+          "total_minutes": 4356,
+          "distribution": {
+            "work_time": {
+              "minutes": 2505,
+              "percentage": 57
+            },
+            "drive_time": {
+              "minutes": 284,
+              "percentage": 7
+            },
+            "downtime": {
+              "minutes": 1567,
+              "percentage": 36
+            }
+          }
+        },
+        "optimized": {
+          "total_minutes": 2605,
+          "distribution": {
+            "work_time": {
+              "minutes": 2505,
+              "percentage": 96
+            },
+            "drive_time": {
+              "minutes": 91,
+              "percentage": 4
+            },
+            "downtime": {
+              "minutes": 9,
+              "percentage": 0
+            }
+          }
+        }
+      },
+      "distance": {
+        "before": {
+          "value": 146.01,
+          "type": "miles"
+        },
+        "optimized": {
+          "value": 40.19,
+          "type": "miles",
+          "savings_percentage": 72.5
+        }
+      },
+      "fuel": {
+        "before": {
+          "value": 7.31,
+          "type": "gallons"
+        },
+        "optimized": {
+          "value": 2.01,
+          "type": "gallons",
+          "savings_percentage": 72.5
+        }
+      },
+      "jobs_assigned": {
+        "before": {
+          "value": 41,
+          "type": "jobs"
+        },
+        "optimized": {
+          "value": 41,
+          "type": "jobs",
+          "savings_percentage": 0
+        }
+      },
+      "expected_payments": {
+        "before": {
+          "amount": 215
+        },
+        "optimized": {
+          "amount": 215,
+          "savings_percentage": 0
+        },
+        "currency": "USD"
+      }
+    },
+    "schedules": [
+      {
+        "id": "249",
+        "name": "lam 1",
+        "avatar": "https://d2e627ktfmb6xb.cloudfront.net/avatars%2Fstatic%2Favatar_1.jpg"
+      }
+    ],
+    "specific_rules": [],
+    "applied_rules": {
+      "custom": [],
+      "system": [
+        {
+          "id": "route_across_all_tech_schedules",
+          "type": "system",
+          "title": "Route Across All Tech Schedules",
+          "status": "active",
+          "setting": {
+            "value": null,
+            "status": 1
+          },
+          "category": "Routing Rules",
+          "dimensions": [],
+          "jobs_count": 41,
+          "description": "Jobs will be redistributed across technicians.",
+          "job_event_ids": [
+            101486,
+            101465,
+            100809,
+            100810,
+            100802,
+            101464,
+            43149,
+            101468,
+            101469,
+            101470,
+            101487,
+            101467,
+            100812,
+            100807,
+            101466,
+            100804,
+            101461,
+            101460,
+            101482,
+            101481,
+            101463,
+            101483,
+            101462,
+            101485,
+            101475,
+            101474,
+            101488,
+            101478,
+            101473,
+            101472,
+            101490,
+            101479,
+            101477,
+            43075,
+            100806,
+            40284,
+            101489,
+            101476,
+            27604,
+            101484,
+            101471
+          ]
+        },
+        {
+          "id": "default_service_hours",
+          "type": "system",
+          "title": "Default Service Hours",
+          "status": "active",
+          "setting": {
+            "value": {
+              "end": 1020,
+              "start": 480,
+              "system_default": 0
+            },
+            "status": 1
+          },
+          "category": "Workforce Boundaries",
+          "dimensions": [],
+          "jobs_count": 41,
+          "description": "Set service hours. Jobs will only be scheduled during these hours.",
+          "job_event_ids": [
+            101486,
+            101465,
+            100809,
+            100810,
+            100802,
+            101464,
+            43149,
+            101468,
+            101469,
+            101470,
+            101487,
+            101467,
+            100812,
+            100807,
+            101466,
+            100804,
+            101461,
+            101460,
+            101482,
+            101481,
+            101463,
+            101483,
+            101462,
+            101485,
+            101475,
+            101474,
+            101488,
+            101478,
+            101473,
+            101472,
+            101490,
+            101479,
+            101477,
+            43075,
+            100806,
+            40284,
+            101489,
+            101476,
+            27604,
+            101484,
+            101471
+          ]
+        },
+        {
+          "id": "routing_algorithm",
+          "type": "system",
+          "title": "Optimization Priority",
+          "status": "active",
+          "setting": {
+            "value": 1,
+            "status": 1
+          },
+          "category": "Route Efficiency",
+          "dimensions": [],
+          "jobs_count": 41,
+          "description": "The routing strategy of the run: the most jobs per day, or the best drive balance between technicians.",
+          "job_event_ids": [
+            101486,
+            101465,
+            100809,
+            100810,
+            100802,
+            101464,
+            43149,
+            101468,
+            101469,
+            101470,
+            101487,
+            101467,
+            100812,
+            100807,
+            101466,
+            100804,
+            101461,
+            101460,
+            101482,
+            101481,
+            101463,
+            101483,
+            101462,
+            101485,
+            101475,
+            101474,
+            101488,
+            101478,
+            101473,
+            101472,
+            101490,
+            101479,
+            101477,
+            43075,
+            100806,
+            40284,
+            101489,
+            101476,
+            27604,
+            101484,
+            101471
+          ]
+        }
+      ],
+      "specific": []
+    },
+    "fuel_price": {
+      "value": 4.81,
+      "as_of": "2026-09-28T00:00:00+00:00",
+      "source": "static",
+      "currency": "USD"
+    },
+    "drive_time_price": {
+      "value": 0.5,
+      "unit": "minute",
+      "as_of": "2026-08-08T00:00:00+00:00",
+      "source": "static",
+      "currency": "USD"
+    },
+    "fuel_consumption": {
+      "value": 0.05,
+      "unit": "gallon_per_mile",
+      "mpg": 20,
+      "decimals": 2,
+      "as_of": "2026-10-02T00:00:00+00:00",
+      "source": "static"
+    }
+  },
+  "success": true,
+  "message": []
+}

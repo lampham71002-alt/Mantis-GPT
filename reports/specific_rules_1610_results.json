@@ -1,0 +1,114 @@
+[
+  {
+    "id": "TC-SR-01",
+    "title": "TC-SR-01: Boundary Isolation (HCM Customer trong Log 1610 vs ngoài Log)",
+    "ruleId": "1822",
+    "historyId": "1610",
+    "verdict": "PASS",
+    "note": "Job HCM Customer 26 trong Log 1610 chịu tác động chính xác: ĐẠT (1 jobs) | Boundary Isolation bảo toàn"
+  },
+  {
+    "id": "TC-SR-02",
+    "title": "TC-SR-02: Sub-set Filtering within Log 1610 (HCM Customer 06 Initial Service Last Stop)",
+    "ruleId": "1824",
+    "historyId": "1610",
+    "verdict": "PASS",
+    "note": "Lọc chính xác tập con HCM Customer 06 Initial Service về Last Stop: ĐẠT (1 job)"
+  },
+  {
+    "id": "TC-SR-03",
+    "title": "TC-SR-03: Strict Time Window (HCM Customer 05 Morning Window 08:00 - 11:00)",
+    "ruleId": "1825",
+    "historyId": "1610",
+    "verdict": "PASS",
+    "note": "Strict Time Window cho HCM Customer 05 trong khung 08:00 - 11:00: ĐẠT"
+  },
+  {
+    "id": "TC-SR-04",
+    "title": "TC-SR-04: Force Tech lam 1 & Dual-Schedule Verification",
+    "ruleId": "1826",
+    "historyId": "1610",
+    "verdict": "PASS",
+    "note": "Ép KTV lam 1 thành công cho HCM Customer 09: ĐẠT"
+  },
+  {
+    "id": "TC-SR-05",
+    "title": "TC-SR-05: Prefer Tech lam 1 for HCM Customer 10",
+    "ruleId": "1827",
+    "historyId": "1610",
+    "verdict": "PASS",
+    "note": "Ưu tiên gán KTV lam 1 theo công suất tải: ĐẠT"
+  },
+  {
+    "id": "TC-SR-06",
+    "title": "TC-SR-06: Lock HCM Customer 11 in Place (Route Around)",
+    "ruleId": "1828",
+    "historyId": "1610",
+    "verdict": "PASS",
+    "note": "Khóa cứng vị trí HCM Customer 11, Route Around bảo toàn slot: ĐẠT"
+  },
+  {
+    "id": "TC-SR-07",
+    "title": "TC-SR-07: Exclude HCM Customer 26 from Routing",
+    "ruleId": "1829",
+    "historyId": "1610",
+    "verdict": "PASS",
+    "note": "Exclude HCM Customer 26: Giữ nguyên ngày gốc và cho phép tối ưu đè slot: ĐẠT"
+  },
+  {
+    "id": "TC-SR-08",
+    "title": "TC-SR-08: Composite Action (Force Tech lam 1 + First Stop)",
+    "ruleId": "1830",
+    "historyId": "1610",
+    "verdict": "PASS",
+    "note": "Kết hợp Force Tech lam 1 + First Stop cho HCM Customer 06: ĐẠT"
+  },
+  {
+    "id": "TC-SR-09",
+    "title": "TC-SR-09: Composite Action (Afternoon Window + Last Stop)",
+    "ruleId": "1831",
+    "historyId": "1610",
+    "verdict": "PASS",
+    "note": "Kết hợp Khung giờ chiều 13:00 - 17:00 + Last Stop: ĐẠT"
+  },
+  {
+    "id": "TC-SR-10",
+    "title": "TC-SR-10: Composite Filter (Multiple Customers in Log 1610)",
+    "ruleId": "1832",
+    "historyId": "1610",
+    "verdict": "PASS",
+    "note": "Composite filter trên nhiều khách hàng trong Log 1610: ĐẠT"
+  },
+  {
+    "id": "TC-SR-11",
+    "title": "TC-SR-11: Precedence Conflict: Specific vs Custom (Last vs First)",
+    "ruleId": "1833",
+    "historyId": "1610",
+    "verdict": "PASS",
+    "note": "Specific Rule THẮNG Custom Rule (Last Stop thắng First Stop): ĐẠT"
+  },
+  {
+    "id": "TC-SR-12",
+    "title": "TC-SR-12: Precedence Conflict: Specific Force vs Custom Force",
+    "ruleId": "1834",
+    "historyId": "1610",
+    "verdict": "PASS",
+    "note": "Specific Force THẮNG Custom Force (Gán đúng KTV lam 1 theo Specific Rule): ĐẠT"
+  },
+  {
+    "id": "TC-SR-13",
+    "title": "TC-SR-13: Primitive Precedence Conflict (Specific Exclude vs Custom Force)",
+    "ruleId": "1835",
+    "historyId": "1610",
+    "verdict": "PASS",
+    "note": "Exclude THẮNG Force Tech (Giữ nguyên vị trí gốc, không bị cưỡng ép KTV): ĐẠT"
+  },
+  {
+    "id": "TC-SR-14",
+    "title": "TC-SR-14: Solver Overload & Fallback Day Handling",
+    "ruleId": "1836",
+    "historyId": "1610",
+    "verdict": "PASS",
+    "note": "Solver tự động phân rải hoặc đưa ra Fallback Day khi quá tải khung giờ: HỢP LỆ (PASS)"
+  }
+]
