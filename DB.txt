@@ -1,0 +1,179 @@
+What is the Dashboard?
+The Dashboard is your performance overview for Mantis AI. It answers questions like:
+
+Are we driving less than before?
+
+How much time are technicians waiting between jobs?
+
+How much money or fuel did routing save us?
+
+Which jobs could not be routed?
+
+Most widgets use a date filter (start date, end date, optional technicians). You can compare the selected period to the same period one year ago — shown as growth % (green = better, red = worse, depending on the metric).
+
+Where the numbers come from
+Savings widgets (Saved Mileage, Saved Drive Time, Total Saved) update when you Accept an optimized route. Operational widgets (Time Ratio, Completed Jobs, Downtime, Delays, Revenue) are updated by a background recompute process that runs periodically — not only from Accept.
+
+Time Ratio, Downtime, Delays, and Completed Jobs reflect actual schedule data recomputed daily — they update even without a new Accept, as jobs are completed or schedules change.
+
+The floating Summary widget (top of Mantis) shows all-time totals and never resets.
+
+Some widgets (Completed Jobs, Revenue) need data from completed work and billing — they fill in as those events happen, not only from Accept.
+
+Unroutable Jobs and Events / History come from the system activity log, not just Accept.
+
+Each Dashboard widget — what it tells you
+1. Summary widget (floating card)
+Question it answers: “How is Auto-Pilot doing overall, and how much have we saved in total?”
+
+Shows
+
+Meaning
+
+Auto-Pilot ON/OFF
+
+Whether automatic routing is currently running
+
+Run time
+
+How long Auto-Pilot has been active (cumulative)
+
+Saved drive time
+
+Total minutes of driving saved since you started using Mantis
+
+Saved distance
+
+Total miles saved (lifetime)
+
+Saved fuel
+
+Estimated total gallons saved (lifetime) — based on routing optimization calculations, not actual fuel measurements.
+
+Total saved ($)
+
+Estimated dollar value of those savings (lifetime)
+
+No date filter — this is always your running total.
+
+2. Time Ratio
+Question it answers: “How is each technician’s day split between working, driving, and waiting?”
+
+Shows a pie-style breakdown:
+
+Work time — doing jobs
+
+Drive time — on the road
+
+Downtime — waiting between jobs
+
+Example: 60% work, 25% drive, 15% downtime → you can see if too much of the day is travel or idle time.
+
+3. Saved Mileage
+Question it answers: “How many miles did routing save us in this period?”
+
+Shows total miles saved and % change vs last year.
+
+4. Completed Jobs (average per day)
+Question it answers: “How many jobs do we finish per day on average?”
+
+Based on completed jobs (finished work), not preview or assigned jobs. Useful for workload trends.
+
+5. Saved Drive Time
+Question it answers: “How many minutes of driving did we cut in this period?”
+
+Comes from accepted optimizations — less driving means more time for jobs.
+
+6. Downtime
+Question it answers: “How much waiting time do technicians have between jobs?”
+
+High downtime may mean gaps in the schedule or routes that arrive too early. Lower is usually better for productivity.
+
+7. Delays
+Question it answers: “How often do we arrive late compared to the scheduled start time?”
+
+Counts jobs where the technician would arrive after the planned start — not how long the job takes.
+
+8. Total Revenue
+Question it answers: “How much revenue did we bring in over time?”
+
+Line chart by day. Tied to billing/completed work, not directly from the optimize preview.
+
+9. Total Saved
+Question it answers: “What is the dollar value of routing savings in this period?”
+
+Combines saved drive time and fuel into an estimated $ amount: (fuel gallons saved × $3.50/gal) + (drive minutes saved × $0.50/min). Line chart by day plus period total.
+
+10. Unroutable Jobs
+Question it answers: “Which jobs could Mantis not route, and why?”
+
+A list of problem jobs (missing address, rule conflict, etc.) that need your attention. These are not the same as “unassigned” in a preview — they are ongoing issues logged by the system.
+
+11. Events / History
+Question it answers: “What did Mantis do recently, and what did each run save?”
+
+A log of routing actions (manual optimize accept, Auto-Pilot runs, etc.) with who did it, when, and savings for that action.
+
+How Route Optimizer updates the Dashboard
+When you optimize and accept a route, savings flow into the Dashboard like this:
+
+
+
+You optimize (preview)
+    → Review Before / After
+    → Accept
+        → Live jobs move
+        → Dashboard updates (saved miles, drive time, downtime, delays…)
+        → Summary widget adds to lifetime totals
+        → Events / History records the action
+Simple example
+Monday: You optimize Chris’s route for Wed–Fri. After shows 45 minutes less driving.
+
+You accept all checked jobs.
+
+Chris’s calendar updates for real.
+
+Dashboard for Wed–Fri shows higher "Saved Drive Time." Time Ratio updates independently as the background recompute runs for those days.
+
+The floating Summary card adds 45 minutes to lifetime saved drive time.
+
+Events shows your accept with the savings from that run.
+
+Partial accept: If you only accept some jobs, the Dashboard only counts savings for those jobs — not the whole day.
+
+Quick reference — words you will see
+Term
+
+Simple meaning
+
+Widget
+
+One chart or card on the Dashboard
+
+Growth %
+
+Change vs same dates one year ago
+
+Saved drive time / mileage / fuel
+
+Improvement from routing vs the original schedule
+
+Drive time
+
+Time driving between stops
+
+Downtime
+
+Waiting between stops (after arriving, before next job)
+
+Delay
+
+Arriving later than the job’s scheduled start time
+
+Unroutable
+
+Job the system could not include in routing (needs fix)
+
+Events / History
+
+Log of routing actions and their savings

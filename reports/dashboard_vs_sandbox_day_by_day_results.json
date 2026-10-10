@@ -1,0 +1,679 @@
+[
+  {
+    "date": "2026-10-11",
+    "calendarCount": 9,
+    "sandboxCount": 7,
+    "sandboxJobsSummary": [
+      {
+        "jobId": "101522",
+        "customer": "HCM Customer 29",
+        "start": "2026-10-11T08:00:00+00:00",
+        "end": "2026-10-11T09:00:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101509",
+        "customer": "HCM Customer 17",
+        "start": "2026-10-11T09:04:00+00:00",
+        "end": "2026-10-11T10:04:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "100843",
+        "customer": "test qa",
+        "start": "2026-10-11T10:08:00+00:00",
+        "end": "2026-10-11T11:08:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "100842",
+        "customer": "qa 1",
+        "start": "2026-10-11T11:08:00+00:00",
+        "end": "2026-10-11T12:08:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "100835",
+        "customer": "176",
+        "start": "2026-10-11T12:09:00+00:00",
+        "end": "2026-10-11T13:09:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "43094",
+        "customer": "test pool",
+        "start": "2026-10-11T13:16:00+00:00",
+        "end": "2026-10-11T14:16:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101510",
+        "customer": "HCM Customer 18",
+        "start": "2026-10-11T14:25:00+00:00",
+        "end": "2026-10-11T15:25:00+00:00",
+        "length": 60
+      }
+    ],
+    "sandboxCalculations": {
+      "totalWorkMinutes": 420,
+      "totalDowntimeMinutes": 25
+    },
+    "dashboardStats": {
+      "timeRatio": {
+        "total_minutes": 533,
+        "work_time": {
+          "percent": 96,
+          "minutes": 510
+        },
+        "drive_time": {
+          "percent": 4,
+          "minutes": 21
+        },
+        "downtime": {
+          "percent": 0,
+          "minutes": 2
+        }
+      },
+      "savedMileage": {
+        "total_miles": 3.29,
+        "growth_percent": 100
+      },
+      "savedDriveTime": {
+        "total_minutes": 5,
+        "growth_percent": 100
+      },
+      "completedJobs": {
+        "avg_jobs_per_day": 0,
+        "growth_percent": 0
+      },
+      "downtime": {
+        "total_minutes": 2,
+        "growth_percent": 100
+      },
+      "delays": {
+        "total_delays": 0,
+        "growth_percent": 0
+      },
+      "totalSaved": {
+        "total_saved": 3.32,
+        "day_amount": 3.3200000000000003,
+        "chartData": [
+          {
+            "date": "2026-10-11",
+            "amount": 3.3200000000000003
+          }
+        ]
+      },
+      "errorsCount": 0
+    },
+    "verdict": {
+      "workTimeMatch": false,
+      "jobsCountMatch": true,
+      "delaysOk": true,
+      "singleDayIsolated": true
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "calendarCount": 8,
+    "sandboxCount": 9,
+    "sandboxJobsSummary": [
+      {
+        "jobId": "101520",
+        "customer": "HCM Customer 27",
+        "start": "2026-10-12T08:00:00+00:00",
+        "end": "2026-10-12T09:00:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101503",
+        "customer": "HCM Customer 11",
+        "start": "2026-10-12T09:04:00+00:00",
+        "end": "2026-10-12T10:04:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101502",
+        "customer": "HCM Customer 10",
+        "start": "2026-10-12T10:08:00+00:00",
+        "end": "2026-10-12T11:08:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101518",
+        "customer": "HCM Customer 25",
+        "start": "2026-10-12T11:12:00+00:00",
+        "end": "2026-10-12T12:12:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101500",
+        "customer": "HCM Customer 08",
+        "start": "2026-10-12T12:17:00+00:00",
+        "end": "2026-10-12T13:17:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "100845",
+        "customer": "test 1",
+        "start": "2026-10-12T13:17:00+00:00",
+        "end": "2026-10-12T14:17:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "100840",
+        "customer": "lam minh",
+        "start": "2026-10-12T14:17:00+00:00",
+        "end": "2026-10-12T15:17:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101499",
+        "customer": "HCM Customer 07",
+        "start": "2026-10-12T15:19:00+00:00",
+        "end": "2026-10-12T16:19:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "100837",
+        "customer": "test move",
+        "start": "2026-10-12T16:23:00+00:00",
+        "end": "2026-10-12T16:53:00+00:00",
+        "length": 30
+      }
+    ],
+    "sandboxCalculations": {
+      "totalWorkMinutes": 510,
+      "totalDowntimeMinutes": 23
+    },
+    "dashboardStats": {
+      "timeRatio": {
+        "total_minutes": 499,
+        "work_time": {
+          "percent": 96,
+          "minutes": 480
+        },
+        "drive_time": {
+          "percent": 4,
+          "minutes": 17
+        },
+        "downtime": {
+          "percent": 0,
+          "minutes": 2
+        }
+      },
+      "savedMileage": {
+        "total_miles": 4.73,
+        "growth_percent": 100
+      },
+      "savedDriveTime": {
+        "total_minutes": 6,
+        "growth_percent": 100
+      },
+      "completedJobs": {
+        "avg_jobs_per_day": 0,
+        "growth_percent": 0
+      },
+      "downtime": {
+        "total_minutes": 2,
+        "growth_percent": 100
+      },
+      "delays": {
+        "total_delays": 0,
+        "growth_percent": 0
+      },
+      "totalSaved": {
+        "total_saved": 4.16,
+        "day_amount": 4.16,
+        "chartData": [
+          {
+            "date": "2026-10-12",
+            "amount": 4.16
+          }
+        ]
+      },
+      "errorsCount": 0
+    },
+    "verdict": {
+      "workTimeMatch": true,
+      "jobsCountMatch": true,
+      "delaysOk": true,
+      "singleDayIsolated": true
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "calendarCount": 8,
+    "sandboxCount": 9,
+    "sandboxJobsSummary": [
+      {
+        "jobId": "101496",
+        "customer": "HCM Customer 04",
+        "start": "2026-10-13T08:00:00+00:00",
+        "end": "2026-10-13T09:00:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101516",
+        "customer": "HCM Customer 23",
+        "start": "2026-10-13T09:02:00+00:00",
+        "end": "2026-10-13T10:02:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101495",
+        "customer": "HCM Customer 03",
+        "start": "2026-10-13T10:04:00+00:00",
+        "end": "2026-10-13T11:04:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101501",
+        "customer": "HCM Customer 09",
+        "start": "2026-10-13T11:07:00+00:00",
+        "end": "2026-10-13T12:07:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101519",
+        "customer": "HCM Customer 26",
+        "start": "2026-10-13T12:12:00+00:00",
+        "end": "2026-10-13T13:12:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101498",
+        "customer": "HCM Customer 06",
+        "start": "2026-10-13T13:14:00+00:00",
+        "end": "2026-10-13T14:14:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101497",
+        "customer": "HCM Customer 05",
+        "start": "2026-10-13T14:17:00+00:00",
+        "end": "2026-10-13T15:17:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "100839",
+        "customer": "Specific test",
+        "start": "2026-10-13T15:19:00+00:00",
+        "end": "2026-10-13T16:19:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "40285",
+        "customer": "Specific test",
+        "start": "2026-10-13T16:19:00+00:00",
+        "end": "2026-10-13T16:49:00+00:00",
+        "length": 30
+      }
+    ],
+    "sandboxCalculations": {
+      "totalWorkMinutes": 510,
+      "totalDowntimeMinutes": 19
+    },
+    "dashboardStats": {
+      "timeRatio": {
+        "total_minutes": 502,
+        "work_time": {
+          "percent": 96,
+          "minutes": 480
+        },
+        "drive_time": {
+          "percent": 4,
+          "minutes": 19
+        },
+        "downtime": {
+          "percent": 0,
+          "minutes": 3
+        }
+      },
+      "savedMileage": {
+        "total_miles": 5.91,
+        "growth_percent": 100
+      },
+      "savedDriveTime": {
+        "total_minutes": 11,
+        "growth_percent": 100
+      },
+      "completedJobs": {
+        "avg_jobs_per_day": 0,
+        "growth_percent": 0
+      },
+      "downtime": {
+        "total_minutes": 3,
+        "growth_percent": 100
+      },
+      "delays": {
+        "total_delays": 0,
+        "growth_percent": 0
+      },
+      "totalSaved": {
+        "total_saved": 6.94,
+        "day_amount": 6.9399999999999995,
+        "chartData": [
+          {
+            "date": "2026-10-13",
+            "amount": 6.9399999999999995
+          }
+        ]
+      },
+      "errorsCount": 0
+    },
+    "verdict": {
+      "workTimeMatch": true,
+      "jobsCountMatch": true,
+      "delaysOk": true,
+      "singleDayIsolated": true
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "calendarCount": 8,
+    "sandboxCount": 7,
+    "sandboxJobsSummary": [
+      {
+        "jobId": "101512",
+        "customer": "HCM Customer 20",
+        "start": "2026-10-14T08:00:00+00:00",
+        "end": "2026-10-14T08:45:00+00:00",
+        "length": 45
+      },
+      {
+        "jobId": "27604",
+        "customer": "location",
+        "start": "2026-10-14T08:48:00+00:00",
+        "end": "2026-10-14T10:33:00+00:00",
+        "length": 105
+      },
+      {
+        "jobId": "101517",
+        "customer": "HCM Customer 24",
+        "start": "2026-10-14T10:35:00+00:00",
+        "end": "2026-10-14T11:35:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101504",
+        "customer": "HCM Customer 12",
+        "start": "2026-10-14T11:37:00+00:00",
+        "end": "2026-10-14T12:37:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101505",
+        "customer": "HCM Customer 13",
+        "start": "2026-10-14T12:41:00+00:00",
+        "end": "2026-10-14T13:41:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101506",
+        "customer": "HCM Customer 14",
+        "start": "2026-10-14T13:43:00+00:00",
+        "end": "2026-10-14T14:43:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101523",
+        "customer": "HCM Customer 30",
+        "start": "2026-10-14T14:46:00+00:00",
+        "end": "2026-10-14T15:46:00+00:00",
+        "length": 60
+      }
+    ],
+    "sandboxCalculations": {
+      "totalWorkMinutes": 450,
+      "totalDowntimeMinutes": 16
+    },
+    "dashboardStats": {
+      "timeRatio": {
+        "total_minutes": 0,
+        "work_time": {
+          "percent": 0,
+          "minutes": 0
+        },
+        "drive_time": {
+          "percent": 0,
+          "minutes": 0
+        },
+        "downtime": {
+          "percent": 0,
+          "minutes": 0
+        }
+      },
+      "savedMileage": {
+        "total_miles": 15.85,
+        "growth_percent": 100
+      },
+      "savedDriveTime": {
+        "total_minutes": 30,
+        "growth_percent": 100
+      },
+      "completedJobs": {
+        "avg_jobs_per_day": 0,
+        "growth_percent": 0
+      },
+      "downtime": {
+        "total_minutes": 0,
+        "growth_percent": 0
+      },
+      "delays": {
+        "total_delays": 0,
+        "growth_percent": 0
+      },
+      "totalSaved": {
+        "total_saved": 18.8,
+        "day_amount": 18.8,
+        "chartData": [
+          {
+            "date": "2026-10-14",
+            "amount": 18.8
+          }
+        ]
+      },
+      "errorsCount": 0
+    },
+    "verdict": {
+      "workTimeMatch": false,
+      "jobsCountMatch": true,
+      "delaysOk": true,
+      "singleDayIsolated": true
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "calendarCount": 1,
+    "sandboxCount": 8,
+    "sandboxJobsSummary": [
+      {
+        "jobId": "101508",
+        "customer": "HCM Customer 16",
+        "start": "2026-10-15T08:00:00+00:00",
+        "end": "2026-10-15T09:00:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101507",
+        "customer": "HCM Customer 15",
+        "start": "2026-10-15T09:03:00+00:00",
+        "end": "2026-10-15T10:03:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101521",
+        "customer": "HCM Customer 28",
+        "start": "2026-10-15T10:06:00+00:00",
+        "end": "2026-10-15T11:06:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101511",
+        "customer": "HCM Customer 19",
+        "start": "2026-10-15T11:11:00+00:00",
+        "end": "2026-10-15T12:11:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101515",
+        "customer": "HCM Customer 22",
+        "start": "2026-10-15T12:14:00+00:00",
+        "end": "2026-10-15T13:14:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101514",
+        "customer": "HCM Customer 21",
+        "start": "2026-10-15T13:15:00+00:00",
+        "end": "2026-10-15T14:15:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101493",
+        "customer": "HCM Customer 01",
+        "start": "2026-10-15T14:16:00+00:00",
+        "end": "2026-10-15T15:16:00+00:00",
+        "length": 60
+      },
+      {
+        "jobId": "101494",
+        "customer": "HCM Customer 02",
+        "start": "2026-10-15T15:19:00+00:00",
+        "end": "2026-10-15T16:19:00+00:00",
+        "length": 60
+      }
+    ],
+    "sandboxCalculations": {
+      "totalWorkMinutes": 480,
+      "totalDowntimeMinutes": 19
+    },
+    "dashboardStats": {
+      "timeRatio": {
+        "total_minutes": 0,
+        "work_time": {
+          "percent": 0,
+          "minutes": 0
+        },
+        "drive_time": {
+          "percent": 0,
+          "minutes": 0
+        },
+        "downtime": {
+          "percent": 0,
+          "minutes": 0
+        }
+      },
+      "savedMileage": {
+        "total_miles": 20.89,
+        "growth_percent": 100
+      },
+      "savedDriveTime": {
+        "total_minutes": 43,
+        "growth_percent": 100
+      },
+      "completedJobs": {
+        "avg_jobs_per_day": 0,
+        "growth_percent": 0
+      },
+      "downtime": {
+        "total_minutes": 0,
+        "growth_percent": 0
+      },
+      "delays": {
+        "total_delays": 0,
+        "growth_percent": 0
+      },
+      "totalSaved": {
+        "total_saved": 26.5,
+        "day_amount": 26.5,
+        "chartData": [
+          {
+            "date": "2026-10-15",
+            "amount": 26.5
+          }
+        ]
+      },
+      "errorsCount": 0
+    },
+    "verdict": {
+      "workTimeMatch": false,
+      "jobsCountMatch": true,
+      "delaysOk": true,
+      "singleDayIsolated": true
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "calendarCount": 7,
+    "sandboxCount": 1,
+    "sandboxJobsSummary": [
+      {
+        "jobId": "43172",
+        "customer": "Qa custom",
+        "start": "2026-10-16T11:09:00+00:00",
+        "end": "2026-10-16T12:39:00+00:00",
+        "length": 90
+      }
+    ],
+    "sandboxCalculations": {
+      "totalWorkMinutes": 90,
+      "totalDowntimeMinutes": 0
+    },
+    "dashboardStats": {
+      "timeRatio": {
+        "total_minutes": 0,
+        "work_time": {
+          "percent": 0,
+          "minutes": 0
+        },
+        "drive_time": {
+          "percent": 0,
+          "minutes": 0
+        },
+        "downtime": {
+          "percent": 0,
+          "minutes": 0
+        }
+      },
+      "savedMileage": {
+        "total_miles": 25.71,
+        "growth_percent": 100
+      },
+      "savedDriveTime": {
+        "total_minutes": 52,
+        "growth_percent": 100
+      },
+      "completedJobs": {
+        "avg_jobs_per_day": 0,
+        "growth_percent": 0
+      },
+      "downtime": {
+        "total_minutes": 0,
+        "growth_percent": 0
+      },
+      "delays": {
+        "total_delays": 0,
+        "growth_percent": 0
+      },
+      "totalSaved": {
+        "total_saved": 32.2,
+        "day_amount": 32.2,
+        "chartData": [
+          {
+            "date": "2026-10-16",
+            "amount": 32.2
+          }
+        ]
+      },
+      "errorsCount": 0
+    },
+    "verdict": {
+      "workTimeMatch": false,
+      "jobsCountMatch": true,
+      "delaysOk": true,
+      "singleDayIsolated": true
+    }
+  }
+]
