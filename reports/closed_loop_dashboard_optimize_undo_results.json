@@ -1,0 +1,1405 @@
+[
+  {
+    "caseId": "TC-DB-01",
+    "level": "1 Ngày (Đơn lẻ)",
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-12",
+    "description": "Optimize 1 ngày 12/10/2026 -> Accept -> Check Dashboard 12/10 -> Activity Feed Undo",
+    "step1_dashboardBefore": {
+      "work_time_min": 420,
+      "drive_time_min": 46,
+      "downtime_min": 1,
+      "saved_mileage": -4.93,
+      "saved_drive_time": -13,
+      "total_saved_usd": -7.47,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-12",
+          "amount": -7.470000000000001
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "step2_beforeOptimize": {
+      "jobs_assigned": 7,
+      "work_time_min": 360,
+      "drive_time_min": 64,
+      "downtime_min": 64,
+      "distance_mi": 34.82,
+      "fuel_gal": 1.74,
+      "delays": 4,
+      "cost_usd": 7.58
+    },
+    "step3_afterOptimize": {
+      "jobs_assigned": 6,
+      "work_time_min": 360,
+      "drive_time_min": 64,
+      "downtime_min": 2,
+      "distance_mi": 32.33,
+      "fuel_gal": 1.62,
+      "delays": 0,
+      "cost_usd": 7.05
+    },
+    "step3_savedDelta": {
+      "drive_time_min": 0,
+      "distance_mi": 2.49,
+      "downtime_min": 62,
+      "fuel_gal": 0.12,
+      "delays_reduced": 4,
+      "stream_saved_usd": 0.52,
+      "formula_dashboard_usd": 0.42
+    },
+    "step3_dailyBreakdown": [
+      {
+        "day": "2026-10-12",
+        "jobsBefore": 7,
+        "jobsAfter": 6,
+        "driveBefore": 64,
+        "driveAfter": 64,
+        "driveSaved": 0,
+        "distBefore": 34.82,
+        "distAfter": 32.33,
+        "distSaved": 2.49
+      }
+    ],
+    "step4_acceptInfo": {
+      "optimizationId": "opt_sandbox_c7529123a0f79f2dc842914ca9d49908",
+      "appliedJobs": 6,
+      "historyId": 1854
+    },
+    "step4_dashboardAfterAccept": {
+      "work_time_min": 360,
+      "drive_time_min": 64,
+      "downtime_min": 2,
+      "saved_mileage": -2.44,
+      "saved_drive_time": -13,
+      "total_saved_usd": -6.95,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-12",
+          "amount": -6.950000000000001
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "step4_dashboardDeltaOnAccept": {
+      "saved_mileage_diff": 2.49,
+      "saved_drive_time_diff": 0,
+      "total_saved_usd_diff": 0.52
+    },
+    "step5_undoInfo": {
+      "firstHistoryId": "1854",
+      "firstHistoryMode": "manual",
+      "firstHistoryStats": {
+        "saved_drive_time": {
+          "value": 0,
+          "type": "minutes"
+        },
+        "saved_distance": {
+          "value": 2.49,
+          "type": "miles"
+        },
+        "saved_fuel": {
+          "value": 0.12,
+          "type": "gallons"
+        }
+      },
+      "undoResponse": {
+        "data": {
+          "skipped": []
+        },
+        "success": true,
+        "message": []
+      },
+      "statusAfterUndo": 3
+    },
+    "step5_dashboardAfterUndo": {
+      "work_time_min": 420,
+      "drive_time_min": 46,
+      "downtime_min": 1,
+      "saved_mileage": -4.93,
+      "saved_drive_time": -13,
+      "total_saved_usd": -7.47,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-12",
+          "amount": -7.470000000000001
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "verdict": {
+      "hasOptimizationDelta": true,
+      "historyRecordedMatch": true,
+      "historyStatsMatchOptimize": true,
+      "dashboardUpdatedOnAccept": true,
+      "dashboardDeltaMatchesOptimize": true,
+      "undoRestoredSuccessfully": true
+    }
+  },
+  {
+    "caseId": "TC-DB-02",
+    "level": "1 Ngày (Rải giờ)",
+    "startDate": "2026-10-15",
+    "endDate": "2026-10-15",
+    "description": "Optimize 1 ngày rải giờ 15/10/2026 -> Accept -> Check Dashboard 15/10 -> Activity Feed Undo",
+    "step1_dashboardBefore": {
+      "work_time_min": 450,
+      "drive_time_min": 17,
+      "downtime_min": 4,
+      "saved_mileage": 24.47,
+      "saved_drive_time": 51,
+      "total_saved_usd": 26.28,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-15",
+          "amount": 26.28
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "step2_beforeOptimize": {
+      "jobs_assigned": 7,
+      "work_time_min": 435,
+      "drive_time_min": 34,
+      "downtime_min": 13,
+      "distance_mi": 16.05,
+      "fuel_gal": 0.8,
+      "delays": 0,
+      "cost_usd": 3.48
+    },
+    "step3_afterOptimize": {
+      "jobs_assigned": 7,
+      "work_time_min": 435,
+      "drive_time_min": 30,
+      "downtime_min": 4,
+      "distance_mi": 14.19,
+      "fuel_gal": 0.71,
+      "delays": 0,
+      "cost_usd": 3.09
+    },
+    "step3_savedDelta": {
+      "drive_time_min": 4,
+      "distance_mi": 1.86,
+      "downtime_min": 9,
+      "fuel_gal": 0.09,
+      "delays_reduced": 0,
+      "stream_saved_usd": 0.39,
+      "formula_dashboard_usd": 2.31
+    },
+    "step3_dailyBreakdown": [
+      {
+        "day": "2026-10-15",
+        "jobsBefore": 7,
+        "jobsAfter": 7,
+        "driveBefore": 34,
+        "driveAfter": 30,
+        "driveSaved": 4,
+        "distBefore": 16.05,
+        "distAfter": 14.19,
+        "distSaved": 1.86
+      }
+    ],
+    "step4_acceptInfo": {
+      "optimizationId": "opt_sandbox_fd6882cecaf5b6895555acea0bf10114",
+      "appliedJobs": 7,
+      "historyId": 1855
+    },
+    "step4_dashboardAfterAccept": {
+      "work_time_min": 435,
+      "drive_time_min": 30,
+      "downtime_min": 4,
+      "saved_mileage": 26.33,
+      "saved_drive_time": 55,
+      "total_saved_usd": 26.67,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-15",
+          "amount": 26.67
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "step4_dashboardDeltaOnAccept": {
+      "saved_mileage_diff": 1.86,
+      "saved_drive_time_diff": 4,
+      "total_saved_usd_diff": 0.39
+    },
+    "step5_undoInfo": {
+      "firstHistoryId": "1855",
+      "firstHistoryMode": "manual",
+      "firstHistoryStats": {
+        "saved_drive_time": {
+          "value": 4,
+          "type": "minutes"
+        },
+        "saved_distance": {
+          "value": 1.86,
+          "type": "miles"
+        },
+        "saved_fuel": {
+          "value": 0.09,
+          "type": "gallons"
+        }
+      },
+      "undoResponse": {
+        "data": {
+          "skipped": []
+        },
+        "success": true,
+        "message": []
+      },
+      "statusAfterUndo": 3
+    },
+    "step5_dashboardAfterUndo": {
+      "work_time_min": 450,
+      "drive_time_min": 17,
+      "downtime_min": 4,
+      "saved_mileage": 24.47,
+      "saved_drive_time": 51,
+      "total_saved_usd": 26.28,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-15",
+          "amount": 26.28
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "verdict": {
+      "hasOptimizationDelta": true,
+      "historyRecordedMatch": true,
+      "historyStatsMatchOptimize": true,
+      "dashboardUpdatedOnAccept": true,
+      "dashboardDeltaMatchesOptimize": true,
+      "undoRestoredSuccessfully": true
+    }
+  },
+  {
+    "caseId": "TC-DB-03",
+    "level": "1 Ngày (Đơn lẻ 14/10)",
+    "startDate": "2026-10-14",
+    "endDate": "2026-10-14",
+    "description": "Optimize 1 ngày 14/10/2026 -> Accept -> Check Dashboard 14/10 -> Activity Feed Undo",
+    "step1_dashboardBefore": {
+      "work_time_min": 480,
+      "drive_time_min": 28,
+      "downtime_min": 1,
+      "saved_mileage": 14.25,
+      "saved_drive_time": 26,
+      "total_saved_usd": 21.95,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-14",
+          "amount": 21.950000000000003
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "step2_beforeOptimize": {
+      "jobs_assigned": 8,
+      "work_time_min": 480,
+      "drive_time_min": 28,
+      "downtime_min": 1,
+      "distance_mi": 12.17,
+      "fuel_gal": 0.61,
+      "delays": 0,
+      "cost_usd": 2.66
+    },
+    "step3_afterOptimize": {
+      "jobs_assigned": 8,
+      "work_time_min": 480,
+      "drive_time_min": 28,
+      "downtime_min": 1,
+      "distance_mi": 12.17,
+      "fuel_gal": 0.61,
+      "delays": 0,
+      "cost_usd": 2.66
+    },
+    "step3_savedDelta": {
+      "drive_time_min": 0,
+      "distance_mi": 0,
+      "downtime_min": 0,
+      "fuel_gal": 0,
+      "delays_reduced": 0,
+      "stream_saved_usd": 0,
+      "formula_dashboard_usd": 0
+    },
+    "step3_dailyBreakdown": [
+      {
+        "day": "2026-10-14",
+        "jobsBefore": 8,
+        "jobsAfter": 8,
+        "driveBefore": 28,
+        "driveAfter": 28,
+        "driveSaved": 0,
+        "distBefore": 12.17,
+        "distAfter": 12.17,
+        "distSaved": 0
+      }
+    ],
+    "step4_acceptInfo": {
+      "optimizationId": "opt_sandbox_6cebdddc4d8be313d7c6e647772c820f",
+      "appliedJobs": 0,
+      "historyId": null
+    },
+    "step4_dashboardAfterAccept": {
+      "work_time_min": 480,
+      "drive_time_min": 28,
+      "downtime_min": 1,
+      "saved_mileage": 14.25,
+      "saved_drive_time": 26,
+      "total_saved_usd": 21.95,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-14",
+          "amount": 21.950000000000003
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "step4_dashboardDeltaOnAccept": {
+      "saved_mileage_diff": 0,
+      "saved_drive_time_diff": 0,
+      "total_saved_usd_diff": 0
+    },
+    "step5_undoInfo": {
+      "firstHistoryId": "1855",
+      "firstHistoryMode": "manual",
+      "firstHistoryStats": {
+        "saved_drive_time": {
+          "value": 4,
+          "type": "minutes"
+        },
+        "saved_distance": {
+          "value": 1.86,
+          "type": "miles"
+        },
+        "saved_fuel": {
+          "value": 0.09,
+          "type": "gallons"
+        }
+      },
+      "undoResponse": {
+        "success": false,
+        "message": [
+          "This history run has already been undone."
+        ]
+      },
+      "statusAfterUndo": 3
+    },
+    "step5_dashboardAfterUndo": {
+      "work_time_min": 480,
+      "drive_time_min": 28,
+      "downtime_min": 1,
+      "saved_mileage": 14.25,
+      "saved_drive_time": 26,
+      "total_saved_usd": 21.95,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-14",
+          "amount": 21.950000000000003
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "verdict": {
+      "hasOptimizationDelta": false,
+      "historyRecordedMatch": false,
+      "historyStatsMatchOptimize": false,
+      "dashboardUpdatedOnAccept": false,
+      "dashboardDeltaMatchesOptimize": true,
+      "undoRestoredSuccessfully": true
+    }
+  },
+  {
+    "caseId": "TC-DB-04",
+    "level": "2 Ngày (Kết hợp)",
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-13",
+    "description": "Optimize 2 ngày 12/10 - 13/10/2026 -> Accept -> Check Dashboard 12/10-13/10 -> Activity Feed Undo",
+    "step1_dashboardBefore": {
+      "work_time_min": 930,
+      "drive_time_min": 72,
+      "downtime_min": 4,
+      "saved_mileage": 5.23,
+      "saved_drive_time": 7,
+      "total_saved_usd": 2.39,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-12",
+          "amount": -7.470000000000001
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 9.86
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "step2_beforeOptimize": {
+      "jobs_assigned": 16,
+      "work_time_min": 930,
+      "drive_time_min": 99,
+      "downtime_min": 3,
+      "distance_mi": 52.77,
+      "fuel_gal": 2.64,
+      "delays": 6,
+      "cost_usd": 11.5
+    },
+    "step3_afterOptimize": {
+      "jobs_assigned": 16,
+      "work_time_min": 930,
+      "drive_time_min": 108,
+      "downtime_min": 13,
+      "distance_mi": 56.02,
+      "fuel_gal": 2.8,
+      "delays": 0,
+      "cost_usd": 12.19
+    },
+    "step3_savedDelta": {
+      "drive_time_min": -9,
+      "distance_mi": -3.25,
+      "downtime_min": -10,
+      "fuel_gal": -0.16,
+      "delays_reduced": 6,
+      "stream_saved_usd": -0.7,
+      "formula_dashboard_usd": -5.06
+    },
+    "step3_dailyBreakdown": [
+      {
+        "day": "2026-10-12",
+        "jobsBefore": 7,
+        "jobsAfter": 8,
+        "driveBefore": 73,
+        "driveAfter": 56,
+        "driveSaved": 17,
+        "distBefore": 39.35,
+        "distAfter": 29.28,
+        "distSaved": 10.07
+      },
+      {
+        "day": "2026-10-13",
+        "jobsBefore": 9,
+        "jobsAfter": 8,
+        "driveBefore": 26,
+        "driveAfter": 52,
+        "driveSaved": -26,
+        "distBefore": 13.42,
+        "distAfter": 26.74,
+        "distSaved": -13.32
+      }
+    ],
+    "step4_acceptInfo": {
+      "optimizationId": "opt_sandbox_f420f40e7c39bf44b1ada2492ff4ad39",
+      "appliedJobs": 13,
+      "historyId": 1857
+    },
+    "step4_dashboardAfterAccept": {
+      "work_time_min": 930,
+      "drive_time_min": 108,
+      "downtime_min": 13,
+      "saved_mileage": 1.98,
+      "saved_drive_time": -2,
+      "total_saved_usd": 1.69,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-12",
+          "amount": -5.25
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 6.94
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "step4_dashboardDeltaOnAccept": {
+      "saved_mileage_diff": -3.25,
+      "saved_drive_time_diff": -9,
+      "total_saved_usd_diff": -0.7
+    },
+    "step5_undoInfo": {
+      "firstHistoryId": "1857",
+      "firstHistoryMode": "manual",
+      "firstHistoryStats": {
+        "saved_drive_time": {
+          "value": -9,
+          "type": "minutes"
+        },
+        "saved_distance": {
+          "value": -3.25,
+          "type": "miles"
+        },
+        "saved_fuel": {
+          "value": -0.16,
+          "type": "gallons"
+        }
+      },
+      "undoResponse": {
+        "data": {
+          "skipped": []
+        },
+        "success": true,
+        "message": []
+      },
+      "statusAfterUndo": 3
+    },
+    "step5_dashboardAfterUndo": {
+      "work_time_min": 930,
+      "drive_time_min": 72,
+      "downtime_min": 4,
+      "saved_mileage": 5.23,
+      "saved_drive_time": 7,
+      "total_saved_usd": 2.39,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-12",
+          "amount": -7.470000000000001
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 9.86
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "verdict": {
+      "hasOptimizationDelta": true,
+      "historyRecordedMatch": true,
+      "historyStatsMatchOptimize": true,
+      "dashboardUpdatedOnAccept": true,
+      "dashboardDeltaMatchesOptimize": true,
+      "undoRestoredSuccessfully": true
+    }
+  },
+  {
+    "caseId": "TC-DB-05",
+    "level": "2 Ngày (Rải giờ)",
+    "startDate": "2026-10-15",
+    "endDate": "2026-10-16",
+    "description": "Optimize 2 ngày rải giờ 15/10 - 16/10/2026 -> Accept -> Check Dashboard 15/10-16/10 -> Activity Feed Undo",
+    "step1_dashboardBefore": {
+      "work_time_min": 450,
+      "drive_time_min": 17,
+      "downtime_min": 4,
+      "saved_mileage": 68.82,
+      "saved_drive_time": 140,
+      "total_saved_usd": 81.03,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-15",
+          "amount": 26.28
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 54.75
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "step2_beforeOptimize": {
+      "jobs_assigned": 7,
+      "work_time_min": 435,
+      "drive_time_min": 34,
+      "downtime_min": 13,
+      "distance_mi": 16.05,
+      "fuel_gal": 0.8,
+      "delays": 0,
+      "cost_usd": 3.48
+    },
+    "step3_afterOptimize": {
+      "jobs_assigned": 7,
+      "work_time_min": 435,
+      "drive_time_min": 30,
+      "downtime_min": 4,
+      "distance_mi": 14.19,
+      "fuel_gal": 0.71,
+      "delays": 0,
+      "cost_usd": 3.09
+    },
+    "step3_savedDelta": {
+      "drive_time_min": 4,
+      "distance_mi": 1.86,
+      "downtime_min": 9,
+      "fuel_gal": 0.09,
+      "delays_reduced": 0,
+      "stream_saved_usd": 0.39,
+      "formula_dashboard_usd": 2.31
+    },
+    "step3_dailyBreakdown": [
+      {
+        "day": "2026-10-15",
+        "jobsBefore": 7,
+        "jobsAfter": 7,
+        "driveBefore": 34,
+        "driveAfter": 30,
+        "driveSaved": 4,
+        "distBefore": 16.05,
+        "distAfter": 14.19,
+        "distSaved": 1.86
+      },
+      {
+        "day": "2026-10-16",
+        "jobsBefore": 0,
+        "jobsAfter": 0,
+        "driveBefore": 0,
+        "driveAfter": 0,
+        "driveSaved": 0,
+        "distBefore": 0,
+        "distAfter": 0,
+        "distSaved": 0
+      }
+    ],
+    "step4_acceptInfo": {
+      "optimizationId": "opt_sandbox_1565c2587c07f05e0379bf9592381446",
+      "appliedJobs": 7,
+      "historyId": 1858
+    },
+    "step4_dashboardAfterAccept": {
+      "work_time_min": 435,
+      "drive_time_min": 30,
+      "downtime_min": 4,
+      "saved_mileage": 70.68,
+      "saved_drive_time": 144,
+      "total_saved_usd": 81.42,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-15",
+          "amount": 26.67
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 54.75
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "step4_dashboardDeltaOnAccept": {
+      "saved_mileage_diff": 1.86,
+      "saved_drive_time_diff": 4,
+      "total_saved_usd_diff": 0.39
+    },
+    "step5_undoInfo": {
+      "firstHistoryId": "1858",
+      "firstHistoryMode": "manual",
+      "firstHistoryStats": {
+        "saved_drive_time": {
+          "value": 4,
+          "type": "minutes"
+        },
+        "saved_distance": {
+          "value": 1.86,
+          "type": "miles"
+        },
+        "saved_fuel": {
+          "value": 0.09,
+          "type": "gallons"
+        }
+      },
+      "undoResponse": {
+        "data": {
+          "skipped": []
+        },
+        "success": true,
+        "message": []
+      },
+      "statusAfterUndo": 3
+    },
+    "step5_dashboardAfterUndo": {
+      "work_time_min": 450,
+      "drive_time_min": 17,
+      "downtime_min": 4,
+      "saved_mileage": 68.82,
+      "saved_drive_time": 140,
+      "total_saved_usd": 81.03,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-15",
+          "amount": 26.28
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 54.75
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "verdict": {
+      "hasOptimizationDelta": true,
+      "historyRecordedMatch": true,
+      "historyStatsMatchOptimize": true,
+      "dashboardUpdatedOnAccept": true,
+      "dashboardDeltaMatchesOptimize": true,
+      "undoRestoredSuccessfully": true
+    }
+  },
+  {
+    "caseId": "TC-DB-06",
+    "level": "3 Ngày (Nhiều ngày)",
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-14",
+    "description": "Optimize 3 ngày 12/10 - 14/10/2026 -> Accept -> Check Dashboard 12/10-14/10 -> Activity Feed Undo",
+    "step1_dashboardBefore": {
+      "work_time_min": 1410,
+      "drive_time_min": 100,
+      "downtime_min": 5,
+      "saved_mileage": 19.48,
+      "saved_drive_time": 33,
+      "total_saved_usd": 24.34,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-12",
+          "amount": -7.470000000000001
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 9.860000000000001
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 21.950000000000003
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "step2_beforeOptimize": {
+      "jobs_assigned": 24,
+      "work_time_min": 1410,
+      "drive_time_min": 127,
+      "downtime_min": 4,
+      "distance_mi": 64.94,
+      "fuel_gal": 3.25,
+      "delays": 6,
+      "cost_usd": 14.16
+    },
+    "step3_afterOptimize": {
+      "jobs_assigned": 24,
+      "work_time_min": 1410,
+      "drive_time_min": 121,
+      "downtime_min": 7,
+      "distance_mi": 59.04,
+      "fuel_gal": 2.95,
+      "delays": 0,
+      "cost_usd": 12.84
+    },
+    "step3_savedDelta": {
+      "drive_time_min": 6,
+      "distance_mi": 5.9,
+      "downtime_min": -3,
+      "fuel_gal": 0.3,
+      "delays_reduced": 6,
+      "stream_saved_usd": 1.3,
+      "formula_dashboard_usd": 4.05
+    },
+    "step3_dailyBreakdown": [
+      {
+        "day": "2026-10-12",
+        "jobsBefore": 7,
+        "jobsAfter": 7,
+        "driveBefore": 73,
+        "driveAfter": 41,
+        "driveSaved": 32,
+        "distBefore": 39.35,
+        "distAfter": 18.98,
+        "distSaved": 20.37
+      },
+      {
+        "day": "2026-10-13",
+        "jobsBefore": 9,
+        "jobsAfter": 9,
+        "driveBefore": 26,
+        "driveAfter": 27,
+        "driveSaved": -1,
+        "distBefore": 13.42,
+        "distAfter": 13.22,
+        "distSaved": 0.2
+      },
+      {
+        "day": "2026-10-14",
+        "jobsBefore": 8,
+        "jobsAfter": 8,
+        "driveBefore": 28,
+        "driveAfter": 53,
+        "driveSaved": -25,
+        "distBefore": 12.17,
+        "distAfter": 26.84,
+        "distSaved": -14.67
+      }
+    ],
+    "step4_acceptInfo": {
+      "optimizationId": "opt_sandbox_c8159c003e355bc14520991ef436246b",
+      "appliedJobs": 23,
+      "historyId": 1859
+    },
+    "step4_dashboardAfterAccept": {
+      "work_time_min": 1410,
+      "drive_time_min": 121,
+      "downtime_min": 7,
+      "saved_mileage": 25.38,
+      "saved_drive_time": 39,
+      "total_saved_usd": 25.64,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-12",
+          "amount": -3.0300000000000002
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 9.9
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 18.770000000000003
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "step4_dashboardDeltaOnAccept": {
+      "saved_mileage_diff": 5.9,
+      "saved_drive_time_diff": 6,
+      "total_saved_usd_diff": 1.3
+    },
+    "step5_undoInfo": {
+      "firstHistoryId": "1859",
+      "firstHistoryMode": "manual",
+      "firstHistoryStats": {
+        "saved_drive_time": {
+          "value": 6,
+          "type": "minutes"
+        },
+        "saved_distance": {
+          "value": 5.9,
+          "type": "miles"
+        },
+        "saved_fuel": {
+          "value": 0.3,
+          "type": "gallons"
+        }
+      },
+      "undoResponse": {
+        "data": {
+          "skipped": []
+        },
+        "success": true,
+        "message": []
+      },
+      "statusAfterUndo": 3
+    },
+    "step5_dashboardAfterUndo": {
+      "work_time_min": 1410,
+      "drive_time_min": 100,
+      "downtime_min": 5,
+      "saved_mileage": 19.48,
+      "saved_drive_time": 33,
+      "total_saved_usd": 24.34,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-12",
+          "amount": -7.470000000000001
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 9.860000000000001
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 21.950000000000003
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "verdict": {
+      "hasOptimizationDelta": true,
+      "historyRecordedMatch": true,
+      "historyStatsMatchOptimize": true,
+      "dashboardUpdatedOnAccept": true,
+      "dashboardDeltaMatchesOptimize": true,
+      "undoRestoredSuccessfully": true
+    }
+  },
+  {
+    "caseId": "TC-DB-07",
+    "level": "4 Ngày (Nhiều ngày)",
+    "startDate": "2026-10-13",
+    "endDate": "2026-10-16",
+    "description": "Optimize 4 ngày 13/10 - 16/10/2026 -> Accept -> Check Dashboard 13/10-16/10 -> Activity Feed Undo",
+    "step1_dashboardBefore": {
+      "work_time_min": 1440,
+      "drive_time_min": 71,
+      "downtime_min": 8,
+      "saved_mileage": 93.23,
+      "saved_drive_time": 186,
+      "total_saved_usd": 112.84,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-13",
+          "amount": 9.860000000000001
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 21.950000000000003
+        },
+        {
+          "date": "2026-10-15",
+          "amount": 26.28
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 54.75
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "step2_beforeOptimize": {
+      "jobs_assigned": 24,
+      "work_time_min": 1425,
+      "drive_time_min": 88,
+      "downtime_min": 17,
+      "distance_mi": 41.64,
+      "fuel_gal": 2.08,
+      "delays": 0,
+      "cost_usd": 9.06
+    },
+    "step3_afterOptimize": {
+      "jobs_assigned": 24,
+      "work_time_min": 1425,
+      "drive_time_min": 81,
+      "downtime_min": 8,
+      "distance_mi": 38.7,
+      "fuel_gal": 1.94,
+      "delays": 0,
+      "cost_usd": 8.45
+    },
+    "step3_savedDelta": {
+      "drive_time_min": 7,
+      "distance_mi": 2.94,
+      "downtime_min": 9,
+      "fuel_gal": 0.14,
+      "delays_reduced": 0,
+      "stream_saved_usd": 0.61,
+      "formula_dashboard_usd": 3.99
+    },
+    "step3_dailyBreakdown": [
+      {
+        "day": "2026-10-13",
+        "jobsBefore": 9,
+        "jobsAfter": 8,
+        "driveBefore": 26,
+        "driveAfter": 26,
+        "driveSaved": 0,
+        "distBefore": 13.42,
+        "distAfter": 13.34,
+        "distSaved": 0.08
+      },
+      {
+        "day": "2026-10-14",
+        "jobsBefore": 8,
+        "jobsAfter": 8,
+        "driveBefore": 28,
+        "driveAfter": 27,
+        "driveSaved": 1,
+        "distBefore": 12.17,
+        "distAfter": 11.78,
+        "distSaved": 0.39
+      },
+      {
+        "day": "2026-10-15",
+        "jobsBefore": 7,
+        "jobsAfter": 8,
+        "driveBefore": 34,
+        "driveAfter": 28,
+        "driveSaved": 6,
+        "distBefore": 16.05,
+        "distAfter": 13.58,
+        "distSaved": 2.47
+      },
+      {
+        "day": "2026-10-16",
+        "jobsBefore": 0,
+        "jobsAfter": 0,
+        "driveBefore": 0,
+        "driveAfter": 0,
+        "driveSaved": 0,
+        "distBefore": 0,
+        "distAfter": 0,
+        "distSaved": 0
+      }
+    ],
+    "step4_acceptInfo": {
+      "optimizationId": "opt_sandbox_90dbbc4e39d0776d07ebd8e8e2f1f0b5",
+      "appliedJobs": 16,
+      "historyId": 1860
+    },
+    "step4_dashboardAfterAccept": {
+      "work_time_min": 1425,
+      "drive_time_min": 81,
+      "downtime_min": 8,
+      "saved_mileage": 96.17,
+      "saved_drive_time": 193,
+      "total_saved_usd": 113.45,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-13",
+          "amount": 9.86
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 22.040000000000003
+        },
+        {
+          "date": "2026-10-15",
+          "amount": 26.8
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 54.75
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "step4_dashboardDeltaOnAccept": {
+      "saved_mileage_diff": 2.94,
+      "saved_drive_time_diff": 7,
+      "total_saved_usd_diff": 0.61
+    },
+    "step5_undoInfo": {
+      "firstHistoryId": "1860",
+      "firstHistoryMode": "manual",
+      "firstHistoryStats": {
+        "saved_drive_time": {
+          "value": 7,
+          "type": "minutes"
+        },
+        "saved_distance": {
+          "value": 2.94,
+          "type": "miles"
+        },
+        "saved_fuel": {
+          "value": 0.14,
+          "type": "gallons"
+        }
+      },
+      "undoResponse": {
+        "data": {
+          "skipped": []
+        },
+        "success": true,
+        "message": []
+      },
+      "statusAfterUndo": 3
+    },
+    "step5_dashboardAfterUndo": {
+      "work_time_min": 1440,
+      "drive_time_min": 71,
+      "downtime_min": 8,
+      "saved_mileage": 93.23,
+      "saved_drive_time": 186,
+      "total_saved_usd": 112.84,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-13",
+          "amount": 9.860000000000001
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 21.950000000000003
+        },
+        {
+          "date": "2026-10-15",
+          "amount": 26.28
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 54.75
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "verdict": {
+      "hasOptimizationDelta": true,
+      "historyRecordedMatch": true,
+      "historyStatsMatchOptimize": true,
+      "dashboardUpdatedOnAccept": true,
+      "dashboardDeltaMatchesOptimize": true,
+      "undoRestoredSuccessfully": true
+    }
+  },
+  {
+    "caseId": "TC-DB-08",
+    "level": "6 Ngày (Toàn đợt)",
+    "startDate": "2026-10-11",
+    "endDate": "2026-10-16",
+    "description": "Optimize 6 ngày 11/10 - 16/10/2026 -> Accept -> Check Dashboard 11/10-16/10 -> Activity Feed Undo",
+    "step1_dashboardBefore": {
+      "work_time_min": 2370,
+      "drive_time_min": 138,
+      "downtime_min": 11,
+      "saved_mileage": 91.59,
+      "saved_drive_time": 178,
+      "total_saved_usd": 108.69,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-11",
+          "amount": 3.3200000000000003
+        },
+        {
+          "date": "2026-10-12",
+          "amount": -7.470000000000001
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 9.86
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 21.950000000000003
+        },
+        {
+          "date": "2026-10-15",
+          "amount": 26.28
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 54.75
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "step2_beforeOptimize": {
+      "jobs_assigned": 32,
+      "work_time_min": 1905,
+      "drive_time_min": 174,
+      "downtime_min": 17,
+      "distance_mi": 86.99,
+      "fuel_gal": 4.35,
+      "delays": 7,
+      "cost_usd": 18.95
+    },
+    "step3_afterOptimize": {
+      "jobs_assigned": 32,
+      "work_time_min": 1905,
+      "drive_time_min": 155,
+      "downtime_min": 10,
+      "distance_mi": 74.82,
+      "fuel_gal": 3.74,
+      "delays": 1,
+      "cost_usd": 16.28
+    },
+    "step3_savedDelta": {
+      "drive_time_min": 19,
+      "distance_mi": 12.17,
+      "downtime_min": 7,
+      "fuel_gal": 0.61,
+      "delays_reduced": 6,
+      "stream_saved_usd": 2.65,
+      "formula_dashboard_usd": 11.63
+    },
+    "step3_dailyBreakdown": [
+      {
+        "day": "2026-10-11",
+        "jobsBefore": 1,
+        "jobsAfter": 8,
+        "driveBefore": 13,
+        "driveAfter": 30,
+        "driveSaved": -17,
+        "distBefore": 6,
+        "distAfter": 14.58,
+        "distSaved": -8.58
+      },
+      {
+        "day": "2026-10-12",
+        "jobsBefore": 7,
+        "jobsAfter": 7,
+        "driveBefore": 73,
+        "driveAfter": 40,
+        "driveSaved": 33,
+        "distBefore": 39.35,
+        "distAfter": 18.36,
+        "distSaved": 20.99
+      },
+      {
+        "day": "2026-10-13",
+        "jobsBefore": 9,
+        "jobsAfter": 8,
+        "driveBefore": 26,
+        "driveAfter": 24,
+        "driveSaved": 2,
+        "distBefore": 13.42,
+        "distAfter": 11.05,
+        "distSaved": 2.37
+      },
+      {
+        "day": "2026-10-14",
+        "jobsBefore": 8,
+        "jobsAfter": 6,
+        "driveBefore": 28,
+        "driveAfter": 51,
+        "driveSaved": -23,
+        "distBefore": 12.17,
+        "distAfter": 26.81,
+        "distSaved": -14.64
+      },
+      {
+        "day": "2026-10-15",
+        "jobsBefore": 7,
+        "jobsAfter": 3,
+        "driveBefore": 34,
+        "driveAfter": 10,
+        "driveSaved": 24,
+        "distBefore": 16.05,
+        "distAfter": 4.02,
+        "distSaved": 12.03
+      },
+      {
+        "day": "2026-10-16",
+        "jobsBefore": 0,
+        "jobsAfter": 0,
+        "driveBefore": 0,
+        "driveAfter": 0,
+        "driveSaved": 0,
+        "distBefore": 0,
+        "distAfter": 0,
+        "distSaved": 0
+      }
+    ],
+    "step4_acceptInfo": {
+      "optimizationId": "opt_sandbox_9bf65feee3fe2da5e78537bb6fee8340",
+      "appliedJobs": 30,
+      "historyId": 1861
+    },
+    "step4_dashboardAfterAccept": {
+      "work_time_min": 1905,
+      "drive_time_min": 155,
+      "downtime_min": 10,
+      "saved_mileage": 103.76,
+      "saved_drive_time": 197,
+      "total_saved_usd": 111.34,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-11",
+          "amount": 1.4500000000000002
+        },
+        {
+          "date": "2026-10-12",
+          "amount": -2.9000000000000004
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 10.379999999999999
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 18.770000000000003
+        },
+        {
+          "date": "2026-10-15",
+          "amount": 28.89
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 54.75
+        }
+      ],
+      "delays": 1,
+      "completed_jobs_avg": 0
+    },
+    "step4_dashboardDeltaOnAccept": {
+      "saved_mileage_diff": 12.17,
+      "saved_drive_time_diff": 19,
+      "total_saved_usd_diff": 2.65
+    },
+    "step5_undoInfo": {
+      "firstHistoryId": "1861",
+      "firstHistoryMode": "manual",
+      "firstHistoryStats": {
+        "saved_drive_time": {
+          "value": 19,
+          "type": "minutes"
+        },
+        "saved_distance": {
+          "value": 12.17,
+          "type": "miles"
+        },
+        "saved_fuel": {
+          "value": 0.61,
+          "type": "gallons"
+        }
+      },
+      "undoResponse": {
+        "data": {
+          "skipped": []
+        },
+        "success": true,
+        "message": []
+      },
+      "statusAfterUndo": 3
+    },
+    "step5_dashboardAfterUndo": {
+      "work_time_min": 2370,
+      "drive_time_min": 138,
+      "downtime_min": 11,
+      "saved_mileage": 91.59,
+      "saved_drive_time": 178,
+      "total_saved_usd": 108.69,
+      "total_saved_chart": [
+        {
+          "date": "2026-10-11",
+          "amount": 3.3200000000000003
+        },
+        {
+          "date": "2026-10-12",
+          "amount": -7.470000000000001
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 9.86
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 21.950000000000003
+        },
+        {
+          "date": "2026-10-15",
+          "amount": 26.28
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 54.75
+        }
+      ],
+      "delays": 0,
+      "completed_jobs_avg": 0
+    },
+    "verdict": {
+      "hasOptimizationDelta": true,
+      "historyRecordedMatch": true,
+      "historyStatsMatchOptimize": true,
+      "dashboardUpdatedOnAccept": true,
+      "dashboardDeltaMatchesOptimize": true,
+      "undoRestoredSuccessfully": true
+    }
+  }
+]
