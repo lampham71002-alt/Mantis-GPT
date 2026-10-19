@@ -1,0 +1,181 @@
+[
+  {
+    "caseId": "TC-MR-01",
+    "group": "Nhóm 1: Tổ hợp 3-5 Custom Rules cùng ngày",
+    "activeRulesCount": 3,
+    "ruleIds": [
+      "2065",
+      "2066",
+      "2067"
+    ],
+    "summary": "Kết hợp 3 Rules: Cust 20 (First Stop) + Cust 14 (Lock 12:55pm) + Cust 24 (Last Stop)",
+    "beforeState": "Cust 20: 3:03pm (#7/7) | Cust 14: 12:55pm (#5/7) | Cust 24: 9:47am (#2/7)",
+    "afterState": "Cust 20: 8:04 - 8:49am (Stop #1/7) | Cust 14: 11:40am - 12:40pm (Stop #3/7) | Cust 24: 3:20 - 4:20pm (Stop #7/7)",
+    "verdict": "PARTIAL/CONFLICT"
+  },
+  {
+    "caseId": "TC-MR-02",
+    "group": "Nhóm 1: Tổ hợp 3-5 Custom Rules cùng ngày",
+    "activeRulesCount": 4,
+    "ruleIds": [
+      "2068",
+      "2069",
+      "2070",
+      "2071"
+    ],
+    "summary": "Kết hợp 4 Rules: Cust 20 (First Stop) + Cust 14 (Lock 12:55pm) + Cust 12 (Strict 13:30-16:30) + Cust 24 (Last Stop)",
+    "beforeState": "Cust 20: 3:03pm | Cust 14: 12:55pm | Cust 12: 10:49am | Cust 24: 9:47am",
+    "afterState": "Cust 20: 8:04 - 8:49am (#1/7) | Cust 14: 11:40am - 12:40pm (#3/7) | Cust 12: 1:46 - 2:46pm (#5/7) | Cust 24: 3:20 - 4:20pm (#7/7)",
+    "verdict": "PARTIAL/CONFLICT"
+  },
+  {
+    "caseId": "TC-MR-03",
+    "group": "Nhóm 1: Tổ hợp 3-5 Custom Rules cùng ngày",
+    "activeRulesCount": 5,
+    "ruleIds": [
+      "2072",
+      "2073",
+      "2074",
+      "2075",
+      "2076"
+    ],
+    "summary": "5 Rules: Cust 30 (Exclude) + Cust 20 (First Stop) + Cust 13 (Morning 08:30-11:55) + Cust 14 (Lock 12:55pm) + Cust 24 (Last Stop)",
+    "beforeState": "7 jobs trên ngày 15/10",
+    "afterState": "Stream giảm còn 7/7 jobs (Cust 30 Excluded) | Stop #1: Cust 20 (8:04 - 8:49am) | Ca sáng: Cust 13 (9:26 - 10:26am) | Khóa trưa: Cust 14 (11:40am - 12:40pm) | Last Stop #7/7: Cust 24 (3:35 - 4:35pm)",
+    "verdict": "PARTIAL/CONFLICT"
+  },
+  {
+    "caseId": "TC-MR-04",
+    "group": "Nhóm 2: Tổ hợp 4-6 Rules xuyên nhiều ngày (12/10-15/10)",
+    "activeRulesCount": 4,
+    "ruleIds": [
+      "2077",
+      "2078",
+      "2079",
+      "2080"
+    ],
+    "summary": "4 Rules trên 31 jobs (4 ngày): Cust 28 & 16 (Keep Day 12/10) + Cust 18 (First Stop) + Cust 14 (Lock 15/10) + Cust 24 (Last Stop 15/10)",
+    "beforeState": "31 jobs trên 4 ngày (12/10 -> 15/10)",
+    "afterState": "Cust 28 & 16 giữ nguyên ngày 10-12-2026 (11:14am - 12:14pm, 10:09 - 11:09am) | Cust 18 lên đầu sáng (10-13-2026 8:19 - 9:19am) | Cust 14 khóa cứng 10-15-2026 (11:40am - 12:40pm) | Cust 24 đứng cuối ngày 15/10 (#8/8: 3:53 - 4:53pm)",
+    "verdict": "PARTIAL/CONFLICT"
+  },
+  {
+    "caseId": "TC-MR-05",
+    "group": "Nhóm 2: Tổ hợp 4-6 Rules xuyên nhiều ngày (12/10-15/10)",
+    "activeRulesCount": 6,
+    "ruleIds": [
+      "2081",
+      "2082",
+      "2083",
+      "2084",
+      "2085",
+      "2086"
+    ],
+    "summary": "6 Rules đồng thời trên 31 jobs (Keep Day + First Stop + Lock + Last Stop + Exclude 2 jobs + Strict Afternoon 2 jobs)",
+    "beforeState": "31 jobs trên 4 ngày (12/10 -> 15/10)",
+    "afterState": "Stream giảm từ 31 -> 28 jobs (Cust 29 & 30 Excluded: true) | Cust 12 chiều: 10-12-2026 2:38 - 3:38pm | Cust 17 chiều: 10-13-2026 8:15 - 9:15am",
+    "verdict": "PASS (6/6 Rules)"
+  },
+  {
+    "caseId": "TC-MR-06",
+    "group": "Nhóm 3: Tổ hợp Đa tầng (Cá biệt + Nhóm + Hệ thống)",
+    "activeRulesCount": 4,
+    "ruleIds": [
+      "2087",
+      "2088",
+      "2089",
+      "2090"
+    ],
+    "summary": "4 Rules bổ trợ: Cust 12 (Force lam 1 + 13:30-16:00) + Cust 20 (First Stop) + Cust 14 (Lock) + Cust 24 (Last Stop)",
+    "beforeState": "7 jobs trên ngày 15/10",
+    "afterState": "#1: HCM Customer 20 (8:04 - 8:49am) -> #2: HCM Customer 30 (8:55 - 9:55am) -> #3: HCM Customer 14 (11:40am - 12:40pm) -> #4: HCM Customer 13 (12:42 - 1:42pm) -> #5: HCM Customer 12 (1:46 - 2:46pm) -> #6: location (2:48 - 3:18pm) -> #7: HCM Customer 24 (3:20 - 4:20pm)",
+    "verdict": "PASS (4/4 Rules)"
+  },
+  {
+    "caseId": "TC-MR-07",
+    "group": "Nhóm 3: Tổ hợp Đa tầng (Cá biệt + Nhóm + Hệ thống)",
+    "activeRulesCount": 3,
+    "ruleIds": [
+      "2091",
+      "2092",
+      "2093"
+    ],
+    "summary": "Cust 20 vừa bị Rule riêng ép Last Stop vừa nằm trong Rule nhóm First Stop (cùng Cust 12) + Cust 14 Lock",
+    "beforeState": "Cust 12: 10:49am (#3/7) | Cust 20: 3:03pm (#7/7) | Cust 14: 12:55pm (#5/7)",
+    "afterState": "Cust 12 (không xung đột) lên thẳng Stop #5/7 (1:46 - 2:46pm) | Cust 20 (bị kéo 2 đầu) đứng Stop #1/7 (8:04 - 8:49am) | Cust 14 giữ Lock tại 11:40am - 12:40pm",
+    "verdict": "PASS (CONFLICT VERIFIED)"
+  },
+  {
+    "caseId": "TC-MR-08",
+    "group": "Nhóm 4: Chuỗi xung đột đa Rule (Contention & Domino)",
+    "activeRulesCount": 3,
+    "ruleIds": [
+      "2094",
+      "2095",
+      "2096"
+    ],
+    "summary": "3 Custom Rules độc lập cùng tranh vị trí First Stop trên KTV lam 1 (Cust 20, Cust 30, Cust 12)",
+    "beforeState": "Cust 20: #7/7 (3:03pm) | Cust 30: #6/7 (1:58pm) | Cust 12: #3/7 (10:49am)",
+    "afterState": "Thứ tự phân xử: Cust 20 -> Stop #1 (8:04 - 8:49am) | Cust 30 -> Stop #0 (undefined) | Cust 12 -> Stop #0 (undefined)",
+    "verdict": "PASS (CONTENTION RESOLVED)"
+  },
+  {
+    "caseId": "TC-MR-09",
+    "group": "Nhóm 4: Chuỗi xung đột đa Rule (Contention & Domino)",
+    "activeRulesCount": 3,
+    "ruleIds": [
+      "2097",
+      "2098",
+      "2099"
+    ],
+    "summary": "3 Custom Rules độc lập cùng tranh vị trí Last Stop trên KTV lam 1 (Cust 24, Cust 12, Cust 13)",
+    "beforeState": "Cust 24: #2/7 (9:47am) | Cust 12: #3/7 (10:49am) | Cust 13: #4/7 (11:53am)",
+    "afterState": "Thứ tự phân xử cuối ngày: Cust 24 -> Stop #0/6 (undefined) | Cust 12 -> Stop #0/6 (undefined) | Cust 13 -> Stop #6/6 (1:47 - 2:47pm)",
+    "verdict": "PASS (CONTENTION RESOLVED)"
+  },
+  {
+    "caseId": "TC-MR-10",
+    "group": "Nhóm 4: Chuỗi xung đột đa Rule (Contention & Domino)",
+    "activeRulesCount": 4,
+    "ruleIds": [
+      "2100",
+      "2101",
+      "2102",
+      "2103"
+    ],
+    "summary": "4 Rules ép 4 jobs (tổng > 4 tiếng) vào cùng khung giờ hẹp 13:30-15:30 (2 tiếng)",
+    "beforeState": "beforeCount = 8 jobs (Cust 24, 12, 13, 30 đều 60 phút)",
+    "afterState": "afterCount = 6 jobs (2 jobs tràn bị đẩy ra Unassigned) | Chi tiết: HCM Customer 24: Unassigned (Tràn khung giờ) | HCM Customer 12: 2:34 - 3:34pm | HCM Customer 13: 1:30 - 2:30pm | HCM Customer 30: Unassigned (Tràn khung giờ)",
+    "verdict": "PASS (OVERFLOW HANDLED SAFELY - ZERO OVERLAP)"
+  },
+  {
+    "caseId": "TC-MR-11",
+    "group": "Nhóm 4: Chuỗi xung đột đa Rule (Contention & Domino)",
+    "activeRulesCount": 4,
+    "ruleIds": [
+      "2104",
+      "2105",
+      "2106",
+      "2107"
+    ],
+    "summary": "Domino: Cust 14 Lock (12:55-13:55) đối đầu Cust 12 Strict (12:45-13:45) + Cust 20 First Stop + Cust 24 Last Stop",
+    "beforeState": "Cust 14: 12:55-1:55pm | Cust 12: 10:49-11:49am | Cust 20: 3:03pm | Cust 24: 9:47am",
+    "afterState": "Lock thắng tuyệt đối: Cust 14 giữ nguyên 11:40am - 12:40pm | Cust 12 bị đẩy ra 1:46 - 2:46pm | Cust 20 vẫn giữ Stop #1 (8:04 - 8:49am) | Cust 24 vẫn giữ Last Stop (#7/7: 3:20 - 4:20pm)",
+    "verdict": "PASS (LOCK WINS OVER COLLIDING STRICT WINDOW)"
+  },
+  {
+    "caseId": "TC-MR-12",
+    "group": "Nhóm 4: Chuỗi xung đột đa Rule & Closed-Loop Undo",
+    "activeRulesCount": 4,
+    "ruleIds": [
+      "2108",
+      "2109",
+      "2110",
+      "2111"
+    ],
+    "summary": "Closed-Loop 4 Rules trên ngày 15/10: Optimize -> Accept -> Check Dashboard -> Activity Feed -> Undo",
+    "beforeState": "Dashboard Distance Saved trước Accept: 37.59 miles",
+    "afterState": "Sau Accept: 36.14 miles | History ID đầu tiên: 2081 -> Nhấn Undo (status=3) -> Dashboard khôi phục về 37.59 miles",
+    "verdict": "PASS (100% CLOSED-LOOP & UNDO RESTORED)"
+  }
+]

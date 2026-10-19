@@ -1,0 +1,2966 @@
+{
+  "status": 200,
+  "count": 21,
+  "chunks": [
+    {
+      "type": "progress",
+      "message": "Getting jobs..."
+    },
+    {
+      "type": "progress",
+      "message": "Loading jobs..."
+    },
+    {
+      "scope": "before",
+      "type": "jobs",
+      "data": [
+        {
+          "job_state": "active",
+          "map_tiles": [
+            {
+              "field": "customer_name",
+              "value": "location "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Los Angeles"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_address_1",
+              "value": "Đường Thành Thái"
+            },
+            {
+              "field": "service_city",
+              "value": "Thành phố Hồ Chí Minh"
+            },
+            {
+              "field": "service_state",
+              "value": "Hồ Chí Minh"
+            },
+            {
+              "field": "service_zip",
+              "value": "550000"
+            },
+            {
+              "field": "service_type",
+              "value": "Bi-Monthly Service"
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "job_tiles": [
+            {
+              "field": "calendar_time",
+              "value": "8 - 9:45am"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "customer_name",
+              "value": "location "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Los Angeles"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_type",
+              "value": "Bi-Monthly Service"
+            },
+            {
+              "field": "invoice_total",
+              "value": "$65.00"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "tile": {
+            "header": "8 - 9:45am",
+            "content": [
+              "location  ",
+              "Los Angeles ",
+              "Bi-Monthly Service $65.00"
+            ]
+          },
+          "job": {
+            "id": "27604",
+            "name": "Bi-Monthly Service",
+            "locked": 0,
+            "parent_job_id": "27604",
+            "job_no": 0,
+            "previously_completed": 1,
+            "status": 3,
+            "custom_status_id": null,
+            "status_type": 3,
+            "recurrence": "",
+            "emoji": [],
+            "service_id": "2537",
+            "service_name": "Bi-Monthly Service"
+          },
+          "active_event": true,
+          "event": {
+            "id": "27604",
+            "current_parent_event": "0",
+            "start": "2026-10-15T08:00:00+00:00",
+            "end": "2026-10-15T09:45:00+00:00",
+            "repeat": 1,
+            "length": 105,
+            "tw_template_id": 0,
+            "time_window": "171:1011",
+            "locked": 0
+          },
+          "is_workpool": false,
+          "color": {
+            "text": "black",
+            "background": "#ffa500",
+            "border": "#E99B09"
+          },
+          "schedule": {
+            "id": "249",
+            "primary_id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "tech_name": "lam 1",
+            "primary": {
+              "id": "249",
+              "name": "lam 1",
+              "user_id": "84361397"
+            }
+          },
+          "show_map": 1,
+          "date_label": "10-15-2026",
+          "all_day": false,
+          "draft_invoice": 0,
+          "active_job": 1,
+          "circle_notify": 0,
+          "location": {
+            "id": "1145",
+            "name": "Los Angeles",
+            "street1": "Đường Thành Thái",
+            "street2": "",
+            "city": "Thành phố Hồ Chí Minh",
+            "state": "Hồ Chí Minh",
+            "zip": "550000",
+            "lat": "10.7750244",
+            "lng": "106.6641406",
+            "note": ""
+          },
+          "type": "job",
+          "customer": {
+            "id": "1099",
+            "full_name": "location",
+            "first_name": "location",
+            "last_name": "",
+            "avatar": "l"
+          },
+          "is_routing": 1
+        },
+        {
+          "job_state": "active",
+          "map_tiles": [
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 24 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 10"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_address_1",
+              "value": "500 Su Van Hanh"
+            },
+            {
+              "field": "service_city",
+              "value": "Thanh pho Ho Chi Minh"
+            },
+            {
+              "field": "service_state",
+              "value": "Ho Chi Minh"
+            },
+            {
+              "field": "service_zip",
+              "value": "54401"
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "job_tiles": [
+            {
+              "field": "calendar_time",
+              "value": "9:47 - 10:47am"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 24 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 10"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "invoice_total",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "tile": {
+            "header": "9:47 - 10:47am",
+            "content": [
+              "HCM Customer 24  ",
+              "Location Quan 10 ",
+              "Initial Service"
+            ]
+          },
+          "job": {
+            "id": "101517",
+            "name": "Initial Service",
+            "locked": 0,
+            "parent_job_id": "101517",
+            "job_no": 0,
+            "previously_completed": 0,
+            "status": 1,
+            "custom_status_id": null,
+            "status_type": 1,
+            "recurrence": "",
+            "emoji": [],
+            "service_id": "2539",
+            "service_name": "Initial Service"
+          },
+          "active_event": true,
+          "event": {
+            "id": "101484",
+            "current_parent_event": "0",
+            "start": "2026-10-15T09:47:00+00:00",
+            "end": "2026-10-15T10:47:00+00:00",
+            "repeat": 0,
+            "length": 60,
+            "tw_template_id": null,
+            "time_window": ":",
+            "locked": 0
+          },
+          "is_workpool": false,
+          "color": {
+            "text": "black",
+            "background": "#c9e69a",
+            "border": "#96B90E"
+          },
+          "schedule": {
+            "id": "249",
+            "primary_id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "tech_name": "lam 1",
+            "primary": {
+              "id": "249",
+              "name": "lam 1",
+              "user_id": "84361397"
+            }
+          },
+          "show_map": 1,
+          "date_label": "10-15-2026",
+          "all_day": false,
+          "draft_invoice": 0,
+          "active_job": 1,
+          "circle_notify": 0,
+          "location": {
+            "id": "1905",
+            "name": "Location Quan 10",
+            "street1": "500 Su Van Hanh",
+            "street2": "Phuong 12",
+            "city": "Thanh pho Ho Chi Minh",
+            "state": "Ho Chi Minh",
+            "zip": "54401",
+            "lat": "10.775",
+            "lng": "106.6675",
+            "note": "Khu vuc Quan 10"
+          },
+          "type": "job",
+          "customer": {
+            "id": "1590",
+            "full_name": "HCM Customer 24",
+            "first_name": "HCM Customer 24",
+            "last_name": "",
+            "avatar": "HC"
+          },
+          "is_routing": 1
+        },
+        {
+          "job_state": "active",
+          "map_tiles": [
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 12 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 10"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_address_1",
+              "value": "256 Ba Thang Hai"
+            },
+            {
+              "field": "service_city",
+              "value": "Thanh pho Ho Chi Minh"
+            },
+            {
+              "field": "service_state",
+              "value": "Ho Chi Minh"
+            },
+            {
+              "field": "service_zip",
+              "value": "54401"
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "job_tiles": [
+            {
+              "field": "calendar_time",
+              "value": "10:49 - 11:49am"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 12 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 10"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "invoice_total",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "tile": {
+            "header": "10:49 - 11:49am",
+            "content": [
+              "HCM Customer 12  ",
+              "Location Quan 10 ",
+              "Initial Service"
+            ]
+          },
+          "job": {
+            "id": "101504",
+            "name": "Initial Service",
+            "locked": 0,
+            "parent_job_id": "101504",
+            "job_no": 0,
+            "previously_completed": 0,
+            "status": 0,
+            "custom_status_id": null,
+            "status_type": 0,
+            "recurrence": "",
+            "emoji": [],
+            "service_id": "2539",
+            "service_name": "Initial Service"
+          },
+          "active_event": true,
+          "event": {
+            "id": "101471",
+            "current_parent_event": "0",
+            "start": "2026-10-15T10:49:00+00:00",
+            "end": "2026-10-15T11:49:00+00:00",
+            "repeat": 0,
+            "length": 60,
+            "tw_template_id": null,
+            "time_window": ":",
+            "locked": 0
+          },
+          "is_workpool": false,
+          "color": {
+            "text": "black",
+            "background": "#d0d0d0",
+            "border": "#686868"
+          },
+          "schedule": {
+            "id": "249",
+            "primary_id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "tech_name": "lam 1",
+            "primary": {
+              "id": "249",
+              "name": "lam 1",
+              "user_id": "84361397"
+            }
+          },
+          "show_map": 1,
+          "date_label": "10-15-2026",
+          "all_day": false,
+          "draft_invoice": 0,
+          "active_job": 1,
+          "circle_notify": 0,
+          "location": {
+            "id": "1893",
+            "name": "Location Quan 10",
+            "street1": "256 Ba Thang Hai",
+            "street2": "Phuong 12",
+            "city": "Thanh pho Ho Chi Minh",
+            "state": "Ho Chi Minh",
+            "zip": "54401",
+            "lat": "10.7702",
+            "lng": "106.6698",
+            "note": "Khu vuc Quan 10"
+          },
+          "type": "job",
+          "customer": {
+            "id": "1578",
+            "full_name": "HCM Customer 12",
+            "first_name": "HCM Customer 12",
+            "last_name": "",
+            "avatar": "HC"
+          },
+          "is_routing": 1
+        },
+        {
+          "job_state": "active",
+          "map_tiles": [
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 13 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 5"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_address_1",
+              "value": "120 Nguyen Trai"
+            },
+            {
+              "field": "service_city",
+              "value": "Thanh pho Ho Chi Minh"
+            },
+            {
+              "field": "service_state",
+              "value": "Ho Chi Minh"
+            },
+            {
+              "field": "service_zip",
+              "value": "54401"
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "job_tiles": [
+            {
+              "field": "calendar_time",
+              "value": "11:53am - 12:53pm"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 13 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 5"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "invoice_total",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "tile": {
+            "header": "11:53am - 12:53pm",
+            "content": [
+              "HCM Customer 13  ",
+              "Location Quan 5 ",
+              "Initial Service"
+            ]
+          },
+          "job": {
+            "id": "101505",
+            "name": "Initial Service",
+            "locked": 0,
+            "parent_job_id": "101505",
+            "job_no": 0,
+            "previously_completed": 0,
+            "status": 0,
+            "custom_status_id": null,
+            "status_type": 0,
+            "recurrence": "",
+            "emoji": [],
+            "service_id": "2539",
+            "service_name": "Initial Service"
+          },
+          "active_event": true,
+          "event": {
+            "id": "101472",
+            "current_parent_event": "0",
+            "start": "2026-10-15T11:53:00+00:00",
+            "end": "2026-10-15T12:53:00+00:00",
+            "repeat": 0,
+            "length": 60,
+            "tw_template_id": null,
+            "time_window": ":",
+            "locked": 0
+          },
+          "is_workpool": false,
+          "color": {
+            "text": "black",
+            "background": "#d0d0d0",
+            "border": "#686868"
+          },
+          "schedule": {
+            "id": "249",
+            "primary_id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "tech_name": "lam 1",
+            "primary": {
+              "id": "249",
+              "name": "lam 1",
+              "user_id": "84361397"
+            }
+          },
+          "show_map": 1,
+          "date_label": "10-15-2026",
+          "all_day": false,
+          "draft_invoice": 0,
+          "active_job": 1,
+          "circle_notify": 0,
+          "location": {
+            "id": "1894",
+            "name": "Location Quan 5",
+            "street1": "120 Nguyen Trai",
+            "street2": "Phuong 3",
+            "city": "Thanh pho Ho Chi Minh",
+            "state": "Ho Chi Minh",
+            "zip": "54401",
+            "lat": "10.7589",
+            "lng": "106.6715",
+            "note": "Khu vuc Quan 5"
+          },
+          "type": "job",
+          "customer": {
+            "id": "1579",
+            "full_name": "HCM Customer 13",
+            "first_name": "HCM Customer 13",
+            "last_name": "",
+            "avatar": "HC"
+          },
+          "is_routing": 1
+        },
+        {
+          "job_state": "active",
+          "map_tiles": [
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 14 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 5"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_address_1",
+              "value": "88 An Duong Vuong"
+            },
+            {
+              "field": "service_city",
+              "value": "Thanh pho Ho Chi Minh"
+            },
+            {
+              "field": "service_state",
+              "value": "Ho Chi Minh"
+            },
+            {
+              "field": "service_zip",
+              "value": "54401"
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "job_tiles": [
+            {
+              "field": "calendar_time",
+              "value": "12:55 - 1:55pm"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 14 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 5"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "invoice_total",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "tile": {
+            "header": "12:55 - 1:55pm",
+            "content": [
+              "HCM Customer 14  ",
+              "Location Quan 5 ",
+              "Initial Service"
+            ]
+          },
+          "job": {
+            "id": "101506",
+            "name": "Initial Service",
+            "locked": 0,
+            "parent_job_id": "101506",
+            "job_no": 0,
+            "previously_completed": 0,
+            "status": 0,
+            "custom_status_id": null,
+            "status_type": 0,
+            "recurrence": "",
+            "emoji": [],
+            "service_id": "2539",
+            "service_name": "Initial Service"
+          },
+          "active_event": true,
+          "event": {
+            "id": "101473",
+            "current_parent_event": "0",
+            "start": "2026-10-15T12:55:00+00:00",
+            "end": "2026-10-15T13:55:00+00:00",
+            "repeat": 0,
+            "length": 60,
+            "tw_template_id": null,
+            "time_window": ":",
+            "locked": 0
+          },
+          "is_workpool": false,
+          "color": {
+            "text": "black",
+            "background": "#d0d0d0",
+            "border": "#686868"
+          },
+          "schedule": {
+            "id": "249",
+            "primary_id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "tech_name": "lam 1",
+            "primary": {
+              "id": "249",
+              "name": "lam 1",
+              "user_id": "84361397"
+            }
+          },
+          "show_map": 1,
+          "date_label": "10-15-2026",
+          "all_day": false,
+          "draft_invoice": 0,
+          "active_job": 1,
+          "circle_notify": 0,
+          "location": {
+            "id": "1895",
+            "name": "Location Quan 5",
+            "street1": "88 An Duong Vuong",
+            "street2": "Phuong 9",
+            "city": "Thanh pho Ho Chi Minh",
+            "state": "Ho Chi Minh",
+            "zip": "54401",
+            "lat": "10.7562",
+            "lng": "106.675",
+            "note": "Khu vuc Quan 5"
+          },
+          "type": "job",
+          "customer": {
+            "id": "1580",
+            "full_name": "HCM Customer 14",
+            "first_name": "HCM Customer 14",
+            "last_name": "",
+            "avatar": "HC"
+          },
+          "is_routing": 1
+        },
+        {
+          "job_state": "active",
+          "map_tiles": [
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 30 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 5"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_address_1",
+              "value": "200 Tran Hung Dao"
+            },
+            {
+              "field": "service_city",
+              "value": "Thanh pho Ho Chi Minh"
+            },
+            {
+              "field": "service_state",
+              "value": "Ho Chi Minh"
+            },
+            {
+              "field": "service_zip",
+              "value": "54401"
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "job_tiles": [
+            {
+              "field": "calendar_time",
+              "value": "1:58 - 2:58pm"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 30 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 5"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "invoice_total",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "tile": {
+            "header": "1:58 - 2:58pm",
+            "content": [
+              "HCM Customer 30  ",
+              "Location Quan 5 ",
+              "Initial Service"
+            ]
+          },
+          "job": {
+            "id": "101523",
+            "name": "Initial Service",
+            "locked": 0,
+            "parent_job_id": "101523",
+            "job_no": 0,
+            "previously_completed": 0,
+            "status": 0,
+            "custom_status_id": null,
+            "status_type": 0,
+            "recurrence": "",
+            "emoji": [],
+            "service_id": "2539",
+            "service_name": "Initial Service"
+          },
+          "active_event": true,
+          "event": {
+            "id": "101490",
+            "current_parent_event": "0",
+            "start": "2026-10-15T13:58:00+00:00",
+            "end": "2026-10-15T14:58:00+00:00",
+            "repeat": 0,
+            "length": 60,
+            "tw_template_id": null,
+            "time_window": ":",
+            "locked": 0
+          },
+          "is_workpool": false,
+          "color": {
+            "text": "black",
+            "background": "#d0d0d0",
+            "border": "#686868"
+          },
+          "schedule": {
+            "id": "249",
+            "primary_id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "tech_name": "lam 1",
+            "primary": {
+              "id": "249",
+              "name": "lam 1",
+              "user_id": "84361397"
+            }
+          },
+          "show_map": 1,
+          "date_label": "10-15-2026",
+          "all_day": false,
+          "draft_invoice": 0,
+          "active_job": 1,
+          "circle_notify": 0,
+          "location": {
+            "id": "1911",
+            "name": "Location Quan 5",
+            "street1": "200 Tran Hung Dao",
+            "street2": "Phuong 11",
+            "city": "Thanh pho Ho Chi Minh",
+            "state": "Ho Chi Minh",
+            "zip": "54401",
+            "lat": "10.753",
+            "lng": "106.665",
+            "note": "Khu vuc Quan 5"
+          },
+          "type": "job",
+          "customer": {
+            "id": "1596",
+            "full_name": "HCM Customer 30",
+            "first_name": "HCM Customer 30",
+            "last_name": "",
+            "avatar": "HC"
+          },
+          "is_routing": 1
+        },
+        {
+          "job_state": "active",
+          "map_tiles": [
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 20 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 11"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_address_1",
+              "value": "86 Lac Long Quan"
+            },
+            {
+              "field": "service_city",
+              "value": "Thanh pho Ho Chi Minh"
+            },
+            {
+              "field": "service_state",
+              "value": "Ho Chi Minh"
+            },
+            {
+              "field": "service_zip",
+              "value": "54401"
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "job_tiles": [
+            {
+              "field": "calendar_time",
+              "value": "3:03 - 3:48pm"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 20 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 11"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "invoice_total",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "tile": {
+            "header": "3:03 - 3:48pm",
+            "content": [
+              "HCM Customer 20  ",
+              "Location Quan 11 ",
+              "Initial Service"
+            ]
+          },
+          "job": {
+            "id": "101512",
+            "name": "Initial Service",
+            "locked": 0,
+            "parent_job_id": "101512",
+            "job_no": 0,
+            "previously_completed": 0,
+            "status": 1,
+            "custom_status_id": null,
+            "status_type": 1,
+            "recurrence": "",
+            "emoji": [],
+            "service_id": "2539",
+            "service_name": "Initial Service"
+          },
+          "active_event": true,
+          "event": {
+            "id": "101479",
+            "current_parent_event": "0",
+            "start": "2026-10-15T15:03:00+00:00",
+            "end": "2026-10-15T15:48:00+00:00",
+            "repeat": 0,
+            "length": 45,
+            "tw_template_id": null,
+            "time_window": ":",
+            "locked": 0
+          },
+          "is_workpool": false,
+          "color": {
+            "text": "black",
+            "background": "#c9e69a",
+            "border": "#96B90E"
+          },
+          "schedule": {
+            "id": "249",
+            "primary_id": "249",
+            "name": "lam 1",
+            "user_id": "84361397",
+            "tech_name": "lam 1",
+            "primary": {
+              "id": "249",
+              "name": "lam 1",
+              "user_id": "84361397"
+            }
+          },
+          "show_map": 1,
+          "date_label": "10-15-2026",
+          "all_day": false,
+          "draft_invoice": 0,
+          "active_job": 1,
+          "circle_notify": 0,
+          "location": {
+            "id": "1901",
+            "name": "Location Quan 11",
+            "street1": "86 Lac Long Quan",
+            "street2": "Phuong 3",
+            "city": "Thanh pho Ho Chi Minh",
+            "state": "Ho Chi Minh",
+            "zip": "54401",
+            "lat": "10.768",
+            "lng": "106.651",
+            "note": "Khu vuc Quan 11"
+          },
+          "type": "job",
+          "customer": {
+            "id": "1586",
+            "full_name": "HCM Customer 20",
+            "first_name": "HCM Customer 20",
+            "last_name": "",
+            "avatar": "HC"
+          },
+          "is_routing": 1
+        }
+      ]
+    },
+    {
+      "type": "progress",
+      "message": "Optimizing routes..."
+    },
+    {
+      "type": "progress",
+      "message": "Building route matrix..."
+    },
+    {
+      "type": "progress",
+      "message": "Optimizing routes..."
+    },
+    {
+      "type": "progress",
+      "message": "Optimizing routes..."
+    },
+    {
+      "type": "progress",
+      "message": "Building route details..."
+    },
+    {
+      "scope": "optimized",
+      "type": "jobs",
+      "data": [
+        {
+          "job_state": "active",
+          "map_tiles": [
+            {
+              "field": "customer_name",
+              "value": "location "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Los Angeles"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_address_1",
+              "value": "Đường Thành Thái"
+            },
+            {
+              "field": "service_city",
+              "value": "Thành phố Hồ Chí Minh"
+            },
+            {
+              "field": "service_state",
+              "value": "Hồ Chí Minh"
+            },
+            {
+              "field": "service_zip",
+              "value": "550000"
+            },
+            {
+              "field": "service_type",
+              "value": "Bi-Monthly Service"
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "job_tiles": [
+            {
+              "field": "calendar_time",
+              "value": "8 - 9:45am"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "customer_name",
+              "value": "location "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Los Angeles"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_type",
+              "value": "Bi-Monthly Service"
+            },
+            {
+              "field": "invoice_total",
+              "value": "$65.00"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "tile": {
+            "header": "8 - 9:45am",
+            "content": [
+              "location  ",
+              "Los Angeles ",
+              "Bi-Monthly Service $65.00"
+            ]
+          },
+          "job": {
+            "id": "27604",
+            "name": "Bi-Monthly Service",
+            "locked": 0,
+            "parent_job_id": "27604",
+            "job_no": 0,
+            "previously_completed": 1,
+            "status": 3,
+            "custom_status_id": null,
+            "status_type": 3,
+            "recurrence": "",
+            "emoji": [],
+            "service_id": "2537",
+            "service_name": "Bi-Monthly Service"
+          },
+          "active_event": true,
+          "event": {
+            "id": "27604",
+            "current_parent_event": "0",
+            "start": "2026-10-15T08:00:00+00:00",
+            "end": "2026-10-15T09:45:00+00:00",
+            "repeat": 1,
+            "length": 105,
+            "tw_template_id": 0,
+            "time_window": "171:1011",
+            "locked": 0
+          },
+          "is_workpool": false,
+          "color": {
+            "text": "black",
+            "background": "#ffa500",
+            "border": "#E99B09"
+          },
+          "schedule": {
+            "id": 249,
+            "primary_id": "249",
+            "name": "lam 1",
+            "user_id": 84361397,
+            "tech_name": "lam 1",
+            "primary": {
+              "id": "249",
+              "name": "lam 1",
+              "user_id": "84361397"
+            }
+          },
+          "show_map": 1,
+          "date_label": "10-15-2026",
+          "all_day": false,
+          "draft_invoice": 0,
+          "active_job": 1,
+          "circle_notify": 0,
+          "location": {
+            "id": "1145",
+            "name": "Los Angeles",
+            "street1": "Đường Thành Thái",
+            "street2": "",
+            "city": "Thành phố Hồ Chí Minh",
+            "state": "Hồ Chí Minh",
+            "zip": "550000",
+            "lat": "10.7750244",
+            "lng": "106.6641406",
+            "note": ""
+          },
+          "type": "job",
+          "customer": {
+            "id": "1099",
+            "full_name": "location",
+            "first_name": "location",
+            "last_name": "",
+            "avatar": "l"
+          },
+          "is_routing": 1
+        },
+        {
+          "job_state": "active",
+          "map_tiles": [
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 24 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 10"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_address_1",
+              "value": "500 Su Van Hanh"
+            },
+            {
+              "field": "service_city",
+              "value": "Thanh pho Ho Chi Minh"
+            },
+            {
+              "field": "service_state",
+              "value": "Ho Chi Minh"
+            },
+            {
+              "field": "service_zip",
+              "value": "54401"
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "job_tiles": [
+            {
+              "field": "calendar_time",
+              "value": "9:47 - 10:47am"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 24 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 10"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "invoice_total",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "tile": {
+            "header": "9:47 - 10:47am",
+            "content": [
+              "HCM Customer 24  ",
+              "Location Quan 10 ",
+              "Initial Service"
+            ]
+          },
+          "job": {
+            "id": "101517",
+            "name": "Initial Service",
+            "locked": 0,
+            "parent_job_id": "101517",
+            "job_no": 0,
+            "previously_completed": 0,
+            "status": 1,
+            "custom_status_id": null,
+            "status_type": 1,
+            "recurrence": "",
+            "emoji": [],
+            "service_id": "2539",
+            "service_name": "Initial Service"
+          },
+          "active_event": true,
+          "event": {
+            "id": "101484",
+            "current_parent_event": "0",
+            "start": "2026-10-15T09:47:00+00:00",
+            "end": "2026-10-15T10:47:00+00:00",
+            "repeat": 0,
+            "length": 60,
+            "tw_template_id": null,
+            "time_window": ":",
+            "locked": 0
+          },
+          "is_workpool": false,
+          "color": {
+            "text": "black",
+            "background": "#c9e69a",
+            "border": "#96B90E"
+          },
+          "schedule": {
+            "id": 249,
+            "primary_id": "249",
+            "name": "lam 1",
+            "user_id": 84361397,
+            "tech_name": "lam 1",
+            "primary": {
+              "id": "249",
+              "name": "lam 1",
+              "user_id": "84361397"
+            }
+          },
+          "show_map": 1,
+          "date_label": "10-15-2026",
+          "all_day": false,
+          "draft_invoice": 0,
+          "active_job": 1,
+          "circle_notify": 0,
+          "location": {
+            "id": "1905",
+            "name": "Location Quan 10",
+            "street1": "500 Su Van Hanh",
+            "street2": "Phuong 12",
+            "city": "Thanh pho Ho Chi Minh",
+            "state": "Ho Chi Minh",
+            "zip": "54401",
+            "lat": "10.775",
+            "lng": "106.6675",
+            "note": "Khu vuc Quan 10"
+          },
+          "type": "job",
+          "customer": {
+            "id": "1590",
+            "full_name": "HCM Customer 24",
+            "first_name": "HCM Customer 24",
+            "last_name": "",
+            "avatar": "HC"
+          },
+          "is_routing": 1
+        },
+        {
+          "job_state": "active",
+          "map_tiles": [
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 12 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 10"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_address_1",
+              "value": "256 Ba Thang Hai"
+            },
+            {
+              "field": "service_city",
+              "value": "Thanh pho Ho Chi Minh"
+            },
+            {
+              "field": "service_state",
+              "value": "Ho Chi Minh"
+            },
+            {
+              "field": "service_zip",
+              "value": "54401"
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "job_tiles": [
+            {
+              "field": "calendar_time",
+              "value": "10:49 - 11:49am"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 12 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 10"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "invoice_total",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "tile": {
+            "header": "10:49 - 11:49am",
+            "content": [
+              "HCM Customer 12  ",
+              "Location Quan 10 ",
+              "Initial Service"
+            ]
+          },
+          "job": {
+            "id": "101504",
+            "name": "Initial Service",
+            "locked": 0,
+            "parent_job_id": "101504",
+            "job_no": 0,
+            "previously_completed": 0,
+            "status": 0,
+            "custom_status_id": null,
+            "status_type": 0,
+            "recurrence": "",
+            "emoji": [],
+            "service_id": "2539",
+            "service_name": "Initial Service"
+          },
+          "active_event": true,
+          "event": {
+            "id": "101471",
+            "current_parent_event": "0",
+            "start": "2026-10-15T10:49:00+00:00",
+            "end": "2026-10-15T11:49:00+00:00",
+            "repeat": 0,
+            "length": 60,
+            "tw_template_id": null,
+            "time_window": ":",
+            "locked": 0
+          },
+          "is_workpool": false,
+          "color": {
+            "text": "black",
+            "background": "#d0d0d0",
+            "border": "#686868"
+          },
+          "schedule": {
+            "id": 249,
+            "primary_id": "249",
+            "name": "lam 1",
+            "user_id": 84361397,
+            "tech_name": "lam 1",
+            "primary": {
+              "id": "249",
+              "name": "lam 1",
+              "user_id": "84361397"
+            }
+          },
+          "show_map": 1,
+          "date_label": "10-15-2026",
+          "all_day": false,
+          "draft_invoice": 0,
+          "active_job": 1,
+          "circle_notify": 0,
+          "location": {
+            "id": "1893",
+            "name": "Location Quan 10",
+            "street1": "256 Ba Thang Hai",
+            "street2": "Phuong 12",
+            "city": "Thanh pho Ho Chi Minh",
+            "state": "Ho Chi Minh",
+            "zip": "54401",
+            "lat": "10.7702",
+            "lng": "106.6698",
+            "note": "Khu vuc Quan 10"
+          },
+          "type": "job",
+          "customer": {
+            "id": "1578",
+            "full_name": "HCM Customer 12",
+            "first_name": "HCM Customer 12",
+            "last_name": "",
+            "avatar": "HC"
+          },
+          "is_routing": 1
+        },
+        {
+          "job_state": "active",
+          "map_tiles": [
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 13 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 5"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_address_1",
+              "value": "120 Nguyen Trai"
+            },
+            {
+              "field": "service_city",
+              "value": "Thanh pho Ho Chi Minh"
+            },
+            {
+              "field": "service_state",
+              "value": "Ho Chi Minh"
+            },
+            {
+              "field": "service_zip",
+              "value": "54401"
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "job_tiles": [
+            {
+              "field": "calendar_time",
+              "value": "11:53am - 12:53pm"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 13 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 5"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "invoice_total",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "tile": {
+            "header": "11:53am - 12:53pm",
+            "content": [
+              "HCM Customer 13  ",
+              "Location Quan 5 ",
+              "Initial Service"
+            ]
+          },
+          "job": {
+            "id": "101505",
+            "name": "Initial Service",
+            "locked": 0,
+            "parent_job_id": "101505",
+            "job_no": 0,
+            "previously_completed": 0,
+            "status": 0,
+            "custom_status_id": null,
+            "status_type": 0,
+            "recurrence": "",
+            "emoji": [],
+            "service_id": "2539",
+            "service_name": "Initial Service"
+          },
+          "active_event": true,
+          "event": {
+            "id": "101472",
+            "current_parent_event": "0",
+            "start": "2026-10-15T11:53:00+00:00",
+            "end": "2026-10-15T12:53:00+00:00",
+            "repeat": 0,
+            "length": 60,
+            "tw_template_id": null,
+            "time_window": ":",
+            "locked": 0
+          },
+          "is_workpool": false,
+          "color": {
+            "text": "black",
+            "background": "#d0d0d0",
+            "border": "#686868"
+          },
+          "schedule": {
+            "id": 249,
+            "primary_id": "249",
+            "name": "lam 1",
+            "user_id": 84361397,
+            "tech_name": "lam 1",
+            "primary": {
+              "id": "249",
+              "name": "lam 1",
+              "user_id": "84361397"
+            }
+          },
+          "show_map": 1,
+          "date_label": "10-15-2026",
+          "all_day": false,
+          "draft_invoice": 0,
+          "active_job": 1,
+          "circle_notify": 0,
+          "location": {
+            "id": "1894",
+            "name": "Location Quan 5",
+            "street1": "120 Nguyen Trai",
+            "street2": "Phuong 3",
+            "city": "Thanh pho Ho Chi Minh",
+            "state": "Ho Chi Minh",
+            "zip": "54401",
+            "lat": "10.7589",
+            "lng": "106.6715",
+            "note": "Khu vuc Quan 5"
+          },
+          "type": "job",
+          "customer": {
+            "id": "1579",
+            "full_name": "HCM Customer 13",
+            "first_name": "HCM Customer 13",
+            "last_name": "",
+            "avatar": "HC"
+          },
+          "is_routing": 1
+        },
+        {
+          "job_state": "active",
+          "map_tiles": [
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 14 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 5"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_address_1",
+              "value": "88 An Duong Vuong"
+            },
+            {
+              "field": "service_city",
+              "value": "Thanh pho Ho Chi Minh"
+            },
+            {
+              "field": "service_state",
+              "value": "Ho Chi Minh"
+            },
+            {
+              "field": "service_zip",
+              "value": "54401"
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "job_tiles": [
+            {
+              "field": "calendar_time",
+              "value": "12:55 - 1:55pm"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 14 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 5"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "invoice_total",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "tile": {
+            "header": "12:55 - 1:55pm",
+            "content": [
+              "HCM Customer 14  ",
+              "Location Quan 5 ",
+              "Initial Service"
+            ]
+          },
+          "job": {
+            "id": "101506",
+            "name": "Initial Service",
+            "locked": 0,
+            "parent_job_id": "101506",
+            "job_no": 0,
+            "previously_completed": 0,
+            "status": 0,
+            "custom_status_id": null,
+            "status_type": 0,
+            "recurrence": "",
+            "emoji": [],
+            "service_id": "2539",
+            "service_name": "Initial Service"
+          },
+          "active_event": true,
+          "event": {
+            "id": "101473",
+            "current_parent_event": "0",
+            "start": "2026-10-15T12:55:00+00:00",
+            "end": "2026-10-15T13:55:00+00:00",
+            "repeat": 0,
+            "length": 60,
+            "tw_template_id": null,
+            "time_window": ":",
+            "locked": 0
+          },
+          "is_workpool": false,
+          "color": {
+            "text": "black",
+            "background": "#d0d0d0",
+            "border": "#686868"
+          },
+          "schedule": {
+            "id": 249,
+            "primary_id": "249",
+            "name": "lam 1",
+            "user_id": 84361397,
+            "tech_name": "lam 1",
+            "primary": {
+              "id": "249",
+              "name": "lam 1",
+              "user_id": "84361397"
+            }
+          },
+          "show_map": 1,
+          "date_label": "10-15-2026",
+          "all_day": false,
+          "draft_invoice": 0,
+          "active_job": 1,
+          "circle_notify": 0,
+          "location": {
+            "id": "1895",
+            "name": "Location Quan 5",
+            "street1": "88 An Duong Vuong",
+            "street2": "Phuong 9",
+            "city": "Thanh pho Ho Chi Minh",
+            "state": "Ho Chi Minh",
+            "zip": "54401",
+            "lat": "10.7562",
+            "lng": "106.675",
+            "note": "Khu vuc Quan 5"
+          },
+          "type": "job",
+          "customer": {
+            "id": "1580",
+            "full_name": "HCM Customer 14",
+            "first_name": "HCM Customer 14",
+            "last_name": "",
+            "avatar": "HC"
+          },
+          "is_routing": 1
+        },
+        {
+          "job_state": "active",
+          "map_tiles": [
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 30 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 5"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_address_1",
+              "value": "200 Tran Hung Dao"
+            },
+            {
+              "field": "service_city",
+              "value": "Thanh pho Ho Chi Minh"
+            },
+            {
+              "field": "service_state",
+              "value": "Ho Chi Minh"
+            },
+            {
+              "field": "service_zip",
+              "value": "54401"
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "job_tiles": [
+            {
+              "field": "calendar_time",
+              "value": "1:58 - 2:58pm"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 30 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 5"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "invoice_total",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "tile": {
+            "header": "1:58 - 2:58pm",
+            "content": [
+              "HCM Customer 30  ",
+              "Location Quan 5 ",
+              "Initial Service"
+            ]
+          },
+          "job": {
+            "id": "101523",
+            "name": "Initial Service",
+            "locked": 0,
+            "parent_job_id": "101523",
+            "job_no": 0,
+            "previously_completed": 0,
+            "status": 0,
+            "custom_status_id": null,
+            "status_type": 0,
+            "recurrence": "",
+            "emoji": [],
+            "service_id": "2539",
+            "service_name": "Initial Service"
+          },
+          "active_event": true,
+          "event": {
+            "id": "101490",
+            "current_parent_event": "0",
+            "start": "2026-10-15T13:58:00+00:00",
+            "end": "2026-10-15T14:58:00+00:00",
+            "repeat": 0,
+            "length": 60,
+            "tw_template_id": null,
+            "time_window": ":",
+            "locked": 0
+          },
+          "is_workpool": false,
+          "color": {
+            "text": "black",
+            "background": "#d0d0d0",
+            "border": "#686868"
+          },
+          "schedule": {
+            "id": 249,
+            "primary_id": "249",
+            "name": "lam 1",
+            "user_id": 84361397,
+            "tech_name": "lam 1",
+            "primary": {
+              "id": "249",
+              "name": "lam 1",
+              "user_id": "84361397"
+            }
+          },
+          "show_map": 1,
+          "date_label": "10-15-2026",
+          "all_day": false,
+          "draft_invoice": 0,
+          "active_job": 1,
+          "circle_notify": 0,
+          "location": {
+            "id": "1911",
+            "name": "Location Quan 5",
+            "street1": "200 Tran Hung Dao",
+            "street2": "Phuong 11",
+            "city": "Thanh pho Ho Chi Minh",
+            "state": "Ho Chi Minh",
+            "zip": "54401",
+            "lat": "10.753",
+            "lng": "106.665",
+            "note": "Khu vuc Quan 5"
+          },
+          "type": "job",
+          "customer": {
+            "id": "1596",
+            "full_name": "HCM Customer 30",
+            "first_name": "HCM Customer 30",
+            "last_name": "",
+            "avatar": "HC"
+          },
+          "is_routing": 1
+        },
+        {
+          "job_state": "active",
+          "map_tiles": [
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 20 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 11"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_address_1",
+              "value": "86 Lac Long Quan"
+            },
+            {
+              "field": "service_city",
+              "value": "Thanh pho Ho Chi Minh"
+            },
+            {
+              "field": "service_state",
+              "value": "Ho Chi Minh"
+            },
+            {
+              "field": "service_zip",
+              "value": "54401"
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "job_tiles": [
+            {
+              "field": "calendar_time",
+              "value": "3:03 - 3:48pm"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "customer_name",
+              "value": "HCM Customer 20 "
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "location_name",
+              "value": "Location Quan 11"
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "service_type",
+              "value": "Initial Service"
+            },
+            {
+              "field": "invoice_total",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            },
+            {
+              "field": "",
+              "value": ""
+            }
+          ],
+          "tile": {
+            "header": "3:03 - 3:48pm",
+            "content": [
+              "HCM Customer 20  ",
+              "Location Quan 11 ",
+              "Initial Service"
+            ]
+          },
+          "job": {
+            "id": "101512",
+            "name": "Initial Service",
+            "locked": 0,
+            "parent_job_id": "101512",
+            "job_no": 0,
+            "previously_completed": 0,
+            "status": 1,
+            "custom_status_id": null,
+            "status_type": 1,
+            "recurrence": "",
+            "emoji": [],
+            "service_id": "2539",
+            "service_name": "Initial Service"
+          },
+          "active_event": true,
+          "event": {
+            "id": "101479",
+            "current_parent_event": "0",
+            "start": "2026-10-15T15:03:00+00:00",
+            "end": "2026-10-15T15:48:00+00:00",
+            "repeat": 0,
+            "length": 45,
+            "tw_template_id": null,
+            "time_window": ":",
+            "locked": 0
+          },
+          "is_workpool": false,
+          "color": {
+            "text": "black",
+            "background": "#c9e69a",
+            "border": "#96B90E"
+          },
+          "schedule": {
+            "id": 249,
+            "primary_id": "249",
+            "name": "lam 1",
+            "user_id": 84361397,
+            "tech_name": "lam 1",
+            "primary": {
+              "id": "249",
+              "name": "lam 1",
+              "user_id": "84361397"
+            }
+          },
+          "show_map": 1,
+          "date_label": "10-15-2026",
+          "all_day": false,
+          "draft_invoice": 0,
+          "active_job": 1,
+          "circle_notify": 0,
+          "location": {
+            "id": "1901",
+            "name": "Location Quan 11",
+            "street1": "86 Lac Long Quan",
+            "street2": "Phuong 3",
+            "city": "Thanh pho Ho Chi Minh",
+            "state": "Ho Chi Minh",
+            "zip": "54401",
+            "lat": "10.768",
+            "lng": "106.651",
+            "note": "Khu vuc Quan 11"
+          },
+          "type": "job",
+          "customer": {
+            "id": "1586",
+            "full_name": "HCM Customer 20",
+            "first_name": "HCM Customer 20",
+            "last_name": "",
+            "avatar": "HC"
+          },
+          "is_routing": 1
+        }
+      ]
+    },
+    {
+      "type": "progress",
+      "message": "Finalizing routing evidence..."
+    },
+    {
+      "type": "progress",
+      "message": "Saving routing evidence..."
+    },
+    {
+      "type": "progress",
+      "message": "Routing evidence finalized."
+    },
+    {
+      "scope": "before",
+      "type": "drive_time",
+      "data": [
+        {
+          "start": "2026-10-15T09:45:00+00:00",
+          "end": "2026-10-15T09:47:00+00:00",
+          "job_id": "27604",
+          "schedule_id": "249",
+          "value": 2,
+          "unit": "minutes"
+        },
+        {
+          "start": "2026-10-15T10:47:00+00:00",
+          "end": "2026-10-15T10:49:00+00:00",
+          "job_id": "101517",
+          "schedule_id": "249",
+          "value": 2,
+          "unit": "minutes"
+        },
+        {
+          "start": "2026-10-15T11:49:00+00:00",
+          "end": "2026-10-15T11:53:00+00:00",
+          "job_id": "101504",
+          "schedule_id": "249",
+          "value": 4,
+          "unit": "minutes"
+        },
+        {
+          "start": "2026-10-15T12:53:00+00:00",
+          "end": "2026-10-15T12:55:00+00:00",
+          "job_id": "101505",
+          "schedule_id": "249",
+          "value": 2,
+          "unit": "minutes"
+        },
+        {
+          "start": "2026-10-15T13:55:00+00:00",
+          "end": "2026-10-15T13:58:00+00:00",
+          "job_id": "101506",
+          "schedule_id": "249",
+          "value": 3,
+          "unit": "minutes"
+        },
+        {
+          "start": "2026-10-15T14:58:00+00:00",
+          "end": "2026-10-15T15:03:00+00:00",
+          "job_id": "101523",
+          "schedule_id": "249",
+          "value": 5,
+          "unit": "minutes"
+        }
+      ]
+    },
+    {
+      "scope": "before",
+      "type": "downtime",
+      "data": []
+    },
+    {
+      "scope": "before",
+      "type": "route",
+      "data": {
+        "schedule_id": "249",
+        "day_label": "2026-10-15",
+        "polylines": [
+          "}nw`A}y_jSHCRGVIf@Mj@Q\\KLCHE\\IPEPGFCXIb@M",
+          "udw`A}}_jSI[m@wBc@{AOe@}@cD_@sAY_ASs@",
+          "mlw`A_r`jSaAf@MFQJ",
+          "oow`Acp`jS??",
+          "oow`Acp`jSPKLG`Ag@fAk@j@]RM|@e@xBaAx@]LGf@St@_@HCt@]lBw@nD}A^S",
+          "iqv`AeaajSv@fB",
+          "qov`A}}`jS??",
+          "qov`A}}`jSw@gB",
+          "iqv`AeaajSp@[x@]JE",
+          "qmv`AecajSDN`AvB",
+          "ikv`A}~`jSFTXr@pAzCbA`CDF\\z@",
+          "mdv`Aqq`jS?D?D@DBDB@B@B?BAB?BABC@C?C",
+          "icv`Aeq`jSFKDIBKDO@K@e@BuA@mA?K@K?A@a@?E?K@[@y@@s@@W@a@ByA?Y@]?Y@Y@UBgB@e@@_@?G@o@?_@Bq@?C?UBiA@u@@I@GBK",
+          "s`v`AkxajSHCHGFGBE@G@I?I",
+          "o_v`AazajSHGDCLCp@SrDcAfBg@^I^MpD_ALEx@SXKFAl@O|@YTCjA[hBe@ZK",
+          "s~t`AmfbjSHP^p@JPJN~@|Ad@t@FJBD^j@DFvAlC@@@BxAdCJRJPvAfCDHjAtBBFl@dA@@",
+          "mjt`AugajS??",
+          "mjt`AugajSHN",
+          "cjt`AegajSTCNCbC[\\ERCnBWTCRCRAdACpBGd@ATAx@G\\Cd@G",
+          "grs`AyjajSKy@UiBKy@OkAEYEWQyACQEQEOc@mASm@",
+          "kws`A_~ajS_@LYBA?",
+          "gys`Am}ajS??",
+          "gys`Am}ajS@?XC^M",
+          "kws`A_~ajSRl@b@lADNDPBPPxADVDXNjAJx@ThBJx@",
+          "grs`AyjajS`@l@pAvAJJHL|AvCxAtDTb@bBrDDH`@|@P\\",
+          "qbs`Amq`jSDv@?F@\\@P@RDhA@T@VD~@Dz@@\\Bt@@N@V@h@@H",
+          "aas`Ae``jSkCJ",
+          "mes`Ay_`jS?P",
+          "mes`Ag_`jS??",
+          "mes`Ag_`jS?Q",
+          "mes`Ay_`jSjCK",
+          "aas`Ae``jSHzB@Z@ZDbADnA@^@JDpA@V@JD`A?LFfBBj@@V?T@lB?R?T?L?bA?Z?H?~@?XBrA?L",
+          "__s`A}y~iSWAaDZG@UD{Bh@SDSDeATe@Le@G]?gA?E@G@KDwABK@K?gAB_@@M@U?kBFoBFW?YEaAUUEICMCw@QOCICIAsBa@WA[?",
+          "kot`Akx~iSOJKFi@ZIFe@^OJKFMH_@TiAr@UNKFULQJwBhAQHOHQF]Je@X}@l@QJWPq@b@gBhAMJSLyDbCSLm@b@iAt@EBMHQJaBbAGDGDOJoCdBUPIDk@XoCrAsAp@WR",
+          "yhv`Aeq}iSI?MLCLAPANALEJCFAH?D@BDFNHF?JA",
+          "{hv`Aam}iSNJJHPTBDf@dAPXNTn@`A",
+          "ocv`Awe}iSf@Y",
+          "gbv`Aqf}iS??",
+          "gbv`Aqf}iSg@X",
+          "ocv`Awe}iSo@aAOUQYg@eACEO_@GSAU",
+          "ghv`A_n}iS?K@EFODG?ABI@MAIGKGEICKAI?",
+          "civ`Aeq}iSkACIDQCG?WCiBMaBIm@E",
+          "euv`Air}iSYMIIEGEUJ{AB]De@@IDq@Jy@B[HeA@KFs@H}@JqAHaADe@B]JkAFq@B_@Dm@D[FQB_@?EAI?MEU",
+          "arv`A{t~iSMSGKMKqGiHACu@}@KM}@cAWOqDaCKI[UUOIGIGwAgAOK_@WIGQKc@WGE{C{BECUQg@_@",
+          "evw`Agu_jSEK?M@IDMFMh@OTGn@S~@Wl@Q",
+          "}nw`A}y_jS??"
+        ]
+      }
+    },
+    {
+      "scope": "optimized",
+      "type": "drive_time",
+      "data": [
+        {
+          "start": "2026-10-15T09:45:00+00:00",
+          "end": "2026-10-15T09:47:00+00:00",
+          "job_id": "27604",
+          "schedule_id": "249",
+          "value": 2,
+          "unit": "minutes"
+        },
+        {
+          "start": "2026-10-15T10:47:00+00:00",
+          "end": "2026-10-15T10:49:00+00:00",
+          "job_id": "101517",
+          "schedule_id": "249",
+          "value": 2,
+          "unit": "minutes"
+        },
+        {
+          "start": "2026-10-15T11:49:00+00:00",
+          "end": "2026-10-15T11:53:00+00:00",
+          "job_id": "101504",
+          "schedule_id": "249",
+          "value": 4,
+          "unit": "minutes"
+        },
+        {
+          "start": "2026-10-15T12:53:00+00:00",
+          "end": "2026-10-15T12:55:00+00:00",
+          "job_id": "101505",
+          "schedule_id": "249",
+          "value": 2,
+          "unit": "minutes"
+        },
+        {
+          "start": "2026-10-15T13:55:00+00:00",
+          "end": "2026-10-15T13:58:00+00:00",
+          "job_id": "101506",
+          "schedule_id": "249",
+          "value": 3,
+          "unit": "minutes"
+        },
+        {
+          "start": "2026-10-15T14:58:00+00:00",
+          "end": "2026-10-15T15:03:00+00:00",
+          "job_id": "101523",
+          "schedule_id": "249",
+          "value": 5,
+          "unit": "minutes"
+        }
+      ]
+    },
+    {
+      "scope": "optimized",
+      "type": "downtime",
+      "data": []
+    },
+    {
+      "scope": "optimized",
+      "type": "route",
+      "data": {
+        "schedule_id": "249",
+        "day_label": "2026-10-15",
+        "polylines": [
+          "}nw`A}y_jSHCRGVIf@Mj@Q\\KLCHE\\IPEPGFCXIb@M",
+          "udw`A}}_jSI[m@wBc@{AOe@}@cD_@sAY_ASs@",
+          "mlw`A_r`jSaAf@MFQJ",
+          "oow`Acp`jS??",
+          "oow`Acp`jSPKLG`Ag@fAk@j@]RM|@e@xBaAx@]LGf@St@_@HCt@]lBw@nD}A^S",
+          "iqv`AeaajSv@fB",
+          "qov`A}}`jS??",
+          "qov`A}}`jSw@gB",
+          "iqv`AeaajSp@[x@]JE",
+          "qmv`AecajSDN`AvB",
+          "ikv`A}~`jSFTXr@pAzCbA`CDF\\z@",
+          "mdv`Aqq`jS?D?D@DBDB@B@B?BAB?BABC@C?C",
+          "icv`Aeq`jSFKDIBKDO@K@e@BuA@mA?K@K?A@a@?E?K@[@y@@s@@W@a@ByA?Y@]?Y@Y@UBgB@e@@_@?G@o@?_@Bq@?C?UBiA@u@@I@GBK",
+          "s`v`AkxajSHCHGFGBE@G@I?I",
+          "o_v`AazajSHGDCLCp@SrDcAfBg@^I^MpD_ALEx@SXKFAl@O|@YTCjA[hBe@ZK",
+          "s~t`AmfbjSHP^p@JPJN~@|Ad@t@FJBD^j@DFvAlC@@@BxAdCJRJPvAfCDHjAtBBFl@dA@@",
+          "mjt`AugajS??",
+          "mjt`AugajSHN",
+          "cjt`AegajSTCNCbC[\\ERCnBWTCRCRAdACpBGd@ATAx@G\\Cd@G",
+          "grs`AyjajSKy@UiBKy@OkAEYEWQyACQEQEOc@mASm@",
+          "kws`A_~ajS_@LYBA?",
+          "gys`Am}ajS??",
+          "gys`Am}ajS@?XC^M",
+          "kws`A_~ajSRl@b@lADNDPBPPxADVDXNjAJx@ThBJx@",
+          "grs`AyjajS`@l@pAvAJJHL|AvCxAtDTb@bBrDDH`@|@P\\",
+          "qbs`Amq`jSDv@?F@\\@P@RDhA@T@VD~@Dz@@\\Bt@@N@V@h@@H",
+          "aas`Ae``jSkCJ",
+          "mes`Ay_`jS?P",
+          "mes`Ag_`jS??",
+          "mes`Ag_`jS?Q",
+          "mes`Ay_`jSjCK",
+          "aas`Ae``jSHzB@Z@ZDbADnA@^@JDpA@V@JD`A?LFfBBj@@V?T@lB?R?T?L?bA?Z?H?~@?XBrA?L",
+          "__s`A}y~iSWAaDZG@UD{Bh@SDSDeATe@Le@G]?gA?E@G@KDwABK@K?gAB_@@M@U?kBFoBFW?YEaAUUEICMCw@QOCICIAsBa@WA[?",
+          "kot`Akx~iSOJKFi@ZIFe@^OJKFMH_@TiAr@UNKFULQJwBhAQHOHQF]Je@X}@l@QJWPq@b@gBhAMJSLyDbCSLm@b@iAt@EBMHQJaBbAGDGDOJoCdBUPIDk@XoCrAsAp@WR",
+          "yhv`Aeq}iSI?MLCLAPANALEJCFAH?D@BDFNHF?JA",
+          "{hv`Aam}iSNJJHPTBDf@dAPXNTn@`A",
+          "ocv`Awe}iSf@Y",
+          "gbv`Aqf}iS??",
+          "gbv`Aqf}iSg@X",
+          "ocv`Awe}iSo@aAOUQYg@eACEO_@GSAU",
+          "ghv`A_n}iS?K@EFODG?ABI@MAIGKGEICKAI?",
+          "civ`Aeq}iSkACIDQCG?WCiBMaBIm@E",
+          "euv`Air}iSYMIIEGEUJ{AB]De@@IDq@Jy@B[HeA@KFs@H}@JqAHaADe@B]JkAFq@B_@Dm@D[FQB_@?EAI?MEU",
+          "arv`A{t~iSMSGKMKqGiHACu@}@KM}@cAWOqDaCKI[UUOIGIGwAgAOK_@WIGQKc@WGE{C{BECUQg@_@",
+          "evw`Agu_jSEK?M@IDMFMh@OTGn@S~@Wl@Q",
+          "}nw`A}y_jS??"
+        ]
+      }
+    },
+    {
+      "scope": "daily",
+      "type": "stats",
+      "data": [
+        {
+          "schedule_id": "249",
+          "day_label": "2026-10-15",
+          "time_ratio": {
+            "work_time": {
+              "before": {
+                "value": 450,
+                "type": "minutes"
+              },
+              "after": {
+                "value": 450,
+                "type": "minutes"
+              },
+              "saved": {
+                "value": 0,
+                "type": "minutes"
+              },
+              "percent": 0
+            },
+            "drive_time": {
+              "before": {
+                "value": 17,
+                "type": "minutes"
+              },
+              "after": {
+                "value": 17,
+                "type": "minutes"
+              },
+              "saved": {
+                "value": 0,
+                "type": "minutes"
+              },
+              "percent": 0
+            },
+            "downtime": {
+              "before": {
+                "value": 4,
+                "type": "minutes"
+              },
+              "after": {
+                "value": 4,
+                "type": "minutes"
+              },
+              "saved": {
+                "value": 0,
+                "type": "minutes"
+              },
+              "percent": 0
+            }
+          },
+          "drive_time": {
+            "before": {
+              "value": 17,
+              "type": "minutes"
+            },
+            "after": {
+              "value": 17,
+              "type": "minutes"
+            },
+            "saved": {
+              "value": 0,
+              "type": "minutes"
+            },
+            "percent": 0
+          },
+          "distance": {
+            "before": {
+              "value": 7.01,
+              "type": "miles"
+            },
+            "after": {
+              "value": 7.01,
+              "type": "miles"
+            },
+            "saved": {
+              "value": 0,
+              "type": "miles"
+            },
+            "percent": 0
+          },
+          "fuel": {
+            "before": {
+              "value": 0.35,
+              "type": "gallons"
+            },
+            "after": {
+              "value": 0.35,
+              "type": "gallons"
+            },
+            "saved": {
+              "value": 0,
+              "type": "gallons"
+            },
+            "percent": 0
+          },
+          "jobs_assigned": {
+            "before": {
+              "value": 7,
+              "type": "jobs"
+            },
+            "after": {
+              "value": 7,
+              "type": "jobs"
+            },
+            "saved": {
+              "value": 0,
+              "type": "jobs"
+            },
+            "percent": 0
+          },
+          "delays": {
+            "before": {
+              "value": 0,
+              "type": "jobs"
+            },
+            "after": {
+              "value": 0,
+              "type": "jobs"
+            },
+            "saved": {
+              "value": 0,
+              "type": "jobs"
+            },
+            "percent": 0
+          },
+          "expected_payments": {
+            "before": {
+              "value": 65,
+              "type": "USD"
+            },
+            "after": {
+              "value": 65,
+              "type": "USD"
+            },
+            "saved": {
+              "value": 0,
+              "type": "USD"
+            },
+            "percent": 0,
+            "currency": "USD"
+          },
+          "total_saved": {
+            "before": {
+              "value": 1.52,
+              "type": "USD"
+            },
+            "after": {
+              "value": 1.52,
+              "type": "USD"
+            },
+            "saved": {
+              "value": 0,
+              "type": "USD"
+            },
+            "percent": 0,
+            "currency": "USD",
+            "value": 0,
+            "type": "USD",
+            "fuel_price": 4.354,
+            "fuel_price_as_of": "2026-10-05",
+            "fuel_price_source": "eia"
+          }
+        }
+      ]
+    },
+    {
+      "scope": "total",
+      "type": "stats",
+      "data": {
+        "time_ratio": {
+          "work_time": {
+            "before": {
+              "value": 450,
+              "type": "minutes"
+            },
+            "after": {
+              "value": 450,
+              "type": "minutes"
+            },
+            "saved": {
+              "value": 0,
+              "type": "minutes"
+            },
+            "percent": 0
+          },
+          "drive_time": {
+            "before": {
+              "value": 17,
+              "type": "minutes"
+            },
+            "after": {
+              "value": 17,
+              "type": "minutes"
+            },
+            "saved": {
+              "value": 0,
+              "type": "minutes"
+            },
+            "percent": 0
+          },
+          "downtime": {
+            "before": {
+              "value": 4,
+              "type": "minutes"
+            },
+            "after": {
+              "value": 4,
+              "type": "minutes"
+            },
+            "saved": {
+              "value": 0,
+              "type": "minutes"
+            },
+            "percent": 0
+          }
+        },
+        "drive_time": {
+          "before": {
+            "value": 17,
+            "type": "minutes"
+          },
+          "after": {
+            "value": 17,
+            "type": "minutes"
+          },
+          "saved": {
+            "value": 0,
+            "type": "minutes"
+          },
+          "percent": 0
+        },
+        "distance": {
+          "before": {
+            "value": 7.01,
+            "type": "miles"
+          },
+          "after": {
+            "value": 7.01,
+            "type": "miles"
+          },
+          "saved": {
+            "value": 0,
+            "type": "miles"
+          },
+          "percent": 0
+        },
+        "fuel": {
+          "before": {
+            "value": 0.35,
+            "type": "gallons"
+          },
+          "after": {
+            "value": 0.35,
+            "type": "gallons"
+          },
+          "saved": {
+            "value": 0,
+            "type": "gallons"
+          },
+          "percent": 0
+        },
+        "jobs_assigned": {
+          "before": {
+            "value": 7,
+            "type": "jobs"
+          },
+          "after": {
+            "value": 7,
+            "type": "jobs"
+          },
+          "saved": {
+            "value": 0,
+            "type": "jobs"
+          },
+          "percent": 0
+        },
+        "delays": {
+          "before": {
+            "value": 0,
+            "type": "jobs"
+          },
+          "after": {
+            "value": 0,
+            "type": "jobs"
+          },
+          "saved": {
+            "value": 0,
+            "type": "jobs"
+          },
+          "percent": 0
+        },
+        "expected_payments": {
+          "before": {
+            "value": 65,
+            "type": "USD"
+          },
+          "after": {
+            "value": 65,
+            "type": "USD"
+          },
+          "saved": {
+            "value": 0,
+            "type": "USD"
+          },
+          "percent": 0,
+          "currency": "USD"
+        },
+        "total_saved": {
+          "before": {
+            "value": 1.52,
+            "type": "USD"
+          },
+          "after": {
+            "value": 1.52,
+            "type": "USD"
+          },
+          "saved": {
+            "value": 0,
+            "type": "USD"
+          },
+          "percent": 0,
+          "currency": "USD",
+          "value": 0,
+          "type": "USD",
+          "fuel_price": 4.354,
+          "fuel_price_as_of": "2026-10-05",
+          "fuel_price_source": "eia"
+        }
+      }
+    },
+    {
+      "type": "completed",
+      "success": true,
+      "message": [],
+      "optimization_id": "opt_sandbox_dd029cfbcfa68389b39b20af6dbe4aff"
+    }
+  ]
+}

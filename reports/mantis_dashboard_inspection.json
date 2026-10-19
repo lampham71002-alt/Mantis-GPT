@@ -1,0 +1,123 @@
+{
+  "url": "https://r2.gdesk.io/GD1LK8RC5OH0/mantis/dashboard",
+  "title": "GorillaDesk - Mantis AI",
+  "apiCalls": [
+    {
+      "method": "GET",
+      "url": "https://cdn.gorilladesk.com/assets/images/menu-mantis.webp"
+    },
+    {
+      "method": "GET",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/mantis/dashboard"
+    },
+    {
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-5CZY96S4P9&gtm=45je6a72h1v9183468932za20ozb78438394zd78438394xf1&_p=1791596981962&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1393063670&_eu=AAAAAGQC&_geo=1&_rdi=1&cid=95047204.1791596975&ec_mode=a&frm=0&pscdl=noapi&rcb=7&ul=en-us&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791596974&sct=1&seg=1&dl=https%3A%2F%2Fr2.gdesk.io%2FGD1LK8RC5OH0%2Fmantis%2Fdashboard&dt=GorillaDesk&en=page_view&tfd=755"
+    },
+    {
+      "method": "GET",
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1000854691/?random=1791596982037&cv=11&fst=1791596982037&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a72h1v9188724468za20ozb78438394zd78438394xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fr2.gdesk.io%2FGD1LK8RC5OH0%2Fmantis%2Fdashboard&rcb=14&frm=0&tiba=GorillaDesk&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=537140587.1791596975&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/rmkt/collect/1000854691/?random=1791596982037&cv=11&fst=1791596982037&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a72h1v9188724468za20ozb78438394zd78438394xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fr2.gdesk.io%2FGD1LK8RC5OH0%2Fmantis%2Fdashboard&rcb=14&frm=0&tiba=GorillaDesk&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=537140587.1791596975&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=1&auid=537140587.1791596975&dt=GorillaDesk&tid=AW-1000854691&en=page_view&dl=https%3A%2F%2Fr2.gdesk.io%2FGD1LK8RC5OH0%2Fmantis%2Fdashboard&scrsrc=www.googletagmanager.com&rnd=1927644788.1791596982&navt=n&npa=0&gtm=45be6a72h1v9188724468za20ozb78438394zd78438394xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791596982048&tfd=796&tids=AW-1000854691&fmt=8"
+    },
+    {
+      "method": "GET",
+      "url": "https://bat.bing.net/action/0?ti=187136549&tm=gtm002&Ver=2&mid=9ceec3cb-0f1d-43ab-80d9-58eeddb07a58&bo=2&uach=pv%3D19.0.0&pi=0&lg=en-US&sw=1440&sh=900&sc=24&nwd=1&tl=GorillaDesk&p=https%3A%2F%2Fr2.gdesk.io%2FGD1LK8RC5OH0%2Fmantis%2Fdashboard&r=&lt=1238&evt=pageLoad&sv=2&asc=D&cdb=AQAY&rn=911397"
+    },
+    {
+      "method": "GET",
+      "url": "https://www.google.com/pagead/1p-user-list/1000854691/?random=1791596982037&cv=11&fst=1791594000000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a72h1v9188724468za20ozb78438394zd78438394xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fr2.gdesk.io%2FGD1LK8RC5OH0%2Fmantis%2Fdashboard&rcb=14&frm=0&tiba=GorillaDesk&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=537140587.1791596975&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAQM4h3M8Es8KX6HvFDSSYFVGBRstrFZ9CwFSmDtLmfDM0XQDg5hT3YS5YP1Vm2-A9Ief-RrOgvYCYYpxIG98BecM6n4J1wW9bIajcztjjmgziWEPNrRU5Rjrsi3lPXbfAXFYq1-tWO1DbJAVWFieZVLrfYhiA2BwQoCWnx6-cg_9y5pJskm1pVTfPI6lCS7K6dvyHzsROJuuiFivwT6e25jrJyefvY0y6nt6ExLjJa8Vl1PiiZ-aIS5MHag39VIMjdS6ZLf44r1uHr7-iDZMSxEY9tRr5a832QAdKMY2rH-Bf&random=3790798652&rmt_tld=0&ipr=y"
+    },
+    {
+      "method": "GET",
+      "url": "https://www.google.com.vn/pagead/1p-user-list/1000854691/?random=1791596982037&cv=11&fst=1791594000000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a72h1v9188724468za20ozb78438394zd78438394xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fr2.gdesk.io%2FGD1LK8RC5OH0%2Fmantis%2Fdashboard&rcb=14&frm=0&tiba=GorillaDesk&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=537140587.1791596975&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAQM4h3M8Es8KX6HvFDSSYFVGBRstrFZ9CwFSmDtLmfDM0XQDg5hT3YS5YP1Vm2-A9Ief-RrOgvYCYYpxIG98BecM6n4J1wW9bIajcztjjmgziWEPNrRU5Rjrsi3lPXbfAXFYq1-tWO1DbJAVWFieZVLrfYhiA2BwQoCWnx6-cg_9y5pJskm1pVTfPI6lCS7K6dvyHzsROJuuiFivwT6e25jrJyefvY0y6nt6ExLjJa8Vl1PiiZ-aIS5MHag39VIMjdS6ZLf44r1uHr7-iDZMSxEY9tRr5a832QAdKMY2rH-Bf&random=3790798652&rmt_tld=1&ipr=y"
+    },
+    {
+      "method": "GET",
+      "url": "https://apiv2.gdesk.io/api/routing/mantis/stats/time-ratio?end=2026-10-10&schedule_ids=249&start=1970-01-01"
+    },
+    {
+      "method": "GET",
+      "url": "https://apiv2.gdesk.io/api/routing/mantis/stats/saved-mileage?end=2026-10-10&schedule_ids=249&start=1970-01-01"
+    },
+    {
+      "method": "GET",
+      "url": "https://apiv2.gdesk.io/api/routing/mantis/stats/saved-drive-time?end=2026-10-10&schedule_ids=249&start=1970-01-01"
+    },
+    {
+      "method": "GET",
+      "url": "https://apiv2.gdesk.io/api/routing/mantis/stats/completed-jobs-avg?end=2026-10-10&schedule_ids=249&start=1970-01-01"
+    },
+    {
+      "method": "GET",
+      "url": "https://apiv2.gdesk.io/api/routing/mantis/stats/downtime?end=2026-10-10&schedule_ids=249&start=1970-01-01"
+    },
+    {
+      "method": "GET",
+      "url": "https://apiv2.gdesk.io/api/routing/mantis/stats/delays?end=2026-10-10&schedule_ids=249&start=1970-01-01"
+    },
+    {
+      "method": "GET",
+      "url": "https://apiv2.gdesk.io/api/routing/mantis/stats/total-revenue?end=2026-10-10&schedule_ids=249&start=1970-01-01"
+    },
+    {
+      "method": "GET",
+      "url": "https://apiv2.gdesk.io/api/routing/mantis/stats/total-saved?end=2026-10-10&schedule_ids=249&start=1970-01-01"
+    },
+    {
+      "method": "GET",
+      "url": "https://apiv2.gdesk.io/api/routing/mantis/feeds/errors?end=2026-10-10T23%3A59%3A59%2B00%3A00&schedule_ids=249&start=1970-01-01T00%3A00%3A00%2B00%3A00"
+    },
+    {
+      "method": "GET",
+      "url": "https://apiv2.gdesk.io/api/routing/mantis/feeds/history?end=2026-10-10T23%3A59%3A59%2B00%3A00&schedule_ids=249&start=1970-01-01T00%3A00%3A00%2B00%3A00"
+    },
+    {
+      "method": "GET",
+      "url": "https://apiv2.gdesk.io/api/routing/mantis/widget?"
+    },
+    {
+      "method": "GET",
+      "url": "https://apiv2.gdesk.io/api/routing/mantis/feeds/errors/count?end=2026-10-31T23%3A59%3A59%2B00%3A00&start=2026-09-30T00%3A00%3A00%2B00%3A00"
+    },
+    {
+      "method": "GET",
+      "url": "https://apiv2.gdesk.io/api/routing/mantis/settings?"
+    },
+    {
+      "method": "GET",
+      "url": "https://apiv2.gdesk.io/api/routing/mantis/custom-rules/count?"
+    },
+    {
+      "method": "GET",
+      "url": "https://cdn.gorilladesk.com/assets/images/menu-mantis.webp"
+    },
+    {
+      "method": "GET",
+      "url": "https://test-gorilladesk.s3.us-west-2.amazonaws.com/assets/images/bg-mantis.webp"
+    },
+    {
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-5CZY96S4P9&gtm=45je6a72h1v9183468932za20gzb78438394zd78438394xf1&_p=1791596981962&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1393063670&_eu=AEAAAGQC&_geo=1&_rdi=1&ae=a&cid=95047204.1791596975&frm=0&pscdl=noapi&rcb=7&ul=en-us&gaf=2&_s=2&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791596974&sct=1&seg=1&dl=https%3A%2F%2Fr2.gdesk.io%2FGD1LK8RC5OH0%2Fmantis%2Fdashboard&dt=GorillaDesk&en=scroll&epn.percent_scrolled=90&_et=16&tfd=5780"
+    }
+  ],
+  "bodyTextSnippet": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/\n\nMantis AI\n\nALT+S\nHelp\nlam\n\nDashboard\n\nSandbox\n\nActivity Feed\n\n770\n\nChat With Mantis\n\nSystem Rules\n\nCustom Rules\n\nSpecific Rules\n\nRouting AI\n\nAutopilot On\n\nRun Time\n\n36days\n18:30:04\n\nDrive Time\n\nhours\n\n0\n\n1\n\n2\n\n,\n\n5\n\n8\n\n0\n\nDistance\n\nmiles\n\n0\n\n3\n\n7\n\n,\n\n5\n\n8\n\n3\n\nFuel\n\ngallons\n\n0\n\n0\n\n1\n\n,\n\n8\n\n7\n\n8\n\nTotal Saved\n\n$ USD\n\n0\n\n0\n\n0\n\n,\n\n2\n\n9\n\n1\n\nStop Autopilot AI\nAll Time\nToday\nAll Time\n\nTime Ratio\n\n142:39\nhours total\n\nWork Time\n\n82%\n\n116:58\n\nDrive Time\n\n4%\n\n5:16\n\nDowntime\n\n14%\n\n20:25\n\nSaved Mileage\n\n36,527.51\nmiles\n\nAll Time\n\n100% last year\n\nSaved Drive Time\n\n-240:55\nhours\n\nAll Time\n\n100% last year\n\nAverage Completed Jobs\n\n0\n/day\n\nAll Time\n\n100% last year\n\nDowntime\n\n20:25\nhours\n\nAll Time\n\n100% last year\n\nDelays\n\n0\n\nAll Time\n\n0% last year\n\nTotal Revenue\n\n$0.00\n\nAll Time\n\n0% last year\n\nTotal Saved\n\n$-807.47\n\nAll Time\n\n100% last year\n\nActivity Feed\n\nNo data\n\nHistory\n\nNo data",
+  "cards": [
+    "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/\n\nMantis AI\n\nALT+S\nHelp\nlam\n\nDashboard\n\nSandbox\n\nActivity Feed\n\n770\n\nChat With Mantis\n\nSystem Rules\n\nCustom Rule",
+    "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/\n\nMantis AI\n\nALT+S\nHelp\nlam\n\nDashboard\n\nSandbox\n\nActivity Feed\n\n770\n\nChat With Mantis\n\nSystem Rules\n\nCustom Rule",
+    "Dashboard\n\nSandbox\n\nActivity Feed\n\n770\n\nChat With Mantis\n\nSystem Rules\n\nCustom Rules\n\nSpecific Rules\n\nRouting AI\n\nAutopilot On\n\nRun Time\n\n36days\n18:30:04\n\nDrive Time\n\nhours\n\n0\n\n1\n\n2\n\n,\n\n5\n\n8\n\n0\n\nDista",
+    "Dashboard\n\nSandbox\n\nActivity Feed\n\n770\n\nChat With Mantis\n\nSystem Rules\n\nCustom Rules\n\nSpecific Rules\n\nRouting AI\n\nAutopilot On\n\nRun Time\n\n36days\n18:30:04\n\nDrive Time\n\nhours\n\n0\n\n1\n\n2\n\n,\n\n5\n\n8\n\n0\n\nDista",
+    "Routing AI\n\nAutopilot On\n\nRun Time\n\n36days\n18:30:04\n\nDrive Time\n\nhours\n\n0\n\n1\n\n2\n\n,\n\n5\n\n8\n\n0\n\nDistance\n\nmiles\n\n0\n\n3\n\n7\n\n,\n\n5\n\n8\n\n3\n\nFuel\n\ngallons\n\n0\n\n0\n\n1\n\n,\n\n8\n\n7\n\n8\n\nTotal Saved\n\n$ USD\n\n0\n\n0\n\n0\n\n,\n\n2",
+    "Routing AI\n\nAutopilot On\n\nRun Time\n\n36days\n18:30:04\n\nDrive Time\n\nhours\n\n0\n\n1\n\n2\n\n,\n\n5\n\n8\n\n0\n\nDistance\n\nmiles\n\n0\n\n3\n\n7\n\n,\n\n5\n\n8\n\n3\n\nFuel\n\ngallons\n\n0\n\n0\n\n1\n\n,\n\n8\n\n7\n\n8\n\nTotal Saved\n\n$ USD\n\n0\n\n0\n\n0\n\n,\n\n2",
+    "Run Time\n\n36days\n18:30:04",
+    "Drive Time\n\nhours\n\n0\n\n1\n\n2\n\n,\n\n5\n\n8\n\n0\n\nDistance\n\nmiles\n\n0\n\n3\n\n7\n\n,\n\n5\n\n8\n\n3\n\nFuel\n\ngallons\n\n0\n\n0\n\n1\n\n,\n\n8\n\n7\n\n8\n\nTotal Saved\n\n$ USD\n\n0\n\n0\n\n0\n\n,\n\n2\n\n9\n\n1",
+    "Drive Time\n\nhours\n\n0\n\n1\n\n2\n\n,\n\n5\n\n8\n\n0",
+    "Drive Time\n\nhours"
+  ]
+}

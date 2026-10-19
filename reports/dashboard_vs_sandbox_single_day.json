@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-11",
+  "calendarJobsCount": 9,
+  "calendarJobDetails": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "sandboxDayJobsCount": 5,
+  "sandboxDayJobDetails": [
+    {
+      "id": "27604",
+      "start": "2026-10-11T08:00:00+00:00"
+    },
+    {
+      "id": "101518",
+      "start": "2026-10-11T09:51:00+00:00"
+    },
+    {
+      "id": "101520",
+      "start": "2026-10-11T10:55:00+00:00"
+    },
+    {
+      "id": "101502",
+      "start": "2026-10-11T12:00:00+00:00"
+    },
+    {
+      "id": "101503",
+      "start": "2026-10-11T13:02:00+00:00"
+    }
+  ],
+  "dashboardStats": {
+    "timeRatio": {
+      "total_minutes": 533,
+      "work_time": {
+        "percent": 96,
+        "minutes": 510
+      },
+      "drive_time": {
+        "percent": 4,
+        "minutes": 21
+      },
+      "downtime": {
+        "percent": 0,
+        "minutes": 2
+      }
+    },
+    "savedMileage": {
+      "total_miles": 3.29,
+      "growth_percent": 100
+    },
+    "savedDriveTime": {
+      "total_minutes": 5,
+      "growth_percent": 100
+    },
+    "totalSaved": {
+      "total_saved": 3.32,
+      "currency": "USD",
+      "growth_percent": 100,
+      "data": [
+        {
+          "date": "2026-10-11",
+          "amount": 3.3200000000000003
+        }
+      ]
+    },
+    "downtime": {
+      "total_minutes": 2,
+      "growth_percent": 100
+    },
+    "delays": {
+      "total_delays": 0,
+      "growth_percent": 0
+    }
+  }
+}

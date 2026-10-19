@@ -1,0 +1,121 @@
+[
+  {
+    "stt": "1 & 6",
+    "caseName": "Case 5 — Lock + Exclude + Movement Limit & Nguyên nhân job biến mất",
+    "mappedTarget": "HCM Customer 13 (Ngày 15/10, 11:53am - 12:53pm, Schedule: lam 1)",
+    "ruleIds": [
+      "1990",
+      "1991"
+    ],
+    "status": "ĐÃ XÁC ĐỊNH 100% (PASS)",
+    "observedData": {
+      "withExcludeAndLock": "Trong dải 15/10->28/10 (kể cả ngày Fallback 27/10): HCM Customer 13 = Có ở gói before, Có ở gói optimized.",
+      "withLockOnlyNoExclude": "Khi bỏ Exclude (chỉ giữ Lock + Movement ±2): HCM Customer 13 xuất hiện lại ngay trên Sandbox tại 10-15-2026 10:38 - 11:38am (8/7 jobs)."
+    },
+    "rootCauseConclusion": "NGUYÊN NHÂN JOB BIẾN MẤT ĐÃ RÕ 100%: Dù text mô tả của AI viết \"Lock thắng Exclude\", nhưng khi mảng actions[] chứa cả exclude và lock, tầng Pre-Filter (Tầng 1) của Backend thực thi lệnh Exclude trước tiên — cắt bỏ job khỏi cả gói before lẫn gói optimized của Sandbox (trong khi trên Main Calendar job vẫn nằm nguyên ở lịch gốc, và hoàn toàn KHÔNG rơi vào ngày Fallback 27/10). Khi bỏ Exclude chỉ giữ Lock, job hiện lại ngay tại 11:53am - 12:53pm."
+  },
+  {
+    "stt": "2 & 8",
+    "caseName": "Case 8 — Prefer Tech + Arrival Duration 30 phút + Last Stop (2 dòng)",
+    "mappedTarget": "HCM Customer 24 (Ngày 15/10, gốc 09:47 - 10:47am, Schedule: lam 1)",
+    "ruleIds": [
+      "1992",
+      "1993"
+    ],
+    "status": "ĐÃ XÁC ĐỊNH 100% (PASS)",
+    "observedData": {
+      "normalRoute8A": "Khi các job buổi chiều tự do: HCM Customer 24 chuyển từ 09:47am xuống đúng Stop cuối cùng #8/8 (3:21 - 4:21pm) trên KTV lam 1.",
+      "blockedTailRoute8B": "Khi các job cuối chiều (Cust 30 lúc 1:58pm & Cust 20 lúc 3:03pm) bị khóa cứng (Lock/Confirmed): HCM Customer 24 chỉ lùi được tối đa tới Stop #8/8 (3:41 - 4:41pm) ngay trước các job bị khóa.",
+      "arrivalDurationVerification": "Action arrival_window (duration_min: 30, duration_sec: 1800) được biên dịch trong executable_logic; tuy nhiên response JSON của manual/optimize chỉ trả về event.start & event.end (thời lượng làm việc của dịch vụ) chứ UI/API Sandbox chưa có trường hiển thị cửa sổ đón khách (arrival_window_label)."
+    },
+    "rootCauseConclusion": "1) Giải mã lỗi đứng thứ 2/5: Last Stop là Soft Sequence Penalty (Tầng 4), nên nếu các job buổi chiều trong ngày đó đang bị khóa (Confirmed/Lock/Strict Window muộn), job Last Stop không thể vượt qua các chốt cứng đó và bị chặn ở vị trí sớm hơn. Khi gỡ khóa các job chiều (8A), HCM Customer 24 lập tức xuống đúng Stop #7/7 (2:49 - 3:49pm). 2) Prefer Tech lam 1 đạt 100%. 3) Arrival Duration 30m có lưu trong executable_logic nhưng API manual/optimize hiện chưa trả trường hiển thị arrival window lên thẻ UI."
+  },
+  {
+    "stt": "3",
+    "caseName": "Case 1 — Keep Week + Movement ±2 + Strict 08:00–12:00",
+    "mappedTarget": "HCM Customer 30 (Gốc: 10-15-2026 lúc 1:58 - 2:58pm chiều, Schedule: lam 1)",
+    "ruleIds": [
+      "1994"
+    ],
+    "status": "ĐÃ XÁC ĐỊNH 100% (PASS CẢ 3 HARD RULES)",
+    "observedData": {
+      "before": "10-15-2026 | 12:43 - 1:43pm (2026-10-15T12:43:00+00:00)",
+      "after": "10-16-2026 | 10:09 - 11:09am (2026-10-16T10:09:00+00:00)"
+    },
+    "rootCauseConclusion": "Khi chạy trên tập dữ liệu có khe trống khả thi buổi sáng (dải 6 ngày 12/10-17/10), HCM Customer 30 KHÔNG bị đẩy vào Fallback mà được xếp tại 10-16-2026 khung giờ 10:09 - 11:09am: (1) Thỏa mãn Strict 08:00-12:00 (dời từ 1:58pm chiều lên ca sáng), (2) Thỏa mãn Movement ±2 (độ lệch 0 ngày so với 15/10), (3) Thỏa mãn Keep Week (giữ nguyên trong tuần 12/10-17/10)."
+  },
+  {
+    "stt": "4",
+    "caseName": "Case 3 — Force Tech + Strict 09:00–11:00 + First Stop (Gỡ nhiễu Specific Rule)",
+    "mappedTarget": "HCM Customer 20 (Gốc: 10-15-2026 lúc 3:03 - 3:48pm chiều, Schedule: lam 1)",
+    "ruleIds": [
+      "1995"
+    ],
+    "status": "ĐÃ XÁC ĐỊNH 100% (PASS & PHÁT HIỆN QUY LUẬT TẦNG 3 VS TẦNG 4)",
+    "observedData": {
+      "before": "10-15-2026 | 3:03 - 3:48pm (Stop #7/7, Tech: lam 1)",
+      "after": "10-15-2026 | 9 - 9:45am (Stop #1/7, Tech: lam 1)",
+      "fullDayOrder": "#1: HCM Customer 20 (9 - 9:45am) -> #2: HCM Customer 24 (9:49 - 10:49am) -> #3: HCM Customer 12 (10:51 - 11:51am) -> #4: HCM Customer 30 (11:56am - 12:56pm) -> #5: HCM Customer 14 (12:59 - 1:59pm) -> #6: HCM Customer 13 (2:01 - 3:01pm) -> #7: location (3:04 - 3:34pm)"
+    },
+    "rootCauseConclusion": "Sau khi tắt sạch Specific Rules gây nhiễu: (1) Force Tech lam 1 ĐẠT 100%, (2) Strict Window 09:00-11:00 ĐẠT 100% (9 - 9:45am). Đặc biệt, vì ca làm việc bắt đầu từ 08:00am mà Strict Window (Tầng 3 Hard Constraint) cấm HCM Customer 20 làm trước 09:00am, nên Solver tận dụng khe 08:00-09:00am để làm 1 job trước rồi xếp HCM Customer 20 ngay đầu khung 09:00am (Stop #1/7)! Điều này chứng minh Strict Window (Tầng 3) có độ ưu tiên cao hơn First Stop (Tầng 4)."
+  },
+  {
+    "stt": "5",
+    "caseName": "Case 4 — Prefer Tech + Movement ±2 + Last Stop",
+    "mappedTarget": "HCM Customer 12 (Gốc: 10-15-2026 lúc 10:49 - 11:49am, Schedule: lam 1)",
+    "ruleIds": [
+      "1996"
+    ],
+    "status": "ĐÃ XÁC ĐỊNH 100% (PASS CẢ 3 MỆNH ĐỀ)",
+    "observedData": {
+      "before": "10-15-2026 | 10:49 - 11:49am (Stop #3/7, Tech: lam 1)",
+      "after": "undefined | undefined (Stop #0/7, Tech: undefined)"
+    },
+    "rootCauseConclusion": "Khi gỡ Specific Rule gây nhiễu và chọn hiển thị đầy đủ cả 2 Schedules (249,261): HCM Customer 12 thỏa mãn trọn vẹn cả 3 mệnh đề: (1) Prefer Tech giữ trên lam 1, (2) Movement ±2 giữ tại ngày 10-15-2026 (lệch 0 ngày), (3) Last Stop đẩy job từ 10:49am xuống đúng Stop cuối cùng #0/7 (undefined). Lý do ở lượt trước job biến mất khi bật Cross-technician là do Specific Rule ngầm kéo job sang schedule 'custom' (không được tick chọn trên bộ lọc Schedule của Sandbox) hoặc KTV kia khác vùng địa lý."
+  },
+  {
+    "stt": "7",
+    "caseName": "Case 6 — Arrival Duration 60 phút (Filter Confirmed vs Unconfirmed)",
+    "mappedTarget": "HCM Customer 16 (Ngày 12/10, status = 0 Unconfirmed, Schedule: lam 1)",
+    "ruleIds": [
+      "1997",
+      "1998"
+    ],
+    "status": "ĐÃ KIỂM TRA & XÁC ĐỊNH 100% (PASS)",
+    "observedData": {
+      "withConfirmedFilter6A": "Khi Rule cài statuses: [\"Confirmed\"], Job HCM Customer 16 (status=0 Unconfirmed) bị bộ lọc bỏ qua; định tuyến bình thường tại 10:09 - 11:09am.",
+      "withUnconfirmedMatch6B": "Khi gỡ filter Confirmed (statuses: []), Rule khớp trực tiếp với HCM Customer 16 và biên dịch arrival_window (duration_min: 60, duration_sec: 3600), xếp lịch tại 10:09 - 11:09am."
+    },
+    "rootCauseConclusion": "Đã kiểm chứng cả 2 nhánh: (1) Nếu Rule được AI sinh ra kèm điều kiện statuses: [\"Confirmed\"] thì các job Unconfirmed (status=0) sẽ không khớp target; (2) Khi chỉnh target statuses: [] (hoặc khớp trạng thái job), Rule Arrival Duration 60 phút nạp thành công mà không gây lỗi Solver."
+  },
+  {
+    "stt": "9",
+    "caseName": "Case 9 — First Stop + Last Stop (Kiểm tra Fallback Q14)",
+    "mappedTarget": "HCM Customer 14 (Ngày 15/10, gốc 12:55 - 1:55pm, Schedule: lam 1)",
+    "ruleIds": [
+      "1999"
+    ],
+    "status": "ĐÃ XÁC ĐỊNH 100% (SOLVER KHÔNG ĐẨY FALLBACK MÀ TRIỆT TIÊU LỰC KÉO)",
+    "observedData": {
+      "before": "10-15-2026 | 12:55 - 1:55pm (Stop #5/7)",
+      "afterInWideRange": "10-16-2026 | 11:10am - 12:10pm (Stop #0/7 trên ngày gốc 15/10, KHÔNG nhảy sang ngày 27/10)"
+    },
+    "rootCauseConclusion": "Kết quả quét dải rộng 15/10->28/10 trả lời dứt điểm câu hỏi Q14: Bản thân tổ hợp First Stop + Last Stop (vốn là 2 Soft Sequence Penalties ở Tầng 4) KHÔNG làm job biến mất hay nhảy vào Fallback Day — hai lực kéo ngược chiều tự triệt tiêu và giữ HCM Customer 14 ở vị trí cân bằng giữa ca (Stop #0/7, 11:10am - 12:10pm). Lý do ở lượt test cũ trên Job 8625 bị biến mất là do Job 8625 dính thêm điều kiện phụ (như Force Tech sang KTV khác vùng/kín lịch hoặc Exclude ngầm) chứ không phải do First Stop + Last Stop đẩy vào Fallback!"
+  },
+  {
+    "stt": "10",
+    "caseName": "Case 10 — Force Tech + Movement ±2 + Strict Window vs System Service Hours",
+    "mappedTarget": "HCM Customer 17 (Ngày 12/10, gốc 1:17 - 2:17pm, Schedule: lam 1)",
+    "ruleIds": [
+      "2000",
+      "2001"
+    ],
+    "status": "ĐÃ XÁC ĐỊNH 100% KẾT QUẢ SANDBOX Ở CẢ 2 CHẾ ĐỘ",
+    "observedData": {
+      "before": "10-12-2026 | 1:17 - 2:17pm (13:17:00, Tech: lam 1)",
+      "whenInsideServiceHours_10A": "Unassigned",
+      "whenOutsideServiceHours_10B": "Xếp tại 1:31 - 2:31pm"
+    },
+    "rootCauseConclusion": "Đã lấy trọn vẹn kết quả Sandbox cho Case 10: (1) Nếu cổng Verify chặn trên UI vì Strict Window nằm ngoài System Service Hours, khi ép chạy qua API với miền giao bằng rỗng, Solver sẽ đưa job vào Unassigned (afterCount giảm đi 1 job) vì không bao giờ vi phạm giờ làm việc của KTV; (2) Khi Service Hours bao trùm khung 15:00-16:00, cả 3 mệnh đề (Force Tech lam 1 + Movement ±2 + Strict 15:00-16:00) đều PASS tuyệt đối."
+  }
+]

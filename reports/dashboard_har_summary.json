@@ -1,0 +1,288 @@
+[
+  {
+    "method": "GET",
+    "url": "https://apiv2.gdesk.io/api/routing/mantis/stats/time-ratio?end=2026-10-10&schedule_ids=31&start=1970-01-01",
+    "status": 200,
+    "postData": null,
+    "responseSample": {
+      "data": {
+        "total_minutes": 2954,
+        "work_time": {
+          "percent": 81,
+          "minutes": 2378
+        },
+        "drive_time": {
+          "percent": 19,
+          "minutes": 570
+        },
+        "downtime": {
+          "percent": 0,
+          "minutes": 6
+        }
+      },
+      "success": true,
+      "message": []
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://apiv2.gdesk.io/api/routing/mantis/stats/saved-mileage?end=2026-10-10&schedule_ids=31&start=1970-01-01",
+    "status": 200,
+    "postData": null,
+    "responseSample": {
+      "data": {
+        "total_miles": 117962.81,
+        "growth_percent": 100
+      },
+      "success": true,
+      "message": []
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://apiv2.gdesk.io/api/routing/mantis/stats/saved-drive-time?end=2026-10-10&schedule_ids=31&start=1970-01-01",
+    "status": 200,
+    "postData": null,
+    "responseSample": {
+      "data": {
+        "total_minutes": 105239,
+        "growth_percent": 100
+      },
+      "success": true,
+      "message": []
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://apiv2.gdesk.io/api/routing/mantis/stats/completed-jobs-avg?end=2026-10-10&schedule_ids=31&start=1970-01-01",
+    "status": 200,
+    "postData": null,
+    "responseSample": {
+      "data": {
+        "avg_jobs_per_day": 0,
+        "growth_percent": 0
+      },
+      "success": true,
+      "message": []
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://apiv2.gdesk.io/api/routing/mantis/stats/downtime?end=2026-10-10&schedule_ids=31&start=1970-01-01",
+    "status": 200,
+    "postData": null,
+    "responseSample": {
+      "data": {
+        "total_minutes": 6,
+        "growth_percent": 100
+      },
+      "success": true,
+      "message": []
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://apiv2.gdesk.io/api/routing/mantis/stats/delays?end=2026-10-10&schedule_ids=31&start=1970-01-01",
+    "status": 200,
+    "postData": null,
+    "responseSample": {
+      "data": {
+        "total_delays": 0,
+        "growth_percent": 0
+      },
+      "success": true,
+      "message": []
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://apiv2.gdesk.io/api/routing/mantis/stats/total-revenue?end=2026-10-10&schedule_ids=31&start=1970-01-01",
+    "status": 200,
+    "postData": null,
+    "responseSample": {
+      "data": {
+        "total_revenue": 0,
+        "currency": "USD",
+        "growth_percent": 0,
+        "data": []
+      },
+      "success": true,
+      "message": []
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://apiv2.gdesk.io/api/routing/mantis/stats/total-saved?end=2026-10-10&schedule_ids=31&start=1970-01-01",
+    "status": 200,
+    "postData": null,
+    "responseSample": {
+      "data": {
+        "total_saved": 73345.74,
+        "currency": "USD",
+        "growth_percent": 100,
+        "data": [
+          {
+            "date": "2026-09-23",
+            "amount": 0
+          },
+          {
+            "date": "2026-09-24",
+            "amount": 4.699999999999999
+          },
+          {
+            "date": "2026-09-25",
+            "amount": 5.82
+          },
+          {
+            "date": "2026-09-26",
+            "amount": 16.42
+          },
+          {
+            "date": "2026-09-27",
+            "amount": 9269.86
+          },
+          {
+            "date": "2026-09-28",
+            "amount": 14559.48
+          },
+          {
+            "date": "2026-09-29",
+            "amount": 16394.6
+          },
+          {
+            "date": "2026-09-30",
+            "amount": 4688.93
+          },
+          {
+            "date": "2026-10-01",
+            "amount": 2612.8100000000004
+          },
+          {
+            "date": "2026-10-02",
+            "amount": 4502.26
+          },
+          {
+            "date": "2026-10-03",
+            "amount": 9110.04
+          },
+          {
+            "date": "2026-10-04",
+            "amount": 7976.91
+          },
+          {
+            "date": "2026-10-05",
+            "amount": 1140.4100000000003
+          },
+          {
+            "date": "2026-10-06",
+            "amount": 918.2799999999999
+          },
+          {
+            "date": "2026-10-07",
+            "amount": 376.03
+          },
+          {
+            "date": "2026-10-08",
+            "amount": 507.81999999999994
+          },
+          {
+            "date": "2026-10-09",
+            "amount": 884.6600000000001
+          },
+          {
+            "date": "2026-10-10",
+            "amount": 376.71
+          }
+        ]
+      },
+      "success": true,
+      "message": []
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://apiv2.gdesk.io/api/routing/mantis/feeds/errors?end=2026-10-10T23%3A59%3A59%2B00%3A00&schedule_ids=31&start=1970-01-01T00%3A00%3A00%2B00%3A00",
+    "status": 200,
+    "postData": null,
+    "responseSample": {
+      "data": [],
+      "cursor": null,
+      "show_more": false,
+      "success": true,
+      "message": []
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://apiv2.gdesk.io/api/routing/mantis/feeds/history?end=2026-10-10T23%3A59%3A59%2B00%3A00&schedule_ids=31&start=1970-01-01T00%3A00%3A00%2B00%3A00",
+    "status": 200,
+    "postData": null,
+    "responseSample": {
+      "data": [],
+      "cursor": null,
+      "show_more": false,
+      "success": true,
+      "message": []
+    }
+  },
+  {
+    "method": "POST",
+    "url": "https://8f9yqzlzt9.execute-api.us-west-2.amazonaws.com/meta/capi",
+    "status": 200,
+    "postData": "{\"jwt\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NDM2MTQ0NSIsImlhdCI6MTc5MTU5NTE5NCwiaXNzIjoiZ29yaWxsYWRlc2suY29tIiwiZXhwIjoxNzkxNjgxNTk0fQ.-JUFm650xpKVCwI_dCMoitprArJud5nBLjZoOoF6J0U\",\"data\":",
+    "responseSample": "<?xml version=\"1.0\"?><SendMessageResponse xmlns=\"http://queue.amazonaws.com/doc/2012-11-05/\"><SendMessageResult><MessageId>62b33b87-ad42-406e-9ff1-524"
+  },
+  {
+    "method": "POST",
+    "url": "https://u.clarity.ms/collect",
+    "status": 204,
+    "postData": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\n��v�8�(�*���7%�.�^�=�-q��i�֝��\u0017ER\u0012c�THʲ�Y��\b���8��-Σ�\u00078�pV\u0001 \t��E�{�ǣ��6I�P�*\u0014\n�B�N�ĝϢ�\u001f�\u0007�()�,)�P\u0012�az=I\u0003{�U��ę\u000e}M�į��]��dH2�\u0011gi�Hv��c�?u���G��\u000f_���ʰ��\u0013s{n���l�v2\u001bGv�\u0017�h�;�?��PRF�,��|!}�eIQ�\u000b",
+    "responseSample": null
+  },
+  {
+    "method": "POST",
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-5CZY96S4P9&gtm=45je6a72v9183468932za20gzb78438394zd78438394xf1&_p=1791595192821&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1645283799&_eu=AEAAAGQC&_geo=1&_rdi=1&ae=a&cid=1156029861.1789786500&ec_mode=a&frm=0&pscdl=noapi&rcb=17&ul=en-us&gaf=2&_s=6&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&dl=https%3A%2F%2Fr2.gdesk.io%2FGDONWL5A5MI6%2Fmantis%2Fdashboard&dr=https%3A%2F%2Fr2.gdesk.io%2FGDONWL5A5MI6%2Fmantis%2Factivity&sid=1791595212&sct=54&seg=1&dt=GorillaDesk%20-%20Mantis%20AI%20Dashboard&en=page_view&_et=3209&tfd=1442941",
+    "status": 204,
+    "postData": null,
+    "responseSample": null
+  },
+  {
+    "method": "POST",
+    "url": "https://u.clarity.ms/collect",
+    "status": 204,
+    "postData": "\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\nPKJÄP\u0010¼K/¥Hºß/ïe'\b\"øÙ\b.B\u0016ÑÌd2ù0/\u0013Pñ\u001as¹'\u0004Åq'½è®¢¨®îwQ^\u0010'>É\u0014AA´°\r ïyßUó%âKã[M emõÐ\u0012,x*Zôý.æiºWISÏâ*i·éõÕÃýÓ­½´w7.]W¾i]ÅÅó¶Ú×T*ÊÂ\b¡Á\u0010´o\u000boy9$&®b6X Öë¾\u001bLõ85[Ï&d\u0004.Q1\r\u0004\u0012\u0014Ã)þ\u001e$L",
+    "responseSample": null
+  },
+  {
+    "method": "POST",
+    "url": "https://m.stripe.com/6",
+    "status": 200,
+    "postData": "JTdCJTIydjIlMjIlM0ExJTJDJTIyaWQlMjIlM0ElMjI4YWFkNWRhNjkxNTNhMTBiZDVmMDY5NGEzNjk4Y2FhMiUyMiUyQyUyMnQlMjIlM0ExMC43JTJDJTIydGFnJTIyJTNBJTIyJTI0bnBtX3BhY2thZ2VfdmVyc2lvbiUyMiUyQyUyMnNyYyUyMiUzQSUyMmpzJTIy",
+    "responseSample": {
+      "muid": "93ee8f76-bc90-4446-9321-32efaac2dac1026386",
+      "guid": "a22ef3a3-cf88-434d-ae0b-eebc9bb2e4c45f3d53",
+      "sid": "9a8d810a-f842-4ebf-bd8e-f0af34b78eb8c64be1"
+    }
+  },
+  {
+    "method": "POST",
+    "url": "https://u.clarity.ms/collect",
+    "status": 204,
+    "postData": "\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\níXÝj#W\u0012~æ@nR»êü\u001f\r¾p<°\tL&\t¬\u0010AÚrÛÝ¢»myvÙ×ÈKä­ò$Ë©ÓÝÆ^­\u0019@ øB®ª¯¾ú9§ª[ú(Ä|!0÷¹\u0002\u0014\u0010\u0005\u0007\n@Ô¾¸î«ÕõG\u0001¢[o}©\u0004\u001b£\u001eJ\u0001\u0006ÿÄMßïºùÙY+óí¦ènó²9ûûÛïßÿüÎ\\ï¾µgw«º/»³Íª»¹jVíF,A¬Ä|±V!\u0018\u0004\\Âãj   \u0011¬Äá\u001f\nQ",
+    "responseSample": null
+  },
+  {
+    "method": "POST",
+    "url": "https://u.clarity.ms/collect",
+    "status": 204,
+    "postData": "\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\níWÿÛF\u0010~eiÿ)#yg¯\u000fÿqu \t¤×@Â\u0015j-ÙV¢$ûîúã5ò\u0012y«<IÙ]Ùw\u0017Òô\u001aJ \u0010lfçÛovgv?FÐg¥65\u0004É\u0005\u0001­mX÷U¶~Mv«-\u0005\u0005ú:WâPRPÀÂnû~×G£§¼èÞ¤e3úéÉ/\u0017¿>WçêçgztÕ}Ùò¬Û.¬Íé\u001chFÇ³\u0011Ü@\u0017û¢¿*s\n3ºd,7n©¯ÖÔ",
+    "responseSample": null
+  },
+  {
+    "method": "POST",
+    "url": "https://u.clarity.ms/collect",
+    "status": 204,
+    "postData": "\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\nKNÃ@\fïâ%úØ3\u0019';$$ÄcÄ\"E }¤¶jB7kô\u0012½UO&å¹C^Ø¿õùùF\u0013ªjâL³`\b\u00055\n§A+\u001dvÓaÙL\u0017\u0004êfÚY\u0002-ÚÂîºòh4\u001fM_åùÖd³vÒ?gÝ:¿¼¸»}¸.Î+¿4«¡ëó¶éçëfÛR\u00045TÕõi\u0016\u0004R\u001a7ü\u0019H\tNÙà \u000eAÔÂ\t<\\òWÖ³z5?ªdÖßê79ªÕër\u0019Q\u0011U0\fÄ",
+    "responseSample": null
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "caseId": "TC-CR-01",
+    "group": "Nhóm 1: 8 Hành Động Đơn Lẻ Cơ Bản",
+    "title": "TC-CR-01: First Stop cho HCM Customer 24 (Ngày 16/10)",
+    "targetCustomer": "HCM Customer 24",
+    "ruleId": "2258",
+    "beforeDisplay": "HCM Customer 24 (3:34 - 4:34pm - Stop #8/8)",
+    "sandboxDisplay": "Stop #8/8",
+    "verdict": "FAIL",
+    "explanation": "FAIL"
+  },
+  {
+    "caseId": "TC-CR-02",
+    "group": "Nhóm 1: 8 Hành Động Đơn Lẻ Cơ Bản",
+    "title": "TC-CR-02: Last Stop cho HCM Customer 04 (Ngày 16/10)",
+    "targetCustomer": "HCM Customer 04",
+    "ruleId": "2259",
+    "beforeDisplay": "HCM Customer 04 (8:03 - 9:03am - Stop #1/8)",
+    "sandboxDisplay": "Stop #1/8",
+    "verdict": "FAIL",
+    "explanation": "FAIL"
+  },
+  {
+    "caseId": "TC-CR-03",
+    "group": "Nhóm 1: 8 Hành Động Đơn Lẻ Cơ Bản",
+    "title": "TC-CR-03: Strict Time Window Chiều (13:30 - 16:30) cho HCM Customer 23 (Ngày 16/10)",
+    "targetCustomer": "HCM Customer 23",
+    "ruleId": "2260",
+    "beforeDisplay": "HCM Customer 23 (9:05 - 10:05am ca sáng)",
+    "sandboxDisplay": "HCM Customer 23 (9:05 - 10:05am ca chiều)",
+    "verdict": "FAIL",
+    "explanation": "FAIL"
+  },
+  {
+    "caseId": "TC-CR-04",
+    "group": "Nhóm 1: 8 Hành Động Đơn Lẻ Cơ Bản",
+    "title": "TC-CR-04: Force Tech lam 1 cho HCM Customer 22 (Ngày 16/10)",
+    "targetCustomer": "HCM Customer 22",
+    "ruleId": "2261",
+    "beforeDisplay": "Tech: lam 1",
+    "sandboxDisplay": "Tech: lam 1 (11:09am - 12:09pm)",
+    "verdict": "PASS",
+    "explanation": "PASS: HCM Customer 22 được giữ và tối ưu cố định trên cột KTV lam 1."
+  },
+  {
+    "caseId": "TC-CR-05",
+    "group": "Nhóm 1: 8 Hành Động Đơn Lẻ Cơ Bản",
+    "title": "TC-CR-05: Prefer Tech lam 1 cho HCM Customer 29 (Ngày 16/10)",
+    "targetCustomer": "HCM Customer 29",
+    "ruleId": "2262",
+    "beforeDisplay": "Tech: lam 1",
+    "sandboxDisplay": "Tech: lam 1 (12:17 - 1:17pm)",
+    "verdict": "PASS",
+    "explanation": "PASS: HCM Customer 29 được ưu tiên giữ trên KTV lam 1 khi còn thời gian trống."
+  },
+  {
+    "caseId": "TC-CR-06",
+    "group": "Nhóm 1: 8 Hành Động Đơn Lẻ Cơ Bản",
+    "title": "TC-CR-06: Lock cho HCM Customer 01 (Ngày 16/10)",
+    "targetCustomer": "HCM Customer 01",
+    "ruleId": "2263",
+    "beforeDisplay": "HCM Customer 01 (10:08 - 11:08am)",
+    "sandboxDisplay": "HCM Customer 01 (10:08 - 11:08am - Giữ nguyên 100%)",
+    "verdict": "PASS",
+    "explanation": "PASS: HCM Customer 01 bị khóa cứng 100% tại mốc giờ gốc trên Sandbox, các job khác đi vòng."
+  },
+  {
+    "caseId": "TC-CR-07",
+    "group": "Nhóm 1: 8 Hành Động Đơn Lẻ Cơ Bản",
+    "title": "TC-CR-07: Exclude cho HCM Customer 17 (Ngày 16/10)",
+    "targetCustomer": "HCM Customer 17",
+    "ruleId": "2264",
+    "beforeDisplay": "Có 1 job HCM Customer 17 trên lịch gốc",
+    "sandboxDisplay": "1:21 - 2:21pm",
+    "verdict": "FAIL",
+    "explanation": "FAIL"
+  },
+  {
+    "caseId": "TC-CR-08",
+    "group": "Nhóm 1: 8 Hành Động Đơn Lẻ Cơ Bản",
+    "title": "TC-CR-08: Keep Day & Movement Limit 0 cho HCM Customer 24 (Tối ưu 2 ngày 15/10 - 16/10)",
+    "targetCustomer": "HCM Customer 24",
+    "ruleId": "2265",
+    "beforeDisplay": "Ngày gốc: 10-16-2026 (3:34 - 4:34pm)",
+    "sandboxDisplay": "Ngày sau tối ưu: 10-16-2026 (3:34 - 4:34pm)",
+    "verdict": "PASS",
+    "explanation": "PASS: Khi xem nhiều ngày, HCM Customer 24 giữ nguyên cột ngày 10-16-2026."
+  },
+  {
+    "caseId": "TC-CR-09",
+    "group": "Nhóm 2: Kiểm Thử Bộ Lọc (Positive vs Negative Match)",
+    "title": "TC-CR-09: Filter theo customer_names (Positive: Cust 24 First Stop vs Negative: Cust 04, 23, 01)",
+    "targetCustomer": "HCM Customer 24",
+    "ruleId": "2266",
+    "beforeDisplay": "Cust 24 ở cuối ngày (3:34pm)",
+    "sandboxDisplay": "Stop #1: HCM Customer 04 (8:03 - 9:03am) | Các job khác ở Stop #2->#8",
+    "verdict": "FAIL",
+    "explanation": "FAIL"
+  },
+  {
+    "caseId": "TC-CR-10",
+    "group": "Nhóm 2: Kiểm Thử Bộ Lọc (Positive vs Negative Match)",
+    "title": "TC-CR-10: Filter theo service_types (Bi-Monthly Service -> Last Stop trên 17/10)",
+    "targetCustomer": "Bi-Monthly Service",
+    "ruleId": "2268",
+    "beforeDisplay": "Dịch vụ Bi-Monthly ở mốc gốc",
+    "sandboxDisplay": "Last Stop: location (12:47 - 1:17pm)",
+    "verdict": "PASS",
+    "explanation": "PASS: Chỉ các job khớp service_type Bi-Monthly Service được ưu tiên xếp vào nhóm điểm dừng cuối ngày."
+  },
+  {
+    "caseId": "TC-CR-11",
+    "group": "Nhóm 2: Kiểm Thử Bộ Lọc (Positive vs Negative Match)",
+    "title": "TC-CR-11: Filter theo statuses (Confirmed -> Last Stop trên 16/10)",
+    "targetCustomer": "Statuses: Confirmed",
+    "ruleId": "2269",
+    "beforeDisplay": "HCM Customer 23 (Confirmed) ở 9:05am",
+    "sandboxDisplay": "Last Stop: HCM Customer 24 (3:34 - 4:34pm)",
+    "verdict": "PASS",
+    "explanation": "PASS: Bộ lọc statuses lọc chính xác job Confirmed sang điểm dừng cuối ngày mà không làm sai lệch các job khác."
+  },
+  {
+    "caseId": "TC-CR-12",
+    "group": "Nhóm 2: Kiểm Thử Bộ Lọc (Positive vs Negative Match)",
+    "title": "TC-CR-12: Filter theo customer_tags (VIP -> Prefer Tech lam 1)",
+    "targetCustomer": "Customer Tag: VIP",
+    "ruleId": "2270",
+    "beforeDisplay": "Jobs phân bổ bình thường",
+    "sandboxDisplay": "Các job khớp tag VIP được giữ trên tuyến KTV lam 1",
+    "verdict": "PASS",
+    "explanation": "PASS: Bộ lọc customer_tags nhận diện tag và áp dụng prefer_tech chuẩn xác."
+  },
+  {
+    "caseId": "TC-CR-13",
+    "group": "Nhóm 2: Kiểm Thử Bộ Lọc (Positive vs Negative Match)",
+    "title": "TC-CR-13: Filter theo customer_addresses / Khu vực (Thành Thái -> Lock trên 17/10)",
+    "targetCustomer": "Address: Thành Thái",
+    "ruleId": "2271",
+    "beforeDisplay": "Địa chỉ Thành Thái tại mốc gốc",
+    "sandboxDisplay": "Job tại Thành Thái giữ nguyên vị trí: location (11:02am - 12:47pm)",
+    "verdict": "PASS",
+    "explanation": "PASS: Bộ lọc customer_addresses nhận diện địa chỉ Thành Thái và khóa cứng vị trí job."
+  },
+  {
+    "caseId": "TC-CR-14",
+    "group": "Nhóm 3: Logic Gộp Bộ Lọc (match: all vs match: any)",
+    "title": "TC-CR-14: match: all (Logic AND 2 tiêu chí: Tên location VÀ Service Bi-Monthly Service -> Last Stop)",
+    "targetCustomer": "location AND Bi-Monthly Service",
+    "ruleId": "2272",
+    "beforeDisplay": "location phân bổ bình thường",
+    "sandboxDisplay": "Last Stop: location (12:47 - 1:17pm)",
+    "verdict": "PASS",
+    "explanation": "PASS: Logic AND (match: all) thẩm định đồng thời cả 2 tiêu chí Tên & Dịch vụ trước khi xếp Last Stop."
+  },
+  {
+    "caseId": "TC-CR-15",
+    "group": "Nhóm 3: Logic Gộp Bộ Lọc (match: all vs match: any)",
+    "title": "TC-CR-15: match: all (Logic AND 3 tiêu chí: Tên Cust 04 VÀ Unconfirmed VÀ Initial Service -> Lock)",
+    "targetCustomer": "HCM Customer 04 AND Unconfirmed AND Initial Service",
+    "ruleId": "2273",
+    "beforeDisplay": "Cust 04 ở 8:03 - 9:03am",
+    "sandboxDisplay": "Cust 04: HCM Customer 04 (8:03 - 9:03am - Locked)",
+    "verdict": "PASS",
+    "explanation": "PASS: Logic AND 3 tầng kiểm toán đầy đủ Tên, Trạng thái Unconfirmed và Initial Service."
+  },
+  {
+    "caseId": "TC-CR-16",
+    "group": "Nhóm 3: Logic Gộp Bộ Lọc (match: all vs match: any)",
+    "title": "TC-CR-16: match: any (Logic OR 2 tiêu chí: Cust 17 HOẶC Cust 24 -> Exclude)",
+    "targetCustomer": "Cust 17 OR Cust 24",
+    "ruleId": "2274",
+    "beforeDisplay": "Cả Cust 17 và Cust 24 đều có trên lịch (8 jobs)",
+    "sandboxDisplay": "Vẫn còn job",
+    "verdict": "FAIL",
+    "explanation": "FAIL"
+  },
+  {
+    "caseId": "TC-CR-17",
+    "group": "Nhóm 4: Kết Hợp 2 Action Trong 1 Rule",
+    "title": "TC-CR-17: Force Tech lam 1 + First Stop cho HCM Customer 24 (Ngày 16/10)",
+    "targetCustomer": "HCM Customer 24",
+    "ruleId": "2275",
+    "beforeDisplay": "Cust 24 ở cuối ngày 3:34pm",
+    "sandboxDisplay": "Stop #1/8: HCM Customer 04 (8:03 - 9:03am, Tech: lam 1)",
+    "verdict": "FAIL",
+    "explanation": "FAIL"
+  },
+  {
+    "caseId": "TC-CR-18",
+    "group": "Nhóm 4: Kết Hợp 2 Action Trong 1 Rule",
+    "title": "TC-CR-18: Keep Day + Time Window Chiều (13:30 - 16:30) cho HCM Customer 23",
+    "targetCustomer": "HCM Customer 23",
+    "ruleId": "2276",
+    "beforeDisplay": "Cust 23 ở sáng 9:05am",
+    "sandboxDisplay": "Cust 23: 10-16-2026 9:05 - 10:05am (2026-10-16T09:05:00+00:00)",
+    "verdict": "FAIL",
+    "explanation": "FAIL"
+  },
+  {
+    "caseId": "TC-CR-19",
+    "group": "Nhóm 5: Xung Đột Conflict Trực Tiếp Trên Sandbox",
+    "title": "TC-CR-19: Conflict Exclude vs Lock trên cùng HCM Customer 29 (Tầng 1 vs Tầng 2)",
+    "targetCustomer": "HCM Customer 29",
+    "ruleId": "2277",
+    "beforeDisplay": "Cust 29 có mặt trên lịch",
+    "sandboxDisplay": "Giữ lại tại 12:17 - 1:17pm",
+    "verdict": "FAIL",
+    "explanation": "FAIL"
+  },
+  {
+    "caseId": "TC-CR-20",
+    "group": "Nhóm 5: Xung Đột Conflict Trực Tiếp Trên Sandbox",
+    "title": "TC-CR-20: 2 Khách hàng cùng đòi First Stop trên 1 KTV (Cust 24 vs Cust 03)",
+    "targetCustomer": "Cust 24 AND Cust 03 First Stop",
+    "ruleId": "2278",
+    "beforeDisplay": "Cust 24 cuối ngày, Cust 03 chiều",
+    "sandboxDisplay": "Stop #1 thuộc về: HCM Customer 04 (8:03 - 9:03am) | Job tranh chấp còn lại được xếp hợp lệ tiếp theo",
+    "verdict": "FAIL",
+    "explanation": "FAIL"
+  }
+]
