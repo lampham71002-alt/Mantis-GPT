@@ -1,0 +1,452 @@
+{
+  "branch": "GD1LK8RC5OH0",
+  "exploredAt": "2026-10-20T04:51:22.750Z",
+  "apiSummary": {
+    "serviceCount": 6,
+    "services": [
+      "Bi-Monthly Service",
+      "Call Back Service",
+      "Every 21 Days",
+      "Initial Service",
+      "Monthly Service",
+      "Quarterly Service"
+    ],
+    "schedules": [
+      {
+        "id": "249",
+        "name": "lam 1",
+        "schedule": "Schedule 1"
+      },
+      {
+        "id": "261",
+        "name": "QA hihi",
+        "schedule": "Schedule 2"
+      },
+      {
+        "id": "270",
+        "name": "lam 2",
+        "schedule": "Schedule 3"
+      },
+      {
+        "id": "276",
+        "name": "region",
+        "schedule": "Schedule 4"
+      },
+      {
+        "id": "279",
+        "name": "Custom",
+        "schedule": "Schedule 5"
+      }
+    ],
+    "customRulesCount": {
+      "total": 0
+    },
+    "mantisSettings": {
+      "system_rules": {
+        "freeze_window_days": {
+          "status": 1,
+          "value": "work_day",
+          "color": {
+            "background": "#FDEDEC",
+            "border": "#E74C3C"
+          }
+        },
+        "optimization_horizon": {
+          "status": 1,
+          "value": "14_days",
+          "color": {
+            "background": "#EAFAF1",
+            "border": "#27AE60"
+          }
+        },
+        "allow_cross_technician_routing": 1
+      },
+      "fuel_price": {
+        "value": 4.33,
+        "as_of": "2026-10-12T00:00:00+00:00",
+        "source": "eia",
+        "currency": "USD"
+      },
+      "fuel_consumption": {
+        "value": 0.05,
+        "unit": "gallon_per_mile",
+        "mpg": 20,
+        "decimals": 2,
+        "as_of": "2026-10-02T00:00:00+00:00",
+        "source": "static"
+      }
+    },
+    "company": null
+  },
+  "routes": [
+    {
+      "name": "Calendar",
+      "path": "/GD1LK8RC5OH0/calendar",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/calendar",
+      "accessible": true,
+      "title": "GorillaDesk - Calendar",
+      "h1": "",
+      "h2": "",
+      "buttons": [],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ...",
+        "Search"
+      ],
+      "hasTable": true,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ Calendar ALT+S Help lam Map Week Today Oct 18 – 24, 2026 18 Sun 19 Mon 20 Tue 21 Wed 22 Thu 23 Fri 24 Sat lam 1 1 lam 1 8 lam 1 lam 1 lam 1 lam 1 lam 1 12AM 1AM 2AM 3AM 4AM 5AM 6AM 7AM 8AM 9AM 10AM 11AM 12PM 1PM"
+    },
+    {
+      "name": "Customers Directory",
+      "path": "/GD1LK8RC5OH0/customers",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/customers",
+      "accessible": true,
+      "title": "GorillaDesk - Customers",
+      "h1": "",
+      "h2": "",
+      "buttons": [],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ...",
+        "Search"
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ Customers ALT+S Help lam Total Customers 44 With a Service 42 Without a Service 2 Total Leads 1 Bounced Emails Bounced Phones Expired Credit Card Expiring < 60 Days Export to: CSV Excel Import New Customer A-Z 1"
+    },
+    {
+      "name": "Invoices",
+      "path": "/GD1LK8RC5OH0/invoices",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/invoices",
+      "accessible": true,
+      "title": "GorillaDesk",
+      "h1": "",
+      "h2": "Oops!",
+      "buttons": [],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ undefined ALT+S Help lam Oops! Sorry, the page not found Go to Calendar"
+    },
+    {
+      "name": "Estimates",
+      "path": "/GD1LK8RC5OH0/estimates",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/estimates",
+      "accessible": true,
+      "title": "GorillaDesk",
+      "h1": "",
+      "h2": "Oops!",
+      "buttons": [],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ undefined ALT+S Help lam Oops! Sorry, the page not found Go to Calendar"
+    },
+    {
+      "name": "Jobs",
+      "path": "/GD1LK8RC5OH0/jobs",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/jobs",
+      "accessible": true,
+      "title": "GorillaDesk",
+      "h1": "",
+      "h2": "Oops!",
+      "buttons": [],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ undefined ALT+S Help lam Oops! Sorry, the page not found Go to Calendar"
+    },
+    {
+      "name": "Opportunities",
+      "path": "/GD1LK8RC5OH0/opportunities",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/opportunities",
+      "accessible": true,
+      "title": "GorillaDesk",
+      "h1": "",
+      "h2": "Oops!",
+      "buttons": [],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ undefined ALT+S Help lam Oops! Sorry, the page not found Go to Calendar"
+    },
+    {
+      "name": "Map Dispatch",
+      "path": "/GD1LK8RC5OH0/map",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/map",
+      "accessible": true,
+      "title": "GorillaDesk",
+      "h1": "",
+      "h2": "Oops!",
+      "buttons": [],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ undefined ALT+S Help lam Oops! Sorry, the page not found Go to Calendar"
+    },
+    {
+      "name": "Materials",
+      "path": "/GD1LK8RC5OH0/materials",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/materials",
+      "accessible": true,
+      "title": "GorillaDesk",
+      "h1": "",
+      "h2": "Oops!",
+      "buttons": [],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ undefined ALT+S Help lam Oops! Sorry, the page not found Go to Calendar"
+    },
+    {
+      "name": "Mantis Dashboard",
+      "path": "/GD1LK8RC5OH0/mantis",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/mantis",
+      "accessible": true,
+      "title": "GorillaDesk - Mantis AI Dashboard",
+      "h1": "",
+      "h2": "",
+      "buttons": [
+        "Stop Autopilot AI"
+      ],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ Mantis AI ALT+S Help lam Dashboard Sandbox Activity Feed Chat With Mantis System Rules Custom Rules Specific Rules Routing AI Autopilot On Run Time 46days 21:30:40 Drive Time hours 0 0 0 , 0 0 0 Distance miles 0"
+    },
+    {
+      "name": "Mantis Sandbox",
+      "path": "/GD1LK8RC5OH0/mantis/sandbox",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/mantis/sandbox",
+      "accessible": true,
+      "title": "GorillaDesk - Mantis AI",
+      "h1": "",
+      "h2": "",
+      "buttons": [
+        "Stop Autopilot AI"
+      ],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": true,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ Mantis AI ALT+S Help lam Dashboard Sandbox Activity Feed Chat With Mantis System Rules Custom Rules Specific Rules Routing AI Autopilot On Run Time 46days 21:30:44 Drive Time hours 0 0 0 , 0 0 0 Distance miles 0"
+    },
+    {
+      "name": "Mantis History",
+      "path": "/GD1LK8RC5OH0/mantis/history",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/mantis/history",
+      "accessible": true,
+      "title": "GorillaDesk",
+      "h1": "",
+      "h2": "Oops!",
+      "buttons": [],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ Mantis AI ALT+S Help lam Oops! Sorry, the page not found Go to Calendar"
+    },
+    {
+      "name": "Mantis General Settings",
+      "path": "/GD1LK8RC5OH0/mantis/settings",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/mantis/settings",
+      "accessible": true,
+      "title": "GorillaDesk",
+      "h1": "",
+      "h2": "Oops!",
+      "buttons": [],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ Mantis AI ALT+S Help lam Oops! Sorry, the page not found Go to Calendar"
+    },
+    {
+      "name": "Mantis Custom Rules",
+      "path": "/GD1LK8RC5OH0/mantis/settings/custom",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/mantis/settings/custom",
+      "accessible": true,
+      "title": "GorillaDesk - Mantis AI",
+      "h1": "",
+      "h2": "",
+      "buttons": [
+        "Stop Autopilot AI"
+      ],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ Mantis AI ALT+S Help lam Dashboard Sandbox Activity Feed Chat With Mantis System Rules Custom Rules Specific Rules Routing AI Autopilot On Run Time 46days 21:30:55 Drive Time hours 0 0 0 , 0 0 0 Distance miles 0"
+    },
+    {
+      "name": "Mantis Specific Rules",
+      "path": "/GD1LK8RC5OH0/mantis/settings/specific",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/mantis/settings/specific",
+      "accessible": true,
+      "title": "GorillaDesk - Mantis AI",
+      "h1": "",
+      "h2": "",
+      "buttons": [
+        "Stop Autopilot AI"
+      ],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ Mantis AI ALT+S Help lam Dashboard Sandbox Activity Feed Chat With Mantis System Rules Custom Rules Specific Rules Routing AI Autopilot On Run Time 46days 21:30:59 Drive Time hours 0 0 0 , 0 0 0 Distance miles 0"
+    },
+    {
+      "name": "Settings Hub",
+      "path": "/GD1LK8RC5OH0/settings",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/settings",
+      "accessible": true,
+      "title": "GorillaDesk",
+      "h1": "",
+      "h2": "",
+      "buttons": [],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ Settings ALT+S Help lam YOUR ACCOUNT Account Plans Invoices SYSTEM SETTINGS Company Users Schedules Taxes Line Items Paperwork Payment Methods Service Templates Service Plans Sources Tags Tiles Templates EMAIL &"
+    },
+    {
+      "name": "Settings Schedules",
+      "path": "/GD1LK8RC5OH0/settings/schedules",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/settings/schedules",
+      "accessible": true,
+      "title": "GorillaDesk - Settings Schedules",
+      "h1": "",
+      "h2": "Schedules",
+      "buttons": [],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ...",
+        "Enter a location"
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ Settings ALT+S Help lam YOUR ACCOUNT Account Plans Invoices SYSTEM SETTINGS Company Users Schedules Taxes Line Items Paperwork Payment Methods Service Templates Service Plans Sources Tags Tiles Templates EMAIL &"
+    },
+    {
+      "name": "Settings Services",
+      "path": "/GD1LK8RC5OH0/settings/services",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/settings/services",
+      "accessible": true,
+      "title": "GorillaDesk",
+      "h1": "",
+      "h2": "Oops!",
+      "buttons": [],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ Settings ALT+S Help lam Oops! Sorry, the page not found Go to Calendar"
+    },
+    {
+      "name": "Settings Company",
+      "path": "/GD1LK8RC5OH0/settings/company",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/settings/company",
+      "accessible": true,
+      "title": "GorillaDesk - Settings Company",
+      "h1": "",
+      "h2": "Company",
+      "buttons": [],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ Settings ALT+S Help lam YOUR ACCOUNT Account Plans Invoices SYSTEM SETTINGS Company Users Schedules Taxes Line Items Paperwork Payment Methods Service Templates Service Plans Sources Tags Tiles Templates EMAIL &"
+    },
+    {
+      "name": "Settings Users",
+      "path": "/GD1LK8RC5OH0/settings/users",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/settings/users",
+      "accessible": true,
+      "title": "GorillaDesk - Settings Users",
+      "h1": "",
+      "h2": "Users",
+      "buttons": [],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ Settings ALT+S Help lam YOUR ACCOUNT Account Plans Invoices SYSTEM SETTINGS Company Users Schedules Taxes Line Items Paperwork Payment Methods Service Templates Service Plans Sources Tags Tiles Templates EMAIL &"
+    },
+    {
+      "name": "Settings Custom Fields",
+      "path": "/GD1LK8RC5OH0/settings/custom-fields",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/settings/custom-fields",
+      "accessible": true,
+      "title": "GorillaDesk",
+      "h1": "",
+      "h2": "Oops!",
+      "buttons": [],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ Settings ALT+S Help lam Oops! Sorry, the page not found Go to Calendar"
+    },
+    {
+      "name": "Settings Tags",
+      "path": "/GD1LK8RC5OH0/settings/tags",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/settings/tags",
+      "accessible": true,
+      "title": "GorillaDesk - Settings Tags",
+      "h1": "",
+      "h2": "Tags",
+      "buttons": [
+        "Customer",
+        "Location"
+      ],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ..."
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ Settings ALT+S Help lam YOUR ACCOUNT Account Plans Invoices SYSTEM SETTINGS Company Users Schedules Taxes Line Items Paperwork Payment Methods Service Templates Service Plans Sources Tags Tiles Templates EMAIL &"
+    },
+    {
+      "name": "Settings Templates",
+      "path": "/GD1LK8RC5OH0/settings/templates",
+      "url": "https://r2.gdesk.io/GD1LK8RC5OH0/settings/templates",
+      "accessible": true,
+      "title": "GorillaDesk - Settings Templates",
+      "h1": "",
+      "h2": "Templates",
+      "buttons": [],
+      "tabs": [],
+      "inputPlaceholders": [
+        "Search ...",
+        "Search",
+        "Term Name",
+        "0"
+      ],
+      "hasTable": false,
+      "bodyTextSample": "Hi, thank you for messaging! This is the Company AI helper hello 555https://r2.gdesk.io/ Settings ALT+S Help lam YOUR ACCOUNT Account Plans Invoices SYSTEM SETTINGS Company Users Schedules Taxes Line Items Paperwork Payment Methods Service Templates Service Plans Sources Tags Tiles Templates EMAIL &"
+    }
+  ]
+}
